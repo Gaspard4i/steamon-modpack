@@ -82,7 +82,6 @@
 <h4><strong>Cozy and farm</strong></h4>
 <ul>
 <li><a href="https://modrinth.com/mod/farmers-delight">Farmer's Delight</a> — Cooking, crops, kitchens, food variety.</li>
-<li><a href="https://modrinth.com/mod/cooking-for-blockheads">Cooking for Blockheads</a> — Modular kitchen with auto-cooking.</li>
 <li><a href="https://modrinth.com/mod/lets-do-meadow">[Let's Do] Meadow</a> — Cottagecore meadow content: flowers, fairy lights, beekeeping.</li>
 <li><a href="https://modrinth.com/mod/lets-do-vinery">[Let's Do] Vinery</a> — Vineyards, wine making, rustic furniture.</li>
 <li><a href="https://modrinth.com/mod/ecologics">Ecologics</a> — Biome-specific cozy content (palm trees, azalea wood, etc.).</li>
