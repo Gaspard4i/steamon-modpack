@@ -95,11 +95,6 @@ hash = "be01368eba932fa526346f6fbbf2c319c5534befe10ee78191a9c22b0e96896c"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-manufactory.pw.toml"
-hash = "8b8a709b533b081456964f812f9df35a061c8489ff6cf68ba865f3b68af4b450"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "82293e9eed26b7dd2fd8f4a974b87ca294195f800f54e6d457dbeeb816b43bd2"
 metafile = true
@@ -142,11 +137,6 @@ metafile = true
 [[files]]
 file = "mods/cooking-for-blockheads.pw.toml"
 hash = "9edfcf5022b68ae0234b2d5c15b710fc3f27407d84aeeb917615dffbd42c8b92"
-metafile = true
-
-[[files]]
-file = "mods/create-cobblemon-balls-overhaul.pw.toml"
-hash = "b0b9ba7305cc583459c483d1b6c93237a5108134c0ae1c5918ec3862856ff15a"
 metafile = true
 
 [[files]]

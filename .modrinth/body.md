@@ -58,8 +58,6 @@
 <h4><strong>Create x Cobblemon crossovers</strong></h4>
 <ul>
 <li><a href="https://modrinth.com/mod/cobblemon-create-industries">Cobblemon: Create Industries</a> — 3D production models for Poké Balls, Healing Machine, etc.</li>
-<li><a href="https://modrinth.com/mod/create-cobblemon-balls-overhaul">Create: Cobblemon Balls Overhaul</a> — Craft Poké Balls through Create recipes.</li>
-<li><a href="https://modrinth.com/mod/cobblemon-manufactory">Create: Cobblemon Manufactory</a> — Industrial Pokémon-themed crafting line.</li>
 </ul>
 
 <h4><strong>Cobblemon-themed builds and structures</strong></h4>
