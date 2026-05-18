@@ -14,7 +14,7 @@
 
 <ul>
 <li><strong>Steamon Client</strong> — for players. Bundles client performance mods (Sodium, Iris, FerriteCore, etc.), shader-ready, full QoL stack, all Cobblemon UI helpers.</li>
-<li><strong>Steamon Server</strong> — for server hosts. Strips client-only renderers, ships server-side performance mods (Lithium, ServerCore, Noisium) and curated Cobblemon datapacks (full Indigo League with gyms, Elite Four, Champion).</li>
+<li><strong>Steamon Server</strong> — for server hosts. Strips client-only renderers, ships server-side performance mods (Lithium, ServerCore, Noisium) and curated Cobblemon datapacks (extended Pokédex via AllTheMons, gym structures, Radiant variants).</li>
 </ul>
 
 <p><center>Install the Client variant for singleplayer or to connect to a server. Install the Server variant when you host the server.</center></p>
@@ -141,14 +141,11 @@
 
 <h4><strong>Server datapacks (Server variant only)</strong></h4>
 <ul>
-<li><a href="https://modrinth.com/datapack/cobblemon-indigo">Cobblemon: Indigo</a> — Full Indigo League: 8 Gym Leaders, Elite Four, Champion.</li>
-<li><a href="https://modrinth.com/datapack/cobblebuilds-leaders">CobbleBuilds: Leaders</a> — Gym structures and leader NPCs by rank.</li>
 <li><a href="https://modrinth.com/datapack/radical-gyms-cobblemon">Radical Gyms &amp; Structures</a> — Survival-friendly Kanto gym structures.</li>
 <li><a href="https://modrinth.com/datapack/allthemons">AllTheMons</a> — Extended Pokédex (datapack + resource pack).</li>
 <li><a href="https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy">AllTheMons x Mega Showdown</a> — Compatibility datapack.</li>
 <li><a href="https://modrinth.com/datapack/cobblemon-radiants">Cobblemon Radiants</a> — Radiant Pokémon variants (shiny alternative).</li>
 <li><a href="https://modrinth.com/datapack/cobblemon-shoulder-mounts">Cobblemon Shoulder Mounts</a> — Carry small Pokémon on your shoulder.</li>
-<li><a href="https://modrinth.com/datapack/winterglides-extra-animations-cobblemon">Winterglide's Extra Animations</a> — Extra animations for Cobblemon Pokémon.</li>
 </ul>
 
 <h4><strong>Resource packs (Client variant only)</strong></h4>

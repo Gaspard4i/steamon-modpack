@@ -65,11 +65,6 @@ hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
-file = "mods/cobblebuilds-leaders.pw.toml"
-hash = "46eb5e3c9d590fdaadac2205eca825dcea1f1022dcfb196e12f5f94cf45fa70d"
-metafile = true
-
-[[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
 hash = "a962fc59176cc2b25537df7b8e571125e21ce14ab2435cb0864013ce642dc442"
 metafile = true
@@ -395,11 +390,6 @@ hash = "199cbf9de616844d09c34f5c60e7025a1310a4a921f4ffdb872e0aba935a47f5"
 metafile = true
 
 [[files]]
-file = "world/datapacks/cobblemon-indigo.pw.toml"
-hash = "2a067914c4d594c3eadea152f590ea9083329f563da8edc908c97da4ff2b023e"
-metafile = true
-
-[[files]]
 file = "world/datapacks/cobblemon-radiants.pw.toml"
 hash = "f0df512bc9b5bb8fd0fa86cd8e3776c35c2134ac33187963fcbab9c91ca74bce"
 metafile = true
@@ -407,9 +397,4 @@ metafile = true
 [[files]]
 file = "world/datapacks/cobblemon-shoulder-mounts.pw.toml"
 hash = "5ee36f7171dd6339ed48dcb4f8fe2c5a5342b180b804456117cad9993a239730"
-metafile = true
-
-[[files]]
-file = "world/datapacks/winterglides-extra-animations-cobblemon.pw.toml"
-hash = "ea12cdd8a8ee3e8009fe8d41b913ea2551ca4b7805891c0d5d76f786a60dbac1"
 metafile = true
