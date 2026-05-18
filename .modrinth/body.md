@@ -66,6 +66,14 @@
 <li><a href="https://modrinth.com/mod/cobblemon-manufactory">Create: Cobblemon Manufactory</a> — Industrial Pokémon-themed crafting line.</li>
 </ul>
 
+<h4><strong>Cobblemon-themed builds and structures</strong></h4>
+<ul>
+<li><a href="https://modrinth.com/mod/cobblefurnies">CobbleFurnies</a> — Pokémon-themed furniture: tables, chairs, lamps, beds.</li>
+<li><a href="https://modrinth.com/mod/cobblemon-safepastures">Cobblemon: SafePastures</a> — Pastures that keep your Pokémon safe and visible.</li>
+<li><a href="https://modrinth.com/mod/cobblemon-simple-pokecenters">Cobblemon: Simple Pokécenters</a> — Heal blocks shaped like a real Pokémon Center.</li>
+<li><a href="https://modrinth.com/mod/rechiseled-cobblemon">Rechiseled: Cobblemon</a> — Decorative chiseled variants of Pokémon-themed blocks.</li>
+</ul>
+
 <h4><strong>Cobblemon addons and client UI</strong></h4>
 <ul>
 <li><a href="https://modrinth.com/mod/cobblemon-mega-showdown">Cobblemon: Mega Showdown</a> — Mega Evolutions, Z-moves, Gigantamax.</li>
@@ -85,8 +93,12 @@
 <li><a href="https://modrinth.com/mod/lets-do-meadow">[Let's Do] Meadow</a> — Cottagecore meadow content: flowers, fairy lights, beekeeping.</li>
 <li><a href="https://modrinth.com/mod/lets-do-vinery">[Let's Do] Vinery</a> — Vineyards, wine making, rustic furniture.</li>
 <li><a href="https://modrinth.com/mod/ecologics">Ecologics</a> — Biome-specific cozy content (palm trees, azalea wood, etc.).</li>
-<li><a href="https://modrinth.com/mod/supplementaries">Supplementaries</a> — Small vanilla-extension blocks and items.</li>
+<li><a href="https://modrinth.com/mod/supplementaries">Supplementaries</a> + <a href="https://modrinth.com/mod/supplementaries-squared">Supplementaries Squared</a> — Small vanilla-extension blocks and items.</li>
+<li><a href="https://modrinth.com/mod/amendments">Amendments</a> — Vanilla block tweaks (candles on cakes, dyeable beds, etc.).</li>
+<li><a href="https://modrinth.com/mod/another-furniture">Another Furniture</a> — Cohesive vanilla-style furniture set.</li>
 <li><a href="https://modrinth.com/mod/chipped">Chipped</a> — Every wood, stone, and brick in every shape.</li>
+<li><a href="https://modrinth.com/mod/every-compat">Every Compat (Wood Good)</a> — Mod-added woods get vanilla blocks and tools.</li>
+<li><a href="https://modrinth.com/mod/snow-real-magic">Snow! Real Magic!</a> — Real layered snow, snow on slabs, fences, etc.</li>
 <li><a href="https://modrinth.com/mod/beautify">Beautify</a> — Small decorative items.</li>
 </ul>
 

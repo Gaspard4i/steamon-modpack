@@ -10,6 +10,16 @@ hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
+file = "mods/amendments.pw.toml"
+hash = "ca7ccbfc12a2103e8a155731eb03f94b243cc07fe9fae2f22c9ab04656109544"
+metafile = true
+
+[[files]]
+file = "mods/another-furniture.pw.toml"
+hash = "de1607e5033b34125361d2dd0b9234e08b5951e9d739ee1ded3bb127a842665b"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
@@ -60,6 +70,11 @@ hash = "a962fc59176cc2b25537df7b8e571125e21ce14ab2435cb0864013ce642dc442"
 metafile = true
 
 [[files]]
+file = "mods/cobblefurnies.pw.toml"
+hash = "9a882acc1902d51c177362abbfb5fe51dd06ee3de40297cd6d4ab58d971045ed"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-counter.pw.toml"
 hash = "5298e216aa91dc3463ddd92d31b3b9fd43ee47d2b1ffce486ae4c725bfeec9ce"
 metafile = true
@@ -100,6 +115,16 @@ hash = "70b871c5449d012d5bf5cad3501443013c6ee3792f80ff2e1d15a996c19c19e3"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-safepastures.pw.toml"
+hash = "c9276959e9375f398c974b348a670447092647e206e100b681c14bc36faef738"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-simple-pokecenters.pw.toml"
+hash = "dd7a9d07ff20e2ed1d0ea5d7898f2e705a1547f6333ad11339cf448e0da88cce"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
 hash = "7037595acf8de74a22f043f5a5894ced2b876ae26b2f148c8b7008de248c5151"
 metafile = true
@@ -107,6 +132,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
+metafile = true
+
+[[files]]
+file = "mods/cobblemore-library.pw.toml"
+hash = "b65f2b09d07b8db21de571c3353a8a2d3386aa0ee8b3f5abb00d736c3286910b"
 metafile = true
 
 [[files]]
@@ -200,6 +230,11 @@ hash = "590437e0f344c87791842b791a400e95ffd4154f02a04c2d8d78b43a76c659ad"
 metafile = true
 
 [[files]]
+file = "mods/every-compat.pw.toml"
+hash = "e756b52951b3d81c99bfebb6bcf7db8e385bb250cbdf4e8d68cc79d1c727e049"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
@@ -232,6 +267,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
+metafile = true
+
+[[files]]
+file = "mods/kiwi.pw.toml"
+hash = "c8467cb6639000d1be9e801702e028fd2ce9c0dce6f35e1be4c9264667c9efe6"
 metafile = true
 
 [[files]]
@@ -300,6 +340,16 @@ hash = "62be690120a069777b7c7646e146692119f612583f84b0f194bba88ab7ebffcd"
 metafile = true
 
 [[files]]
+file = "mods/rechiseled-cobblemon.pw.toml"
+hash = "b85791e09879f73fde206b21376272daeda7bc399c6c0fc7a5d58718cbcb7836"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "b4cb292255e46d058ef9c4a6bcdf562ae539489a31d0b4bea3718042d98e5c86"
+metafile = true
+
+[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "1134f984e86802d46b0194e25526e7c52b6b221e1fbca304491ae318a4d634b5"
 metafile = true
@@ -325,6 +375,11 @@ hash = "18ca1d438084a8578f4b75f12233db58ca1deec55f117fb875afa21f2c021559"
 metafile = true
 
 [[files]]
+file = "mods/snow-real-magic.pw.toml"
+hash = "c44198b3e1aeab04e29c0b3a6abe9315d2e84aeb2a4f037dc5f906fab575ff3c"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "d2a615d48539929c212fda6a9e44a2737d226aad0b791d61bd31a52b68e12f72"
 metafile = true
@@ -342,6 +397,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "ee46e9f41ca605056827996fe8afb9fd3282e455ab21283fc199d6da0e6beb58"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries-squared.pw.toml"
+hash = "91ebbd7b58f32ec3cf848d203b70ef193675585d6b761de912afdd977ed5f84b"
 metafile = true
 
 [[files]]
