@@ -395,6 +395,21 @@ hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
+file = "mods/opac-bettercommands.pw.toml"
+hash = "f56081427335f96ac7e83f479cd57f57ca2d7a28b43187599c60cd3b104d4c54"
+metafile = true
+
+[[files]]
+file = "mods/opac-bonus-claims.pw.toml"
+hash = "ebf498efc7d46c761dbef61bf69af37500c962fbf7d8aa8cd86f153ccb77e2b7"
+metafile = true
+
+[[files]]
+file = "mods/opac-mute-claim-warnings.pw.toml"
+hash = "5688bc4a110443fb6d8821399f7b24866c72fba0363ecc998728336f016d42bb"
+metafile = true
+
+[[files]]
 file = "mods/open-parties-and-claims.pw.toml"
 hash = "b68a0b80d7dd64e2c5ac489aa67cf3c343630c9e2deec5d09522d6f7363b2b35"
 metafile = true
@@ -452,11 +467,6 @@ metafile = true
 [[files]]
 file = "mods/rpl.pw.toml"
 hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
-metafile = true
-
-[[files]]
-file = "mods/saplanting.pw.toml"
-hash = "7f3abe4661620d0c94c1fce96f48f5e1827dbc40e61a0289467ca78ff9879ba9"
 metafile = true
 
 [[files]]
@@ -540,6 +550,11 @@ hash = "f2f23f33862c06cbf23683f034c34c8dfa4580d716a3f385fc3053ceda725087"
 metafile = true
 
 [[files]]
+file = "mods/waystones-teleport-pets.pw.toml"
+hash = "2966bd8471246286be3d42515c7e89ca07ba7afd606f00ef6ffdc9a6ce150a1c"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "8e8279c29671803cae3f9ab39c87956e4a4300fe8f9da9a9222850ca3253fb45"
 metafile = true
@@ -552,6 +567,11 @@ metafile = true
 [[files]]
 file = "mods/wunderlib-neoforge.pw.toml"
 hash = "be9540e46f1fb23ecc35d79b468480558924c518f759e46783f9d9de68b772f3"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
+hash = "637bc567eb5260d55ce89e6471c31e4369d454607f3d6f40139f7f7bdef90af9"
 metafile = true
 
 [[files]]
