@@ -1,6 +1,6 @@
 <div align="center">
 
-![Steamon — Create x Cobblemon x Cozy Farm](.modrinth/banner.png)
+![Steamon — Create × Cobblemon](.modrinth/banner.png)
 
 # Steamon
 

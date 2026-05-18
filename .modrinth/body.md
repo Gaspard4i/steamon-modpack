@@ -1,8 +1,8 @@
-![Steamon — Create x Cobblemon x Cozy Farm](https://cdn.modrinth.com/data/CR2XFGJ4/images/be4f1ffd5f82a3e95a089e3bb266d086ad289298.png)
+![Steamon — Create × Cobblemon](https://cdn.modrinth.com/data/CR2XFGJ4/images/3ada059774451becd321dbd38016ae92b2be8c66.png)
 
-# Steamon — Create × Cobblemon × Cozy Farm
+# Steamon — Create × Cobblemon
 
-**NeoForge 1.21.1 | Create 6.0 | Cobblemon 1.7 | Sophisticated Storage | Cozy Farming | Adventure | Optimized | Multiplayer-ready**
+**NeoForge 1.21.1 | Create 6.0 | Cobblemon 1.7 | Sophisticated Storage | Adventure | Optimized | Multiplayer-ready**
 
 A cozy automation + Pokémon modpack where you tame your first Pikachu, automate your kitchen with Create contraptions, and clear gym leaders along the way — all in the same world.
 
