@@ -1,35 +1,35 @@
-# Notes de configuration
+# Configuration notes
 
-## Relics — Désactivation de l'Infinite Steak
+## Relics — Disabling Infinite Steak
 
-L'item **Infinite Steak** de Relics permet de manger sans limite et casse l'équilibre alimentaire. Pour le désactiver :
+The **Infinite Steak** item from Relics lets the player eat without limits and breaks the food-diversity balance. To disable it:
 
-1. Lancer le jeu une première fois pour que Relics génère ses configs
-2. Ouvrir `config/relics/items/infinite_steak.toml`
-3. Mettre `enabled = false`
-4. Sauvegarder, relancer
+1. Launch the game once so Relics generates its config files
+2. Open `config/relics/items/infinite_steak.toml`
+3. Set `enabled = false`
+4. Save and relaunch
 
-Alternative côté serveur : ajouter dans la liste `disabled_items` du fichier `config/relics-common.toml` :
+Server-side alternative: add the item to the `disabled_items` list in `config/relics-common.toml`:
 
 ```toml
 disabled_items = ["relics:infinite_steak"]
 ```
 
-## Cobblemon spawn dans Terralith
+## Cobblemon spawn in Terralith
 
-Cobblemon ne spawne pas nativement dans les biomes Terralith. Le datapack **AllTheMons x Mega Showdown** (déjà inclus côté serveur) fournit des configs de spawn élargies. Si certains biomes Terralith restent vides de Pokémon :
+Cobblemon does not spawn natively in Terralith biomes. The **AllTheMons x Mega Showdown** datapack (already shipped with the server variant) provides expanded spawn configs. If some Terralith biomes feel empty:
 
-- Ajouter manuellement un datapack universel "Cobblemon Biome Spawn Patch" (à chercher sur Modrinth si besoin)
-- Ou éditer `config/cobblemon/spawning/biome_categories.json` pour mapper les biomes Terralith aux catégories Cobblemon
+- Manually add a universal "Cobblemon Biome Spawn Patch" datapack (search on Modrinth as needed)
+- Or edit `config/cobblemon/spawning/biome_categories.json` to map Terralith biomes to Cobblemon categories
 
 ## Sodium / Iris
 
-Sodium est livré activé. Iris est livré sans shader actif (le `.zip` Complementary Reimagined est présent dans `shaderpacks/` mais désactivé). Pour activer : Options vidéo → Shaders → choisir Complementary Reimagined.
+Sodium ships enabled. Iris ships with no active shader (the Complementary Reimagined `.zip` is in `shaderpacks/` but disabled). To enable: Video Settings → Shaders → pick Complementary Reimagined.
 
-## RAM serveur recommandée
+## Recommended server RAM
 
-- 8 Go minimum
-- 12 Go recommandé pour 10+ joueurs simultanés
-- Java 21 obligatoire (NeoForge 1.21.x)
+- 8 GB minimum
+- 12 GB recommended for 10+ concurrent players
+- Java 21 required (NeoForge 1.21.x)
 
-Lancement type : `java -Xms8G -Xmx8G -XX:+UseG1GC -jar neoforge-server.jar nogui`
+Typical launch: `java -Xms8G -Xmx8G -XX:+UseG1GC -jar neoforge-server.jar nogui`

@@ -1,10 +1,10 @@
 # Changelog
 
-Toutes les versions notables du modpack Steamon.
+All notable changes to the Steamon modpack.
 
-Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/) et le versionnage [SemVer](https://semver.org/lang/fr/).
+Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
 ## [Unreleased]
 
 ### Added
-- Structure initiale du repo (packwiz client + serveur, CI GitHub Actions)
+- Initial repository structure (packwiz client + server, GitHub Actions CI)
