@@ -76,6 +76,7 @@
 <li><a href="https://modrinth.com/mod/cobblemon-move-inspector">Cobblemon Move Inspector</a> — See an enemy's moves and stats during battle.</li>
 <li><a href="https://modrinth.com/mod/cobblemon-counter">Cobblemon Counter</a> — Tracks catch counts and encounter stats.</li>
 <li><a href="https://modrinth.com/mod/cobbledex-rei-emi-jei">Cobblemon Info for REI / JEI / EMI</a> — Pokémon data integrated into the recipe viewer.</li>
+<li><a href="https://modrinth.com/mod/cobblemon-fight-or-flight-reborn">Cobblemon Fight or Flight Reborn</a> — Wild Pokémon now fight back or flee when provoked.</li>
 <li><a href="https://modrinth.com/mod/rctmod">Radical Cobblemon Trainers</a> — Wandering NPC trainers with rosters and rewards.</li>
 </ul>
 
