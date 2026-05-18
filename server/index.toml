@@ -20,11 +20,6 @@ hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
 
 [[files]]
-file = "mods/aquaculture.pw.toml"
-hash = "6b26155807b2f3825db22e5be51a9ab330c8a70500a702740726053cb4678349"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
@@ -215,11 +210,6 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
-file = "mods/friends-and-foes-forge.pw.toml"
-hash = "1c47542391cf5bf8ee7d659225965486084bb8458ecd7ee9ed12f15f4e308c70"
-metafile = true
-
-[[files]]
 file = "mods/jade.pw.toml"
 hash = "b6e0a61fea06f8d6d8e1672cf07b682625c4b74efd548d5093cd9c1fed167eec"
 metafile = true
@@ -252,26 +242,6 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
-metafile = true
-
-[[files]]
-file = "mods/macaws-bridges.pw.toml"
-hash = "0c961c709297bcc89f2f07e1eb1049e4d21a331adb020f1786e5a9a0883e037c"
-metafile = true
-
-[[files]]
-file = "mods/macaws-fences-and-walls.pw.toml"
-hash = "ea28bcac23c070998d1f7df5dcbf248831c33f59067eaf2fd125adfa07c5722c"
-metafile = true
-
-[[files]]
-file = "mods/macaws-furniture.pw.toml"
-hash = "52019f01292cb860fa135485f941fff42f97910267bf122f2f797e31109bb93f"
-metafile = true
-
-[[files]]
-file = "mods/macaws-roofs.pw.toml"
-hash = "b5f1c37740051774214d8dd035df9bac68ddd4d8c71ed8949fdaabd5949829de"
 metafile = true
 
 [[files]]

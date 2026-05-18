@@ -84,12 +84,9 @@
 <li><a href="https://modrinth.com/mod/cooking-for-blockheads">Cooking for Blockheads</a> — Modular kitchen with auto-cooking.</li>
 <li><a href="https://modrinth.com/mod/lets-do-meadow">[Let's Do] Meadow</a> — Cottagecore meadow content: flowers, fairy lights, beekeeping.</li>
 <li><a href="https://modrinth.com/mod/lets-do-vinery">[Let's Do] Vinery</a> — Vineyards, wine making, rustic furniture.</li>
-<li><a href="https://modrinth.com/mod/aquaculture">Aquaculture 2</a> — Biome-specific fishing.</li>
 <li><a href="https://modrinth.com/mod/ecologics">Ecologics</a> — Biome-specific cozy content (palm trees, azalea wood, etc.).</li>
-<li><a href="https://modrinth.com/mod/friends-and-foes-forge">Friends &amp; Foes</a> — Gentle vanilla-feel mob additions.</li>
 <li><a href="https://modrinth.com/mod/supplementaries">Supplementaries</a> — Small vanilla-extension blocks and items.</li>
 <li><a href="https://modrinth.com/mod/chipped">Chipped</a> — Every wood, stone, and brick in every shape.</li>
-<li><a href="https://modrinth.com/mod/macaws-bridges">Macaw's Bridges</a>, <a href="https://modrinth.com/mod/macaws-roofs">Roofs</a>, <a href="https://modrinth.com/mod/macaws-furniture">Furniture</a>, <a href="https://modrinth.com/mod/macaws-fences-and-walls">Fences and Walls</a> — Building variety.</li>
 <li><a href="https://modrinth.com/mod/beautify">Beautify</a> — Small decorative items.</li>
 </ul>
 
