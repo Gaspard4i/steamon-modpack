@@ -78,7 +78,7 @@ jobs:
         uses: cloudnode-pro/modrinth-publish@v2.3.4
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          project: steamon
+          project: CR2XFGJ4
           name: "Steamon ${{ steps.meta.outputs.display }} ${{ steps.meta.outputs.version }}"
           version: "${{ steps.meta.outputs.version }}-${{ steps.meta.outputs.variant }}"
           channel: release
