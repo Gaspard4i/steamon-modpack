@@ -64,7 +64,6 @@
 <ul>
 <li><a href="https://modrinth.com/mod/cobblefurnies">CobbleFurnies</a> — Pokémon-themed furniture: tables, chairs, lamps, beds.</li>
 <li><a href="https://modrinth.com/mod/cobblemon-safepastures">Cobblemon: SafePastures</a> — Pastures that keep your Pokémon safe and visible.</li>
-<li><a href="https://modrinth.com/mod/cobblemon-simple-pokecenters">Cobblemon: Simple Pokécenters</a> — Heal blocks shaped like a real Pokémon Center.</li>
 <li><a href="https://modrinth.com/mod/rechiseled-cobblemon">Rechiseled: Cobblemon</a> — Decorative chiseled variants of Pokémon-themed blocks.</li>
 </ul>
 

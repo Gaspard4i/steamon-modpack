@@ -110,11 +110,6 @@ hash = "c9276959e9375f398c974b348a670447092647e206e100b681c14bc36faef738"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-simple-pokecenters.pw.toml"
-hash = "dd7a9d07ff20e2ed1d0ea5d7898f2e705a1547f6333ad11339cf448e0da88cce"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
 hash = "7037595acf8de74a22f043f5a5894ced2b876ae26b2f148c8b7008de248c5151"
 metafile = true
