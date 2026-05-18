@@ -50,11 +50,6 @@ hash = "5e3421b58c8c905e686ed7b63d2fe086fe3265009347ca01aba99f13cb8edca3"
 metafile = true
 
 [[files]]
-file = "mods/bellsandwhistles.pw.toml"
-hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
@@ -150,11 +145,6 @@ hash = "9edfcf5022b68ae0234b2d5c15b710fc3f27407d84aeeb917615dffbd42c8b92"
 metafile = true
 
 [[files]]
-file = "mods/create-cafe.pw.toml"
-hash = "afaabf661bca24c48b6efbdf21cd0583a914ddf86e44e8dc2d59f1a418d6e838"
-metafile = true
-
-[[files]]
 file = "mods/create-cobblemon-balls-overhaul.pw.toml"
 hash = "b0b9ba7305cc583459c483d1b6c93237a5108134c0ae1c5918ec3862856ff15a"
 metafile = true
@@ -177,11 +167,6 @@ metafile = true
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "52f8600e5c7ab7358bee923cfff7cd2428d7599cb1ff3c0fdbd373330f770587"
-metafile = true
-
-[[files]]
-file = "mods/create-framed.pw.toml"
-hash = "c6f449a5dbd6640cef3a2d46f198af505b1d3fe7cb38c43057bb16ea055c3d7f"
 metafile = true
 
 [[files]]
@@ -312,11 +297,6 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
-metafile = true
-
-[[files]]
-file = "mods/numismatics.pw.toml"
-hash = "f0a5a2604c8d733222a25e9c19dcf443d853864ed76a388b26982be97fdea71f"
 metafile = true
 
 [[files]]

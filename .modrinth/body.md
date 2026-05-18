@@ -49,14 +49,10 @@
 <li><a href="https://modrinth.com/mod/create-dreams-and-desires">Create: Dreams &amp; Desires</a> — New decorative blocks, props and palette for cozy builds.</li>
 <li><a href="https://modrinth.com/mod/create-steam-n-rails-1.21.1">Steam 'n' Rails</a> — Passenger trains, signals, station hubs.</li>
 <li><a href="https://modrinth.com/mod/slice-and-dice">Create Slice &amp; Dice</a> — Mechanical food processing, kitchen automation.</li>
-<li><a href="https://modrinth.com/mod/bellsandwhistles">Create: Bells &amp; Whistles</a> — Train customization, whistles, signal aesthetics.</li>
-<li><a href="https://modrinth.com/mod/create-framed">Create: Framed</a> — Frame any block to match contraption colors.</li>
-<li><a href="https://modrinth.com/mod/create-cafe">Create Cafe</a> — Coffee, pastries, café equipment.</li>
 <li><a href="https://modrinth.com/mod/create-integrated-farming">Create: Integrated Farming</a> — Mechanical crops, automated farming.</li>
 <li><a href="https://modrinth.com/mod/createaddition">Create Crafts &amp; Additions</a> — Energy bridge with other tech mods.</li>
 <li><a href="https://modrinth.com/mod/create-deco">Create Deco</a> — Decorative blocks in the Create style.</li>
 <li><a href="https://modrinth.com/mod/create-enchantment-industry">Create: Enchantment Industry</a> — Automated enchanting and printing.</li>
-<li><a href="https://modrinth.com/mod/numismatics">Create: Numismatics</a> — In-game currency, coins, payment terminals.</li>
 </ul>
 
 <h4><strong>Create x Cobblemon crossovers</strong></h4>
