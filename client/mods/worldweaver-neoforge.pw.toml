@@ -1,0 +1,13 @@
+name = "WorldWeaver Neoforge"
+filename = "worldweaver-21.0.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/R8uGDQpB/versions/NWpb0jwM/worldweaver-21.0.20.jar"
+hash-format = "sha512"
+hash = "c037eb9f281377ef7b60d5fbf27d05f05ff90c8070baffcaa40f0a791735683417fb31bb06576c3ee8a756e7ec4d042031aa910d9ac5c5d658ef6856505cbc4a"
+
+[update]
+[update.modrinth]
+mod-id = "R8uGDQpB"
+version = "NWpb0jwM"

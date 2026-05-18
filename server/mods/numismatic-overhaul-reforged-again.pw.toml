@@ -1,0 +1,13 @@
+name = "Numismatic Overhaul Reforged Again"
+filename = "numismaticoverhaul-1.21.1-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BUc44jWB/versions/WRQUVw6x/numismaticoverhaul-1.21.1-2.0.1.jar"
+hash-format = "sha512"
+hash = "f41774258040482170a40c2ed591ff26c92534e0d87ffb9648b414aa8a77383bf68ccfc41bd35b9c4787b88dfdf822b70db7c615808f289c5b3cbf8f2b9292f9"
+
+[update]
+[update.modrinth]
+mod-id = "BUc44jWB"
+version = "WRQUVw6x"

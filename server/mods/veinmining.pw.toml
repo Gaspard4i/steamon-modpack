@@ -1,0 +1,13 @@
+name = "veinmining"
+filename = "veinmining-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/edyuU1xJ/versions/XXVlHMQU/veinmining-1.0.jar"
+hash-format = "sha512"
+hash = "75d168f4d3e57f914bccbfbbc6d42094488685afb611dd205b55c7cf8f7f420d9733bac61003c9727daee5eca5191c3f37d0a4d7e7c5c792ca29ac92ec92f0bf"
+
+[update]
+[update.modrinth]
+mod-id = "edyuU1xJ"
+version = "XXVlHMQU"

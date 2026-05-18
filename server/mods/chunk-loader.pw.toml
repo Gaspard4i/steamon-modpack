@@ -1,0 +1,13 @@
+name = "Chunk Loader"
+filename = "chunk-loader-v3.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Eii02wjv/versions/hHrIHMiZ/chunk-loader-v3.0.2.jar"
+hash-format = "sha512"
+hash = "eace8e86cc2ad8ffb7971861838216ac6ad70da1d2d3df15457113d350db46cbcac9149c1a689e376b81135ddd54906f1a5009dfdb70e819011974ddf4190528"
+
+[update]
+[update.modrinth]
+mod-id = "Eii02wjv"
+version = "hHrIHMiZ"

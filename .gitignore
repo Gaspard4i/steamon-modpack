@@ -4,3 +4,4 @@ packwiz-installer-bootstrap*.jar
 .idea/
 .vscode/
 *.log
+.tmp/
