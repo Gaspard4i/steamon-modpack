@@ -75,13 +75,47 @@ jobs:
           echo "MRPACK_PATH=${{ steps.meta.outputs.variant }}/$MRPACK" >> "$GITHUB_ENV"
 
       - name: Publish to Modrinth
-        uses: cloudnode-pro/modrinth-publish@v2.3.4
-        with:
-          token: ${{ secrets.MODRINTH_TOKEN }}
-          project: CR2XFGJ4
-          name: "Steamon ${{ steps.meta.outputs.display }} ${{ steps.meta.outputs.version }}"
-          version: "${{ steps.meta.outputs.version }}-${{ steps.meta.outputs.variant }}"
-          channel: release
-          loaders: neoforge
-          game-versions: 1.21.1
-          files: ${{ env.MRPACK_PATH }}
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          VARIANT: ${{ steps.meta.outputs.variant }}
+          DISPLAY: ${{ steps.meta.outputs.display }}
+          VERSION: ${{ steps.meta.outputs.version }}
+        run: |
+          set -euo pipefail
+          MRPACK_FILE="$(basename "$MRPACK_PATH")"
+          NAME="Steamon ${DISPLAY} ${VERSION}"
+          VERSION_NUMBER="${VERSION}-${VARIANT}"
+          echo "Uploading: $MRPACK_FILE  (version=$VERSION_NUMBER)"
+          TOKEN_LEN=${#MODRINTH_TOKEN}
+          echo "Token length: $TOKEN_LEN"
+          if [ "$TOKEN_LEN" -lt 32 ]; then
+            echo "MODRINTH_TOKEN not set or too short — secret missing?"; exit 1
+          fi
+
+          DATA_JSON=$(python3 -c "
+          import json
+          print(json.dumps({
+            'name': '$NAME',
+            'version_number': '$VERSION_NUMBER',
+            'project_id': 'CR2XFGJ4',
+            'dependencies': [],
+            'game_versions': ['1.21.1'],
+            'version_type': 'release',
+            'loaders': ['neoforge'],
+            'featured': False,
+            'status': 'listed',
+            'file_parts': ['$MRPACK_FILE']
+          }))")
+          echo "Payload: $DATA_JSON"
+
+          HTTP=$(curl -s -o /tmp/mr_resp.json -w "%{http_code}" \
+            -X POST "https://api.modrinth.com/v2/version" \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+            -F "data=${DATA_JSON};type=application/json" \
+            -F "${MRPACK_FILE}=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
+
+          echo "HTTP: $HTTP"
+          cat /tmp/mr_resp.json
+          echo
+          if [ "$HTTP" != "200" ]; then exit 1; fi
