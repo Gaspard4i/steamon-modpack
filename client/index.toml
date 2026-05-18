@@ -185,11 +185,6 @@ hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
 metafile = true
 
 [[files]]
-file = "mods/ecologics.pw.toml"
-hash = "280c474fd7329d38ff85a1d614f8acb008692c2824b08a885065ea5a4abe5751"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "590437e0f344c87791842b791a400e95ffd4154f02a04c2d8d78b43a76c659ad"
 metafile = true

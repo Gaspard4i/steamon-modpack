@@ -185,11 +185,6 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
-file = "mods/ecologics.pw.toml"
-hash = "280c474fd7329d38ff85a1d614f8acb008692c2824b08a885065ea5a4abe5751"
-metafile = true
-
-[[files]]
 file = "mods/every-compat.pw.toml"
 hash = "e756b52951b3d81c99bfebb6bcf7db8e385bb250cbdf4e8d68cc79d1c727e049"
 metafile = true
