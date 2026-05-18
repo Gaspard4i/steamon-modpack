@@ -1,0 +1,13 @@
+name = "Cobblemon: Indigo"
+filename = "cobblemon-indigo.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Muit3akr/versions/ZMmTIMBf/cobblemon-indigo.zip"
+hash-format = "sha512"
+hash = "abe090eebf87d1a8e46287dcb8dded3510b68a8b8f2063d2dad6d342f846f756f7c1c793c0e3ab87b859d6a279ce7babaaca53dbded2154b3c48ba506facfd77"
+
+[update]
+[update.modrinth]
+mod-id = "Muit3akr"
+version = "ZMmTIMBf"

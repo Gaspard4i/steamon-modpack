@@ -1,0 +1,87 @@
+name: Publish Modpack
+
+on:
+  push:
+    tags:
+      - 'v*-client'
+      - 'v*-server'
+  workflow_dispatch:
+    inputs:
+      variant:
+        description: 'client or server'
+        required: true
+        type: choice
+        options: [client, server]
+      version:
+        description: 'Version (e.g. 0.1.0)'
+        required: true
+        type: string
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Detect variant and version
+        id: meta
+        run: |
+          if [ -n "${{ inputs.variant }}" ]; then
+            VARIANT="${{ inputs.variant }}"
+            VERSION="${{ inputs.version }}"
+          else
+            TAG="${GITHUB_REF_NAME}"
+            if [[ "$TAG" == *-client ]]; then
+              VARIANT=client
+              VERSION="${TAG#v}"; VERSION="${VERSION%-client}"
+            elif [[ "$TAG" == *-server ]]; then
+              VARIANT=server
+              VERSION="${TAG#v}"; VERSION="${VERSION%-server}"
+            else
+              echo "Tag does not end with -client or -server"; exit 1
+            fi
+          fi
+          echo "variant=$VARIANT" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          # Capitalize first letter for display name
+          DISPLAY="$(echo "$VARIANT" | sed 's/.*/\u&/')"
+          echo "display=$DISPLAY" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Install packwiz
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Bump pack version
+        working-directory: ${{ steps.meta.outputs.variant }}
+        run: |
+          # Update pack.toml version line in-place
+          sed -i "s/^version = \".*\"/version = \"${{ steps.meta.outputs.version }}\"/" pack.toml
+          cat pack.toml
+
+      - name: Refresh and export
+        working-directory: ${{ steps.meta.outputs.variant }}
+        run: |
+          packwiz refresh
+          packwiz modrinth export
+          ls -la *.mrpack
+          MRPACK="$(ls *.mrpack | head -1)"
+          echo "MRPACK_PATH=${{ steps.meta.outputs.variant }}/$MRPACK" >> "$GITHUB_ENV"
+
+      - name: Publish to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2.3.4
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: steamon
+          name: "Steamon ${{ steps.meta.outputs.display }} ${{ steps.meta.outputs.version }}"
+          version: "${{ steps.meta.outputs.version }}-${{ steps.meta.outputs.variant }}"
+          channel: release
+          loaders: neoforge
+          game-versions: 1.21.1
+          files: ${{ env.MRPACK_PATH }}

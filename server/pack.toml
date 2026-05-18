@@ -1,0 +1,16 @@
+name = "Steamon Server"
+author = "Gaspard4i"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3837c0838d1d679f0405d9a5df1162c9f7ec7c4b993a6c2e56fb9195fee83f5a"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.230"
+
+[options]
+datapack-folder = "world/datapacks"
