@@ -2,18 +2,18 @@
 
 <p><center><strong><font size="5">A Create x Cobblemon modpack for Minecraft 1.21.1</font></strong> <em>on NeoForge</em></center></p>
 
-<p><center><em>Tame Pokémon. Automate factories. Travel by train. All in the same world.</em></center></p>
+<p><center><em>Tame Pokémon. Bake bread. Run a small farm. Build a railway. All in the same world.</em></center></p>
 
 ---
 
 <p><center><font size="4"><strong>About this modpack</strong></font></center></p>
 
-<p><center>Steamon is built around three pillars: <strong>Create</strong> for automation and ingenuity, <strong>Cobblemon</strong> for the full Pokémon experience, and <strong>Sophisticated Storage</strong> for smart inventory management. Everything else is curated to support these three. No kitchen-sink, no hundreds of irrelevant mods — a tight, opinionated selection focused on the play loop these three mods enable together.</center></p>
+<p><center>Steamon is a cozy <strong>Create</strong> × <strong>Cobblemon</strong> pack focused on calm, intentional play: small-scale farming, slow exploration, and Create automation that serves the Pokémon journey instead of the other way around. There are no big-cannon mods, no dungeon swarm packs, no electricity tech tree — only what fits a chill afternoon at the farm or a long-form Cobblemon run.</center></p>
 
 <p><center>The pack ships as <strong>two separate variants</strong> on this Modrinth page:</center></p>
 
 <ul>
-<li><strong>Steamon Client</strong> — for players. Bundles client performance mods (Sodium, Iris, FerriteCore, etc.), shader-ready, full QoL stack.</li>
+<li><strong>Steamon Client</strong> — for players. Bundles client performance mods (Sodium, Iris, FerriteCore, etc.), shader-ready, full QoL stack, all Cobblemon UI helpers.</li>
 <li><strong>Steamon Server</strong> — for server hosts. Strips client-only renderers, ships server-side performance mods (Lithium, ServerCore, Noisium) and curated Cobblemon datapacks (full Indigo League with gyms, Elite Four, Champion).</li>
 </ul>
 
@@ -44,47 +44,62 @@
 <li><a href="https://modrinth.com/mod/sophisticated-backpacks">Sophisticated Backpacks</a> — The same logic, in your pocket.</li>
 </ul>
 
-<h4><strong>Create addons</strong></h4>
+<h4><strong>Create addons (cozy oriented)</strong></h4>
 <ul>
+<li><a href="https://modrinth.com/mod/create-dreams-and-desires">Create: Dreams &amp; Desires</a> — New decorative blocks, props and palette for cozy builds.</li>
 <li><a href="https://modrinth.com/mod/create-steam-n-rails-1.21.1">Steam 'n' Rails</a> — Passenger trains, signals, station hubs.</li>
-<li><a href="https://modrinth.com/mod/create-new-age">Create: New Age</a> — Electricity generation and distribution.</li>
+<li><a href="https://modrinth.com/mod/slice-and-dice">Create Slice &amp; Dice</a> — Mechanical food processing, kitchen automation.</li>
+<li><a href="https://modrinth.com/mod/bellsandwhistles">Create: Bells &amp; Whistles</a> — Train customization, whistles, signal aesthetics.</li>
+<li><a href="https://modrinth.com/mod/create-framed">Create: Framed</a> — Frame any block to match contraption colors.</li>
+<li><a href="https://modrinth.com/mod/create-cafe">Create Cafe</a> — Coffee, pastries, café equipment.</li>
+<li><a href="https://modrinth.com/mod/create-integrated-farming">Create: Integrated Farming</a> — Mechanical crops, automated farming.</li>
 <li><a href="https://modrinth.com/mod/createaddition">Create Crafts &amp; Additions</a> — Energy bridge with other tech mods.</li>
 <li><a href="https://modrinth.com/mod/create-deco">Create Deco</a> — Decorative blocks in the Create style.</li>
-<li><a href="https://modrinth.com/mod/create-connected">Create: Connected</a> — Extra contraption-friendly components.</li>
 <li><a href="https://modrinth.com/mod/create-enchantment-industry">Create: Enchantment Industry</a> — Automated enchanting and printing.</li>
 <li><a href="https://modrinth.com/mod/numismatics">Create: Numismatics</a> — In-game currency, coins, payment terminals.</li>
-<li><a href="https://modrinth.com/mod/create-big-cannons">Create Big Cannons</a> — Cannons, ballistics, siege equipment.</li>
-<li><a href="https://modrinth.com/mod/create-diesel-generators">Create: Diesel Generators</a> — Fuel-based power generation.</li>
 </ul>
 
-<h4><strong>Cobblemon addons</strong></h4>
+<h4><strong>Create x Cobblemon crossovers</strong></h4>
+<ul>
+<li><a href="https://modrinth.com/mod/cobblemon-create-industries">Cobblemon: Create Industries</a> — 3D production models for Poké Balls, Healing Machine, etc.</li>
+<li><a href="https://modrinth.com/mod/create-cobblemon-balls-overhaul">Create: Cobblemon Balls Overhaul</a> — Craft Poké Balls through Create recipes.</li>
+<li><a href="https://modrinth.com/mod/cobblemon-manufactory">Create: Cobblemon Manufactory</a> — Industrial Pokémon-themed crafting line.</li>
+</ul>
+
+<h4><strong>Cobblemon addons and client UI</strong></h4>
 <ul>
 <li><a href="https://modrinth.com/mod/cobblemon-mega-showdown">Cobblemon: Mega Showdown</a> — Mega Evolutions, Z-moves, Gigantamax.</li>
 <li><a href="https://modrinth.com/mod/cobblemon-integrations">Cobblemon Integrations</a> — Cross-mod compatibility layer.</li>
 <li><a href="https://modrinth.com/mod/cobblemon-knowlogy">Cobblemon Knowlogy</a> — In-game Pokédex.</li>
+<li><a href="https://modrinth.com/mod/cobblemon-effectiveness">Cobblemon Effectiveness</a> — In-battle type effectiveness display.</li>
+<li><a href="https://modrinth.com/mod/cobblemon-move-inspector">Cobblemon Move Inspector</a> — See an enemy's moves and stats during battle.</li>
+<li><a href="https://modrinth.com/mod/cobblemon-counter">Cobblemon Counter</a> — Tracks catch counts and encounter stats.</li>
+<li><a href="https://modrinth.com/mod/cobbledex-rei-emi-jei">Cobblemon Info for REI / JEI / EMI</a> — Pokémon data integrated into the recipe viewer.</li>
 <li><a href="https://modrinth.com/mod/rctmod">Radical Cobblemon Trainers</a> — Wandering NPC trainers with rosters and rewards.</li>
-</ul>
-
-<h4><strong>Adventure and exploration</strong></h4>
-<ul>
-<li><a href="https://modrinth.com/mod/terralith">Terralith</a> — Drastically expanded vanilla-style biome generation.</li>
-<li><a href="https://modrinth.com/mod/when-dungeons-arise">When Dungeons Arise</a> — Large handcrafted structures.</li>
-<li><a href="https://modrinth.com/mod/towns-and-towers">Towns and Towers</a> — Reworked villages, new structures.</li>
-<li><a href="https://modrinth.com/mod/yungs-better-dungeons">YUNG's Better Dungeons</a>, <a href="https://modrinth.com/mod/yungs-better-mineshafts">Mineshafts</a>, <a href="https://modrinth.com/mod/yungs-better-strongholds">Strongholds</a> — Vanilla structures, redone.</li>
-<li><a href="https://modrinth.com/mod/repurposed-structures-forge">Repurposed Structures</a> — More variants of vanilla structures across biomes.</li>
-<li><a href="https://modrinth.com/mod/waystones">Waystones</a> — Fast-travel network anchored on player-placed stones.</li>
-<li><a href="https://modrinth.com/mod/xaeros-minimap">Xaero's Minimap</a> and <a href="https://modrinth.com/mod/xaeros-world-map">World Map</a> — Maps with Cobblemon icon overlay (via XaerosCobblemon resource pack).</li>
 </ul>
 
 <h4><strong>Cozy and farm</strong></h4>
 <ul>
 <li><a href="https://modrinth.com/mod/farmers-delight">Farmer's Delight</a> — Cooking, crops, kitchens, food variety.</li>
+<li><a href="https://modrinth.com/mod/cooking-for-blockheads">Cooking for Blockheads</a> — Modular kitchen with auto-cooking.</li>
+<li><a href="https://modrinth.com/mod/lets-do-meadow">[Let's Do] Meadow</a> — Cottagecore meadow content: flowers, fairy lights, beekeeping.</li>
+<li><a href="https://modrinth.com/mod/lets-do-vinery">[Let's Do] Vinery</a> — Vineyards, wine making, rustic furniture.</li>
 <li><a href="https://modrinth.com/mod/aquaculture">Aquaculture 2</a> — Biome-specific fishing.</li>
+<li><a href="https://modrinth.com/mod/ecologics">Ecologics</a> — Biome-specific cozy content (palm trees, azalea wood, etc.).</li>
 <li><a href="https://modrinth.com/mod/friends-and-foes-forge">Friends &amp; Foes</a> — Gentle vanilla-feel mob additions.</li>
 <li><a href="https://modrinth.com/mod/supplementaries">Supplementaries</a> — Small vanilla-extension blocks and items.</li>
 <li><a href="https://modrinth.com/mod/chipped">Chipped</a> — Every wood, stone, and brick in every shape.</li>
 <li><a href="https://modrinth.com/mod/macaws-bridges">Macaw's Bridges</a>, <a href="https://modrinth.com/mod/macaws-roofs">Roofs</a>, <a href="https://modrinth.com/mod/macaws-furniture">Furniture</a>, <a href="https://modrinth.com/mod/macaws-fences-and-walls">Fences and Walls</a> — Building variety.</li>
 <li><a href="https://modrinth.com/mod/beautify">Beautify</a> — Small decorative items.</li>
+</ul>
+
+<h4><strong>Light exploration</strong></h4>
+<ul>
+<li><a href="https://modrinth.com/mod/terralith">Terralith</a> — Drastically expanded vanilla-style biome generation.</li>
+<li><a href="https://modrinth.com/mod/towns-and-towers">Towns and Towers</a> — Reworked villages, new structures.</li>
+<li><a href="https://modrinth.com/mod/yungs-better-dungeons">YUNG's Better Dungeons</a>, <a href="https://modrinth.com/mod/yungs-better-mineshafts">Mineshafts</a>, <a href="https://modrinth.com/mod/yungs-better-strongholds">Strongholds</a> — Vanilla structures, redone.</li>
+<li><a href="https://modrinth.com/mod/waystones">Waystones</a> — Fast-travel network anchored on player-placed stones.</li>
+<li><a href="https://modrinth.com/mod/xaeros-minimap">Xaero's Minimap</a> and <a href="https://modrinth.com/mod/xaeros-world-map">World Map</a> — Maps with Cobblemon icon overlay (via XaerosCobblemon resource pack).</li>
 </ul>
 
 <h4><strong>RPG-lite</strong></h4>
@@ -132,6 +147,8 @@
 <li><a href="https://modrinth.com/datapack/allthemons">AllTheMons</a> — Extended Pokédex (datapack + resource pack).</li>
 <li><a href="https://modrinth.com/datapack/allthemons-x-mega-showdown-legacy">AllTheMons x Mega Showdown</a> — Compatibility datapack.</li>
 <li><a href="https://modrinth.com/datapack/cobblemon-radiants">Cobblemon Radiants</a> — Radiant Pokémon variants (shiny alternative).</li>
+<li><a href="https://modrinth.com/datapack/cobblemon-shoulder-mounts">Cobblemon Shoulder Mounts</a> — Carry small Pokémon on your shoulder.</li>
+<li><a href="https://modrinth.com/datapack/winterglides-extra-animations-cobblemon">Winterglide's Extra Animations</a> — Extra animations for Cobblemon Pokémon.</li>
 </ul>
 
 <h4><strong>Resource packs (Client variant only)</strong></h4>

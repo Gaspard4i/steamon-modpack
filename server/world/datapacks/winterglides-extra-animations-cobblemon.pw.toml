@@ -1,0 +1,13 @@
+name = "Winterglide's Extra Animations [Cobblemon]"
+filename = "Winterglide's Extra Animations [Cobblemon].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/F4TxEYXe/versions/UbNNUg3g/Winterglide%27s%20Extra%20Animations%20%5BCobblemon%5D.zip"
+hash-format = "sha512"
+hash = "a0117a3eb3e4e7d26c2c3ff9fb5645bf74d59d57546f8bc0a2c6a39829d97a097f5675ee19e3b74859adc0004ef116f37b3fdb2a2b653c91c3ef6d4f1dd26c65"
+
+[update]
+[update.modrinth]
+mod-id = "F4TxEYXe"
+version = "UbNNUg3g"

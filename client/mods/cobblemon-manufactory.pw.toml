@@ -1,0 +1,13 @@
+name = "Create: Cobblemon Manufactory"
+filename = "cobblemon_manufactory-0.3.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FMcIBFPB/versions/WoMe3OLU/cobblemon_manufactory-0.3.2.jar"
+hash-format = "sha512"
+hash = "92e31a5c872806fd1de30936601102bfeab888a7594b4e8e4c762625273950d04175ad9e60642012b8e402243d8a6f7d50d82d285ca511182ee069aa9839264c"
+
+[update]
+[update.modrinth]
+mod-id = "FMcIBFPB"
+version = "WoMe3OLU"
