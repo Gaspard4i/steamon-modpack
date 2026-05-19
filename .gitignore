@@ -5,3 +5,7 @@ packwiz-installer-bootstrap*.jar
 .vscode/
 *.log
 .tmp/
+node_modules/
+.ballviewer/dist/
+.ballviewer/dev.err.log
+.ballviewer/dev.log
