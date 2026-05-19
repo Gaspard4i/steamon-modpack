@@ -80,11 +80,6 @@ hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
-file = "mods/chunk-loader.pw.toml"
-hash = "ff839272fc07c157b87fbc2f6b822b2fc543bff8a87905b06502aeb068664dcf"
-metafile = true
-
-[[files]]
 file = "mods/cobbledex-rei-emi-jei.pw.toml"
 hash = "a962fc59176cc2b25537df7b8e571125e21ce14ab2435cb0864013ce642dc442"
 metafile = true
@@ -175,11 +170,6 @@ hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
 metafile = true
 
 [[files]]
-file = "mods/create-dragons-plus.pw.toml"
-hash = "2ba3112a833d6e23aae1e0a38a7a324f89efb8a532ea101f355dc38490840b3b"
-metafile = true
-
-[[files]]
 file = "mods/create-dreams-and-desires.pw.toml"
 hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
 metafile = true
@@ -190,8 +180,8 @@ hash = "52f8600e5c7ab7358bee923cfff7cd2428d7599cb1ff3c0fdbd373330f770587"
 metafile = true
 
 [[files]]
-file = "mods/create-ender-link.pw.toml"
-hash = "bdaaa0b86e05f11ae01652a097cb827259a9f2e6a6b4d46f25081d3c78bd83d8"
+file = "mods/create-ender-transmission.pw.toml"
+hash = "dba1cec5505db9aa2a65d9cc14f017a956a6e2044c006db1d48ff92c59871992"
 metafile = true
 
 [[files]]
