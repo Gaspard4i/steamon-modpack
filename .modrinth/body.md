@@ -1,4 +1,4 @@
-<p><center><img src="https://cdn.modrinth.com/data/CR2XFGJ4/images/3ada059774451becd321dbd38016ae92b2be8c66.png" alt="Steamon — Create x Cobblemon" width="900" height="300" /></center></p>
+<p><center><img src="https://cdn.modrinth.com/data/CR2XFGJ4/images/dd872094051f5388698ff161c44bacf02c7d7e3b.png" alt="Steamon — Create x Cobblemon" width="900" height="300" /></center></p>
 
 <p><center><strong><font size="5">A Create x Cobblemon modpack for Minecraft 1.21.1</font></strong> <em>on NeoForge</em></center></p>
 
@@ -53,6 +53,8 @@
 <li><a href="https://modrinth.com/mod/createaddition">Create Crafts &amp; Additions</a> — Energy bridge with other tech mods.</li>
 <li><a href="https://modrinth.com/mod/create-deco">Create Deco</a> — Decorative blocks in the Create style.</li>
 <li><a href="https://modrinth.com/mod/create-enchantment-industry">Create: Enchantment Industry</a> — Automated enchanting and printing.</li>
+<li><a href="https://modrinth.com/mod/create-ender-link">Create: Ender Link</a> — Wireless fluid/item transport via ender-style tanks.</li>
+<li><a href="https://modrinth.com/mod/create-mechanical-extruder">Create Mechanical Extruder</a> — Mechanical generators for cobblestone, stone, basalt, etc.</li>
 </ul>
 
 <h4><strong>Create x Cobblemon crossovers</strong></h4>
@@ -77,12 +79,22 @@
 <li><a href="https://modrinth.com/mod/cobblemon-counter">Cobblemon Counter</a> — Tracks catch counts and encounter stats.</li>
 <li><a href="https://modrinth.com/mod/cobbledex-rei-emi-jei">Cobblemon Info for REI / JEI / EMI</a> — Pokémon data integrated into the recipe viewer.</li>
 <li><a href="https://modrinth.com/mod/cobblemon-fight-or-flight-reborn">Cobblemon Fight or Flight Reborn</a> — Wild Pokémon now fight back or flee when provoked.</li>
+<li><a href="https://modrinth.com/mod/cobblemon-pokenav">Cobblemon Pokenav</a> — In-game Pokénav HUD: party, map, contacts.</li>
 <li><a href="https://modrinth.com/mod/rctmod">Radical Cobblemon Trainers</a> — Wandering NPC trainers with rosters and rewards.</li>
+</ul>
+
+<h4><strong>Food (Delight family)</strong></h4>
+<ul>
+<li><a href="https://modrinth.com/mod/farmers-delight">Farmer's Delight</a> — Cooking, crops, kitchens, food variety.</li>
+<li><a href="https://modrinth.com/mod/miners-delight">Miner's Delight</a> — Mining-themed food and cave content.</li>
+<li><a href="https://modrinth.com/mod/my-nethers-delight">My Nether's Delight</a> — Nether-themed food and ingredients.</li>
+<li><a href="https://modrinth.com/mod/enders-delight">Ender's Delight</a> — End-themed food and recipes.</li>
+<li><a href="https://modrinth.com/mod/ends-delight">End's Delight</a> — More End-themed cooking content.</li>
+<li><a href="https://modrinth.com/mod/brewin-and-chewin">Brewin' And Chewin'</a> — Drinks, beers, taverns extension to Farmer's Delight.</li>
 </ul>
 
 <h4><strong>Cozy and farm</strong></h4>
 <ul>
-<li><a href="https://modrinth.com/mod/farmers-delight">Farmer's Delight</a> — Cooking, crops, kitchens, food variety.</li>
 <li><a href="https://modrinth.com/mod/lets-do-meadow">[Let's Do] Meadow</a> — Cottagecore meadow content: flowers, fairy lights, beekeeping.</li>
 <li><a href="https://modrinth.com/mod/lets-do-vinery">[Let's Do] Vinery</a> — Vineyards, wine making, rustic furniture.</li>
 <li><a href="https://modrinth.com/mod/supplementaries">Supplementaries</a> + <a href="https://modrinth.com/mod/supplementaries-squared">Supplementaries Squared</a> — Small vanilla-extension blocks and items.</li>
@@ -92,14 +104,19 @@
 <li><a href="https://modrinth.com/mod/every-compat">Every Compat (Wood Good)</a> — Mod-added woods get vanilla blocks and tools.</li>
 <li><a href="https://modrinth.com/mod/snow-real-magic">Snow! Real Magic!</a> — Real layered snow, snow on slabs, fences, etc.</li>
 <li><a href="https://modrinth.com/mod/beautify">Beautify</a> — Small decorative items.</li>
+<li><a href="https://modrinth.com/mod/rightclickharvest">RightClickHarvest</a> — Right-click crops to harvest and auto-replant.</li>
+<li><a href="https://modrinth.com/mod/tree-harvester">Tree Harvester</a> — Fell whole trees with an axe (auto-replants).</li>
+<li><a href="https://modrinth.com/mod/leaves-be-gone">Leaves Be Gone</a> — Fast leaf decay after a tree is cut.</li>
 </ul>
 
-<h4><strong>Light exploration</strong></h4>
+<h4><strong>Worldgen and exploration</strong></h4>
 <ul>
 <li><a href="https://modrinth.com/mod/terralith">Terralith</a> — Drastically expanded vanilla-style biome generation.</li>
 <li><a href="https://modrinth.com/mod/towns-and-towers">Towns and Towers</a> — Reworked villages, new structures.</li>
 <li><a href="https://modrinth.com/mod/yungs-better-dungeons">YUNG's Better Dungeons</a>, <a href="https://modrinth.com/mod/yungs-better-mineshafts">Mineshafts</a>, <a href="https://modrinth.com/mod/yungs-better-strongholds">Strongholds</a> — Vanilla structures, redone.</li>
-<li><a href="https://modrinth.com/mod/waystones">Waystones</a> — Fast-travel network anchored on player-placed stones.</li>
+<li><a href="https://modrinth.com/mod/betternether-neoforge">BetterNether</a> + <a href="https://modrinth.com/mod/incendium">Incendium</a> + <a href="https://modrinth.com/mod/jadens-nether-expansion">Jaden's Nether Expansion</a> — Three layers of Nether biome content and structures.</li>
+<li><a href="https://modrinth.com/mod/nullscape">Nullscape</a> — Vast expanded End biomes.</li>
+<li><a href="https://modrinth.com/mod/waystones">Waystones</a> + <a href="https://modrinth.com/mod/waystones-teleport-pets">Teleport Pets</a> + <a href="https://modrinth.com/mod/xaeros-minimap-world-map-waystones-compatibility-forge">Xaero compat</a> — Fast-travel network with pets following and map overlays.</li>
 <li><a href="https://modrinth.com/mod/xaeros-minimap">Xaero's Minimap</a> and <a href="https://modrinth.com/mod/xaeros-world-map">World Map</a> — Maps with Cobblemon icon overlay (via XaerosCobblemon resource pack).</li>
 </ul>
 
@@ -118,6 +135,23 @@
 <li><a href="https://modrinth.com/mod/mouse-tweaks">Mouse Tweaks</a> — Smarter inventory drag and drop.</li>
 <li><a href="https://modrinth.com/mod/inventory-profiles-next">Inventory Profiles Next</a> — Auto-sort and inventory presets.</li>
 <li><a href="https://modrinth.com/mod/controlling">Controlling</a> — Better keybind management.</li>
+<li><a href="https://modrinth.com/mod/veinmining">VeinMining</a> — Mine connected ore blocks in one swing.</li>
+<li><a href="https://modrinth.com/mod/simplest-hammers">Simplest Hammers</a> — Wide-area mining hammers.</li>
+<li><a href="https://modrinth.com/mod/easy-villagers">Easy Villagers</a> — Pick up villagers, breed and trade easily.</li>
+<li><a href="https://modrinth.com/mod/gravestone-mod">GraveStone</a> — Drop a tombstone on death to recover your items.</li>
+<li><a href="https://modrinth.com/mod/lootr">Lootr</a> + <a href="https://modrinth.com/mod/lootrmon">Lootrmon</a> — Per-player loot in chests (works with Cobblemon gilded chests).</li>
+</ul>
+
+<h4><strong>Multiplayer and social</strong></h4>
+<ul>
+<li><a href="https://modrinth.com/mod/open-parties-and-claims">Open Parties and Claims</a> — Chunk claims, parties, friend system.</li>
+<li><a href="https://modrinth.com/mod/opac-bettercommands">OPAC Better Commands</a> + <a href="https://modrinth.com/mod/opac-mute-claim-warnings">Mute Claim Warnings</a> + <a href="https://modrinth.com/mod/opac-bonus-claims">Bonus Claims</a> — Admin commands and tuning for OPAC.</li>
+<li><a href="https://modrinth.com/mod/chunk-loader">Chunk Loader</a> — Keep chunks loaded for farms and pastures.</li>
+<li><a href="https://modrinth.com/mod/simple-voice-chat">Simple Voice Chat</a> — Proximity voice chat.</li>
+<li><a href="https://modrinth.com/mod/chat-heads">Chat Heads</a> — Player heads next to chat messages.</li>
+<li><a href="https://modrinth.com/mod/simple-nicknames">Simple Nicknames</a> — Server-side nickname commands.</li>
+<li><a href="https://modrinth.com/mod/numismatic-overhaul-reforged-again">Numismatic Overhaul</a> — In-game currency and player-run shops.</li>
+<li><a href="https://modrinth.com/mod/exposure-polaroid">Exposure: Polaroid</a> — Take in-world photographs with a camera.</li>
 </ul>
 
 <h4><strong>Client performance (Client variant only)</strong></h4>
