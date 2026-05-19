@@ -74,6 +74,82 @@ jobs:
           MRPACK="$(ls *.mrpack | head -1)"
           echo "MRPACK_PATH=${{ steps.meta.outputs.variant }}/$MRPACK" >> "$GITHUB_ENV"
 
+      - name: Validate modpack (smoke test)
+        run: |
+          set -euo pipefail
+          python3 - "$MRPACK_PATH" << 'PYEOF'
+          import sys, json, zipfile, urllib.request, urllib.error, os
+          path = sys.argv[1]
+          print(f"[smoke] Validating {path}")
+          if not os.path.exists(path):
+              sys.exit(f"[FAIL] mrpack file missing: {path}")
+          size = os.path.getsize(path)
+          if size < 1000:
+              sys.exit(f"[FAIL] mrpack suspiciously small: {size} bytes")
+          print(f"[smoke] Size OK: {size} bytes")
+
+          # 1. Zip integrity
+          try:
+              with zipfile.ZipFile(path) as z:
+                  bad = z.testzip()
+                  if bad:
+                      sys.exit(f"[FAIL] Corrupt entry in zip: {bad}")
+                  if 'modrinth.index.json' not in z.namelist():
+                      sys.exit("[FAIL] modrinth.index.json missing from mrpack")
+                  idx = json.loads(z.read('modrinth.index.json'))
+          except zipfile.BadZipFile as e:
+              sys.exit(f"[FAIL] Invalid zip: {e}")
+          print(f"[smoke] Zip integrity OK")
+
+          # 2. Manifest sanity
+          if idx.get('formatVersion') != 1:
+              sys.exit(f"[FAIL] Unexpected formatVersion: {idx.get('formatVersion')}")
+          deps = idx.get('dependencies', {})
+          mc = deps.get('minecraft')
+          nf = deps.get('neoforge')
+          if mc != '1.21.1':
+              sys.exit(f"[FAIL] minecraft version mismatch: {mc}")
+          if not nf:
+              sys.exit("[FAIL] neoforge dependency missing in manifest")
+          print(f"[smoke] Manifest OK: MC {mc}, NeoForge {nf}")
+
+          # 3. All file downloads reachable (HEAD)
+          files = idx.get('files', [])
+          print(f"[smoke] Checking {len(files)} mod download URLs...")
+          fails = []
+          for i, f in enumerate(files, 1):
+              urls = f.get('downloads', [])
+              if not urls:
+                  fails.append(f"{f.get('path','?')}: no download URL")
+                  continue
+              url = urls[0]
+              try:
+                  req = urllib.request.Request(url, method='HEAD', headers={'User-Agent': 'steamon-smoke/1.0'})
+                  with urllib.request.urlopen(req, timeout=15) as r:
+                      if r.status >= 400:
+                          fails.append(f"{f['path']}: HTTP {r.status}")
+              except urllib.error.HTTPError as e:
+                  fails.append(f"{f['path']}: HTTP {e.code}")
+              except Exception as e:
+                  fails.append(f"{f['path']}: {e}")
+              if i % 25 == 0:
+                  print(f"  [{i}/{len(files)}] checked, {len(fails)} fails so far")
+          if fails:
+              print("[FAIL] Unreachable downloads:")
+              for f in fails[:20]:
+                  print(f"   - {f}")
+              sys.exit(1)
+          print(f"[smoke] All {len(files)} mod URLs reachable")
+
+          # 4. modrinth.index.json: ensure no env conflict (mods must be required/unsupported, not both unsupported)
+          for f in files:
+              env = f.get('env', {})
+              if env.get('client') == 'unsupported' and env.get('server') == 'unsupported':
+                  sys.exit(f"[FAIL] {f['path']} marked unsupported on both sides")
+
+          print("[smoke] All validation checks passed")
+          PYEOF
+
       - name: Publish to Modrinth
         env:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
