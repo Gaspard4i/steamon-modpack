@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Bedrock model renderer</title>
+<style>html,body{margin:0;background:transparent}canvas{display:block;background:transparent}</style>
+</head><body>
+<canvas id="c" width="1024" height="1024"></canvas>
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" }}
+</script>
+<script type="module">
+import * as THREE from 'three';
+
+const qs = new URLSearchParams(location.search);
+const modelUrl   = qs.get('model');
+const textureUrl = qs.get('texture');
+const texW = parseInt(qs.get('w') || '64');
+const texH = parseInt(qs.get('h') || '32');
+const rotX = parseFloat(qs.get('rotX') || '20') * Math.PI / 180;
+const rotY = parseFloat(qs.get('rotY') || '35') * Math.PI / 180;
+const zoom = parseFloat(qs.get('zoom') || '1');
+
+const W = 1024, H = 1024;
+const canvas = document.getElementById('c');
+const renderer = new THREE.WebGLRenderer({canvas, alpha: true, antialias: true});
+renderer.setClearColor(0x000000, 0);
+renderer.setSize(W, H, false);
+
+const scene = new THREE.Scene();
+scene.add(new THREE.AmbientLight(0xffffff, 0.85));
+const key = new THREE.DirectionalLight(0xffffff, 0.7);
+key.position.set(4, 6, 4);
+scene.add(key);
+const fill = new THREE.DirectionalLight(0xffffff, 0.35);
+fill.position.set(-3, 2, -2);
+scene.add(fill);
+
+const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 200);
+
+async function loadTexture(url) {
+  return new Promise(res => new THREE.TextureLoader().load(url, t => {
+    t.magFilter = THREE.NearestFilter;
+    t.minFilter = THREE.NearestFilter;
+    t.colorSpace = THREE.SRGBColorSpace;
+    res(t);
+  }));
+}
+
+/**
+ * Bedrock cube UV unwrap.
+ *
+ * Bedrock geo box UV (texture-pixel coordinates, origin at uv = [u, v]):
+ *
+ *         +-----+-----+
+ *         | top | bot |       (top: sx by sz; bottom: sx by sz, mirrored)
+ *   +-----+-----+-----+-----+
+ *   | E   | N   | W   | S   |  (east/right=sz, north/front=sx, west/left=sz, south/back=sx;
+ *   |     |     |     |     |   height = sy)
+ *   +-----+-----+-----+-----+
+ *
+ * Pixel rectangles:
+ *   top  : (u+sz,       v,      sx, sz)
+ *   bot  : (u+sz+sx,    v,      sx, sz)
+ *   east : (u,          v+sz,   sz, sy)   -- +X face
+ *   north: (u+sz,       v+sz,   sx, sy)   -- -Z face (front, faces camera in MC)
+ *   west : (u+sz+sx,    v+sz,   sz, sy)   -- -X face
+ *   south: (u+2*sz+sx,  v+sz,   sx, sy)   -- +Z face
+ *
+ * Three.js BoxGeometry face order: 0:+X (right) 1:-X (left)
+ *                                  2:+Y (top)   3:-Y (bottom)
+ *                                  4:+Z (front) 5:-Z (back).
+ * In Bedrock convention, "north" face is the one player sees (-Z in MC's coord),
+ * but with the box centered at origin and rotated rotY, we treat:
+ *    Bedrock east  -> +X
+ *    Bedrock west  -> -X
+ *    Bedrock top   -> +Y
+ *    Bedrock bottom -> -Y
+ *    Bedrock south -> +Z  (back of model relative to MC's player-facing convention)
+ *    Bedrock north -> -Z  (front)
+ *
+ * Vertex order in BoxGeometry face UV slots (v0..v3):
+ *    v0 = TL of rendered face, v1 = TR, v2 = BL, v3 = BR.
+ */
+function applyBedrockUV(geom, sx, sy, sz, u, v, mirror = false) {
+  const rects = {
+    east:  [u,             v + sz,        sz, sy],
+    north: [u + sz,        v + sz,        sx, sy],
+    west:  [u + sz + sx,   v + sz,        sz, sy],
+    south: [u + 2*sz + sx, v + sz,        sx, sy],
+    top:   [u + sz,        v,             sx, sz],
+    bot:   [u + sz + sx,   v,             sx, sz],
+  };
+  const map = [
+    rects.east,    // 0 +X
+    rects.west,    // 1 -X
+    rects.top,     // 2 +Y
+    rects.bot,     // 3 -Y (flipped horizontally per Bedrock spec)
+    rects.south,   // 4 +Z
+    rects.north,   // 5 -Z
+  ];
+
+  const flipsBoth = {3: 'v'};  // bottom face flipped vertically per spec
+  const attr = geom.attributes.uv;
+  for (let face = 0; face < 6; face++) {
+    const [rx, ry, rw, rh] = map[face];
+    let pts;
+    if (flipsBoth[face] === 'v') {
+      pts = [
+        [rx, ry + rh],          // TL
+        [rx + rw, ry + rh],     // TR
+        [rx, ry],               // BL
+        [rx + rw, ry],          // BR
+      ];
+    } else {
+      pts = [
+        [rx, ry],               // TL
+        [rx + rw, ry],          // TR
+        [rx, ry + rh],          // BL
+        [rx + rw, ry + rh],     // BR
+      ];
+    }
+    for (let i = 0; i < 4; i++) {
+      const [px, py] = pts[i];
+      attr.setXY(face * 4 + i, px / texW, 1 - py / texH);
+    }
+  }
+  attr.needsUpdate = true;
+}
+
+function buildBedrockCube(cube, tex) {
+  const [ox, oy, oz] = cube.origin;
+  const [sx, sy, sz] = cube.size;
+  const inflate = cube.inflate || 0;
+  const [u, v] = cube.uv;
+
+  const ix = sx + 2 * inflate;
+  const iy = sy + 2 * inflate;
+  const iz = sz + 2 * inflate;
+  const geom = new THREE.BoxGeometry(ix, iy, iz);
+  applyBedrockUV(geom, sx, sy, sz, u, v);
+
+  const mat = new THREE.MeshLambertMaterial({
+    map: tex,
+    transparent: true,
+    alphaTest: 0.05,
+    side: THREE.DoubleSide,
+  });
+  const mesh = new THREE.Mesh(geom, mat);
+  // Bedrock origin = corner (NW-bottom). Three.js Box centered on origin → shift.
+  mesh.position.set(
+    ox + sx / 2,
+    oy + sy / 2,
+    oz + sz / 2,
+  );
+  return mesh;
+}
+
+async function main() {
+  const tex = await loadTexture(textureUrl);
+  const model = await (await fetch(modelUrl)).json();
+  const geom = model['minecraft:geometry'][0];
+
+  const group = new THREE.Group();
+  for (const bone of geom.bones) {
+    for (const cube of (bone.cubes || [])) {
+      group.add(buildBedrockCube(cube, tex));
+    }
+  }
+  // Center on origin
+  const box = new THREE.Box3().setFromObject(group);
+  const center = box.getCenter(new THREE.Vector3());
+  group.position.sub(center);
+  group.rotation.y = rotY;
+  group.rotation.x = rotX;
+  scene.add(group);
+
+  const size = box.getSize(new THREE.Vector3());
+  const maxDim = Math.max(size.x, size.y, size.z) * 0.75 / zoom;
+  camera.left = -maxDim; camera.right = maxDim;
+  camera.top = maxDim; camera.bottom = -maxDim;
+  camera.position.set(0, 0, 100);
+  camera.lookAt(0, 0, 0);
+  camera.updateProjectionMatrix();
+  renderer.render(scene, camera);
+  window.__rendered = true;
+}
+main().catch(e => { document.title = 'err: ' + e.message; console.error(e); });
+</script>
+</body></html>

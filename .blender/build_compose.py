@@ -66,29 +66,33 @@ def make_banner(out_path):
     W, H = 1800, 600
     bg = cozy_background(W, H)
 
-    # --- Cog (behind, large, slightly rotated for dynamic feel)
+    # --- Cog (very back, large, behind everything; cropped tightly)
     if COG_PATH.exists():
         cog = Image.open(COG_PATH).convert("RGBA")
-        cog = fit_height(cog, int(H * 0.92))
-        cog = cog.rotate(-12, expand=True, resample=Image.BICUBIC)
-        bg.alpha_composite(cog, (int(W * 0.10), int(H * 0.06)))
+        cog = cog.crop(cog.getbbox())
+        cog = fit_height(cog, int(H * 1.0))
+        cog = cog.rotate(-8, expand=True, resample=Image.BICUBIC)
+        # Slightly fade so it reads as background scenery
+        alpha = cog.split()[3].point(lambda p: int(p * 0.85))
+        cog.putalpha(alpha)
+        bg.alpha_composite(cog, (int(W * 0.06), int(H * 0.05)))
 
-    # --- Pokeball (front of cog, slightly smaller)
+    # --- Pokeball (middle layer, smaller than cog so cog teeth show around it)
     if POKEBALL_PATH.exists():
         ball = Image.open(POKEBALL_PATH).convert("RGBA")
-        ball = fit_height(ball, int(H * 0.75))
-        bx = int(W * 0.15)
-        by = int(H * 0.18)
+        ball = ball.crop(ball.getbbox())
+        ball = fit_height(ball, int(H * 0.55))
+        bx = int(W * 0.10)
+        by = int(H * 0.30)
         bg.alpha_composite(ball, (bx, by))
 
-    # --- Avatar leaning against the ball
+    # --- Avatar leaning against the ball, foreground (smaller so it doesn't dominate)
     if AVATAR_PATH.exists():
         av = Image.open(AVATAR_PATH).convert("RGBA")
-        av = fit_height(av, int(H * 0.88))
-        # tilt slightly
-        av = av.rotate(-10, expand=True, resample=Image.BICUBIC)
-        ax = int(W * 0.28)
-        ay = H - av.height - 10
+        av = av.crop(av.getbbox())
+        av = fit_height(av, int(H * 0.85))
+        ax = int(W * 0.21)
+        ay = H - av.height + 8
         bg.alpha_composite(av, (ax, ay))
 
     # --- Title
@@ -100,7 +104,11 @@ def make_banner(out_path):
         title_font = sub_font = tag_font = ImageFont.load_default()
 
     d = ImageDraw.Draw(bg)
-    text_x = int(W * 0.52)
+    # Measure the title width to right-align safely within the banner.
+    title_bbox = d.textbbox((0, 0), "STEAMON", font=title_font)
+    title_w = title_bbox[2] - title_bbox[0]
+    # Place title so its right edge sits comfortably inside the banner.
+    text_x = W - title_w - int(W * 0.06)
     text_y = 145
     d.text((text_x + 6, text_y + 6), "STEAMON", font=title_font, fill=(0, 0, 0, 200))
     for dx, dy in [(-4, 0), (4, 0), (0, -4), (0, 4),
@@ -122,26 +130,28 @@ def make_logo(out_path, size=512):
     W = size * SS
     bg = cozy_background(W, W)
 
-    # Cog behind
+    # Cog: very large, fills most of the canvas; behind everything
     if COG_PATH.exists():
         cog = Image.open(COG_PATH).convert("RGBA")
-        cog = fit_height(cog, int(W * 0.95))
-        cog = cog.rotate(-12, expand=True, resample=Image.BICUBIC)
+        cog = fit_height(cog, int(W * 1.05))
+        cog = cog.rotate(-10, expand=True, resample=Image.BICUBIC)
+        alpha = cog.split()[3].point(lambda p: int(p * 0.55))
+        cog.putalpha(alpha)
         bg.alpha_composite(cog, ((W - cog.width) // 2, (W - cog.height) // 2))
 
-    # Pokeball in front, centered
+    # Pokeball: centered, ~55% size — cog teeth visible around the rim
     if POKEBALL_PATH.exists():
         ball = Image.open(POKEBALL_PATH).convert("RGBA")
-        ball = fit_height(ball, int(W * 0.70))
-        bg.alpha_composite(ball, ((W - ball.width) // 2, (W - ball.height) // 2))
+        ball = fit_height(ball, int(W * 0.55))
+        bg.alpha_composite(ball, ((W - ball.width) // 2, (W - ball.height) // 2 - int(W * 0.05)))
 
-    # Small avatar perched on the right side of the ball
+    # Avatar: leaning against the ball, foreground, lower-right
     if AVATAR_PATH.exists():
         av = Image.open(AVATAR_PATH).convert("RGBA")
-        av = fit_height(av, int(W * 0.65))
-        av = av.rotate(-15, expand=True, resample=Image.BICUBIC)
-        ax = W - av.width - int(W * 0.04)
-        ay = (W - av.height) // 2 + int(W * 0.05)
+        av = av.crop(av.getbbox())
+        av = fit_height(av, int(W * 0.75))
+        ax = (W - av.width) // 2 + int(W * 0.08)
+        ay = W - av.height + int(W * 0.02)
         bg.alpha_composite(av, (ax, ay))
 
     final = bg.resize((size, size), Image.LANCZOS)

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Java block model renderer</title>
+<style>html,body{margin:0;background:transparent}canvas{display:block;background:transparent}</style>
+</head><body>
+<canvas id="c" width="1024" height="1024"></canvas>
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" }}
+</script>
+<script type="module">
+import * as THREE from 'three';
+
+const qs = new URLSearchParams(location.search);
+const modelUrl  = qs.get('model');
+const texturesParam = qs.get('textures');  // JSON: {"0":"url",...}
+const texW = parseInt(qs.get('texW') || '32');
+const texH = parseInt(qs.get('texH') || '32');
+const rotX = parseFloat(qs.get('rotX') || '25') * Math.PI / 180;
+const rotY = parseFloat(qs.get('rotY') || '45') * Math.PI / 180;
+const zoom = parseFloat(qs.get('zoom') || '1.4');
+
+const W = 1024, H = 1024;
+const canvas = document.getElementById('c');
+const renderer = new THREE.WebGLRenderer({canvas, alpha:true, antialias:true});
+renderer.setClearColor(0x000000, 0);
+renderer.setSize(W, H, false);
+
+const scene = new THREE.Scene();
+scene.add(new THREE.AmbientLight(0xffffff, 0.95));
+const key = new THREE.DirectionalLight(0xffffff, 0.6);
+key.position.set(5, 8, 5); scene.add(key);
+const fill = new THREE.DirectionalLight(0xffffff, 0.3);
+fill.position.set(-4, 2, -3); scene.add(fill);
+
+const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 200);
+
+async function loadTexture(url) {
+  return new Promise(res => new THREE.TextureLoader().load(url, t => {
+    t.magFilter = THREE.NearestFilter;
+    t.minFilter = THREE.NearestFilter;
+    t.colorSpace = THREE.SRGBColorSpace;
+    t.wrapS = t.wrapT = THREE.RepeatWrapping;
+    res(t);
+  }));
+}
+
+async function loadTextureMap(map) {
+  const result = {};
+  for (const k of Object.keys(map)) {
+    result[k] = await loadTexture(map[k]);
+  }
+  return result;
+}
+
+function applyJavaFaceUV(geom, faceIndex, uv, texW, texH, rotation) {
+  // uv = [x1,y1,x2,y2] in texture pixels.
+  // BoxGeometry face order: 0:+X right, 1:-X left, 2:+Y top, 3:-Y bottom, 4:+Z front, 5:-Z back
+  // Vertex order per face (Three.js BoxGeometry):
+  //   v0: TL, v1: TR, v2: BL, v3: BR
+  const [x1, y1, x2, y2] = uv;
+  let pts = [
+    [x1, y1], // TL
+    [x2, y1], // TR
+    [x1, y2], // BL
+    [x2, y2], // BR
+  ];
+  // Apply UV rotation (0, 90, 180, 270)
+  for (let i = 0; i < (rotation || 0) / 90; i++) {
+    pts = [pts[2], pts[0], pts[3], pts[1]];  // rotate 90 cw
+  }
+  const attr = geom.attributes.uv;
+  for (let i = 0; i < 4; i++) {
+    attr.setXY(faceIndex * 4 + i, pts[i][0] / texW, 1 - pts[i][1] / texH);
+  }
+  attr.needsUpdate = true;
+}
+
+function resolveTexRef(ref, textureMap, modelTextures) {
+  // ref like "#4" or "create:block/large_cogwheel". Follow refs in modelTextures.
+  let cur = ref;
+  for (let i = 0; i < 10; i++) {
+    if (cur.startsWith('#')) {
+      cur = modelTextures[cur.substring(1)];
+    } else {
+      break;
+    }
+  }
+  // cur might be "create:block/large_cogwheel" — look up by short key
+  const short = cur.split('/').pop();
+  return textureMap[short] || textureMap[cur] || null;
+}
+
+async function main() {
+  const model = await (await fetch(modelUrl)).json();
+  const textureUrls = JSON.parse(texturesParam);
+  const textures = await loadTextureMap(textureUrls);
+
+  // Resolve nested parents — for our Create case we already passed flattened
+  // textures, but let's still handle a simple `parent` chain if provided.
+  let combinedTextures = Object.assign({}, model.textures || {});
+  let cur = model;
+  while (cur.parent && cur.parentJson) {
+    cur = cur.parentJson;
+    combinedTextures = Object.assign({}, cur.textures || {}, combinedTextures);
+  }
+
+  const elements = model.elements || [];
+  const group = new THREE.Group();
+
+  const FACE_INDEX = {
+    east: 0, west: 1, up: 2, down: 3, south: 4, north: 5,
+  };
+
+  for (const el of elements) {
+    const [x1, y1, z1] = el.from;
+    const [x2, y2, z2] = el.to;
+    const sx = x2 - x1, sy = y2 - y1, sz = z2 - z1;
+    if (sx <= 0 || sy <= 0 || sz <= 0) continue;
+    const geom = new THREE.BoxGeometry(sx, sy, sz);
+
+    // Per-face material list — defaults to invisible
+    const mats = [];
+    for (let i = 0; i < 6; i++) {
+      mats.push(new THREE.MeshLambertMaterial({ visible: false, transparent: true }));
+    }
+
+    for (const [faceName, face] of Object.entries(el.faces || {})) {
+      const idx = FACE_INDEX[faceName];
+      if (idx === undefined) continue;
+      const texRef = face.texture;
+      const tex = resolveTexRef(texRef, textures, combinedTextures);
+      if (!tex) continue;
+      const uv = face.uv || [0, 0, 16, 16];
+      // Re-create the material with the actual texture
+      mats[idx] = new THREE.MeshLambertMaterial({
+        map: tex,
+        transparent: true,
+        alphaTest: 0.1,
+        side: THREE.DoubleSide,
+      });
+      // Apply UV mapping on this face
+      applyJavaFaceUV(geom, idx, uv, texW, texH, face.rotation || 0);
+    }
+
+    const mesh = new THREE.Mesh(geom, mats);
+    mesh.position.set(x1 + sx / 2, y1 + sy / 2, z1 + sz / 2);
+
+    if (el.rotation) {
+      const {origin, axis, angle} = el.rotation;
+      const pivot = new THREE.Group();
+      pivot.position.set(origin[0], origin[1], origin[2]);
+      mesh.position.sub(new THREE.Vector3(origin[0], origin[1], origin[2]));
+      pivot.add(mesh);
+      const rad = angle * Math.PI / 180;
+      if (axis === 'x') pivot.rotation.x = rad;
+      if (axis === 'y') pivot.rotation.y = rad;
+      if (axis === 'z') pivot.rotation.z = rad;
+      group.add(pivot);
+    } else {
+      group.add(mesh);
+    }
+  }
+
+  // Center model on origin
+  const box = new THREE.Box3().setFromObject(group);
+  const center = box.getCenter(new THREE.Vector3());
+  group.position.sub(center);
+  group.rotation.x = rotX;
+  group.rotation.y = rotY;
+  scene.add(group);
+
+  const size = box.getSize(new THREE.Vector3());
+  const maxDim = Math.max(size.x, size.y, size.z) * 0.65 / zoom;
+  camera.left = -maxDim; camera.right = maxDim;
+  camera.top = maxDim; camera.bottom = -maxDim;
+  camera.position.set(0, 0, 100);
+  camera.lookAt(0, 0, 0);
+  camera.updateProjectionMatrix();
+  renderer.render(scene, camera);
+  window.__rendered = true;
+}
+main().catch(e => { document.title = 'err: ' + e.message; console.error(e); });
+</script>
+</body></html>

@@ -62,17 +62,22 @@
   <div id="canvas-container"></div>
 
   <script type="module">
-    import * as skinview3d from "https://cdn.jsdelivr.net/npm/skinview3d@3.2.1/+esm";
+    import * as skinview3d from "https://cdn.jsdelivr.net/npm/skinview3d@3.4.2/+esm";
 
     const container = document.getElementById("canvas-container");
     const viewer = new skinview3d.SkinViewer({
       width: 600,
       height: 800,
       skin: "assets/skin_gaz4i.png",
-      background: 0x000000,  // remplacé en transparent après init
+      // Don't pass background; we'll set transparent clear explicitly.
+      alpha: true,
+      preserveDrawingBuffer: true,
     });
-    // Make background fully transparent
+    // Force transparent backdrop on the WebGL renderer
     viewer.renderer.setClearColor(0x000000, 0);
+    viewer.renderer.setClearAlpha(0);
+    // SkinViewer also draws an inner scene background — disable it.
+    if (viewer.scene) viewer.scene.background = null;
     container.appendChild(viewer.canvas);
 
     // Camera setup — slight 3/4 view
@@ -81,13 +86,18 @@
     viewer.zoom = 0.85;
 
     const p = viewer.playerObject;
-    // Vanilla skin layer (jacket etc.) — ensure overlay is visible
-    p.skin.head.overlay.visible = true;
-    p.skin.body.overlay.visible = true;
-    p.skin.rightArm.overlay.visible = true;
-    p.skin.leftArm.overlay.visible = true;
-    p.skin.rightLeg.overlay.visible = true;
-    p.skin.leftLeg.overlay.visible = true;
+    // skinview3d 3.4.x exposes overlay layers differently per limb; access
+    // defensively so the script doesn't crash on the new API surface.
+    function setOverlayVisible() {
+      const limbs = ['head', 'body', 'rightArm', 'leftArm', 'rightLeg', 'leftLeg'];
+      for (const k of limbs) {
+        const part = p.skin[k];
+        if (!part) continue;
+        if (part.overlay) part.overlay.visible = true;
+        if (part.outerLayer) part.outerLayer.visible = true;
+      }
+    }
+    setOverlayVisible();
 
     // --- Pose presets ---------------------------------------------------
     const deg = d => d * Math.PI / 180;
@@ -102,19 +112,20 @@
 
     function poseLeaning() {
       resetPose();
-      // Tilt body slightly to one side
-      p.skin.body.rotation.z = deg(-8);
-      p.skin.head.rotation.z = deg(-5);
-      p.skin.head.rotation.y = deg(15);
-      // Right arm resting on something (raised + slightly bent outward)
-      p.skin.rightArm.rotation.x = deg(-90);
-      p.skin.rightArm.rotation.z = deg(-20);
-      // Left arm relaxed at side
-      p.skin.leftArm.rotation.z = deg(8);
-      // Cross legs casually
+      // Whole-body tilt to the right, head tilts opposite (classic lean)
+      p.skin.body.rotation.z = deg(8);
+      p.skin.head.rotation.z = deg(-4);
+      p.skin.head.rotation.y = deg(-8);
+      // Right arm hanging straight (no raise — natural leaning rest)
+      p.skin.rightArm.rotation.x = deg(0);
+      p.skin.rightArm.rotation.z = deg(-3);
+      // Left arm slightly relaxed away from body
+      p.skin.leftArm.rotation.x = deg(0);
+      p.skin.leftArm.rotation.z = deg(3);
+      // Cross legs casually: right leg crossed over left
       p.skin.rightLeg.rotation.z = deg(8);
-      p.skin.leftLeg.rotation.z = deg(-3);
-      p.skin.leftLeg.rotation.x = deg(5);
+      p.skin.rightLeg.rotation.x = deg(-5);
+      p.skin.leftLeg.rotation.z = deg(-2);
     }
 
     function poseArmsCrossed() {
