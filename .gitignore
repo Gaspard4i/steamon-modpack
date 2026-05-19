@@ -10,7 +10,8 @@ node_modules/
 .ballviewer/dev.err.log
 .ballviewer/dev.log
 
-# Claude Code / AI assistants — keep CLAUDE.md (committed), ignore everything else
+# Claude Code / AI assistants — fully local, NEVER commit
+CLAUDE.md
 .claude/
 .claude-*
 .aider*
