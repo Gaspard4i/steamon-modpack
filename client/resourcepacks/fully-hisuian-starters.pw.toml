@@ -1,0 +1,13 @@
+name = "Fully Hisuian Starters (Cobblemon)"
+filename = "Fully Hisuian Starters 1.1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5vRvzDPO/versions/6RwfalgE/Fully%20Hisuian%20Starters%201.1.1.zip"
+hash-format = "sha512"
+hash = "c147cbb1eb7a8c5c13c40e7ea28ad8f3d0e38d1e6b171262f45f32d030400b40f6ab40fee1c15cad96f6606ce91edef03c308d785c4921bb095a4ef88c0c5426"
+
+[update]
+[update.modrinth]
+mod-id = "5vRvzDPO"
+version = "6RwfalgE"

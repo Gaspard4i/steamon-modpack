@@ -1,0 +1,13 @@
+name = "Create: Ochrum Recipe"
+filename = "create-ochrum-recipe-1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r6SlWTQ5/versions/iwb4FMqV/create-ochrum-recipe-1.jar"
+hash-format = "sha512"
+hash = "20486c5b858d8b9f4e0a358f5702333269ec6b10b0d1a5f5f12e50c02e6124ac51089f76ca7a53412d75791b455616e8ba787f5fee468ad1e66bf4439a1b9f98"
+
+[update]
+[update.modrinth]
+mod-id = "r6SlWTQ5"
+version = "iwb4FMqV"
