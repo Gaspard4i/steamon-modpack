@@ -9,3 +9,50 @@ node_modules/
 .ballviewer/dist/
 .ballviewer/dev.err.log
 .ballviewer/dev.log
+
+# Claude Code / AI assistants — keep CLAUDE.md (committed), ignore everything else
+.claude/
+.claude-*
+.aider*
+.cursor/
+.cursorrules
+.cursorignore
+.continue/
+.codeium/
+.windsurf/
+.github-copilot/
+.specstory/
+.serena/
+
+# Claude plans, agent scratch, memory dumps
+PLAN.md
+PLANS.md
+TODO.md
+NOTES.md
+SCRATCH.md
+*.scratch.md
+*.plan.md
+.scratch/
+.notes/
+agent-memory/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Python (for .blender/ scripts)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Playwright / Puppeteer / browser automation
+.playwright/
+playwright-report/
+test-results/
+.cache/
