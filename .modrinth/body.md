@@ -4,14 +4,6 @@
 
 <p align="center"><em>Tame Pokémon. Bake bread. Run a small farm. Build a railway. All in the same world.</em></p>
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball02.png" alt="Great Ball" width="40" />
-<img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball08.png" alt="Ancient Gigaton Ball" width="56" />
-<img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball05.png" alt="Ancient Citrine Ball" width="72" />
-<img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball03.png" alt="Great Ball" width="56" />
-<img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball07.png" alt="Ancient Slate Ball" width="40" />
-</p>
-
 ---
 
 <img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball01.png" alt="Poké Ball" width="80" />
