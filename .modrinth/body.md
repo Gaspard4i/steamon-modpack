@@ -18,7 +18,7 @@ Catch and raise Pokémon, keep a small farm, cook real food, lay down some rails
 <br clear="all" />
 
 <img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball04.png" alt="Ultra Ball" width="80" />
-<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball09.png" alt="Ancient Verdant Ball" width="52" />
+<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball08.png" alt="Ancient Gigaton Ball" width="52" />
 
 ### Some of what's inside
 
@@ -40,7 +40,7 @@ The rest fills in the cozy details: more food, furniture, decoration, quality-of
 <br clear="all" />
 
 <img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball10.png" alt="Ancient Roseate Ball" width="80" />
-<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball08.png" alt="Ancient Gigaton Ball" width="52" />
+<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball09.png" alt="Ancient Verdant Ball" width="52" />
 
 ### Source and contributions
 
