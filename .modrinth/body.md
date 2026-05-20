@@ -29,7 +29,7 @@ Grab the Client for singleplayer or to join a server. Grab the Server when you h
 
 <br clear="all" />
 
-<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball06.png" width="74" />
+<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball05.png" width="74" />
 
 ### Some of what's inside
 
