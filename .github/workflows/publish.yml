@@ -196,29 +196,44 @@ jobs:
 
           installed = {'minecraft', 'neoforge', 'forge', 'java'}
           metas = []
-          jar_files = [f for f in idx['files'] if f['path'].startswith('mods/')]
-          print(f"[depcheck] Reading {len(jar_files)} mod jars...")
-          for f in jar_files:
+
+          def ingest(jar_bytes, label):
+              # Read a jar's mods.toml + recurse into jar-in-jar bundled mods
               try:
-                  data = fetch(f['downloads'][0])
-                  z = zipfile.ZipFile(io.BytesIO(data))
-                  m = read_meta(z)
-                  if m:
-                      metas.append((f['path'], m))
-                      for md in m.get('mods', []):
-                          installed.add(md['modId'])
-                  for n in z.namelist():
-                      if n.startswith('META-INF/jarjar/') and n.endswith('.jar'):
-                          try:
-                              inner = zipfile.ZipFile(io.BytesIO(z.read(n)))
-                              im = read_meta(inner)
-                              if im:
-                                  for md in im.get('mods', []):
-                                      installed.add(md['modId'])
-                          except Exception:
-                              pass
+                  z = zipfile.ZipFile(io.BytesIO(jar_bytes))
               except Exception as e:
-                  print(f"  [warn] {f['path']}: {e}")
+                  print(f"  [warn] {label}: {e}")
+                  return
+              m = read_meta(z)
+              if m:
+                  metas.append((label, m))
+                  for md in m.get('mods', []):
+                      installed.add(md['modId'])
+              for n in z.namelist():
+                  if n.startswith('META-INF/jarjar/') and n.endswith('.jar'):
+                      try:
+                          ingest(z.read(n), f"{label}::{n}")
+                      except Exception:
+                          pass
+
+          # 1) Mods referenced by URL in modrinth.index.json (Modrinth mods)
+          url_jars = [f for f in idx['files'] if f['path'].startswith('mods/') and f.get('downloads')]
+          # 2) Mods embedded directly in the mrpack overrides (CurseForge mods, e.g. SuperMartijn642 libs)
+          with zipfile.ZipFile(path) as mp:
+              embedded = [n for n in mp.namelist()
+                          if n.startswith(('overrides/mods/', 'client-overrides/mods/', 'server-overrides/mods/'))
+                          and n.endswith('.jar')]
+              print(f"[depcheck] Reading {len(url_jars)} URL mods + {len(embedded)} embedded mods...")
+              for f in url_jars:
+                  try:
+                      ingest(fetch(f['downloads'][0]), f['path'])
+                  except Exception as e:
+                      print(f"  [warn] {f['path']}: {e}")
+              for n in embedded:
+                  try:
+                      ingest(mp.read(n), n)
+                  except Exception as e:
+                      print(f"  [warn] {n}: {e}")
 
           problems = []
           for path_, m in metas:
