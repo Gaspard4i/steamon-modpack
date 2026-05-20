@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/carryon-common.toml"
+hash = "737f93f635f337f1e13a620fcbce616d1b9ffd6e14e863c28182eba2bec396b0"
+
+[[files]]
+file = "config/defaultoptions/extra/config/iris.properties"
+hash = "a89270b1eeef0ce86e0a88ef7799f257997cc804a23f88add8c77b3a701be4c2"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "474278b0a1811f31ef9af6b2858a570e560ff99e6eb8fb08cc569ca68ef1220a"
+
+[[files]]
 file = "config/sodium-options.json"
 hash = "f4b8aa3885325230f6362b06eee24a38de2b9551ed6abef964a609edeb6ea6d4"
 
@@ -415,6 +427,11 @@ hash = "7e01c6f0728da08b83df626b866ca83e770b80d3213e9107561d4b816069ed37"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "ef7868aa3a029cdb7a9a46fc3f55ae12c4bc86cb5d92ae889ed554acfa229c45"
+metafile = true
+
+[[files]]
 file = "mods/double-doors.pw.toml"
 hash = "99f1ddd42145295a0e53c87a4e14185c975e8b2174a53295a9021988f0748081"
 metafile = true
@@ -487,6 +504,11 @@ metafile = true
 [[files]]
 file = "mods/extreme_sound_muffler.pw.toml"
 hash = "00ec91db9928c4da54bb3843eb8eba7c918aa65ffdc90b69f93bd52e41387eb1"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "d148bdbcbbe124240edd8aad0ca8d8a082c2ea5f748236bc473bd9ecedaf5753"
 metafile = true
 
 [[files]]
@@ -590,13 +612,13 @@ hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
 metafile = true
 
 [[files]]
-file = "mods/journeymap.pw.toml"
-hash = "2feb66f2319d0229fb887b5d97f0332adb17edab578e897615bded7890683ac4"
+file = "mods/kiwi.pw.toml"
+hash = "c8467cb6639000d1be9e801702e028fd2ce9c0dce6f35e1be4c9264667c9efe6"
 metafile = true
 
 [[files]]
-file = "mods/kiwi.pw.toml"
-hash = "c8467cb6639000d1be9e801702e028fd2ce9c0dce6f35e1be4c9264667c9efe6"
+file = "mods/konkrete.pw.toml"
+hash = "5707b722541648df013644f3b4d50083c77965d536f219df9fac5026f6103777"
 metafile = true
 
 [[files]]
@@ -662,6 +684,11 @@ metafile = true
 [[files]]
 file = "mods/man-of-many-planes.pw.toml"
 hash = "d887c005b64a36e1ab515d2fc6a35531b665ff7f4964b7068a01d3a136925641"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "9dff522b00f5269538d0351536f34b22384996de30be454ef1369f1b1e5c1aeb"
 metafile = true
 
 [[files]]
