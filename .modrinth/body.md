@@ -18,19 +18,6 @@ Catch and raise Pokémon, keep a small farm, cook real food, lay down some rails
 
 <img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball04.png" alt="Ultra Ball" width="74" />
 
-### Two variants
-
-The pack ships as two separate downloads on this page:
-
-- **Steamon Client** — for players. Performance mods (Sodium, Iris, FerriteCore), shader-ready, and all the Cobblemon UI helpers.
-- **Steamon Server** — for hosts. Server-side performance mods (Lithium, ServerCore, Noisium) and curated Cobblemon datapacks: extended Pokédex, gym structures, Radiant variants.
-
-Grab the Client for singleplayer or to join a server. Grab the Server when you host one.
-
-<br clear="all" />
-
-<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball05.png" alt="Ancient Citrine Ball" width="74" />
-
 ### Some of what's inside
 
 Over 200 mods. A few that set the tone:
@@ -47,16 +34,6 @@ Over 200 mods. A few that set the tone:
 - [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) — talk to people near you.
 
 The rest fills in the cozy details: more food, furniture, decoration, quality-of-life and performance. The full list lives in each version's file metadata.
-
-<br clear="all" />
-
-<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball09.png" alt="Ancient Verdant Ball" width="74" />
-
-### Good to know
-
-- Minecraft **1.21.1** on **NeoForge**.
-- Install through the Modrinth App or any launcher that reads `.mrpack` files.
-- 8 GB RAM recommended. Java 21 required.
 
 <br clear="all" />
 
