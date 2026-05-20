@@ -29,7 +29,7 @@ Grab the Client for singleplayer or to join a server. Grab the Server when you h
 
 <br clear="all" />
 
-<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball09.png" width="74" />
+<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball06.png" width="74" />
 
 ### Some of what's inside
 
@@ -50,7 +50,7 @@ The rest fills in the cozy details: more food, furniture, decoration, quality-of
 
 <br clear="all" />
 
-<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball06.png" width="74" />
+<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball09.png" width="74" />
 
 ### Good to know
 
