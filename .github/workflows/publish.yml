@@ -3,6 +3,10 @@ name: Publish Modpack
 on:
   push:
     tags:
+      # Tag format: v<version>-<channel>-<variant>
+      #   channel  = alpha | beta | release
+      #   variant  = client | server
+      # e.g. v0.3.0-alpha-client, v0.3.0-beta-server, v1.0.0-release-client
       - 'v*-client'
       - 'v*-server'
   workflow_dispatch:
@@ -13,9 +17,15 @@ on:
         type: choice
         options: [client, server]
       version:
-        description: 'Version (e.g. 0.1.0)'
+        description: 'Version (e.g. 0.3.0)'
         required: true
         type: string
+      channel:
+        description: 'Release channel'
+        required: true
+        type: choice
+        options: [alpha, beta, release]
+        default: alpha
 
 jobs:
   publish:
@@ -24,29 +34,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Detect variant and version
+      - name: Detect variant, version and channel
         id: meta
         run: |
           if [ -n "${{ inputs.variant }}" ]; then
             VARIANT="${{ inputs.variant }}"
             VERSION="${{ inputs.version }}"
+            CHANNEL="${{ inputs.channel }}"
           else
-            TAG="${GITHUB_REF_NAME}"
+            TAG="${GITHUB_REF_NAME}"        # e.g. v0.3.0-alpha-client
             if [[ "$TAG" == *-client ]]; then
-              VARIANT=client
-              VERSION="${TAG#v}"; VERSION="${VERSION%-client}"
+              VARIANT=client; REST="${TAG%-client}"
             elif [[ "$TAG" == *-server ]]; then
-              VARIANT=server
-              VERSION="${TAG#v}"; VERSION="${VERSION%-server}"
+              VARIANT=server; REST="${TAG%-server}"
             else
               echo "Tag does not end with -client or -server"; exit 1
             fi
+            # REST = v<version>-<channel>  (channel optional, defaults to alpha)
+            if [[ "$REST" == *-alpha ]]; then CHANNEL=alpha; VERSION="${REST#v}"; VERSION="${VERSION%-alpha}"
+            elif [[ "$REST" == *-beta ]]; then CHANNEL=beta; VERSION="${REST#v}"; VERSION="${VERSION%-beta}"
+            elif [[ "$REST" == *-release ]]; then CHANNEL=release; VERSION="${REST#v}"; VERSION="${VERSION%-release}"
+            else CHANNEL=alpha; VERSION="${REST#v}"; fi
           fi
           echo "variant=$VARIANT" >> "$GITHUB_OUTPUT"
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
-          # Capitalize first letter for display name
+          echo "channel=$CHANNEL" >> "$GITHUB_OUTPUT"
           DISPLAY="$(echo "$VARIANT" | sed 's/.*/\u&/')"
           echo "display=$DISPLAY" >> "$GITHUB_OUTPUT"
+          echo "Detected: variant=$VARIANT version=$VERSION channel=$CHANNEL"
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -150,33 +165,45 @@ jobs:
           print("[smoke] All validation checks passed")
           PYEOF
 
-      - name: Publish to Modrinth
+      # Server variant is built + smoke-tested but NOT published to Modrinth.
+      # Only the client variant is published on Modrinth (server distributed elsewhere).
+      - name: Upload server artifact (no Modrinth publish)
+        if: steps.meta.outputs.variant == 'server'
+        uses: actions/upload-artifact@v4
+        with:
+          name: steamon-server-${{ steps.meta.outputs.version }}
+          path: ${{ env.MRPACK_PATH }}
+          retention-days: 90
+
+      - name: Publish CLIENT to Modrinth
+        if: steps.meta.outputs.variant == 'client'
         env:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           VARIANT: ${{ steps.meta.outputs.variant }}
           DISPLAY: ${{ steps.meta.outputs.display }}
           VERSION: ${{ steps.meta.outputs.version }}
+          CHANNEL: ${{ steps.meta.outputs.channel }}
         run: |
           set -euo pipefail
           MRPACK_FILE="$(basename "$MRPACK_PATH")"
-          NAME="Steamon ${DISPLAY} ${VERSION}"
-          VERSION_NUMBER="${VERSION}-${VARIANT}"
-          echo "Uploading: $MRPACK_FILE  (version=$VERSION_NUMBER)"
+          NAME="Steamon ${DISPLAY} ${VERSION} (${CHANNEL})"
+          VERSION_NUMBER="${VERSION}-${CHANNEL}-${VARIANT}"
+          echo "Uploading: $MRPACK_FILE  (version=$VERSION_NUMBER, channel=$CHANNEL)"
           TOKEN_LEN=${#MODRINTH_TOKEN}
           echo "Token length: $TOKEN_LEN"
           if [ "$TOKEN_LEN" -lt 32 ]; then
             echo "MODRINTH_TOKEN not set or too short — secret missing?"; exit 1
           fi
 
-          DATA_JSON=$(python3 -c "
-          import json
+          DATA_JSON=$(VERSION_TYPE="$CHANNEL" python3 -c "
+          import json, os
           print(json.dumps({
             'name': '$NAME',
             'version_number': '$VERSION_NUMBER',
             'project_id': 'CR2XFGJ4',
             'dependencies': [],
             'game_versions': ['1.21.1'],
-            'version_type': 'release',
+            'version_type': os.environ['VERSION_TYPE'],
             'loaders': ['neoforge'],
             'featured': False,
             'status': 'listed',

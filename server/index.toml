@@ -170,11 +170,6 @@ hash = "d6717767872ba7ea0c52fbb1935c5beb736160a6432634e9022402bb9e32ee0d"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-knowlogy.pw.toml"
-hash = "be01368eba932fa526346f6fbbf2c319c5534befe10ee78191a9c22b0e96896c"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "82293e9eed26b7dd2fd8f4a974b87ca294195f800f54e6d457dbeeb816b43bd2"
 metafile = true
@@ -510,6 +505,11 @@ hash = "b13891d66d7cfbedde66fdfb37c2cb0f190fa52fb1fdf8292078e656106965f3"
 metafile = true
 
 [[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "9342bd3338c6fbb80f84625e2715a6c443b54daff11826f0dfb9ebb6ab411fd2"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
@@ -572,11 +572,6 @@ metafile = true
 [[files]]
 file = "mods/kiwi.pw.toml"
 hash = "c8467cb6639000d1be9e801702e028fd2ce9c0dce6f35e1be4c9264667c9efe6"
-metafile = true
-
-[[files]]
-file = "mods/knowlogy.pw.toml"
-hash = "5519ac418243f4157d73056955a9d7cac7c22ad80c0881d7ce5d147a5565af26"
 metafile = true
 
 [[files]]
@@ -872,6 +867,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "83dae761dae86cc140fe971ce6a8cac9bfe0f9eb39417a71666441a2bcc634a8"
 metafile = true
 
 [[files]]
