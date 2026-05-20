@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.modrinth.com/data/CR2XFGJ4/images/bbd9b6b976355d5890b9635d7de546644864f540.png" alt="Steamon — Create x Cobblemon" width="900" height="500" /></p>
+<p align="center"><img src="https://cdn.modrinth.com/data/CR2XFGJ4/images/32bd2087c38d760fff886271df1ec0859fe39c7c.png" alt="Steamon — Create x Cobblemon" width="900" height="500" /></p>
 
 <p align="center"><strong><font size="5">A Create x Cobblemon modpack for Minecraft 1.21.1</font></strong> &nbsp; <em>on NeoForge</em></p>
 
