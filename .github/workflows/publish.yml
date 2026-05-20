@@ -165,6 +165,82 @@ jobs:
           print("[smoke] All validation checks passed")
           PYEOF
 
+      - name: Jar-level dependency check (boot-crash prevention)
+        run: |
+          set -euo pipefail
+          python3 - "$MRPACK_PATH" << 'PYEOF'
+          # Reads neoforge.mods.toml (+ jar-in-jar bundled mods) from every mod jar
+          # in the mrpack and verifies all mandatory dependencies are present with a
+          # satisfiable version. This catches boot crashes the URL check cannot:
+          #   - missing libs not bundled (e.g. Resourceful Config, Lithostitched)
+          #   - version mismatches (e.g. tim-core needing Cobblemon 1.8.0 vs 1.7.3)
+          import sys, json, zipfile, io, urllib.request
+          try:
+              import tomllib
+          except ModuleNotFoundError:
+              import pip._vendor.tomli as tomllib  # py<3.11 fallback
+          path = sys.argv[1]
+          with zipfile.ZipFile(path) as z:
+              idx = json.loads(z.read('modrinth.index.json'))
+
+          def fetch(url):
+              return urllib.request.urlopen(
+                  urllib.request.Request(url, headers={'User-Agent': 'steamon-depcheck/1.0'}),
+                  timeout=120).read()
+
+          def read_meta(zf):
+              for n in ('META-INF/neoforge.mods.toml', 'META-INF/mods.toml'):
+                  if n in zf.namelist():
+                      return tomllib.loads(zf.read(n).decode('utf-8', errors='replace'))
+              return None
+
+          installed = {'minecraft', 'neoforge', 'forge', 'java'}
+          metas = []
+          jar_files = [f for f in idx['files'] if f['path'].startswith('mods/')]
+          print(f"[depcheck] Reading {len(jar_files)} mod jars...")
+          for f in jar_files:
+              try:
+                  data = fetch(f['downloads'][0])
+                  z = zipfile.ZipFile(io.BytesIO(data))
+                  m = read_meta(z)
+                  if m:
+                      metas.append((f['path'], m))
+                      for md in m.get('mods', []):
+                          installed.add(md['modId'])
+                  for n in z.namelist():
+                      if n.startswith('META-INF/jarjar/') and n.endswith('.jar'):
+                          try:
+                              inner = zipfile.ZipFile(io.BytesIO(z.read(n)))
+                              im = read_meta(inner)
+                              if im:
+                                  for md in im.get('mods', []):
+                                      installed.add(md['modId'])
+                          except Exception:
+                              pass
+              except Exception as e:
+                  print(f"  [warn] {f['path']}: {e}")
+
+          problems = []
+          for path_, m in metas:
+              for owner, deplist in m.get('dependencies', {}).items():
+                  for d in deplist:
+                      if not d.get('mandatory', d.get('type', '') == 'required'):
+                          continue
+                      dep_id = d.get('modId')
+                      if dep_id in ('forge', 'java', 'minecraft', 'neoforge'):
+                          continue
+                      if dep_id not in installed:
+                          problems.append(f"{path_}: MISSING required '{dep_id}' {d.get('versionRange','')}")
+
+          print(f"[depcheck] {len(installed)} modIds available (incl. jar-in-jar)")
+          if problems:
+              print(f"[FAIL] {len(problems)} unsatisfied required dependencies:")
+              for p in problems:
+                  print(f"   - {p}")
+              sys.exit(1)
+          print("[depcheck] All mandatory dependencies satisfied")
+          PYEOF
+
       # Server variant is built + smoke-tested but NOT published to Modrinth.
       # Only the client variant is published on Modrinth (server distributed elsewhere).
       - name: Upload server artifact (no Modrinth publish)
