@@ -6,7 +6,7 @@
 
 ---
 
-<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball01.png" width="74" />
+<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball01.png" alt="Poké Ball" width="74" />
 
 ### About this modpack
 
@@ -16,7 +16,7 @@ Catch and raise Pokémon, keep a small farm, cook real food, lay down some rails
 
 <br clear="all" />
 
-<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball04.png" width="74" />
+<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball04.png" alt="Ultra Ball" width="74" />
 
 ### Two variants
 
@@ -29,7 +29,7 @@ Grab the Client for singleplayer or to join a server. Grab the Server when you h
 
 <br clear="all" />
 
-<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball05.png" width="74" />
+<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball05.png" alt="Ancient Citrine Ball" width="74" />
 
 ### Some of what's inside
 
@@ -50,7 +50,7 @@ The rest fills in the cozy details: more food, furniture, decoration, quality-of
 
 <br clear="all" />
 
-<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball09.png" width="74" />
+<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball09.png" alt="Ancient Verdant Ball" width="74" />
 
 ### Good to know
 
@@ -60,7 +60,7 @@ The rest fills in the cozy details: more food, furniture, decoration, quality-of
 
 <br clear="all" />
 
-<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball10.png" width="74" />
+<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball10.png" alt="Ancient Roseate Ball" width="74" />
 
 ### Source and contributions
 
