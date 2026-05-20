@@ -18,7 +18,7 @@ hash = "45a0039f35c6b0f4376f1e6aa3fdb45ec5d87752169e9335ad83979c4bf4a434"
 
 [[files]]
 file = "config/fancymenu/customization/steamon_title.txt"
-hash = "29c22296c3ed4b0c8e339b45987d92e3f6895feb528ae7b4fd7798c53bf6631d"
+hash = "e5a1ad308c84e3554f2a9e3bd495b5c0aba91db6c9bb5f222883fabbba16b027"
 
 [[files]]
 file = "config/sodium-options.json"
@@ -972,6 +972,16 @@ metafile = true
 [[files]]
 file = "mods/veinmining.pw.toml"
 hash = "f2f23f33862c06cbf23683f034c34c8dfa4580d716a3f385fc3053ceda725087"
+metafile = true
+
+[[files]]
+file = "mods/watermedia-binaries.pw.toml"
+hash = "417338739e92dac7f82b164df5842989f16c9fb7fd79b8cae1e0dff2caa789fc"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "7756678c5600a6d421f39ef00d4a25afd6ac6ba2d76ec9a10bd7536a8d4f8558"
 metafile = true
 
 [[files]]
