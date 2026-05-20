@@ -13,6 +13,14 @@ file = "config/defaultoptions/options.txt"
 hash = "474278b0a1811f31ef9af6b2858a570e560ff99e6eb8fb08cc569ca68ef1220a"
 
 [[files]]
+file = "config/fancymenu/assets/menu.gif"
+hash = "45a0039f35c6b0f4376f1e6aa3fdb45ec5d87752169e9335ad83979c4bf4a434"
+
+[[files]]
+file = "config/fancymenu/customization/steamon_title.txt"
+hash = "29c22296c3ed4b0c8e339b45987d92e3f6895feb528ae7b4fd7798c53bf6631d"
+
+[[files]]
 file = "config/sodium-options.json"
 hash = "f4b8aa3885325230f6362b06eee24a38de2b9551ed6abef964a609edeb6ea6d4"
 
