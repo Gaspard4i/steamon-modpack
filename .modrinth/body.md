@@ -6,40 +6,37 @@
 
 ---
 
+<p><center><img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball01.png" width="40" /></center></p>
+
 <p><center><font size="4"><strong>About this modpack</strong></font></center></p>
 
-<p><center>Steamon is a cozy <strong>Create</strong> × <strong>Cobblemon</strong> pack focused on calm, intentional play: small-scale farming, slow exploration, and Create automation that serves the Pokémon journey instead of the other way around. There are no big-cannon mods, no dungeon swarm packs, no electricity tech tree — only what fits a chill afternoon at the farm or a long-form Cobblemon run.</center></p>
+<p><center>Steamon is a cozy <strong>Create</strong> × <strong>Cobblemon</strong> pack, made for calm and unhurried play.</center></p>
 
-<p><center>The pack ships as <strong>two separate variants</strong> on this Modrinth page:</center></p>
+<p><center>Catch and raise Pokémon, keep a small farm, cook real food, lay down some rails, and wander a bigger overworld. Nothing rushes you. Play it solo for a long quiet run, or together with friends.</center></p>
 
-<ul>
-<li><strong>Steamon Client</strong> — for players. Bundles client performance mods (Sodium, Iris, FerriteCore, etc.), shader-ready, full QoL stack, all Cobblemon UI helpers.</li>
-<li><strong>Steamon Server</strong> — for server hosts. Strips client-only renderers, ships server-side performance mods (Lithium, ServerCore, Noisium) and curated Cobblemon datapacks (extended Pokédex via AllTheMons, gym structures, Radiant variants).</li>
-</ul>
+<p><center><img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball04.png" width="40" /></center></p>
 
-<p><center>Install the Client variant for singleplayer or to connect to a server. Install the Server variant when you host the server.</center></p>
+<p><center><font size="4"><strong>Two variants</strong></font></center></p>
 
----
-
-<p><center><font size="4"><strong>Technical details</strong></font></center></p>
+<p><center>The pack ships as <strong>two separate downloads</strong> on this page:</center></p>
 
 <ul>
-<li>Minecraft <strong>1.21.1</strong>, mod loader <strong>NeoForge 21.1.230</strong>.</li>
-<li>Both variants are <code>.mrpack</code> files — install them via the Modrinth App, Prism Launcher, ATLauncher, or any compatible launcher.</li>
-<li>Recommended: 8 GB RAM minimum for the client (12 GB if you enable the shipped shader). 8 GB minimum for the server, 12 GB for 10+ concurrent players. Java 21 required.</li>
-<li>Source code and build pipeline on <a href="https://github.com/Gaspard4i/steamon-modpack">GitHub</a>. The pack is built with <a href="https://packwiz.infra.link/">packwiz</a> and published automatically to Modrinth via GitHub Actions on every release tag.</li>
+<li><strong>Steamon Client</strong> — for players. Performance mods (Sodium, Iris, FerriteCore), shader-ready, and all the Cobblemon UI helpers.</li>
+<li><strong>Steamon Server</strong> — for hosts. Server-side performance mods (Lithium, ServerCore, Noisium) and curated Cobblemon datapacks: extended Pokédex, gym structures, Radiant variants.</li>
 </ul>
 
----
+<p><center>Grab the Client for singleplayer or to join a server. Grab the Server when you host one.</center></p>
+
+<p><center><img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball05.png" width="40" /></center></p>
 
 <p><center><font size="4"><strong>Some of what's inside</strong></font></center></p>
 
-<p><center>Over 200 mods, but here are the ones that set the tone:</center></p>
+<p><center>Over 200 mods. A few that set the tone:</center></p>
 
 <ul>
-<li><a href="https://modrinth.com/mod/create">Create</a> &amp; <a href="https://modrinth.com/mod/cobblemon">Cobblemon</a> — the two pillars: contraptions and trains on one side, catching and training Pokémon on the other.</li>
-<li><a href="https://modrinth.com/mod/farmers-delight">Farmer's Delight</a> — proper cooking and a reason to keep a farm.</li>
-<li><a href="https://modrinth.com/mod/terralith">Terralith</a> — much prettier, much bigger overworld to explore.</li>
+<li><a href="https://modrinth.com/mod/create">Create</a> &amp; <a href="https://modrinth.com/mod/cobblemon">Cobblemon</a> — the two pillars: contraptions and trains on one side, Pokémon to catch and train on the other.</li>
+<li><a href="https://modrinth.com/mod/farmers-delight">Farmer's Delight</a> — proper cooking, and a reason to keep a farm.</li>
+<li><a href="https://modrinth.com/mod/terralith">Terralith</a> — a prettier, bigger overworld to explore.</li>
 <li><a href="https://modrinth.com/mod/relics-mod">Relics</a> &amp; <a href="https://modrinth.com/mod/artifacts">Artifacts</a> — a light RPG layer with treasure worth hunting for.</li>
 <li><a href="https://modrinth.com/mod/rctmod">Radical Cobblemon Trainers</a> — wandering trainers to battle out in the world.</li>
 <li><a href="https://modrinth.com/mod/jei">JEI</a> — look up any recipe.</li>
@@ -49,16 +46,27 @@
 <li><a href="https://modrinth.com/mod/simple-voice-chat">Simple Voice Chat</a> — talk to people near you.</li>
 </ul>
 
-<p><center>The rest fills in the cozy details: more food, furniture, decoration, quality-of-life and performance. Full mod list is in the file metadata on each version.</center></p>
+<p><center>The rest fills in the cozy details: more food, furniture, decoration, quality-of-life and performance. The full list lives in each version's file metadata.</center></p>
 
----
+<p><center><img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball08.png" width="40" /></center></p>
+
+<p><center><font size="4"><strong>Good to know</strong></font></center></p>
+
+<ul>
+<li>Minecraft <strong>1.21.1</strong>, mod loader <strong>NeoForge 21.1.230</strong>.</li>
+<li>Both variants are <code>.mrpack</code> files — install them through the Modrinth App, Prism Launcher, ATLauncher, or any compatible launcher.</li>
+<li>Recommended: 8 GB RAM for the client (12 GB with the shader on), 8 GB for the server, 12 GB for 10+ players. Java 21 required.</li>
+<li>Built with <a href="https://packwiz.infra.link/">packwiz</a> and published here automatically from <a href="https://github.com/Gaspard4i/steamon-modpack">GitHub</a> on every release.</li>
+</ul>
+
+<p><center><img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball10.png" width="40" /></center></p>
 
 <p><center><font size="4"><strong>Source and contributions</strong></font></center></p>
 
-<p><center>Steamon is open source: <a href="https://github.com/Gaspard4i/steamon-modpack">github.com/Gaspard4i/steamon-modpack</a>. Issues, suggestions and pull requests are welcome via the repository.</center></p>
+<p><center>Steamon is open source: <a href="https://github.com/Gaspard4i/steamon-modpack">github.com/Gaspard4i/steamon-modpack</a>.</center></p>
 
 <p><center>I work on this alone, in my free time, and there are no sponsors — that's normal. If you have an idea or find something broken, drop an issue on the GitHub repo and I'll get to it when I can.</center></p>
 
-<p><center>Modpack curated by <a href="https://github.com/Gaspard4i">Gaspard4i</a>. Every mod, resource pack and shader in this modpack is the work of its respective authors — please support them directly on their Modrinth pages.</center></p>
+<p><center>Every mod, resource pack and shader here is the work of its respective authors — please support them on their own Modrinth pages.</center></p>
 
 <p><center><em>Steamon is not affiliated with Pokémon, Minecraft, Mojang, Microsoft, or the Cobblemon team.</em></center></p>
