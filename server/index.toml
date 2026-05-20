@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/carryon-common.toml"
+hash = "737f93f635f337f1e13a620fcbce616d1b9ffd6e14e863c28182eba2bec396b0"
+
+[[files]]
 file = "config/server.properties"
 hash = "8b208764e1b53206d5a16dd42593f80850ba937a399a808e561f05e2cedf7d63"
 
@@ -562,11 +566,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
-metafile = true
-
-[[files]]
-file = "mods/journeymap.pw.toml"
-hash = "2feb66f2319d0229fb887b5d97f0332adb17edab578e897615bded7890683ac4"
 metafile = true
 
 [[files]]
