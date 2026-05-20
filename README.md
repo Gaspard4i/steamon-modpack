@@ -18,14 +18,31 @@
 
 ## About
 
-Steamon is built around three pillars: **Create** for automation and ingenuity, **Cobblemon** for the full Pokémon experience, and **Sophisticated Storage** for smart inventory management. Everything else is curated to support these three — no kitchen-sink, no hundreds of irrelevant mods.
+Steamon is a cozy **Create** × **Cobblemon** pack, made for calm and unhurried play. Catch and raise Pokémon, keep a small farm, cook real food, lay down some rails, and wander a bigger overworld. Nothing rushes you — play it solo for a long quiet run, or together with friends.
 
 The pack ships as two separate variants on Modrinth:
 
-- **Steamon Client** — for players. Bundles client performance mods (Sodium, Iris, FerriteCore, …), shader-ready, full QoL stack.
-- **Steamon Server** — for server hosts. Strips client-only renderers, ships server performance mods (Lithium, ServerCore, Noisium) and curated Cobblemon datapacks (full Indigo League with gyms, Elite Four, Champion).
+- **Steamon Client** — for players. Performance mods (Sodium, Iris, FerriteCore), shader-ready, and all the Cobblemon UI helpers.
+- **Steamon Server** — for hosts. Server-side performance mods (Lithium, ServerCore, Noisium) and curated Cobblemon datapacks: extended Pokédex, gym structures, Radiant variants.
 
 Install the Client variant for singleplayer or to connect to a server. Install the Server variant when you host the server.
+
+## Some of what's inside
+
+Over 200 mods. A few that set the tone:
+
+- [Create](https://modrinth.com/mod/create) & [Cobblemon](https://modrinth.com/mod/cobblemon) — the two pillars: contraptions and trains on one side, Pokémon to catch and train on the other.
+- [Farmer's Delight](https://modrinth.com/mod/farmers-delight) — proper cooking, and a reason to keep a farm.
+- [Terralith](https://modrinth.com/mod/terralith) — a prettier, bigger overworld to explore.
+- [Relics](https://modrinth.com/mod/relics-mod) & [Artifacts](https://modrinth.com/mod/artifacts) — a light RPG layer with treasure worth hunting for.
+- [Radical Cobblemon Trainers](https://modrinth.com/mod/rctmod) — wandering trainers to battle out in the world.
+- [JEI](https://modrinth.com/mod/jei) — look up any recipe.
+- [GraveStone](https://modrinth.com/mod/gravestone-mod) — get your stuff back when you die.
+- [Lootr](https://modrinth.com/mod/lootr) — everyone gets their own chest loot, no fighting over it.
+- [Open Parties and Claims](https://modrinth.com/mod/open-parties-and-claims) — claim your land and team up with friends.
+- [Simple Voice Chat](https://modrinth.com/mod/simple-voice-chat) — talk to people near you.
+
+The rest fills in the cozy details: more food, furniture, decoration, quality-of-life and performance. The full list lives in each version's file metadata.
 
 ## Technical details
 
@@ -97,17 +114,15 @@ git tag v1.0.0-server && git push origin v1.0.0-server
 
 The `Publish Modpack` GitHub Action builds the `.mrpack` with packwiz and uploads it to Modrinth.
 
-## Roadmap
+## Contributing
 
-- v0.1 — Core mod selection, dual client/server packs, CI pipeline. **Done.**
-- v0.2 — Custom configs (Relics balance, Terralith spawn patch, server tuning).
-- v0.3 — Questbook (FTB Quests or Heracles).
-- v0.4 — Custom Cobblemon spawn rebalance for Terralith biomes.
-- v1.0 — First stable release with full smoke-test in solo and multiplayer.
+I work on this alone, in my free time, and there are no sponsors — that's normal. If you have an idea or find something broken, open an [issue](https://github.com/Gaspard4i/steamon-modpack/issues) and I'll get to it when I can.
 
 ## Credits
 
-Every mod, resource pack and shader in this pack is the work of its respective authors. Modpack curated by [Gaspard4i](https://github.com/Gaspard4i). Thanks to the Cobblemon, Create and Modrinth communities.
+Every mod, resource pack and shader in this pack is the work of its respective authors — please support them on their own Modrinth pages. Modpack curated by [Gaspard4i](https://github.com/Gaspard4i). Thanks to the Cobblemon, Create and Modrinth communities.
+
+Steamon is not affiliated with Pokémon, Minecraft, Mojang, Microsoft, or the Cobblemon team.
 
 ## License
 
