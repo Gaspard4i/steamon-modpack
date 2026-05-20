@@ -695,11 +695,6 @@ hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
 metafile = true
 
 [[files]]
-file = "mods/numismatic-overhaul-reforged-again.pw.toml"
-hash = "756b1fc9d636917c02faae085679cdcbda6e4337d6ae269674dc876fe2ec9ab2"
-metafile = true
-
-[[files]]
 file = "mods/octo-lib.pw.toml"
 hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
