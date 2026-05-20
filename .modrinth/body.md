@@ -70,6 +70,20 @@ I work on this alone, in my free time, and there are no sponsors — that's norm
 
 Every mod, resource pack and shader here is the work of its respective authors — please support them on their own Modrinth pages.
 
+### Credits
+
+Special thanks to the authors whose licenses ask for attribution:
+
+- [Terralith](https://modrinth.com/mod/terralith) by Stardust Labs
+- [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined) by EminGT
+- [ChoiceTheorem's Overhauled Village](https://modrinth.com/mod/ct-overhaul-village) by ChoiceTheorem
+- [Towns and Towers](https://modrinth.com/mod/towns-and-towers) by Biban_Auriu
+- [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations) by FreshLX
+- [Fresh Moves](https://modrinth.com/resourcepack/tras-fresh-player) by Tr4sh_
+- The [Let's Do](https://modrinth.com/user/Cristelknight) series by satisfy
+- [Friends&Foes](https://modrinth.com/mod/friends-and-foes-forge) by Faboslav
+- [Supplementaries](https://modrinth.com/mod/supplementaries) by MehVahdJukaar
+
 <br clear="all" />
 
 <sub><em>Steamon is not affiliated with Pokémon, Minecraft, Mojang, Microsoft, or the Cobblemon team.</em></sub>
