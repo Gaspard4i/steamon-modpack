@@ -53,10 +53,9 @@
 <p><center><font size="4"><strong>Good to know</strong></font></center></p>
 
 <ul>
-<li>Minecraft <strong>1.21.1</strong>, mod loader <strong>NeoForge 21.1.230</strong>.</li>
-<li>Both variants are <code>.mrpack</code> files — install them through the Modrinth App, Prism Launcher, ATLauncher, or any compatible launcher.</li>
-<li>Recommended: 8 GB RAM for the client (12 GB with the shader on), 8 GB for the server, 12 GB for 10+ players. Java 21 required.</li>
-<li>Built with <a href="https://packwiz.infra.link/">packwiz</a> and published here automatically from <a href="https://github.com/Gaspard4i/steamon-modpack">GitHub</a> on every release.</li>
+<li>Minecraft <strong>1.21.1</strong> on <strong>NeoForge</strong>.</li>
+<li>Install through the Modrinth App or any launcher that reads <code>.mrpack</code> files.</li>
+<li>8 GB RAM recommended. Java 21 required.</li>
 </ul>
 
 <p><center><img src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball10.png" width="40" /></center></p>
