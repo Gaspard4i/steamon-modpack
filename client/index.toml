@@ -13,12 +13,68 @@ file = "config/defaultoptions/options.txt"
 hash = "474278b0a1811f31ef9af6b2858a570e560ff99e6eb8fb08cc569ca68ef1220a"
 
 [[files]]
-file = "config/fancymenu/assets/menu.gif"
-hash = "45a0039f35c6b0f4376f1e6aa3fdb45ec5d87752169e9335ad83979c4bf4a434"
+file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
+hash = "062a12017d1fa3626374e0217297858c866f0c0582c5343a209237c196a739df"
 
 [[files]]
-file = "config/fancymenu/customization/steamon_title.txt"
-hash = "e5a1ad308c84e3554f2a9e3bd495b5c0aba91db6c9bb5f222883fabbba16b027"
+file = "config/fancymenu/assets/ancient_gigaton_ball_3d.png"
+hash = "b7b0b728016544125dbf25eabd9bf74b776e4ba4a7cd085c8995b0551a7adb2a"
+
+[[files]]
+file = "config/fancymenu/assets/ancient_great_ball_3d.png"
+hash = "3e5b2c5919032ef10607ab5d6476b9e040fdd13c4bc6b25ebc41ccac5804ad4c"
+
+[[files]]
+file = "config/fancymenu/assets/ancient_poke_ball_3d.png"
+hash = "c24d0097b783eb6d0e73ae141d0abc5bed0e4574ba0c63e73666b403b503b897"
+
+[[files]]
+file = "config/fancymenu/assets/ancient_roseate_ball_3d.png"
+hash = "180ac9e3e7ce3f7ff88cca4f454a0d60f0344ef85e6dd5893924793485561d3e"
+
+[[files]]
+file = "config/fancymenu/assets/ancient_slate_ball_3d1.png"
+hash = "404cec16fba6b330ca4728541ad81f20cf758470416d3ad59da29e2bf3d4baaf"
+
+[[files]]
+file = "config/fancymenu/assets/ancient_ultra_ball_3d.png"
+hash = "cce99131df23d301628f3833fcd83b5db55df32124cd217888cbb48b9e31af54"
+
+[[files]]
+file = "config/fancymenu/assets/ancient_verdant_ball_3d2.png"
+hash = "808895261b290a3d674d9b03d061d0bebc3154959a046eecbaf5253a7c089a0c"
+
+[[files]]
+file = "config/fancymenu/assets/large_cogwheel_3d.png"
+hash = "2d4ccf13f017b4ff434275c705c8a295501fcb57d19c7ebd07a9824d3aa9d550"
+
+[[files]]
+file = "config/fancymenu/assets/steamon_bg.png"
+hash = "a15dc084e5191e087cc8740f6ee41881562b15ad98bfdded15de36e138aa1498"
+
+[[files]]
+file = "config/fancymenu/assets/steamon_title.png"
+hash = "30ad4363e1606017ae005132b5ca61c408f64b17fa1de2f000070ab503befdd1"
+
+[[files]]
+file = "config/fancymenu/assets/wrench_3d.png"
+hash = "1e235c63c5e193e19a326a779b08705b5021d2abfcfab0beae71085ebc43f748"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+
+[[files]]
+file = "config/fancymenu/customization/steamon_main.txt"
+hash = "4ba6a20ab2df9b870e9c4ac6b017f56927efdd80d8be54fe211003884eb99764"
+
+[[files]]
+file = "config/fancymenu/customization/steamon_universal_bg.txt"
+hash = "b3f59e33914593d141886b015e83010993fb988824f321a4c36c79c0c7d7a276"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "1ed8901476f9f89782ed9195412fb586e97a81d0fd0639c7d1993abf7443e21e"
 
 [[files]]
 file = "config/sodium-options.json"
@@ -1133,6 +1189,10 @@ metafile = true
 file = "resourcepacks/xaeroscobblemon.pw.toml"
 hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+hash = "cfeba518b605c66ae6104378ad383879fedb30dcabb935c7968fd6a58d0ca02b"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
