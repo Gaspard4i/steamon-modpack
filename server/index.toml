@@ -229,11 +229,6 @@ hash = "02abffe0573f313139ecb089e243fc2c2c1cb39008a382192bd16809c8ab36d1"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-whiteout.pw.toml"
-hash = "70e25231ad48575e8568f3a410984685d9bd0d44a3e4882404cf14c8fc0ceddf"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
 metafile = true
@@ -630,7 +625,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "0d15dc9a93f6ce2b7d3bfd3ac04cc6d624f9e6d486fdd074486145a7a44d565b"
+hash = "3f1fe26d26eaf43c0d7916ee8f8cdf7714a478fc6e09883e931a1f354a6532f0"
 metafile = true
 
 [[files]]
