@@ -334,8 +334,11 @@ jobs:
           channel = os.environ['CHANNEL']
           mr_url = f"https://modrinth.com/modpack/steamon/version/{version}-{channel}-client"
           color = {'release': 0x57F287, 'beta': 0xFEE75C, 'alpha': 0xED4245}.get(channel, 0xC8B48C)
+          ping_role = '1507416018912284733'  # Modpack Update Pings
           payload = {
             'username': 'Steamon Modpack Changelog',
+            'content': f"<@&{ping_role}> Steamon **{version}** ({channel}) is out!",
+            'allowed_mentions': {'roles': [ping_role]},
             'embeds': [{
               'title': f"Steamon {version} ({channel}) is out",
               'url': mr_url,
