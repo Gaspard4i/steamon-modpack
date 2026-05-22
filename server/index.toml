@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "737f93f635f337f1e13a620fcbce616d1b9ffd6e14e863c28182eba2bec396b0"
+hash = "40b89036f473131bf2ab22430c429296cf0c1a8a2b69b898645725f2643986d5"
 
 [[files]]
 file = "config/server.properties"
