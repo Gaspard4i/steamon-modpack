@@ -54,16 +54,6 @@ hash = "5a21b57951f08465ee9a49e5a7650655291dd441e8ee114c6a7c7caf0a180527"
 metafile = true
 
 [[files]]
-file = "mods/athena-ctm.pw.toml"
-hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
-metafile = true
-
-[[files]]
-file = "mods/auth-me.pw.toml"
-hash = "f3ab8f1de5571de21ab2247fcfedef8a2bf40dcf0b2ac9e90d39689a20b9e7b4"
-metafile = true
-
-[[files]]
 file = "mods/balm.pw.toml"
 hash = "392901b7f79963442553456af846d06f48b4057a054a928adb8a76eea13c6383"
 metafile = true
@@ -76,11 +66,6 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
-metafile = true
-
-[[files]]
-file = "mods/betterf3.pw.toml"
-hash = "c9aca350959a8936b054c7164fb55d789ab1e0d38cff2af48b78f70af2bc0c6d"
 metafile = true
 
 [[files]]
@@ -101,16 +86,6 @@ metafile = true
 [[files]]
 file = "mods/carry-on.pw.toml"
 hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
-metafile = true
-
-[[files]]
-file = "mods/catch-indicator.pw.toml"
-hash = "a3a1ff7678eb9fd2caba07e3b4fb13f69e283a422ec04f03fd1fa54705da6c59"
-metafile = true
-
-[[files]]
-file = "mods/chat-heads.pw.toml"
-hash = "8f0d13cc7d1b993657aa32e4495b9d75cfdd2e7f93f9a10dec522866e18afc6f"
 metafile = true
 
 [[files]]
@@ -166,11 +141,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-create-industries.pw.toml"
 hash = "1293a640844bb49123c1784e6744989c2ac903860b6e869ef1d313ff61632237"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-effectiveness.pw.toml"
-hash = "d71a0bcc855010d6a913e5944a2bd7c2e947e91b9e0ae0ce7b51c1df1aed8a2e"
 metafile = true
 
 [[files]]
@@ -251,11 +221,6 @@ metafile = true
 [[files]]
 file = "mods/collective.pw.toml"
 hash = "34cb9102708e368a116c6b11e98728e0c4b471a6afdf7ce9602f93cb75174509"
-metafile = true
-
-[[files]]
-file = "mods/colorful-hearts.pw.toml"
-hash = "3f6e74711a0c2677548ec3a5ef36a3fbf79b5a9f2b406aab73b1ca678fc518f9"
 metafile = true
 
 [[files]]
@@ -424,11 +389,6 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
-file = "mods/cut-through.pw.toml"
-hash = "4c16ee75d3b04443e96d854eec79344293963e9f4beaaf8e7215023e8ef53b88"
-metafile = true
-
-[[files]]
 file = "mods/dark-paintings.pw.toml"
 hash = "976d09beb4dcab7b2364091459735d425226c6c309fbc3b1c929b308b99476c7"
 metafile = true
@@ -444,11 +404,6 @@ hash = "99f1ddd42145295a0e53c87a4e14185c975e8b2174a53295a9021988f0748081"
 metafile = true
 
 [[files]]
-file = "mods/durability-tooltip.pw.toml"
-hash = "4f70e3a81a737468bc9de58f12ec91b31d9062395a83ec8e5d9fd9c1ddeeb306"
-metafile = true
-
-[[files]]
 file = "mods/easy-villagers.pw.toml"
 hash = "d629988991e4e0c461a5031b8c774c184ef409f5b57187211c3abe5b1a21fc3c"
 metafile = true
@@ -459,18 +414,8 @@ hash = "970a40d27bf934e1deb2147f26d76a08ca9099cb7136bce3e7624c1286a18e76"
 metafile = true
 
 [[files]]
-file = "mods/enchantment-descriptions.pw.toml"
-hash = "c6d69011793e9278c65ba14423fccdbc2421f62676bad2663ba85ad9c386ae28"
-metafile = true
-
-[[files]]
 file = "mods/ends-delight.pw.toml"
 hash = "c31e8aea1f4ddc50d79c6dfa46dec8cbbf1a6108ff74db140baa0395ea4c5766"
-metafile = true
-
-[[files]]
-file = "mods/enhanced-boss-bars-mod.pw.toml"
-hash = "6aecb0c0e632a3e733f785522dee0d0eab272b9ce1f6687414255d9e4d48cd09"
 metafile = true
 
 [[files]]
@@ -526,11 +471,6 @@ metafile = true
 [[files]]
 file = "mods/friends-for-life.pw.toml"
 hash = "b13891d66d7cfbedde66fdfb37c2cb0f190fa52fb1fdf8292078e656106965f3"
-metafile = true
-
-[[files]]
-file = "mods/fusion-connected-textures.pw.toml"
-hash = "9342bd3338c6fbb80f84625e2715a6c443b54daff11826f0dfb9ebb6ab411fd2"
 metafile = true
 
 [[files]]
@@ -769,11 +709,6 @@ hash = "b4cb292255e46d058ef9c4a6bcdf562ae539489a31d0b4bea3718042d98e5c86"
 metafile = true
 
 [[files]]
-file = "mods/reeses-sodium-options.pw.toml"
-hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
-metafile = true
-
-[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "1134f984e86802d46b0194e25526e7c52b6b221e1fbca304491ae318a4d634b5"
 metafile = true
@@ -841,11 +776,6 @@ metafile = true
 [[files]]
 file = "mods/snow-real-magic.pw.toml"
 hash = "c44198b3e1aeab04e29c0b3a6abe9315d2e84aeb2a4f037dc5f906fab575ff3c"
-metafile = true
-
-[[files]]
-file = "mods/sodium.pw.toml"
-hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
 
 [[files]]
