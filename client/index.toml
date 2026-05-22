@@ -70,7 +70,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/steamon_main.txt"
-hash = "4ba6a20ab2df9b870e9c4ac6b017f56927efdd80d8be54fe211003884eb99764"
+hash = "81288a661797cdd64ca39f84f5d4cb8a76541fb113e2a48e602c18b568e062fd"
 
 [[files]]
 file = "config/fancymenu/customization/steamon_universal_bg.txt"
@@ -78,7 +78,7 @@ hash = "b3f59e33914593d141886b015e83010993fb988824f321a4c36c79c0c7d7a276"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "1ed8901476f9f89782ed9195412fb586e97a81d0fd0639c7d1993abf7443e21e"
+hash = "34a76d784b045bc3614fbc1147c3a2d4a3cd749a815df98a5120cf7015b28183"
 
 [[files]]
 file = "config/sodium-options.json"
@@ -675,11 +675,6 @@ hash = "ec8432e5a8dcdaeb7eed2086c52916c41e6311258ae3f2b0aec022d3892c23b7"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
-hash = "ab503e89461dff879ee793253e173625b6ab868f570a371323ef725e567cf5ea"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
@@ -732,11 +727,6 @@ metafile = true
 [[files]]
 file = "mods/lets-do-vinery.pw.toml"
 hash = "535e8e9c6bc184e9771cf4e35795c8f162d89abeb5b9aed9c2ea2988c710776f"
-metafile = true
-
-[[files]]
-file = "mods/libipn.pw.toml"
-hash = "0d2a00252d64ed7d2d9b19994f7accb780304be61f3903d36e810714b414c6cb"
 metafile = true
 
 [[files]]
