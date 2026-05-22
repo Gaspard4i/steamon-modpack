@@ -313,3 +313,40 @@ jobs:
           cat /tmp/mr_resp.json
           echo
           if [ "$HTTP" != "200" ]; then exit 1; fi
+          # Expose the published version id for the Discord step
+          VERSION_ID="$(python3 -c "import json;print(json.load(open('/tmp/mr_resp.json'))['id'])")"
+          echo "MR_VERSION_ID=$VERSION_ID" >> "$GITHUB_ENV"
+
+      - name: Announce on Discord (#changelog)
+        if: steps.meta.outputs.variant == 'client' && env.MR_VERSION_ID != ''
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_CHANGELOG_WEBHOOK }}
+          VERSION: ${{ steps.meta.outputs.version }}
+          CHANNEL: ${{ steps.meta.outputs.channel }}
+        run: |
+          set -euo pipefail
+          if [ -z "${WEBHOOK:-}" ]; then
+            echo "No DISCORD_CHANGELOG_WEBHOOK secret — skipping Discord announce"; exit 0
+          fi
+          python3 << 'PYEOF'
+          import os, json, urllib.request
+          version = os.environ['VERSION']
+          channel = os.environ['CHANNEL']
+          mr_url = f"https://modrinth.com/modpack/steamon/version/{version}-{channel}-client"
+          color = {'release': 0x57F287, 'beta': 0xFEE75C, 'alpha': 0xED4245}.get(channel, 0xC8B48C)
+          payload = {
+            'username': 'Steamon Modpack Changelog',
+            'embeds': [{
+              'title': f"Steamon {version} ({channel}) is out",
+              'url': mr_url,
+              'description': f"A new {channel} build of the Steamon modpack has been published.\n\n[**View changelog & download on Modrinth**]({mr_url})",
+              'color': color,
+              'footer': {'text': 'Create x Cobblemon - 1.21.1 NeoForge'},
+            }],
+          }
+          req = urllib.request.Request(
+            os.environ['WEBHOOK'], data=json.dumps(payload).encode(),
+            headers={'Content-Type': 'application/json', 'User-Agent': 'steamon-ci/1.0'}, method='POST')
+          with urllib.request.urlopen(req) as r:
+            print('Discord webhook HTTP', r.status)
+          PYEOF
