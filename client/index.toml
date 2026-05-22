@@ -9,6 +9,10 @@ file = "config/defaultoptions/extra/config/iris.properties"
 hash = "a89270b1eeef0ce86e0a88ef7799f257997cc804a23f88add8c77b3a701be4c2"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "01b9b2ba545e0626bf3573c2332617aa5ee91f0de22924d58b3b44409014aaac"
+
+[[files]]
 file = "config/defaultoptions/options.txt"
 hash = "474278b0a1811f31ef9af6b2858a570e560ff99e6eb8fb08cc569ca68ef1220a"
 
