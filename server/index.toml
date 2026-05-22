@@ -54,6 +54,11 @@ hash = "5a21b57951f08465ee9a49e5a7650655291dd441e8ee114c6a7c7caf0a180527"
 metafile = true
 
 [[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "3434f9ec77694349b7b83e79ef179be25c8eeae83049a75d154098edb5a19889"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "392901b7f79963442553456af846d06f48b4057a054a928adb8a76eea13c6383"
 metafile = true
@@ -471,6 +476,11 @@ metafile = true
 [[files]]
 file = "mods/friends-for-life.pw.toml"
 hash = "b13891d66d7cfbedde66fdfb37c2cb0f190fa52fb1fdf8292078e656106965f3"
+metafile = true
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "d73f3dd3fec138539b2c819e6a73fbf768cb9d73ddd2fbffa2f8f1bed9126651"
 metafile = true
 
 [[files]]
