@@ -78,7 +78,7 @@ hash = "01b9b2ba545e0626bf3573c2332617aa5ee91f0de22924d58b3b44409014aaac"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "05d73c089f4102d29b55161403012040032921d8cb35618e75bdbf136d52e1f7"
+hash = "d0fe9a8643e1ce34e60eea4fbf3983a853a961d18326df5e9b2467693a7bb555"
 
 [[files]]
 file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
@@ -1251,11 +1251,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/tras-fresh-player.pw.toml"
 hash = "32fe0fe8941110f8fba07ce7768faa1797de6b28e961ab65b483c380fc0a365a"
-metafile = true
-
-[[files]]
-file = "resourcepacks/xaeroscobblemon.pw.toml"
-hash = "8d00514cbd63c8a83fe13119bf36776e30a195de5c47205ea664e57ce1351110"
 metafile = true
 
 [[files]]
