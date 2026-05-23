@@ -256,10 +256,12 @@ jobs:
           print("[depcheck] All mandatory dependencies satisfied")
           PYEOF
 
-      # Server variant: keep the GitHub artifact (fallback / direct .mrpack URL)
-      # AND publish a non-featured version to Modrinth so the panel can target it
-      # via MODRINTH_MODPACK for auto-sync.
-      - name: Upload server artifact
+      # Server variant: the .mrpack is NEVER published to Modrinth (a Modrinth
+      # moderator confirmed only the client pack belongs there). Instead it ships
+      # as a GitHub Release asset — a stable, public, no-auth URL that the panel
+      # targets via MODRINTH_MODPACK for auto-sync. The Actions artifact is kept
+      # as a 90-day fallback (artifacts are not publicly downloadable).
+      - name: Upload server artifact (fallback)
         if: steps.meta.outputs.variant == 'server'
         uses: actions/upload-artifact@v4
         with:
@@ -267,54 +269,31 @@ jobs:
           path: ${{ env.MRPACK_PATH }}
           retention-days: 90
 
-      - name: Publish SERVER to Modrinth (non-featured)
+      - name: Publish SERVER pack as a GitHub Release asset
         if: steps.meta.outputs.variant == 'server'
         env:
-          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-          VARIANT: ${{ steps.meta.outputs.variant }}
-          DISPLAY: ${{ steps.meta.outputs.display }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
         run: |
           set -euo pipefail
-          MRPACK_FILE="$(basename "$MRPACK_PATH")"
-          NAME="Steamon ${DISPLAY} ${VERSION} (${CHANNEL}) [server]"
-          VERSION_NUMBER="${VERSION}-${CHANNEL}-${VARIANT}"
-          echo "Uploading SERVER: $MRPACK_FILE  (version=$VERSION_NUMBER, channel=$CHANNEL)"
-          TOKEN_LEN=${#MODRINTH_TOKEN}
-          if [ "$TOKEN_LEN" -lt 32 ]; then
-            echo "MODRINTH_TOKEN not set or too short — secret missing?"; exit 1
+          TAG="${GITHUB_REF_NAME}"
+          # rename to a clean, stable asset filename (no spaces/encoding surprises)
+          ASSET="Steamon-Server-${VERSION}.mrpack"
+          cp "$MRPACK_PATH" "$ASSET"
+          # create-or-update the release for this server tag, then attach the pack
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$ASSET" --clobber
+          else
+            gh release create "$TAG" "$ASSET" \
+              --title "Steamon Server ${VERSION} (${CHANNEL})" \
+              --notes "Server-side modpack for self-hosting (not published on Modrinth — client only). Point the panel's Modpack URL at the download link below." \
+              --prerelease
           fi
-
-          DATA_JSON=$(VERSION_TYPE="$CHANNEL" python3 -c "
-          import json, os
-          print(json.dumps({
-            'name': '$NAME',
-            'version_number': '$VERSION_NUMBER',
-            'project_id': 'CR2XFGJ4',
-            'dependencies': [],
-            'game_versions': ['1.21.1'],
-            'version_type': os.environ['VERSION_TYPE'],
-            'loaders': ['neoforge'],
-            'featured': False,
-            'status': 'listed',
-            'file_parts': ['$MRPACK_FILE']
-          }))")
-
-          HTTP=$(curl -s -o /tmp/mr_resp_server.json -w "%{http_code}" \
-            -X POST "https://api.modrinth.com/v2/version" \
-            -H "Authorization: $MODRINTH_TOKEN" \
-            -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
-            -F "data=${DATA_JSON};type=application/json" \
-            -F "${MRPACK_FILE}=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
-
-          echo "HTTP: $HTTP"
-          cat /tmp/mr_resp_server.json
-          echo
-          if [ "$HTTP" != "200" ]; then exit 1; fi
-          SERVER_VERSION_ID="$(python3 -c "import json;print(json.load(open('/tmp/mr_resp_server.json'))['id'])")"
-          echo "Server pack published — Modrinth version id: $SERVER_VERSION_ID"
-          echo "::notice title=Server pack on Modrinth::version_id=$SERVER_VERSION_ID — set this in the panel (Modpack section) to enable auto-sync."
+          REPO="${GITHUB_REPOSITORY}"
+          DL_URL="https://github.com/${REPO}/releases/download/${TAG}/${ASSET}"
+          echo "Server pack release asset: $DL_URL"
+          echo "::notice title=Server pack URL::$DL_URL — paste this in the panel (Modpack section) to enable auto-sync."
 
       - name: Publish CLIENT to Modrinth
         if: steps.meta.outputs.variant == 'client'
@@ -327,8 +306,10 @@ jobs:
         run: |
           set -euo pipefail
           MRPACK_FILE="$(basename "$MRPACK_PATH")"
-          NAME="Steamon ${DISPLAY} ${VERSION} (${CHANNEL})"
-          VERSION_NUMBER="${VERSION}-${CHANNEL}-${VARIANT}"
+          NAME="Steamon ${VERSION} (${CHANNEL})"
+          # Modrinth shows only the client pack: keep version_number clean (no
+          # -client/-server suffix), per the Modrinth moderator's request.
+          VERSION_NUMBER="${VERSION}"
           echo "Uploading: $MRPACK_FILE  (version=$VERSION_NUMBER, channel=$CHANNEL)"
           TOKEN_LEN=${#MODRINTH_TOKEN}
           echo "Token length: $TOKEN_LEN"
@@ -382,7 +363,7 @@ jobs:
           import os, json, urllib.request
           version = os.environ['VERSION']
           channel = os.environ['CHANNEL']
-          mr_url = f"https://modrinth.com/modpack/steamon/version/{version}-{channel}-client"
+          mr_url = f"https://modrinth.com/modpack/steamon/version/{version}"
           color = {'release': 0x57F287, 'beta': 0xFEE75C, 'alpha': 0xED4245}.get(channel, 0xC8B48C)
           ping_role = '1507416018912284733'  # Modpack Update Pings
           payload = {
