@@ -164,11 +164,6 @@ hash = "82293e9eed26b7dd2fd8f4a974b87ca294195f800f54e6d457dbeeb816b43bd2"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-pokemon-badges.pw.toml"
-hash = "1f2cd45c3decc1215fca84fb3df356d017f17dbd130f18704fea55772a140adf"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
 hash = "6dc0747f249a105ef38d1a75a74736ec276bbf791a5bafd87a47a93a23b25b43"
 metafile = true
@@ -186,11 +181,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-smartphone.pw.toml"
 hash = "1ac3f2d367d28f725c0c8a8ae248e1031c555e98c0b429256f9b2a4e9bc6f133"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-spawn-alerts.pw.toml"
-hash = "f3a69836d88a8655e1d4a504e92fffcd4252d5740a66f13a95f437fb6efa6a0c"
 metafile = true
 
 [[files]]
@@ -404,6 +394,11 @@ hash = "7e01c6f0728da08b83df626b866ca83e770b80d3213e9107561d4b816069ed37"
 metafile = true
 
 [[files]]
+file = "mods/discord-integration-(di).pw.toml"
+hash = "af8b8c64714dc0ef3fd4ffb12462edabbe7a62295b9a574bb8968b4e62cec28a"
+metafile = true
+
+[[files]]
 file = "mods/double-doors.pw.toml"
 hash = "99f1ddd42145295a0e53c87a4e14185c975e8b2174a53295a9021988f0748081"
 metafile = true
@@ -570,7 +565,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
+hash = "cc244fd35012f737a2c4e08693e81a3d851d7d976a22baff4530af81acb8a6fa"
 metafile = true
 
 [[files]]
@@ -694,11 +689,6 @@ hash = "6812c3faa178cd48c65c5b8e7aeef50bc0b63d8e3b2117065d6179a43d8d3649"
 metafile = true
 
 [[files]]
-file = "mods/radical-gyms-cobblemon.pw.toml"
-hash = "1f2b2182565e431b5e0c0fa7c6991c2debd6ba89e6905ca6518acfb95df821a8"
-metafile = true
-
-[[files]]
 file = "mods/rctapi.pw.toml"
 hash = "885c44754598d945b8fb26f0e509d3ba34560a560687550cdd4750919b43deab"
 metafile = true
@@ -805,7 +795,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
+hash = "5995decc8738d7ddccec218dfa1ed95db9eca5bb64c98fd2cede8bf9bbc837c2"
 metafile = true
 
 [[files]]
