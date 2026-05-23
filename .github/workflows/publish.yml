@@ -256,15 +256,65 @@ jobs:
           print("[depcheck] All mandatory dependencies satisfied")
           PYEOF
 
-      # Server variant is built + smoke-tested but NOT published to Modrinth.
-      # Only the client variant is published on Modrinth (server distributed elsewhere).
-      - name: Upload server artifact (no Modrinth publish)
+      # Server variant: keep the GitHub artifact (fallback / direct .mrpack URL)
+      # AND publish a non-featured version to Modrinth so the panel can target it
+      # via MODRINTH_MODPACK for auto-sync.
+      - name: Upload server artifact
         if: steps.meta.outputs.variant == 'server'
         uses: actions/upload-artifact@v4
         with:
           name: steamon-server-${{ steps.meta.outputs.version }}
           path: ${{ env.MRPACK_PATH }}
           retention-days: 90
+
+      - name: Publish SERVER to Modrinth (non-featured)
+        if: steps.meta.outputs.variant == 'server'
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+          VARIANT: ${{ steps.meta.outputs.variant }}
+          DISPLAY: ${{ steps.meta.outputs.display }}
+          VERSION: ${{ steps.meta.outputs.version }}
+          CHANNEL: ${{ steps.meta.outputs.channel }}
+        run: |
+          set -euo pipefail
+          MRPACK_FILE="$(basename "$MRPACK_PATH")"
+          NAME="Steamon ${DISPLAY} ${VERSION} (${CHANNEL}) [server]"
+          VERSION_NUMBER="${VERSION}-${CHANNEL}-${VARIANT}"
+          echo "Uploading SERVER: $MRPACK_FILE  (version=$VERSION_NUMBER, channel=$CHANNEL)"
+          TOKEN_LEN=${#MODRINTH_TOKEN}
+          if [ "$TOKEN_LEN" -lt 32 ]; then
+            echo "MODRINTH_TOKEN not set or too short — secret missing?"; exit 1
+          fi
+
+          DATA_JSON=$(VERSION_TYPE="$CHANNEL" python3 -c "
+          import json, os
+          print(json.dumps({
+            'name': '$NAME',
+            'version_number': '$VERSION_NUMBER',
+            'project_id': 'CR2XFGJ4',
+            'dependencies': [],
+            'game_versions': ['1.21.1'],
+            'version_type': os.environ['VERSION_TYPE'],
+            'loaders': ['neoforge'],
+            'featured': False,
+            'status': 'listed',
+            'file_parts': ['$MRPACK_FILE']
+          }))")
+
+          HTTP=$(curl -s -o /tmp/mr_resp_server.json -w "%{http_code}" \
+            -X POST "https://api.modrinth.com/v2/version" \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+            -F "data=${DATA_JSON};type=application/json" \
+            -F "${MRPACK_FILE}=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
+
+          echo "HTTP: $HTTP"
+          cat /tmp/mr_resp_server.json
+          echo
+          if [ "$HTTP" != "200" ]; then exit 1; fi
+          SERVER_VERSION_ID="$(python3 -c "import json;print(json.load(open('/tmp/mr_resp_server.json'))['id'])")"
+          echo "Server pack published — Modrinth version id: $SERVER_VERSION_ID"
+          echo "::notice title=Server pack on Modrinth::version_id=$SERVER_VERSION_ID — set this in the panel (Modpack section) to enable auto-sync."
 
       - name: Publish CLIENT to Modrinth
         if: steps.meta.outputs.variant == 'client'
