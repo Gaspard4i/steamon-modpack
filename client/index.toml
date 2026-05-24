@@ -1261,3 +1261,8 @@ hash = "cfeba518b605c66ae6104378ad383879fedb30dcabb935c7968fd6a58d0ca02b"
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "844af68c07eac70b45bb488a7d9af2298cd6f2867d1ad33fd7abe94110dfedb1"
 metafile = true
+
+[[files]]
+file = "world/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
+hash = "a7552a82a8b8ec3148bccd029b054ecc74b2e4d94adddc08184177e89bb34917"
+metafile = true

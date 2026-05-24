@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/bluemap/core.conf"
+hash = "f56ac39a2cef731da32de75c0463f724fd1e3537d3894d12715311ce262abffc"
+
+[[files]]
 file = "config/carryon-common.toml"
 hash = "40b89036f473131bf2ab22430c429296cf0c1a8a2b69b898645725f2643986d5"
 
@@ -921,11 +925,6 @@ metafile = true
 [[files]]
 file = "world/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "a7552a82a8b8ec3148bccd029b054ecc74b2e4d94adddc08184177e89bb34917"
-metafile = true
-
-[[files]]
-file = "world/datapacks/allthemons.pw.toml"
-hash = "199cbf9de616844d09c34f5c60e7025a1310a4a921f4ffdb872e0aba935a47f5"
 metafile = true
 
 [[files]]
