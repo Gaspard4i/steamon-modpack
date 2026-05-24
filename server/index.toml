@@ -108,6 +108,11 @@ hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
 file = "mods/clientsort.pw.toml"
 hash = "89865794f0fbe908f5b5b1c2628df8f9c0aa715313d305f08f922cf7b5c9be9d"
 metafile = true
@@ -735,6 +740,16 @@ metafile = true
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
 hash = "87708c5cf041f2c7eede5dc1a5ee0dd517a13c0c7e8c40c359669a5ffabef7db"
+metafile = true
+
+[[files]]
+file = "mods/saturn.pw.toml"
+hash = "d36d8736123e9d6dd79466ab908e83fc35529d25001b1a6770f22681c1316277"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "6b5e9ad0332e9270c3c5064efeffd64dfa0835e46af476892713f62b4afef018"
 metafile = true
 
 [[files]]
