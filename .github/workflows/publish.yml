@@ -272,7 +272,7 @@ jobs:
           path: ${{ env.MRPACK_PATH }}
           retention-days: 90
 
-      - name: Publish SERVER pack as a GitHub Release asset
+      - name: Update stable "server-latest" release
         if: steps.meta.outputs.variant == 'server'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -280,23 +280,23 @@ jobs:
           CHANNEL: ${{ steps.meta.outputs.channel }}
         run: |
           set -euo pipefail
-          TAG="${GITHUB_REF_NAME}"
-          # rename to a clean, stable asset filename (no spaces/encoding surprises)
-          ASSET="Steamon-Server-${VERSION}.mrpack"
+          # Stable, never-changing server pack URL for the panel's MODRINTH_MODPACK:
+          #   .../releases/download/server-latest/Steamon-Server.mrpack
+          # Fixed tag + fixed asset filename, clobbered each server release, so the
+          # panel never needs its Modpack URL changed when a new version ships.
+          ASSET="Steamon-Server.mrpack"
           cp "$MRPACK_PATH" "$ASSET"
-          # create-or-update the release for this server tag, then attach the pack
-          if gh release view "$TAG" >/dev/null 2>&1; then
-            gh release upload "$TAG" "$ASSET" --clobber
+          NOTES="Always-latest Steamon server pack for self-hosting (not on Modrinth — client only). This download link never changes. Current: ${VERSION} (${CHANNEL}). Point the panel's Modpack URL here for auto-sync."
+          if gh release view server-latest >/dev/null 2>&1; then
+            gh release edit server-latest --title "Steamon (latest server)" --notes "$NOTES"
+            gh release upload server-latest "$ASSET" --clobber
           else
-            gh release create "$TAG" "$ASSET" \
-              --title "Steamon Server ${VERSION} (${CHANNEL})" \
-              --notes "Server-side modpack for self-hosting (not published on Modrinth — client only). Point the panel's Modpack URL at the download link below." \
-              --prerelease
+            gh release create server-latest "$ASSET" --title "Steamon (latest server)" --notes "$NOTES" --prerelease
           fi
           REPO="${GITHUB_REPOSITORY}"
-          DL_URL="https://github.com/${REPO}/releases/download/${TAG}/${ASSET}"
-          echo "Server pack release asset: $DL_URL"
-          echo "::notice title=Server pack URL::$DL_URL — paste this in the panel (Modpack section) to enable auto-sync."
+          DL_URL="https://github.com/${REPO}/releases/download/server-latest/${ASSET}"
+          echo "Stable server pack URL: $DL_URL"
+          echo "::notice title=Server pack URL::$DL_URL — already wired in the panel (Modpack section)."
 
       - name: Publish CLIENT to Modrinth
         if: steps.meta.outputs.variant == 'client'
