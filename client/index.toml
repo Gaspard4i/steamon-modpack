@@ -78,7 +78,7 @@ hash = "01b9b2ba545e0626bf3573c2332617aa5ee91f0de22924d58b3b44409014aaac"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "d0fe9a8643e1ce34e60eea4fbf3983a853a961d18326df5e9b2467693a7bb555"
+hash = "460076277cb1943535df249fe624ec50061e9e710c225e4014fbb917b27da068"
 
 [[files]]
 file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
@@ -1189,6 +1189,11 @@ hash = "03084966c05070b5c4b17cd89234f3c0d813940a2d76b405a6699deac10a0ab8"
 metafile = true
 
 [[files]]
+file = "resourcepacks/allthemons-x-mega-showdown.pw.toml"
+hash = "90a4e4e987b7ae510308bbe2389ae2dcf72a70fbb3e007abacef11b6d2491099"
+metafile = true
+
+[[files]]
 file = "resourcepacks/cobblemon-emissive-ores.pw.toml"
 hash = "ff320cd6d96b0c739a18af1220175c562b15b8c1114aae675718f12bbeee60df"
 metafile = true
@@ -1265,4 +1270,9 @@ metafile = true
 [[files]]
 file = "world/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "a7552a82a8b8ec3148bccd029b054ecc74b2e4d94adddc08184177e89bb34917"
+metafile = true
+
+[[files]]
+file = "world/datapacks/no-creeper-grief.pw.toml"
+hash = "60435af7e2a3e876327b0de2abfa623546990a39b0f4fb0890991e9030cb6809"
 metafile = true

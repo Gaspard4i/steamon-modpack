@@ -936,3 +936,8 @@ metafile = true
 file = "world/datapacks/cobblemon-shoulder-mounts.pw.toml"
 hash = "5ee36f7171dd6339ed48dcb4f8fe2c5a5342b180b804456117cad9993a239730"
 metafile = true
+
+[[files]]
+file = "world/datapacks/no-creeper-grief.pw.toml"
+hash = "60435af7e2a3e876327b0de2abfa623546990a39b0f4fb0890991e9030cb6809"
+metafile = true

@@ -1,0 +1,13 @@
+name = "No Creeper Grief"
+filename = "NoCreeperGrief-[1.21]-v.1.1.0.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/flHpkyzN/versions/BpOATYX7/NoCreeperGrief-%5B1.21%5D-v.1.1.0.zip"
+hash-format = "sha512"
+hash = "f7594269d4614179601d65b4ba1184e1f9438ebc9857c5f220879efee31c27cd6e782031f495809141dab71b4c9cfe288f902429d41d6c6d5b0da15b440fecaa"
+
+[update]
+[update.modrinth]
+mod-id = "flHpkyzN"
+version = "BpOATYX7"
