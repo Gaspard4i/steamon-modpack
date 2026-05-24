@@ -374,10 +374,9 @@ jobs:
           fi
           echo "Stable client URL: https://github.com/${GITHUB_REPOSITORY}/releases/download/latest/${ASSET}"
 
-      - name: Announce update on Discord (#announcements + #changelog)
+      - name: Announce update on Discord (#changelog)
         if: steps.meta.outputs.variant == 'client'
         env:
-          ANNOUNCE_WEBHOOK: ${{ secrets.DISCORD_ANNOUNCEMENTS_WEBHOOK }}
           CHANGELOG_WEBHOOK: ${{ secrets.DISCORD_CHANGELOG_WEBHOOK }}
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
@@ -385,6 +384,9 @@ jobs:
           set -euo pipefail
           python3 << 'PYEOF'
           import os, json, urllib.request
+          webhook = os.environ.get('CHANGELOG_WEBHOOK')
+          if not webhook:
+              print('skip: changelog webhook not set'); raise SystemExit(0)
           version = os.environ['VERSION']
           channel = os.environ['CHANNEL']
           repo = os.environ['GITHUB_REPOSITORY']
@@ -392,34 +394,26 @@ jobs:
           color = {'release': 0x57F287, 'beta': 0xFEE75C, 'alpha': 0xED4245}.get(channel, 0xC8B48C)
           ping_role = '1507416018912284733'  # Modpack Update Pings
 
-          def post(webhook, payload):
-              if not webhook:
-                  print('skip: webhook not set'); return
-              req = urllib.request.Request(
-                  webhook, data=json.dumps(payload).encode(),
-                  headers={'Content-Type': 'application/json', 'User-Agent': 'steamon-ci/1.0'},
-                  method='POST')
-              with urllib.request.urlopen(req) as r:
-                  print('Discord webhook HTTP', r.status)
-
-          embed = {
-            'title': f"Steamon {version} ({channel}) is out",
-            'url': dl_url,
-            'description': (
-              f"A new {channel} build of the Steamon modpack is available.\n\n"
-              f"**Download:** [Steamon-Client.mrpack]({dl_url})\n"
-              f"This link always points to the newest version — just re-download and re-import it in your launcher to update.\n\n"
-              f"See #server-info for how to join."
-            ),
-            'color': color,
-            'footer': {'text': 'Create x Cobblemon - 1.21.1 NeoForge'},
-          }
-          content = f"<@&{ping_role}> A new version of the Steamon modpack is available: **{version}** ({channel})!"
           payload = {
-            'content': content,
+            'username': 'Steamon Modpack Changelog',
+            'content': f"<@&{ping_role}> A new version of the Steamon modpack is available: **{version}** ({channel})!",
             'allowed_mentions': {'roles': [ping_role]},
-            'embeds': [embed],
+            'embeds': [{
+              'title': f"Steamon {version} ({channel}) is out",
+              'url': dl_url,
+              'description': (
+                f"A new {channel} build of the Steamon modpack is available.\n\n"
+                f"**Download:** [Steamon-Client.mrpack]({dl_url})\n"
+                f"This link always points to the newest version — just re-download and re-import it in your launcher to update.\n\n"
+                f"See #server-info for how to join."
+              ),
+              'color': color,
+              'footer': {'text': 'Create x Cobblemon - 1.21.1 NeoForge'},
+            }],
           }
-          post(os.environ.get('ANNOUNCE_WEBHOOK'), {**payload, 'username': 'Steamon Announcements'})
-          post(os.environ.get('CHANGELOG_WEBHOOK'), {**payload, 'username': 'Steamon Modpack Changelog'})
+          req = urllib.request.Request(
+              webhook, data=json.dumps(payload).encode(),
+              headers={'Content-Type': 'application/json', 'User-Agent': 'steamon-ci/1.0'}, method='POST')
+          with urllib.request.urlopen(req) as r:
+              print('Discord webhook HTTP', r.status)
           PYEOF
