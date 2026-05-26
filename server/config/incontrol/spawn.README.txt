@@ -1,12 +1,43 @@
-spawn.json — Steamon hostile spawn control (In Control! mod)
+spawn.json — Steamon hostile spawn control (In Control! mod, 1.21-10.x)
 
-Rule: { "hostile": true, "result": "deny" }
+In Control applies the FIRST matching rule. Order matters.
 
-Denies the NATURAL hostile spawn cycle only (vanilla checkspawn event).
-No "when":"onjoin", so mob spawners, trial spawners, /summon, spawn eggs,
-breeding and infested blocks all keep working. Passive/neutral mobs and
-Friends & Foes critters are untouched.
+Rule 1 — ALLOW hostile natural spawns in the Aether and the Otherside
+(Deeper Darker dimension). These dimensions are meant to be dangerous, so
+their mob ecosystem stays intact.
+  dimensions: aether:the_aether, deeperdarker:otherside
 
-NOTE: In Control! logs ERROR "Invalid keywords for spawn.json: __comment"
-and rejects the whole rule when an unknown key is present. Never put
-comments back into the JSON — keep them here, in this .txt the mod ignores.
+Rule 2 — ALLOW hostile natural spawns in the vanilla Deep Dark biome
+(Overworld). Wardens/sculk areas keep their threat.
+  biome: minecraft:deep_dark
+
+Rule 3 — DENY hostile mobs everywhere else, but ONLY for natural origins:
+  spawntype: natural, chunk_generation, patrol
+
+WHY the "spawntype" filter on the deny rule is REQUIRED:
+In Control's deny check runs on FinalizeSpawnEvent / PositionCheck, which
+fire for EVERY spawn origin including mob-spawner blocks. A bare
+{ "hostile": true, "result": "deny" } would also kill mob-spawner and
+trial-spawner mobs. spawntype is matched against the vanilla MobSpawnType
+enum via valueOf(toUpperCase()), so listing only natural origins keeps the
+rest working.
+
+  KEPT everywhere (still spawn): SPAWNER (cages), TRIGGERED/EVENT (trial
+  spawners), STRUCTURE, SPAWN_EGG, MOB_SUMMONED (/summon, wither, golems),
+  CONVERSION, BREEDING, JOCKEY, REINFORCEMENT, BUCKET, DISPENSER, COMMAND.
+  DENIED only outside Aether/Otherside/deep_dark: NATURAL, CHUNK_GENERATION,
+  PATROL.
+
+Valid MobSpawnType values (1.21.1), any case: natural, chunk_generation,
+spawner, structure, spawn_egg, breeding, mob_summoned, jockey, event,
+conversion, reinforcement, bucket, dispenser, command, patrol, triggered.
+
+Dimension/biome IDs verified against the live world:
+  aether:the_aether        (Aether mod)
+  deeperdarker:otherside   (Deeper Darker mod)
+  minecraft:deep_dark      (vanilla biome)
+
+NOTE: In Control rejects unknown keys (e.g. "__comment") and drops the WHOLE
+rule with "Invalid keywords for spawn.json". Also keep spawner.json = []  —
+a stray trailing comma there crashed the server (strict parser). Never put
+comments in any In Control JSON.

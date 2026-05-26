@@ -1,6 +1,17 @@
 [
   {
+    "dimension": ["aether:the_aether", "deeperdarker:otherside"],
     "hostile": true,
+    "result": "allow"
+  },
+  {
+    "biome": "minecraft:deep_dark",
+    "hostile": true,
+    "result": "allow"
+  },
+  {
+    "hostile": true,
+    "spawntype": ["natural", "chunk_generation", "patrol"],
     "result": "deny"
   }
 ]

@@ -10,11 +10,11 @@ hash = "d7c58fb108b42796de9f5dd974d23caaa2c3d7c38d6ba07308fc26dbbec9cefc"
 
 [[files]]
 file = "config/incontrol/spawn.README.txt"
-hash = "57a91d355fa1a3f66fd28d2c0509f5e71d9abdb615d7a114ba7d25d2fb3671ea"
+hash = "623cdb8a59a1d77cabadaa5dbad53d0b6ae764be3941c229f988a418bd4706ef"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "ab4c727d6494bd956e9b5bbb379f6998a5704b7592631b1e71cd43f94edf568e"
+hash = "ec056d872982ae419d6abb466c9d7c5cb4e88f36105c1ddee4983bc64398e849"
 
 [[files]]
 file = "config/server.properties"
