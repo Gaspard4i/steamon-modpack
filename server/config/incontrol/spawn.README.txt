@@ -1,0 +1,12 @@
+spawn.json — Steamon hostile spawn control (In Control! mod)
+
+Rule: { "hostile": true, "result": "deny" }
+
+Denies the NATURAL hostile spawn cycle only (vanilla checkspawn event).
+No "when":"onjoin", so mob spawners, trial spawners, /summon, spawn eggs,
+breeding and infested blocks all keep working. Passive/neutral mobs and
+Friends & Foes critters are untouched.
+
+NOTE: In Control! logs ERROR "Invalid keywords for spawn.json: __comment"
+and rejects the whole rule when an unknown key is present. Never put
+comments back into the JSON — keep them here, in this .txt the mod ignores.

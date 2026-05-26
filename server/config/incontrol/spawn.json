@@ -1,6 +1,5 @@
 [
   {
-    "__comment": "Steamon is a Create x Cobblemon pack, not a mob-combat pack. This rule denies the NATURAL hostile spawn cycle only. Because it has no 'onjoin', it runs on the vanilla checkspawn event, which is NOT fired by mob spawners, trial spawners, /summon, spawn eggs or breeding -- so dungeon/trial-chamber/infested-block spawns and manual summons (Wither, golems) all keep working. Passive and neutral mobs (animals, Iron/Snow Golem, wolves, Friends & Foes critters) are untouched.",
     "hostile": true,
     "result": "deny"
   }
