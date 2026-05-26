@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/cobblemon/main.json"
+hash = "d7c58fb108b42796de9f5dd974d23caaa2c3d7c38d6ba07308fc26dbbec9cefc"
+
+[[files]]
 file = "config/defaultoptions/extra/config/iris.properties"
 hash = "a89270b1eeef0ce86e0a88ef7799f257997cc804a23f88add8c77b3a701be4c2"
 
@@ -143,6 +147,10 @@ hash = "b3f59e33914593d141886b015e83010993fb988824f321a4c36c79c0c7d7a276"
 [[files]]
 file = "config/fancymenu/options.txt"
 hash = "34a76d784b045bc3614fbc1147c3a2d4a3cd749a815df98a5120cf7015b28183"
+
+[[files]]
+file = "config/incontrol/spawn.json"
+hash = "7195130559a3266f0f4cc0049c2c3d70669f3d1fbbd956b4a7644eeb15888898"
 
 [[files]]
 file = "config/sodium-options.json"
@@ -746,6 +754,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
 hash = "ec8432e5a8dcdaeb7eed2086c52916c41e6311258ae3f2b0aec022d3892c23b7"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "8e90c889394fe3e69d75a8aa8466b74af5ff8a26b755abf90b668dcc225b23d5"
 metafile = true
 
 [[files]]

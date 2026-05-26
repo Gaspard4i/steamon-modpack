@@ -5,6 +5,14 @@ file = "config/carryon-common.toml"
 hash = "40b89036f473131bf2ab22430c429296cf0c1a8a2b69b898645725f2643986d5"
 
 [[files]]
+file = "config/cobblemon/main.json"
+hash = "d7c58fb108b42796de9f5dd974d23caaa2c3d7c38d6ba07308fc26dbbec9cefc"
+
+[[files]]
+file = "config/incontrol/spawn.json"
+hash = "7195130559a3266f0f4cc0049c2c3d70669f3d1fbbd956b4a7644eeb15888898"
+
+[[files]]
 file = "config/server.properties"
 hash = "5f8ebee13e8a01995fbba11c8bef558c86ef3d7d63821a422611e8129d850281"
 
@@ -516,6 +524,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
 hash = "ec8432e5a8dcdaeb7eed2086c52916c41e6311258ae3f2b0aec022d3892c23b7"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "8e90c889394fe3e69d75a8aa8466b74af5ff8a26b755abf90b668dcc225b23d5"
 metafile = true
 
 [[files]]
