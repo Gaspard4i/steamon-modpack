@@ -1,16 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/bluemap/core.conf"
-hash = "f56ac39a2cef731da32de75c0463f724fd1e3537d3894d12715311ce262abffc"
-
-[[files]]
 file = "config/carryon-common.toml"
 hash = "40b89036f473131bf2ab22430c429296cf0c1a8a2b69b898645725f2643986d5"
 
 [[files]]
 file = "config/server.properties"
-hash = "8c614da6c805bbb179d613676cef1901e58e46d4a40d1ef1b3e0b2f1abe644cf"
+hash = "5f8ebee13e8a01995fbba11c8bef558c86ef3d7d63821a422611e8129d850281"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -75,11 +71,6 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
-metafile = true
-
-[[files]]
-file = "mods/bluemap.pw.toml"
-hash = "f33a4720ef4f315b6d1f778039e9f7bdb8f5ef1b58a57d565c30fd1d8adee207"
 metafile = true
 
 [[files]]
