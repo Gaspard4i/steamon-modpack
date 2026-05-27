@@ -1,0 +1,6 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [ { "item": "cobblemon:grass_gem" } ],
+  "result": [ { "item": { "count": 4, "id": "mega_showdown:grass_tera_shard" } } ],
+  "tool": [ { "tag": "steamon:iron_plus_pickaxes" } ]
+}

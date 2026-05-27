@@ -1,0 +1,6 @@
+{
+  "type": "create:cutting",
+  "ingredients": [ { "item": "cobblemon:psychic_gem" } ],
+  "processing_time": 100,
+  "results": [ { "count": 4, "id": "mega_showdown:psychic_tera_shard" } ]
+}
