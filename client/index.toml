@@ -1524,6 +1524,90 @@ file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_yellow_smartphone
 hash = "00c266b3c05abea0c56e1944980bbd2e2929653075734df677101f841befc587"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/everstone.json"
+hash = "3493a82dffbfe3aa84721e31ffa584a01679204d630f5e1ee2cab76c88e9b2c1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_bug.json"
+hash = "c45320072637167cf150e4a5e10cbb09c44b26d4a102a22df355826b4d8c878c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dark.json"
+hash = "387ae4aaaed954db801f3764f106412060d833ac8019bc331379023d2c67bcce"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dragon.json"
+hash = "6f3f294ea7fd3f9215d464ef208e5c6082c9c7bf00eaad7a8771ae242fd70043"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_electric.json"
+hash = "9c8b1261ebf0ea8a38c55b4840ecab5c957659501f51bebf5fc4ada204f338fa"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fairy.json"
+hash = "8f2fc280a1db20890577b5dd9defa2c5535ae729921c17520d5cf124e0488817"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fighting.json"
+hash = "75926d4da511c9cb56536fefd394d2cac7291f0e012f7af38b37d146da49d68a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fire.json"
+hash = "73b3a4eb68da5d50cb7afeacac5209b0ed9d02c40a038353ff7b16e32d1c84dc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_flying.json"
+hash = "85ee0c774e8a9afb0079d36ffcdb03cc5bec148deb5f5c1ba4c406873e41b515"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ghost.json"
+hash = "7beb60de5c599e6e35c7a2e9fff19bc3fe771223888a456c6b53126f6c5291ae"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_grass.json"
+hash = "5fe0d51439d6863eda4601c90832d3fb187da71f0872e122df58a764ffaeff7c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ground.json"
+hash = "5c3ad94238cfde7d6d05cde8b98f70439315062a1e6361d9e80e04808ca3d551"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ice.json"
+hash = "bc1a70d84454ba26c4e7358c0db949db4d697278056b8ef28373144a179a9ce1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_normal.json"
+hash = "b82cff4813ab89f84a643be8a9cab301269ba8702b6dd485f8eb63914cd1af8e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_poison.json"
+hash = "c990524a488b98148888f1859e106132f58aac28edda70e93e3364acc351f554"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_psychic.json"
+hash = "f91cbd52c7714a3ac0d1d792862262b7d3fbd242343f4d97da4384b7c1e480ad"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_rock.json"
+hash = "ea265545ee009a366f24d8d758a9fedf6e89a244e776cc838b10dc31687f3d68"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_steel.json"
+hash = "c13d3711c12fb7b588ed4f2f2049ad23840c642671d2bee060155d81f0a795d2"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_water.json"
+hash = "1e145d3313e3ff7ffb370c2b3261f356bafc7d9706e0dda9d7b5ebec9a757531"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/leftovers.json"
+hash = "fce1a6e3b1cc2f30a05989d01e422911c0351463089c8ab573b3309c4c3c2242"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/lucky_egg.json"
+hash = "bddda225ade1be379d1aa03de7a5f62dab082482e3625a394e02648cb4873aa0"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_desert.json"
 hash = "42505caeb9b2e965a2bf837f6c3c4bbe7fc3b2ad0f0952cd85cc48d4dca0f89f"
 
@@ -1550,6 +1634,10 @@ hash = "fa424fac35a7ca7083e7a15f3c65fa80549d72a578d4dfc05781b1e635515301"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_taiga.json"
 hash = "18430678b044114a09370c866070232b28d73df1adc7c039d3d48ab4f67868b7"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/moa_eggs.json"
+hash = "15524877ba965d49c9f931e2557bb1cafd24595db0efae5aa536d0fb844497a9"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/smartphones.json"
