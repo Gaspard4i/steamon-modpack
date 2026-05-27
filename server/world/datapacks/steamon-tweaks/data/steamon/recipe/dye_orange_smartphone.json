@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "tag": "steamon:smartphones" },
+    { "item": "minecraft:orange_dye" }
+  ],
+  "result": { "id": "cobblemon_smartphone:orange_smartphone", "count": 1 }
+}

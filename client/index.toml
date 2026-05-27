@@ -1372,8 +1372,16 @@ file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_sm
 hash = "a67febb27f217d827c1183b4c043e4c73081170157cdc6311e01f93c92a8f7e4"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone_create.json"
+hash = "7ade71b3331293d2f4c5a0be526623d97571dd605c9c2e09c617b8a0bd9b9aff"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone.json"
 hash = "ce81277f50e899df9ac46fd8e15f228952474ec7ece8126aa7d071e2f6bb6021"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone_create.json"
+hash = "0c3f8018d59122c29a354abc2f1310cfd99254473d94592089728e9bcc42213c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/brown_smartphone.json"
@@ -1390,6 +1398,10 @@ hash = "34502fb18792f8296d98ec26c3e6493497304425220f963ee7c5fac356a3fdc4"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone.json"
 hash = "22ad8f3ec85a1d8f3775870853e19bfb57376f07e6a7d93f91dbe6b947082833"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone_create.json"
+hash = "ce45c3d1525bca326118843ea17d07c22f02b3d38f0ff325e3bfacf0ba8066f5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_blue_smartphone.json"
@@ -1416,6 +1428,10 @@ file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_sma
 hash = "8c0c2531d5c6770be2dd7c2c1ee641848cdc11e95fd00f461ff63d890b00592a"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone_create.json"
+hash = "318cf103458efe0853712d79d0993528ea7167484684ae97f55dbca38b3bb576"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/purple_smartphone.json"
 hash = "c9233600181400d1e9a4a1fbc60889cc620fc95ba5027244a0b034bf8b3762e7"
 
@@ -1424,12 +1440,92 @@ file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smar
 hash = "57c4fcef4f1368cd4fb0b6f9de6ec8bccb280d0429b9591106cdde2a7835c68f"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone_create.json"
+hash = "b86c12fe1444a6bbd626bbe837ba9b1c07ac8257fdcc386bb302965a7a72f65e"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone.json"
 hash = "048ac6d0bbbc3e5d977004f85663f3f87d2ca55083c0d064e46050861b2a6895"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone_create.json"
+hash = "c7b4696122167044c61461861ecba073ddbd8dca2eb49756bdd6fe0933b99b8a"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone.json"
 hash = "147499684d3a0e03747dea1a57e9330b7f1d1593f4b922bd5b6d2d0555093cc0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone_create.json"
+hash = "6219f2246e98195f420f89c5c7c56208b24d64e8aa9ff41a85c1548cc5fc8700"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_black_smartphone.json"
+hash = "ea91bf36f59c1831c2014d2e504b1039b9bb0de1aae017dea3733d7442cf86d6"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_blue_smartphone.json"
+hash = "1aeab262ab28fdcbcaf79a1195dba8ab0a9febc7e96fd56f0d50c1d7448ddfbe"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_brown_smartphone.json"
+hash = "7b647d478d59e39269352d0092f8c25376ff48e2b2b52e3ea289155b2afeacf1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_cyan_smartphone.json"
+hash = "ac5489fabd8770b085e5e652d54a88796eab2ff6fcc26b5dd862343a10e1fbe8"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_gray_smartphone.json"
+hash = "391e7ecaf2fd004ecc61979504bbcb9fccc8b76ad44d8bb3ff8a71f7f32f4e19"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_green_smartphone.json"
+hash = "2da5d321810a38b9a5df10dabbbecbd3990e04b7c3c8b0f29261de270f1683f8"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_light_blue_smartphone.json"
+hash = "569c2e97600f86e41bb64e7f505b12873a1dfdf3df847ef9744e5dcceb93c0f9"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_light_gray_smartphone.json"
+hash = "8074988e0fca467de7ac911dd7a3cbc441ca30f4603874ab87d5974aee87af63"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_lime_smartphone.json"
+hash = "2f413aff9e1f0a3965e041beb7725fa17e990969415cf2617eb1520e50bde0ff"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_magenta_smartphone.json"
+hash = "29a12e7b92cc6cb4cb36498ef0716cfd9891a6f195257d4993fe0f810e3f51f9"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_orange_smartphone.json"
+hash = "85fda8190e71bb8ff6bfb5c7d932a523d8694e3c3e4a9c353a76b2c2e54be2a3"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_pink_smartphone.json"
+hash = "3d34d814dcf5a69f78f7c7fd0b0b1a80b482493097fffd0e70b1b37c8fefd3f5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_purple_smartphone.json"
+hash = "f63f9e0b80fe4dd63713baa59bc14acf19de14d2ef35eed8fc41d61ddf21b3b0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_red_smartphone.json"
+hash = "0da10c09d421a3e2d68abc69d3118ba2c91898d278f8149347939473f6b3f1d7"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_white_smartphone.json"
+hash = "46fa003e97b7c58efd573697811e8f8dfee0e7372fd0fbd3c8812b256e9622c0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_yellow_smartphone.json"
+hash = "00c266b3c05abea0c56e1944980bbd2e2929653075734df677101f841befc587"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/smartphones.json"
+hash = "678ab0023c05dc78ffb447546ebc6e8b7e10492e2fcbffe4e6d88bf487135f2b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/pack.mcmeta"
