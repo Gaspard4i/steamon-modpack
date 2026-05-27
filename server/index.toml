@@ -1197,6 +1197,34 @@ file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_yellow_smartphone
 hash = "00c266b3c05abea0c56e1944980bbd2e2929653075734df677101f841befc587"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_desert.json"
+hash = "42505caeb9b2e965a2bf837f6c3c4bbe7fc3b2ad0f0952cd85cc48d4dca0f89f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_jungle.json"
+hash = "059fb2540b52a206419e59c1444d75e38140f22a7f8f3041a3991cd5369ee731"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_plains.json"
+hash = "4c847549c7cf53746a0192bcb1a6ef73287c2151e5180d6ae66770fcab9504b9"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_savanna.json"
+hash = "17c20fa7c0af21ce2718edf7793543af75d71973c4811d5e5f63e2d622973928"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_snow.json"
+hash = "918872b8373a87df1a67564ea6b24d19cafa1492493c0e648db7eabe3e31bcd3"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_swamp.json"
+hash = "fa424fac35a7ca7083e7a15f3c65fa80549d72a578d4dfc05781b1e635515301"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_taiga.json"
+hash = "18430678b044114a09370c866070232b28d73df1adc7c039d3d48ab4f67868b7"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/smartphones.json"
 hash = "678ab0023c05dc78ffb447546ebc6e8b7e10492e2fcbffe4e6d88bf487135f2b"
 

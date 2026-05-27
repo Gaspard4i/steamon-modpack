@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ENE",
+    "EHE",
+    "EBE"
+  ],
+  "key": {
+    "E": { "item": "minecraft:emerald" },
+    "N": { "item": "minecraft:brown_mushroom" },
+    "H": { "item": "deeperdarker:heart_of_the_deep" },
+    "B": { "item": "minecraft:snowball" }
+  },
+  "result": {
+    "id": "easy_villagers:villager",
+    "components": {
+      "easy_villagers:villager": {
+        "villager": {
+          "id": "minecraft:villager",
+          "Age": 0,
+          "Health": 20.0,
+          "VillagerData": { "type": "minecraft:snow", "profession": "minecraft:none", "level": 1 }
+        }
+      }
+    }
+  }
+}
