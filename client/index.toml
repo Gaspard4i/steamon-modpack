@@ -94,7 +94,7 @@ hash = "e5417fb544735f54037c9f4071fff56adb9e36e4d6d74191aba16f487e683299"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "01b9b2ba545e0626bf3573c2332617aa5ee91f0de22924d58b3b44409014aaac"
+hash = "1694059eec00d88b942be0de6b77d19ebe22fb8cc811fee2f61347a467bc089f"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -219,6 +219,42 @@ hash = "6c37368cdba3b5297d8315f7d894b60a49b8569b638924b124fe9062f622b2bf"
 [[files]]
 file = "config/sodium-options.json"
 hash = "f4b8aa3885325230f6362b06eee24a38de2b9551ed6abef964a609edeb6ea6d4"
+
+[[files]]
+file = "config/sophisticatedbackpacks-server.toml"
+hash = "44208874f05c57d50a389fb36036a3aa89cf45c5de4597cdb898f36e1ea3ed0c"
+
+[[files]]
+file = "config/starterkit.json5"
+hash = "59f438a6e1982085656b80f626c075e68278f56e98582b2daa8bdb4ed4bd6f9d"
+
+[[files]]
+file = "config/starterkit/kits/Starter1.txt"
+hash = "09704e4af9696913643c837bc8106b03bd550b826a0036c6b795543870da3993"
+
+[[files]]
+file = "config/starterkit/kits/Starter2.txt"
+hash = "a1072b6ad1d84233d883c66c3ab1b5d6d2f7c48003b684b6afa8285baafc578b"
+
+[[files]]
+file = "config/starterkit/kits/Starter3.txt"
+hash = "6c2b6c4025fbd62c79201f0cade2d6ab12181e75b25ab687a976590866104257"
+
+[[files]]
+file = "config/starterkit/kits/Starter4.txt"
+hash = "4a0936ef519deb8ea6c54f54519a77c425af19448d9021c6d1cfa75fbdfa4071"
+
+[[files]]
+file = "config/starterkit/kits/Starter5.txt"
+hash = "153e0ef2c31960dd8b09510ae6a17ead52cba83e957e1ab0cf82275f5c96014c"
+
+[[files]]
+file = "config/starterkit/kits/Starter6.txt"
+hash = "31bb1b1f1cf1da1053f8a6b186a6a6234ad69ff000d83ece39ac15c19174e0c1"
+
+[[files]]
+file = "config/starterkit/kits/Starter7.txt"
+hash = "61a6ab8e5099225543117c84161f98600c0bb6ac4600da92669b87807bd9efd0"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -554,6 +590,11 @@ hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
 metafile = true
 
 [[files]]
+file = "mods/create-dynamic-lights.pw.toml"
+hash = "1540aba0979a1a72f051404aafc71ab215e0215b66fdab61ef4cb3bafa7d55f0"
+metafile = true
+
+[[files]]
 file = "mods/create-encased.pw.toml"
 hash = "d3e49a68ea6e6383d2aba36217fa4ac10dcb8d392b7bd616867163174f7c959b"
 metafile = true
@@ -854,6 +895,11 @@ hash = "5367193d3f87b7bc5a81bcd64a5b96a843e76d4df7a83c8bb7e1911aa82dd52e"
 metafile = true
 
 [[files]]
+file = "mods/just-zoom.pw.toml"
+hash = "f565820169e3cd71f18fd0b18eab2405bc400668813d04f3f3eb75b6c8924bcc"
+metafile = true
+
+[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "c8467cb6639000d1be9e801702e028fd2ce9c0dce6f35e1be4c9264667c9efe6"
 metafile = true
@@ -1114,6 +1160,16 @@ hash = "c44198b3e1aeab04e29c0b3a6abe9315d2e84aeb2a4f037dc5f906fab575ff3c"
 metafile = true
 
 [[files]]
+file = "mods/sodium-dynamic-lights.pw.toml"
+hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
+metafile = true
+
+[[files]]
+file = "mods/sodium-options-api.pw.toml"
+hash = "d193173f0f5dfb4a921d44e29e8d5cee656dd3a40872939069715bb482b66fc9"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
 hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
@@ -1146,6 +1202,11 @@ metafile = true
 [[files]]
 file = "mods/stack-refill.pw.toml"
 hash = "00da2960ca396b98aee61d0b3b73bff01ed2ae22569df718f5f1028a04819bf6"
+metafile = true
+
+[[files]]
+file = "mods/starter-kit.pw.toml"
+hash = "184c63d81d401e2e8b1e63d446afeaa577e4836cd29c147edff387a57f08f9e4"
 metafile = true
 
 [[files]]

@@ -4,6 +4,19 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.1] - 2026-05-27
+
+### Added
+- **Starter Kit** (server): every new player gets a random kit on first join (1 of 7 variants) —
+  a Pokédex (random color), 10 Poké Balls, Running Shoes, a Sophisticated Backpack, 10 Oran Berries,
+  and 4 random-color Apricorn seeds. Admins can re-give with `/sk give <player> <kit>`.
+- **Just Zoom** (client): zoom keybind set to **C**, adjustable with the scroll wheel.
+- **Sodium Dynamic Lights** + **Create: Dynamic Lights** (client): held/dropped light-emitting items
+  (and Create light sources) now light up their surroundings.
+
+### Changed
+- Sophisticated Backpacks are now owner-locked (other players can't open them).
+
 ## [1.0.0] - 2026-05-27 — First stable release
 
 Out of beta. Full recap of the pack and everything that changed across the betas.
