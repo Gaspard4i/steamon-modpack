@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cobblemon:elixir"
+    },
+    {
+      "item": "cobblemon:pep_up_flower"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:max_elixir"
+    }
+  ]
+}

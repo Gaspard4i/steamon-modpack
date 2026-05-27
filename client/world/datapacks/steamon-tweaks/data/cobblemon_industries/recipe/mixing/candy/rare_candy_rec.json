@@ -1,0 +1,6 @@
+{
+  "neoforge:conditions": [ { "type": "neoforge:false" } ],
+  "type": "create:mixing",
+  "ingredients": [ { "item": "cobblemon:exp_candy_xl" } ],
+  "results": [ { "id": "cobblemon:rare_candy" } ]
+}

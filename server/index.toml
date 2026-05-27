@@ -1041,12 +1041,16 @@ hash = "60435af7e2a3e876327b0de2abfa623546990a39b0f4fb0890991e9030cb6809"
 metafile = true
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_industries/recipe/mixing/candy/rare_candy_rec.json"
+hash = "9f36eb59897f07952619c1e72017551d383f5dc037f1b7924d0647934e6d47df"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone.json"
 hash = "a67febb27f217d827c1183b4c043e4c73081170157cdc6311e01f93c92a8f7e4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone_create.json"
-hash = "7ade71b3331293d2f4c5a0be526623d97571dd605c9c2e09c617b8a0bd9b9aff"
+hash = "57729396cd133e696c51d91f2bbfea544c7d769c9ef352ca3a2a542a9e27b20a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone.json"
@@ -1054,7 +1058,7 @@ hash = "ce81277f50e899df9ac46fd8e15f228952474ec7ece8126aa7d071e2f6bb6021"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone_create.json"
-hash = "0c3f8018d59122c29a354abc2f1310cfd99254473d94592089728e9bcc42213c"
+hash = "752042acefe83da857ab463cb858c2153054cf0f77f04ef8e47666ef7300d5d4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/brown_smartphone.json"
@@ -1074,7 +1078,7 @@ hash = "22ad8f3ec85a1d8f3775870853e19bfb57376f07e6a7d93f91dbe6b947082833"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone_create.json"
-hash = "ce45c3d1525bca326118843ea17d07c22f02b3d38f0ff325e3bfacf0ba8066f5"
+hash = "22c7afc49defd21b3f1554ee65522f1f3b54647f35d1e928383a215bd5bec424"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_blue_smartphone.json"
@@ -1102,7 +1106,7 @@ hash = "8c0c2531d5c6770be2dd7c2c1ee641848cdc11e95fd00f461ff63d890b00592a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone_create.json"
-hash = "318cf103458efe0853712d79d0993528ea7167484684ae97f55dbca38b3bb576"
+hash = "ce169b6543e62aac23472e6cd8179f3f3dbd56ddad2e0111dae1d3848e50f39d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/purple_smartphone.json"
@@ -1114,7 +1118,7 @@ hash = "57c4fcef4f1368cd4fb0b6f9de6ec8bccb280d0429b9591106cdde2a7835c68f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone_create.json"
-hash = "b86c12fe1444a6bbd626bbe837ba9b1c07ac8257fdcc386bb302965a7a72f65e"
+hash = "163b6c0260433be9a9c515da3f111b1d3685be539916f84ddec6405bdd74ea21"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone.json"
@@ -1122,7 +1126,7 @@ hash = "048ac6d0bbbc3e5d977004f85663f3f87d2ca55083c0d064e46050861b2a6895"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone_create.json"
-hash = "c7b4696122167044c61461861ecba073ddbd8dca2eb49756bdd6fe0933b99b8a"
+hash = "71121ea47b3a3fb290469e006d9f1c4c74bf3968d3328fee25af62f27c6ef3f0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone.json"
@@ -1130,7 +1134,11 @@ hash = "147499684d3a0e03747dea1a57e9330b7f1d1593f4b922bd5b6d2d0555093cc0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone_create.json"
-hash = "6219f2246e98195f420f89c5c7c56208b24d64e8aa9ff41a85c1548cc5fc8700"
+hash = "9d60f3c67e9c3e3ea8d18073f08f1d94990f69f53ec03cb5d413a7f882f4930e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_witherrose.json"
+hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_black_smartphone.json"
@@ -1353,6 +1361,138 @@ file = "world/datapacks/steamon-tweaks/data/steamon/recipe/lucky_egg.json"
 hash = "bddda225ade1be379d1aa03de7a5f62dab082482e3625a394e02648cb4873aa0"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_antidote.json"
+hash = "7cc9910915fac77308b62c9485d6a3e42ecbab0dd4a22f0bdbff6024cebece3a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_awakening.json"
+hash = "775479ba3eda5e6b355f9c550886a7dae09bb67010997e5602a2cb171792c819"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_burn_heal.json"
+hash = "9be338f082d5d7e9ad283e17cbfe8568c5a6e0f8484734bd7243662c15aaaefc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_calcium.json"
+hash = "6045db362a24ec53afa82a96f2d0b71486b36fb3b2de52021d45ad2af11908f7"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_carbos.json"
+hash = "f5739b337e5b118ea6e3b20248ff141c3d6022c5366beeb510d7c41706b38ab5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_elixir.json"
+hash = "6aab04a5bc4a3df1930ad8c0a90857b1b37d125c6002fed255312d228bb6bbfd"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_ether.json"
+hash = "c304dd11b5960026dbdad2f7a91c7e6b646842542194049e13eb40a263855fa4"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_full_heal.json"
+hash = "71512e514e6be4098d0de1b706f692a1ae6385dd13d0042f04c2af5530c9c355"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_full_restore.json"
+hash = "044b352353e32ee6d0c41fa98bed90479cc7c487a5ba30e2ead562e5d1262c6a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_hp_up.json"
+hash = "e139e482f80990caf9f30c5ec2db8d99d4e94334010c6e49f922893aa509c087"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_hyper_potion.json"
+hash = "86c8c4311ab749e3c587d05ebfcd8c6a62194d603339020cb0f31e823aad504c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_ice_heal.json"
+hash = "810ae05e845f62f3f2b452394a4fce9e356bcd415fa9a59e257dec636e07afa5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_iron.json"
+hash = "16a9f1952ef6ea93a01879841bf04a8700b555bcb5f8c3e6f5724f79f1f3c425"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_max_elixir.json"
+hash = "384bbe64b7b0813028bd40ece58cf6f1b84ca4cda8739f9f2a2cfd617e49b418"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_max_ether.json"
+hash = "039238e54a675c2ad222371ba82fa9b66f7c7e0d1f55d85918050d3778a3bde1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_max_potion.json"
+hash = "fd413aff7f7e09f8b48f99882d6df0a9d2f50c8e53c06099d24453ea0244a97b"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_max_revive.json"
+hash = "95603761598d23dd5ca27fce1f150dcf60d6ab6a7de1ea266f34716c17ab2671"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_medicinal_brew.json"
+hash = "a1e6eecc8c812dc44e54c7e61704043f6846abd3a13f762b3c191199bae3e787"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_paralyze_heal.json"
+hash = "eefea761989bc024f0f57e2486e403cf6108720765d8e18925535c06c79215c1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_potion.json"
+hash = "a57bacfe2dec62c664f37e6ee41aaccc8b088c0b1771dbf769d228c4423eb908"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_pp_max.json"
+hash = "ae1318aced5fce211574bad122ee07ec510ec519f1ded572db12d90d96d253ff"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_pp_up.json"
+hash = "959f1ba6e7695ceea9155c5d6eeb7cc5eec3f0507ba33742ce533a5446b892fb"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_protein.json"
+hash = "fcc309e324a686167fe8f768255c1f5e4d22627e5609213a162d5568a4b74bd2"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_revive.json"
+hash = "75524f7fdde6800102883b6fab5a80eaf1acf690f4b124edde61173be337926d"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_super_potion.json"
+hash = "46f585ccc99fde6aa17649f6710f851775064610b0c18ca8e7190d30f05d9147"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_throat_spray.json"
+hash = "bc9e7c4868f7c3882e349fe778dee8fa4f337d129fd0c81ff0d66d2dc63638cb"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_zinc.json"
+hash = "6a961adbff75f31c93ed6db8cebd31966cf31d54c71fd2fac33f86bef2795ab0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/nether_star_dupe.json"
+hash = "a26151838846864431106fe250d73d936a99b48e488d74ebdfb199b04ad41a23"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/rare_candy.json"
+hash = "591b1ee8e3addb41fc48ec43975523d9359e9ca9ae13cae86ee531b3a84e15a3"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/skeleton_skull.json"
+hash = "f3f5d41f8df974be57ef71918642c6f946847787417f9f9e949e42593d10d28f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sweet_apple.json"
+hash = "4a3367d4cfec3715dd045bd41c6835f58fa6cc3aa0a1e9d5c263d946f4ff1776"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/syrupy_apple.json"
+hash = "5053936455dedbad51991f44f6f8e094b29d8cfbcb073bd70669b12018745bd9"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tart_apple.json"
+hash = "5a508e02297395ed3f259c41b4e1c2b29f3fedc401cbd3a6caff2c90593711e2"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_bug_cutting.json"
 hash = "a2af1a8f5c6d91081bcbb62e23cf2f7e0b84b0e6b0190a4776ea32932fb45ad6"
 
@@ -1505,32 +1645,20 @@ file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_water_saw.json"
 hash = "7fc1d2c8c120ccae9085189cd090fa2e20ff2e813f8b65dafb1529776a8f1eb4"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_desert.json"
-hash = "42505caeb9b2e965a2bf837f6c3c4bbe7fc3b2ad0f0952cd85cc48d4dca0f89f"
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager.json"
+hash = "fe58dee0bdc93d100737ca92b04ccfd33e671b9799a8146b37568ffcfebfeabe"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_jungle.json"
-hash = "059fb2540b52a206419e59c1444d75e38140f22a7f8f3041a3991cd5369ee731"
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wither_skull_assembly.json"
+hash = "1c0ef9a677fa7da83d91743ddc438a7c6b4879c11513dccd808704aa18f70eba"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_plains.json"
-hash = "4c847549c7cf53746a0192bcb1a6ef73287c2151e5180d6ae66770fcab9504b9"
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wither_skull_mixing.json"
+hash = "43880e86b4de859c9fa501accf34bfaf30c02d84779bc87236a9093f18509749"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_savanna.json"
-hash = "17c20fa7c0af21ce2718edf7793543af75d71973c4811d5e5f63e2d622973928"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_snow.json"
-hash = "918872b8373a87df1a67564ea6b24d19cafa1492493c0e648db7eabe3e31bcd3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_swamp.json"
-hash = "fa424fac35a7ca7083e7a15f3c65fa80549d72a578d4dfc05781b1e635515301"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager_taiga.json"
-hash = "18430678b044114a09370c866070232b28d73df1adc7c039d3d48ab4f67868b7"
+file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/diamond_plus_knives.json"
+hash = "cbf8c5af06afa371e3d1d98969ca63a68ecd9a6840bf39432c99952a6f4dd4a3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/iron_plus_pickaxes.json"
@@ -1539,6 +1667,10 @@ hash = "54452d178ac991973eeb36df6ee904479354050e809ea58c374de8640f4bc0b8"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/moa_eggs.json"
 hash = "15524877ba965d49c9f931e2557bb1cafd24595db0efae5aa536d0fb844497a9"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/pokefinders.json"
+hash = "6f1eab0bbfebed8afbbc84a78603d4787c391b081370756803508fd22e433328"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/smartphones.json"

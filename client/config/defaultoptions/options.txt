@@ -35,3 +35,4 @@ soundCategory_neutral:0.704225352112676
 soundCategory_player:0.6549295774647887
 soundCategory_ambient:0.2517605633802817
 soundCategory_voice:1.0
+tutorialStep:none

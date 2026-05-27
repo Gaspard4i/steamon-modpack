@@ -1,0 +1,50 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "cobblemon:exp_candy_xl" },
+  "transitional_item": { "id": "cobblemon:exp_candy_xl" },
+  "loops": 1,
+  "results": [
+    { "id": "cobblemon:rare_candy" }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "cobblemon:exp_candy_xl" },
+        { "tag": "cobblemon:apricorns" }
+      ],
+      "results": [ { "id": "cobblemon:exp_candy_xl" } ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "cobblemon:exp_candy_xl" },
+        { "type": "neoforge:tag", "amount": 750, "tag": "c:honey" }
+      ],
+      "results": [ { "id": "cobblemon:exp_candy_xl" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "cobblemon:exp_candy_xl" },
+        { "item": "minecraft:paper" }
+      ],
+      "results": [ { "id": "cobblemon:exp_candy_xl" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "cobblemon:exp_candy_xl" },
+        { "item": "minecraft:blue_dye" }
+      ],
+      "results": [ { "id": "cobblemon:exp_candy_xl" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        { "item": "cobblemon:exp_candy_xl" }
+      ],
+      "results": [ { "id": "cobblemon:exp_candy_xl" } ]
+    }
+  ]
+}

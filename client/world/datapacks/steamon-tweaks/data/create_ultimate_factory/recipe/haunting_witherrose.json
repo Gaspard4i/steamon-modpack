@@ -1,0 +1,8 @@
+{
+  "type": "create:haunting",
+  "ingredients": [ { "item": "minecraft:poppy" } ],
+  "results": [
+    { "id": "minecraft:wither_rose", "chance": 0.01 },
+    { "id": "supplementaries:ash", "chance": 0.99 }
+  ]
+}

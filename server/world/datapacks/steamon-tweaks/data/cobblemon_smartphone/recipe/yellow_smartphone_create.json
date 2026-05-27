@@ -9,7 +9,7 @@
   ],
   "key": {
     "A": { "item": "cobblemon:yellow_apricorn" },
-    "P": { "item": "cobblenav:pokefinder_item_yellow" },
+    "P": { "tag": "steamon:pokefinders" },
     "G": { "item": "minecraft:tinted_glass" },
     "W": { "item": "waystones:warp_stone" },
     "H": { "item": "cobblemon:healing_machine" },

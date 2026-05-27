@@ -1,0 +1,12 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [ { "item": "minecraft:bone_block" } ],
+  "result": [
+    { "item": { "count": 1, "id": "minecraft:skeleton_skull" } },
+    { "chance": 0.15, "item": { "count": 1, "id": "minecraft:bone_meal" } }
+  ],
+  "tool": [
+    { "tag": "steamon:iron_plus_pickaxes" },
+    { "tag": "steamon:diamond_plus_knives" }
+  ]
+}

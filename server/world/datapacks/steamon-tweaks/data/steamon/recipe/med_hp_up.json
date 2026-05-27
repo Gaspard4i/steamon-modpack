@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cobblemon:pp_up"
+    },
+    {
+      "item": "cobblemon:pomeg_berry"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:hp_up"
+    }
+  ]
+}

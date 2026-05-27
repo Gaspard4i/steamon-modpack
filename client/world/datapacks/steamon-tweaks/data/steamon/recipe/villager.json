@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ENE",
+    "EHE",
+    "ECE"
+  ],
+  "key": {
+    "E": { "item": "minecraft:emerald" },
+    "N": { "item": "minecraft:brown_mushroom" },
+    "H": { "item": "deeperdarker:heart_of_the_deep" },
+    "C": { "tag": "c:crops" }
+  },
+  "result": { "id": "easy_villagers:villager", "count": 1 }
+}

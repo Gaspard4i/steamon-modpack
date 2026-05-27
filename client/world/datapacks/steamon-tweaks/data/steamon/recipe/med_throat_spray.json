@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cobblemon:potion"
+    },
+    {
+      "item": "cobblemon:petaya_berry"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:throat_spray"
+    }
+  ]
+}
