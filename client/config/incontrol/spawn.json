@@ -1,5 +1,10 @@
 [
   {
+    "mob": "cobblemon:pokemon",
+    "dimension": ["deeperdarker:otherside"],
+    "result": "deny"
+  },
+  {
     "dimension": ["aether:the_aether", "deeperdarker:otherside"],
     "hostile": true,
     "result": "allow"
