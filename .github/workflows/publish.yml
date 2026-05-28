@@ -353,8 +353,9 @@ jobs:
 
       # CurseForge accepts the same .mrpack directly (no conversion). Uploaded via
       # the legacy upload API: POST /api/projects/<id>/upload-file with a JSON
-      # `metadata` part + the file. gameVersions are NUMERIC ids (not strings):
-      #   1.21.1 = 12735, NeoForge loader = 10150 (from /api/game/versions).
+      # `metadata` part + the file. gameVersions are NUMERIC ids (not strings).
+      # For MODPACKS the 1.21.1 id must come from the "Minecraft 1.21" type
+      # (id 11779) — NOT the orphan id 12735, which errors 1009. NeoForge = 10150.
       # This step is a no-op until the repo variable CURSEFORGE_ID is set, so the
       # CurseForge project can be created later without touching this workflow.
       - name: Publish CLIENT to CurseForge
@@ -378,7 +379,7 @@ jobs:
             'changelogType': 'markdown',
             'displayName': 'Steamon ' + os.environ['VERSION'] + ' (' + os.environ['CHANNEL'] + ')',
             'releaseType': os.environ['CHANNEL'],   # alpha|beta|release maps 1:1
-            'gameVersions': [12735, 10150],          # MC 1.21.1 + NeoForge loader
+            'gameVersions': [11779, 10150],          # MC 1.21.1 (modpack type) + NeoForge loader
           }))")
           echo "CurseForge metadata: $METADATA_JSON"
 
