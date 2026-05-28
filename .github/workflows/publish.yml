@@ -351,6 +351,48 @@ jobs:
           VERSION_ID="$(python3 -c "import json;print(json.load(open('/tmp/mr_resp.json'))['id'])")"
           echo "MR_VERSION_ID=$VERSION_ID" >> "$GITHUB_ENV"
 
+      # CurseForge accepts the same .mrpack directly (no conversion). Uploaded via
+      # the legacy upload API: POST /api/projects/<id>/upload-file with a JSON
+      # `metadata` part + the file. gameVersions are NUMERIC ids (not strings):
+      #   1.21.1 = 12735, NeoForge loader = 10150 (from /api/game/versions).
+      # This step is a no-op until the repo variable CURSEFORGE_ID is set, so the
+      # CurseForge project can be created later without touching this workflow.
+      - name: Publish CLIENT to CurseForge
+        if: steps.meta.outputs.variant == 'client' && vars.CURSEFORGE_ID != ''
+        env:
+          CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          CURSEFORGE_ID: ${{ vars.CURSEFORGE_ID }}
+          VERSION: ${{ steps.meta.outputs.version }}
+          CHANNEL: ${{ steps.meta.outputs.channel }}
+        run: |
+          set -euo pipefail
+          if [ -z "${CURSEFORGE_TOKEN:-}" ]; then
+            echo "CURSEFORGE_TOKEN secret missing — skipping CurseForge publish."; exit 0
+          fi
+          # Changelog: reuse the same English notes pushed everywhere else.
+          CHANGELOG="A new ${CHANNEL} build of the Steamon modpack. See the GitHub repo for the full per-version changelog."
+          METADATA_JSON=$(VERSION="$VERSION" CHANNEL="$CHANNEL" CHANGELOG="$CHANGELOG" python3 -c "
+          import json, os
+          print(json.dumps({
+            'changelog': os.environ['CHANGELOG'],
+            'changelogType': 'markdown',
+            'displayName': 'Steamon ' + os.environ['VERSION'] + ' (' + os.environ['CHANNEL'] + ')',
+            'releaseType': os.environ['CHANNEL'],   # alpha|beta|release maps 1:1
+            'gameVersions': [12735, 10150],          # MC 1.21.1 + NeoForge loader
+          }))")
+          echo "CurseForge metadata: $METADATA_JSON"
+
+          HTTP=$(curl -s -o /tmp/cf_resp.json -w "%{http_code}" \
+            -X POST "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/upload-file" \
+            -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
+            -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+            -F "metadata=${METADATA_JSON};type=application/json" \
+            -F "file=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
+          echo "CurseForge HTTP: $HTTP"
+          cat /tmp/cf_resp.json; echo
+          # 200/201 = success (returns the new fileId). Anything else fails the job.
+          if [ "$HTTP" != "200" ] && [ "$HTTP" != "201" ]; then exit 1; fi
+
       - name: Update stable "latest" client release
         if: steps.meta.outputs.variant == 'client'
         env:
