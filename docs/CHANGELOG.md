@@ -4,6 +4,15 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.4] - 2026-05-28
+
+### Fixed
+- **Relics research screen no longer flickers** (client). ImmediatelyFast's `enhanced_batching`
+  (it batches GUI draw calls to save performance) was breaking Relics' custom research /
+  ability-unlock puzzle screen, making it flash/blink. Batching is now disabled in
+  `config/immediatelyfast.json` — the screen renders cleanly. Negligible perf impact, and
+  it also avoids the same glitch on other complex modded GUIs.
+
 ## [1.0.3] - 2026-05-28
 
 ### Added

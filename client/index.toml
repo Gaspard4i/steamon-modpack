@@ -181,6 +181,10 @@ file = "config/gravestone-server.toml"
 hash = "427bdf6725b448f596e78da5108e5ae06777e4b7a24732f2e1b63621d62b1322"
 
 [[files]]
+file = "config/immediatelyfast.json"
+hash = "5377a8bda43974346d9c613eaf69d0e1714a7b0b07bd5381c2acc4fc3033430c"
+
+[[files]]
 file = "config/incontrol/spawn.json"
 hash = "5678099a251a5093bf616bda4fbd995a558d5a0a1a31a435a26f1b5b2348f955"
 
