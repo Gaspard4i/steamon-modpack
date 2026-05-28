@@ -96,7 +96,6 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-key_key.trade_cycling.cycle_trades:key.keyboard.c
 key_key.ponder.ponder:key.keyboard.w
 key_gui.xaero_minimap_settings:key.keyboard.y
 key_gui.xaero_minimap_server_profiles:key.keyboard.unknown

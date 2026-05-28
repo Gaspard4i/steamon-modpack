@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "b841de321ba836a06ed3391fa6d01441aae4c3dc36546c9912f488ad67b5caa6"
+hash = "ac50fa1d4c55e1f850eaf27bd7f24260caf507f3feca46412609fe57b5b23928"
 
 [[files]]
 file = "config/cobblemon/main.json"
@@ -38,7 +38,7 @@ hash = "623cdb8a59a1d77cabadaa5dbad53d0b6ae764be3941c229f988a418bd4706ef"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "d2e5617e1abb28a8813d4165a480b775b53a7b7f8f08c60d43eb2b6bb48fb49b"
+hash = "5678099a251a5093bf616bda4fbd995a558d5a0a1a31a435a26f1b5b2348f955"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -997,11 +997,6 @@ hash = "9bf9ab019562d204c452dd282b9a835632ffe88fdad6f20a88326da546614aaf"
 metafile = true
 
 [[files]]
-file = "mods/trade-cycling.pw.toml"
-hash = "1ce973c231d9d6a7e788f5a2eb0797a0f5b8beef318d70f97931309ff7ef9abe"
-metafile = true
-
-[[files]]
 file = "mods/tree-harvester.pw.toml"
 hash = "f5b816b8de8c237a6a7b51fda8323627a995796589fc6934ed4cd15e7f40e55a"
 metafile = true
@@ -1180,6 +1175,14 @@ hash = "9d60f3c67e9c3e3ea8d18073f08f1d94990f69f53ec03cb5d413a7f882f4930e"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_witherrose.json"
 hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/blank_z.json"
+hash = "bdb3be849e6abb8ac9b311ada03fbfd1a190a350c8a7834c6b9d32b9c55cb3bb"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/blank_z_deploying.json"
+hash = "fa67e48de6423fe8478679fedcedaa330846268db14c2cf36e1bf9a53b025f6e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_black_smartphone.json"
@@ -1394,6 +1397,18 @@ file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_water_from_shards
 hash = "e464a8fb6515b09812cd48252c77ba1064be482b4a605a74321f05681a8b059b"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone.json"
+hash = "d2b7a77c8bc72b937c0f4b30d87b2aa1dea688270eaeca3cf63b465b23f77d56"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone_assembly.json"
+hash = "2a68a83de90f96511d8a2fe5d1cb488573ad9928e8ef055049e6dbc001f6f26b"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone_deploying.json"
+hash = "e792971503a4625c270dbff246ea05c5aa74027a2cf85a32fc714505a1bdb932"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/leftovers.json"
 hash = "fce1a6e3b1cc2f30a05989d01e422911c0351463089c8ab573b3309c4c3c2242"
 
@@ -1510,6 +1525,14 @@ file = "world/datapacks/steamon-tweaks/data/steamon/recipe/med_zinc.json"
 hash = "6a961adbff75f31c93ed6db8cebd31966cf31d54c71fd2fac33f86bef2795ab0"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/mega_stone.json"
+hash = "b6a078245cc46d696fd224cee52913f5e3986968a5791174fb62f9fea2fa0703"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/mega_stone_deploying.json"
+hash = "ec1c19743964ec879595e2145c0332ac0816b3cbf557dbd6b6e5470dbb610ec0"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/nether_star_dupe.json"
 hash = "a26151838846864431106fe250d73d936a99b48e488d74ebdfb199b04ad41a23"
 
@@ -1520,6 +1543,22 @@ hash = "591b1ee8e3addb41fc48ec43975523d9359e9ca9ae13cae86ee531b3a84e15a3"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/skeleton_skull.json"
 hash = "f3f5d41f8df974be57ef71918642c6f946847787417f9f9e949e42593d10d28f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_dark.json"
+hash = "50790b87744aabf907a2d1aaf956a1b86ec7f8efb69c6aa667b0156265a29614"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_dark_assembly.json"
+hash = "39e6711fc40faab19d46db85d21a38d2a224971fc1a1209d83c1e8cebabd6b37"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_light.json"
+hash = "30b03cd3841e49243a7144bdc338dee6e911825b541ee169e23786fddec9e3fd"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_light_assembly.json"
+hash = "aa69a0a69251fb394099a3cd196eb22fd372b414d9e43d6ee15e067d0d4efc14"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sweet_apple.json"
@@ -1688,6 +1727,14 @@ hash = "7fc1d2c8c120ccae9085189cd090fa2e20ff2e813f8b65dafb1529776a8f1eb4"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager.json"
 hash = "fe58dee0bdc93d100737ca92b04ccfd33e671b9799a8146b37568ffcfebfeabe"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wishing_star.json"
+hash = "ff2f4ee2b20c67b72e3f4950975da5d5ee9d5e77dd685141d8f08414782da60f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wishing_star_mixing.json"
+hash = "c532831c45dcca324ab908a42cc59522468ad06cdac71a9b08b757e94beedc87"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wither_skull_assembly.json"

@@ -1,0 +1,8 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    { "tag": "cobblemon:evolution_stones" },
+    { "item": "cobblemon:normal_gem" }
+  ],
+  "results": [ { "id": "mega_showdown:mega_stone" } ]
+}

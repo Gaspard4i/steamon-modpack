@@ -4,6 +4,36 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.2] - 2026-05-28
+
+Bug-fix and balance pass: kills the night-time mobs that slipped past our spawn rules,
+removes a redundant mod that made villager trades cycle twice, locks down a carriable
+block, and adds the last batch of Mega-item crafting recipes.
+
+### Removed
+- **Trade Cycling** mod removed. It did the exact same thing as Easy Villagers (cycle a
+  villager's offers), and both were bound to the same key — so a single press cycled the
+  trade **twice**. Easy Villagers keeps the feature on **C**; now one press = one cycle.
+
+### Changed
+- **Hostile spawns tightened (In Control).** Phantoms (the night-time "insomnia" mobs)
+  and village-siege / reinforcement zombies were still spawning at night because they
+  don't use the normal spawn path our rule blocked. They're now denied too, and
+  `doInsomnia` is off so phantoms never trigger in the first place. Spawners, trial
+  spawners and summons are unaffected.
+- **Carry On: Cobblemon Display Case is no longer carriable.** Picking it up with Carry On
+  could drop its stored item / desync its block entity, so it's blacklisted like the
+  other inventory-sensitive blocks.
+
+### Added (custom recipes — steamon-tweaks datapack)
+- **Mega items are now craftable**, so Mega Evolution no longer depends purely on finding
+  drops:
+  - **Keystone**: compress a Radiated Mega Meteorite block 20× in a sequenced assembly —
+    70% chance to yield the Keystone, otherwise you get a plain Mega Meteorite block back.
+    Also a Create deploying recipe.
+  - **Mega Stone**, **Blank Z-Crystal**, **Wishing Star**, **Sparkling Stone** (light & dark):
+    each gets a shaped recipe plus a Create variant (deploying / mixing / assembly).
+
 ## [1.0.1] - 2026-05-27
 
 ### Added

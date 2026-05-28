@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "SNS",
+    "SSS"
+  ],
+  "key": {
+    "S": { "tag": "cobblemon:evolution_stones" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": { "id": "mega_showdown:keystone", "count": 1 }
+}
