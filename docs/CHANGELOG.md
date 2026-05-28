@@ -4,6 +4,14 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.5] - 2026-05-28
+
+### Changed
+- **Claims per player lowered from 500 to 100 (Open Parties & Claims).** 500 chunks each was
+  far more than anyone needs and let a few players fence off huge areas; 100 claimed chunks
+  is still plenty for a base + farms while keeping the map open for everyone. Party members
+  still pool their claims, and forceloads stay at 5.
+
 ## [1.0.4] - 2026-05-28
 
 ### Fixed

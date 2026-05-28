@@ -50,7 +50,7 @@ hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "2189b0addcc6027f7e753b5abdc10d650ec407e2a35ac2d75b7ff88a03d7f4c3"
+hash = "8849f1bcc0e7f8a818a742db10d52a194f980504b9ff1f2c1be842bd71ee2cef"
 
 [[files]]
 file = "config/rctmod-server.toml"
