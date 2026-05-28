@@ -1012,6 +1012,11 @@ hash = "f2f23f33862c06cbf23683f034c34c8dfa4580d716a3f385fc3053ceda725087"
 metafile = true
 
 [[files]]
+file = "mods/visible-traders.pw.toml"
+hash = "bbcb54d5fbdd84fbd3ff55557c754c820b07d97ca33fa3dfc632d954d602ee46"
+metafile = true
+
+[[files]]
 file = "mods/waystones-teleport-pets.pw.toml"
 hash = "2966bd8471246286be3d42515c7e89ca07ba7afd606f00ef6ffdc9a6ce150a1c"
 metafile = true

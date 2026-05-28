@@ -4,6 +4,19 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.3] - 2026-05-28
+
+### Added
+- **Visible Traders** (client + server): a villager's *locked* trades (the higher-tier
+  offers normally hidden until you level the villager up) are now shown in the trade
+  screen, so you can see what a villager will eventually sell before grinding it. Pairs
+  with Easy Villagers' trade cycling. Trades revert if the mod is ever removed (no exploit).
+
+### Changed
+- **Discord bridge: advancement messages removed from chat.** Every player advancement
+  used to spam the Discord #in-game-chat ("X has made the advancement …"); those messages
+  are now off. Normal chat, joins/leaves and deaths still bridge as before.
+
 ## [1.0.2] - 2026-05-28
 
 Bug-fix and balance pass: kills the night-time mobs that slipped past our spawn rules,

@@ -1270,6 +1270,11 @@ hash = "f2f23f33862c06cbf23683f034c34c8dfa4580d716a3f385fc3053ceda725087"
 metafile = true
 
 [[files]]
+file = "mods/visible-traders.pw.toml"
+hash = "bbcb54d5fbdd84fbd3ff55557c754c820b07d97ca33fa3dfc632d954d602ee46"
+metafile = true
+
+[[files]]
 file = "mods/watermedia-binaries.pw.toml"
 hash = "417338739e92dac7f82b164df5842989f16c9fb7fd79b8cae1e0dff2caa789fc"
 metafile = true
