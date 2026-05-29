@@ -47,7 +47,7 @@ key_key.exposure.camera_controls:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.unknown
 key_key.cobblemon.hideparty:key.keyboard.o
-key_key.cobblemon.summary:key.keyboard.m
+key_key.cobblemon.summary:key.keyboard.backslash
 key_key.cobblemon.downshiftparty:key.keyboard.down
 key_key.cobblemon.upshiftparty:key.keyboard.up
 key_key.cobblemon.throwpartypokemon:key.keyboard.r
@@ -88,10 +88,10 @@ key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
-key_key.mute_microphone:key.keyboard.semicolon:CONTROL
-key_key.disable_voice_chat:key.keyboard.n
+key_key.mute_microphone:key.keyboard.n
+key_key.disable_voice_chat:key.keyboard.unknown
 key_key.hide_icons:key.keyboard.unknown
-key_key.voice_chat:key.keyboard.semicolon
+key_key.voice_chat:key.keyboard.v
 key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
@@ -183,7 +183,7 @@ key_create.keyinfo.ctrl_modifier:key.keyboard.left.control
 key_create.keyinfo.alt_modifier:key.keyboard.left.alt
 key_dndesires.keyinfo.saw_active:key.keyboard.left.alt
 key_dndesires.keyinfo.drill_active:key.keyboard.left.alt
-key_key.cobblemon_smartphone.open:key.keyboard.backslash
+key_key.cobblemon_smartphone.open:key.keyboard.unknown
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
 key_artifacts.key.charm_of_shrinking.toggle:key.keyboard.unknown
 key_artifacts.key.charm_of_sinking.toggle:key.keyboard.unknown
@@ -198,7 +198,7 @@ key_key.jade.show_recipes:key.keyboard.keypad.3
 key_key.jade.show_uses:key.keyboard.keypad.4
 key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details:key.keyboard.left.shift
-key_key.easy_villagers.pick_up:key.keyboard.v
+key_key.easy_villagers.pick_up:key.keyboard.unknown
 key_key.easy_villagers.cycle_trades:key.keyboard.c
 key_key.create_sa.flying:key.keyboard.space
 key_key.create_sa.increase_reach:key.keyboard.up
