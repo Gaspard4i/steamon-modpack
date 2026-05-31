@@ -11,7 +11,7 @@
 5 : '{count:1,id:"cobblemon:red_apricorn_seed"}',
 6 : '{count:1,id:"cobblemon:red_apricorn_seed"}',
 7 : '{count:1,id:"cobblemon:black_apricorn_seed"}',
-8 : '',
+8 : '{count:1,id:"rctmod:trainer_card"}',
 9 : '',
 10 : '',
 11 : '',
