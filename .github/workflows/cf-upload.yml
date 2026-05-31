@@ -60,9 +60,14 @@ jobs:
           sed -i "s/^version = \".*\"/version = \"$VERSION\"/" pack.toml
           packwiz refresh
           packwiz modrinth export
-          MRPACK="$(ls *.mrpack | head -1)"
-          echo "MRPACK_PATH=client/$MRPACK" >> "$GITHUB_ENV"
-          ls -la "$MRPACK"
+          ORIG="$(ls *.mrpack | head -1)"
+          # CurseForge silently rejects .mrpack extensions and filenames with
+          # spaces (HTTP 200 but file never shows up in the dashboard). Copy
+          # to a CF-friendly name: 'Steamon-<VERSION>.zip'.
+          CF_NAME="Steamon-${VERSION}.zip"
+          cp "$ORIG" "$CF_NAME"
+          echo "MRPACK_PATH=client/$CF_NAME" >> "$GITHUB_ENV"
+          ls -la "$CF_NAME"
 
       - name: Extract changelog
         env:
