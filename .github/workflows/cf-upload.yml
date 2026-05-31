@@ -51,7 +51,7 @@ jobs:
       - name: Add packwiz to PATH
         run: echo "$HOME/go/bin" >> "$GITHUB_PATH"
 
-      - name: Build client mrpack
+      - name: Build CF-native client zip
         env:
           VERSION: ${{ inputs.version }}
         run: |
@@ -59,13 +59,15 @@ jobs:
           cd client
           sed -i "s/^version = \".*\"/version = \"$VERSION\"/" pack.toml
           packwiz refresh
-          packwiz modrinth export
-          ORIG="$(ls *.mrpack | head -1)"
-          # CurseForge silently rejects .mrpack extensions and filenames with
-          # spaces (HTTP 200 but file never shows up in the dashboard). Copy
-          # to a CF-friendly name: 'Steamon-<VERSION>.zip'.
+          # CurseForge needs a CF-native zip (manifest.json + overrides/),
+          # not the Modrinth .mrpack (modrinth.index.json). packwiz curseforge
+          # export builds the CF format directly. Mods without CF metadata
+          # are embedded under overrides/mods/ (heavier zip but works as-is).
+          packwiz curseforge export -y
+          ORIG="$(ls *.zip | grep -v 'Server' | head -1)"
+          # Rename to a CF-friendly filename (no spaces).
           CF_NAME="Steamon-${VERSION}.zip"
-          cp "$ORIG" "$CF_NAME"
+          mv "$ORIG" "$CF_NAME"
           echo "MRPACK_PATH=client/$CF_NAME" >> "$GITHUB_ENV"
           ls -la "$CF_NAME"
 
