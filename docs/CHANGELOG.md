@@ -4,6 +4,76 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.6] - 2026-05-31
+
+Big quality-of-life pass on claims, anti-grief, and chat clutter. Adds the
+Radical Trainer Card to starter kits, fixes Magnum Torches blocking your own
+party send-outs, and drops two orphan mods.
+
+### Added
+- **Radical Trainer Card** in every starter kit (slot 9). New players can
+  start tracking and challenging RCT trainers immediately, no detour to
+  find the card item.
+- **Carry On blacklist extended** to cover the rest of the modded content
+  that was still pickup-able by accident: every Exposure block + entity,
+  the Spud's Shops blocks, every Let's Do block + entity (Meadow, Vinery,
+  Nethervinery, Farm & Charm, Beachparty), the three Immersive mods
+  (Furniture, Melodies, Aircraft), the Create addons whose namespace
+  doesn't start with "create" (Dreams & Desires, Molten Vents, Stam1o
+  Tweaks, Slice and Dice), and RCT trainers (so you can't carry an NPC
+  away mid-fight).
+- **OPAC claim QoL exceptions** (default-on, owner-disablable): waystones,
+  warpstones, Cobblemon healing machines and PCs all stay usable inside
+  someone else's claim. Lootr blocks stay interactable even when forced
+  by the owner. Harvest tools, seats, modded storage and cooking blocks
+  also covered.
+- **OPAC anti-grief forced rules**: gravestones, Spud's Shops blocks,
+  Lootr containers and the brush/pokeball items stay interactable
+  everywhere, with no opt-out — prevents lock-out exploits.
+
+### Changed
+- **Healing machine recharge is now infinite** (`infiniteHealerCharge`).
+  No more sitting on a hill for two minutes mid-progression — heal up
+  and keep going.
+- **Resourcepack priority**: the auto-generated `mod_resources` is now
+  pinned at the bottom of the list (highest priority), so mod textures
+  always win over the base pack stack when there's a conflict.
+- **Magnum Torch**: removed `cobblemon:pokemon` from the blacklist. The
+  torch couldn't tell a wild spawn from a player sending out their own
+  party, so it was breaking send-outs in claimed areas. It now blocks
+  only RCT trainers (on top of vanilla hostiles).
+- **Cobblemon Unchained chat notifications** silenced for hidden-ability
+  and perfect-IV rolls (12 of 18 boosters). Shiny notifications are kept
+  — they're rare enough to be worth the visibility. Boosters still work
+  silently; you discover the reward by inspecting the pokemon.
+- **Keybinds remap** (Default Options, first install only — never resets
+  existing player choices): `²` opens the Cobblemon summary (was the
+  smartphone), `V` opens the voice-chat menu, `N` mutes the mic.
+
+### Removed
+- **TerraBlender** dropped. Orphan dependency: Terralith 2.5+ migrated to
+  Lithostitched, Tectonic uses Lithostitched too, nothing in the pack
+  references TerraBlender anymore.
+- **Man of Many Planes** + its Create-recipes datapack dropped. Unused
+  content weight, no mod in the pack depends on it.
+
+### Fixed
+- The `unchained.notification.hidden.spawn` raw lang key no longer shows
+  up in chat. Root cause was Unchained being server-side only — the
+  client never had the translation file. Silencing the HA/IV notifications
+  removes the issue at the source.
+
+### CI
+- **CurseForge auto-publish** added (was Modrinth-only). Same `.mrpack`
+  goes to both stores.
+- **Changelog auto-extraction** from `docs/CHANGELOG.md`. The same
+  English changelog now ships to Modrinth, CurseForge and the Discord
+  `#changelog` embed automatically — no more manual PATCH after release.
+- **Featured auto-toggle on Modrinth**: on a `-release` tag, the new
+  version is featured and previous versions are un-featured.
+- **Pipeline speedup**: packwiz binary cached, smoke test and depcheck
+  parallelised. Run time drops from ~3 min to ~1 min 15.
+
 ## [1.0.5] - 2026-05-28
 
 ### Changed
