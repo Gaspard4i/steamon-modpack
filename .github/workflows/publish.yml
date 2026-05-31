@@ -486,7 +486,11 @@ jobs:
       # This step is a no-op until the repo variable CURSEFORGE_ID is set, so the
       # CurseForge project can be created later without touching this workflow.
       - name: Publish CLIENT to CurseForge
-        if: steps.meta.outputs.variant == 'client' && vars.CURSEFORGE_ID != ''
+        # Skip on retries where Modrinth already had this version (likely
+        # CurseForge already received it on the original run too). Avoids
+        # CF returning duplicate-file errors when we retag to fix a later
+        # downstream step like the Discord announce.
+        if: steps.meta.outputs.variant == 'client' && vars.CURSEFORGE_ID != '' && env.MR_FIRST_PUBLISH == 'true'
         env:
           CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
           CURSEFORGE_ID: ${{ vars.CURSEFORGE_ID }}
@@ -550,10 +554,31 @@ jobs:
           fi
           echo "Stable client URL: https://github.com/${GITHUB_REPOSITORY}/releases/download/latest/${ASSET}"
 
+      # Has Discord already been pinged for this version on a previous run?
+      # Source of truth = a marker tag '<base>-announced' on the repo. If the
+      # tag exists, we already announced; skip. If not, announce + create it.
+      - name: Check if Discord already announced this version
+        if: steps.meta.outputs.variant == 'client'
+        id: discord_marker
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          MARKER="${GITHUB_REF_NAME}-announced"
+          if gh api "repos/${GITHUB_REPOSITORY}/git/refs/tags/${MARKER}" --silent >/dev/null 2>&1; then
+            echo "marker=$MARKER already exists — Discord skip"
+            echo "should_announce=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "marker=$MARKER not found — Discord will fire"
+            echo "should_announce=true" >> "$GITHUB_OUTPUT"
+          fi
+          echo "marker_name=$MARKER" >> "$GITHUB_OUTPUT"
+
       - name: Announce update on Discord (#changelog)
-        # Only ping on the FIRST successful publish of this version, not on
-        # retries of later steps (e.g. CurseForge fix).
-        if: steps.meta.outputs.variant == 'client' && env.MR_FIRST_PUBLISH == 'true'
+        # Fire on the first run where the announced-marker tag doesn't yet
+        # exist. Works whether Modrinth was a fresh upload or a retry — the
+        # only thing that matters is "did the channel get the message yet?".
+        if: steps.meta.outputs.variant == 'client' && steps.discord_marker.outputs.should_announce == 'true'
         env:
           CHANGELOG_WEBHOOK: ${{ secrets.DISCORD_CHANGELOG_WEBHOOK }}
           VERSION: ${{ steps.meta.outputs.version }}
@@ -605,3 +630,17 @@ jobs:
           with urllib.request.urlopen(req) as r:
               print('Discord webhook HTTP', r.status)
           PYEOF
+
+      # Mark this tag as 'already announced on Discord' so future retag-driven
+      # retries don't double-post in #changelog.
+      - name: Mark version as announced
+        if: steps.meta.outputs.variant == 'client' && steps.discord_marker.outputs.should_announce == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MARKER: ${{ steps.discord_marker.outputs.marker_name }}
+        run: |
+          set -euo pipefail
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/git/refs" \
+            -f ref="refs/tags/${MARKER}" \
+            -f sha="${GITHUB_SHA}" \
+            || echo "[warn] could not create marker tag ${MARKER} (probably already exists)"
