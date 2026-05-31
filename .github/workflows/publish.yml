@@ -513,14 +513,14 @@ jobs:
           echo "CurseForge metadata: $(wc -c < /tmp/cf_meta.json) bytes, changelog=${#CHANGELOG} chars"
 
           # CurseForge wants `metadata` as a STRING form field, not a file part.
-          # curl @file would make it a file upload (CF then sees no 'metadata'
-          # field — errorCode 1001). The <@file syntax reads the file's content
-          # and inlines it as the field value.
+          # curl @file makes it a file upload (CF then sees no 'metadata'
+          # field — errorCode 1001). The `<file` syntax (no @) reads the
+          # file's content and inlines it as the field's string value.
           HTTP=$(curl -s -o /tmp/cf_resp.json -w "%{http_code}" \
             -X POST "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/upload-file" \
             -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
             -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
-            -F "metadata=<@/tmp/cf_meta.json" \
+            -F "metadata=</tmp/cf_meta.json" \
             -F "file=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
           echo "CurseForge HTTP: $HTTP"
           cat /tmp/cf_resp.json; echo
