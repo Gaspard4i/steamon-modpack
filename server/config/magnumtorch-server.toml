@@ -1,11 +1,14 @@
 #Steamon: only the diamond torch is customized — on top of its default hostile-mob
-#blocking it also keeps wild Cobblemon and Radical Cobblemon Trainers away (blacklist).
+#blocking it also keeps Radical Cobblemon Trainers away (blacklist).
 #Emerald and amethyst torches are left at the mod defaults.
 
 [diamond_torch]
 	mob_whitelist = []
-	#In addition to hostiles (monster category below), also block wild Cobblemon and RCT trainers.
-	mob_blacklist = ["cobblemon:pokemon", "rctmod:trainer"]
+	#In addition to hostiles (monster category below), also block RCT trainers.
+	#NOTE: cobblemon:pokemon removed — Magnum Torch can't tell wild spawns from a player's
+	#own send-out, so blacklisting it also blocked players sending out their party. Wild
+	#Cobblemon suppression is handled via InControl spawn rules instead.
+	mob_blacklist = ["rctmod:trainer"]
 	#Range in chunk sections (16x16x16 blocks) on x-z-plane. Range: 1 ~ 16
 	horizontal_chunk_range = 6
 	#Range in chunk sections on y. Range: 1 ~ 16
