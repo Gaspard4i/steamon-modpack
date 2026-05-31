@@ -4,6 +4,29 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.7] - 2026-05-31
+
+Cleanup release: drops two unused mods that were silently bloating the
+client download, and unblocks the CurseForge auto-publish pipeline.
+
+### Removed
+- **WATERMeDIA: Multimedia API** and its companion **wm_binaries** (171 MB
+  of media codecs) dropped from the client. Nothing in the pack actually
+  used them — no other mod referenced WaterMedia's APIs, and there's no
+  feature in Steamon that needs video/audio playback in-world. Dropping
+  them shaves ~180 MB off the client download for everyone.
+
+### CI
+- **CurseForge auto-publish now works end-to-end.** The previous pipeline
+  uploaded the Modrinth `.mrpack` to CurseForge — CurseForge silently
+  rejected those uploads (HTTP 200 + a fileId but the file never showed
+  up in the dashboard) because it expects a CF-native zip with
+  `manifest.json` at the root, not Modrinth's `modrinth.index.json`.
+  The pipeline now runs `packwiz curseforge export` for the client and
+  uploads the CF-native zip instead. Combined with the WaterMedia
+  cleanup above, the CF upload fits under the API's size limit and goes
+  through automatically on every release.
+
 ## [1.0.6] - 2026-05-31
 
 Big quality-of-life pass on claims, anti-grief, and chat clutter. Adds the
