@@ -425,8 +425,8 @@ jobs:
             echo "Modrinth version $VERSION_NUMBER already exists ($EXISTING_ID) — skip upload, reuse for downstream."
             VERSION_ID="$EXISTING_ID"
             echo "$VERSION_ID" > /tmp/mr_version_id
-            # Tell downstream steps the release is a retry, not a first publish,
-            # so the Discord webhook doesn't double-ping the role.
+            # Was this the first time we successfully uploaded? (Used by CF
+            # to decide whether to attempt its own upload — see CF step.)
             echo "MR_FIRST_PUBLISH=false" >> "$GITHUB_ENV"
           else
             HTTP=$(curl -s -o /tmp/mr_resp.json -w "%{http_code}" \
@@ -444,6 +444,10 @@ jobs:
             echo "MR_FIRST_PUBLISH=true" >> "$GITHUB_ENV"
           fi
           echo "MR_VERSION_ID=$VERSION_ID" >> "$GITHUB_ENV"
+          # MR_OK: the Modrinth version exists and is reachable, regardless of
+          # whether we just uploaded it or found it pre-existing on a retry.
+          # The Discord guard reads this to decide whether the announce is safe.
+          echo "MR_OK=true" >> "$GITHUB_ENV"
 
           # Un-feature all OTHER client versions (so only the new release is
           # featured). Skipped for alpha/beta tags because they didn't set
@@ -486,21 +490,46 @@ jobs:
       # This step is a no-op until the repo variable CURSEFORGE_ID is set, so the
       # CurseForge project can be created later without touching this workflow.
       - name: Publish CLIENT to CurseForge
-        # Skip on retries where Modrinth already had this version (likely
-        # CurseForge already received it on the original run too). Avoids
-        # CF returning duplicate-file errors when we retag to fix a later
-        # downstream step like the Discord announce.
-        if: steps.meta.outputs.variant == 'client' && vars.CURSEFORGE_ID != '' && env.MR_FIRST_PUBLISH == 'true'
+        if: steps.meta.outputs.variant == 'client' && vars.CURSEFORGE_ID != ''
         env:
           CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
           CURSEFORGE_ID: ${{ vars.CURSEFORGE_ID }}
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
           CHANGELOG: ${{ steps.changelog.outputs.body }}
+          MRPACK_FILE_BASENAME: ${{ env.MRPACK_PATH }}
         run: |
           set -euo pipefail
           if [ -z "${CURSEFORGE_TOKEN:-}" ]; then
             echo "CURSEFORGE_TOKEN secret missing — skipping CurseForge publish."; exit 0
+          fi
+
+          # Idempotency: ask CurseForge if a file with our target name already
+          # exists on this project. If yes, skip the upload but still mark
+          # CF_OK=true so the Discord gate can fire. CF doesn't expose a
+          # single per-version endpoint, so we list files and match by name.
+          # Note: list endpoint is /api/projects/<id>/files (legacy upload API
+          # doesn't expose it — we use the read API at /v1/mods/<id>/files).
+          MRPACK_NAME="$(basename "$MRPACK_PATH")"
+          EXISTING=$(curl -s \
+              -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
+              -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+              "https://api.curseforge.com/v1/mods/${CURSEFORGE_ID}/files" \
+              | MRPACK_NAME="$MRPACK_NAME" python3 -c "
+          import json, sys, os
+          target = os.environ['MRPACK_NAME']
+          try:
+              d = json.load(sys.stdin).get('data', [])
+          except Exception:
+              d = []
+          for f in d:
+              if f.get('fileName') == target:
+                  print(f.get('id', '?')); break
+          " 2>/dev/null || true)
+          if [ -n "$EXISTING" ]; then
+            echo "CurseForge already has file $MRPACK_NAME (id=$EXISTING) — skip upload."
+            echo "CF_OK=true" >> "$GITHUB_ENV"
+            exit 0
           fi
           # Build payload via a file to avoid the same shell-expansion
           # truncation Modrinth hit on large multiline changelogs.
@@ -530,6 +559,7 @@ jobs:
           cat /tmp/cf_resp.json; echo
           # 200/201 = success (returns the new fileId). Anything else fails the job.
           if [ "$HTTP" != "200" ] && [ "$HTTP" != "201" ]; then exit 1; fi
+          echo "CF_OK=true" >> "$GITHUB_ENV"
 
       - name: Update stable "latest" client release
         if: steps.meta.outputs.variant == 'client'
@@ -553,6 +583,7 @@ jobs:
             gh release create latest "$ASSET" --title "Steamon (latest client)" --notes "$NOTES"
           fi
           echo "Stable client URL: https://github.com/${GITHUB_REPOSITORY}/releases/download/latest/${ASSET}"
+          echo "GH_OK=true" >> "$GITHUB_ENV"
 
       # Has Discord already been pinged for this version on a previous run?
       # Source of truth = a marker tag '<base>-announced' on the repo. If the
@@ -575,10 +606,17 @@ jobs:
           echo "marker_name=$MARKER" >> "$GITHUB_OUTPUT"
 
       - name: Announce update on Discord (#changelog)
-        # Fire on the first run where the announced-marker tag doesn't yet
-        # exist. Works whether Modrinth was a fresh upload or a retry — the
-        # only thing that matters is "did the channel get the message yet?".
-        if: steps.meta.outputs.variant == 'client' && steps.discord_marker.outputs.should_announce == 'true'
+        # Fire only if ALL publish targets succeeded (Modrinth + CurseForge +
+        # GitHub Release "latest") AND the announce-marker tag is absent.
+        # That way the role only gets pinged once the players actually have
+        # somewhere to download from on every store. CurseForge is only
+        # required when CURSEFORGE_ID is set (so it's optional pre-onboarding).
+        if: >-
+          steps.meta.outputs.variant == 'client' &&
+          steps.discord_marker.outputs.should_announce == 'true' &&
+          env.MR_OK == 'true' &&
+          env.GH_OK == 'true' &&
+          (vars.CURSEFORGE_ID == '' || env.CF_OK == 'true')
         env:
           CHANGELOG_WEBHOOK: ${{ secrets.DISCORD_CHANGELOG_WEBHOOK }}
           VERSION: ${{ steps.meta.outputs.version }}
@@ -632,9 +670,15 @@ jobs:
           PYEOF
 
       # Mark this tag as 'already announced on Discord' so future retag-driven
-      # retries don't double-post in #changelog.
+      # retries don't double-post in #changelog. Same gate as the announce
+      # step itself — we only mark if we actually pinged.
       - name: Mark version as announced
-        if: steps.meta.outputs.variant == 'client' && steps.discord_marker.outputs.should_announce == 'true'
+        if: >-
+          steps.meta.outputs.variant == 'client' &&
+          steps.discord_marker.outputs.should_announce == 'true' &&
+          env.MR_OK == 'true' &&
+          env.GH_OK == 'true' &&
+          (vars.CURSEFORGE_ID == '' || env.CF_OK == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
           MARKER: ${{ steps.discord_marker.outputs.marker_name }}
