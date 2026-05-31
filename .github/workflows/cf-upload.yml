@@ -1,0 +1,143 @@
+name: CurseForge Manual Upload
+
+# One-shot CurseForge upload triggered manually from the Actions tab.
+# Use this when the main publish pipeline produced a Modrinth/GH release
+# but the CurseForge file is missing (silent post-process rejection,
+# upload that didn't propagate to the panel, etc.).
+#
+# How to run:
+#   Actions -> CurseForge Manual Upload -> Run workflow -> enter version
+#   The workflow rebuilds the .mrpack from the current main branch tip
+#   for that version, uploads it, and prints the full response body so
+#   you can see what CF actually returns.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to upload (e.g. 1.0.6) — must already exist in docs/CHANGELOG.md'
+        required: true
+        type: string
+      channel:
+        description: 'Release channel for CF (alpha/beta/release)'
+        required: true
+        type: choice
+        options: [alpha, beta, release]
+        default: release
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache packwiz binary
+        id: cache-packwiz
+        uses: actions/cache@v4
+        with:
+          path: ~/go/bin/packwiz
+          key: packwiz-bin-v1
+
+      - name: Setup Go
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Install packwiz
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Add packwiz to PATH
+        run: echo "$HOME/go/bin" >> "$GITHUB_PATH"
+
+      - name: Build client mrpack
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          cd client
+          sed -i "s/^version = \".*\"/version = \"$VERSION\"/" pack.toml
+          packwiz refresh
+          packwiz modrinth export
+          MRPACK="$(ls *.mrpack | head -1)"
+          echo "MRPACK_PATH=client/$MRPACK" >> "$GITHUB_ENV"
+          ls -la "$MRPACK"
+
+      - name: Extract changelog
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PYEOF' > /tmp/changelog.txt
+          import os, re, pathlib
+          version = os.environ['VERSION']
+          src = pathlib.Path('docs/CHANGELOG.md').read_text(encoding='utf-8')
+          pat = re.compile(rf'^## \[{re.escape(version)}\][^\n]*\n(.*?)(?=^## \[|\Z)', re.S | re.M)
+          m = pat.search(src)
+          if not m:
+              raise SystemExit(f"No '## [{version}]' section in docs/CHANGELOG.md")
+          body = m.group(1).strip()
+          if not body:
+              raise SystemExit(f"Section '## [{version}]' is empty")
+          import sys; sys.stdout.write(body)
+          PYEOF
+          echo "Changelog $(wc -c < /tmp/changelog.txt) bytes"
+
+      - name: Upload to CurseForge (verbose)
+        env:
+          CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          CURSEFORGE_ID: ${{ vars.CURSEFORGE_ID }}
+          VERSION: ${{ inputs.version }}
+          CHANNEL: ${{ inputs.channel }}
+        run: |
+          set -euo pipefail
+          if [ -z "${CURSEFORGE_TOKEN:-}" ] || [ -z "${CURSEFORGE_ID:-}" ]; then
+            echo "CURSEFORGE_TOKEN or CURSEFORGE_ID missing"; exit 1
+          fi
+          CHANGELOG="$(cat /tmp/changelog.txt)"
+          VERSION="$VERSION" CHANNEL="$CHANNEL" CHANGELOG="$CHANGELOG" python3 - <<'PYEOF' > /tmp/cf_meta.json
+          import json, os
+          print(json.dumps({
+              'changelog': os.environ.get('CHANGELOG', ''),
+              'changelogType': 'markdown',
+              'displayName': 'Steamon ' + os.environ['VERSION'] + ' (' + os.environ['CHANNEL'] + ')',
+              'releaseType': os.environ['CHANNEL'],
+              'gameVersions': [11779, 10150],
+          }))
+          PYEOF
+          echo "Metadata payload ($(wc -c < /tmp/cf_meta.json) bytes):"
+          cat /tmp/cf_meta.json
+          echo
+          echo
+          echo "--- POST to CurseForge ---"
+          # -v for full headers, but token line filtered out
+          HTTP=$(curl -sS -o /tmp/cf_resp.body -D /tmp/cf_resp.headers -w "%{http_code}" \
+            -X POST "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/upload-file" \
+            -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
+            -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+            -F "metadata=</tmp/cf_meta.json" \
+            -F "file=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
+          echo "HTTP status: $HTTP"
+          echo
+          echo "--- Response headers ---"
+          cat /tmp/cf_resp.headers
+          echo
+          echo "--- Response body ---"
+          cat /tmp/cf_resp.body
+          echo
+          if [ "$HTTP" != "200" ] && [ "$HTTP" != "201" ]; then exit 1; fi
+
+          # If we got a fileId, ALSO query CF for its status to confirm it
+          # actually exists in their system (the panel-missing bug).
+          FILE_ID=$(python3 -c "import json;print(json.load(open('/tmp/cf_resp.body')).get('id',''))" 2>/dev/null || true)
+          if [ -n "$FILE_ID" ]; then
+            echo
+            echo "--- Confirming fileId=$FILE_ID on read API ---"
+            sleep 10  # let CF process
+            curl -sS -w "\nHTTP=%{http_code}\n" \
+              -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
+              -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+              "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/files/${FILE_ID}" \
+              || echo "(legacy read API may not support GET file)"
+          fi
