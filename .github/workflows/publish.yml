@@ -66,15 +66,27 @@ jobs:
           echo "display=$DISPLAY" >> "$GITHUB_OUTPUT"
           echo "Detected: variant=$VARIANT version=$VERSION channel=$CHANNEL"
 
+      # Cache the compiled packwiz binary across runs (gain ~40s/run).
+      # Key is bumped when we want to force a rebuild (e.g. new packwiz feature).
+      - name: Cache packwiz binary
+        id: cache-packwiz
+        uses: actions/cache@v4
+        with:
+          path: ~/go/bin/packwiz
+          key: packwiz-bin-v1
+
       - name: Setup Go
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
         uses: actions/setup-go@v5
         with:
           go-version: '1.22'
 
       - name: Install packwiz
-        run: |
-          go install github.com/packwiz/packwiz@latest
-          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Add packwiz to PATH
+        run: echo "$HOME/go/bin" >> "$GITHUB_PATH"
 
       - name: Bump pack version
         working-directory: ${{ steps.meta.outputs.variant }}
@@ -131,27 +143,30 @@ jobs:
               sys.exit("[FAIL] neoforge dependency missing in manifest")
           print(f"[smoke] Manifest OK: MC {mc}, NeoForge {nf}")
 
-          # 3. All file downloads reachable (HEAD)
+          # 3. All file downloads reachable (HEAD) — parallel for speed
+          from concurrent.futures import ThreadPoolExecutor, as_completed
           files = idx.get('files', [])
-          print(f"[smoke] Checking {len(files)} mod download URLs...")
-          fails = []
-          for i, f in enumerate(files, 1):
+          print(f"[smoke] Checking {len(files)} mod download URLs (parallel)...")
+          def check(f):
               urls = f.get('downloads', [])
               if not urls:
-                  fails.append(f"{f.get('path','?')}: no download URL")
-                  continue
-              url = urls[0]
+                  return f"{f.get('path','?')}: no download URL"
               try:
-                  req = urllib.request.Request(url, method='HEAD', headers={'User-Agent': 'steamon-smoke/1.0'})
+                  req = urllib.request.Request(urls[0], method='HEAD', headers={'User-Agent': 'steamon-smoke/1.0'})
                   with urllib.request.urlopen(req, timeout=15) as r:
                       if r.status >= 400:
-                          fails.append(f"{f['path']}: HTTP {r.status}")
+                          return f"{f['path']}: HTTP {r.status}"
               except urllib.error.HTTPError as e:
-                  fails.append(f"{f['path']}: HTTP {e.code}")
+                  return f"{f['path']}: HTTP {e.code}"
               except Exception as e:
-                  fails.append(f"{f['path']}: {e}")
-              if i % 25 == 0:
-                  print(f"  [{i}/{len(files)}] checked, {len(fails)} fails so far")
+                  return f"{f['path']}: {e}"
+              return None
+          fails = []
+          with ThreadPoolExecutor(max_workers=24) as pool:
+              for r in as_completed(pool.submit(check, f) for f in files):
+                  err = r.result()
+                  if err:
+                      fails.append(err)
           if fails:
               print("[FAIL] Unreachable downloads:")
               for f in fails[:20]:
@@ -226,12 +241,22 @@ jobs:
               embedded = [n for n in mp.namelist()
                           if n.startswith(('overrides/mods/', 'client-overrides/mods/', 'server-overrides/mods/'))
                           and n.endswith('.jar')]
-              print(f"[depcheck] Reading {len(url_jars)} URL mods + {len(embedded)} embedded mods...")
-              for f in url_jars:
+              print(f"[depcheck] Reading {len(url_jars)} URL mods + {len(embedded)} embedded mods (parallel)...")
+              # Parallel download of URL mods (gain ~40s vs sequential)
+              from concurrent.futures import ThreadPoolExecutor, as_completed
+              def dl(f):
                   try:
-                      ingest(fetch(f['downloads'][0]), f['path'])
+                      return f['path'], fetch(f['downloads'][0]), None
                   except Exception as e:
-                      print(f"  [warn] {f['path']}: {e}")
+                      return f['path'], None, e
+              with ThreadPoolExecutor(max_workers=16) as pool:
+                  for fut in as_completed(pool.submit(dl, f) for f in url_jars):
+                      label, data, err = fut.result()
+                      if err is not None:
+                          print(f"  [warn] {label}: {err}")
+                      else:
+                          ingest(data, label)
+              # Embedded jars are local — sequential is fine
               for n in embedded:
                   try:
                       ingest(mp.read(n), n)
@@ -257,6 +282,36 @@ jobs:
                   print(f"   - {p}")
               sys.exit(1)
           print("[depcheck] All mandatory dependencies satisfied")
+          PYEOF
+
+      # Extract this version's section from docs/CHANGELOG.md so we can feed
+      # the SAME English changelog text to Modrinth, CurseForge and the
+      # Discord embed instead of a placeholder. Fails hard if the version's
+      # section is missing — enforces the 'no tag without changelog' rule.
+      - name: Extract changelog for this version
+        if: steps.meta.outputs.variant == 'client'
+        id: changelog
+        env:
+          VERSION: ${{ steps.meta.outputs.version }}
+        run: |
+          set -euo pipefail
+          python3 - << 'PYEOF'
+          import os, re, pathlib
+          version = os.environ['VERSION']
+          src = pathlib.Path('docs/CHANGELOG.md').read_text(encoding='utf-8')
+          # Match ## [X.Y.Z] ... up to the next ## [ heading (or EOF)
+          pat = re.compile(rf'^## \[{re.escape(version)}\][^\n]*\n(.*?)(?=^## \[|\Z)', re.S | re.M)
+          m = pat.search(src)
+          if not m:
+              raise SystemExit(f"[FAIL] No '## [{version}]' section in docs/CHANGELOG.md — add one before tagging.")
+          body = m.group(1).strip()
+          if not body:
+              raise SystemExit(f"[FAIL] Section '## [{version}]' is empty in docs/CHANGELOG.md.")
+          print(f"[changelog] Extracted {len(body)} chars for v{version}")
+          print(body[:300] + ('...' if len(body) > 300 else ''))
+          # Multiline-safe export via heredoc
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as f:
+              f.write(f"body<<__EOF__\n{body}\n__EOF__\n")
           PYEOF
 
       # Server variant: the .mrpack is NEVER published to Modrinth (a Modrinth
@@ -306,6 +361,7 @@ jobs:
           DISPLAY: ${{ steps.meta.outputs.display }}
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
+          CHANGELOG_BODY: ${{ steps.changelog.outputs.body }}
         run: |
           set -euo pipefail
           MRPACK_FILE="$(basename "$MRPACK_PATH")"
@@ -320,21 +376,30 @@ jobs:
             echo "MODRINTH_TOKEN not set or too short — secret missing?"; exit 1
           fi
 
-          DATA_JSON=$(VERSION_TYPE="$CHANNEL" python3 -c "
+          # featured=true only on -release tags (alphas/betas stay unfeatured).
+          # Old featured versions are un-featured below after a successful upload.
+          FEATURED=false
+          if [ "$CHANNEL" = "release" ]; then FEATURED=true; fi
+
+          DATA_JSON=$(NAME="$NAME" VERSION_NUMBER="$VERSION_NUMBER" \
+              VERSION_TYPE="$CHANNEL" FEATURED="$FEATURED" \
+              MRPACK_FILE="$MRPACK_FILE" python3 -c "
           import json, os
           print(json.dumps({
-            'name': '$NAME',
-            'version_number': '$VERSION_NUMBER',
+            'name': os.environ['NAME'],
+            'version_number': os.environ['VERSION_NUMBER'],
+            'changelog': os.environ.get('CHANGELOG_BODY', ''),
             'project_id': 'CR2XFGJ4',
             'dependencies': [],
             'game_versions': ['1.21.1'],
             'version_type': os.environ['VERSION_TYPE'],
             'loaders': ['neoforge'],
-            'featured': False,
+            'featured': os.environ['FEATURED'] == 'true',
             'status': 'listed',
-            'file_parts': ['$MRPACK_FILE']
+            'file_parts': [os.environ['MRPACK_FILE']],
           }))")
-          echo "Payload: $DATA_JSON"
+          # Don't echo the full payload (changelog can be long) — just confirm fields.
+          echo "Modrinth payload OK (featured=$FEATURED, changelog=${#CHANGELOG_BODY} chars)"
 
           HTTP=$(curl -s -o /tmp/mr_resp.json -w "%{http_code}" \
             -X POST "https://api.modrinth.com/v2/version" \
@@ -351,6 +416,39 @@ jobs:
           VERSION_ID="$(python3 -c "import json;print(json.load(open('/tmp/mr_resp.json'))['id'])")"
           echo "MR_VERSION_ID=$VERSION_ID" >> "$GITHUB_ENV"
 
+          # Un-feature all OTHER client versions (so only the new release is
+          # featured). Skipped for alpha/beta tags because they didn't set
+          # featured=true themselves.
+          if [ "$FEATURED" = "true" ]; then
+            echo "Un-featuring previous versions..."
+            python3 - << 'PYEOF'
+          import os, json, urllib.request
+          token = os.environ['MODRINTH_TOKEN']
+          new_id = os.environ['VERSION_ID'] if 'VERSION_ID' in os.environ else None
+          # Re-read from /tmp because env propagation is tricky in nested heredocs
+          with open('/tmp/mr_resp.json') as f:
+              new_id = json.load(f)['id']
+          req = urllib.request.Request(
+              'https://api.modrinth.com/v2/project/CR2XFGJ4/version',
+              headers={'Authorization': token, 'User-Agent': 'github.com/Gaspard4i/steamon-modpack'})
+          versions = json.loads(urllib.request.urlopen(req, timeout=30).read())
+          for v in versions:
+              if v['id'] == new_id or not v.get('featured'):
+                  continue
+              patch = json.dumps({'featured': False}).encode()
+              r = urllib.request.Request(
+                  f"https://api.modrinth.com/v2/version/{v['id']}",
+                  data=patch, method='PATCH',
+                  headers={'Authorization': token, 'Content-Type': 'application/json',
+                           'User-Agent': 'github.com/Gaspard4i/steamon-modpack'})
+              try:
+                  urllib.request.urlopen(r, timeout=30).read()
+                  print(f"  un-featured {v['version_number']}")
+              except Exception as e:
+                  print(f"  [warn] could not un-feature {v['version_number']}: {e}")
+          PYEOF
+          fi
+
       # CurseForge accepts the same .mrpack directly (no conversion). Uploaded via
       # the legacy upload API: POST /api/projects/<id>/upload-file with a JSON
       # `metadata` part + the file. gameVersions are NUMERIC ids (not strings).
@@ -365,13 +463,12 @@ jobs:
           CURSEFORGE_ID: ${{ vars.CURSEFORGE_ID }}
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
+          CHANGELOG: ${{ steps.changelog.outputs.body }}
         run: |
           set -euo pipefail
           if [ -z "${CURSEFORGE_TOKEN:-}" ]; then
             echo "CURSEFORGE_TOKEN secret missing — skipping CurseForge publish."; exit 0
           fi
-          # Changelog: reuse the same English notes pushed everywhere else.
-          CHANGELOG="A new ${CHANNEL} build of the Steamon modpack. See the GitHub repo for the full per-version changelog."
           METADATA_JSON=$(VERSION="$VERSION" CHANNEL="$CHANNEL" CHANGELOG="$CHANGELOG" python3 -c "
           import json, os
           print(json.dumps({
@@ -423,6 +520,7 @@ jobs:
           CHANGELOG_WEBHOOK: ${{ secrets.DISCORD_CHANGELOG_WEBHOOK }}
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
+          CHANGELOG_BODY: ${{ steps.changelog.outputs.body }}
         run: |
           set -euo pipefail
           python3 << 'PYEOF'
@@ -433,23 +531,32 @@ jobs:
           version = os.environ['VERSION']
           channel = os.environ['CHANNEL']
           repo = os.environ['GITHUB_REPOSITORY']
+          changelog = os.environ.get('CHANGELOG_BODY', '').strip()
           dl_url = f"https://github.com/{repo}/releases/download/latest/Steamon-Client.mrpack"
           color = {'release': 0x57F287, 'beta': 0xFEE75C, 'alpha': 0xED4245}.get(channel, 0xC8B48C)
           ping_role = '1507416018912284733'  # Modpack Update Pings
+
+          # Discord embed description hard-limit is 4096 chars. The download +
+          # join paragraph eats ~250, so trim the changelog to ~3800 and append
+          # a "...full notes on Modrinth" pointer if truncated.
+          download_block = (
+              f"**Download:** [Steamon-Client.mrpack]({dl_url})\n"
+              f"Re-import in your launcher to update.\n"
+              f"See <#1507307820742086738> for how to join.")
+          MAX = 4096 - len(download_block) - 80  # safety margin
+          if len(changelog) > MAX:
+              changelog = changelog[:MAX].rsplit('\n', 1)[0] + "\n\n*…full notes on the Modrinth page.*"
+
+          description = f"{changelog}\n\n{download_block}"
 
           payload = {
             'username': 'Steamon Modpack Changelog',
             'content': f"<@&{ping_role}> A new version of the Steamon modpack is available: **{version}** ({channel})!",
             'allowed_mentions': {'roles': [ping_role]},
             'embeds': [{
-              'title': f"Steamon {version} ({channel}) is out",
+              'title': f"Steamon {version} ({channel})",
               'url': dl_url,
-              'description': (
-                f"A new {channel} build of the Steamon modpack is available.\n\n"
-                f"**Download:** [Steamon-Client.mrpack]({dl_url})\n"
-                f"This link always points to the newest version — just re-download and re-import it in your launcher to update.\n\n"
-                f"See #server-info for how to join."
-              ),
+              'description': description,
               'color': color,
               'footer': {'text': 'Create x Cobblemon - 1.21.1 NeoForge'},
             }],
