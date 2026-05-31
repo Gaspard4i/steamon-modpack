@@ -405,19 +405,44 @@ jobs:
           PYEOF
           echo "Modrinth payload OK (featured=$FEATURED, changelog=${#CHANGELOG_BODY} chars, payload=$(wc -c < /tmp/mr_data.json) bytes)"
 
-          HTTP=$(curl -s -o /tmp/mr_resp.json -w "%{http_code}" \
-            -X POST "https://api.modrinth.com/v2/version" \
-            -H "Authorization: $MODRINTH_TOKEN" \
-            -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
-            -F "data=@/tmp/mr_data.json;type=application/json" \
-            -F "${MRPACK_FILE}=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
-
-          echo "HTTP: $HTTP"
-          cat /tmp/mr_resp.json
-          echo
-          if [ "$HTTP" != "200" ]; then exit 1; fi
-          # Expose the published version id for the Discord step
-          VERSION_ID="$(python3 -c "import json;print(json.load(open('/tmp/mr_resp.json'))['id'])")"
+          # Idempotency: if a version with the same version_number already
+          # exists on Modrinth (e.g. a previous run published it before a
+          # later step failed), skip the upload and reuse the existing one
+          # so the downstream steps (featuring, CurseForge, Discord) can
+          # still complete on the next retry.
+          EXISTING_ID=$(curl -s \
+              -H "Authorization: $MODRINTH_TOKEN" \
+              -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+              "https://api.modrinth.com/v2/project/CR2XFGJ4/version" \
+              | python3 -c "
+          import json, sys, os
+          vn = os.environ['VERSION_NUMBER']
+          for v in json.load(sys.stdin):
+              if v.get('version_number') == vn:
+                  print(v['id']); break
+          ")
+          if [ -n "$EXISTING_ID" ]; then
+            echo "Modrinth version $VERSION_NUMBER already exists ($EXISTING_ID) — skip upload, reuse for downstream."
+            VERSION_ID="$EXISTING_ID"
+            echo "$VERSION_ID" > /tmp/mr_version_id
+            # Tell downstream steps the release is a retry, not a first publish,
+            # so the Discord webhook doesn't double-ping the role.
+            echo "MR_FIRST_PUBLISH=false" >> "$GITHUB_ENV"
+          else
+            HTTP=$(curl -s -o /tmp/mr_resp.json -w "%{http_code}" \
+              -X POST "https://api.modrinth.com/v2/version" \
+              -H "Authorization: $MODRINTH_TOKEN" \
+              -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+              -F "data=@/tmp/mr_data.json;type=application/json" \
+              -F "${MRPACK_FILE}=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
+            echo "HTTP: $HTTP"
+            cat /tmp/mr_resp.json
+            echo
+            if [ "$HTTP" != "200" ]; then exit 1; fi
+            VERSION_ID="$(python3 -c "import json;print(json.load(open('/tmp/mr_resp.json'))['id'])")"
+            echo "$VERSION_ID" > /tmp/mr_version_id
+            echo "MR_FIRST_PUBLISH=true" >> "$GITHUB_ENV"
+          fi
           echo "MR_VERSION_ID=$VERSION_ID" >> "$GITHUB_ENV"
 
           # Un-feature all OTHER client versions (so only the new release is
@@ -428,10 +453,10 @@ jobs:
             python3 - << 'PYEOF'
           import os, json, urllib.request
           token = os.environ['MODRINTH_TOKEN']
-          new_id = os.environ['VERSION_ID'] if 'VERSION_ID' in os.environ else None
-          # Re-read from /tmp because env propagation is tricky in nested heredocs
-          with open('/tmp/mr_resp.json') as f:
-              new_id = json.load(f)['id']
+          # Re-read the new version id from /tmp (works for both the upload
+          # path and the idempotency "already exists" path).
+          with open('/tmp/mr_version_id') as f:
+              new_id = f.read().strip()
           req = urllib.request.Request(
               'https://api.modrinth.com/v2/project/CR2XFGJ4/version',
               headers={'Authorization': token, 'User-Agent': 'github.com/Gaspard4i/steamon-modpack'})
@@ -487,11 +512,15 @@ jobs:
           PYEOF
           echo "CurseForge metadata: $(wc -c < /tmp/cf_meta.json) bytes, changelog=${#CHANGELOG} chars"
 
+          # CurseForge wants `metadata` as a STRING form field, not a file part.
+          # curl @file would make it a file upload (CF then sees no 'metadata'
+          # field — errorCode 1001). The <@file syntax reads the file's content
+          # and inlines it as the field value.
           HTTP=$(curl -s -o /tmp/cf_resp.json -w "%{http_code}" \
             -X POST "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/upload-file" \
             -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
             -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
-            -F "metadata=@/tmp/cf_meta.json;type=application/json" \
+            -F "metadata=<@/tmp/cf_meta.json" \
             -F "file=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
           echo "CurseForge HTTP: $HTTP"
           cat /tmp/cf_resp.json; echo
@@ -522,7 +551,9 @@ jobs:
           echo "Stable client URL: https://github.com/${GITHUB_REPOSITORY}/releases/download/latest/${ASSET}"
 
       - name: Announce update on Discord (#changelog)
-        if: steps.meta.outputs.variant == 'client'
+        # Only ping on the FIRST successful publish of this version, not on
+        # retries of later steps (e.g. CurseForge fix).
+        if: steps.meta.outputs.variant == 'client' && env.MR_FIRST_PUBLISH == 'true'
         env:
           CHANGELOG_WEBHOOK: ${{ secrets.DISCORD_CHANGELOG_WEBHOOK }}
           VERSION: ${{ steps.meta.outputs.version }}
