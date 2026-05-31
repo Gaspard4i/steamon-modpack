@@ -129,6 +129,82 @@ file = "config/treeharvester.json5"
 hash = "b56d72022fdc49d98ad55fdfe0650af2e0808404af1baf25397363d5af9c00b4"
 
 [[files]]
+file = "config/unchained.json"
+hash = "9881b80b2fd6a1adb0bce8b5ff25c1aa5b9f63ad1831c81e0a388c184109ec8f"
+
+[[files]]
+file = "config/unchained/capture/hiddenCaptureBooster.json"
+hash = "977bd7ed875750422f301c0f6d8b4cb627dab1812cc2ffb302e93522f4d1284d"
+
+[[files]]
+file = "config/unchained/capture/ivCaptureBooster.json"
+hash = "02384e4c055a825ec3a33212363ce1e86ffd12e34c11a2b48595ee451c6ab60a"
+
+[[files]]
+file = "config/unchained/capture/shinyCaptureBooster.json"
+hash = "e0b13804246a8a391eedd419b96fb37c161d7e629e650f6b84994a083e181afa"
+
+[[files]]
+file = "config/unchained/egg/hiddenEggBooster.json"
+hash = "3367fbe4e40e95f15d3d43a2c3b24f9d97a2d4405fe0f39f4d01a7b4407d4395"
+
+[[files]]
+file = "config/unchained/egg/ivEggBooster.json"
+hash = "aa10cb87e463f41826332bf8e3bab949fdcb8967de1fe7086738555b24b4e153"
+
+[[files]]
+file = "config/unchained/egg/shinyEggBooster.json"
+hash = "878a3f4b0aa3ac287877a0b6cf3728c4dd6659735a2287181471c31a354832d9"
+
+[[files]]
+file = "config/unchained/fish/hiddenFishBooster.json"
+hash = "4b14a090e0013457cd6c757193a9253a42bfdb72ed2ee6668e1149b241c5928f"
+
+[[files]]
+file = "config/unchained/fish/ivFishBooster.json"
+hash = "80c6ad90617277678b98a1d9cf237b4ac4b752c79f72f63dc8dc07fd9edfa398"
+
+[[files]]
+file = "config/unchained/fish/shinyFishBooster.json"
+hash = "d34fafa509b65a2a8d484f9fc6681efa8c84254bba8f6120361732aca0443e50"
+
+[[files]]
+file = "config/unchained/resurrection/hiddenRezBooster.json"
+hash = "5f8cafa4102800c5dc9676af0ac7d134df39ad9df34c6ae5647150034b119859"
+
+[[files]]
+file = "config/unchained/resurrection/ivRezBooster.json"
+hash = "34615c6cb166f682a17562c09ab4f7c15c9643554886f38de64a7124c2972c31"
+
+[[files]]
+file = "config/unchained/resurrection/shinyRezBooster.json"
+hash = "e83e1c0d17f667608db33360ea3f1062bb511ec22fac273b8ba8c40b4c61b668"
+
+[[files]]
+file = "config/unchained/snack/hiddenSnackBooster.json"
+hash = "4b14a090e0013457cd6c757193a9253a42bfdb72ed2ee6668e1149b241c5928f"
+
+[[files]]
+file = "config/unchained/snack/ivSnackBooster.json"
+hash = "80c6ad90617277678b98a1d9cf237b4ac4b752c79f72f63dc8dc07fd9edfa398"
+
+[[files]]
+file = "config/unchained/snack/shinySnackBooster.json"
+hash = "9c632edb5e8b6f0438ae2cf3fff1fd8988e7355eca3ceab70a5880ca3882113a"
+
+[[files]]
+file = "config/unchained/spawn/hiddenSpawnBooster.json"
+hash = "4b14a090e0013457cd6c757193a9253a42bfdb72ed2ee6668e1149b241c5928f"
+
+[[files]]
+file = "config/unchained/spawn/ivSpawnBooster.json"
+hash = "80c6ad90617277678b98a1d9cf237b4ac4b752c79f72f63dc8dc07fd9edfa398"
+
+[[files]]
+file = "config/unchained/spawn/shinySpawnBooster.json"
+hash = "9c632edb5e8b6f0438ae2cf3fff1fd8988e7355eca3ceab70a5880ca3882113a"
+
+[[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "22e86b77faa71556fc89be8b538cacb9d82cdcd110338ab75c10398777369d5d"
 
