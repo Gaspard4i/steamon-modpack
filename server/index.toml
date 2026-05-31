@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "ac50fa1d4c55e1f850eaf27bd7f24260caf507f3feca46412609fe57b5b23928"
+hash = "7b6410d8f04b416c2f4ef264f80daa796293354e7cf5281ce4f87d0898fdcd6e"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "d7c58fb108b42796de9f5dd974d23caaa2c3d7c38d6ba07308fc26dbbec9cefc"
+hash = "79eb88fd1d4c784a5c8caf78cc996a60612ac121eb655518652eff13d5de33f1"
 
 [[files]]
 file = "config/cobblemonintegrations-common.toml"
@@ -42,7 +42,7 @@ hash = "5678099a251a5093bf616bda4fbd995a558d5a0a1a31a435a26f1b5b2348f955"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
-hash = "ab076f5b0b3af0ecd2278f2c2866902ec43edd2fecdaff2fe7f80b4c4b69bce9"
+hash = "ccffad7181aa62c68f09874f54a59c5509f14cf23a7983ba72919146c25d8684"
 
 [[files]]
 file = "config/mega_showdown/config.json"
@@ -50,7 +50,7 @@ hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "8849f1bcc0e7f8a818a742db10d52a194f980504b9ff1f2c1be842bd71ee2cef"
+hash = "88dcc9396d31506acc2c7d061c720ff0314b39811345718f28a9e6a3e74fe106"
 
 [[files]]
 file = "config/rctmod-server.toml"
@@ -94,31 +94,31 @@ hash = "59f438a6e1982085656b80f626c075e68278f56e98582b2daa8bdb4ed4bd6f9d"
 
 [[files]]
 file = "config/starterkit/kits/Starter1.txt"
-hash = "09704e4af9696913643c837bc8106b03bd550b826a0036c6b795543870da3993"
+hash = "53e118d9e5a4a5edf25ca1e5b19a3043e92ddc5cf1bce0716165b591d7d03c43"
 
 [[files]]
 file = "config/starterkit/kits/Starter2.txt"
-hash = "a1072b6ad1d84233d883c66c3ab1b5d6d2f7c48003b684b6afa8285baafc578b"
+hash = "d3c40f755be71c1a180500c20522bf03ef333bea957a9a813e166dc98201823a"
 
 [[files]]
 file = "config/starterkit/kits/Starter3.txt"
-hash = "6c2b6c4025fbd62c79201f0cade2d6ab12181e75b25ab687a976590866104257"
+hash = "654ac94fd9592d7561e14ea15b007a625c09237a61b6c1e28c83aa36586cff13"
 
 [[files]]
 file = "config/starterkit/kits/Starter4.txt"
-hash = "4a0936ef519deb8ea6c54f54519a77c425af19448d9021c6d1cfa75fbdfa4071"
+hash = "8eec74c50a55be045a9e3084edec881f892b8509fba3768697ac1659ab65de8a"
 
 [[files]]
 file = "config/starterkit/kits/Starter5.txt"
-hash = "153e0ef2c31960dd8b09510ae6a17ead52cba83e957e1ab0cf82275f5c96014c"
+hash = "5accba617890a43ee90664c13b276c5f86114b3912c2454e4e4953105816c636"
 
 [[files]]
 file = "config/starterkit/kits/Starter6.txt"
-hash = "31bb1b1f1cf1da1053f8a6b186a6a6234ad69ff000d83ece39ac15c19174e0c1"
+hash = "bb6ea550087919cb26c55fc8a54d031d945e402e0fdc6c37b3ede3a7053d1b04"
 
 [[files]]
 file = "config/starterkit/kits/Starter7.txt"
-hash = "61a6ab8e5099225543117c84161f98600c0bb6ac4600da92669b87807bd9efd0"
+hash = "5ca929eae5374572f5af8a08711a915824366f3e98e0a50217aa4abe9827544a"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -442,11 +442,6 @@ hash = "b87eb554022d4290376a862204bf0808c1e677a2a02010b2d2f269d3afa782c7"
 metafile = true
 
 [[files]]
-file = "mods/create-man-of-many-planes.pw.toml"
-hash = "2cc0e1f0bf03986c8ff89e27035ce0a4d23670c5d49c7a334ee2914495b9ab5e"
-metafile = true
-
-[[files]]
 file = "mods/create-molten-vents.pw.toml"
 hash = "198dc94a41237e61ad862bb803a6b5892781209a0f9890881f3f98cd6fce2792"
 metafile = true
@@ -732,11 +727,6 @@ hash = "e0eb9856cfbcefd70a853efd4e5ab8deb6a3add9f97f927860ed19b8055f8b88"
 metafile = true
 
 [[files]]
-file = "mods/man-of-many-planes.pw.toml"
-hash = "d887c005b64a36e1ab515d2fc6a35531b665ff7f4964b7068a01d3a136925641"
-metafile = true
-
-[[files]]
 file = "mods/miners-delight.pw.toml"
 hash = "13481133d139f134bd3407983e29f86df835ff66bacb013d9d43e14f155241f4"
 metafile = true
@@ -979,11 +969,6 @@ metafile = true
 [[files]]
 file = "mods/tectonic.pw.toml"
 hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
-metafile = true
-
-[[files]]
-file = "mods/terrablender.pw.toml"
-hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
 
 [[files]]
