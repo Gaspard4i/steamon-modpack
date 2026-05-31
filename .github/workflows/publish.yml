@@ -99,10 +99,27 @@ jobs:
         working-directory: ${{ steps.meta.outputs.variant }}
         run: |
           packwiz refresh
+          # Modrinth pack (for Modrinth + GitHub Release): .mrpack format.
           packwiz modrinth export
           ls -la *.mrpack
           MRPACK="$(ls *.mrpack | head -1)"
           echo "MRPACK_PATH=${{ steps.meta.outputs.variant }}/$MRPACK" >> "$GITHUB_ENV"
+
+      - name: Build CF-native zip (client only)
+        if: steps.meta.outputs.variant == 'client'
+        working-directory: client
+        run: |
+          # CurseForge silently rejects .mrpack uploads (it expects
+          # manifest.json at zip root, not modrinth.index.json). Generate
+          # the CF-native format separately. Mods without CF metadata in
+          # their .pw.toml are embedded under overrides/mods/ (heavier zip
+          # but works). Rename to a CF-friendly filename (no spaces).
+          packwiz curseforge export -y
+          ORIG="$(ls *.zip | head -1)"
+          CF_NAME="Steamon-${{ steps.meta.outputs.version }}.zip"
+          mv "$ORIG" "$CF_NAME"
+          echo "CF_ZIP_PATH=client/$CF_NAME" >> "$GITHUB_ENV"
+          ls -la "$CF_NAME"
 
       - name: Validate modpack (smoke test)
         run: |
@@ -497,7 +514,6 @@ jobs:
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
           CHANGELOG: ${{ steps.changelog.outputs.body }}
-          MRPACK_FILE_BASENAME: ${{ env.MRPACK_PATH }}
         run: |
           set -euo pipefail
           if [ -z "${CURSEFORGE_TOKEN:-}" ]; then
@@ -510,14 +526,14 @@ jobs:
           # single per-version endpoint, so we list files and match by name.
           # Note: list endpoint is /api/projects/<id>/files (legacy upload API
           # doesn't expose it — we use the read API at /v1/mods/<id>/files).
-          MRPACK_NAME="$(basename "$MRPACK_PATH")"
+          CF_NAME="$(basename "$CF_ZIP_PATH")"
           EXISTING=$(curl -s \
               -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
               -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
               "https://api.curseforge.com/v1/mods/${CURSEFORGE_ID}/files" \
-              | MRPACK_NAME="$MRPACK_NAME" python3 -c "
+              | CF_NAME="$CF_NAME" python3 -c "
           import json, sys, os
-          target = os.environ['MRPACK_NAME']
+          target = os.environ['CF_NAME']
           try:
               d = json.load(sys.stdin).get('data', [])
           except Exception:
@@ -527,7 +543,7 @@ jobs:
                   print(f.get('id', '?')); break
           " 2>/dev/null || true)
           if [ -n "$EXISTING" ]; then
-            echo "CurseForge already has file $MRPACK_NAME (id=$EXISTING) — skip upload."
+            echo "CurseForge already has file $CF_NAME (id=$EXISTING) — skip upload."
             echo "CF_OK=true" >> "$GITHUB_ENV"
             exit 0
           fi
@@ -549,12 +565,14 @@ jobs:
           # curl @file makes it a file upload (CF then sees no 'metadata'
           # field — errorCode 1001). The `<file` syntax (no @) reads the
           # file's content and inlines it as the field's string value.
+          # We upload the CF-native zip (manifest.json + overrides/), not
+          # the .mrpack — CF silently rejects Modrinth's format.
           HTTP=$(curl -s -o /tmp/cf_resp.json -w "%{http_code}" \
             -X POST "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/upload-file" \
             -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
             -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
             -F "metadata=</tmp/cf_meta.json" \
-            -F "file=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
+            -F "file=@${CF_ZIP_PATH};type=application/zip")
           echo "CurseForge HTTP: $HTTP"
           cat /tmp/cf_resp.json; echo
           # 200/201 = success (returns the new fileId). Anything else fails the job.
