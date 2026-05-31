@@ -414,7 +414,7 @@ jobs:
               -H "Authorization: $MODRINTH_TOKEN" \
               -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
               "https://api.modrinth.com/v2/project/CR2XFGJ4/version" \
-              | python3 -c "
+              | VERSION_NUMBER="$VERSION_NUMBER" python3 -c "
           import json, sys, os
           vn = os.environ['VERSION_NUMBER']
           for v in json.load(sys.stdin):
