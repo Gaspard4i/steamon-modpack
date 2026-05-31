@@ -381,31 +381,35 @@ jobs:
           FEATURED=false
           if [ "$CHANNEL" = "release" ]; then FEATURED=true; fi
 
-          DATA_JSON=$(NAME="$NAME" VERSION_NUMBER="$VERSION_NUMBER" \
+          # Build payload via a file (not a shell variable) — curl -F with a
+          # multi-KB string payload was getting truncated by shell expansion
+          # (Modrinth reported "EOF while parsing a string at line 1 column 2399"
+          # on a 4 KB JSON). Use @/tmp/data.json instead.
+          NAME="$NAME" VERSION_NUMBER="$VERSION_NUMBER" \
               VERSION_TYPE="$CHANNEL" FEATURED="$FEATURED" \
-              MRPACK_FILE="$MRPACK_FILE" python3 -c "
+              MRPACK_FILE="$MRPACK_FILE" python3 - <<'PYEOF' > /tmp/mr_data.json
           import json, os
           print(json.dumps({
-            'name': os.environ['NAME'],
-            'version_number': os.environ['VERSION_NUMBER'],
-            'changelog': os.environ.get('CHANGELOG_BODY', ''),
-            'project_id': 'CR2XFGJ4',
-            'dependencies': [],
-            'game_versions': ['1.21.1'],
-            'version_type': os.environ['VERSION_TYPE'],
-            'loaders': ['neoforge'],
-            'featured': os.environ['FEATURED'] == 'true',
-            'status': 'listed',
-            'file_parts': [os.environ['MRPACK_FILE']],
-          }))")
-          # Don't echo the full payload (changelog can be long) — just confirm fields.
-          echo "Modrinth payload OK (featured=$FEATURED, changelog=${#CHANGELOG_BODY} chars)"
+              'name': os.environ['NAME'],
+              'version_number': os.environ['VERSION_NUMBER'],
+              'changelog': os.environ.get('CHANGELOG_BODY', ''),
+              'project_id': 'CR2XFGJ4',
+              'dependencies': [],
+              'game_versions': ['1.21.1'],
+              'version_type': os.environ['VERSION_TYPE'],
+              'loaders': ['neoforge'],
+              'featured': os.environ['FEATURED'] == 'true',
+              'status': 'listed',
+              'file_parts': [os.environ['MRPACK_FILE']],
+          }))
+          PYEOF
+          echo "Modrinth payload OK (featured=$FEATURED, changelog=${#CHANGELOG_BODY} chars, payload=$(wc -c < /tmp/mr_data.json) bytes)"
 
           HTTP=$(curl -s -o /tmp/mr_resp.json -w "%{http_code}" \
             -X POST "https://api.modrinth.com/v2/version" \
             -H "Authorization: $MODRINTH_TOKEN" \
             -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
-            -F "data=${DATA_JSON};type=application/json" \
+            -F "data=@/tmp/mr_data.json;type=application/json" \
             -F "${MRPACK_FILE}=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
 
           echo "HTTP: $HTTP"
@@ -469,22 +473,25 @@ jobs:
           if [ -z "${CURSEFORGE_TOKEN:-}" ]; then
             echo "CURSEFORGE_TOKEN secret missing — skipping CurseForge publish."; exit 0
           fi
-          METADATA_JSON=$(VERSION="$VERSION" CHANNEL="$CHANNEL" CHANGELOG="$CHANGELOG" python3 -c "
+          # Build payload via a file to avoid the same shell-expansion
+          # truncation Modrinth hit on large multiline changelogs.
+          VERSION="$VERSION" CHANNEL="$CHANNEL" python3 - <<'PYEOF' > /tmp/cf_meta.json
           import json, os
           print(json.dumps({
-            'changelog': os.environ['CHANGELOG'],
-            'changelogType': 'markdown',
-            'displayName': 'Steamon ' + os.environ['VERSION'] + ' (' + os.environ['CHANNEL'] + ')',
-            'releaseType': os.environ['CHANNEL'],   # alpha|beta|release maps 1:1
-            'gameVersions': [11779, 10150],          # MC 1.21.1 (modpack type) + NeoForge loader
-          }))")
-          echo "CurseForge metadata: $METADATA_JSON"
+              'changelog': os.environ.get('CHANGELOG', ''),
+              'changelogType': 'markdown',
+              'displayName': 'Steamon ' + os.environ['VERSION'] + ' (' + os.environ['CHANNEL'] + ')',
+              'releaseType': os.environ['CHANNEL'],
+              'gameVersions': [11779, 10150],
+          }))
+          PYEOF
+          echo "CurseForge metadata: $(wc -c < /tmp/cf_meta.json) bytes, changelog=${#CHANGELOG} chars"
 
           HTTP=$(curl -s -o /tmp/cf_resp.json -w "%{http_code}" \
             -X POST "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/upload-file" \
             -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
             -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
-            -F "metadata=${METADATA_JSON};type=application/json" \
+            -F "metadata=@/tmp/cf_meta.json;type=application/json" \
             -F "file=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
           echo "CurseForge HTTP: $HTTP"
           cat /tmp/cf_resp.json; echo
