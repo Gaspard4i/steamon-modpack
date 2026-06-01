@@ -20,6 +20,10 @@ with the next tagged release.
   group. Warp plates still work by walking onto them; only the right-click
   interaction in foreign claims is gone.
 - **Carry On: picking up other players is disabled** (`pickupPlayers = false`).
+- **The End is closed for now.** A `steamon-tweaks` datapack tick function
+  bounces any player who enters `the_end` back to the overworld spawn. Vanilla,
+  reversible — remove `steamon:disable_end_tick` from the `minecraft:tick` tag
+  to re-open it.
 
 ### Added
 - **Vault exception in OPAC** (`minecraft:vault`), enabled by default on the

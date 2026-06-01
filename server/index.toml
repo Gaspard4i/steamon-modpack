@@ -38,7 +38,7 @@ hash = "623cdb8a59a1d77cabadaa5dbad53d0b6ae764be3941c229f988a418bd4706ef"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "a06f752f29f918743210aeff716042aff390326dc99a093c19fc82618a0e51a5"
+hash = "833b5fdb1d0c6558643c582731e9aaab0bacc8cb1250fa79ef7bb0b1c400cfb3"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -50,7 +50,7 @@ hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "eb87108e92d2c2ea15102f49cfb3221bb434ed538f07719bf23d2f076aeb6ccd"
+hash = "a8d60844f199ae94104a1240c3a428ffa6a2c7f09fbad4748d1ee9f917d8eef7"
 
 [[files]]
 file = "config/rctmod-server.toml"
@@ -1243,6 +1243,14 @@ file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunt
 hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
+hash = "a95bdb9071df5ba37b57d92434175e171cd12ce5e17880ec554eb9f13f2acbf5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/function/disable_end_tick.mcfunction"
+hash = "d869f058662dcba06f199ed6485d84b40cfa4300afb7024ded2dc6a2e78e5dc3"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/blank_z.json"
 hash = "bdb3be849e6abb8ac9b311ada03fbfd1a190a350c8a7834c6b9d32b9c55cb3bb"
 
@@ -1832,4 +1840,4 @@ hash = "678ab0023c05dc78ffb447546ebc6e8b7e10492e2fcbffe4e6d88bf487135f2b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/pack.mcmeta"
-hash = "ae6976c2d72b3e0b6286ad8293be95762b5cb60d3a56dddb08c0529719d08e52"
+hash = "d133e45b56a8b9a47198e1192e80bbfcdfefb44018fb057071e9e52e7d4c9ee4"
