@@ -4,6 +4,27 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [Unreleased]
+
+Config-only tweaks to mob spawning, claim protection, and Carry On. Ships
+with the next tagged release.
+
+### Changed
+- **Zombie and Skeleton Horse traps disabled.** In Control now denies
+  `minecraft:skeleton_horse` and `minecraft:zombie_horse` outright. The
+  previous hostile-only spawn deny rule never caught them, since trap horses
+  are not flagged hostile, so lightning storms kept spawning skeleton-horse
+  traps.
+- **Warp plate no longer interactable by right-click in claims.**
+  `waystones:warp_plate` was removed from the OPAC `Waystones` exception
+  group. Warp plates still work by walking onto them; only the right-click
+  interaction in foreign claims is gone.
+- **Carry On: picking up other players is disabled** (`pickupPlayers = false`).
+
+### Added
+- **Vault exception in OPAC** (`minecraft:vault`), enabled by default on the
+  server and toggleable per claim. Lets players activate vaults inside claims.
+
 ## [1.0.7] - 2026-05-31
 
 Cleanup release: drops two unused mods that were silently bloating the

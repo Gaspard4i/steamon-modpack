@@ -1,5 +1,9 @@
 [
   {
+    "mob": ["minecraft:skeleton_horse", "minecraft:zombie_horse"],
+    "result": "deny"
+  },
+  {
     "mob": "cobblemon:pokemon",
     "dimension": ["deeperdarker:otherside"],
     "result": "deny"

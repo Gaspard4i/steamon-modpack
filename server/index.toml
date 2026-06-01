@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "7b6410d8f04b416c2f4ef264f80daa796293354e7cf5281ce4f87d0898fdcd6e"
+hash = "8b642784318a655e8d75c39021d74b6e620b06e146e7698d600d3f94153a2e33"
 
 [[files]]
 file = "config/cobblemon/main.json"
@@ -38,7 +38,7 @@ hash = "623cdb8a59a1d77cabadaa5dbad53d0b6ae764be3941c229f988a418bd4706ef"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "5678099a251a5093bf616bda4fbd995a558d5a0a1a31a435a26f1b5b2348f955"
+hash = "a06f752f29f918743210aeff716042aff390326dc99a093c19fc82618a0e51a5"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -50,7 +50,7 @@ hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "88dcc9396d31506acc2c7d061c720ff0314b39811345718f28a9e6a3e74fe106"
+hash = "eb87108e92d2c2ea15102f49cfb3221bb434ed538f07719bf23d2f076aeb6ccd"
 
 [[files]]
 file = "config/rctmod-server.toml"

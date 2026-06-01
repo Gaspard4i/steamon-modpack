@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "7b6410d8f04b416c2f4ef264f80daa796293354e7cf5281ce4f87d0898fdcd6e"
+hash = "8b642784318a655e8d75c39021d74b6e620b06e146e7698d600d3f94153a2e33"
 
 [[files]]
 file = "config/cobblemon/main.json"
@@ -186,7 +186,7 @@ hash = "5377a8bda43974346d9c613eaf69d0e1714a7b0b07bd5381c2acc4fc3033430c"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "5678099a251a5093bf616bda4fbd995a558d5a0a1a31a435a26f1b5b2348f955"
+hash = "a06f752f29f918743210aeff716042aff390326dc99a093c19fc82618a0e51a5"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
