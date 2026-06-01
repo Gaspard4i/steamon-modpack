@@ -1,0 +1,211 @@
+name: CurseForge Resolve & Upload
+
+# Resolves every Modrinth-sourced mod to its CurseForge project/file ID so the
+# exported pack references them in manifest.json (instead of embedding the .jar
+# under overrides/, which CurseForge rejects). Then uploads the CF-native zip.
+#
+# Pass dry_run=true first to see how many mods resolve and what stays in
+# overrides, WITHOUT uploading. Pass dry_run=false to actually upload.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version (e.g. 1.0.7) — must exist in docs/CHANGELOG.md'
+        required: true
+        type: string
+      channel:
+        description: 'CF release channel'
+        required: true
+        type: choice
+        options: [alpha, beta, release]
+        default: release
+      dry_run:
+        description: 'true = resolve + report only (no upload)'
+        required: true
+        type: choice
+        options: ['true', 'false']
+        default: 'true'
+
+jobs:
+  resolve-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache packwiz binary
+        id: cache-packwiz
+        uses: actions/cache@v4
+        with:
+          path: ~/go/bin/packwiz
+          key: packwiz-bin-v1
+
+      - name: Setup Go
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Install packwiz
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Add packwiz to PATH
+        run: echo "$HOME/go/bin" >> "$GITHUB_PATH"
+
+      # Probe whether CURSEFORGE_TOKEN works on the CF Core API (api.curseforge.com).
+      # The fingerprint resolver inside packwiz needs no key; the per-file slug
+      # search we do for leftovers DOES. We report capability either way.
+      - name: Probe CF Core API access
+        env:
+          CF_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+        run: |
+          set -uo pipefail
+          CODE=$(curl -s -o /tmp/probe.json -w "%{http_code}" \
+            -H "x-api-key: ${CF_TOKEN}" -H "Accept: application/json" \
+            "https://api.curseforge.com/v1/games") || true
+          echo "CF Core /v1/games -> HTTP $CODE"
+          if [ "$CODE" = "200" ]; then
+            echo "CF_CORE_OK=1" >> "$GITHUB_ENV"
+            echo "Token is valid on CF Core API (slug search available)."
+          else
+            echo "CF_CORE_OK=0" >> "$GITHUB_ENV"
+            echo "Token NOT valid on CF Core API (status $CODE)."
+            echo "--- body ---"; head -c 400 /tmp/probe.json || true; echo
+            echo "Will rely on fingerprint detect only."
+          fi
+
+      - name: Build pack & resolve CF references
+        id: build
+        env:
+          VERSION: ${{ inputs.version }}
+          CF_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+        run: |
+          set -euo pipefail
+          cd client
+          sed -i "s/^version = \".*\"/version = \"$VERSION\"/" pack.toml
+          packwiz refresh
+
+          # --- Pass 1: download every mod jar so packwiz can fingerprint them ---
+          # packwiz curseforge detect hashes local jars and matches CF files by
+          # fingerprint. We need the jars on disk first; an export populates them.
+          packwiz curseforge export -y >/dev/null 2>&1 || true
+          ZIP="$(ls *.zip | grep -v 'Server' | head -1 || true)"
+          if [ -n "${ZIP:-}" ]; then
+            mkdir -p _ex && (cd _ex && unzip -oq "../$ZIP")
+            cp _ex/overrides/mods/*.jar mods/ 2>/dev/null || true
+            mkdir -p resourcepacks && cp _ex/overrides/resourcepacks/*.zip resourcepacks/ 2>/dev/null || true
+            rm -rf _ex "$ZIP"
+          fi
+
+          echo "::group::packwiz curseforge detect"
+          packwiz curseforge detect -y || true
+          echo "::endgroup::"
+          packwiz refresh
+
+          # --- Pass 2 (Core API): resolve leftovers by fileName search ---
+          LEFT=0
+          if [ "${CF_CORE_OK:-0}" = "1" ]; then
+            echo "::group::CF Core slug/file resolution for leftovers"
+            for pw in mods/*.pw.toml; do
+              grep -q '\[update.curseforge\]' "$pw" && continue
+              # filename packwiz would download (the embedded jar name)
+              FN=$(awk -F'"' '/^filename/{print $2; exit}' "$pw")
+              [ -z "$FN" ] && continue
+              # Search CF by the jar's base name (strip version noise lightly)
+              QUERY=$(printf '%s' "$FN" | sed -E 's/\.jar$//; s/[-_ ]?(neoforge|forge|fabric|mc)?[-_ ]?1\.21.*$//I')
+              RESP=$(curl -s -H "x-api-key: ${CF_TOKEN}" -H "Accept: application/json" \
+                "https://api.curseforge.com/v1/mods/search?gameId=432&gameVersion=1.21.1&searchFilter=$(printf '%s' "$QUERY" | sed 's/ /%20/g')&pageSize=5") || true
+              echo "leftover: $FN  (query: $QUERY)"
+              echo "$RESP" | python3 - "$FN" <<'PY' || true
+          import sys, json
+          fn = sys.argv[1]
+          try:
+              data = json.loads(sys.stdin.read())
+          except Exception:
+              print("   (no json)"); sys.exit()
+          for m in data.get("data", [])[:5]:
+              print(f"   candidate mod {m['id']} {m['slug']} - {m['name']}")
+          PY
+              LEFT=$((LEFT+1))
+            done
+            echo "::endgroup::"
+          fi
+
+          # --- Final export ---
+          rm -f *.zip
+          packwiz curseforge export -y
+          ORIG="$(ls *.zip | grep -v 'Server' | head -1)"
+          CF_NAME="Steamon-${VERSION}.zip"
+          mv "$ORIG" "$CF_NAME"
+          echo "ZIP_PATH=client/$CF_NAME" >> "$GITHUB_ENV"
+
+          # --- Report what is STILL in overrides (these are the blockers) ---
+          mkdir -p _check && (cd _check && unzip -oq "../$CF_NAME")
+          echo "## CF resolution report" >> "$GITHUB_STEP_SUMMARY"
+          REFS=$(python3 -c "import json;print(len(json.load(open('_check/manifest.json')).get('files',[])))")
+          echo "- manifest.json references: **$REFS**" >> "$GITHUB_STEP_SUMMARY"
+          echo "- mods still in overrides:" >> "$GITHUB_STEP_SUMMARY"
+          ls _check/overrides/mods/*.jar 2>/dev/null | xargs -n1 basename 2>/dev/null \
+            | sed 's/^/  - /' >> "$GITHUB_STEP_SUMMARY" || echo "  (none)" >> "$GITHUB_STEP_SUMMARY"
+          OVR=$(ls _check/overrides/mods/*.jar 2>/dev/null | wc -l)
+          echo "OVERRIDE_MODS=$OVR" >> "$GITHUB_ENV"
+          rm -rf _check
+          echo "Refs=$REFS  OverrideMods=$OVR"
+
+      - name: Extract changelog
+        if: ${{ inputs.dry_run == 'false' }}
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PYEOF' > /tmp/changelog.txt
+          import os, re, pathlib
+          v = os.environ['VERSION']
+          src = pathlib.Path('docs/CHANGELOG.md').read_text(encoding='utf-8')
+          m = re.compile(rf'^## \[{re.escape(v)}\][^\n]*\n(.*?)(?=^## \[|\Z)', re.S|re.M).search(src)
+          if not m or not m.group(1).strip():
+              raise SystemExit(f"No/empty '## [{v}]' section")
+          import sys; sys.stdout.write(m.group(1).strip())
+          PYEOF
+
+      - name: Guard — refuse upload if overrides still contain mods
+        if: ${{ inputs.dry_run == 'false' }}
+        run: |
+          if [ "${OVERRIDE_MODS:-0}" != "0" ]; then
+            echo "Refusing upload: $OVERRIDE_MODS mod jar(s) still in overrides/ — CF would reject."
+            echo "Run with dry_run=true to inspect the leftover list, resolve them, retry."
+            exit 1
+          fi
+          echo "overrides/mods is clean — safe to upload."
+
+      - name: Upload to CurseForge
+        if: ${{ inputs.dry_run == 'false' }}
+        env:
+          CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          CURSEFORGE_ID: ${{ vars.CURSEFORGE_ID }}
+          VERSION: ${{ inputs.version }}
+          CHANNEL: ${{ inputs.channel }}
+        run: |
+          set -euo pipefail
+          CHANGELOG="$(cat /tmp/changelog.txt)"
+          VERSION="$VERSION" CHANNEL="$CHANNEL" CHANGELOG="$CHANGELOG" python3 - <<'PYEOF' > /tmp/cf_meta.json
+          import json, os
+          print(json.dumps({
+              'changelog': os.environ.get('CHANGELOG',''),
+              'changelogType': 'markdown',
+              'displayName': 'Steamon ' + os.environ['VERSION'] + ' (' + os.environ['CHANNEL'] + ')',
+              'releaseType': os.environ['CHANNEL'],
+              'gameVersions': [11779, 10150],
+          }))
+          PYEOF
+          HTTP=$(curl -sS -o /tmp/cf_resp.body -w "%{http_code}" \
+            -X POST "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/upload-file" \
+            -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
+            -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+            -F "metadata=</tmp/cf_meta.json" \
+            -F "file=@${ZIP_PATH};type=application/x-modrinth-modpack+zip")
+          echo "HTTP $HTTP"
+          echo "--- body ---"; cat /tmp/cf_resp.body; echo
+          if [ "$HTTP" != "200" ] && [ "$HTTP" != "201" ]; then exit 1; fi
+          echo "CurseForge upload OK." >> "$GITHUB_STEP_SUMMARY"
