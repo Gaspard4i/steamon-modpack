@@ -4,6 +4,20 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.13] - 2026-06-02
+
+Server-only release (client stays on 1.0.7).
+
+### Changed
+- **Armor stand / hat stand interaction blocked server-wide again.** Re-added
+  `minecraft:armor_stand` and `supplementaries:hat_stand` to
+  `completelyDisabledEntityInteractions`. Root cause of the theft was found: the
+  Spawn claim had `entitiesByPlayers = "E"` (all entities open to everyone), so
+  claim-based protection couldn't help there. The global block is the reliable
+  fix — it stops item theft from both stands everywhere without touching other
+  entities. Trade-off: stands are decorative only (nobody, owner included, can
+  equip/remove items). Breaking/placing still works.
+
 ## [1.0.12] - 2026-06-02
 
 Server-only release (client stays on 1.0.7).
