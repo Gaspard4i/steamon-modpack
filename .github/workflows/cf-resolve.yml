@@ -58,19 +58,24 @@ jobs:
       # search we do for leftovers DOES. We report capability either way.
       - name: Probe CF Core API access
         env:
-          CF_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          CF_CORE_KEY: ${{ secrets.CF_CORE_KEY }}
         run: |
           set -uo pipefail
+          if [ -z "${CF_CORE_KEY:-}" ]; then
+            echo "CF_CORE_OK=0" >> "$GITHUB_ENV"
+            echo "No CF_CORE_KEY secret set -> fingerprint detect only."
+            exit 0
+          fi
           CODE=$(curl -s -o /tmp/probe.json -w "%{http_code}" \
-            -H "x-api-key: ${CF_TOKEN}" -H "Accept: application/json" \
+            -H "x-api-key: ${CF_CORE_KEY}" -H "Accept: application/json" \
             "https://api.curseforge.com/v1/games") || true
           echo "CF Core /v1/games -> HTTP $CODE"
           if [ "$CODE" = "200" ]; then
             echo "CF_CORE_OK=1" >> "$GITHUB_ENV"
-            echo "Token is valid on CF Core API (slug search available)."
+            echo "CF_CORE_KEY valid on CF Core API (slug search available)."
           else
             echo "CF_CORE_OK=0" >> "$GITHUB_ENV"
-            echo "Token NOT valid on CF Core API (status $CODE)."
+            echo "CF_CORE_KEY NOT valid on CF Core API (status $CODE)."
             echo "--- body ---"; head -c 400 /tmp/probe.json || true; echo
             echo "Will rely on fingerprint detect only."
           fi
@@ -79,7 +84,7 @@ jobs:
         id: build
         env:
           VERSION: ${{ inputs.version }}
-          CF_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          CF_CORE_KEY: ${{ secrets.CF_CORE_KEY }}
         run: |
           set -euo pipefail
           cd client
@@ -103,33 +108,17 @@ jobs:
           echo "::endgroup::"
           packwiz refresh
 
-          # --- Pass 2 (Core API): resolve leftovers by fileName search ---
-          LEFT=0
+          # --- Pass 2 (Core API): resolve leftovers by name/file search ---
+          # For every mod still lacking a [update.curseforge] block, query the
+          # CF Core API by the mod's display name, pick the project whose files
+          # include a 1.21.1 + NeoForge jar, and rewrite the .pw.toml so packwiz
+          # references it in manifest.json instead of embedding the jar.
           if [ "${CF_CORE_OK:-0}" = "1" ]; then
-            echo "::group::CF Core slug/file resolution for leftovers"
-            for pw in mods/*.pw.toml; do
-              grep -q '\[update.curseforge\]' "$pw" && continue
-              # filename packwiz would download (the embedded jar name)
-              FN=$(awk -F'"' '/^filename/{print $2; exit}' "$pw")
-              [ -z "$FN" ] && continue
-              # Search CF by the jar's base name (strip version noise lightly)
-              QUERY=$(printf '%s' "$FN" | sed -E 's/\.jar$//; s/[-_ ]?(neoforge|forge|fabric|mc)?[-_ ]?1\.21.*$//I')
-              RESP=$(curl -s -H "x-api-key: ${CF_TOKEN}" -H "Accept: application/json" \
-                "https://api.curseforge.com/v1/mods/search?gameId=432&gameVersion=1.21.1&searchFilter=$(printf '%s' "$QUERY" | sed 's/ /%20/g')&pageSize=5") || true
-              echo "leftover: $FN  (query: $QUERY)"
-              echo "$RESP" | python3 - "$FN" <<'PY' || true
-          import sys, json
-          fn = sys.argv[1]
-          try:
-              data = json.loads(sys.stdin.read())
-          except Exception:
-              print("   (no json)"); sys.exit()
-          for m in data.get("data", [])[:5]:
-              print(f"   candidate mod {m['id']} {m['slug']} - {m['name']}")
-          PY
-              LEFT=$((LEFT+1))
-            done
+            echo "::group::CF Core resolution for leftovers"
+            CF_CORE_KEY="$CF_CORE_KEY" python3 "$GITHUB_WORKSPACE/.github/scripts/cf_resolve.py" mods \
+              | sed 's/^/  /'
             echo "::endgroup::"
+            packwiz refresh
           fi
 
           # --- Final export ---
