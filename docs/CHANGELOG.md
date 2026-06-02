@@ -4,6 +4,26 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.15] - 2026-06-02
+
+Server-only release (client stays on 1.0.7). Three new per-claim OPAC toggles,
+all protected by default and enableable by the claim owner.
+
+### Added
+- **Decorations toggle** — interaction with purely cosmetic blocks (vanilla
+  `bell`, Supplementaries globe / sepia globe / hourglass / clock / flags /
+  crystal display / doormat / statue / faucet / bellows / candelabra / candle
+  holders / sconces / relayer / turn table).
+- **Create toggle** — `Create{create*:*}` covers the whole Create ecosystem
+  (Create + all its addons), interaction only (no breaking), so visitors can't
+  mess with machines in a claim unless the owner allows it.
+- **Modded containers expanded** — `Modded_Storage` now also covers
+  Sophisticated Backpacks, Cobblemon gilded/gimmighoul chests, Easy Villagers,
+  Supplementaries safe/jar/urn/flower box/lunch basket, Supplementaries Squared
+  sacks, Aether chests, Brewin' kegs, the let's-do / nether's-delight cabinets,
+  Farm & Charm bags, Miner's Delight basket, and Vinery containers. (Vanilla,
+  Spud's Shop and Lootr stay handled separately.)
+
 ## [1.0.14] - 2026-06-02
 
 Server-only release (client stays on 1.0.7).
