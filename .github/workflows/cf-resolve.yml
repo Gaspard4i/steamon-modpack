@@ -121,6 +121,16 @@ jobs:
             packwiz refresh
           fi
 
+          # --- Dedupe CF references ---
+          # `packwiz curseforge detect` creates a .pw.toml under the CF slug even
+          # when the mod already exists under its Modrinth slug, so two .pw.toml
+          # end up with the same CF file-id (CF rejects "File ID appears more than
+          # once"). Drop the duplicates, keeping one .pw.toml per file-id.
+          echo "::group::dedupe CF references"
+          python3 "$GITHUB_WORKSPACE/.github/scripts/cf_dedupe.py" mods resourcepacks | sed 's/^/  /'
+          echo "::endgroup::"
+          packwiz refresh
+
           # --- Drop physical jars/zips left from the fingerprint pass ---
           # The jars were only on disk so packwiz could hash them; packwiz embeds
           # ANY physical file under mods/ in overrides, which re-introduces the
