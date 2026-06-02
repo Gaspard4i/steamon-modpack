@@ -4,6 +4,18 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.12] - 2026-06-02
+
+Server-only release (client stays on 1.0.7).
+
+### Changed
+- **Armor stand / hat stand protection is now claim-based again.** Dropped the
+  server-wide `completelyDisabledEntityInteractions` lockout (which blocked the
+  owner too) and removed the `Armor_Stands` exception group entirely, so both
+  entities fall under the base `entitiesByPlayers` claim protection only: the
+  claim owner and party can use them, others cannot. (Testing whether this holds
+  against the Aether arms / Supplementaries interaction paths.)
+
 ## [1.0.11] - 2026-06-02
 
 Server-only release (client stays on 1.0.7).
