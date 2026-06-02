@@ -121,6 +121,14 @@ jobs:
             packwiz refresh
           fi
 
+          # --- Drop physical jars/zips left from the fingerprint pass ---
+          # The jars were only on disk so packwiz could hash them; packwiz embeds
+          # ANY physical file under mods/ in overrides, which re-introduces the
+          # very rejection we just fixed. Remove them so the export is driven by
+          # the .pw.toml references alone.
+          rm -f mods/*.jar resourcepacks/*.zip
+          packwiz refresh
+
           # --- Final export ---
           rm -f *.zip
           packwiz curseforge export -y
