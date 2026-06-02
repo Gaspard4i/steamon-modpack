@@ -147,6 +147,10 @@ jobs:
             | sed 's/^/  - /' >> "$GITHUB_STEP_SUMMARY" || echo "  (none)" >> "$GITHUB_STEP_SUMMARY"
           OVR=$(ls _check/overrides/mods/*.jar 2>/dev/null | wc -l)
           echo "OVERRIDE_MODS=$OVR" >> "$GITHUB_ENV"
+          # Persist the list so the guard can diff it against the allowlist of
+          # mods that legitimately have no CurseForge page (Modrinth-only).
+          ls _check/overrides/mods/*.jar 2>/dev/null | xargs -n1 basename 2>/dev/null \
+            | sort > /tmp/override_mods.txt || true
           rm -rf _check
           echo "Refs=$REFS  OverrideMods=$OVR"
 
@@ -166,15 +170,31 @@ jobs:
           import sys; sys.stdout.write(m.group(1).strip())
           PYEOF
 
-      - name: Guard — refuse upload if overrides still contain mods
+      - name: Guard — only allow known Modrinth-only mods in overrides
         if: ${{ inputs.dry_run == 'false' }}
         run: |
-          if [ "${OVERRIDE_MODS:-0}" != "0" ]; then
-            echo "Refusing upload: $OVERRIDE_MODS mod jar(s) still in overrides/ — CF would reject."
-            echo "Run with dry_run=true to inspect the leftover list, resolve them, retry."
+          set -euo pipefail
+          # Mods with no CurseForge page — CF accepts these as embedded overrides
+          # (they were NOT in CF's rejection list). Anything else in overrides is
+          # a resolution gap and must block the upload.
+          cat > /tmp/allowed_overrides.txt <<'EOF'
+          Cobbreeding-neoforge-2.2.1.jar
+          cobblemon_paleontologist-0.6.0-Beta-Neo.jar
+          create-ochrum-recipe-1.jar
+          spudaciousshops-1.10.3-neoforge-1.21.1.jar
+          visibletraders-0.0.7.1.jar
+          EOF
+          sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//; /^$/d' /tmp/allowed_overrides.txt
+          sort -o /tmp/allowed_overrides.txt /tmp/allowed_overrides.txt
+          touch /tmp/override_mods.txt
+          UNEXPECTED=$(comm -23 /tmp/override_mods.txt /tmp/allowed_overrides.txt || true)
+          if [ -n "$UNEXPECTED" ]; then
+            echo "Refusing upload: unexpected mod jar(s) in overrides/ (CF would reject):"
+            echo "$UNEXPECTED" | sed 's/^/  - /'
+            echo "Resolve them (add CF ref or extend the allowlist) and retry."
             exit 1
           fi
-          echo "overrides/mods is clean — safe to upload."
+          echo "overrides/mods contains only known Modrinth-only mods — safe to upload."
 
       - name: Upload to CurseForge
         if: ${{ inputs.dry_run == 'false' }}

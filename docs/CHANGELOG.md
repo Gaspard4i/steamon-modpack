@@ -4,6 +4,19 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.9] - 2026-06-02
+
+Server-only hotfix (client stays on 1.0.7).
+
+### Fixed
+- **End lockout disabled and de-bugged.** The 1.0.8 lockout used
+  `execute in the_end as @a`, which does not filter players by dimension (the
+  `in` only sets the execution dimension) — so every player, including those in
+  the overworld, was teleported to spawn every tick and could not move. The
+  function is now correct (`execute as @a if dimension minecraft:the_end`) but
+  left **out of the `tick` tag**, so the End is open again. Re-enable by adding
+  `steamon:disable_end_tick` back to the tick tag.
+
 ## [1.0.8] - 2026-06-02
 
 Server-only release (client stays on 1.0.7). Config tweaks to mob spawning,

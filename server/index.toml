@@ -1244,11 +1244,11 @@ hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
-hash = "a95bdb9071df5ba37b57d92434175e171cd12ce5e17880ec554eb9f13f2acbf5"
+hash = "f74498097708215ee46031db7467ce3abed880ed8188eff156e81993d9787e31"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/function/disable_end_tick.mcfunction"
-hash = "d869f058662dcba06f199ed6485d84b40cfa4300afb7024ded2dc6a2e78e5dc3"
+hash = "01785ded93410f601df3d27f76ac6cfd792266b1930c07abe7de0964b27ddccb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/blank_z.json"
