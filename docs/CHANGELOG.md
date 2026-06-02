@@ -4,6 +4,25 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.14] - 2026-06-02
+
+Server-only release (client stays on 1.0.7).
+
+### Changed
+- **Armor stand / hat stand protection is now a per-claim toggle (claim-aware).**
+  Dropped the global lockout. Added `anything$Armor_Stands{minecraft:armor_stand}`
+  and `anything$Hat_Stands{supplementaries:hat_stand}` as OPAC optional entity
+  exception groups with player-config options. Result: outside claims anyone can
+  interact; inside a claim it is protected by default (`N`), and each claim owner
+  can enable it for their own claim from the OPAC menu.
+
+### Fixed
+- **You can now break your own gravestone in any claim.** Added
+  `break$gravestone:gravestone` to `forcedBlockProtectionExceptionList`. OPAC no
+  longer blocks breaking the grave inside claims; the Gravestone mod's own
+  `only_owners_can_break=true` still restricts it to the grave's owner (+ admins),
+  so only you can break your grave, anywhere.
+
 ## [1.0.13] - 2026-06-02
 
 Server-only release (client stays on 1.0.7).
