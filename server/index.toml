@@ -97,34 +97,6 @@ file = "config/starterkit/kits/Default.txt"
 hash = "d302928bcb81dc2ba371580b1de7a588a60d7f9dc1c316df5010d42c98e786fe"
 
 [[files]]
-file = "config/starterkit/kits/Starter1.txt"
-hash = "360937b79c49bf1ad9d6bb7fa3bed184bc252be6d6bdae3c5468915bda3d8630"
-
-[[files]]
-file = "config/starterkit/kits/Starter2.txt"
-hash = "a755202ceda20df487cb0b87a714ddf8f7525488959a7f2e8ada7fe92f78d11d"
-
-[[files]]
-file = "config/starterkit/kits/Starter3.txt"
-hash = "b9ed93dcd9271d14717841990fe84f76add4870fd39fa85d9f324278158e2a9d"
-
-[[files]]
-file = "config/starterkit/kits/Starter4.txt"
-hash = "4c569ead98f87d78370b3cec94b5833a591a356e686fa529a94b16ba56fae517"
-
-[[files]]
-file = "config/starterkit/kits/Starter5.txt"
-hash = "b8459d255da47375a44c6c875064a11f5a8df58fb366c07fe8e944d0026cc558"
-
-[[files]]
-file = "config/starterkit/kits/Starter6.txt"
-hash = "0c0f7645deb7509e19160f8d53dbb794caed46d4650b7ec7964a6f2ab2f05d16"
-
-[[files]]
-file = "config/starterkit/kits/Starter7.txt"
-hash = "d04811e618c3de9e9a43e8285aeefb921713b7de486d4cea5ddf49412d9f6f48"
-
-[[files]]
 file = "config/supplementaries-common.toml"
 hash = "83723be6df3890688501a2113a497012d395f5c2daaa97ff74c45e5ef6ea0282"
 

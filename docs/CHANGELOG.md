@@ -4,6 +4,14 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.11] - 2026-06-02
+
+Server-only release (client stays on 1.0.7).
+
+### Removed
+- **Old starter kits Starter1–Starter7 dropped.** Only the new `Default` kit
+  remains, so every new player gets the same up-to-date kit.
+
 ## [1.0.10] - 2026-06-02
 
 Server-only release (client stays on 1.0.7).
