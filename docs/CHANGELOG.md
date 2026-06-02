@@ -4,10 +4,10 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
-## [Unreleased]
+## [1.0.8] - 2026-06-02
 
-Config-only tweaks to mob spawning, claim protection, and Carry On. Ships
-with the next tagged release.
+Server-only release (client stays on 1.0.7). Config tweaks to mob spawning,
+claim protection, Carry On, and a temporary End lockout.
 
 ### Changed
 - **Zombie and Skeleton Horse traps disabled.** In Control now denies
