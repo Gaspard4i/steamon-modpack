@@ -50,7 +50,7 @@ hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "a8d60844f199ae94104a1240c3a428ffa6a2c7f09fbad4748d1ee9f917d8eef7"
+hash = "23a216c5ab68700e569c7db8735573e3268dbbf5d4b569b23857f753d40640f2"
 
 [[files]]
 file = "config/rctmod-server.toml"
@@ -93,32 +93,36 @@ file = "config/starterkit.json5"
 hash = "59f438a6e1982085656b80f626c075e68278f56e98582b2daa8bdb4ed4bd6f9d"
 
 [[files]]
+file = "config/starterkit/kits/Default.txt"
+hash = "d302928bcb81dc2ba371580b1de7a588a60d7f9dc1c316df5010d42c98e786fe"
+
+[[files]]
 file = "config/starterkit/kits/Starter1.txt"
-hash = "53e118d9e5a4a5edf25ca1e5b19a3043e92ddc5cf1bce0716165b591d7d03c43"
+hash = "360937b79c49bf1ad9d6bb7fa3bed184bc252be6d6bdae3c5468915bda3d8630"
 
 [[files]]
 file = "config/starterkit/kits/Starter2.txt"
-hash = "d3c40f755be71c1a180500c20522bf03ef333bea957a9a813e166dc98201823a"
+hash = "a755202ceda20df487cb0b87a714ddf8f7525488959a7f2e8ada7fe92f78d11d"
 
 [[files]]
 file = "config/starterkit/kits/Starter3.txt"
-hash = "654ac94fd9592d7561e14ea15b007a625c09237a61b6c1e28c83aa36586cff13"
+hash = "b9ed93dcd9271d14717841990fe84f76add4870fd39fa85d9f324278158e2a9d"
 
 [[files]]
 file = "config/starterkit/kits/Starter4.txt"
-hash = "8eec74c50a55be045a9e3084edec881f892b8509fba3768697ac1659ab65de8a"
+hash = "4c569ead98f87d78370b3cec94b5833a591a356e686fa529a94b16ba56fae517"
 
 [[files]]
 file = "config/starterkit/kits/Starter5.txt"
-hash = "5accba617890a43ee90664c13b276c5f86114b3912c2454e4e4953105816c636"
+hash = "b8459d255da47375a44c6c875064a11f5a8df58fb366c07fe8e944d0026cc558"
 
 [[files]]
 file = "config/starterkit/kits/Starter6.txt"
-hash = "bb6ea550087919cb26c55fc8a54d031d945e402e0fdc6c37b3ede3a7053d1b04"
+hash = "0c0f7645deb7509e19160f8d53dbb794caed46d4650b7ec7964a6f2ab2f05d16"
 
 [[files]]
 file = "config/starterkit/kits/Starter7.txt"
-hash = "5ca929eae5374572f5af8a08711a915824366f3e98e0a50217aa4abe9827544a"
+hash = "d04811e618c3de9e9a43e8285aeefb921713b7de486d4cea5ddf49412d9f6f48"
 
 [[files]]
 file = "config/supplementaries-common.toml"

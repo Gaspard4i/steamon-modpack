@@ -315,7 +315,7 @@
 			#Entities that are completely banned from being interacted with on the server, claimed or not. Does not affect killing the entities. Supports entity tags.
 			#Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:(v|p)illager", "minecraft:*illager", "#minecraft:raiders"]
-			completelyDisabledEntityInteractions = []
+			completelyDisabledEntityInteractions = ["minecraft:armor_stand", "supplementaries:hat_stand"]
 			#Whether to always protect blocks from enchantments such as frost walking across the server. Use this if the regular claim protection doesn't work, since there is no game rule for it.
 			alwaysProtectBlocksFromEnchantments = false
 			#Whether to ignore most detected entity collisions for boats.

@@ -4,6 +4,21 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.10] - 2026-06-02
+
+Server-only release (client stays on 1.0.7).
+
+### Changed
+- **Armor stands and hat stands can no longer be interacted with — anywhere, by
+  anyone.** Both are entities (`minecraft:armor_stand`,
+  `supplementaries:hat_stand`) whose item slots could be looted even inside
+  claims: the Aether arms mixin and Supplementaries route the take/equip through
+  a code path that bypassed OPAC's claim protection. Added both to OPAC's
+  `completelyDisabledEntityInteractions`, which blocks interaction server-wide
+  and is not bypassable. They stay decorative — placing and breaking them still
+  works, only equipping/removing items is gone. A true claim-aware block is not
+  possible with these mods.
+
 ## [1.0.9] - 2026-06-02
 
 Server-only hotfix (client stays on 1.0.7).
