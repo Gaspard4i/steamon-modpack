@@ -4,6 +4,21 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.16] - 2026-06-03
+
+Server-only release (client stays on 1.0.7).
+
+### Fixed
+- **Supplementaries statue moved from Decorations to containers.** The statue
+  has an item slot, so it belongs to `Modded_Storage` (protected like a
+  container), not the cosmetic `Decorations` group.
+
+### Changed
+- **Seats group extended to every modded sittable.** Added CobbleFurnies
+  (chairs/armchairs/stools/sofas tags), let's-do Meadow (chairs, benches,
+  sofas), Beachparty (beach/palm chairs, bar stool, towel) and Vinery chair on
+  top of Create / Comforts / Another Furniture. Sitting stays enabled by default.
+
 ## [1.0.15] - 2026-06-02
 
 Server-only release (client stays on 1.0.7). Three new per-claim OPAC toggles,
