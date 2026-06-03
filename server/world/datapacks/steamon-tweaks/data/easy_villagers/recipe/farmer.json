@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "GGG",
+    "GWG",
+    "IDI"
+  ],
+  "key": {
+    "G": {
+      "tag": "c:glass_panes/colorless"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "accept_mirrored": false,
+  "result": {
+    "id": "easy_villagers:farmer"
+  }
+}

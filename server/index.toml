@@ -1215,8 +1215,60 @@ file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_s
 hash = "9d60f3c67e9c3e3ea8d18073f08f1d94990f69f53ec03cb5d413a7f882f4930e"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
+hash = "fa42271f92f727bbee7bdcdc2267771b8bd209c35fda4ba8ffdb48e6155abebc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_obsidian.json"
+hash = "01ef910c73f922e03c28508e973591909290eb23fc84f500231ceb22c6cf48bc"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_witherrose.json"
 hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/crafting/chunk_loader.json"
+hash = "525014a56647a80c8933577991ae6ddb396c14525c4db5d0f2c3629a7427f4c3"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/energy_transmitter.json"
+hash = "aeda5a695bf774b2b90601afdcf999d99bc62fbeb36c9a17f5882ea828f1a392"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/fluid_transmitter.json"
+hash = "85b5b4eb28f352b0f268cd5c26ac84c0bbcb97df833b6e03dbe5d68219e0f1a2"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/item_transmitter.json"
+hash = "52cb5ea7ec83c22f2f4199aca6f6def07301aad4fc313e37ad90b69e51fc51f4"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/auto_trader.json"
+hash = "d9a0b9f5994323f967b3a1afb13b8a0c2193d6b38f41ee243a0eab6294b85e06"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/breeder.json"
+hash = "ec0fa0a3469dc0b581ee2ecf08eadfa4ab340b8fed7b6cac5296c5d6b348ccf1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/converter.json"
+hash = "73238b9f789d833e9858e4dccc3a1e15ff540643fdff0d84c6776ee9e66ea2b1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/farmer.json"
+hash = "82ee8feb18a97be7d535dc9536ec9c19c19b7bac4f07f12011f53ab3cf452b69"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/incubator.json"
+hash = "5f30fcfa9a19ae808791c56865ac061bad3c0ca91e03d50b10a5d87c1d588b2d"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/iron_farm.json"
+hash = "d62d01f439380c5eeb1ce7f4067a771dfcbd0c8e2c3cd0cc5ca32ae063ce5a51"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/trader.json"
+hash = "0a759b664c59174fa49a31bd313c9227a13e242be32cd943ccd374615d5c77b6"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"

@@ -4,6 +4,24 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.17] - 2026-06-03
+
+Server-only release (client stays on 1.0.7). Recipe overrides via the
+`steamon-tweaks` datapack.
+
+### Changed
+- **Ender Transmission transmitters reworked.** Energy / item / fluid
+  transmitters now use crying obsidian (was obsidian), eye of ender (was ender
+  pearl) and a warp stone (was eye of ender). The chunk loader recipe is removed.
+- **Easy Villagers are now Create-only.** All seven blocks (trader, auto trader,
+  breeder, converter, farmer, incubator, iron farm) can only be made in a
+  Mechanical Crafter, not the vanilla crafting table.
+
+### Removed
+- **Crying obsidian can no longer be made by Haunting** (disabled the create_sa
+  and create_ultimate_factory haunting recipes), keeping it a deliberate
+  ingredient.
+
 ## [1.0.16] - 2026-06-03
 
 Server-only release (client stays on 1.0.7).
