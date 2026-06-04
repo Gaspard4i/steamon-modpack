@@ -4,6 +4,40 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.2.0] - 2026-06-04
+
+Big server-side update bundling all the server changes since 1.0.7 (claim
+protection, recipes, performance). Detailed per-step notes are kept below
+(1.0.8 → 1.0.17).
+
+### Performance
+- **Dropped Saturn** (redundant — its mixins were all overridden by Lithium /
+  ModernFix, doing nothing but spamming conflict warnings).
+- **Added C2ME** (Concurrent Chunk Management Engine) for multithreaded chunk
+  generation/loading — big help against exploration freezes.
+- **Pre-generated** the area around spawn (Chunky, radius 5000) so generation
+  lag is gone inside the played zone.
+- `entity-broadcast-range-percentage` lowered to 80.
+
+### Claim protection (OPAC) — per-claim toggles, protected by default
+- Armor stands & hat stands, decorations (bell, globe, hourglass, clock, flags,
+  etc.), the whole Create ecosystem (interact only), and all remaining modded
+  containers (backpacks, gilded chests, easy villagers, kegs, cabinets, etc.).
+- Vault interaction (toggle, on by default). Warp plate right-click removed.
+- Carry On: picking up other players disabled.
+- You can break your own gravestone in any claim.
+
+### Mobs
+- Zombie/Skeleton Horse traps disabled (In Control).
+
+### Recipes (steamon-tweaks datapack)
+- Create recipes added: blank TR / blank TM (sequenced assembly + soap),
+  Zygarde Cell, Disc Fragment 5.
+- Ender Transmission transmitters reworked (crying obsidian / eye of ender /
+  warp stone); chunk loader recipe removed.
+- Crying obsidian no longer obtainable via Haunting.
+- Removed the Easy Villagers recipe overrides (mod to be dropped later).
+
 ## [1.0.17] - 2026-06-03
 
 Server-only release (client stays on 1.0.7). Recipe overrides via the
