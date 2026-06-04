@@ -36,7 +36,8 @@ protection, recipes, performance). Detailed per-step notes are kept below
 - Ender Transmission transmitters reworked (crying obsidian / eye of ender /
   warp stone); chunk loader recipe removed.
 - Crying obsidian no longer obtainable via Haunting.
-- Removed the Easy Villagers recipe overrides (mod to be dropped later).
+- **Removed the Easy Villagers mod entirely** (client + server), along with its
+  datapack recipe and its entries in the OPAC Modded_Storage group.
 
 ## [1.0.17] - 2026-06-03
 

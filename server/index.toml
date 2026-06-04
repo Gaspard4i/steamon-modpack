@@ -50,7 +50,7 @@ hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "d05118e93246939c69cb30b4733cbea57a924bc90644ace3b4c3ad5c8a6400bd"
+hash = "e81a987ed26d3d109ca1697071b56134b1136cc4c1b1ee14ad52c566ae3c9d17"
 
 [[files]]
 file = "config/rctmod-server.toml"
@@ -586,11 +586,6 @@ metafile = true
 [[files]]
 file = "mods/double-doors.pw.toml"
 hash = "99f1ddd42145295a0e53c87a4e14185c975e8b2174a53295a9021988f0748081"
-metafile = true
-
-[[files]]
-file = "mods/easy-villagers.pw.toml"
-hash = "d629988991e4e0c461a5031b8c774c184ef409f5b57187211c3abe5b1a21fc3c"
 metafile = true
 
 [[files]]
@@ -1821,10 +1816,6 @@ hash = "d70c6c3866902eec628c441985cd313a605cf3d4481cfb8f2156069d05b6d07b"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_water_saw.json"
 hash = "7fc1d2c8c120ccae9085189cd090fa2e20ff2e813f8b65dafb1529776a8f1eb4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/villager.json"
-hash = "fe58dee0bdc93d100737ca92b04ccfd33e671b9799a8146b37568ffcfebfeabe"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wishing_star.json"

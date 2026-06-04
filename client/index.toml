@@ -744,11 +744,6 @@ hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
 metafile = true
 
 [[files]]
-file = "mods/easy-villagers.pw.toml"
-hash = "d629988991e4e0c461a5031b8c774c184ef409f5b57187211c3abe5b1a21fc3c"
-metafile = true
-
-[[files]]
 file = "mods/embers-text-api.pw.toml"
 hash = "970a40d27bf934e1deb2147f26d76a08ca9099cb7136bce3e7624c1286a18e76"
 metafile = true
