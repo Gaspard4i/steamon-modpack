@@ -264,6 +264,11 @@ hash = "0236c16fae038f834245ad6c9b05f385f75db2e82630bdbf71a4b1a2e6def57d"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "17cf45aaab6d4964d4d851cfcbe4b5e6db539a2329216392bec4aea1c90b83a7"
+metafile = true
+
+[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
@@ -909,11 +914,6 @@ hash = "87708c5cf041f2c7eede5dc1a5ee0dd517a13c0c7e8c40c359669a5ffabef7db"
 metafile = true
 
 [[files]]
-file = "mods/saturn.pw.toml"
-hash = "d36d8736123e9d6dd79466ab908e83fc35529d25001b1a6770f22681c1316277"
-metafile = true
-
-[[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "6b5e9ad0332e9270c3c5064efeffd64dfa0835e46af476892713f62b4afef018"
 metafile = true
@@ -1243,36 +1243,32 @@ file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mecha
 hash = "52cb5ea7ec83c22f2f4199aca6f6def07301aad4fc313e37ad90b69e51fc51f4"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/auto_trader.json"
-hash = "d9a0b9f5994323f967b3a1afb13b8a0c2193d6b38f41ee243a0eab6294b85e06"
+file = "world/datapacks/steamon-tweaks/data/mega_showdown/recipe/zygarde_cell_create.json"
+hash = "06ef45cd9583f9325dbbc3d15216c36f08dd0bd4563cdb254d9bc3f0b9bd029e"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/breeder.json"
-hash = "ec0fa0a3469dc0b581ee2ecf08eadfa4ab340b8fed7b6cac5296c5d6b348ccf1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/converter.json"
-hash = "73238b9f789d833e9858e4dccc3a1e15ff540643fdff0d84c6776ee9e66ea2b1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/farmer.json"
-hash = "82ee8feb18a97be7d535dc9536ec9c19c19b7bac4f07f12011f53ab3cf452b69"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/incubator.json"
-hash = "5f30fcfa9a19ae808791c56865ac061bad3c0ca91e03d50b10a5d87c1d588b2d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/iron_farm.json"
-hash = "d62d01f439380c5eeb1ce7f4067a771dfcbd0c8e2c3cd0cc5ca32ae063ce5a51"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/easy_villagers/recipe/trader.json"
-hash = "0a759b664c59174fa49a31bd313c9227a13e242be32cd943ccd374615d5c77b6"
+file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/disc_fragment_5_create.json"
+hash = "690b105c8ec3214f3fed404d31fd37157cd74c3cb20972681694f99d9b83e0de"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
 hash = "f74498097708215ee46031db7467ce3abed880ed8188eff156e81993d9787e31"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tm_blank_create.json"
+hash = "a041903a99873e9b975b47e49ef29c4b2f3a3abbd2310f3e83d55d1f0eaba44e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tm_blank_soap.json"
+hash = "1e06246c860cde23f26e5e852aab1cd99eb1f113374a25bc04de2c2fdac446af"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_create.json"
+hash = "5e94c98d1aa6ff4af242bbe3dac99dcc13d0bd55763fcc42a75142bd7c7643af"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_soap.json"
+hash = "825aef5e513bbf4daa21e8eb2e641f891b6ac448f25fe66d79f860b9c15d46e2"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/function/disable_end_tick.mcfunction"

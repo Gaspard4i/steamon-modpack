@@ -1,9 +1,9 @@
 resourcePacks:["vanilla","file/ATM x MSD [v3.5.0].zip","file/Low Shield.zip","file/LowOnFire v26.1§8.zip","file/Simple Grass Flowers v1.9.6.zip","file/Comforts Modernized - V1.1.zip","file/CreateSophBackpacks.zip","file/Fully Hisuian Starters 1.1.1.zip","file/Emissive-Cobblemon-Ores-1.7.zip","file/E19 Cobblemon Minimap Icons.zip","file/RCT Trainers+ [1.6] v2.1.zip","file/waystones_1.21.1.zip","mod_resources"]
 incompatibleResourcePacks:[]
-biomeBlendRadius:2
+biomeBlendRadius:1
 enableVsync:true
 entityDistanceScaling:1.0
-entityShadows:true
+entityShadows:false
 fov:0.625
 fovEffectScale:1.0
 darknessEffectScale:1.0
