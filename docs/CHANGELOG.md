@@ -6,18 +6,21 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [1.2.0] - 2026-06-04
 
-Big server-side update bundling all the server changes since 1.0.7 (claim
-protection, recipes, performance). Detailed per-step notes are kept below
-(1.0.8 → 1.0.17).
+Big update bundling everything since 1.0.7: claim protection, recipes, and a
+performance pass on both client and server. Detailed per-step notes are kept
+below (1.0.8 → 1.0.17).
 
 ### Performance
+- **Client FPS:** added **BadOptimizations** (engine-level optimizations) and
+  **Sodium Extra** (OptiFine-style video settings — lower particles, fog,
+  clouds, animations to gain FPS on weaker PCs without losing any content).
 - **Dropped Saturn** (redundant — its mixins were all overridden by Lithium /
   ModernFix, doing nothing but spamming conflict warnings).
 - **Added C2ME** (Concurrent Chunk Management Engine) for multithreaded chunk
   generation/loading — big help against exploration freezes.
-- **Pre-generated** the area around spawn (Chunky, radius 5000) so generation
-  lag is gone inside the played zone.
-- `entity-broadcast-range-percentage` lowered to 80.
+- **Pre-generated** the area around spawn (Chunky) so generation lag is gone
+  inside the played zone.
+- `entity-broadcast-range-percentage` lowered to 80 (server).
 
 ### Claim protection (OPAC) — per-claim toggles, protected by default
 - Armor stands & hat stands, decorations (bell, globe, hourglass, clock, flags,

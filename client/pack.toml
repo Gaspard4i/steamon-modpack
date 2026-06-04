@@ -1,6 +1,6 @@
 name = "Steamon Client"
 author = "Gaspard4i"
-version = "1.0.7"
+version = "1.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
