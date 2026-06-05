@@ -3,11 +3,11 @@ filename = "cobblestats-neoforge-1.9.2+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jlXFcQk4/versions/nXjZdYx4/cobblestats-neoforge-1.9.2%2B1.21.1.jar"
-hash-format = "sha512"
-hash = "297e7021a1cc6fb0525cd392549939aba27e195ea791b1ef7a434596f30bd817b9be88f593033d695c9f9048ca41c6153d61449238147f17ed788723949e5c82"
+hash-format = "sha1"
+hash = "3e61f8968da3415e26f36c12955c657340fb77bf"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "jlXFcQk4"
-version = "nXjZdYx4"
+[update.curseforge]
+file-id = 7581127
+project-id = 1385982
