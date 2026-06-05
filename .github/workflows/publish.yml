@@ -661,7 +661,7 @@ jobs:
           download_block = (
               f"**Download:** [Steamon-Client.mrpack]({dl_url})\n"
               f"Re-import in your launcher to update.\n"
-              f"See <#1507307820742086738> for how to join.")
+              f"See <#1507307569008480298> for how to join.")
           MAX = 4096 - len(download_block) - 80  # safety margin
           if len(changelog) > MAX:
               changelog = changelog[:MAX].rsplit('\n', 1)[0] + "\n\n*…full notes on the Modrinth page.*"
