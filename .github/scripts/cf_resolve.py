@@ -31,6 +31,7 @@ NEOFORGE = 6
 PROJECT_OVERRIDES = {
     "chefs-delight": 832983,                                   # chefs-delight-forge
     "xaeros-minimap-world-map-waystones-compatibility-forge": 887484,
+    "c2me-neoforge": 533097,                                   # CF slug is "c2me"
 }
 
 # Mods where the pack's exact jar version is absent from CF, but the mod has a
