@@ -564,6 +564,11 @@ hash = "f86855a3645203b1d477cdb6a55b7b1e0bed7cc744207b37bb5d59bc5891af56"
 metafile = true
 
 [[files]]
+file = "mods/cultural-delights.pw.toml"
+hash = "7dc4daef7f7fbd4f89aa502f54ec24049a60c016e47d2b37776f3905623e3578"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
@@ -625,7 +630,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "efc2c4fe9e2cc169aff61a6b7a41ea9bc7a22a90aadf0776b22de647ddf3cef6"
+hash = "f59cd788e84d99e06d817007239d704411cc68b1bcfba58d3ed21e319f55dde0"
 metafile = true
 
 [[files]]

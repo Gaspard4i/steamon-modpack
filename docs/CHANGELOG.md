@@ -4,6 +4,12 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+- **Cultural Delights** — Farmer's Delight expansion adding regional dishes and
+  cooking ingredients (client + server).
+
 ## [1.2.0] - 2026-06-04
 
 Big update bundling everything since 1.0.7: claim protection, recipes, and a
