@@ -50,7 +50,7 @@ hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "e81a987ed26d3d109ca1697071b56134b1136cc4c1b1ee14ad52c566ae3c9d17"
+hash = "c6f7d5b60db387ffff4889c8f8fd84bb524153747db56b883fc5460065b0c60d"
 
 [[files]]
 file = "config/rctmod-server.toml"
@@ -951,11 +951,6 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "924590dd9b32e32f209e4e1986347b90355c07763e9a27dc79caa9cb12efeab5"
-metafile = true
-
-[[files]]
-file = "mods/snow-real-magic.pw.toml"
-hash = "fac79f521065224e1d712ed7f3bb19f1c694da773a80cb2d1b6701358861068b"
 metafile = true
 
 [[files]]
