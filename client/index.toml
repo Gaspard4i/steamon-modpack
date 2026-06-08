@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/carryon-common.toml"
-hash = "8b642784318a655e8d75c39021d74b6e620b06e146e7698d600d3f94153a2e33"
-
-[[files]]
 file = "config/cobblemon/main.json"
 hash = "79eb88fd1d4c784a5c8caf78cc996a60612ac121eb655518652eff13d5de33f1"
 
@@ -361,11 +357,6 @@ metafile = true
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "17cf45aaab6d4964d4d851cfcbe4b5e6db539a2329216392bec4aea1c90b83a7"
-metafile = true
-
-[[files]]
-file = "mods/carry-on.pw.toml"
-hash = "11fa4cee80d5456e1681f8229c756d8c4aaa3ce6fcd8ab0bef62f408c95441e6"
 metafile = true
 
 [[files]]
