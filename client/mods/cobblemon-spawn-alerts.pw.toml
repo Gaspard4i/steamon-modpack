@@ -3,11 +3,11 @@ filename = "cobblemon_spawn_alerts-neoforge-1.13.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "be415dc230d0875be3eadf512fdb648ab2751164"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/pb6jwG0t/versions/Ke2fN79T/cobblemon_spawn_alerts-neoforge-1.13.2.jar"
+hash-format = "sha512"
+hash = "c0ef93232ec9ef5a1c54f8a991e176ff85f9449f26976e9feb38750bfc4827a40cf75c6c44bf58d8260aa47f567f5a0157a64b9ac52e50042f53bcd7015b1a54"
 
 [update]
-[update.curseforge]
-file-id = 7722427
-project-id = 1295053
+[update.modrinth]
+mod-id = "pb6jwG0t"
+version = "Ke2fN79T"

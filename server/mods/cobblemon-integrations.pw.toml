@@ -3,11 +3,11 @@ filename = "cobblemonintegrations-neoforge-1.21.1-1.1.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "25468a1bb884998a0ebf7c061c32641fa0909841"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/NPCfuUI4/versions/NEiILQCx/cobblemonintegrations-neoforge-1.21.1-1.1.6.jar"
+hash-format = "sha512"
+hash = "da25a8922c8bf346cbc584d615dfc4d515442fff9739b5c7acf4f9794cf79be5a063273131db596a1c925f309989674016f1b2e1b8b407d0ba2951e0189bd189"
 
 [update]
-[update.curseforge]
-file-id = 7673549
-project-id = 913400
+[update.modrinth]
+mod-id = "NPCfuUI4"
+version = "NEiILQCx"

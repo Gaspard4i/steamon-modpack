@@ -3,11 +3,11 @@ filename = "BrewinAndChewin-neoforge-4.4.2+1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c01b9e39b4c116c3ce4b1b66f87c1921997337a5"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/hIu9KJTT/versions/CKLYp96Y/BrewinAndChewin-neoforge-4.4.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "ca6db594cc244307041b9f896956ad7dcba4727c62609a30aef9f913f5513238b7c898ecc39d4599385bdd177dea5c5de3149da34ab086217a307ab3f3e5aa06"
 
 [update]
-[update.curseforge]
-file-id = 7523542
-project-id = 637808
+[update.modrinth]
+mod-id = "hIu9KJTT"
+version = "CKLYp96Y"

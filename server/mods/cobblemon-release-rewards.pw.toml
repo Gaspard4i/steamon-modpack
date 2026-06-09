@@ -3,11 +3,11 @@ filename = "releaserewards-neoforge-3.0.1.jar"
 side = "server"
 
 [download]
-hash-format = "sha1"
-hash = "c1c44d0e48a1d9a649e637aed1777f01f1da7198"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Qx6M2WkT/versions/4r9mQ793/releaserewards-neoforge-3.0.1.jar"
+hash-format = "sha512"
+hash = "3dc26b402ead06b0f0e9f3152a80dbdd66682deea29863dd6c57612225a81f1217578a01f571b7da1ed53c1dc5c00f423427080bbaae52e6fee8e30528eb7f21"
 
 [update]
-[update.curseforge]
-file-id = 7250529
-project-id = 1169308
+[update.modrinth]
+mod-id = "Qx6M2WkT"
+version = "4r9mQ793"

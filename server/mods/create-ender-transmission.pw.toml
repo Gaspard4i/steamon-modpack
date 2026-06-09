@@ -3,11 +3,11 @@ filename = "createendertransmission-2.1.1-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "fbf165d068a3a9c6d24f1bcf68fb1af380ee2603"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/wtW8g4TG/versions/eI9pk5JC/createendertransmission-2.1.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "6b2ec688b73cd65edf8d0f76a509b71ec8ffbf10bb663c2fcd5334a264e2fdef40cd81f7a148690eb25db71714f418635afaf0fd7f17f2af045d88892756286f"
 
 [update]
-[update.curseforge]
-file-id = 7232820
-project-id = 737302
+[update.modrinth]
+mod-id = "wtW8g4TG"
+version = "eI9pk5JC"
