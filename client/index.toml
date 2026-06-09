@@ -815,11 +815,6 @@ hash = "57c838b572bbdb70372de2a6c0cc3b7a1496f4a3653936ace60ed92ced9a16e6"
 metafile = true
 
 [[files]]
-file = "mods/friends-for-life.pw.toml"
-hash = "8418e0fced5c633ee1faf3a877a6f355ee7f313b264d94578850f9590f3e549f"
-metafile = true
-
-[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "6a2693aaab21ce7c32b958b81ee5e9cad0d014cdf68c067049b2fc652159d9d1"
 metafile = true
@@ -1042,6 +1037,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "3db5943419e6b6f4e33946266be8797230434573bc68dbe3a77d72f19001ae0c"
+metafile = true
+
+[[files]]
+file = "mods/pet-your-cobblemon.pw.toml"
+hash = "d70c3774cf1b087f19cf57a7489ec80471d47ae1d57a9dc231cb34f15d1b5677"
 metafile = true
 
 [[files]]

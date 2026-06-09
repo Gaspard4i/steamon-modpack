@@ -4,11 +4,18 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
-## [Unreleased]
+## [1.2.1] - 2026-06-09
 
 ### Added
 - **Cultural Delights** — Farmer's Delight expansion adding regional dishes and
-  cooking ingredients (client + server).
+  cooking ingredients.
+- **Pet Your Cobblemon** — pet and interact with your Pokémon.
+- **Cobblemon Unchained** — Cobblemon gameplay expansion.
+
+### Removed
+- **Snow Real Magic** — caused a server crash during entity pathfinding.
+- **Carry On** — recurrent crash that disconnected all players.
+- **Friends for Life**.
 
 ## [1.2.0] - 2026-06-04
 
