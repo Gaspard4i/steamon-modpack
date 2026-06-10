@@ -795,6 +795,11 @@ hash = "2d33555b1fd37949378fc7f2373ed2dd186dd41eef4367e4c52ad802cc02e99d"
 metafile = true
 
 [[files]]
+file = "mods/navas-zamega.pw.toml"
+hash = "c26813c0d001083592dd7f12a1bde79972c8d24a7ea2e9dbf59f84b52cae4da9"
+metafile = true
+
+[[files]]
 file = "mods/noisium.pw.toml"
 hash = "d424a9260ef51bc102e56f0423d91dfabb739ccca8a86eb1c450ea631b739280"
 metafile = true
