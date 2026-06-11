@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "tag": "c:ash" },
+    { "tag": "c:ash" },
+    { "tag": "c:ash" },
+    { "tag": "c:ash" },
+    { "item": "farmersdelight:ham" },
+    { "type": "neoforge:single", "amount": 250, "fluid": "minecraft:water" }
+  ],
+  "results": [
+    { "id": "supplementaries:soap", "count": 6 }
+  ]
+}
