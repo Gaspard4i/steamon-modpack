@@ -585,6 +585,11 @@ hash = "7661004af88b9684ef0f4dd768b61687d4dc1ce2786f772caedf352236a9dca8"
 metafile = true
 
 [[files]]
+file = "mods/easyafk.pw.toml"
+hash = "c71f8fe0b5f6a3306b340065e23b558089e5a2261fb00f89d953280495088dbc"
+metafile = true
+
+[[files]]
 file = "mods/embers-text-api.pw.toml"
 hash = "9573e0c45d19370fd8d2b64d7853294ece259a4c9c88207382b7163984bc9046"
 metafile = true

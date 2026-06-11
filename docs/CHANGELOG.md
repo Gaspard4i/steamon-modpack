@@ -4,6 +4,13 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.2.3] - 2026-06-11 (server only)
+
+### Added
+- **EasyAFK** (server-side) — marks idle players as AFK and kicks them after
+  5 minutes of inactivity, with anti-bypass checks (boat / water flow). Clients
+  are unaffected (server-only), no client update needed.
+
 ## [1.2.2] - 2026-06-11
 
 ### Added
