@@ -83,7 +83,7 @@
 		#This value can be overridden with a player permission.
 		# Default: 10
 		# Range: > 0
-		maxPlayerClaimForceloads = 5
+		maxPlayerClaimForceloads = 10
 		#The permission that should override the default "maxPlayerClaims" value. Set it to an empty string to never check permissions. The used permission system can be configured with "permissionSystem".
 		maxPlayerClaimsPermission = "xaero.pac_max_claims"
 		#The permission that should override the default "maxPlayerClaimForceloads" value. Set it to an empty string to never check permissions.
