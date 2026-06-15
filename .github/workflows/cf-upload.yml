@@ -54,21 +54,86 @@ jobs:
       - name: Build CF-native client zip
         env:
           VERSION: ${{ inputs.version }}
+          CF_CORE_KEY: ${{ secrets.CF_CORE_KEY }}
         run: |
           set -euo pipefail
           cd client
           sed -i "s/^version = \".*\"/version = \"$VERSION\"/" pack.toml
           packwiz refresh
-          # CurseForge needs a CF-native zip (manifest.json + overrides/),
-          # not the Modrinth .mrpack (modrinth.index.json). packwiz curseforge
-          # export builds the CF format directly. Mods without CF metadata
-          # are embedded under overrides/mods/ (heavier zip but works as-is).
+
+          # Pass 1: initial export so packwiz can fingerprint local jars.
+          packwiz curseforge export -y >/dev/null 2>&1 || true
+          ZIP="$(ls *.zip 2>/dev/null | grep -v 'Server' | head -1 || true)"
+          if [ -n "${ZIP:-}" ]; then
+            mkdir -p _ex && (cd _ex && unzip -oq "../$ZIP")
+            cp _ex/overrides/mods/*.jar mods/ 2>/dev/null || true
+            cp _ex/overrides/resourcepacks/*.zip resourcepacks/ 2>/dev/null || true
+            rm -rf _ex "$ZIP"
+          fi
+
+          # Pass 2: fingerprint detect (no API key needed).
+          echo "::group::packwiz curseforge detect"
+          packwiz curseforge detect -y || true
+          echo "::endgroup::"
+          packwiz refresh
+
+          # Pass 3: Core API resolution for remaining unresolved mods.
+          if [ -n "${CF_CORE_KEY:-}" ]; then
+            echo "::group::CF Core API resolution"
+            CF_CORE_KEY="$CF_CORE_KEY" python3 "$GITHUB_WORKSPACE/.github/scripts/cf_resolve.py" mods \
+              | sed 's/^/  /'
+            echo "::endgroup::"
+            packwiz refresh
+          else
+            echo "[warn] CF_CORE_KEY not set — Core API resolution skipped"
+          fi
+
+          # Pass 4: dedupe duplicate CF file-id references.
+          echo "::group::dedupe CF references"
+          python3 "$GITHUB_WORKSPACE/.github/scripts/cf_dedupe.py" mods resourcepacks \
+            | sed 's/^/  /'
+          echo "::endgroup::"
+
+          # Remove physical jars (only needed for fingerprinting).
+          rm -f mods/*.jar resourcepacks/*.zip
+          packwiz refresh
+
+          # Final CF-native export.
+          rm -f *.zip
           packwiz curseforge export -y
           ORIG="$(ls *.zip | grep -v 'Server' | head -1)"
-          # Rename to a CF-friendly filename (no spaces).
           CF_NAME="Steamon-${VERSION}.zip"
           mv "$ORIG" "$CF_NAME"
           echo "MRPACK_PATH=client/$CF_NAME" >> "$GITHUB_ENV"
+
+          # Report and guard overrides/mods.
+          mkdir -p _check && (cd _check && unzip -oq "../$CF_NAME")
+          REFS=$(python3 -c "import json;print(len(json.load(open('_check/manifest.json')).get('files',[])))")
+          OVR_JARS=$(ls _check/overrides/mods/*.jar 2>/dev/null | wc -l || echo 0)
+          echo "manifest refs=$REFS | overrides/mods jars=$OVR_JARS"
+          ls _check/overrides/mods/*.jar 2>/dev/null | xargs -n1 basename 2>/dev/null \
+            | sed 's/^/  override: /' || echo "  (none)"
+          ls _check/overrides/mods/*.jar 2>/dev/null | xargs -n1 basename 2>/dev/null \
+            | sort > /tmp/override_mods.txt || true
+          rm -rf _check
+
+          cat > /tmp/allowed_overrides.txt <<'ALLOWEOF'
+Cobbreeding-neoforge-2.2.1.jar
+cobblemon_paleontologist-0.6.0-Beta-Neo.jar
+create-ochrum-recipe-1.jar
+spudaciousshops-1.10.3-neoforge-1.21.1.jar
+visibletraders-0.0.7.1.jar
+ALLOWEOF
+          sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//; /^$/d' /tmp/allowed_overrides.txt
+          sort -o /tmp/allowed_overrides.txt /tmp/allowed_overrides.txt
+          touch /tmp/override_mods.txt
+          UNEXPECTED=$(comm -23 /tmp/override_mods.txt /tmp/allowed_overrides.txt || true)
+          if [ -n "$UNEXPECTED" ]; then
+            echo "::error::CF upload blocked: unexpected jar(s) in overrides/mods/:"
+            echo "$UNEXPECTED" | sed 's/^/  - /'
+            exit 1
+          fi
+          echo "Guard passed: overrides/mods contains only known Modrinth-only mods."
           ls -la "$CF_NAME"
 
       - name: Extract changelog

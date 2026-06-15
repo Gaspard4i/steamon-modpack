@@ -39,7 +39,11 @@ PROJECT_OVERRIDES = {
 # these we accept the newest compatible CF file instead of an exact filename
 # match (a patch-level version drift is acceptable here).
 ALLOW_NEWEST = {
-    "balm",   # license forbids redistribution; CF lacks the exact 21.0.58 jar
+    "balm",           # ARR — redistribution forbidden; CF may lack the exact jar version
+    "gravestone-mod", # ARR — redistribution forbidden (slug: gravestone-mod on CF)
+    "glitchcore",     # ARR — redistribution forbidden
+    "default-options", # ARR — redistribution forbidden
+    "terrablender",   # ARR — redistribution forbidden; CF must reference, not embed
 }
 
 

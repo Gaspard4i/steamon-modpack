@@ -108,17 +108,97 @@ jobs:
       - name: Build CF-native zip (client only)
         if: steps.meta.outputs.variant == 'client'
         working-directory: client
+        env:
+          VERSION: ${{ steps.meta.outputs.version }}
+          CF_CORE_KEY: ${{ secrets.CF_CORE_KEY }}
         run: |
-          # CurseForge silently rejects .mrpack uploads (it expects
-          # manifest.json at zip root, not modrinth.index.json). Generate
-          # the CF-native format separately. Mods without CF metadata in
-          # their .pw.toml are embedded under overrides/mods/ (heavier zip
-          # but works). Rename to a CF-friendly filename (no spaces).
+          set -euo pipefail
+
+          # Pass 1: initial export so packwiz can fingerprint local jars.
+          # packwiz curseforge detect needs the jars on disk. An export first
+          # puts them in overrides/mods/ of the zip, then we extract them.
+          packwiz curseforge export -y >/dev/null 2>&1 || true
+          ZIP="$(ls *.zip 2>/dev/null | grep -v 'Server' | head -1 || true)"
+          if [ -n "${ZIP:-}" ]; then
+            mkdir -p _ex && (cd _ex && unzip -oq "../$ZIP")
+            cp _ex/overrides/mods/*.jar mods/ 2>/dev/null || true
+            cp _ex/overrides/resourcepacks/*.zip resourcepacks/ 2>/dev/null || true
+            rm -rf _ex "$ZIP"
+          fi
+
+          # Pass 2: fingerprint detect — matches jars to CF project/file IDs by
+          # hash (no API key required). Resolves most mods that have CF pages.
+          echo "::group::packwiz curseforge detect"
+          packwiz curseforge detect -y || true
+          echo "::endgroup::"
+          packwiz refresh
+
+          # Pass 3: Core API resolve — for mods still missing a [update.curseforge]
+          # block, query the CF Core API by slug/name to find the project+file ID.
+          if [ -n "${CF_CORE_KEY:-}" ]; then
+            echo "::group::CF Core API resolution"
+            CF_CORE_KEY="$CF_CORE_KEY" python3 "$GITHUB_WORKSPACE/.github/scripts/cf_resolve.py" mods \
+              | sed 's/^/  /'
+            echo "::endgroup::"
+            packwiz refresh
+          else
+            echo "[warn] CF_CORE_KEY not set — Core API resolution skipped (more jars may land in overrides)"
+          fi
+
+          # Pass 4: dedupe — packwiz curseforge detect can create a second .pw.toml
+          # under the CF slug when the mod is already tracked under its Modrinth slug,
+          # producing duplicate file-ids that CF rejects. Remove the duplicates.
+          echo "::group::dedupe CF references"
+          python3 "$GITHUB_WORKSPACE/.github/scripts/cf_dedupe.py" mods resourcepacks \
+            | sed 's/^/  /'
+          echo "::endgroup::"
+
+          # Drop the physical jars that were copied in for fingerprinting. packwiz
+          # embeds any file present under mods/ into overrides, undoing the resolution.
+          rm -f mods/*.jar resourcepacks/*.zip
+          packwiz refresh
+
+          # Final CF-native export: manifest.json + overrides/ (configs only, no jars).
+          rm -f *.zip
           packwiz curseforge export -y
           ORIG="$(ls *.zip | head -1)"
-          CF_NAME="Steamon-${{ steps.meta.outputs.version }}.zip"
+          CF_NAME="Steamon-${VERSION}.zip"
           mv "$ORIG" "$CF_NAME"
           echo "CF_ZIP_PATH=client/$CF_NAME" >> "$GITHUB_ENV"
+
+          # Inspect the zip and report what is still in overrides/mods/ (should be
+          # only the known Modrinth-only mods; anything else is a resolution gap).
+          mkdir -p _check && (cd _check && unzip -oq "../$CF_NAME")
+          REFS=$(python3 -c "import json;print(len(json.load(open('_check/manifest.json')).get('files',[])))")
+          OVR_JARS=$(ls _check/overrides/mods/*.jar 2>/dev/null | wc -l || echo 0)
+          echo "manifest refs=$REFS | overrides/mods jars=$OVR_JARS"
+          ls _check/overrides/mods/*.jar 2>/dev/null | xargs -n1 basename 2>/dev/null \
+            | sed 's/^/  override: /' || echo "  (none)"
+          ls _check/overrides/mods/*.jar 2>/dev/null | xargs -n1 basename 2>/dev/null \
+            | sort > /tmp/override_mods.txt || true
+          rm -rf _check
+
+          # Guard: refuse to upload if any jar in overrides/ is not in the known-safe
+          # allowlist. These are mods that exist only on Modrinth (no CF page) and
+          # have licenses that permit redistribution in modpacks.
+          cat > /tmp/allowed_overrides.txt <<'ALLOWEOF'
+Cobbreeding-neoforge-2.2.1.jar
+cobblemon_paleontologist-0.6.0-Beta-Neo.jar
+create-ochrum-recipe-1.jar
+spudaciousshops-1.10.3-neoforge-1.21.1.jar
+visibletraders-0.0.7.1.jar
+ALLOWEOF
+          sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//; /^$/d' /tmp/allowed_overrides.txt
+          sort -o /tmp/allowed_overrides.txt /tmp/allowed_overrides.txt
+          touch /tmp/override_mods.txt
+          UNEXPECTED=$(comm -23 /tmp/override_mods.txt /tmp/allowed_overrides.txt || true)
+          if [ -n "$UNEXPECTED" ]; then
+            echo "::error::CF upload blocked: unexpected jar(s) in overrides/mods/ — CF would reject:"
+            echo "$UNEXPECTED" | sed 's/^/  - /'
+            echo "Add them to the allowlist (if Modrinth-only, license OK) or fix their CF resolution."
+            exit 1
+          fi
+          echo "Guard passed: overrides/mods contains only known Modrinth-only mods."
           ls -la "$CF_NAME"
 
       - name: Validate modpack (smoke test)
