@@ -8,16 +8,45 @@
     "AEA"
   ],
   "key": {
-    "A": { "item": "cobblemon:blue_apricorn" },
-    "P": { "tag": "steamon:pokefinders" },
-    "G": { "item": "minecraft:tinted_glass" },
-    "W": { "item": "waystones:warp_stone" },
-    "H": { "item": "cobblemon:healing_machine" },
-    "N": { "item": "minecraft:nether_star" },
-    "C": { "item": "cobblemon:pc" },
-    "M": { "item": "create:precision_mechanism" },
-    "E": { "item": "minecraft:ender_chest" }
+    "A": {
+      "item": "cobblemon:blue_apricorn"
+    },
+    "P": {
+      "tag": "steamon:pokefinders"
+    },
+    "G": {
+      "item": "minecraft:tinted_glass"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "H": {
+      "item": "cobblemon:healing_machine"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "cobblemon:pc"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "minecraft:ender_chest"
+    }
   },
   "accept_mirrored": false,
-  "result": { "id": "cobblemon_smartphone:blue_smartphone", "count": 1 }
+  "result": {
+    "id": "cobblemon_smartphone:blue_smartphone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "cobblemon_smartphone:upgrades": {
+          "upgrade_pokenav": true,
+          "upgrade_waystone": true
+        }
+      }
+    }
+  }
 }

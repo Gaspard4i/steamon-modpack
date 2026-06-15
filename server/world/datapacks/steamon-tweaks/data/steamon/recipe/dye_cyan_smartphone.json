@@ -2,8 +2,23 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    { "tag": "steamon:smartphones" },
-    { "item": "minecraft:cyan_dye" }
+    {
+      "tag": "steamon:smartphones"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
   ],
-  "result": { "id": "cobblemon_smartphone:cyan_smartphone", "count": 1 }
+  "result": {
+    "id": "cobblemon_smartphone:cyan_smartphone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "cobblemon_smartphone:upgrades": {
+          "upgrade_pokenav": true,
+          "upgrade_waystone": true
+        }
+      }
+    }
+  }
 }
