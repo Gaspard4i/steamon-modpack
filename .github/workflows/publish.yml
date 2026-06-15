@@ -181,15 +181,14 @@ jobs:
           # Guard: refuse to upload if any jar in overrides/ is not in the known-safe
           # allowlist. These are mods that exist only on Modrinth (no CF page) and
           # have licenses that permit redistribution in modpacks.
-          cat > /tmp/allowed_overrides.txt <<'ALLOWEOF'
-Cobbreeding-neoforge-2.2.1.jar
-cobblemon_paleontologist-0.6.0-Beta-Neo.jar
-create-ochrum-recipe-1.jar
-spudaciousshops-1.10.3-neoforge-1.21.1.jar
-visibletraders-0.0.7.1.jar
-ALLOWEOF
-          sed -i 's/^[[:space:]]*//; s/[[:space:]]*$//; /^$/d' /tmp/allowed_overrides.txt
-          sort -o /tmp/allowed_overrides.txt /tmp/allowed_overrides.txt
+          # (printf used instead of heredoc to avoid YAML parser conflicts with <<)
+          printf '%s\n' \
+            'Cobbreeding-neoforge-2.2.1.jar' \
+            'cobblemon_paleontologist-0.6.0-Beta-Neo.jar' \
+            'create-ochrum-recipe-1.jar' \
+            'spudaciousshops-1.10.3-neoforge-1.21.1.jar' \
+            'visibletraders-0.0.7.1.jar' \
+            | sort > /tmp/allowed_overrides.txt
           touch /tmp/override_mods.txt
           UNEXPECTED=$(comm -23 /tmp/override_mods.txt /tmp/allowed_overrides.txt || true)
           if [ -n "$UNEXPECTED" ]; then
