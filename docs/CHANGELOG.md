@@ -4,6 +4,15 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.2.4] - 2026-06-15
+
+### Changed
+- **Cobblemon Smartphone** updated to 1.0.9-rev01 — PokeNav and Waystone no longer require the item in your inventory (now part of the smartphone upgrade system, crafted smartphones come pre-upgraded). Removed the server-side `waystone_free` smartphone action override, which is now handled natively by the mod.
+
+### Added
+- **Deep Aether** (1.21.1-1.1.5.1) — expands the Aether dimension with new biomes, mobs, and structures.
+- **TerraBlender** (4.1.0.8) — required dependency for Deep Aether.
+
 ## [1.2.3] - 2026-06-11 (server only)
 
 ### Added
