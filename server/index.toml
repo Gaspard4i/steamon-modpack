@@ -37,6 +37,10 @@ file = "config/incontrol/spawn.json"
 hash = "833b5fdb1d0c6558643c582731e9aaab0bacc8cb1250fa79ef7bb0b1c400cfb3"
 
 [[files]]
+file = "config/item_obliterator.json5"
+hash = "9537336bbec9e5316ea143756294d6c546ed405f40f2df9fb2f0de9661da5d32"
+
+[[files]]
 file = "config/magnumtorch-server.toml"
 hash = "ccffad7181aa62c68f09874f54a59c5509f14cf23a7983ba72919146c25d8684"
 
@@ -700,6 +704,11 @@ hash = "6402d23ba23b18fc4c3531ba03f8d044bea2f4521e1504216efc73a4d08461ce"
 metafile = true
 
 [[files]]
+file = "mods/item-obliterator.pw.toml"
+hash = "7cea606e8bf0406c38b43117653a2a0a10ca433b7a292f27798e7d7801d04c6c"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "2e16af87696f93732c20c9ee426b2e27996bee140be17c26011fe47fec586de2"
 metafile = true
@@ -807,6 +816,11 @@ metafile = true
 [[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "c26813c0d001083592dd7f12a1bde79972c8d24a7ea2e9dbf59f84b52cae4da9"
+metafile = true
+
+[[files]]
+file = "mods/necronomicon.pw.toml"
+hash = "8a47f450836326fbab861a04677dee883bd01f7a34990b7a50336cb93cf64f3a"
 metafile = true
 
 [[files]]

@@ -4,6 +4,14 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.2.5] - 2026-06-16 (server only)
+
+### Added
+- **Item Obliterator** + **Necronomicon API** (server-side) — removes the
+  Eternal Steak and Everlasting Beef (Artifacts) everywhere: inventories, chests,
+  drops, and disables their recipes. These items were too strong (infinite food).
+  Server-only, no client update needed.
+
 ## [1.2.4] - 2026-06-15
 
 ### Changed

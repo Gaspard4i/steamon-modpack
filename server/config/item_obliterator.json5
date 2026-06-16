@@ -1,0 +1,13 @@
+{
+  "configVersion": 2,
+  // Items here will be unusable completely (removed from inventories, chests, drops; recipes disabled)
+  "blacklisted_items": [
+    "artifacts:eternal_steak",
+    "artifacts:everlasting_beef"
+  ],
+  "blacklisted_nbt": [],
+  "only_disable_interactions": [],
+  "only_disable_attacks": [],
+  "only_disable_recipes": [],
+  "use_hashmap_optimizations": false
+}
