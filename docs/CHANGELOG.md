@@ -4,6 +4,15 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.2.6] - 2026-06-16 (server only)
+
+### Removed
+- **CobbleDex (rei-emi-jei)** removed from the server — it is a client-side
+  Pokedex UI addon that was wrongly running server-side, re-syncing ~1 MB of
+  Pokedex data to every client on each login (on the main thread), causing a
+  lag spike at every connection. Removed from server/ and client/ in the repo
+  (client keeps it until the next client release).
+
 ## [1.2.5] - 2026-06-16 (server only)
 
 ### Added

@@ -400,11 +400,6 @@ hash = "910f09506aef1e066631306ab1e9860350e1c1a22d0820abc506df3ec7c54651"
 metafile = true
 
 [[files]]
-file = "mods/cobbledex-rei-emi-jei.pw.toml"
-hash = "3bb082ebfd92e6a8028dd5f9bdcf86875053f9d6911d500ab850bbfbc6b3b08b"
-metafile = true
-
-[[files]]
 file = "mods/cobblefurnies.pw.toml"
 hash = "e57a62b356b574e35d20c1430a413ea73dd6d0ada3f1c9d823f2fa5629e59511"
 metafile = true
