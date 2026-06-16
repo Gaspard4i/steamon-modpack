@@ -380,11 +380,6 @@ hash = "3d678d61faee4f39f3ac2a2bcdebc15ac23adcc30c3e46a2993978c76a0fe90d"
 metafile = true
 
 [[files]]
-file = "mods/chunky.pw.toml"
-hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
-metafile = true
-
-[[files]]
 file = "mods/clientsort.pw.toml"
 hash = "2781672ed91cd826f465d2f3b97d3eec1a2ba353c857cc0b3e8762a4cc0146a6"
 metafile = true

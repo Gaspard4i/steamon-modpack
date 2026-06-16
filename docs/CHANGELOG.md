@@ -4,6 +4,13 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.2.7] - 2026-06-16 (server only)
+
+### Removed
+- **Chunky** removed — world pre-generation around spawn is done, the mod no
+  longer had any task running (just sitting loaded). Removed from server/ and
+  client/ in the repo. Can be re-added later if new areas need pre-generating.
+
 ## [1.2.6] - 2026-06-16 (server only)
 
 ### Removed
