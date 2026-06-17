@@ -1,0 +1,72 @@
+# Essential Commands Configuration
+
+[general]
+# Optional server name used in chat prefixes (e.g. "SuperCraft" → "[SuperCraft Essentials]")
+# Leave empty to use the default "[Essentials]" prefix
+server_name = ""
+
+[homes]
+# Enable the /home, /sethome, /delhome commands
+enabled = false
+# Allow players to have multiple named homes
+multiple_homes = true
+# Maximum homes per player (only used when multiple_homes = true)
+max_homes = 5
+# Require OP for home commands, ignoring LuckPerms nodes
+op_only = false
+# Seconds the player must stand still before being teleported (0 = instant)
+warmup_seconds = 5
+# Seconds before the player can use /home again (0 = no cooldown)
+cooldown_seconds = 60
+
+[back]
+# Enable the /back command
+enabled = true
+# Require OP for /back
+op_only = false
+warmup_seconds = 0
+cooldown_seconds = 60
+
+[tpa]
+# Enable the /tpa, /tpaaccept, /tpadeny commands
+enabled = true
+# Seconds before a TPA request expires
+timeout_seconds = 60
+# Warmup after the request is accepted (0 = instant)
+warmup_seconds = 0
+# Seconds before the requester can send another TPA (0 = no cooldown)
+cooldown_seconds = 0
+
+[warps]
+# Enable the /warp, /setwarp, /delwarp, /warps commands
+enabled = false
+# Require OP to use /warp (set/delete always require OP)
+op_only = false
+warmup_seconds = 5
+cooldown_seconds = 60
+
+[spawn]
+# Enable the /spawn command
+enabled = true
+# Require OP to use /spawn
+op_only = false
+warmup_seconds = 0
+cooldown_seconds = 0
+
+[enderchest]
+# Enable the /enderchest (/ec) command
+enabled = false
+# Require OP to use /enderchest
+op_only = true
+
+[workbench]
+# Enable the /workbench (/craft) command
+enabled = false
+# Require OP to use /workbench
+op_only = true
+
+[other]
+# Require OP to use /near
+near_op_only = true
+# Require OP to use /seen
+seen_op_only = true

@@ -13,6 +13,10 @@ file = "config/createnuclear-common.toml"
 hash = "290b85ac8860bb92085f83fc2a300e7f847caa5b80b118bccbc5a41309b7f213"
 
 [[files]]
+file = "config/essential.commands.toml"
+hash = "f70778ab78da24c840edf764d48c0c2ceac8a4150d4a173040bef455a904e9ac"
+
+[[files]]
 file = "config/fightorflight.json5"
 hash = "a3622e3df79bbb3160f6ad393992e11f1b489ec3cdc4514c7d3a50df254319a6"
 
@@ -606,6 +610,11 @@ metafile = true
 [[files]]
 file = "mods/ends-delight.pw.toml"
 hash = "8c06d61943a297541943681ccc243882363150fdd7ca4a61f9b529b72c471eb8"
+metafile = true
+
+[[files]]
+file = "mods/essential-commands.pw.toml"
+hash = "34a6d27fdb305f1050bc19d94ea5a8a7286a676c43a37716b19abb00dc1497c7"
 metafile = true
 
 [[files]]
