@@ -434,6 +434,11 @@ hash = "a946542ae4970e35a3f721b16872d2c66e62235778eb640c4102c1faaa008b3e"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "19f3a244bf8ffca1aa53621524681f98c680e8395323e7fa50c93169a6851a74"
+metafile = true
+
+[[files]]
 file = "mods/create-curios-jetpack.pw.toml"
 hash = "d62ca43f1814cba36047ed9d18e86b014a7ceff9c110832aa51bc86d701eb7e0"
 metafile = true
@@ -481,6 +486,11 @@ metafile = true
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
 hash = "22a080b9785f960101852ee2bbcc6864280cc038c5be313e1a608b72124629c6"
+metafile = true
+
+[[files]]
+file = "mods/create-live-radio.pw.toml"
+hash = "83a2a36bb52b800e82fd104cf01085dd00ee8c234c7f120b756f499768a463b9"
 metafile = true
 
 [[files]]
@@ -964,6 +974,11 @@ hash = "e540f816cf4597252869f8f8cf435d297c1f85a9b85ce7d81cd5c1b853018efc"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks-create-integration.pw.toml"
+hash = "44749c35fdafc432a770b77d08178eb4a69e6176d009a4212597724f3228c29f"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 hash = "b64d124c3cc74bd267244202291fe721a91add5b8f53f0f3fad1187706a31c60"
 metafile = true
@@ -971,6 +986,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "be6c77ab3bd856179a96d029ea4cedd32bba216541cf2540a5e2c3dfe9027a44"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "8f9cfa61518cb3f9a1bca32ff2a50d39bb5dc33041a34cbe292462f6cefa3069"
 metafile = true
 
 [[files]]

@@ -4,6 +4,14 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.3.0] - 2026-06-17
+
+### Added
+- **Create Live Radio** (1.0.2) — play in-game radio stations and music streams powered by the Create mod's rotational energy. Place a receiver block, spin it with a Create power source, and tune in to internet radio.
+- **Create: Connected** (1.2.2) — quality-of-life additions for Create: displays, nixie tubes, and linked controls that make large Create builds easier to wire and monitor.
+- **Sophisticated Storage Create Integration** (0.1.17) — connects Sophisticated Storage barrels and chests to Create logistics: filter items in and out with funnels, read stock levels with Create readers, and automate sorting through conveyor belts.
+- **Sophisticated Backpacks Create Integration** (0.1.6) — lets Create funnels and belts interact with Sophisticated Backpacks, so automated crafting lines can pull from and push into backpacks directly.
+
 ## [1.2.7] - 2026-06-16 (server only)
 
 ### Removed
