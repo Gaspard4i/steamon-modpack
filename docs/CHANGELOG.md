@@ -12,6 +12,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **Sophisticated Storage Create Integration** (0.1.17) — connects Sophisticated Storage barrels and chests to Create logistics: filter items in and out with funnels, read stock levels with Create readers, and automate sorting through conveyor belts.
 - **Sophisticated Backpacks Create Integration** (0.1.6) — lets Create funnels and belts interact with Sophisticated Backpacks, so automated crafting lines can pull from and push into backpacks directly.
 
+### Fixed
+- **Sophisticated Backpacks** bumped to 3.25.63 and **Sophisticated Core** bumped to 1.4.58 — the Backpacks Create Integration requires Sophisticated Backpacks 3.25.55 or above (and that version in turn requires Sophisticated Core 1.4.55 or above). The previous versions caused a crashloop on server boot.
+
 ## [1.2.7] - 2026-06-16 (server only)
 
 ### Removed
