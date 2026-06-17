@@ -4,6 +4,11 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.3.2] - 2026-06-17
+
+### Fixed
+- **Sophisticated Storage** bumped to 1.5.60 (from 1.5.47) — Storage 1.5.47 was paired with Sophisticated Core 1.4.58 in 1.3.0, but that combination is incompatible: Storage 1.5.47 references `UpgradeGuiManager$IUpgradeInventoryPartFactory`, a class that does not exist in Core 1.4.58, causing a client crash at startup (`NoClassDefFoundError` during `RegisterMenuScreensEvent`). 1.5.60 is the Storage build released alongside Core 1.4.58 and matches its API.
+
 ## [1.3.0] - 2026-06-17
 
 ### Added

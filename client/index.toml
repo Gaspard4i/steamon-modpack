@@ -1196,7 +1196,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "9231c547fc41ff56ae15a905b1eb25bbd888fac9eb5d2924e08c11ca6c61f102"
+hash = "a46022f7419b980353d220773cadc3f3b06cbeb998443c08c93f96006fec1a92"
 metafile = true
 
 [[files]]
