@@ -1158,6 +1158,10 @@ hash = "60435af7e2a3e876327b0de2abfa623546990a39b0f4fb0890991e9030cb6809"
 metafile = true
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon/species_additions/generation1/sandshrew_alola.json"
+hash = "a20ba88cc056758c282c38d21e07721dabaaf332c9663f68925c26b5783daed4"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_industries/recipe/mixing/candy/rare_candy_rec.json"
 hash = "9f36eb59897f07952619c1e72017551d383f5dc037f1b7924d0647934e6d47df"
 
