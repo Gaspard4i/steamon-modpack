@@ -793,6 +793,11 @@ hash = "fe552b2ecb29d7cf215488a7506c2a0c3e1ed554658eaf758ccd3965143e7dfd"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "91e6a0e562023e927ca1c56bdfd5df673609cac23528f768a83afe3674cdd0c0"
+metafile = true
+
+[[files]]
 file = "mods/magnum-torch.pw.toml"
 hash = "5eae36911d61013013f42e46de366ba999c729b9f6624a52fdc335c14e409e1a"
 metafile = true
@@ -1020,11 +1025,6 @@ metafile = true
 [[files]]
 file = "mods/spuds-shops.pw.toml"
 hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
-metafile = true
-
-[[files]]
-file = "mods/stack-refill.pw.toml"
-hash = "aea43bd44719b36516aa384ec15eda61c49cd9a0a4451c7efb70d62739c311a5"
 metafile = true
 
 [[files]]
@@ -1292,6 +1292,10 @@ hash = "06ef45cd9583f9325dbbc3d15216c36f08dd0bd4563cdb254d9bc3f0b9bd029e"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/disc_fragment_5_create.json"
 hash = "690b105c8ec3214f3fed404d31fd37157cd74c3cb20972681694f99d9b83e0de"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/enchanted_golden_apple_create.json"
+hash = "8867de815b91880386fc3aac9f09b6a1621f467cb88fdd4f41636ba976e6f281"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
