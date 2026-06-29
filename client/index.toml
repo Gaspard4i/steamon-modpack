@@ -1210,11 +1210,6 @@ hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
 metafile = true
 
 [[files]]
-file = "mods/stack-refill.pw.toml"
-hash = "aea43bd44719b36516aa384ec15eda61c49cd9a0a4451c7efb70d62739c311a5"
-metafile = true
-
-[[files]]
 file = "mods/starter-kit.pw.toml"
 hash = "e96fdc0d89e0033ac5d1b29774810e33d2c6a3d032704a7b9205ba65ba8f3408"
 metafile = true
