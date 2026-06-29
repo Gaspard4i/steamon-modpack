@@ -1158,6 +1158,10 @@ hash = "60435af7e2a3e876327b0de2abfa623546990a39b0f4fb0890991e9030cb6809"
 metafile = true
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/c/tags/item/foods/milk.json"
+hash = "9defc0c49973b639320a3e01ae44858f62b93128b7b584a9c49cef5fbbd18a6a"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon/species_additions/generation1/sandshrew_alola.json"
 hash = "a20ba88cc056758c282c38d21e07721dabaaf332c9663f68925c26b5783daed4"
 
@@ -1295,7 +1299,7 @@ hash = "690b105c8ec3214f3fed404d31fd37157cd74c3cb20972681694f99d9b83e0de"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/enchanted_golden_apple_create.json"
-hash = "8867de815b91880386fc3aac9f09b6a1621f467cb88fdd4f41636ba976e6f281"
+hash = "88b59a2a31eae78b015575a39dbbdbe9e03f0916ca6e5e812c89bb580464abde"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"

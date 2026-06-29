@@ -10,7 +10,27 @@
     {
       "id": "minecraft:enchanted_golden_apple",
       "count": 1,
-      "chance": 0.5
+      "chance": 0.25
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 1,
+      "chance": 0.3
+    },
+    {
+      "id": "minecraft:apple",
+      "count": 1,
+      "chance": 0.22
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "count": 1,
+      "chance": 0.15
+    },
+    {
+      "id": "minecraft:golden_apple",
+      "count": 1,
+      "chance": 0.08
     }
   ],
   "loops": 1,

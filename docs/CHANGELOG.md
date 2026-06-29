@@ -10,16 +10,24 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **LuckPerms** (server-side) — permission/group management backing the
   moderator and admin roles (also drives the Discord moderation bridge).
 - **Enchanted Golden Apple** Create sequenced-assembly recipe (steamon-tweaks
-  datapack): golden apple + 1000mb experience + 25mb fire resistance + a press,
-  50% chance to yield the enchanted apple.
+  datapack): golden apple + 1000mb experience + 25mb fire resistance + a press.
+  Yields the enchanted apple 25% of the time; the rest of the time it returns a
+  weighted consolation drop (gold nugget, apple, gold ingot, or golden apple).
 
 ### Removed
 - **Stack Refill** removed from the server — its server-side auto-refill was
   reorganising players' inventories on its own (items moving between slots,
   hotbar tool jumping back to the first slot). This is a known Stack Refill
   behaviour when a held stack runs out. Removed server-side to stop the
-  inventory shuffling; the client jar stays in the pack but is inert without
-  the server side, so no client update is required.
+  inventory shuffling. Also removed from the client pack (no client release cut
+  yet — that will follow in a later client update).
+
+### Fixed
+- **Empty `c:foods/milk` tag** — several cooking recipes (Cultural Delights'
+  Spicy Curry, Brewin' & Chewin', End's Delight) require the `c:foods/milk`
+  item tag, but no mod populated it, so the ingredient showed as an empty tag
+  and the recipes were uncraftable. Added a steamon-tweaks datapack tag mapping
+  `minecraft:milk_bucket` into `c:foods/milk`.
 
 ## [1.3.2] - 2026-06-17
 
