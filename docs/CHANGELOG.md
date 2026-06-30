@@ -4,6 +4,33 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.4.0] - 2026-06-30
+
+### Added
+- **Toni's Immersive Lanterns** — placeable hanging/standing lanterns and
+  decorative lighting (uses Accessories, already in the pack).
+- **Aether's Delight** — Farmer's Delight-style cooking with Aether ingredients.
+- **Accessories Compatibility Layer** (+ TxniLib) — runs Curios on top of
+  Accessories so there is a single accessory interface instead of two separate
+  ones. Both systems stay installed (mods depend on each); players only see one.
+- **Resource Pack Overrides** (client) — keeps your resource packs enabled and
+  ordered across server restarts/reconnects.
+- **Create x Aether recipes** (steamon-tweaks datapack) — crushing for Ambrosium
+  Ore, Zanite Ore and Holystone, plus compacting Ambrosium/Zanite shards into
+  blocks. Automate Aether material processing with Create.
+
+### Removed
+- **Create Live Radio** removed (client + server).
+- **Friends & Foes** (and the Beekeeper Hut addon) removed — the Glares were
+  accumulating in large numbers and contributing to server lag spikes.
+- **Stack Refill** removed from the client pack (it was already removed
+  server-side in 1.3.3 to fix the inventory-shuffle bug).
+
+### Changed
+- **Enchanted Golden Apple** Create recipe rebalanced: 25% chance for the
+  enchanted apple, otherwise a weighted consolation drop (gold nugget, apple,
+  gold ingot, or golden apple).
+
 ## [1.3.3] - 2026-06-29 (server only)
 
 ### Added
