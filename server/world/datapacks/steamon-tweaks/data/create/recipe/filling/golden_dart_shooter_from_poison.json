@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "aether:enchanted_dart_shooter"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "deep_aether:poison_fluid"
+    }
+  ],
+  "results": [
+    {
+      "id": "aether:golden_dart_shooter"
+    }
+  ]
+}

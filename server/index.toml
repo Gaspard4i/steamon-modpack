@@ -1283,6 +1283,46 @@ file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_zanite
 hash = "c9b5e120aa1e898129723c3e53ee0f2122e60024f729dd249f8fda806e54ef8e"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/blueberry_from_poison.json"
+hash = "cc78652c84709595e52e322dd140694a3a3ccb33e4f15afad37e1276e2e85752"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/golden_dart_from_poison.json"
+hash = "f63e0a5e343b9fef16b01e44d65d3f2f01b18d520b36ab5aa028a62a396a8302"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/golden_dart_shooter_from_poison.json"
+hash = "61a44374478a7f355ad3c30d73644dda3fe4797850bc8487f028b3769b006d3e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/gravitite_ore_from_poison.json"
+hash = "f0d90ac45a2d3e4f9019f95953cbd3db46d6beb1798977488d2f342c55d2da36"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/holystone_from_poison.json"
+hash = "1a365bed6d31c41a4e1d748e4e8f767c5c74cb1668280b901f6011c15aafdbb6"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/poison_bucket_from_poison.json"
+hash = "fb45f2ac026efff3369ec6d4ad85da3296c3100d25cef2fdfc71cbfb40f3efe1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/poisonous_potato_from_poison.json"
+hash = "ea418471ba106dc8608180d96258146024f49d8d8ea3caf4cc9174f9f13be518"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/quicksoil_from_poison.json"
+hash = "9ea2b1e664cef9fc51431c22acb359ab8bb154dd0fd29d4c80e9cb55331187e7"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/raw_clorite_from_poison.json"
+hash = "d4f19aebe0746b2acf21c261af818b34325521736731fdca0df94a5a0db4a8b8"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/skyroot_poison_bucket_from_poison.json"
+hash = "9749d2e5e2bed0881a613f7018c1608c1f88b03b20f7e419508e614d0f22e4e1"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
 hash = "fa42271f92f727bbee7bdcdc2267771b8bd209c35fda4ba8ffdb48e6155abebc"
 

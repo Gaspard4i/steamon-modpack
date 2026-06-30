@@ -6,6 +6,15 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [1.4.1] - 2026-06-30 (server only)
 
+### Added
+- **Create Spout poison recipes** (steamon-tweaks datapack) — all 10 Deep Aether
+  poison conversions are now automatable with a Create Spout filling
+  `deep_aether:poison_fluid` (250 mb each): enchanted berry to blue berry,
+  enchanted dart/dart shooter to golden, enchanted gravitite to gravitite ore,
+  healing stone to holystone, potato to poisonous potato, remedy bucket to
+  poison bucket, quicksoil glass to quicksoil, clorite to raw clorite, skyroot
+  remedy bucket to skyroot poison bucket.
+
 ### Removed
 - **Essential Commands** removed (server) — it duplicated and conflicted with
   NeoEssentials (both registered /home, /back, /spawn, /tpa, /warp, etc.),
