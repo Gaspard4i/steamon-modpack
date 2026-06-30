@@ -1447,7 +1447,7 @@ hash = "3e6ab70d91bccc85c624bbda3029877b3cdeb905d90c53e3d1c647f48bfecf90"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_aether.png"
-hash = "fc80a51ec2463be7def9a879ed5205ed7d42e3a494109fd4bcff172921ee8ac2"
+hash = "711c9b2448976a10c323b90e7f12fcb610ad9c3d9ea1753d980ef57cb14f0378"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_carnival.png"
@@ -1455,23 +1455,23 @@ hash = "b191641861c027228181b124beed1a5801b74b58fbf0fd7ad5694776a3211f15"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_chaos.png"
-hash = "4984701474d4eb3b72b72041d61740aa5882af91dfa3db921e1b533d8eaad55d"
+hash = "cf8f5e1b7bd393c95083ceb94fb0ca84146218e8c2e55abcffb8c0ddf8546fce"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_frostfae.png"
-hash = "7d95a139608d45abab8f6b70c505497b2224a9235af1ff22fd7f2f2e1bea8065"
+hash = "4b4e564d7a40786eec3db95384568b6f94ee6ff4b92149a84df17d283c77c55c"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_greenhouse.png"
-hash = "bbe1a884c6697f6864c1445be167e79fd449fb94d0e4a7b623a727e0b3b41a3b"
+hash = "c9db35af526daf9ce966b815a7bccd2a3327ed6539a2345c1ece4261673b1c1e"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_iron_will.png"
-hash = "72278ac6779110bfa40dfd4ad1443b5804edd206d4f0f28d5d6a1e13b6fae01b"
+hash = "3df7e9ceef1a558085342c6c5ed09b4d002bf5aace7c248f67bc3a6cadb03e86"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_pirate_turtle.png"
-hash = "59fec01d3608c2d591454df4b32997a3ea8304880b6f7eda1683ce02a385842d"
+hash = "226202565462d2d5cf7186f67592a227aef47acf44577e2d74faf90f6a55d4d4"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/badges.txt"
