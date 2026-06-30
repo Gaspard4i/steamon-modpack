@@ -57,6 +57,12 @@
         "custom_model_data": 1009
       },
       "model": "steamon:item/badge_chaos"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1010
+      },
+      "model": "steamon:item/badge_carnival"
     }
   ]
 }
