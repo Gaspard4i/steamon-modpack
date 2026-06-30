@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "steamon:item/badge_volcano"
+    "layer0": "steamon:item/badge_iron_will"
   }
 }

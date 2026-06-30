@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "steamon:item/badge_earth"
+    "layer0": "steamon:item/badge_greenhouse"
   }
 }

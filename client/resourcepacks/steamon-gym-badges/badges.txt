@@ -1,16 +1,12 @@
 # Liste de tes badges — un par ligne, format : slug | Nom Affiché
 # Le slug = nom du fichier PNG (sans espace, minuscules, underscores).
-# Le Nom Affiché = ce qui s'affiche en jeu sur l'item.
 # Lignes vides et lignes commençant par # sont ignorées.
-# Ajoute / retire / renomme librement, puis lance generate-badges.bat (ou .sh).
+# Ajoute / retire / renomme librement, puis lance generate-badges.bat (ou .py).
 
-boulder    | Boulder Badge
-cascade    | Cascade Badge
-thunder    | Thunder Badge
-rainbow    | Rainbow Badge
-soul       | Soul Badge
-marsh      | Marsh Badge
-volcano    | Volcano Badge
-earth      | Earth Badge
-chaos      | Chaos Badge
-carnival   | Carnival Badge
+chaos          | Chaos Badge
+carnival       | Carnival Badge
+greenhouse     | Greenhouse Badge
+pirate_turtle  | Pirate Turtle Badge
+frostfae       | Frostfae Badge
+iron_will      | Iron Will Badge
+aether         | Aether Badge
