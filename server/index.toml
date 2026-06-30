@@ -13,10 +13,6 @@ file = "config/createnuclear-common.toml"
 hash = "290b85ac8860bb92085f83fc2a300e7f847caa5b80b118bccbc5a41309b7f213"
 
 [[files]]
-file = "config/essential.commands.toml"
-hash = "f70778ab78da24c840edf764d48c0c2ceac8a4150d4a173040bef455a904e9ac"
-
-[[files]]
 file = "config/fightorflight.json5"
 hash = "a3622e3df79bbb3160f6ad393992e11f1b489ec3cdc4514c7d3a50df254319a6"
 
@@ -613,11 +609,6 @@ hash = "8c06d61943a297541943681ccc243882363150fdd7ca4a61f9b529b72c471eb8"
 metafile = true
 
 [[files]]
-file = "mods/essential-commands.pw.toml"
-hash = "34a6d27fdb305f1050bc19d94ea5a8a7286a676c43a37716b19abb00dc1497c7"
-metafile = true
-
-[[files]]
 file = "mods/every-compat.pw.toml"
 hash = "c23dee6b286509ff4a203366efd6d36029c95294c5f5d26504a5bfa086d12d2a"
 metafile = true
@@ -830,6 +821,11 @@ metafile = true
 [[files]]
 file = "mods/necronomicon.pw.toml"
 hash = "8a47f450836326fbab861a04677dee883bd01f7a34990b7a50336cb93cf64f3a"
+metafile = true
+
+[[files]]
+file = "mods/neoessentials.pw.toml"
+hash = "efc09d97c549b0ea37daf25e82e78883ed6727bb40361931990262373a653055"
 metafile = true
 
 [[files]]

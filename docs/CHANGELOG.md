@@ -4,6 +4,21 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.4.1] - 2026-06-30 (server only)
+
+### Removed
+- **Essential Commands** removed (server) — it duplicated and conflicted with
+  NeoEssentials (both registered /home, /back, /spawn, /tpa, /warp, etc.),
+  causing player-join kit errors and command clashes. NeoEssentials is now the
+  single essentials/permissions/chat provider.
+
+### Changed
+- **NeoEssentials** is now tracked in the packwiz server pack (was deployed
+  manually) so it survives modpack re-installs/updates.
+- **Anti-spam filter disabled** in the NeoEssentials chat config — the split-config
+  AntiSpamManager threw a "config is null" exception on every chat message,
+  flooding the server thread and causing multi-second tick stalls.
+
 ## [1.4.0] - 2026-06-30
 
 ### Added
