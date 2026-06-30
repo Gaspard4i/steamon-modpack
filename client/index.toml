@@ -265,6 +265,11 @@ file = "config/waystones-common.toml"
 hash = "3fc05fd5471fbfdcfea783e8212c955d92cae1963be66dd7622631ea632cbe4c"
 
 [[files]]
+file = "mods/accessories-compat-layer.pw.toml"
+hash = "c255cf4cd29718e3ab0a4c18df8bb7b626e0092c5aad7b4e67f34fc1ad4492f8"
+metafile = true
+
+[[files]]
 file = "mods/accessories.pw.toml"
 hash = "d136f082a706b21a11b7e35bb805582966e9455f4fbeae9a02387b7dbc4c3574"
 metafile = true
@@ -805,16 +810,6 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
-file = "mods/friends-and-foes-beekeeper-hut-forge.pw.toml"
-hash = "5a8c4d0e02aaf9ed5934d0c3bcea72a133593e0da49fc1b3cd62a5baa8639277"
-metafile = true
-
-[[files]]
-file = "mods/friends-and-foes-forge.pw.toml"
-hash = "57c838b572bbdb70372de2a6c0cc3b7a1496f4a3653936ace60ed92ced9a16e6"
-metafile = true
-
-[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "c6ae25ca8f32fc88edcc08bbd13aed4a7323976e8fbbebd9ec863c0ce4f99c6e"
 metafile = true
@@ -857,6 +852,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-furniture.pw.toml"
 hash = "035c8ba3bb3b574fa7e646c1ed062c976957afe0ac16db454c5d03f540e243f3"
+metafile = true
+
+[[files]]
+file = "mods/immersive-lanterns.pw.toml"
+hash = "0c9eb7002bd08576fb9b666cfaa103098eaf1480fd553ba3471b9568ac145e37"
 metafile = true
 
 [[files]]
@@ -1250,6 +1250,11 @@ hash = "d14d2e8497d8ea4604222438da28ad3e802b271b6bc2ab293f65da05cc4a9eec"
 metafile = true
 
 [[files]]
+file = "mods/the-aethers-delight.pw.toml"
+hash = "055283aa7790b335df36917fd72eb9f35f4d5cbe3a1e66d53efba4fe79ec1266"
+metafile = true
+
+[[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "71e9066a819c715f1436e187e4ab64bc5859a4e7cd5757066a446f75d6ccb4c0"
 metafile = true
@@ -1257,6 +1262,11 @@ metafile = true
 [[files]]
 file = "mods/tree-harvester.pw.toml"
 hash = "0ad46a8995e73464ec898515d05310a7ce1f9059528ceedac8720942d625a27c"
+metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
 metafile = true
 
 [[files]]
