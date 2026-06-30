@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1001
+      },
+      "model": "steamon:item/badge_boulder"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1002
+      },
+      "model": "steamon:item/badge_cascade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1003
+      },
+      "model": "steamon:item/badge_thunder"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1004
+      },
+      "model": "steamon:item/badge_rainbow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1005
+      },
+      "model": "steamon:item/badge_soul"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1006
+      },
+      "model": "steamon:item/badge_marsh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1007
+      },
+      "model": "steamon:item/badge_volcano"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1008
+      },
+      "model": "steamon:item/badge_earth"
+    }
+  ]
+}
