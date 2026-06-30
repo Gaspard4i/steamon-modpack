@@ -12,3 +12,4 @@ soul       | Soul Badge
 marsh      | Marsh Badge
 volcano    | Volcano Badge
 earth      | Earth Badge
+chaos      | Chaos Badge

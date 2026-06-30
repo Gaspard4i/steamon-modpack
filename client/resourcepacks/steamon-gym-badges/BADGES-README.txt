@@ -18,6 +18,8 @@ Donne un badge (1.21.1) :
      /give @p minecraft:paper[custom_model_data=1007,custom_name='{"text":"Volcano Badge"}']
 1008  Earth Badge  (badge_earth.png)
      /give @p minecraft:paper[custom_model_data=1008,custom_name='{"text":"Earth Badge"}']
+1009  Chaos Badge  (badge_chaos.png)
+     /give @p minecraft:paper[custom_model_data=1009,custom_name='{"text":"Chaos Badge"}']
 
 Pour AJOUTER un badge : ajoute une ligne dans badges.txt (slug | Nom),
 relance ce script, puis dessine assets/steamon/textures/item/badge_<slug>.png (16x16).

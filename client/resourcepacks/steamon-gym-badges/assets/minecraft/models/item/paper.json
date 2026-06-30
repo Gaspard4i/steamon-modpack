@@ -51,6 +51,12 @@
         "custom_model_data": 1008
       },
       "model": "steamon:item/badge_earth"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1009
+      },
+      "model": "steamon:item/badge_chaos"
     }
   ]
 }

@@ -1411,11 +1411,11 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/BADGES-README.txt"
-hash = "8f0b0f511dd18b400d48455b037036d08614e17e13386a1e36e0903783a3533f"
+hash = "0e36c49e660dc5f2f665b874b6511b2a36dc17abfd6d3d39cda79ea2a2dee31c"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/minecraft/models/item/paper.json"
-hash = "a523fb2a764e5ac55f7aa7a2b887e8b67986e60c04b1abe21b0cbaa9206d07ba"
+hash = "0f167b571fe8b4c2e0dc4a5a4dfea621878f897051e21b67fa170aabdc922f36"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/models/item/badge_boulder.json"
@@ -1424,6 +1424,10 @@ hash = "03ae57fc7ea5629882f4ac5325ec63de5ef1811d01e5b288f46cb836d0ae6c9c"
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/models/item/badge_cascade.json"
 hash = "0b1ef9b7b2634875f50cc44c3be58608c95304125a6a91ffc2d126d6a4d9d891"
+
+[[files]]
+file = "resourcepacks/steamon-gym-badges/assets/steamon/models/item/badge_chaos.json"
+hash = "28348800f0ea559e5b47e28b06c3fdc158bcafb276ca087f39242f3e9ec0ee39"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/models/item/badge_earth.json"
@@ -1450,12 +1454,20 @@ file = "resourcepacks/steamon-gym-badges/assets/steamon/models/item/badge_volcan
 hash = "61999472d2ebddfaf6ea7071c565e1ad8856f50b9ec4328ca88ad22b6ef92227"
 
 [[files]]
+file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/Carnival_badge.paint"
+hash = "9753997972a9c243a444a12c2f8c2ca70549824cc85f673dcf8c6934cf3d8aca"
+
+[[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_boulder.png"
 hash = "9be7e477e129a17f228f8510309d5084bd297dfc20b1a09b22f2aa1bfab4d298"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_cascade.png"
 hash = "ed190c764b2e1242aef35f9f63253f34d6ebd5a09c0f07dff4bcbe681dfd237a"
+
+[[files]]
+file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_chaos.png"
+hash = "4984701474d4eb3b72b72041d61740aa5882af91dfa3db921e1b533d8eaad55d"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_earth.png"
@@ -1483,7 +1495,7 @@ hash = "32f518032b9e4346fff2c2c321c6c812154035fd166fd3f50a4048f6eb2d24a7"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/badges.txt"
-hash = "e2f5b22f647e72bf02a265e4d54ab545590e76f8f648083adfb909700c972829"
+hash = "77c3e15be7b5b69c3e804cb9f3711a44fddc6b0d397114c20e040411e1808138"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/generate-badges.bat"
