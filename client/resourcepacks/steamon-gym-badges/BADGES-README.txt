@@ -1,24 +1,24 @@
-Steamon Gym Badges — resourcepack maison (custom_model_data sur minecraft:paper)
+Steamon Gym Badges — items = minecraft:paper + custom_model_data.
 
-Item de base : minecraft:paper. Chaque badge = un paper avec un custom_model_data.
+Donne un badge (1.21.1) :
 
-Commande pour donner un badge (gym leader, 1.21.1) :
-  /give @p minecraft:paper[custom_model_data=1001,custom_name='{"text":"Boulder Badge"}']
+1001  Boulder Badge  (badge_boulder.png)
+     /give @p minecraft:paper[custom_model_data=1001,custom_name='{"text":"Boulder Badge"}']
+1002  Cascade Badge  (badge_cascade.png)
+     /give @p minecraft:paper[custom_model_data=1002,custom_name='{"text":"Cascade Badge"}']
+1003  Thunder Badge  (badge_thunder.png)
+     /give @p minecraft:paper[custom_model_data=1003,custom_name='{"text":"Thunder Badge"}']
+1004  Rainbow Badge  (badge_rainbow.png)
+     /give @p minecraft:paper[custom_model_data=1004,custom_name='{"text":"Rainbow Badge"}']
+1005  Soul Badge  (badge_soul.png)
+     /give @p minecraft:paper[custom_model_data=1005,custom_name='{"text":"Soul Badge"}']
+1006  Marsh Badge  (badge_marsh.png)
+     /give @p minecraft:paper[custom_model_data=1006,custom_name='{"text":"Marsh Badge"}']
+1007  Volcano Badge  (badge_volcano.png)
+     /give @p minecraft:paper[custom_model_data=1007,custom_name='{"text":"Volcano Badge"}']
+1008  Earth Badge  (badge_earth.png)
+     /give @p minecraft:paper[custom_model_data=1008,custom_name='{"text":"Earth Badge"}']
 
-Table des badges :
-  1001  Boulder Badge   (badge_boulder)
-  1002  Cascade Badge   (badge_cascade)
-  1003  Thunder Badge   (badge_thunder)
-  1004  Rainbow Badge   (badge_rainbow)
-  1005  Soul Badge      (badge_soul)
-  1006  Marsh Badge     (badge_marsh)
-  1007  Volcano Badge   (badge_volcano)
-  1008  Earth Badge     (badge_earth)
-
-Pour changer l'art : remplacer le PNG dans assets/steamon/textures/item/<slug>.png
-  Taille recommandee : 16x16 (32x32 accepte aussi, sera downscale a l'affichage).
-
-Pour ajouter un badge :
-  1. nouveau PNG  assets/steamon/textures/item/badge_xxx.png
-  2. nouveau model assets/steamon/models/item/badge_xxx.json (copier un existant)
-  3. ajouter un override dans assets/minecraft/models/item/paper.json (nouveau custom_model_data)
+Pour AJOUTER un badge : ajoute une ligne dans badges.txt (slug | Nom),
+relance ce script, puis dessine assets/steamon/textures/item/badge_<slug>.png (16x16).
+Recharge en jeu avec F3+T.

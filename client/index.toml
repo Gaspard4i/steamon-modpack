@@ -1411,7 +1411,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/BADGES-README.txt"
-hash = "99a03e1c741e311dcbb12a29d34782a856af6274579355f16554ac3e97b7c68f"
+hash = "8f0b0f511dd18b400d48455b037036d08614e17e13386a1e36e0903783a3533f"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/minecraft/models/item/paper.json"
@@ -1480,6 +1480,18 @@ hash = "aa72f005bf037668032dd17c65068bfddcd562cf3a3afcfcb653ea98ae661e44"
 [[files]]
 file = "resourcepacks/steamon-gym-badges/assets/steamon/textures/item/badge_volcano.png"
 hash = "32f518032b9e4346fff2c2c321c6c812154035fd166fd3f50a4048f6eb2d24a7"
+
+[[files]]
+file = "resourcepacks/steamon-gym-badges/badges.txt"
+hash = "e2f5b22f647e72bf02a265e4d54ab545590e76f8f648083adfb909700c972829"
+
+[[files]]
+file = "resourcepacks/steamon-gym-badges/generate-badges.bat"
+hash = "4777d21e30594f7631af438928d2d7e4da033b70f75ed4ea420a5a7381b8ba69"
+
+[[files]]
+file = "resourcepacks/steamon-gym-badges/generate-badges.py"
+hash = "c828226ca9cf7255cb654c766d07228be91e9cfc8da90144673870d14e15d7a1"
 
 [[files]]
 file = "resourcepacks/steamon-gym-badges/pack.mcmeta"
