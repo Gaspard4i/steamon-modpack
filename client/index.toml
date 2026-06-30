@@ -1105,6 +1105,11 @@ hash = "b63454cc671d53d523e5fa7b1dd8f9ce11cd46bb0126afb5994c13c5f1defe2a"
 metafile = true
 
 [[files]]
+file = "mods/resource-pack-overrides.pw.toml"
+hash = "b8101dca20d054277d99e75b43dd8db44dea64a761d2ab69fdda9f6d59d9e6f1"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "68694ce6e055f9634e73316760d02a70b55acd3834991e46d7463d3763b437ce"
 metafile = true
