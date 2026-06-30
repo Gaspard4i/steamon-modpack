@@ -625,11 +625,6 @@ hash = "22a080b9785f960101852ee2bbcc6864280cc038c5be313e1a608b72124629c6"
 metafile = true
 
 [[files]]
-file = "mods/create-live-radio.pw.toml"
-hash = "83a2a36bb52b800e82fd104cf01085dd00ee8c234c7f120b756f499768a463b9"
-metafile = true
-
-[[files]]
 file = "mods/create-molten-vents.pw.toml"
 hash = "b6f1451235d7ff58eb5cb2ab3bac92ab46aca6971c0cf7937175985d7db6c95f"
 metafile = true
