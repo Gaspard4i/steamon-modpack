@@ -366,6 +366,13 @@ jobs:
                   for d in deplist:
                       if not d.get('mandatory', d.get('type', '') == 'required'):
                           continue
+                      # Client-only dependencies (side=CLIENT) never need to be
+                      # present in the server pack, and are guaranteed present in
+                      # the client pack — skip them so a CLIENT dep doesn't fail
+                      # the server depcheck (e.g. Immersive Lanterns needs
+                      # sodiumdynamiclights only client-side).
+                      if str(d.get('side', 'BOTH')).upper() == 'CLIENT':
+                          continue
                       dep_id = d.get('modId')
                       if dep_id in ('forge', 'java', 'minecraft', 'neoforge'):
                           continue
