@@ -1267,6 +1267,26 @@ file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_s
 hash = "22fc5b0a056e397d87fcc6430ed66dbed5a1f1584dd9749a31f9ef639995e939"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/compacting/aether_ambrosium_block.json"
+hash = "59811909a42772364ed17814a26f5bc58a2b2ba9ecd9f7f8fa2bda05abd4d57a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/compacting/aether_zanite_block.json"
+hash = "06cedccd52b2d6bd728e86cbf3b4f0bf5855fa76d3dfd61e3e72a96b3b454a7f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_ambrosium_ore.json"
+hash = "63ea4d210d6dcb6d453347155f2eea8df6203c9dd95b74ad6457a1313ab813df"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_holystone.json"
+hash = "5c974b0a69bdb198b425bfc392c80ee38f80c83ef40aaba8855cea3a64f9df07"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_zanite_ore.json"
+hash = "c9b5e120aa1e898129723c3e53ee0f2122e60024f729dd249f8fda806e54ef8e"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
 hash = "fa42271f92f727bbee7bdcdc2267771b8bd209c35fda4ba8ffdb48e6155abebc"
 
