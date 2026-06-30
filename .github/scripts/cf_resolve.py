@@ -46,6 +46,15 @@ ALLOW_NEWEST = {
     "terrablender",   # ARR — redistribution forbidden; CF must reference, not embed
 }
 
+# Mods that must NEVER be resolved to a CurseForge reference — keep them as an
+# embedded override jar instead (they are on the CF-override allowlist). Reason:
+# the CF project exists but all its files are still UnderReview, so referencing
+# it makes CurseForge reject the whole modpack manifest ("invalid status").
+# Aether's Delight: the only CF port (project 1541187) has 0 approved files.
+SKIP_RESOLVE = {
+    "the-aethers-delight",
+}
+
 
 def api_get(path, params=None):
     url = API + path
@@ -200,6 +209,9 @@ def resolve_dir(directory, class_id, resolved, failed):
             continue
         name, filename, side = parse_pw(text)
         slug = pw.name[:-len(".pw.toml")]   # Modrinth slug == filename stem
+        if slug in SKIP_RESOLVE:
+            print(f"SKIP {pw.name}: kept as override (CF reference blocked)")
+            continue
         if not name:
             failed.append((pw.name, "no name"))
             continue

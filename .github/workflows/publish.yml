@@ -153,8 +153,22 @@ jobs:
             | sed 's/^/  /'
           echo "::endgroup::"
 
+          # Force-keep Modrinth-only mods as embedded overrides even when CF has a
+          # matching project: Pass 2 (fingerprint detect) resolves them to a CF
+          # reference, but if that CF file is still UnderReview the whole manifest
+          # is rejected ("invalid status"). Restore the original Modrinth .pw.toml
+          # from git so the jar stays embedded in overrides instead.
+          for slug in the-aethers-delight; do
+            if git checkout -- "mods/${slug}.pw.toml" 2>/dev/null; then
+              echo "  kept-override: ${slug} (restored Modrinth .pw.toml)"
+            fi
+          done
+          packwiz refresh
+
           # Drop the physical jars that were copied in for fingerprinting. packwiz
           # embeds any file present under mods/ into overrides, undoing the resolution.
+          # (Modrinth-only jars restored above are re-fetched into overrides by the
+          # final export below, so removing them here is safe.)
           rm -f mods/*.jar resourcepacks/*.zip
           packwiz refresh
 
