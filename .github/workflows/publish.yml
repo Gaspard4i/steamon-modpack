@@ -184,9 +184,9 @@ jobs:
           # (printf used instead of heredoc to avoid YAML parser conflicts with <<)
           printf '%s\n' \
             'Cobbreeding-neoforge-2.2.1.jar' \
+            'aethersdelight-0.1.4.2-1.21.1.jar' \
             'cobblemon_paleontologist-0.6.0-Beta-Neo.jar' \
             'create-ochrum-recipe-1.jar' \
-            'radiomod-1.0.2.jar' \
             'spudaciousshops-1.10.3-neoforge-1.21.1.jar' \
             'visibletraders-0.0.7.1.jar' \
             | sort > /tmp/allowed_overrides.txt
