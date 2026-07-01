@@ -1172,6 +1172,18 @@ hash = "60435af7e2a3e876327b0de2abfa623546990a39b0f4fb0890991e9030cb6809"
 metafile = true
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/back.json"
+hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/charm.json"
+hash = "90b69576e3baf040cd23d84cee84efc965e63cb83af3c291511f8b261b2ebd7e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/hat.json"
+hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/c/tags/item/foods/milk.json"
 hash = "9defc0c49973b639320a3e01ae44858f62b93128b7b584a9c49cef5fbbd18a6a"
 
@@ -1336,6 +1348,10 @@ file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/skyroot_poison
 hash = "9749d2e5e2bed0881a613f7018c1608c1f88b03b20f7e419508e614d0f22e4e1"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/warp_stone_from_dormant_shard.json"
+hash = "554a5b8b1eed13d8eb8b179cd5546d82eb538d70ab437bf832e05dc163c1f212"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/blue_aercloud_from_freezing.json"
 hash = "857da5195697bbd37be56736dc8ed3d05b4de417906493afe5ca57580bb1ed69"
 
@@ -1372,20 +1388,16 @@ file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunt
 hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/angelic_stone.json"
-hash = "ad849d61a35d1e9f151930f7089184137a476f7b926023b6e191df33d36e29ed"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/carved_stone.json"
-hash = "ab1385f19d9f83659dd6ea6c0332d78213ffa057a55ea67ea0e3eacee060ce6b"
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/asurine.json"
+hash = "afab7dcd25f62e164a183e3700e681345f643c83cf8f417a26b2ac54c74782dd"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/clorite.json"
 hash = "21fe1422ac0b04d091c63c5f4ade76d28bdfdcfcccb4e0eb1c6e187fded6515e"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/hellfire_stone.json"
-hash = "84433c2eb62a1c790bc7a0118319a264c681ba14478dd6181a0f600ba8e8dc87"
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/crimsite.json"
+hash = "4f00c149695115d95c9ee76f7e30dfbc05f18970df20b76e77cff7945d6e35eb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/highstone.json"
@@ -1400,12 +1412,20 @@ file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/ic
 hash = "f18ff4973d0e9bc64edd3fac8b364671a13cf8db17226f9b4fffc55dfd14823b"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/nimbus_stone.json"
-hash = "672a11df02ab910d8d89986704752d0498eb788df143da80b9ccced22151f223"
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/ochrum.json"
+hash = "01c96c3b98d94bfe1c621fcb444a2474c86c97b5c864ea19c23f06aa684b05f2"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/sentry_stone.json"
-hash = "d840e1aabe4326b96e28e8ebca01fb15e3f598d98cb981c05f231fc2493781db"
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/scorchia.json"
+hash = "2b391b3fa4819fe40c66674a39de462c1d34d5706b8672ddd4db700fe9dbf480"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/scoria.json"
+hash = "5c5713d96ce9d8bc57a29498060e405cdcf72f2a1b950408259db468e5979cbe"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/veridium.json"
+hash = "bdfe4430f89d00ca75f01bb54a94c5e165ff07b7c7ceebd20a94a0f4a7bb2118"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/crafting/chunk_loader.json"
