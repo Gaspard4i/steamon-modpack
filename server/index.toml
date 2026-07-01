@@ -1184,6 +1184,14 @@ file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/hat.jso
 hash = "66f655b56105b24779014623ac21ecf1b75e5ea7c2fbab16841b9f3e925995b5"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/cape.json"
+hash = "a5fc728789095f8b2c97ca3b9c9cdac08dd9baf60a49bf3783f89c241625d16c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/charm.json"
+hash = "1201b849ab68dd3bddb5cea8bed5c0e7c46b2f2cb59d824df7f7acaba92cd66e"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/face.json"
 hash = "25a01c627f09c16e5316ba5407136db1931de720d75d3a6de5fc66c5efd6e3a0"
 
@@ -1464,8 +1472,12 @@ file = "world/datapacks/steamon-tweaks/data/curios/tags/item/badge.json"
 hash = "38c4a07f6606d74470a96fac5b048b305de73b34f52b6180061ece342f2771cd"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/curios/tags/item/cape.json"
+hash = "a5fc728789095f8b2c97ca3b9c9cdac08dd9baf60a49bf3783f89c241625d16c"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/charm.json"
-hash = "c31bba583e26e17e1b63d8c6113ac4e92f08fdd6fea79bcf24b04d7657c0d39f"
+hash = "1201b849ab68dd3bddb5cea8bed5c0e7c46b2f2cb59d824df7f7acaba92cd66e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/head.json"
