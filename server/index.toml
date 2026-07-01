@@ -1172,16 +1172,8 @@ hash = "60435af7e2a3e876327b0de2abfa623546990a39b0f4fb0890991e9030cb6809"
 metafile = true
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/back.json"
-hash = "66f655b56105b24779014623ac21ecf1b75e5ea7c2fbab16841b9f3e925995b5"
-
-[[files]]
 file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/charm.json"
 hash = "e7254264aa21b0c25623cdd2d0145fe040a03222854645a0fbc5e45f711b7250"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/hat.json"
-hash = "66f655b56105b24779014623ac21ecf1b75e5ea7c2fbab16841b9f3e925995b5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/cape.json"
