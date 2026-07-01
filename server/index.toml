@@ -1336,6 +1336,30 @@ file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/skyroot_poison
 hash = "9749d2e5e2bed0881a613f7018c1608c1f88b03b20f7e419508e614d0f22e4e1"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/blue_aercloud_from_freezing.json"
+hash = "857da5195697bbd37be56736dc8ed3d05b4de417906493afe5ca57580bb1ed69"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/crystal_leaves_from_freezing.json"
+hash = "82b5f581f6557ad8bb2988f6dabf8131785c0d2a743d51b9305c576d49c75983"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_from_water_bucket_freezing.json"
+hash = "755e75ef8173c47b844a076f6801b39ddad54d77e91062f9013c5ce6c2e0db3b"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_pendant_from_freezing.json"
+hash = "727572edbb50c5401e226425739f013fa41594b272b927f7eadcb8fcec3adfc1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_ring_from_freezing.json"
+hash = "4090578970049b156ce15abbd2245887f70d8cd446d0981655f031244a513d8b"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/obsidian_from_lava_bucket_freezing.json"
+hash = "1f7e5c5cb0088729bc4a8eb8daa446d6c44c859ae941770c9880a03c2941dadf"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
 hash = "fa42271f92f727bbee7bdcdc2267771b8bd209c35fda4ba8ffdb48e6155abebc"
 
@@ -1346,6 +1370,42 @@ hash = "01ef910c73f922e03c28508e973591909290eb23fc84f500231ceb22c6cf48bc"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_witherrose.json"
 hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/angelic_stone.json"
+hash = "ad849d61a35d1e9f151930f7089184137a476f7b926023b6e191df33d36e29ed"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/carved_stone.json"
+hash = "ab1385f19d9f83659dd6ea6c0332d78213ffa057a55ea67ea0e3eacee060ce6b"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/clorite.json"
+hash = "21fe1422ac0b04d091c63c5f4ade76d28bdfdcfcccb4e0eb1c6e187fded6515e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/hellfire_stone.json"
+hash = "84433c2eb62a1c790bc7a0118319a264c681ba14478dd6181a0f600ba8e8dc87"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/highstone.json"
+hash = "860b59fcae81b25dabc0a58d057517f47a81f6a2d6a651c17234f68219a521fd"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/holystone.json"
+hash = "0b05676317f839e95d402a56d01aafcef3d2e4adfaa3f278d721a5d759afa767"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/icestone.json"
+hash = "f18ff4973d0e9bc64edd3fac8b364671a13cf8db17226f9b4fffc55dfd14823b"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/nimbus_stone.json"
+hash = "672a11df02ab910d8d89986704752d0498eb788df143da80b9ccced22151f223"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/sentry_stone.json"
+hash = "d840e1aabe4326b96e28e8ebca01fb15e3f598d98cb981c05f231fc2493781db"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/crafting/chunk_loader.json"

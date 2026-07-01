@@ -1,0 +1,13 @@
+{
+  "type": "create_dragons_plus:freezing",
+  "ingredients": [
+    {
+      "tag": "aether:freezable_rings"
+    }
+  ],
+  "results": [
+    {
+      "id": "aether:ice_ring"
+    }
+  ]
+}
