@@ -4,6 +4,13 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.5.1] - 2026-07-01
+
+### Fixed
+- Removed the obsolete `steamon-gym-badges` resource pack (badges are now real
+  KubeJS items with their own textures). This also drops the dev-only `.bat`/`.py`
+  helper files that CurseForge rejected, unblocking the CurseForge upload.
+
 ## [1.5.0] - 2026-07-01
 
 ### Added
