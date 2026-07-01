@@ -4,6 +4,23 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.5.0] - 2026-07-01
+
+### Added
+- **KubeJS** (+ Rhino) — scripting backbone for the new gym badge system.
+- **Gym Badges** — seven collectible gym badges (Chaos, Carnival, Greenhouse,
+  Terapagos, Frostfae, Iron Will, Aether) as real items with custom art. Right
+  click to auto-equip; each plays an equip sound.
+- **Badge Case** — a craftable accessory (2 string + 2 leather + 1 gold nugget)
+  worn in the charm slot; it opens a dedicated row of badge slots so you can
+  display the badges you have earned.
+- **Badge accessory slot** (Curios) — a dedicated slot type for badges, shown in
+  the accessories screen with its own icon.
+
+### Changed
+- Server pack rolls up the 1.4.1 server-only changes (Essential Commands removed,
+  NeoEssentials tracked, anti-spam disabled, Create Spout poison recipes).
+
 ## [1.4.1] - 2026-06-30 (server only)
 
 ### Added

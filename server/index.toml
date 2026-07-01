@@ -189,6 +189,14 @@ file = "config/waystones-common.toml"
 hash = "3fc05fd5471fbfdcfea783e8212c955d92cae1963be66dd7622631ea632cbe4c"
 
 [[files]]
+file = "kubejs/server_scripts/steamon_badge_equip.js"
+hash = "ab6224c2150f5fce0d9686724f3f7562513485f29f2ce95ef617d4539ad4a827"
+
+[[files]]
+file = "kubejs/startup_scripts/steamon_badges.js"
+hash = "9c6af5662bc4eb393679da0e58adfd10787189d3714a41b522110b3b182643af"
+
+[[files]]
 file = "mods/accessories-compat-layer.pw.toml"
 hash = "c255cf4cd29718e3ab0a4c18df8bb7b626e0092c5aad7b4e67f34fc1ad4492f8"
 metafile = true
@@ -729,6 +737,11 @@ hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
 metafile = true
 
 [[files]]
+file = "mods/kubejs.pw.toml"
+hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
+metafile = true
+
+[[files]]
 file = "mods/lets-do-beachparty.pw.toml"
 hash = "a0b3b22cbf745278d56cf126ab746f48c1624b2fd2dee9a6198475b70dbf62ff"
 metafile = true
@@ -931,6 +944,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c1c0115c6c624471c08f94ca065bd6876505591df7eabde099a4868cf6397a13"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]
@@ -1351,6 +1369,14 @@ file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mecha
 hash = "52cb5ea7ec83c22f2f4199aca6f6def07301aad4fc313e37ad90b69e51fc51f4"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/curios/tags/item/badge.json"
+hash = "38c4a07f6606d74470a96fac5b048b305de73b34f52b6180061ece342f2771cd"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/curios/tags/item/charm.json"
+hash = "c31bba583e26e17e1b63d8c6113ac4e92f08fdd6fea79bcf24b04d7657c0d39f"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/mega_showdown/recipe/zygarde_cell_create.json"
 hash = "06ef45cd9583f9325dbbc3d15216c36f08dd0bd4563cdb254d9bc3f0b9bd029e"
 
@@ -1381,6 +1407,14 @@ hash = "5e94c98d1aa6ff4af242bbe3dac99dcc13d0bd55763fcc42a75142bd7c7643af"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_soap.json"
 hash = "825aef5e513bbf4daa21e8eb2e641f891b6ac448f25fe66d79f860b9c15d46e2"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/curios/entities/player_badge.json"
+hash = "44fbfb2953afdffa1b2784d595fc0c66c8bf8893f746877bf4a64b3d066677e9"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/curios/slots/badge.json"
+hash = "cfe316f4c1ac8b7252efb9c9e629ea1fd6d6ec614404b11b1860ac71d9ce1b6a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/function/disable_end_tick.mcfunction"
@@ -1425,6 +1459,10 @@ hash = "af433c6192aeb28198f078184cc8215fc4be3216aca51e0c82e5860a151ac7e4"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_saplings.json"
 hash = "45147de1701d26ae5bb1c5f032e8d1229ae976b2831be31acc506fe3f268c977"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/badge_case.json"
+hash = "482db6a664b8c7331b2f5a0d8ab253215d9083b9119ae70fe9a97e0efad3d67d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/blank_z.json"

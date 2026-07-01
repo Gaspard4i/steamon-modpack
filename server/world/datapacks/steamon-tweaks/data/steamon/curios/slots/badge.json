@@ -1,0 +1,10 @@
+{
+  "size": 0,
+  "operation": "SET",
+  "order": 200,
+  "icon": "steamon:slot/badge",
+  "add_cosmetic": false,
+  "use_native_gui": true,
+  "render_toggle": true,
+  "validators": ["curios:tag"]
+}

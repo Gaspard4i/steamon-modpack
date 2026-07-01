@@ -265,6 +265,50 @@ file = "config/waystones-common.toml"
 hash = "3fc05fd5471fbfdcfea783e8212c955d92cae1963be66dd7622631ea632cbe4c"
 
 [[files]]
+file = "kubejs/assets/curios/lang/en_us.json"
+hash = "26d22db6b8f56cd3662ff914e7dcf65da39376b8ab80a6259d0a18c767f7c462"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/aether_badge.png"
+hash = "e5a4d4ee1a285a7b30dff108fa846382e5462d08cba6ca56b68aebeb3f250dd4"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/badge_case.png"
+hash = "9601fd6c816bc3175a9d4151537ddb94d8eddad935d309a4b6f2a9fae090eb41"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/carnival_badge.png"
+hash = "b191641861c027228181b124beed1a5801b74b58fbf0fd7ad5694776a3211f15"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/chaos_badge.png"
+hash = "6d27823e683b0936cf8297a88237cbabc30586c2119584d75aab7fdee4d4a592"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/frostfae_badge.png"
+hash = "aff17e5f0c956654fd11de282db929c3f532ac6e290bd9cd18f76a1b6b7e821b"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/greenhouse_badge.png"
+hash = "a0c6266f50627d64efe9ce7a62078cb6e49694b86187b1ebc604e18b337c2846"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/iron_will_badge.png"
+hash = "ab63d611afa4ee3415166711d9a1879c2a90b86144d852652ce7528b8d6ce509"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/terapagos_badge.png"
+hash = "6544e193b7ba7a206a20b13d924875c49520276f6225dcecff166f7719234ed1"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/slot/badge.png"
+hash = "c66f8f3e6afe76998f2317780e836d2ad1eb41cdbe43121d7a5d5835bdd32949"
+
+[[files]]
+file = "kubejs/startup_scripts/steamon_badges.js"
+hash = "9c6af5662bc4eb393679da0e58adfd10787189d3714a41b522110b3b182643af"
+
+[[files]]
 file = "mods/accessories-compat-layer.pw.toml"
 hash = "c255cf4cd29718e3ab0a4c18df8bb7b626e0092c5aad7b4e67f34fc1ad4492f8"
 metafile = true
@@ -910,6 +954,11 @@ hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
 metafile = true
 
 [[files]]
+file = "mods/kubejs.pw.toml"
+hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
+metafile = true
+
+[[files]]
 file = "mods/lets-do-beachparty.pw.toml"
 hash = "a0b3b22cbf745278d56cf126ab746f48c1624b2fd2dee9a6198475b70dbf62ff"
 metafile = true
@@ -1112,6 +1161,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "c1c0115c6c624471c08f94ca065bd6876505591df7eabde099a4868cf6397a13"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]
