@@ -126,12 +126,22 @@ jobs:
             rm -rf _ex "$ZIP"
           fi
 
+          # Keep Modrinth-only mods out of the fingerprint detect entirely: remove
+          # their local jar before detect so it cannot hash-match them to a CF
+          # project whose file is still UnderReview (which poisons the manifest).
+          # Aether's Delight port (CF project 1541187) has no approved file.
+          rm -f mods/aethersdelight-*.jar || true
+
           # Pass 2: fingerprint detect — matches jars to CF project/file IDs by
           # hash (no API key required). Resolves most mods that have CF pages.
           echo "::group::packwiz curseforge detect"
           packwiz curseforge detect -y || true
           echo "::endgroup::"
           packwiz refresh
+
+          # Safety net: drop any .pw.toml that ended up referencing the blocked
+          # Aether's Delight CF project, in case detect created a duplicate.
+          grep -rl "project-id = 1541187" mods/ 2>/dev/null | xargs -r rm -f || true
 
           # Pass 3: Core API resolve — for mods still missing a [update.curseforge]
           # block, query the CF Core API by slug/name to find the project+file ID.
