@@ -1173,15 +1173,19 @@ metafile = true
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/back.json"
-hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+hash = "66f655b56105b24779014623ac21ecf1b75e5ea7c2fbab16841b9f3e925995b5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/charm.json"
-hash = "90b69576e3baf040cd23d84cee84efc965e63cb83af3c291511f8b261b2ebd7e"
+hash = "e7254264aa21b0c25623cdd2d0145fe040a03222854645a0fbc5e45f711b7250"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/hat.json"
-hash = "42cfbb3274758f020f8df62210d92d4d8ae1dee65ddf4430c97b18c3d20479be"
+hash = "66f655b56105b24779014623ac21ecf1b75e5ea7c2fbab16841b9f3e925995b5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/face.json"
+hash = "25a01c627f09c16e5316ba5407136db1931de720d75d3a6de5fc66c5efd6e3a0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/c/tags/item/foods/milk.json"
@@ -1462,6 +1466,10 @@ hash = "38c4a07f6606d74470a96fac5b048b305de73b34f52b6180061ece342f2771cd"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/charm.json"
 hash = "c31bba583e26e17e1b63d8c6113ac4e92f08fdd6fea79bcf24b04d7657c0d39f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/curios/tags/item/head.json"
+hash = "952a8be4c0d2c449c86fd79de39829a0e8ea19d0d4e456d11816c8de6ec7447e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mega_showdown/recipe/zygarde_cell_create.json"
