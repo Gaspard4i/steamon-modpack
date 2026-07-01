@@ -792,11 +792,6 @@ hash = "fe552b2ecb29d7cf215488a7506c2a0c3e1ed554658eaf758ccd3965143e7dfd"
 metafile = true
 
 [[files]]
-file = "mods/luckperms.pw.toml"
-hash = "91e6a0e562023e927ca1c56bdfd5df673609cac23528f768a83afe3674cdd0c0"
-metafile = true
-
-[[files]]
 file = "mods/magnum-torch.pw.toml"
 hash = "5eae36911d61013013f42e46de366ba999c729b9f6624a52fdc335c14e409e1a"
 metafile = true

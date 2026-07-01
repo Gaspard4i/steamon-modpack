@@ -4,6 +4,13 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.5.2] - 2026-07-01
+
+### Fixed
+- **Removed LuckPerms** (server) — LuckPerms 5.4.140 is broken on NeoForge 1.21.1
+  and caused every player to be kicked with "Invalid player data" at login.
+  Permissions are already handled by NeoEssentials, so LuckPerms was redundant.
+
 ## [1.5.1] - 2026-07-01
 
 ### Fixed
