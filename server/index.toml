@@ -1304,10 +1304,6 @@ file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_holyst
 hash = "5c974b0a69bdb198b425bfc392c80ee38f80c83ef40aaba8855cea3a64f9df07"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_zanite_ore.json"
-hash = "c9b5e120aa1e898129723c3e53ee0f2122e60024f729dd249f8fda806e54ef8e"
-
-[[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/blueberry_from_poison.json"
 hash = "cc78652c84709595e52e322dd140694a3a3ccb33e4f15afad37e1276e2e85752"
 
@@ -1400,6 +1396,10 @@ file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/cr
 hash = "4f00c149695115d95c9ee76f7e30dfbc05f18970df20b76e77cff7945d6e35eb"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/granite.json"
+hash = "a4f6e1c02fda011a447cd46e8117c42a6bd3ca55807ec8441b8de75ff9074421"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/highstone.json"
 hash = "860b59fcae81b25dabc0a58d057517f47a81f6a2d6a651c17234f68219a521fd"
 
@@ -1412,6 +1412,10 @@ file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/ic
 hash = "f18ff4973d0e9bc64edd3fac8b364671a13cf8db17226f9b4fffc55dfd14823b"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/limestone.json"
+hash = "4be95e5c0d0068e0ff6f2f2d4d6b63983894bf4cdea63cf97992c4e067ef2f28"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/ochrum.json"
 hash = "01c96c3b98d94bfe1c621fcb444a2474c86c97b5c864ea19c23f06aa684b05f2"
 
@@ -1422,6 +1426,10 @@ hash = "2b391b3fa4819fe40c66674a39de462c1d34d5706b8672ddd4db700fe9dbf480"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/scoria.json"
 hash = "5c5713d96ce9d8bc57a29498060e405cdcf72f2a1b950408259db468e5979cbe"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/tuff.json"
+hash = "781c402011f64a8d0ee66f776aef4a75b187ae2f563293ca55cb31f99574fa0c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/veridium.json"
