@@ -262,7 +262,7 @@ hash = "83723be6df3890688501a2113a497012d395f5c2daaa97ff74c45e5ef6ea0282"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "3fc05fd5471fbfdcfea783e8212c955d92cae1963be66dd7622631ea632cbe4c"
+hash = "3d10420414fc82871c355988cabd7577df6bf7efd5f4e6f4393ee723d2c6471b"
 
 [[files]]
 file = "kubejs/assets/curios/lang/en_us.json"

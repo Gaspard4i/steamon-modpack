@@ -186,7 +186,7 @@ hash = "22e86b77faa71556fc89be8b538cacb9d82cdcd110338ab75c10398777369d5d"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "3fc05fd5471fbfdcfea783e8212c955d92cae1963be66dd7622631ea632cbe4c"
+hash = "3d10420414fc82871c355988cabd7577df6bf7efd5f4e6f4393ee723d2c6471b"
 
 [[files]]
 file = "kubejs/server_scripts/steamon_badge_equip.js"

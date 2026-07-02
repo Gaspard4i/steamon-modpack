@@ -4,6 +4,14 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.5.3] - 2026-07-02
+
+### Changed
+- **Waystones teleport cost** — teleporting within the same dimension is now
+  **free**; crossing between dimensions costs **1 level** (down from 7 levels
+  same-dimension / 27 levels interdimensional). Warp plates and global waystones
+  stay free.
+
 ## [1.5.2] - 2026-07-01
 
 ### Fixed
