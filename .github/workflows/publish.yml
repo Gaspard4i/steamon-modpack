@@ -770,8 +770,9 @@ jobs:
           # join paragraph eats ~250, so trim the changelog to ~3800 and append
           # a "...full notes on Modrinth" pointer if truncated.
           download_block = (
-              f"**Download:** [Steamon-Client.mrpack]({dl_url})\n"
-              f"Re-import in your launcher to update.\n"
+              f"**Get it on [Modrinth](https://modrinth.com/modpack/steamon) or "
+              f"[CurseForge](https://www.curseforge.com/minecraft/modpacks/steamon).**\n"
+              f"Your launcher updates it automatically, or hit Update on the pack.\n"
               f"See <#1507307569008480298> for how to join.")
           MAX = 4096 - len(download_block) - 80  # safety margin
           if len(changelog) > MAX:
