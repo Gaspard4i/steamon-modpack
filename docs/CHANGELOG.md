@@ -20,6 +20,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **Schematicannon** is now much faster (delay 10 -> 2 ticks between blocks).
 - **Train tracks** can be placed in longer stretches at once
   (`maxTrackPlacementLength` 32 -> 128).
+- **Create Nuclear reactor rods** last longer (uranium and graphite lifespan
+  3600 -> 5000 ticks).
 
 ## [1.5.3] - 2026-07-02
 

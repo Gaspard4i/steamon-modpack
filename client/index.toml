@@ -14,7 +14,7 @@ hash = "4807d5cba29daffd4b9dbdd1fd159ac2c52e8224dc3e6bbc58f03f989dac990d"
 
 [[files]]
 file = "config/createnuclear-common.toml"
-hash = "290b85ac8860bb92085f83fc2a300e7f847caa5b80b118bccbc5a41309b7f213"
+hash = "25ee5f0182c77b9710f8f2a63440c42af73dfc3a9ad87bf537a49d90557dc795"
 
 [[files]]
 file = "config/defaultoptions/extra/config/iris.properties"

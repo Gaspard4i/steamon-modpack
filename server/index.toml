@@ -14,7 +14,7 @@ hash = "6710675c328978c3e859d0617de1fa1992802884c37334c1d884a41be1c4eee7"
 
 [[files]]
 file = "config/createnuclear-common.toml"
-hash = "290b85ac8860bb92085f83fc2a300e7f847caa5b80b118bccbc5a41309b7f213"
+hash = "25ee5f0182c77b9710f8f2a63440c42af73dfc3a9ad87bf537a49d90557dc795"
 
 [[files]]
 file = "config/fightorflight.json5"

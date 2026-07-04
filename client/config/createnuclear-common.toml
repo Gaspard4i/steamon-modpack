@@ -15,13 +15,13 @@
 	#20 ticks = 1 second
 	# Default: 3600
 	# Range: 100 ~ 5000
-	"Uranium rod lifespan" = 3600
+	"Uranium rod lifespan" = 5000
 	#.
 	#Graphite rod lifespan in reactor
 	#20 ticks = 1 second
 	# Default: 3600
 	# Range: 100 ~ 5000
-	"Graphite rod lifespan" = 3600
+	"Graphite rod lifespan" = 5000
 	#.
 	#Maximum heat a reactor block can handle
 	#Avoids reactor failure due to excessive heat
