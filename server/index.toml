@@ -9,6 +9,10 @@ file = "config/cobblemonintegrations-common.toml"
 hash = "459679c29149e80dbf5113002b4a506c67083a4167468a7231115e86b9605ba0"
 
 [[files]]
+file = "config/create-server.toml"
+hash = "6710675c328978c3e859d0617de1fa1992802884c37334c1d884a41be1c4eee7"
+
+[[files]]
 file = "config/createnuclear-common.toml"
 hash = "290b85ac8860bb92085f83fc2a300e7f847caa5b80b118bccbc5a41309b7f213"
 
@@ -219,6 +223,11 @@ metafile = true
 [[files]]
 file = "mods/almanac.pw.toml"
 hash = "19d6b20763edf0247e395db37d6e7e5b012ca063f5820c81a6330baff2218c4e"
+metafile = true
+
+[[files]]
+file = "mods/alternate-current.pw.toml"
+hash = "18cf2b63d293ba0738c1073690fbd2c62305b161f76d346a551a66a9bbf8af32"
 metafile = true
 
 [[files]]
@@ -737,6 +746,11 @@ hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
 metafile = true
 
 [[files]]
+file = "mods/krypton-foxified.pw.toml"
+hash = "8c23a6723082a6e93adca011a0338242013abaf09b8a4b4d1229701fd1096ce1"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
 metafile = true
@@ -1119,6 +1133,11 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "746b5a692997b6b51651e364fb11c546c2aed181e6fcf98ab4c8f709e04509f3"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "08d4775f8546564ad812b09062633ffc48f44b76328efe3832c021651af86b14"
 metafile = true
 
 [[files]]

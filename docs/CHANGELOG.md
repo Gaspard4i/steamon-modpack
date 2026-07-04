@@ -4,6 +4,23 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.5.4] - 2026-07-04
+
+### Added
+- **Alternate Current** (server) — faster redstone engine, drastically lower tick
+  time on large redstone circuits. No client update needed.
+- **KryptonFoxified** (server) — network stack and entity tracker optimizations.
+  No client update needed.
+- **WorldEdit** (server) — world editing tools for admins (`//set`, `//copy`, etc.).
+### Updated
+- **Entity Culling** (client) 1.10.2 -> 1.10.5 — skips rendering entities hidden
+  behind blocks for better client FPS.
+
+### Changed
+- **Schematicannon** is now much faster (delay 10 -> 2 ticks between blocks).
+- **Train tracks** can be placed in longer stretches at once
+  (`maxTrackPlacementLength` 32 -> 128).
+
 ## [1.5.3] - 2026-07-02
 
 ### Changed

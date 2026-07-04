@@ -286,6 +286,10 @@ hash = "6d27823e683b0936cf8297a88237cbabc30586c2119584d75aab7fdee4d4a592"
 
 [[files]]
 file = "kubejs/assets/steamon/textures/item/frostfae_badge.png"
+hash = "245a5d9decf9f85b67237d0f9de61ed07d6aa309c30cfe688b20c5ad7ba687c9"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/frostfae_badge.png.bak"
 hash = "aff17e5f0c956654fd11de282db929c3f532ac6e290bd9cd18f76a1b6b7e821b"
 
 [[files]]
@@ -810,7 +814,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "590437e0f344c87791842b791a400e95ffd4154f02a04c2d8d78b43a76c659ad"
+hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
 
 [[files]]
