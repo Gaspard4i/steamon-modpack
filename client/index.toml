@@ -393,6 +393,16 @@ hash = "904407c261f70fd20bedccc8dbf788f527e87629feaa9a25ee9b1fe91e14a975"
 metafile = true
 
 [[files]]
+file = "mods/berry-pouch.pw.toml"
+hash = "bb728d408e8be5bb10410622c34ed2fc0681b2d9f9dbe5dacee3d30b9369d95b"
+metafile = true
+
+[[files]]
+file = "mods/berryharvester.pw.toml"
+hash = "cd8450115156e357c9eccaabda05cc83f23780e88be02c810762ec5fc015050a"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "280a5fc2561fec994f8464db37d17b21f03071fd94fbb728f725a33dff1a4261"
 metafile = true
@@ -605,6 +615,11 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "0b7251e6dcde1a5df280dd975f7acfe87cace9e018411f88fc3579d0c568d964"
+metafile = true
+
+[[files]]
+file = "mods/create-cobblemon-potion.pw.toml"
+hash = "ee4c0b26cb0cdf5f44d7fdbb6c0eadad86c944a08351d320fc546d9402871a48"
 metafile = true
 
 [[files]]

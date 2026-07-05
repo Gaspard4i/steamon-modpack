@@ -1,0 +1,13 @@
+name = "Create Cobblemon Potion"
+filename = "create_cobblemon_potion-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZcFOjUBG/versions/N9xadoml/create_cobblemon_potion-1.0.1.jar"
+hash-format = "sha512"
+hash = "a925532c0fd2951f7652a659623d7b6c26731612121fc7af221746f91df350c5eb97beffbd2ef375683a109ff8dbd65d7e2a92beee8962d883577f56a565a8d9"
+
+[update]
+[update.modrinth]
+mod-id = "ZcFOjUBG"
+version = "N9xadoml"

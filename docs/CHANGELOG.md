@@ -4,6 +4,24 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.6.0] - 2026-07-05
+
+### Added
+- **Create Cobblemon Potion** — brew Cobblemon medicines at scale with Create
+  (Mechanical Mixer + Basin + Spout).
+- **Berry Pouch [Cobblemon]** — a pouch to carry your Cobblemon berries.
+- **Berry Harvester** — Create Mechanical Harvesters can now auto-harvest and
+  replant Cobblemon berry bushes.
+- **Echo Shard** recipes: 1 amethyst shard + 1 sculk (crafting), 1 Heart of the
+  Deep cut into 8 echo shards (stonecutter), and a Create deploying variant
+  (apply sculk on an amethyst shard).
+- **Shulker Shell** recipe: 5 dried chorus flowers in a helmet shape around 1
+  popped chorus fruit.
+
+### Removed
+- Our custom Create mixing recipes for Cobblemon medicines (27 `med_*` recipes)
+  are replaced by the Create Cobblemon Potion mod.
+
 ## [1.5.6] - 2026-07-04
 
 ### Added
