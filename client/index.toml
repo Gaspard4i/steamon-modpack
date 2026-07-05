@@ -319,7 +319,7 @@ metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "d136f082a706b21a11b7e35bb805582966e9455f4fbeae9a02387b7dbc4c3574"
+hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
 metafile = true
 
 [[files]]
@@ -354,7 +354,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
@@ -394,7 +394,7 @@ metafile = true
 
 [[files]]
 file = "mods/berry-pouch.pw.toml"
-hash = "bb728d408e8be5bb10410622c34ed2fc0681b2d9f9dbe5dacee3d30b9369d95b"
+hash = "3124c67aa53cd47e1e447471e0fae5c7a67fb7e4f22a62e12267745c8ef83632"
 metafile = true
 
 [[files]]
@@ -549,7 +549,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
+hash = "e8506cd3259cf74eb5297dc8995c958782ec5b1d9d5fe0b8b88ddd81031a5398"
 metafile = true
 
 [[files]]
@@ -619,7 +619,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-cobblemon-potion.pw.toml"
-hash = "ee4c0b26cb0cdf5f44d7fdbb6c0eadad86c944a08351d320fc546d9402871a48"
+hash = "a12001cd580c04360cf9660aeee228eefd146d2641b6ad403113753807c74aad"
 metafile = true
 
 [[files]]
@@ -969,7 +969,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
 metafile = true
 
 [[files]]
@@ -999,7 +999,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
+hash = "fb6171c8f7ff0d83513b3f75ee5d7a98659559c427d79fb69eb0219639af8a37"
 metafile = true
 
 [[files]]
@@ -1114,7 +1114,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "089eb79244d52a34771cf2ee53ecbd99b553569b26623b464679b67a7653f071"
+hash = "3db5943419e6b6f4e33946266be8797230434573bc68dbe3a77d72f19001ae0c"
 metafile = true
 
 [[files]]
