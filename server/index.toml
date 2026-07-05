@@ -441,6 +441,11 @@ hash = "0bbae13b361fdd2f30919f8f1bdd72f526b12ecf212f81d56fc372c533d64e17"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+hash = "baad81133f5263fb4a8f88a052847766308a5ce1a0bc3cc26db429564e3d5274"
+metafile = true
+
+[[files]]
 file = "mods/crawl.pw.toml"
 hash = "ba0b3dd9c3c1089c7d22f7394c4d3b1de5d67dbccb2c2a2e6a264f2e20619684"
 metafile = true
@@ -818,6 +823,11 @@ metafile = true
 [[files]]
 file = "mods/magnum-torch.pw.toml"
 hash = "5eae36911d61013013f42e46de366ba999c729b9f6624a52fdc335c14e409e1a"
+metafile = true
+
+[[files]]
+file = "mods/maintenancemode.pw.toml"
+hash = "e6518e53d3f55ba3f10cd68d9334a9b58fee3228da6ab00d408c4f44fe0423bb"
 metafile = true
 
 [[files]]

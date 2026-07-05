@@ -4,6 +4,12 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.6.3] - 2026-07-05
+
+### Added
+- **Maintenance Mode** (server) — lets admins put the server in maintenance so only
+  allowed players can join. No client update needed.
+
 ## [1.6.2] - 2026-07-05
 
 ### Added
