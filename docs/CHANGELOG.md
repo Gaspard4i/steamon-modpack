@@ -4,6 +4,12 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.6.4] - 2026-07-05
+
+### Added
+- **Construction Sticks** — place many blocks at once to build faster (five tiers
+  from Wood to Netherite, plus upgrades). Client + server.
+
 ## [1.6.3] - 2026-07-05
 
 ### Added
