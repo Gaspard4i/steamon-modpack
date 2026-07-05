@@ -4,6 +4,21 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.6.1] - 2026-07-05
+
+### Added
+- **Lithium** (client) — game-logic optimizations now run client-side too.
+
+### Changed
+- **ServerCore tuning** — enabled dynamic performance scaling, prevent-moving-into-
+  unloaded-chunks (fewer lagspikes on chunk load), villager lobotomization, fast
+  biome lookups and duplicate-fluid-tick cancelling.
+- **Frogport (Package Port) reach** increased from 5 to 9 blocks.
+
+### Fixed
+- Removed orphaned `GLARES`/`RASCALS` mobcap categories (from the removed Friends
+  & Foes mod) that made ServerCore's config invalid and blocked its optimizations.
+
 ## [1.6.0] - 2026-07-05
 
 ### Added

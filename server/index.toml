@@ -10,7 +10,7 @@ hash = "459679c29149e80dbf5113002b4a506c67083a4167468a7231115e86b9605ba0"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "6710675c328978c3e859d0617de1fa1992802884c37334c1d884a41be1c4eee7"
+hash = "b3a75deed8723b8bf3dbbd59d65bedd21dfa841ef1035d157abfee2b84c077e9"
 
 [[files]]
 file = "config/createnuclear-common.toml"
@@ -78,11 +78,11 @@ hash = "5f8ebee13e8a01995fbba11c8bef558c86ef3d7d63821a422611e8129d850281"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "232a4337db771b0f11ad63e004841c2e11284003b146effd0802f7d0229e3b08"
+hash = "75ebc2e0f0ddce2a77b896015fc36954a67528db8219941c428408e6c78dfd77"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
-hash = "19e10292195794d76858ad6017a7296ea74b0c0f5febcd6b9b0b189d7b22a64b"
+hash = "90a3da935e89208bedba12ffcd243951e1894fd0ba316d37ce80b853949de4d6"
 
 [[files]]
 file = "config/simplebackups-common.toml"
