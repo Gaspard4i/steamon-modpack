@@ -4,13 +4,19 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.5.6] - 2026-07-04
+
+### Added
+- **WorldEdit** (server) — re-added after the 1.5.5 revert; kept for admin world
+  editing (its only issue was a one-time startup cost, not in-game lag).
+
 ## [1.5.5] - 2026-07-04
 
 ### Removed
 - **Alternate Current**, **KryptonFoxified**, **WorldEdit** (server) — reverted the
   1.5.4 server-side additions after they were linked to severe TPS drops. Create
   config improvements (schematicannon speed, longer tracks, reactor rod lifespan)
-  from 1.5.4 are kept.
+  from 1.5.4 are kept. (WorldEdit re-added in 1.5.6.)
 
 ## [1.5.4] - 2026-07-04
 
