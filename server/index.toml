@@ -546,6 +546,11 @@ hash = "56d6c45487596ad268f833b65eb80849ab694f46b553a6a4f9f5316a8447c640"
 metafile = true
 
 [[files]]
+file = "mods/create-threaded-trains.pw.toml"
+hash = "cc05bcaec0e857c6a6f7de4bd09a22ad195b5b77a25e4adfe737915ac3be68db"
+metafile = true
+
+[[files]]
 file = "mods/create-ultimate-factory.pw.toml"
 hash = "54a158a86a3087a85b4f000fe16ecd91b891cf031ec6629abe9f19dd986840c6"
 metafile = true
@@ -853,11 +858,6 @@ metafile = true
 [[files]]
 file = "mods/neoessentials.pw.toml"
 hash = "efc09d97c549b0ea37daf25e82e78883ed6727bb40361931990262373a653055"
-metafile = true
-
-[[files]]
-file = "mods/noisium.pw.toml"
-hash = "d424a9260ef51bc102e56f0423d91dfabb739ccca8a86eb1c450ea631b739280"
 metafile = true
 
 [[files]]

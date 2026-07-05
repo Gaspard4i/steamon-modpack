@@ -4,6 +4,17 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.6.2] - 2026-07-05
+
+### Added
+- **Create: Threaded Trains** (server) — runs the railway network calculations on
+  a separate thread parallel to the server tick, big win for large train networks.
+  No client update needed.
+
+### Removed
+- **Noisium** (server) — abandoned/archived worldgen optimizer, redundant with
+  C2ME which already handles parallel chunk generation.
+
 ## [1.6.1] - 2026-07-05
 
 ### Added
