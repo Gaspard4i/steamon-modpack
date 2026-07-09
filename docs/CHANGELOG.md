@@ -7,21 +7,26 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 ## [1.7.0] - 2026-07-09
 
 ### Added
-- **Create: Klinks n' Klangs** — adds musical stencils and instruments to the
-  Create toolkit. Client + server.
-- **Create: Blocks & Bogies** — new train bogies, wheels and decorative train
-  blocks for Create's railway system. Client + server.
-- **Immersive Paintings** — hold a painting in hand and place it freely on any
-  wall, any size, any image. Client + server.
-- **Fzzy Config** (dependency of Immersive Paintings) — shared config screen
-  library. Client + server.
+- **Create: Klinks n' Klangs** — a Create x Cobblemon compatibility mod. Every
+  Cobblemon potion, heal and vitamin now has a fluid and can be mixed, filled
+  and emptied with Create machines. Adds Pokeball Assembly (cast blank balls,
+  apply a stencil with a Deployer, finish with paint) for large scale factories.
+  No original Cobblemon recipes are disabled, and every process shows up in JEI.
+  Replaces Create Cobblemon Potion. Client + server.
+- **Create: Blocks & Bogies** — larger train bogies (with and without valve
+  gear) and more parts for Create's railway system. Client + server.
+- **Immersive Paintings** — drag and drop your own images to create custom
+  paintings and hang them at any size, on servers too. Client + server.
+- **Fzzy Config** (dependency of Immersive Paintings) — shared config library.
+  Client + server.
 
 ### Changed
 - **Kotlin for Forge** updated 5.11.0 to 5.12.0.
 
 ### Removed
-- **Create Cobblemon Potion** — brewing Cobblemon medicines with Create is no
-  longer available. No replacement recipes added.
+- **Create Cobblemon Potion** — replaced by Create: Klinks n' Klangs, which
+  covers the same Cobblemon potion brewing and adds vitamins and Pokeball
+  Assembly on top.
 
 ## [1.6.4] - 2026-07-05
 
