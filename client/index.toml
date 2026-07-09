@@ -1358,6 +1358,11 @@ hash = "71e9066a819c715f1436e187e4ab64bc5859a4e7cd5757066a446f75d6ccb4c0"
 metafile = true
 
 [[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "a43bccc1cdad8e0ce5167f379c98935f7ea8117ac0bda2218b372defbc9fc985"
+metafile = true
+
+[[files]]
 file = "mods/tree-harvester.pw.toml"
 hash = "0ad46a8995e73464ec898515d05310a7ce1f9059528ceedac8720942d625a27c"
 metafile = true
@@ -1409,12 +1414,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "7a8fb86b06e42214639431e7651fd5c242ac20279c2b98f918137dc5d392c354"
+hash = "2e04002bf2de12afd221bd9f30303c9cedeec765b2d000182decca0a977b8d1f"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "3e36e40b0dfb2293d0d7313678581890262b68716e5f66eba0aa2f1da907009a"
+hash = "1eca95969a5750578e2c848d7cb63fee57c99cd2860372d2634e55d9076780fd"
 metafile = true
 
 [[files]]

@@ -4,6 +4,21 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.8.0] - 2026-07-09
+
+### Added
+- **Trash Cans** — adds trash cans that void items, fluids and energy. Items
+  and fluids can be whitelisted or blacklisted, and an energy transfer limit
+  can be set. Client + server.
+
+### Changed
+- **Xaero's Minimap** updated 25.3.13 to 26.2.1.
+- **Xaero's World Map** updated 1.40.16 to 1.42.0.
+
+### Removed
+- **NeoEssentials** (server) — replaced by a manual server-side setup, not
+  tracked in this repo.
+
 ## [1.7.0] - 2026-07-09
 
 ### Added

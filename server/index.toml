@@ -886,11 +886,6 @@ hash = "8a47f450836326fbab861a04677dee883bd01f7a34990b7a50336cb93cf64f3a"
 metafile = true
 
 [[files]]
-file = "mods/neoessentials.pw.toml"
-hash = "efc09d97c549b0ea37daf25e82e78883ed6727bb40361931990262373a653055"
-metafile = true
-
-[[files]]
 file = "mods/octo-lib.pw.toml"
 hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
@@ -1128,6 +1123,11 @@ metafile = true
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "71e9066a819c715f1436e187e4ab64bc5859a4e7cd5757066a446f75d6ccb4c0"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "a43bccc1cdad8e0ce5167f379c98935f7ea8117ac0bda2218b372defbc9fc985"
 metafile = true
 
 [[files]]
