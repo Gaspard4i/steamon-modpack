@@ -54,7 +54,7 @@ hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "34735020e82439272ec21c90689576227257d717098256c1d4c79544b49dda4d"
+hash = "236894d4eeb943d37633dff03e907b3f33c90bd64ee1acb5a3c7c814a9f9976b"
 
 [[files]]
 file = "config/rctmod-server.toml"
@@ -281,6 +281,11 @@ hash = "cd8450115156e357c9eccaabda05cc83f23780e88be02c810762ec5fc015050a"
 metafile = true
 
 [[files]]
+file = "mods/blocks-bogies.pw.toml"
+hash = "feb4efaaeaa4ee270d04de7f06e377ada25e3977649c7d6de227ea6338396634"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
@@ -458,11 +463,6 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "0b7251e6dcde1a5df280dd975f7acfe87cace9e018411f88fc3579d0c568d964"
-metafile = true
-
-[[files]]
-file = "mods/create-cobblemon-potion.pw.toml"
-hash = "ee4c0b26cb0cdf5f44d7fdbb6c0eadad86c944a08351d320fc546d9402871a48"
 metafile = true
 
 [[files]]
@@ -691,6 +691,11 @@ hash = "c6ae25ca8f32fc88edcc08bbd13aed4a7323976e8fbbebd9ec863c0ce4f99c6e"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "f9c118b7a66238a7f9e052705e82402e57c7a5b753d62d679b94701ede479752"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "09c4b0a8f3da02e9c7fea5a91827e786bc3081234df0f29dc42217794696b47a"
 metafile = true
@@ -736,6 +741,11 @@ hash = "19fae91aeb74652a982ef4cc21373bd7a6af781d47bcc4d5b0e37a642cde81a5"
 metafile = true
 
 [[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "75b43f1a86593360f10703b7625da4e0a3c435bf13bf8b5b75fa383a0338dade"
+metafile = true
+
+[[files]]
 file = "mods/in-control.pw.toml"
 hash = "6402d23ba23b18fc4c3531ba03f8d044bea2f4521e1504216efc73a4d08461ce"
 metafile = true
@@ -766,8 +776,13 @@ hash = "7da272499368fc4756be683865a9cb91400a2ef516b7488c3a853c49c758af47"
 metafile = true
 
 [[files]]
+file = "mods/klinksnklangs.pw.toml"
+hash = "d4e73044ef837c0e5c4cb06b35bec04d14acd3deca2b241a8718bcca21a9c3c3"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]

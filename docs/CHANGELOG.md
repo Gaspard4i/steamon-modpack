@@ -4,6 +4,25 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.7.0] - 2026-07-09
+
+### Added
+- **Create: Klinks n' Klangs** — adds musical stencils and instruments to the
+  Create toolkit. Client + server.
+- **Create: Blocks & Bogies** — new train bogies, wheels and decorative train
+  blocks for Create's railway system. Client + server.
+- **Immersive Paintings** — hold a painting in hand and place it freely on any
+  wall, any size, any image. Client + server.
+- **Fzzy Config** (dependency of Immersive Paintings) — shared config screen
+  library. Client + server.
+
+### Changed
+- **Kotlin for Forge** updated 5.11.0 to 5.12.0.
+
+### Removed
+- **Create Cobblemon Potion** — brewing Cobblemon medicines with Create is no
+  longer available. No replacement recipes added.
+
 ## [1.6.4] - 2026-07-05
 
 ### Added

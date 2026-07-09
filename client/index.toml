@@ -319,7 +319,7 @@ metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
+hash = "d136f082a706b21a11b7e35bb805582966e9455f4fbeae9a02387b7dbc4c3574"
 metafile = true
 
 [[files]]
@@ -354,7 +354,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+hash = "6a9ca5c65d6ba60d1a9e5c8c3d9607fd70a6912dabe8f99cc74de4233d68108f"
 metafile = true
 
 [[files]]
@@ -405,6 +405,11 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "280a5fc2561fec994f8464db37d17b21f03071fd94fbb728f725a33dff1a4261"
+metafile = true
+
+[[files]]
+file = "mods/blocks-bogies.pw.toml"
+hash = "feb4efaaeaa4ee270d04de7f06e377ada25e3977649c7d6de227ea6338396634"
 metafile = true
 
 [[files]]
@@ -549,7 +554,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "e8506cd3259cf74eb5297dc8995c958782ec5b1d9d5fe0b8b88ddd81031a5398"
+hash = "748f9d8851fd34947a3451579aed7f1ec026e4de62ae28227e5d226cc386f178"
 metafile = true
 
 [[files]]
@@ -620,11 +625,6 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "0b7251e6dcde1a5df280dd975f7acfe87cace9e018411f88fc3579d0c568d964"
-metafile = true
-
-[[files]]
-file = "mods/create-cobblemon-potion.pw.toml"
-hash = "a12001cd580c04360cf9660aeee228eefd146d2641b6ad403113753807c74aad"
 metafile = true
 
 [[files]]
@@ -883,6 +883,11 @@ hash = "c6ae25ca8f32fc88edcc08bbd13aed4a7323976e8fbbebd9ec863c0ce4f99c6e"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "f9c118b7a66238a7f9e052705e82402e57c7a5b753d62d679b94701ede479752"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "09c4b0a8f3da02e9c7fea5a91827e786bc3081234df0f29dc42217794696b47a"
 metafile = true
@@ -933,6 +938,11 @@ hash = "19fae91aeb74652a982ef4cc21373bd7a6af781d47bcc4d5b0e37a642cde81a5"
 metafile = true
 
 [[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "75b43f1a86593360f10703b7625da4e0a3c435bf13bf8b5b75fa383a0338dade"
+metafile = true
+
+[[files]]
 file = "mods/in-control.pw.toml"
 hash = "6402d23ba23b18fc4c3531ba03f8d044bea2f4521e1504216efc73a4d08461ce"
 metafile = true
@@ -968,13 +978,18 @@ hash = "7da272499368fc4756be683865a9cb91400a2ef516b7488c3a853c49c758af47"
 metafile = true
 
 [[files]]
+file = "mods/klinksnklangs.pw.toml"
+hash = "d4e73044ef837c0e5c4cb06b35bec04d14acd3deca2b241a8718bcca21a9c3c3"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "cb980b1d7245815961507747d16702a7d4a5883778e11ceaed3e4340c8fee156"
 metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
+hash = "a947afda264a2eaaef57dc74999741da0433968a0e639730b063c3f3b676c41b"
 metafile = true
 
 [[files]]
