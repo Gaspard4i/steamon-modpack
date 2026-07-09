@@ -4,6 +4,13 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.8.1] - 2026-07-09
+
+### Fixed
+- **Open Parties and Claims** updated 0.26.2 to 0.27.6 to fix a mod loading
+  error where the updated Xaero's Minimap and World Map required
+  OpenPartiesAndClaims 0.27.0 or above.
+
 ## [1.8.0] - 2026-07-09
 
 ### Added
