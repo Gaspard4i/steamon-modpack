@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/cobblemon-spawn-alerts/main.json"
+hash = "fed33eba47c6c04eac1af12b1634c4c941ef9e3fcd35c61f4c376e7ddbfde39e"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "79eb88fd1d4c784a5c8caf78cc996a60612ac121eb655518652eff13d5de33f1"
 

@@ -4,6 +4,14 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.8.2] - 2026-07-10
+
+### Changed
+- **Cobblemon Spawn Alerts** is now preconfigured. The multiplayer warning
+  popup is disabled, and alerts are limited to shinies, legendaries,
+  mythicals, ultra beasts, paradox Pokemon and ultra rare spawns. Normal
+  rare spawns no longer trigger an alert.
+
 ## [1.8.1] - 2026-07-09
 
 ### Fixed
