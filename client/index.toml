@@ -423,7 +423,7 @@ metafile = true
 
 [[files]]
 file = "mods/brewin-and-chewin.pw.toml"
-hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
+hash = "0236c16fae038f834245ad6c9b05f385f75db2e82630bdbf71a4b1a2e6def57d"
 metafile = true
 
 [[files]]
@@ -933,7 +933,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-lanterns.pw.toml"
-hash = "0c9eb7002bd08576fb9b666cfaa103098eaf1480fd553ba3471b9568ac145e37"
+hash = "997f906be3ff3d3e0e6140607e35d70a4ee7da71c74cb46244792b93a3a01639"
 metafile = true
 
 [[files]]

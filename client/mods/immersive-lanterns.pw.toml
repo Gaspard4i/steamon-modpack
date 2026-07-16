@@ -1,6 +1,6 @@
 name = "Toni's Immersive Lanterns"
 filename = "immersivelanterns-neoforge-1.0.6-1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/vskzdsyT/versions/CaxJ3tAY/immersivelanterns-neoforge-1.0.6-1.21.1.jar"
