@@ -4,6 +4,43 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.9.0] - 2026-07-17
+
+### Added
+- **Create: Numismatics** — a Create styled currency mod adding vendors, a
+  bank terminal, depositors and coins for player run shops. Client + server.
+- **WorldEdit** 7.3.8 — in-game world editing for staff. Server only.
+
+### Updated
+- **Xaero's Minimap** 26.2.1 -> 26.3.0, **Xaero's World Map** 1.42.0 -> 1.43.0.
+- **JEI** 19.27 -> 19.39 (required by the Sophisticated family updates).
+- **Create Slice & Dice** 4.2.4 -> 4.3.2 (required by Create Encased 1.9).
+- Major Create ecosystem bumps: **Create: Connected** 1.2.2 -> 1.3.2,
+  **Create: Central Kitchen** 2.4.0 -> 2.5.0, **Create: Dragons Plus** 1.10.1
+  -> 1.11.2b, **Create Encased** 1.8.1 -> 1.9.0-ht1, **Create Crafts &
+  Additions** 1.5.11 -> 1.6.0, **Create Cobblestone** 1.4.9 -> 1.4.11,
+  **Create: Integrated Farming** 1.2.2 -> 1.2.6, **Create: Let The Adventure
+  Begin** 4.0.0 -> 4.0.3, **Create Stuff 'N Additions** 2.1.3 -> 2.1.4.a.
+  Client + server.
+- **Cobblemon Smartphone** 1.0.9-rev01 -> 1.1.1, **Cobblemon: Create
+  Industries** 1.3.2 -> 1.5.0. Client + server.
+- **Lithium** (server) 0.15.3 -> 0.15.4, matching the client side build.
+- 40+ mod patch updates across the rest of the pack (Cobblemon add-ons,
+  Sophisticated Storage/Backpacks family, GeckoLib, ModernFix, Moonlight
+  Lib, Puzzles Lib, Balm, Kiwi, Lithostitched, Waystones, Lootr, ServerCore,
+  FancyMenu, Terralith, Tectonic, Amendments and general QoL/decoration
+  mods). No gameplay-breaking changes expected.
+
+### Notes
+- **Sodium stays on 0.6.13**: the dynamic lights ecosystem (Sodium Options
+  API, Sodium Dynamic Lights, Create Dynamic Lights, Immersive Lanterns) is
+  not compatible with Sodium 0.8 yet. **Supplementaries stays on 3.6.4** for
+  the same reason (3.7+ requires Sodium 0.8). **Enchantment Descriptions
+  stays on 21.1.9** (21.1.10 requires a newer NeoForge).
+- The **Holystone Stove** (Aether's Delight) crafting recipe is disabled on
+  the server: the block crashes when used for cooking with the current
+  Farmer's Delight, with no upstream fix available.
+
 ## [1.8.2] - 2026-07-10
 
 ### Changed
