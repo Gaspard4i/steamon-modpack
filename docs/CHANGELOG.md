@@ -12,7 +12,6 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **WorldEdit** 7.3.8 — in-game world editing for staff. Server only.
 
 ### Updated
-- **Xaero's Minimap** 26.2.1 -> 26.3.0, **Xaero's World Map** 1.42.0 -> 1.43.0.
 - **JEI** 19.27 -> 19.39 (required by the Sophisticated family updates).
 - **Create Slice & Dice** 4.2.4 -> 4.3.2 (required by Create Encased 1.9).
 - Major Create ecosystem bumps: **Create: Connected** 1.2.2 -> 1.3.2,
@@ -32,6 +31,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   mods). No gameplay-breaking changes expected.
 
 ### Notes
+- **Xaero's Minimap/World Map stay on 26.2.1/1.42.0**: the 26.3/1.43 builds
+  require the new XaeroLib which is not published on Modrinth yet.
 - **Sodium stays on 0.6.13**: the dynamic lights ecosystem (Sodium Options
   API, Sodium Dynamic Lights, Create Dynamic Lights, Immersive Lanterns) is
   not compatible with Sodium 0.8 yet. **Supplementaries stays on 3.6.4** for
