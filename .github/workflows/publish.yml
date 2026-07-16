@@ -207,7 +207,7 @@ jobs:
           # have licenses that permit redistribution in modpacks.
           # (printf used instead of heredoc to avoid YAML parser conflicts with <<)
           printf '%s\n' \
-            'Cobbreeding-neoforge-2.2.1.jar' \
+            'Cobbreeding-neoforge-2.2.2.jar' \
             'aethersdelight-0.1.4.2-1.21.1.jar' \
             'berryharvester-1.21.1-1.0.jar' \
             'cobblemon_paleontologist-0.6.0-Beta-Neo.jar' \
