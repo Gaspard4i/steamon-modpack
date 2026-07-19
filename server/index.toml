@@ -2408,6 +2408,126 @@ file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_milling_seas
 hash = "c9689abf3cb4cc3677489f7b6592eaa6163bc28998a426d1ce0f9d39ce3ec05a"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/blooming_sculk_stone.json"
+hash = "4ea9439f5d3cb20b251a592b59758e686b5b616a4f9a02a2b14637e02eea53df"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/chiseled_sculk_stone.json"
+hash = "9bd143a6bbc16c06fd50dacc7b1d22880dca35a96219965e0eb06d58c0ad5d8a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone.json"
+hash = "e80136ffcaf7037c83e0149c5817c518a3c983b63e513770b45200ddc328ad9f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone_slab.json"
+hash = "eaf3b95f4228a3b4f0b5326874a323713dc754d83731d79a81270cd1a7bd0c25"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone_stairs.json"
+hash = "2e3cd7e79230cc311a042c1dfba312d7ddb93453f495c7f23885a2d68c2c3c3e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone_wall.json"
+hash = "eb3f22b7ab44dc6f17fe5eb69f3171f7f76fff268a520696ddcf87db0f2660c1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone.json"
+hash = "ce958c775482db23f2a1ce7d38b85fce3c9110f1536084f7b0eda463e1e1ffd0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone_slab.json"
+hash = "b5f6d9bf793350b716584f25965c4d1f7009854f7b7223c7ffa04390630a44d4"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone_stairs.json"
+hash = "c677f87e652f9c0d1d973be7c19bfda054f4743c19298fa6e129bb17e58a1e12"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone_wall.json"
+hash = "0de51280f1040ded5de73da3cf695eefa0f2f51a00c17bc107979ae02082f6e4"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone.json"
+hash = "0ed7f7d2e266315deab73ff01ac891e065bc4da4f970c1f7084b2028d61d1426"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone_slab.json"
+hash = "00686dbff2e1523284cd3cee9838c12ae506246b43eed242bfef336dc152a982"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone_stairs.json"
+hash = "a68d60b4cacf65bfae8ef246a8ea3fa2150215aeb695591485b0504bd9979d6f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone_wall.json"
+hash = "0929dea771df8566ad2bdc9e75e1317c6f7ae6c26fe551fe60a228c0d2f496bc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone.json"
+hash = "3131c75165210a199e93530eafa11af2753e8930506056f4581ed4c8da434e4d"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_brick_slab.json"
+hash = "7f8784fe4dbe6447787f8dd02875038dea5e210748f96e996bbc8aa1da99a980"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_brick_stairs.json"
+hash = "ef66f0b1d42bb1b03fbc4147457e742cdceba603bd8c45a70a8d0c67ed258aef"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_brick_wall.json"
+hash = "f637f2c90da6e55dac3551a3cb7b9bee723aec6d061944d7419098b2c4079825"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_bricks.json"
+hash = "528d8f013ff82e4c2828bc0c04aca4c6cdf99ae9912f480503af0bb649dc951d"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_slab.json"
+hash = "581bc7443f2bdb8105f1b734d474696908e79f56688e43c1b3950127dab93a42"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_stairs.json"
+hash = "1544e4da124d03b952206b57c6f0350c2e94b9e1271138c6cc12e6c8bf4ebe7a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tile_slab.json"
+hash = "9f03ec8f33849782a522a8f8126bcf5976d71f7d391b0bbd7daae5a731751ee5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tile_stairs.json"
+hash = "1fc09257be5f5335bb5e88357297273d5835ae8821fe8b1189e68bcc4f5b57bc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tile_wall.json"
+hash = "8f059204143baff6b4ab6c056f78797cec2a7e19e548534e17e44415ef654af5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tiles.json"
+hash = "167bd2711a4e577aef0f0068113396f621cc514c390b57758f06f84bf6db3e05"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_wall.json"
+hash = "b9532e36b60b648107fbbf5151d34bf4ea7d8377282fa109ee6d5e7ad87357b3"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone.json"
+hash = "94c74483509af499068f2f2a6a1da5f9dc54949c96ffb0f508405c84d627910f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone_slab.json"
+hash = "7274146902010fef584823c028cc7bd4632c2e71fb5b7d4b0398b05ef5b8c742"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone_stairs.json"
+hash = "932169c88823b0338679b717c568914ef6489e36257018d92de09a62a99340ee"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone_wall.json"
+hash = "be40ff2c5d9176c792368156410bf449c109ae967083a382f9bd28a4055ae468"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_black_smartphone.json"
 hash = "e389eb047444fb668f2b9eeb06ba9918694f650527ce8c97bd2f2ac5d165f083"
 
