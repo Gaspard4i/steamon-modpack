@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "tag": "minecraft:leaves" },
+    { "item": "minecraft:fire_charge" }
+  ],
+  "result": { "id": "supplementaries:ash", "count": 1 }
+}

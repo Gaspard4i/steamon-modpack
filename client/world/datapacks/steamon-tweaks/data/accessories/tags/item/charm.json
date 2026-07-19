@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "steamon:badge_case",
+    "minecraft:lantern",
+    "minecraft:soul_lantern"
+  ]
+}

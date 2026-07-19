@@ -1,0 +1,94 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:golden_apple"
+  },
+  "transitional_item": {
+    "id": "minecraft:golden_apple"
+  },
+  "results": [
+    {
+      "id": "minecraft:enchanted_golden_apple",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 1,
+      "chance": 0.3
+    },
+    {
+      "id": "minecraft:apple",
+      "count": 1,
+      "chance": 0.22
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "count": 1,
+      "chance": 0.15
+    },
+    {
+      "id": "minecraft:golden_apple",
+      "count": 1,
+      "chance": 0.08
+    }
+  ],
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:golden_apple"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "create_enchantment_industry:experience"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:golden_apple"
+        },
+        {
+          "type": "neoforge:components",
+          "amount": 25,
+          "components": {
+            "create:potion_fluid_bottle_type": "regular",
+            "minecraft:potion_contents": {
+              "potion": "minecraft:fire_resistance"
+            }
+          },
+          "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:golden_apple"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ]
+    }
+  ]
+}

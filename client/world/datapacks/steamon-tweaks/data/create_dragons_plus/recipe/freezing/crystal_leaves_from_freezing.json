@@ -1,0 +1,13 @@
+{
+  "type": "create_dragons_plus:freezing",
+  "ingredients": [
+    {
+      "item": "aether:skyroot_leaves"
+    }
+  ],
+  "results": [
+    {
+      "id": "aether:crystal_leaves"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "deep_aether:clorite"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "deep_aether:poison_fluid"
+    }
+  ],
+  "results": [
+    {
+      "id": "deep_aether:raw_clorite"
+    }
+  ]
+}

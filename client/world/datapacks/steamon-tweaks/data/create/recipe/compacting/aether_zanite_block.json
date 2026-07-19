@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    { "item": "aether:zanite_gemstone" },
+    { "item": "aether:zanite_gemstone" },
+    { "item": "aether:zanite_gemstone" },
+    { "item": "aether:zanite_gemstone" },
+    { "item": "aether:zanite_gemstone" },
+    { "item": "aether:zanite_gemstone" },
+    { "item": "aether:zanite_gemstone" },
+    { "item": "aether:zanite_gemstone" },
+    { "item": "aether:zanite_gemstone" }
+  ],
+  "results": [
+    { "id": "aether:zanite_block" }
+  ]
+}

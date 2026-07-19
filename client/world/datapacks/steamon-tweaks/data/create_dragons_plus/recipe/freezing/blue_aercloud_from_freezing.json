@@ -1,0 +1,13 @@
+{
+  "type": "create_dragons_plus:freezing",
+  "ingredients": [
+    {
+      "item": "aether:cold_aercloud"
+    }
+  ],
+  "results": [
+    {
+      "id": "aether:blue_aercloud"
+    }
+  ]
+}

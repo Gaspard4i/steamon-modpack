@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    { "item": "aether:ambrosium_shard" },
+    { "item": "aether:ambrosium_shard" },
+    { "item": "aether:ambrosium_shard" },
+    { "item": "aether:ambrosium_shard" },
+    { "item": "aether:ambrosium_shard" },
+    { "item": "aether:ambrosium_shard" },
+    { "item": "aether:ambrosium_shard" },
+    { "item": "aether:ambrosium_shard" },
+    { "item": "aether:ambrosium_shard" }
+  ],
+  "results": [
+    { "id": "aether:ambrosium_block" }
+  ]
+}

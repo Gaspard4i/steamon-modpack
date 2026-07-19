@@ -1,0 +1,13 @@
+{
+  "type": "create_dragons_plus:freezing",
+  "ingredients": [
+    {
+      "tag": "aether:freezable_pendants"
+    }
+  ],
+  "results": [
+    {
+      "id": "aether:ice_pendant"
+    }
+  ]
+}

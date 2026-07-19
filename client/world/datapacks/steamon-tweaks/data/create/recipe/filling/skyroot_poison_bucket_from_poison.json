@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "aether:skyroot_remedy_bucket"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 250,
+      "fluid": "deep_aether:poison_fluid"
+    }
+  ],
+  "results": [
+    {
+      "id": "aether:skyroot_poison_bucket"
+    }
+  ]
+}

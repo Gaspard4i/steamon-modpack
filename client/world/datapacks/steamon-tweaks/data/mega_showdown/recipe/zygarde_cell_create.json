@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:slime_ball"
+  },
+  "transitional_item": {
+    "id": "mega_showdown:zygarde_cell"
+  },
+  "results": [
+    {
+      "id": "mega_showdown:zygarde_cell",
+      "count": 1
+    }
+  ],
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:slime_ball"
+        },
+        {
+          "tag": "c:nuggets/netherite"
+        }
+      ],
+      "results": [
+        {
+          "id": "mega_showdown:zygarde_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "mega_showdown:zygarde_cell"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 10,
+          "fluid": "create_enchantment_industry:experience"
+        }
+      ],
+      "results": [
+        {
+          "id": "mega_showdown:zygarde_cell"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "mega_showdown:zygarde_cell"
+        }
+      ],
+      "results": [
+        {
+          "id": "mega_showdown:zygarde_cell"
+        }
+      ]
+    }
+  ]
+}
