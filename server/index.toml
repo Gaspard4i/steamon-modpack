@@ -386,6 +386,11 @@ hash = "0a70ce7ee038b278cbb4ea38d913694f64551dd6c804a2a7e18c591755d168a6"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-myths-and-legends-sidemod.pw.toml"
+hash = "908805e81c181be33244a3594475ebb5d4e9d88fc8912024420ae621d2f51367"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-paleontology.pw.toml"
 hash = "253b37a03350bd94d8ce73ca366b4a5e537868b10f04a3fce9f8b0c2f56ec843"
 metafile = true

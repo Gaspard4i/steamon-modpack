@@ -11,6 +11,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   (new overworld and nether biomes, trees, blocks). Client + server. Uses the
   TerraBlender, Oh The Trees You'll Grow, GeckoLib and CorgiLib libraries
   already in the pack.
+- **Myths and Legends** 1.9.0 (Cobblemon sidemod) — adds key items and new
+  spawning conditions so Legendary and Mythical Pokemon are obtained through
+  special items and location based rituals instead of appearing on their own.
+  Client + server (Cobblemon and Architectury already in the pack).
 
 ### Removed
 - **Harvest with ease** (kept RightClickHarvest, which is more popular and better maintained).
