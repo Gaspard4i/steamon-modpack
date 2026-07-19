@@ -83,13 +83,13 @@
 		#This value can be overridden with a player permission.
 		# Default: 10
 		# Range: > 0
-		maxPlayerClaimForceloads = 10
+		maxPlayerClaimForceloads = 0
 		#The permission that should override the default "maxPlayerClaims" value. Set it to an empty string to never check permissions. The used permission system can be configured with "permissionSystem".
 		maxPlayerClaimsPermission = "xaero.pac_max_claims"
 		#The permission that should override the default "maxPlayerClaimForceloads" value. Set it to an empty string to never check permissions.
 		#The permission override only takes effect after the player logs in at least once after a server (re)launch, so it is recommended to keep all permission-based forceload limits equal to or greater than "maxPlayerClaimForceloads".
 		#The used permission system can be configured with "permissionSystem".
-		maxPlayerClaimForceloadsPermission = "xaero.pac_max_forceloads"
+		maxPlayerClaimForceloadsPermission = ""
 		#The permission that gives non-OP players the ability to make server claims and enable server claim mode. The used permission system can be configured with "permissionSystem".
 		serverClaimPermission = "xaero.pac_server_claims"
 		#The permission that gives non-OP players the ability to enable claim admin mode. The used permission system can be configured with "permissionSystem".
