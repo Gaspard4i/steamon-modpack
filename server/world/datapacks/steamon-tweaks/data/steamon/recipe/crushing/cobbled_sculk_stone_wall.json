@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "deeperdarker:cobbled_sculk_stone_wall"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:experience_nugget"
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}
