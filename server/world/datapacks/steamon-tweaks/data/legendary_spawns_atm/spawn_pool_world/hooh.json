@@ -1,0 +1,51 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [
+    "legendarymonuments"
+  ],
+  "spawns": [
+    {
+      "id": "hooh-1T",
+      "pokemon": "hooh min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.2,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      }
+    },
+    {
+      "id": "hooh-2T",
+      "pokemon": "hooh min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.1,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
+      }
+    }
+  ]
+}

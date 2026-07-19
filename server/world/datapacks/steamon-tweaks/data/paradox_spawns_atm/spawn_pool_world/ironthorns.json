@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ironthorns-1T",
+      "pokemon": "ironthorns min_perfect_ivs=3",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-75",
+      "weight": 0.15,
+      "weightMultipliers": [
+        {
+          "multiplier": 2.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:lightning_rod"
+            ]
+          }
+        }
+      ],
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ]
+      }
+    }
+  ]
+}

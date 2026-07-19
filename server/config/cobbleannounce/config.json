@@ -1,0 +1,106 @@
+{
+  "announce_shiny": true,
+  "announce_legendary": true,
+  "announce_mythical": true,
+  "announce_both": true,
+  "enabled": true,
+  "announce_normal_list": [],
+  "messages": {
+    "shiny": "A shiny Pokemon has spawned at [color=\"green\"][coords][/color]",
+    "legendary": "A legendary Pokemon has spawned at [color=\"green\"][coords][/color]",
+    "both": "A shiny legendary Pokemon has spawned at [color=\"green\"][coords][/color]",
+    "mythical": "A mythical Pokemon has spawned at [color=\"green\"][coords][/color]",
+    "mythic": "A mythical Pokemon has appeared in [color=\"aqua\"][structure][/color] at [color=\"green\"][coords][/color]",
+    "normal": "A Pokemon has spawned at [color=\"green\"][coords][/color]",
+    "replacement": "A wild Pokemon has appeared at [color=\"green\"][coords][/color]"
+  },
+  "sounds": {
+    "shiny": {
+      "enabled": true,
+      "type": "pc",
+      "custom_sound": "minecraft:block.note_block.pling",
+      "volume": 1.0
+    },
+    "legendary": {
+      "enabled": true,
+      "type": "pc",
+      "custom_sound": "minecraft:block.note_block.pling",
+      "volume": 1.0
+    },
+    "mythical": {
+      "enabled": true,
+      "type": "pc",
+      "custom_sound": "minecraft:block.note_block.pling",
+      "volume": 1.0
+    },
+    "both": {
+      "enabled": true,
+      "type": "pc",
+      "custom_sound": "minecraft:block.note_block.pling",
+      "volume": 1.0
+    },
+    "normal": {
+      "enabled": false,
+      "type": "pc",
+      "custom_sound": "minecraft:block.note_block.pling",
+      "volume": 1.0
+    },
+    "mythic": {
+      "enabled": false,
+      "type": "pc",
+      "custom_sound": "minecraft:block.note_block.pling",
+      "volume": 1.0
+    },
+    "replacement": {
+      "enabled": false,
+      "type": "pc",
+      "custom_sound": "minecraft:block.note_block.pling",
+      "volume": 1.0
+    }
+  },
+  "spawnbuckets": {
+    "ultra-rare": {
+      "enabled": false,
+      "message": "An ultra-rare [color=\"purple\"][spawn][/color] has spawned near [color=\"red\"][player][/color] in the [color=\"green\"][biome][/color] biome!",
+      "sound": {
+        "enabled": false,
+        "type": "pc",
+        "custom_sound": "minecraft:block.note_block.pling",
+        "volume": 1.0
+      }
+    },
+    "uncommon": {
+      "enabled": false,
+      "message": "An uncommon [spawn] has spawned near [player] in the [biome] biome!",
+      "sound": {
+        "enabled": false,
+        "type": "pc",
+        "custom_sound": "minecraft:block.note_block.pling",
+        "volume": 1.0
+      }
+    },
+    "common": {
+      "enabled": false,
+      "message": "A common [spawn] has spawned near [player] in the [biome] biome!",
+      "sound": {
+        "enabled": false,
+        "type": "pc",
+        "custom_sound": "minecraft:block.note_block.pling",
+        "volume": 1.0
+      }
+    },
+    "rare": {
+      "enabled": false,
+      "message": "A rare [color=\"blue\"][spawn][/color] has spawned near [color=\"red\"][player][/color] in the [color=\"green\"][biome][/color] biome!",
+      "sound": {
+        "enabled": false,
+        "type": "pc",
+        "custom_sound": "minecraft:block.note_block.pling",
+        "volume": 1.0
+      }
+    }
+  },
+  "_comment_sound_types": "Sound types: 'cry' (Pokemon cry), 'pc' (Cobblemon PC sound), or 'minecraft' (Any Minecraft sound ID).",
+  "_comment_message_tags": "Tags: [spawn], [player], [type], [structure] (MythicSpawns structure name), [biome] (Biome name), [x], [y], [z], [coords], [color=\"COLOR\"]text[/color].",
+  "dev": false
+}
