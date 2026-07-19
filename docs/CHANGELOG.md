@@ -11,6 +11,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **Dark Paintings**.
 - All **Let's Do** mods: Beachparty, Farm & Charm, Meadow, Vinery.
 - **Immersive Lanterns**.
+- **Tectonic** — it forced its terrain generator onto every world preset except
+  vanilla default, which broke superflat worlds (they generated normal terrain).
+  Terralith 2.6.2 still provides custom biomes and terrain.
 
 ## [1.9.0] - 2026-07-17
 
