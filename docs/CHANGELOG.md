@@ -6,6 +6,12 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [2.0.0] - Unreleased (Season 2)
 
+### Added
+- **Oh The Biomes We've Gone** 2.6.0 — a large biome and worldgen expansion
+  (new overworld and nether biomes, trees, blocks). Client + server. Uses the
+  TerraBlender, Oh The Trees You'll Grow, GeckoLib and CorgiLib libraries
+  already in the pack.
+
 ### Removed
 - **Harvest with ease** (kept RightClickHarvest, which is more popular and better maintained).
 - **Dark Paintings**.
