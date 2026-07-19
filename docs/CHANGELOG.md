@@ -4,6 +4,14 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.0] - Unreleased (Season 2)
+
+### Removed
+- **Harvest with ease** (kept RightClickHarvest, which is more popular and better maintained).
+- **Dark Paintings**.
+- All **Let's Do** mods: Beachparty, Farm & Charm, Meadow, Vinery.
+- **Immersive Lanterns**.
+
 ## [1.9.0] - 2026-07-17
 
 ### Added

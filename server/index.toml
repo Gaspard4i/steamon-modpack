@@ -611,11 +611,6 @@ hash = "fae2f67ddb01708bea3dad1981c7aa90862f8d0270fb8dede1a7c7df9963c590"
 metafile = true
 
 [[files]]
-file = "mods/dark-paintings.pw.toml"
-hash = "a40076bcca776fe5fceaa5bdb2d670ca092dd94fee0142602dc5852edd4b7d94"
-metafile = true
-
-[[files]]
 file = "mods/deep-aether.pw.toml"
 hash = "e3211d7d54a7203a183ed3b453be5dd52d27f389dbef26dd7e769f20e1dea81f"
 metafile = true
@@ -711,11 +706,6 @@ hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
 metafile = true
 
 [[files]]
-file = "mods/harvest-with-ease.pw.toml"
-hash = "84965ed63dd7bd7492bce95d81f56eb0e45475319fea33301322942cdf8513c0"
-metafile = true
-
-[[files]]
 file = "mods/im-fast.pw.toml"
 hash = "474d64dba26d80c32a84ccdefc66d06dbf18503c17fe48927040fdf9026c5860"
 metafile = true
@@ -783,26 +773,6 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-beachparty.pw.toml"
-hash = "a0b3b22cbf745278d56cf126ab746f48c1624b2fd2dee9a6198475b70dbf62ff"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-farm-charm.pw.toml"
-hash = "a84c4774a10eb21d2702041807757b7738027a028b15a2371f6046afb34fc71c"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-meadow.pw.toml"
-hash = "a453e16992c0e13779f535ff8309cbebc25b22394d70c5a66eb272305042ebd4"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-vinery.pw.toml"
-hash = "23267a4a0be746fec381f634f05f4dd7ebc8a9f5050ea7c9d98dbde5eacea955"
 metafile = true
 
 [[files]]
