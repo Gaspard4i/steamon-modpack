@@ -15,6 +15,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   spawning conditions so Legendary and Mythical Pokemon are obtained through
   special items and location based rituals instead of appearing on their own.
   Client + server (Cobblemon and Architectury already in the pack).
+- **WorldEdit** 7.3.8 is now on the client too (was server only) — in-game
+  world editing available client side (single player and staff tooling).
+
+### Changed
+- WorldEdit side switched to both (client + server).
 
 ### Removed
 - **Harvest with ease** (kept RightClickHarvest, which is more popular and better maintained).

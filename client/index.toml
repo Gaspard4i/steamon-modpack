@@ -1403,6 +1403,11 @@ hash = "746b5a692997b6b51651e364fb11c546c2aed181e6fcf98ab4c8f709e04509f3"
 metafile = true
 
 [[files]]
+file = "mods/worldedit.pw.toml"
+hash = "de999f6cc4c2f344e324b4f331fa9767844c31463c6e8066fcd67b613338ab8c"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
 hash = "637bc567eb5260d55ce89e6471c31e4369d454607f3d6f40139f7f7bdef90af9"
 metafile = true
