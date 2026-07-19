@@ -18,7 +18,7 @@ hash = "b3a75deed8723b8bf3dbbd59d65bedd21dfa841ef1035d157abfee2b84c077e9"
 
 [[files]]
 file = "config/createcobblestone-common.toml"
-hash = "58cc4fdd2a6a154619b21aa79c2d9222169000812bdbbec1e5837a0892787c59"
+hash = "64ab61c9315bf83909be49fbfde91308b9b61f2011f023760f25ba7c1f06d736"
 
 [[files]]
 file = "config/createnuclear-common.toml"
