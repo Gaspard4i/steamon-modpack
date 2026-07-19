@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "neededInstalledMods": [],
   "neededUninstalledMods": [
     "legendarymonuments"
@@ -15,7 +15,7 @@
       "spawnablePositionType": "submerged",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.25,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_ocean"

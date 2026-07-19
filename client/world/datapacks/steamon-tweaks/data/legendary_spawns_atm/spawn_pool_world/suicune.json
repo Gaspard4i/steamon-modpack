@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "neededInstalledMods": [],
   "neededUninstalledMods": [
     "legendarymonuments"
@@ -16,7 +16,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
       "level": "60",
-      "weight": 0.025,
+      "weight": 0.5,
       "weightMultipliers": [
         {
           "multiplier": 3,

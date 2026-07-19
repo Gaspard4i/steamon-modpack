@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
   "spawns": [
@@ -14,7 +14,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "rare",
       "level": "60",
-      "weight": 0.075,
+      "weight": 1.5,
       "weightMultipliers": [
         {
           "multiplier": 1.5,

@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "neededInstalledMods": [],
   "neededUninstalledMods": [
     "legendarymonuments"
@@ -16,7 +16,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.1,
+      "weight": 2.0,
       "condition": {
         "minSkyLight": 0,
         "maxSkyLight": 7,
@@ -37,7 +37,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.25,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_volcanic"
@@ -54,7 +54,7 @@
       "spawnablePositionType": "surface",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.225,
+      "weight": 4.5,
       "condition": {
         "maxY": 127,
         "biomes": [

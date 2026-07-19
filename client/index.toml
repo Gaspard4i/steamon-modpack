@@ -2230,331 +2230,299 @@ hash = "3b9140a83c68285a264bc36b3185df41cfe17c8cd88aec60d0a64d3e2d9338e3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/arceus.json"
-hash = "6c53542cb6f03c27c67f17c4ca4266e0e4130cef618c8a144c93312216b00a7f"
+hash = "98917dd121a9fa459d4b46957f75b255db818b02cdf4462fb3b4e85bcfa0110b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/articuno.json"
-hash = "33d60bd4147622fd1f71196ac3ae6b0ff54151a9fe270acb20a0563b01da1345"
+hash = "b1d7414f3818b5b2583b14a603a97a50ebf2a585877e8acd547aa95552588d94"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/azelf.json"
-hash = "6569cfb96ed1928c18a01b8afce9210cee693a29d32b2cee22eb9aa2a20bc3b8"
+hash = "24d01b59edcea95051a63c247f87e33cd4c0b6a59f2964104cfead0e90be1480"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/calyrex.json"
-hash = "346c196b5220278339affde2d5597b1191d2729d0942b9e2964889b98a67a9a0"
+hash = "2394e6c6362e77732fb3e5db3a3bff9df1e380677ebe0850a5bdfecd173c358f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/celebi.json"
-hash = "739e936fe4a70e295c585c3833350bbff129ccbb4a2b1bd7299b102050aea586"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/chienpao.json"
-hash = "9effecc6bfb6d0b16140a5c0e36227e2cb73017cdce0bb2a2af2988d0e946d95"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/chiyu.json"
-hash = "b6211783dee7e47ea558447ce9f7bf71ecb7196369cab19f481c0eeba0663479"
+hash = "0e8aa1f9f59492a54039ce733bae8a835cbb22336a508432b9587fcdd774e34c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/cobalion.json"
-hash = "76510eb3d236593734e52cb816cf1b0942c946f1e2cda66e0f04e1e394cd5e08"
+hash = "40d79965bba5a35c4fb37b9123f742f869ecd48587d0fe8b6f19b25449719164"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/cosmog.json"
-hash = "27900aacc24f3a99ac2258bd60bf3657f7360f1fcc3cee24c9dabe7231cb04f8"
+hash = "a58aa4b571ce4044e250a1605e6ac75ffc04f034fdb1720ef9ccc5be892d6124"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/cresselia.json"
-hash = "8e30ea47320b09fd6975702e9c56336edcae6a8ae1c09ba22d019f3214deb7b2"
+hash = "3730ad4aa8d1987627ed43964cf58252fa003ef56eb60c110a3137a72c70dd4a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/darkrai.json"
-hash = "255f9a7b940f8837114e3d5b6ba94827d1f0574324074fc7631772f43004c601"
+hash = "1c3be168c56f60f05d7a92a8198fccfd71b2b208c9b1d2e9253700d6155f10a2"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/deoxys.json"
-hash = "d91ec9dcd01141ae964b9ac64a9597e87737d40e80fce5f730e5d1dc58f4f6ac"
+hash = "ed15285fef432229253cea76189981d5d8261499f76ef0629840659043d76390"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/dialga.json"
-hash = "8eba2cd507f25fad1dcdd4be9792fd3a135136bb5618f80ab7c92ab122d87a3b"
+hash = "144e6dd59f3457a33325d5f26f21c60eab8a7bea118af3513bc940650703ba72"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/diancie.json"
-hash = "4f03d7e8bceaa4f51324f221dafe9e0250c6431d0a3b765a26fe22a994d63986"
+hash = "e19b931764c7a5da82afb5390e4e1b8959d9b89bcf04a6a40eeecce6ab3ab026"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/enamorus.json"
-hash = "6eee8bc45ee0c598b4c48246a79007e38b8ed321d3db021876f51ac2a0d56b50"
+hash = "cf7d649c59c2b62da7642d603b4c2d668e742f305545984abb02ada94d9e4d91"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/entei.json"
-hash = "4deb010993f6307e70b0871a8238b189015f80c7e449f5be959d522123720a3c"
+hash = "fb37de45945b595e2f26f90cd5d46d8a06dec805fc3e7d87f717d10c07d6ea9e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/eternatus.json"
-hash = "098ce55534e160e86785227ad4a86a2fe71a5c1b1e8ea41f7626668e6c0c9e6f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/fezandipiti.json"
-hash = "0998477a12a26d7b2a518d37645fa9a8c8b62285e76bdb9121a809caca2c444b"
+hash = "2b45dd0b7faeb0fccdc24b53171426bb08d028738db70db65f593d1279eee8cb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/giratina.json"
-hash = "ded26c0f1e635df786869b939066c24b3f802a2e6fdc7a9f4024650fd0fc0173"
+hash = "53d5b2925fbecafb106fcd92bb87bcacd867e6567bff4b9ad718f544c3a6b5e9"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/glastrier.json"
-hash = "ec7114a70b82f218e38eaaa5bffda0048c72537e6e46e8b666d6649f2aed095d"
+hash = "92557a9e0eaabd52b83f978196a341196de94c8b82429c98195ca199105d4c4a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/groudon.json"
-hash = "1e0bf019f834780b3da6db51d40dc4239f902bd9f9621e898bf3f3131ecce013"
+hash = "d271c9b2cbb577a504a8fff93e4be3904ebe229cf572863406b99bd1fd6bb740"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/heatran.json"
-hash = "3f4a9e0949d013b7d2685d8f494039e6d6a0b995544a2f8ac923a2796afee25e"
+hash = "2a30c96ddba85848040bca03211cfd5e6e5f54b2633e70f97614ab59e4865cc1"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/hooh.json"
-hash = "a6900778f3ea25a6cb3a6ed4e5615d240b5a55aec37524a552d37e0b4ad3459b"
+hash = "b867b1a0d44d0ea616b1b25337b83aa3d4b50026d57eab1791e3db92b05ade1e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/hoopa.json"
-hash = "ae56baaa23ddf2599a8606bbd675d99d177cda573e39a151246bf1940c86ad17"
+hash = "7b2a1cd455dd87aab8e68e521f168d4f1262ab1f5e65e204b7aee28ae9f3752f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/jirachi.json"
-hash = "ac57e8db6b91dcdf6ee5591cd12d75edc46b4b30b4228b330667c5c024cdc042"
+hash = "2fc4167d2a721fb0d8647d907964b52b01e7db95e413cefb1d266fbaac028a68"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/keldeo.json"
-hash = "9b09cb3d7c2905a1cd2f5e1e4192470950cfb43add4a0f0b23b41284f774f882"
+hash = "7d7742d6901df8eae8756a2205e296f05e487f9b7480a4a3b8a7fc0e10c332d7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/koraidon.json"
-hash = "7b946c1e000ebea1e43984acdca06f50006edf546c7c315f943f456ae662410f"
+hash = "d34b42c20653915bc2add2d497a04a36973ff4b2dc2d0c55f4cb9ce3807c8465"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/kubfu.json"
-hash = "e476fca1c0590c6425470de245adc70ca3a54a43c9aac644303188e7411fa1e0"
+hash = "76fc3a1496afa68bf4fe079e6597605c2ec80bb26ec3e40b3a1c3a191a2a9670"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/kyogre.json"
-hash = "6702a8bc4a478f519437810f425a2d4bd23a71eee6bb46dc19d8ddc6dfe0cb1b"
+hash = "e36a7573b8848868c8b458cb4dcb495dab91675970064f5d86f6d382f9fb9601"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/kyurem.json"
-hash = "358f011d413ff1c77ef301fb0049787182a7507f801ae38f09802aef74328e46"
+hash = "4ae335c6f15875cf8a94f7749a14d3229f1fc78e19ea39cd4e24d1f776175fcb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/landorus.json"
-hash = "4bf9253b7c920ac87dd027adee7e3a806759da5b29c1c80cfa2cfefdb1769192"
+hash = "8328cb433f8b1856563b96c89774bcdf92e4010a7fe95e6f7699cf0ca78915f8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/latias.json"
-hash = "368fe4ae806fc6628325f83782a6bc5d61a310beedb9ec21f245672e3870c2fb"
+hash = "de6f178e697b03bc3f2c52742ceb19ff9fbd2030267e431bfced796d24fdb433"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/latios.json"
-hash = "a13a02a23c909d48fc7ee2a14704ee7b322f540fd547981c5dacd2b8f2d0f2f4"
+hash = "c35364dc9284729d7373d61f404e3892231a31ce347a9c96de806a5ebebbe57f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/lugia.json"
-hash = "adaada0ecc48a9325efee8262bb6a23ff11a3e06f7e2c49876efc5474c121135"
+hash = "eda73fe537fa9e778f9d423bdad94d3213b5ba7fe6f3fecd3e0975295b2d0135"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/magearna.json"
-hash = "ed860d11c634a49ed8f7385bce7f7a3f971ed527bb44273feea1cd3a7dd9b8c4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/manaphy.json"
-hash = "10a8aedbddeba648bb7a4e3f285c7232f7360efb82cfdec7cf3db6d43e905995"
+hash = "ca7ff1cfe8cb6b58fa6b227f2bab9b6f81b53ca2a44a2589eddfc99384434934"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/marshadow.json"
-hash = "ab010e17c816545a73ecd7e01e632c1b4ad099fdf5f17f56b12f625399571fba"
+hash = "94e76a28a81011af2ddb9ce04616d40f886626422a09a5061db528998ea44b3d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/meloetta.json"
-hash = "c7075694551c5e8debadbf7eb2c8a7ddedaa2c9206e33b24c86aa62e4ba3ec17"
+hash = "8d5103f7222915ab614cdc88a2c5a91eb01cad8fd0b69e2e3ff27a6c69aee86b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/meltan.json"
-hash = "6c37f55ade438eb6dfd294432a11ba7b1f0fbcf0e419da1f6fda5178cedcb57c"
+hash = "514d569e3ebe9b13dcc6596c59bed493a47a1717e30212664b695519c045aeab"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/mesprit.json"
-hash = "a187ce91d1ded69f937dd9297dc164ad3a3169246851b734edd8a6f8297b4da2"
+hash = "dffef9bfc3cce32656da9300e60f5c8a98708dd7792c26314d87fa263dd7c259"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/mew.json"
-hash = "5967af484d0b3daa3716eaacb67b7123c3dafe2443cce1e38067003885ac5ff1"
+hash = "d3840170c2b1ed185280ce9ded14d99c3d1fd60ec52f5124e3eb8b6a3d26fd6c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/miraidon.json"
-hash = "5172f88eebc724980bd79364d3fe1b3ec8e4a97599690e6ff838f9b4213a7206"
+hash = "c7b4f08fdebf56afe26ca78526ee4a60a115049451af8e514f13919cd8fb54b5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/moltres.json"
-hash = "88d4a9ca41b6ba8544c6afdcd40000da3a1aaf4db136f84175f554ab1d772cba"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/munkidori.json"
-hash = "80c8a9dd1aba88d5db10511ba02b53cea73198639f8fccb1fdd20306f69f9670"
+hash = "55a70277080a1047499cf047971e8ced42f6d5255804ef85887ea1e64bbbeb56"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/necrozma.json"
-hash = "9b15bf29045a0b866907f56a6bb92df7c0535beeb2077246d3776f7bdd0dc1e8"
+hash = "c98d8e444ec7c003efbf804af13db2b066d352dd1db5e9a11913b12d340d6891"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/ogerpon.json"
-hash = "5c72e06282b3373f29fa1070cd3a0ea8bf1264ccc5868fcc6686487be14c2811"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/okidogi.json"
-hash = "6eb0d3714051d7a7480c6f80c09f885414e993a47ef27cffb83df7d1c876bb70"
+hash = "c7909c0a213231dfd0f4e3130d15078212ea26f4f65efc55de2eee4e8f9f9127"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/palkia.json"
-hash = "38b5d845e8d72c7f81f61d0f0442575ec6408238bebb915b323e48dbef686126"
+hash = "f96a59a7c66e023a99558d151577770d03c711255f3bc12ad3ba134b7e962948"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/pecharunt.json"
-hash = "31f343470103008080f9ae8e6039a0c8c6b3e195e9803eabc1e290e932a35079"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/phione.json"
-hash = "1abe9be345e839abb44bda953567c18b7375294854ae3da57e5ed6c8018b4ecb"
+hash = "f0bf5a42670069663902ccabd8dad2f53d51cbd041dab8ff7081be8bc134c6a2"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/raikou.json"
-hash = "6c9c86b8540d442c605813b34ad3c1db49a1124a23e54e01a10084764ceae743"
+hash = "51f4049d8e930fccb3b1cc143fe18f2aacdb2d04f6cd4dac4fa1758c0c8abd5d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/rayquaza.json"
-hash = "0fab9dac9a5b4387381f678b3cedf838ff39b620ea252b64bbef1414efbf0151"
+hash = "1ae3629d4a9f8b6310f07c50cb49b3c8c84f560778e67a685fc2c3843c793073"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regice.json"
-hash = "89e70b38db570d5f3f64de8b5dbef441b9667f39f28b109975f86fadea3add5a"
+hash = "3b98babf6a2777ef39b8e6e1864131a4b130b5115272fdee6aec7228c75f7792"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regidrago.json"
-hash = "4176142b2d1752b80711a567d34f9fb7047e800f0a2eb11403745d53cf1c5c54"
+hash = "99a2268df527c01374070adf7f13948852f2c8714dbaef52ce8daaccc0e63c74"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regieleki.json"
-hash = "370e992c45806e6a1f0b7c45b889e8e65cfb76394bb80e0212483da0ab81d424"
+hash = "0fd52831c36f299cca791e2326d72b1b559fd40dbe6a2b5f61806402b8949c78"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regigigas.json"
-hash = "b0b21ca91e409066d878acf28fbc511e2406a2d4fc3855ac7aeb965547226f7c"
+hash = "52ba9259927f1b79640ec9fdc627622bed42f7c38d8dfbd3e45ff0086f4c6bb5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regirock.json"
-hash = "aae58373cb581083fec2c0901ed5abd20aa6980fb0043389cbf28d54a1b43b89"
+hash = "82295d1717b7744e4703639170538113e158b27e3164e52167d9932a901dd1a1"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/registeel.json"
-hash = "03023223c66fea2202ee1e990084b308eb7300f47315a13f2f354db07575cb64"
+hash = "2acbfac7bc3d16cd3954b42158508ad4ae36dd337867ada7825d060a490ba38a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/reshiram.json"
-hash = "de91556d58ee9809e889b6f9b3c6b68ed4d452aae71c21d3e18fc6d60e045296"
+hash = "06e1f378c669ea6478a471eec54899d88b1bd1239628522892e6fed73c48ac52"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/shaymin.json"
-hash = "1dc61e27fd691947bf5b441fb2a38d8a8c14a372114cd8714347681664dddf86"
+hash = "39b32140e7fc0ea67a77c739cb7be43f9a283eb4004d40294245f5b836ce0547"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/spectrier.json"
-hash = "68e177c1b15140ca982697f15d3e95521fb25c7ff36ca26f4f8052e1f423f750"
+hash = "40e78bfe240a462788db238a73b26b5a919b24256a326fb4b9d676eba6473d26"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/suicune.json"
-hash = "8eb4f5638e62227f6dc81236a5417399862460e4d24a8e63f23c1774529b09ca"
+hash = "aecba5d5395c667b7797dabfbe3e87bd58cac22909b1400b8f544379dc7718e9"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapubulu.json"
-hash = "04beb21a32554b2274c43b93c1dd2f49e0ba9790a97e9c475d482431b44e136e"
+hash = "57e0e3767958f4cc179cc21e6696fa82c29498730961f65d03a5de11e8659cb5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapufini.json"
-hash = "3fe3fd6f94bc19ed5bfeb11bd6bc15dd647f4ad2e00f3cbb9f88380913e2da55"
+hash = "0cf2649ee026ad0d88e929f2e556495ab4ded2d4cbf555e024cc4c351f3b2bce"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapukoko.json"
-hash = "33a833a4730429ca9554736bac03f51776fbd029d85aceb7bb7c7c9872f7b24c"
+hash = "1a616ab1061788af446348f42c5f1bd29864f93cb92d40537a4f659cd716e850"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapulele.json"
-hash = "6323f4e525adae4cf0eece8ad12236dab418453f35adf48d19f7d5ae79ddcece"
+hash = "ec4581f1841b84cd3cd90ca20e62f522fc63bc111da800b429b3f8032cbb0f17"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/terrakion.json"
-hash = "1d025fda299c7712126be69b16def6d332cc0d44828ae2a8b9103e6a971e97ee"
+hash = "7275f04c8875153861f0f96c46ff66f93072fa84f0881bb483db0d2a6ebb5bfe"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/thundurus.json"
-hash = "ea3753cbf393ac9c443d87169b75e8fda948d5774aef8cffa1956dc1aa18b5ce"
+hash = "53d53733a6b2b7e2f5f16e7ea0b11a1ce3d812a8f6ad45a437c63e68be81579c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tornadus.json"
-hash = "042b2e25469b0e73b28c3c492262dba2c78b1d04e149c0dc2a7b314bb09c1c8f"
+hash = "3083ba47f34383f8af0862e9992266dcf465a1a7590cfc9a94c76b6d69ab62ee"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/uxie.json"
-hash = "1115375bd8c9d7bcb8b546cacbdfde00cb11e56da5f72715960bd8349cf30c0c"
+hash = "09fe84b8d2f3a2ffdef94c2d30632858b3808e8b78097103886380bf2968ce4c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/victini.json"
-hash = "e45eddcbb4d7cc016248b7c98f177da6b64bb8103a8fa7ffaf20ac511cba1c64"
+hash = "3bace5543ebd26a6caae8e1eb7300a1dd30a8213634ee34357d5cf99a5a03907"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/volcanion.json"
-hash = "510fb175f34369ed340dae969d4316909af7e061a5e40f2ba27c1149ff4e41d4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/wochien.json"
-hash = "61ed37cfe9cc0a6f445618500f8b09caea73a0667cf60be25d1d3b6585009a37"
+hash = "9f8e56fb15bb960e1917d589ea23e5c6058e368d130580340cb17a1262201924"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/xerneas.json"
-hash = "cf67d5c0582d75c2ef08c1f578450e2481a1381f30e4db28865dd906c8a844fd"
+hash = "69a7dbd3096427aad786f8e782a5e854ad7eb95a0276a8f13e79983b0860d5b5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/yveltal.json"
-hash = "7e797be9292d06eac5219aaa14595d6851932e14f9d8b4d9a4551ccec9ef3321"
+hash = "b7167652714f85e18fc77ccfe57c72d6a74994a1bcdeeffede02e8b0f217dded"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zacian.json"
-hash = "7922611c2fec88f3f2828b89679957cbb2e8d5d4a06f037a0853b63016a83859"
+hash = "3e9d4b794b283a8a24fd3a74bb766feb701ba974e58071d8bbe6c1c9bb3db064"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zamazenta.json"
-hash = "66c72e23b780e4efdd0b166fd5dccc107fba30a6a8eb3436fd5b020068ea84bb"
+hash = "c52221cbec932a499aa25854b9e626a6be0ada717bad932a91adc63d82e3ec6d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zapdos.json"
-hash = "fe71347978eb0d8d359bad054eab953a40752da6f57e645f7cc919afc8d788e7"
+hash = "7b0142d6f55bc3cf3028c85a2a4508f73979629f61ec595b4ef9d2894b51d9c3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zarude.json"
-hash = "180b4cc59cf42688b09efdaa90c6aeeb6846047073bf73977f4e21e4f1bfa303"
+hash = "0e4d5ae0cf2933532b539e7da234937cb79ed1ab4ec34d55cd999d1cac8f7a96"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zekrom.json"
-hash = "d2e35b5c74a13f404a100830853526b23db85db8751bf9902a4141cd3137913f"
+hash = "7003d6817e9da88db4bad260df30385f13939331959820a09fe760e0e7960877"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zeraora.json"
-hash = "9f85f136a0c96709470a280870bdb79e7f9526bf5114131f448954957411c36d"
+hash = "ed447a855aacd2a08d2e7c7932b62858c31ebfe256990cefe85e6ce8d500064d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zygarde.json"
-hash = "e7334a04476648ddd9f7d1b072fc7ec838884da839741f138b1ed9802524aea2"
+hash = "42182334fec896fe22842b42a0101601b476624d16a4e494964d69bfc9de51af"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mega_showdown/recipe/zygarde_cell_create.json"

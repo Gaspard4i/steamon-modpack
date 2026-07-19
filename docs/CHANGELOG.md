@@ -20,6 +20,12 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ### Changed
 - WorldEdit side switched to both (client + server).
+- Disabled natural spawns for 74 Legendary and Mythical Pokemon that can be
+  obtained through Myths and Legends key items (datapack override, enabled
+  false on the AllTheMons legendary_spawns_atm entries). They are now caught
+  through the special items only. The 8 without a Myths and Legends item
+  (Chien-Pao, Chi-Yu, Wo-Chien, Manaphy, Phione, Munkidori, Okidogi,
+  Fezandipiti) still spawn naturally so they stay obtainable.
 
 ### Removed
 - **Harvest with ease** (kept RightClickHarvest, which is more popular and better maintained).

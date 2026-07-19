@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
   "spawns": [
@@ -13,7 +13,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
       "level": "50-70",
-      "weight": 0.1,
+      "weight": 2.0,
       "condition": {
         "isRaining": false,
         "canSeeSky": true,

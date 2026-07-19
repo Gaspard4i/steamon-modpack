@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
   "spawns": [
@@ -14,7 +14,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
       "level": "10-30",
-      "weight": 0.15,
+      "weight": 3.0,
       "condition": {
         "minSkyLight": 8,
         "maxSkyLight": 15,

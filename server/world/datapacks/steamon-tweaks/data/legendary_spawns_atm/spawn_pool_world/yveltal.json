@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "neededInstalledMods": [],
   "neededUninstalledMods": [],
   "spawns": [
@@ -14,7 +14,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.1,
+      "weight": 2.0,
       "condition": {
         "canSeeSky": true,
         "timeRange": "night",
@@ -34,7 +34,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 0.125,
+      "weight": 2.5,
       "condition": {
         "maxY": 127,
         "biomes": [

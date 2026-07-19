@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "neededInstalledMods": [],
   "neededUninstalledMods": [
     "legendarymonuments"
@@ -15,7 +15,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "rare",
       "level": "11-41",
-      "weight": 0.25,
+      "weight": 5.0,
       "condition": {
         "minSkyLight": 0,
         "maxSkyLight": 7,
@@ -35,7 +35,7 @@
       "spawnablePositionType": "grounded",
       "bucket": "rare",
       "level": "11-41",
-      "weight": 0.25,
+      "weight": 5.0,
       "condition": {
         "minSkyLight": 0,
         "maxSkyLight": 7,
