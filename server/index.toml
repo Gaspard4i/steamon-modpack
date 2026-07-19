@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/cobbleannounce/config.json"
+hash = "bc7c31b39daaeaa6ec430beb9b1c3f94ee783056acfb18e69092b7631bcb9301"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "79eb88fd1d4c784a5c8caf78cc996a60612ac121eb655518652eff13d5de33f1"
 
@@ -13,8 +17,16 @@ file = "config/create-server.toml"
 hash = "b3a75deed8723b8bf3dbbd59d65bedd21dfa841ef1035d157abfee2b84c077e9"
 
 [[files]]
+file = "config/createcobblestone-common.toml"
+hash = "58cc4fdd2a6a154619b21aa79c2d9222169000812bdbbec1e5837a0892787c59"
+
+[[files]]
 file = "config/createnuclear-common.toml"
 hash = "25ee5f0182c77b9710f8f2a63440c42af73dfc3a9ad87bf537a49d90557dc795"
+
+[[files]]
+file = "config/essential.commands.toml"
+hash = "8f119cd642bac32629ae78d4dc72bcd99d26c692b98b3a7df412bbdb5c835f64"
 
 [[files]]
 file = "config/fightorflight.json5"
@@ -53,8 +65,12 @@ file = "config/mega_showdown/config.json"
 hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
+file = "config/mmode.json"
+hash = "a8ddb25bd837937e965acddfa195a0803698353fbbaa485262fc2ac7a412f0b2"
+
+[[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "236894d4eeb943d37633dff03e907b3f33c90bd64ee1acb5a3c7c814a9f9976b"
+hash = "dcdd4ebb514906722ab36a9e34ee434f40e7ee610d887f5e666bdb45bdaa0a1b"
 
 [[files]]
 file = "config/rctmod-server.toml"
@@ -195,6 +211,10 @@ hash = "3d10420414fc82871c355988cabd7577df6bf7efd5f4e6f4393ee723d2c6471b"
 [[files]]
 file = "kubejs/server_scripts/steamon_badge_equip.js"
 hash = "ab6224c2150f5fce0d9686724f3f7562513485f29f2ce95ef617d4539ad4a827"
+
+[[files]]
+file = "kubejs/server_scripts/steamon_compensation.js"
+hash = "870695ca55945e34a5c04bf4757b393a429b31479ae40902571e86b1eccda281"
 
 [[files]]
 file = "kubejs/startup_scripts/steamon_badges.js"
