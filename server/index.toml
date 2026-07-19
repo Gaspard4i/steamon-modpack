@@ -1780,28 +1780,8 @@ file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/bloom
 hash = "1c7d8d0c9d238008f5ae7e4dd4165602265b2b3a85e0177c0d1f223b8eb1b61e"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/chiseled_gloomslate.json"
-hash = "22f37a2add78e12065d5c0b23e49fe46c16f0b6657105ae27408e48900449400"
-
-[[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/chiseled_sculk_stone.json"
 hash = "3a8bd4a5446b1585cb08cf5837a2ecc0a233ced680a57630ff0d9d73ca1d2596"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_gloomslate.json"
-hash = "fc1873c7dbd0aa093067588bf6379b6fb1b0ae79295becacbab2133e3d73babb"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_gloomslate_slab.json"
-hash = "5f2ca324a83fc552425c8a7b3a9161757fd73f24104e61aacae83d5efde6e614"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_gloomslate_stairs.json"
-hash = "4076a5f3650778223c0d9fe953c0a1f01bb0a115ab21f8332fa82072d51cef7d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_gloomslate_wall.json"
-hash = "3fd11d59fa91f1180c0dac64d8f6f58e27327a85703c221b4598d0eeeb16bcf0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_sculk_stone.json"
@@ -1820,22 +1800,6 @@ file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbl
 hash = "579640313b313af9b8f776b4961df1fdd6cd3868683699d37bf316d2b7ddcf5c"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_gloomslate.json"
-hash = "77f3a055d3c23a5dfc0f50d3b110de0997054f6aa587ac389ece2f6f2ff075e0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_gloomslate_slab.json"
-hash = "959d8cf672474ef8565b0038cb52ea5cffd09ffcc2b8422aa2049afff2f1e582"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_gloomslate_stairs.json"
-hash = "583e283f58ea9bf22cbdd192f4e433f5b89d56e9eeedc8e8d60190f2138ec4b7"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_gloomslate_wall.json"
-hash = "5002d601f6c07aed45e6d978b4d47bf474c871d3b005e613248e71841f89dc38"
-
-[[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone.json"
 hash = "6256de677f86cd6c1ce8aab078d5707dcd7608e20c1aad38e2b11e63397900f7"
 
@@ -1850,74 +1814,6 @@ hash = "66b38b804b882aec9ecb0ae92b2b42baf47554f194e9b5d7ec7cf4072394630d"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone_wall.json"
 hash = "398a93d33fcc78f0ca327d07bedbed5586a3c241b19402dd33d11fdb6df9ffc0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate.json"
-hash = "3b30f5adc8cacad4eac56358c953beddcc2e0aad15800ffaeb0de9384655880a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_brick_fence.json"
-hash = "4f9fd6268f47c6e12d521a0180b8f86c188136c0ad58fefe249ca1b4f2d181d4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_brick_slab.json"
-hash = "a686a3795d0107bdde9d5f5ca3dd7e8d69a5ad5a0faa9bdf600dfad196c52f27"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_brick_stairs.json"
-hash = "2060b739ca342137c7c5e59ad64f869b9f64018b90105957a7ce1bcbf500bbf1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_brick_wall.json"
-hash = "299c413b5f367270577015905181d9b2674b31523b78bfa214d33e4cd371ba05"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_bricks.json"
-hash = "8cc98987a77e73b983a396785fb82ba08ca755e8a30d7337481ffa8cfc8fd107"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_slab.json"
-hash = "9112dbdcb7a7e94578de39ca03b082f4ee351987d32c840fb4da728124ef4280"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_stairs.json"
-hash = "3247b6e4c883012463c239a49184d1cb9339fcd26e856acb44a9e0ab6bb5b869"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_tile_slab.json"
-hash = "aacae467f3d3d420fd324a0013776108f77ac03311ae7a4df16eef5d0db9f8c1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_tile_stairs.json"
-hash = "0ed5eba34c950afc78e7408760fc87abd2055224ff1255678550093051276c9b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_tile_wall.json"
-hash = "e3ac34a1c42b7504534957044525532336e6dfb1fe820463d8df3d103d977be3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_tiles.json"
-hash = "1fa809b2e89f20a30cdb9f20cb7adb530dab91a7ab4a1b5526e5f4aa1e1e1fb5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/gloomslate_wall.json"
-hash = "960ffff2c57c08c118e26c1a715660d318288ac2cf542345c98d0d4a844e7cc6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_gloomslate.json"
-hash = "031f0a97de56f656fa2b8d1bf49c58cd896a18c1472ba97687bd46b77b7d516c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_gloomslate_slab.json"
-hash = "0c1edaa96b358bc99d6351df29e5f9a955575c4208634f88db02c9a9fe897a5d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_gloomslate_stairs.json"
-hash = "069c05afd3976cfd5729b8740b747ad4b8ca0885b0caa8a5d416a2f5f2452884"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_gloomslate_wall.json"
-hash = "163fa64c5324951e0f228e1052b3171405c5f4968b2a7bcc1aed36ae2b933afb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_sculk_stone.json"
@@ -1982,22 +1878,6 @@ hash = "6dde4589602895a395437288ef385755453a43bfe824d5265121ed0b0f1cdee1"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_wall.json"
 hash = "a53df930d3971921c24df2bfbf76f9c112f7bf1f7ca6210557ec70ba64900202"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_gloomslate.json"
-hash = "7e8ee3c309a5535585da4a53d85597d7dae461be44bf951e75e575a65f51dd2c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_gloomslate_slab.json"
-hash = "5cbbb466345c6f0adc456474eeb7093a20190580f3647877f641f45cb6856f4a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_gloomslate_stairs.json"
-hash = "c84425c534895c54a2fc98511512bdc7670967e42380d677c357163dbd46210d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_gloomslate_wall.json"
-hash = "5d7b6ea9f0d4e247c152878ecdb7d44e88b31f9e74c84755bb94778383ad32ac"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone.json"
