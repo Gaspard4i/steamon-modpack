@@ -1,3 +1,6 @@
 {
-  "block": "aether:holystone"
+  "block": "aether:holystone",
+  "stress": 72,
+  "outputPerSecondPerRpm": 0.004,
+  "storage": 64
 }

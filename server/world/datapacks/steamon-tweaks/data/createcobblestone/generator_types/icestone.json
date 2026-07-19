@@ -1,3 +1,6 @@
 {
-  "block": "aether:icestone"
+  "block": "aether:icestone",
+  "stress": 72,
+  "outputPerSecondPerRpm": 0.004,
+  "storage": 64
 }

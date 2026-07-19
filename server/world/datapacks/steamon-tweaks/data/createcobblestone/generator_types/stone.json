@@ -1,5 +1,5 @@
 {
-  "block": "create:asurine",
+  "block": "minecraft:stone",
   "stress": 72,
   "outputPerSecondPerRpm": 0.004,
   "storage": 64

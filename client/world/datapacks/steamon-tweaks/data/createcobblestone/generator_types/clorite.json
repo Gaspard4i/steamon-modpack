@@ -1,3 +1,6 @@
 {
-  "block": "deep_aether:clorite"
+  "block": "deep_aether:clorite",
+  "stress": 72,
+  "outputPerSecondPerRpm": 0.004,
+  "storage": 64
 }

@@ -1,3 +1,6 @@
 {
-  "block": "minecraft:tuff"
+  "block": "minecraft:tuff",
+  "stress": 72,
+  "outputPerSecondPerRpm": 0.004,
+  "storage": 64
 }
