@@ -266,6 +266,11 @@ hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
 
 [[files]]
+file = "mods/armor-of-the-ages.pw.toml"
+hash = "2a9dc78e509807224bd0be9a044b099ed59ec849286e5834e34cb8c655e5b83d"
+metafile = true
+
+[[files]]
 file = "mods/artifacts.pw.toml"
 hash = "f0430317c2b486e9266ab8977291cd07bd2436a320666c7262ad8e6357ddab76"
 metafile = true
@@ -508,6 +513,11 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "0bbae13b361fdd2f30919f8f1bdd72f526b12ecf212f81d56fc372c533d64e17"
+metafile = true
+
+[[files]]
+file = "mods/cosmeticarmours.pw.toml"
+hash = "45b709bb128383a81b60741d0e06931fec774a6a6fc4b0a72472dd7c64ec0bc7"
 metafile = true
 
 [[files]]
@@ -976,6 +986,11 @@ hash = "089eb79244d52a34771cf2ee53ecbd99b553569b26623b464679b67a7653f071"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
+metafile = true
+
+[[files]]
 file = "mods/pet-your-cobblemon.pw.toml"
 hash = "d70c3774cf1b087f19cf57a7489ec80471d47ae1d57a9dc231cb34f15d1b5677"
 metafile = true
@@ -1228,6 +1243,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
 hash = "637bc567eb5260d55ce89e6471c31e4369d454607f3d6f40139f7f7bdef90af9"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
 
 [[files]]

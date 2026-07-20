@@ -52,6 +52,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   party like the Exp. Share. Client + server.
 - **CC: Tweaked** 1.120.0 — ComputerCraft: programmable computers, turtles and
   peripherals with a Lua API. Client + server.
+- **Armor of the Ages** 1.5.10 — animated armor sets themed after various
+  cultures. Client + server.
+- **CosmeticArmours** 1.5.3.1 — cosmetic armor slots to change your look
+  without losing stats. Client + server.
 
 ### Changed
 - WorldEdit side switched to both (client + server).
