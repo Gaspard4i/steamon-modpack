@@ -91,6 +91,18 @@ jobs:
           sed -i "s/^version = \".*\"/version = \"$VERSION\"/" pack.toml
           packwiz refresh
 
+          # --- Inject FTB quest mods (CurseForge-only, not redistributable) ---
+          # These never live in the repo (would be embedded illegally in the
+          # Modrinth .mrpack). Added here as manifest references (metadata:
+          # curseforge), pinned to 2101.1.18 (Cobblemon Quests 1.2.0 breaks on
+          # 2101.1.19; Library matched to the same train).
+          packwiz curseforge add --addon-id 404465 --file-id 6807431 -y   # FTB Library 2101.1.18
+          packwiz curseforge add --addon-id 289412 --file-id 7213963 -y   # FTB Quests  2101.1.18
+          # FTBChecker only exists to nag Modrinth users to install FTB; the CF
+          # build ships FTB directly, so drop it here.
+          packwiz remove ftbchecker || true
+          packwiz refresh
+
           # --- Pass 1: download every mod jar so packwiz can fingerprint them ---
           # packwiz curseforge detect hashes local jars and matches CF files by
           # fingerprint. We need the jars on disk first; an export populates them.

@@ -61,6 +61,14 @@ jobs:
           sed -i "s/^version = \".*\"/version = \"$VERSION\"/" pack.toml
           packwiz refresh
 
+          # --- Inject FTB quest mods (CurseForge-only, not redistributable) ---
+          # Same as cf-resolve.yml: manifest references only, never in the repo,
+          # pinned to 2101.1.18 (Cobblemon Quests 1.2.0 requires it).
+          packwiz curseforge add --addon-id 404465 --file-id 6807431 -y   # FTB Library 2101.1.18
+          packwiz curseforge add --addon-id 289412 --file-id 7213963 -y   # FTB Quests  2101.1.18
+          packwiz remove ftbchecker || true
+          packwiz refresh
+
           # Pass 1: initial export so packwiz can fingerprint local jars.
           packwiz curseforge export -y >/dev/null 2>&1 || true
           ZIP="$(ls *.zip 2>/dev/null | grep -v 'Server' | head -1 || true)"
