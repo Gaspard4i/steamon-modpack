@@ -587,6 +587,11 @@ hash = "ce7fff68657aec4fd6542fcd59e91de18864ad12b7721391cbe8b76619aef533"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-tim-core.pw.toml"
+hash = "35b95dd119a88d590788dea202bcc7ae6bc856c5091b032fe434eddcee719de1"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-unchained.pw.toml"
 hash = "266a6c2186b0cfeb68e71db89a1b1c813168693102376e407f61b95b9aef320a"
 metafile = true

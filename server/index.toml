@@ -442,7 +442,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "7037595acf8de74a22f043f5a5894ced2b876ae26b2f148c8b7008de248c5151"
+hash = "35b95dd119a88d590788dea202bcc7ae6bc856c5091b032fe434eddcee719de1"
 metafile = true
 
 [[files]]
