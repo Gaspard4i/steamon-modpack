@@ -185,6 +185,10 @@ file = "config/fightorflight_visual_effect.json5"
 hash = "9d517b6ccdb67af77d8ad79b0463d27311f169e7cda7e44dee071f36d8b1e148"
 
 [[files]]
+file = "config/ftbchecker.toml"
+hash = "a00a84679641624a018bd8d83a96a939d2e730d31a1803b291c431cd091274e1"
+
+[[files]]
 file = "config/gravestone-server.toml"
 hash = "427bdf6725b448f596e78da5108e5ae06777e4b7a24732f2e1b63621d62b1322"
 
@@ -553,6 +557,11 @@ hash = "6dc0747f249a105ef38d1a75a74736ec276bbf791a5bafd87a47a93a23b25b43"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-quests.pw.toml"
+hash = "101c2bab0ec74d4265cdb1fd9c2d2c3987773be3ecbb4bb7b759db47df8412ad"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-release-rewards.pw.toml"
 hash = "05142dd47018bfba35cb2345c85e1cbc442ed197145e5124e20ad6ba4d9fe354"
 metafile = true
@@ -905,6 +914,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/ftbchecker.pw.toml"
+hash = "ece75f8805da9873d99e2ee12686452c983cffe7ad53d5c93077a1b2af995af5"
 metafile = true
 
 [[files]]
