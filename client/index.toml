@@ -488,6 +488,11 @@ hash = "6beb1d27bf94f370291a868c5c5470eb6aaab5f9990ce5d66f3eba0ea4a3fec8"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-armory.pw.toml"
+hash = "fdce09b1bca6a0842f53e5b7ccfc98c00e77b00a5baae6a9056aab7624c4eb6c"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
 hash = "6507c6d3cf3218f90d7753f8e3d8233a540f63cb381a00024f1d0e79bdc16531"
 metafile = true
@@ -520,6 +525,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-integrations.pw.toml"
 hash = "649dd79300d6f9d663aa6aa3c5632b93628b4f221662816c37f7d7acc8024da9"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-journey-mounts.pw.toml"
+hash = "6f434aa75689237a62052e70721a317f2dae34bc52be92ee1e3eab84bf5cce8a"
 metafile = true
 
 [[files]]
@@ -568,11 +578,6 @@ hash = "ce7fff68657aec4fd6542fcd59e91de18864ad12b7721391cbe8b76619aef533"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-tim-core.pw.toml"
-hash = "10dd1726e2a62d3f47012c34ca273ecae0f49ffae09eaba380604c4f8f503074"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-unchained.pw.toml"
 hash = "266a6c2186b0cfeb68e71db89a1b1c813168693102376e407f61b95b9aef320a"
 metafile = true
@@ -580,6 +585,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "748f9d8851fd34947a3451579aed7f1ec026e4de62ae28227e5d226cc386f178"
+metafile = true
+
+[[files]]
+file = "mods/cobblemonraiddens.pw.toml"
+hash = "c1e6d1661d7a1bf175cd1b8d39f4d49cdc7d47f7feebc60932a1f954c17bfd99"
 metafile = true
 
 [[files]]
@@ -675,6 +685,11 @@ metafile = true
 [[files]]
 file = "mods/create-deco.pw.toml"
 hash = "619728b54bf49fb690b8f808651f9e0573500d76601c00101751d57dd25207a4"
+metafile = true
+
+[[files]]
+file = "mods/create-design-n-decor.pw.toml"
+hash = "e05bc0c3ee97da0dfcf9dabd3c3eaee0e90819091ead3f500ddc3b1caf77fe54"
 metafile = true
 
 [[files]]
@@ -1348,6 +1363,11 @@ hash = "055283aa7790b335df36917fd72eb9f35f4d5cbe3a1e66d53efba4fe79ec1266"
 metafile = true
 
 [[files]]
+file = "mods/tomtarus-cobblemon-and-farmers-delight-tweaks.pw.toml"
+hash = "0c96a6f27c4a84d0d504579decee67c34411e2d61e15dbd856c07d269d69dd9a"
+metafile = true
+
+[[files]]
 file = "mods/towns-and-towers.pw.toml"
 hash = "5518dd2f6a5d88e4affb9df628604737893025206d7149579e4c24f909b130a3"
 metafile = true
@@ -1445,6 +1465,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "060d90b7826af030190270d2a4ef2029b6de5fcaeee6b72b4a683472d54d1648"
+metafile = true
+
+[[files]]
+file = "mods/yungs-cave-biomes.pw.toml"
+hash = "5a334201feff0fb2f76d486399f47d0ce5b5818c284fea895706c92bb2119470"
 metafile = true
 
 [[files]]

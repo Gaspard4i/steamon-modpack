@@ -17,6 +17,22 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   Client + server (Cobblemon and Architectury already in the pack).
 - **WorldEdit** 7.3.8 is now on the client too (was server only) — in-game
   world editing available client side (single player and staff tooling).
+- **Tomtaru's Cobblemon and Farmer's Delight Tweaks** 2.0.3 — integration tweaks
+  between Cobblemon and Farmer's Delight. Client + server.
+- **Cobblemon Raid Dens** 0.11.3 — raid dens where players fight and catch
+  Pokemon in group encounters. Client + server.
+- **Cobblemon Journey Mounts** 1.7.2 — ride Pokemon as mounts to travel.
+  Client + server.
+- **Create: Design n' Decor** 2.2b — decorative blocks and building parts for
+  Create. Client + server.
+- **Cobblemon: Armory** 1.5.4 — craftable armor and weapons themed after
+  Pokemon. Client + server.
+- **Cobblemon Drop Loot Tables** 1.9.0 (+ Cobblemon Tim Core) — per Pokemon
+  custom drop tables (server side, drops configured via datapack).
+- **MVS - Moog's Voyager Structures** 5.0.14 (+ Moog's Structure Lib) — extra
+  overworld structures to explore. Server side.
+- **YUNG's Cave Biomes** 3.1.1 — new cave biomes and underground variety.
+  Client + server (uses YUNG's API already in the pack).
 
 ### Changed
 - WorldEdit side switched to both (client + server).
