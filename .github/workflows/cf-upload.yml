@@ -63,9 +63,10 @@ jobs:
 
           # --- Inject FTB quest mods (CurseForge-only, not redistributable) ---
           # Same as cf-resolve.yml: manifest references only, never in the repo,
-          # pinned to 2101.1.18 (Cobblemon Quests 1.2.0 requires it).
-          packwiz curseforge add --addon-id 404465 --file-id 6807431 -y   # FTB Library 2101.1.18
-          packwiz curseforge add --addon-id 289412 --file-id 7213963 -y   # FTB Quests  2101.1.18
+          # matched 2101.1.x train (Quests needs Library>=2101.1.31, Teams>=2101.1.9).
+          packwiz curseforge add --addon-id 404465 --file-id 8438216 -y   # FTB Library 2101.1.33
+          packwiz curseforge add --addon-id 404468 --file-id 7878281 -y   # FTB Teams   2101.1.10
+          packwiz curseforge add --addon-id 289412 --file-id 8253474 -y   # FTB Quests  2101.1.27
           packwiz remove ftbchecker || true
           packwiz refresh
 

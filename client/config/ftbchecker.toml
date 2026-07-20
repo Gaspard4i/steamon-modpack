@@ -7,7 +7,7 @@
 chunks = false
 base = true
 quests = true
-teams = false
+teams = true
 ultimine = false
 backups = false
 
