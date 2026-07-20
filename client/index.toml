@@ -186,7 +186,7 @@ hash = "9d517b6ccdb67af77d8ad79b0463d27311f169e7cda7e44dee071f36d8b1e148"
 
 [[files]]
 file = "config/ftbchecker.toml"
-hash = "a00a84679641624a018bd8d83a96a939d2e730d31a1803b291c431cd091274e1"
+hash = "e56e3de8b454ac93b0eb5db66fa1b1e6700ae1dc41a3e3473c8a933626fef1a8"
 
 [[files]]
 file = "config/gravestone-server.toml"
@@ -457,6 +457,11 @@ hash = "c0b5b2814090c17687e802209b9199476fca881d250ef0e7908671ef30f4ea78"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "14f862ceab11545e0a446df8c91c95ae7434ca4975db1357ad2001b6ec321e45"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "3c58cdbfe61c7ecec7068fd066b4c375457631e370a64c032c9f8a8666d4f27b"
 metafile = true
@@ -588,7 +593,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "35b95dd119a88d590788dea202bcc7ae6bc856c5091b032fe434eddcee719de1"
+hash = "4211dd9eed65d9599cb1df61f5db373772ed090aa837a17f2fb7dc9c46a8aa2b"
 metafile = true
 
 [[files]]
