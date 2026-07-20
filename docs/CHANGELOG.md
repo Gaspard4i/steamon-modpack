@@ -79,7 +79,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   Exposure mod kept).
 - **Tectonic** — it forced its terrain generator onto every world preset except
   vanilla default, which broke superflat worlds (they generated normal terrain).
-  Terralith 2.6.2 still provides custom biomes and terrain.
+- **Terralith** — it conflicts with Oh The Biomes We've Gone over biome feature
+  ordering ("Feature order cycle found"), which crashed world generation. BWG is
+  kept as the overworld biome overhaul; Terralith removed to fix the cycle.
 
 ## [1.9.0] - 2026-07-17
 
