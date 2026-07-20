@@ -73,6 +73,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **Immersive Lanterns**.
 - **Cobblemon Effectiveness** — redundant with Cobblemon Move Inspector, which
   already shows type effectiveness plus move power, accuracy and description.
+- **Only Hammers And Excavators** — area mining gadget, overlaps Create tooling.
+- **Durability Tooltip** — redundant with Jade, which already shows durability.
+- **Exposure: Polaroid** — wall decor overlap with Immersive Paintings (base
+  Exposure mod kept).
 - **Tectonic** — it forced its terrain generator onto every world preset except
   vanilla default, which broke superflat worlds (they generated normal terrain).
   Terralith 2.6.2 still provides custom biomes and terrain.

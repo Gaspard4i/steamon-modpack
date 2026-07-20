@@ -867,11 +867,6 @@ hash = "7661004af88b9684ef0f4dd768b61687d4dc1ce2786f772caedf352236a9dca8"
 metafile = true
 
 [[files]]
-file = "mods/durability-tooltip.pw.toml"
-hash = "3a2522e2691c10cc7a992b11f6f6ac00ac5a2f0edecb5618790f9890d2c1ac0d"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "5d441990462eb4fca864636bb4a422439d8328b29a0c752bf54f62782498d689"
 metafile = true
@@ -909,11 +904,6 @@ metafile = true
 [[files]]
 file = "mods/explorify.pw.toml"
 hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
-metafile = true
-
-[[files]]
-file = "mods/exposure-polaroid.pw.toml"
-hash = "b40cc00f088d863533439e8c16b6b9faa01b5b25ccd6fef7ff255fc3aafbc3a9"
 metafile = true
 
 [[files]]
@@ -1154,11 +1144,6 @@ metafile = true
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
 hash = "79a1cc40f0cec6f9c6c4e0d3874c428d5f4733340f859454964055d6a1ffbeb6"
-metafile = true
-
-[[files]]
-file = "mods/only-hammers-and-excavators.pw.toml"
-hash = "f2b7a9fc939bf99d26008ef2299888b47c455d12179c8ecafaafcd5d89d14bb0"
 metafile = true
 
 [[files]]

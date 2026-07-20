@@ -731,11 +731,6 @@ hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
 metafile = true
 
 [[files]]
-file = "mods/exposure-polaroid.pw.toml"
-hash = "b40cc00f088d863533439e8c16b6b9faa01b5b25ccd6fef7ff255fc3aafbc3a9"
-metafile = true
-
-[[files]]
 file = "mods/exposure.pw.toml"
 hash = "28c29922378fa19f4edf1d16fffb48287a87be159a3378647073bbdebd2a2196"
 metafile = true
@@ -953,11 +948,6 @@ metafile = true
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
 hash = "1e62e195edc54282b6d6c14d70df92a2153f9b495870272f3fcd5de098a123b0"
-metafile = true
-
-[[files]]
-file = "mods/only-hammers-and-excavators.pw.toml"
-hash = "f2b7a9fc939bf99d26008ef2299888b47c455d12179c8ecafaafcd5d89d14bb0"
 metafile = true
 
 [[files]]
