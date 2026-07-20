@@ -1,0 +1,15 @@
+# Steamon - checks for FTB Library + FTB Quests (CurseForge only, not
+# redistributable). On the Modrinth build these mods are not shipped, so this
+# screen lists them with their CurseForge download links at startup and asks
+# the player to install them manually. On the CurseForge build both are already
+# present, so the screen never triggers (FTBChecker is removed from the CF
+# build anyway).
+chunks = false
+base = true
+quests = true
+teams = false
+ultimine = false
+backups = false
+
+[customMods]
+mods = []
