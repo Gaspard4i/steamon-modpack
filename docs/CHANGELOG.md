@@ -33,6 +33,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   overworld structures to explore. Server side.
 - **YUNG's Cave Biomes** 3.1.1 — new cave biomes and underground variety.
   Client + server (uses YUNG's API already in the pack).
+- **Catch Indicator** 1.7.0 — visual catch/seen/shiny indicator on Pokemon
+  nametags. Client only.
 
 ### Changed
 - WorldEdit side switched to both (client + server).
