@@ -43,9 +43,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   - **Modrinth build**: ships **FTBChecker** 1.3.0 (client) which shows a
     startup screen listing FTB Library and FTB Quests with their CurseForge
     download links, asking the player to install them manually.
-- **Cobblemon Quests** 1.2.0 (FTB Quests addon) — Cobblemon quest tasks and
-  rewards (catch, defeat, level, evolve). Client + server. Inert until FTB
-  Quests is installed.
+- **Cobblemon Quests Reloaded** 1.3.5 (FTB Quests addon) — Cobblemon quest
+  tasks and rewards (catch, defeat, KO, level, evolve, XP) plus a **Defeat NPC
+  Trainers** task compatible with Radical Cobblemon Trainers (RCT), so quests
+  can target trainer battles. Client + server. Inert until FTB Quests is
+  installed. Replaces the base Cobblemon Quests (same mod id, drop-in fork).
 - **Cobblemon - Exp. All** 0.0.1 — shares battle experience across your whole
   party like the Exp. Share. Client + server.
 
