@@ -46,6 +46,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **Cobblemon Quests** 1.2.0 (FTB Quests addon) — Cobblemon quest tasks and
   rewards (catch, defeat, level, evolve). Client + server. Inert until FTB
   Quests is installed.
+- **Cobblemon - Exp. All** 0.0.1 — shares battle experience across your whole
+  party like the Exp. Share. Client + server.
 
 ### Changed
 - WorldEdit side switched to both (client + server).

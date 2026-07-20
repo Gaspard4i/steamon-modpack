@@ -1,0 +1,13 @@
+name = "Cobblemon - Exp. All"
+filename = "cobblemonexpall-neoforge-0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CjhzwixS/versions/ljxTnuYX/cobblemonexpall-neoforge-0.0.1.jar"
+hash-format = "sha512"
+hash = "11ea1ed465f213060f2d2e35a0fdda24e9c1b3902fc6a44f3468e97cdc6d6be373882765c9eaa1897ab0aa71dc76731e4a2f60cb848a00862f7a3cbb61e683f8"
+
+[update]
+[update.modrinth]
+mod-id = "CjhzwixS"
+version = "ljxTnuYX"
