@@ -96,9 +96,10 @@ jobs:
           # Modrinth .mrpack). Added here as manifest references (metadata:
           # curseforge), a matched 2101.1.x train (Quests needs Library>=2101.1.31
           # and Teams>=2101.1.9; Cobblemon Quests Reloaded needs ftbquests>=2101.0.0).
-          packwiz curseforge add --addon-id 404465 --file-id 8438216 -y   # FTB Library 2101.1.33
-          packwiz curseforge add --addon-id 404468 --file-id 7878281 -y   # FTB Teams   2101.1.10
-          packwiz curseforge add --addon-id 289412 --file-id 8253474 -y   # FTB Quests  2101.1.27
+          packwiz curseforge add --addon-id 404465 --file-id 8438216 -y   # FTB Library    2101.1.33
+          packwiz curseforge add --addon-id 404468 --file-id 7878281 -y   # FTB Teams      2101.1.10
+          packwiz curseforge add --addon-id 410811 --file-id 8442866 -y   # FTB Essentials 2101.1.10
+          packwiz curseforge add --addon-id 289412 --file-id 8253474 -y   # FTB Quests     2101.1.27
           # FTBChecker only exists to nag Modrinth users to install FTB; the CF
           # build ships FTB directly, so drop it here.
           packwiz remove ftbchecker || true
