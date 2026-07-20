@@ -35,6 +35,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   Client + server (uses YUNG's API already in the pack).
 - **Catch Indicator** 1.7.0 — visual catch/seen/shiny indicator on Pokemon
   nametags. Client only.
+- **FTB Quests questing system** — the pack now ships a quest line through FTB
+  Quests. FTB Library and FTB Quests are CurseForge only and cannot be
+  redistributed in a Modrinth .mrpack, so the two builds differ:
+  - **CurseForge build**: FTB Library + FTB Quests 2101.1.18 are installed
+    automatically alongside Cobblemon Quests.
+  - **Modrinth build**: ships **FTBChecker** 1.3.0 (client) which shows a
+    startup screen listing FTB Library and FTB Quests with their CurseForge
+    download links, asking the player to install them manually.
+- **Cobblemon Quests** 1.2.0 (FTB Quests addon) — Cobblemon quest tasks and
+  rewards (catch, defeat, level, evolve). Client + server. Inert until FTB
+  Quests is installed.
 
 ### Changed
 - WorldEdit side switched to both (client + server).
