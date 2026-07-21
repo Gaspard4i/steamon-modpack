@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/almostunified/unify.json"
-hash = "b161a6d60bdfcb2d007d6db14cce507eab7a6be63858de5fbd311d8d2cf33ba2"
+hash = "aa1ea7adc7a233452ad8239bb83facedbff63adf7873091d55e886991b7d5352"
 
 [[files]]
 file = "config/c2me.toml"

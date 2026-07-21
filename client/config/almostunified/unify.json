@@ -6,5 +6,32 @@
     "createdeco",
     "createcasing",
     "createnuclear"
+  ],
+  "stoneStrata": [
+    "stone",
+    "deepslate"
+  ],
+  "tags": [
+    "c:ingots/{material}",
+    "c:nuggets/{material}",
+    "c:plates/{material}",
+    "c:sheets/{material}",
+    "c:gears/{material}",
+    "c:rods/{material}",
+    "c:wires/{material}",
+    "c:dusts/{material}",
+    "c:raw_materials/{material}",
+    "c:storage_blocks/{material}"
+  ],
+  "materials": [
+    "andesite_alloy",
+    "zinc",
+    "brass",
+    "copper",
+    "iron",
+    "gold",
+    "electrum",
+    "industrial_iron",
+    "steel"
   ]
 }
