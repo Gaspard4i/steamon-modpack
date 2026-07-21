@@ -214,7 +214,7 @@ hash = "833b5fdb1d0c6558643c582731e9aaab0bacc8cb1250fa79ef7bb0b1c400cfb3"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "9537336bbec9e5316ea143756294d6c546ed405f40f2df9fb2f0de9661da5d32"
+hash = "af18c50493c37886b027addc069ff3f0c74fd791e09789c057b3882253252893"
 
 [[files]]
 file = "config/letmedespawn.json"

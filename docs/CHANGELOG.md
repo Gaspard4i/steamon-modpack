@@ -39,6 +39,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   and more. Client + server. All 44 of its crafting recipes are disabled via
   the steamon-tweaks datapack, so these items are obtained through loot/rewards
   only, not crafting.
+
+### Removed
+- **Myths and Legends Zygarde items** (zygarde_cell/core/cube) blacklisted via
+  Item Obliterator (recipes, loot and inventories cleared, hidden from JEI).
+  Mega Showdown handles Zygarde instead.
 - **FTB Quests questing system** — the pack now ships a quest line through FTB
   Quests. FTB Library and FTB Quests are CurseForge only and cannot be
   redistributed in a Modrinth .mrpack, so the two builds differ:

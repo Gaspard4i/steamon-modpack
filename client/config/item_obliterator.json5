@@ -2,6 +2,9 @@
   "configVersion": 2,
   // Items here will be unusable completely (removed from inventories, chests, drops; recipes disabled)
   "blacklisted_items": [
+    "mythsandlegends:zygarde_cube",
+    "mythsandlegends:zygarde_core",
+    "mythsandlegends:zygarde_cell",
     "artifacts:eternal_steak",
     "artifacts:everlasting_beef"
   ],
