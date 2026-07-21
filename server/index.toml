@@ -469,6 +469,11 @@ hash = "266a6c2186b0cfeb68e71db89a1b1c813168693102376e407f61b95b9aef320a"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-utility+.pw.toml"
+hash = "a351566fc2cb4840efb3df48456e6d24bcb0cb64e79cb4300992b24bb0af319a"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
 metafile = true
@@ -1415,6 +1420,182 @@ hash = "7c8a2fef532fb8a0d998f7e7b74064ae4d547e467878bba176706efc59b6812f"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone_create.json"
 hash = "bb585956eae93c922a08159be579922ce29f92e0be15b6db488b14d2b5a821b5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/atk_bottle_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/atk_obsidian_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/atk_void_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/ball_synchronizer.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/clever_feather.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/cobblemax.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/cobblemin.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/common_candy.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/def_obsidian_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/def_silver_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/def_void_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/devolution_relic.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/genius_feather.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/golden_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/health_feather.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/hp_obsidian_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/hp_silver_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/hp_void_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/master_candy.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/muscle_feather.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/poke_treat.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/resist_feather.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/riders_relic.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/shining_atk_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/shining_def_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/shining_hp_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/shining_spatk_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/shining_spdef_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/shining_speed_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/shiny_card.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/sp_atk_obsidian_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/sp_atk_silver_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/sp_atk_void_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/sp_def_obsidian_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/sp_def_silver_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/sp_def_void_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/speed_obsidian_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/speed_silver_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/speed_void_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/stale_poke_treat.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/swift_feather.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/transmutation_orb_moon.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/void_feather.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/wooden_cap.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/compacting/aether_ambrosium_block.json"
