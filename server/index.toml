@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/almostunified/unify.json"
+hash = "b161a6d60bdfcb2d007d6db14cce507eab7a6be63858de5fbd311d8d2cf33ba2"
+
+[[files]]
 file = "config/c2me.toml"
 hash = "94e739c13fac032df86b054bf8795f7dec98abe444567b70cd17f4ff5fa21ed1"
 

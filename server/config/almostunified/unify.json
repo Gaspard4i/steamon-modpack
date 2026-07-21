@@ -1,0 +1,10 @@
+{
+  "modPriorities": [
+    "minecraft",
+    "create",
+    "createaddition",
+    "createdeco",
+    "createcasing",
+    "createnuclear"
+  ]
+}
