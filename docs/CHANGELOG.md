@@ -92,6 +92,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   Essentials on the server. Also removed the orphan Essential Commands config.
 
 ### Performance
+- **Sodium Dynamic Lights** switched from REALTIME to FAST mode — REALTIME
+  recomputed lighting every frame and roughly halved FPS while holding a torch
+  (120 to 60). FAST keeps dynamic lighting with no visible difference and
+  restores the FPS.
 - **Noisium** 2.3.0 added — optimizes biome/noise world generation, which is
   the heaviest part of this biome-rich pack. Client + server.
 - **C2ME** `globalExecutorParallelism` set to 13 (from default ~9) to use more

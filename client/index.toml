@@ -257,6 +257,10 @@ file = "config/sodium-options.json"
 hash = "f4b8aa3885325230f6362b06eee24a38de2b9551ed6abef964a609edeb6ea6d4"
 
 [[files]]
+file = "config/sodiumdynamiclights-client.toml"
+hash = "53479bd0a4b12cd4d4d83cb7cc08233a51b296db8b5a4718c5188d90164d8915"
+
+[[files]]
 file = "config/sophisticatedbackpacks-server.toml"
 hash = "44208874f05c57d50a389fb36036a3aa89cf45c5de4597cdb898f36e1ea3ed0c"
 
