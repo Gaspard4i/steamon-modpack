@@ -25,6 +25,10 @@ file = "config/create-server.toml"
 hash = "b3a75deed8723b8bf3dbbd59d65bedd21dfa841ef1035d157abfee2b84c077e9"
 
 [[files]]
+file = "config/create_integrated_farming-server.toml"
+hash = "7ed0680872d2249a64d7e0de8c2c2eeee6361047c60c9b29c8f60777d7616887"
+
+[[files]]
 file = "config/createcobblestone-common.toml"
 hash = "f39ead8dee9b51f8b075abec8fd237d2f2f779a173debaa64ca5847294cfbb82"
 
@@ -115,6 +119,10 @@ hash = "44208874f05c57d50a389fb36036a3aa89cf45c5de4597cdb898f36e1ea3ed0c"
 [[files]]
 file = "config/supplementaries-common.toml"
 hash = "83723be6df3890688501a2113a497012d395f5c2daaa97ff74c45e5ef6ea0282"
+
+[[files]]
+file = "config/towns_and_towers/structure_rarity_new.json5"
+hash = "fe4ca0974aca38b27c94e3f1dc092f1688b54f27d9eaa728d61c6ccae4ca1313"
 
 [[files]]
 file = "config/treeharvester.json5"
