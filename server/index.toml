@@ -33,10 +33,6 @@ file = "config/createnuclear-common.toml"
 hash = "25ee5f0182c77b9710f8f2a63440c42af73dfc3a9ad87bf537a49d90557dc795"
 
 [[files]]
-file = "config/essential.commands.toml"
-hash = "8f119cd642bac32629ae78d4dc72bcd99d26c692b98b3a7df412bbdb5c835f64"
-
-[[files]]
 file = "config/fightorflight.json5"
 hash = "a3622e3df79bbb3160f6ad393992e11f1b489ec3cdc4514c7d3a50df254319a6"
 
@@ -115,14 +111,6 @@ hash = "6c37368cdba3b5297d8315f7d894b60a49b8569b638924b124fe9062f622b2bf"
 [[files]]
 file = "config/sophisticatedbackpacks-server.toml"
 hash = "44208874f05c57d50a389fb36036a3aa89cf45c5de4597cdb898f36e1ea3ed0c"
-
-[[files]]
-file = "config/starterkit.json5"
-hash = "59f438a6e1982085656b80f626c075e68278f56e98582b2daa8bdb4ed4bd6f9d"
-
-[[files]]
-file = "config/starterkit/kits/Default.txt"
-hash = "d302928bcb81dc2ba371580b1de7a588a60d7f9dc1c316df5010d42c98e786fe"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -709,11 +697,6 @@ hash = "7661004af88b9684ef0f4dd768b61687d4dc1ce2786f772caedf352236a9dca8"
 metafile = true
 
 [[files]]
-file = "mods/easyafk.pw.toml"
-hash = "c71f8fe0b5f6a3306b340065e23b558089e5a2261fb00f89d953280495088dbc"
-metafile = true
-
-[[files]]
 file = "mods/embers-text-api.pw.toml"
 hash = "31202567429d091274357d1a4d5c3a4cf739a497066fad79feb6f8a1c0e2d31d"
 metafile = true
@@ -1136,11 +1119,6 @@ metafile = true
 [[files]]
 file = "mods/spuds-shops.pw.toml"
 hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
-metafile = true
-
-[[files]]
-file = "mods/starter-kit.pw.toml"
-hash = "e2dcaa6ddb7112eed2cd97fa1e7084108d7095fe2fea04fa45d9ff305312c655"
 metafile = true
 
 [[files]]

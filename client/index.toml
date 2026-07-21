@@ -253,38 +253,6 @@ file = "config/sophisticatedbackpacks-server.toml"
 hash = "44208874f05c57d50a389fb36036a3aa89cf45c5de4597cdb898f36e1ea3ed0c"
 
 [[files]]
-file = "config/starterkit.json5"
-hash = "59f438a6e1982085656b80f626c075e68278f56e98582b2daa8bdb4ed4bd6f9d"
-
-[[files]]
-file = "config/starterkit/kits/Starter1.txt"
-hash = "53e118d9e5a4a5edf25ca1e5b19a3043e92ddc5cf1bce0716165b591d7d03c43"
-
-[[files]]
-file = "config/starterkit/kits/Starter2.txt"
-hash = "d3c40f755be71c1a180500c20522bf03ef333bea957a9a813e166dc98201823a"
-
-[[files]]
-file = "config/starterkit/kits/Starter3.txt"
-hash = "654ac94fd9592d7561e14ea15b007a625c09237a61b6c1e28c83aa36586cff13"
-
-[[files]]
-file = "config/starterkit/kits/Starter4.txt"
-hash = "8eec74c50a55be045a9e3084edec881f892b8509fba3768697ac1659ab65de8a"
-
-[[files]]
-file = "config/starterkit/kits/Starter5.txt"
-hash = "5accba617890a43ee90664c13b276c5f86114b3912c2454e4e4953105816c636"
-
-[[files]]
-file = "config/starterkit/kits/Starter6.txt"
-hash = "bb6ea550087919cb26c55fc8a54d031d945e402e0fdc6c37b3ede3a7053d1b04"
-
-[[files]]
-file = "config/starterkit/kits/Starter7.txt"
-hash = "5ca929eae5374572f5af8a08711a915824366f3e98e0a50217aa4abe9827544a"
-
-[[files]]
 file = "config/supplementaries-common.toml"
 hash = "83723be6df3890688501a2113a497012d395f5c2daaa97ff74c45e5ef6ea0282"
 
@@ -1352,11 +1320,6 @@ metafile = true
 [[files]]
 file = "mods/spuds-shops.pw.toml"
 hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
-metafile = true
-
-[[files]]
-file = "mods/starter-kit.pw.toml"
-hash = "e2dcaa6ddb7112eed2cd97fa1e7084108d7095fe2fea04fa45d9ff305312c655"
 metafile = true
 
 [[files]]
