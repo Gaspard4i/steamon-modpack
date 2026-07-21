@@ -1068,6 +1068,16 @@ hash = "25fc0896358f8f3e642d1a335085e2aa39ebb4f4f56e28a84546fbd526837e64"
 metafile = true
 
 [[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "33c7a103640b0dc7b34e8b90d760b9cdde47c280df9762535b3aca2606e85a3c"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "96069a6429a2f33d0c95a84e399db86dee16018f2ad2a17f9ad29b0434edc7c0"
+metafile = true
+
+[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "b6d7448e14c747318b083d7903baa4801ad524853f34205aa19f0cfa18ec0a92"
 metafile = true

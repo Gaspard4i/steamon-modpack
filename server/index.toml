@@ -883,12 +883,12 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "ba94dfeb21c6ae878a568062cd03154163e9b8bb31018bd16441129c75b16e8b"
+hash = "33c7a103640b0dc7b34e8b90d760b9cdde47c280df9762535b3aca2606e85a3c"
 metafile = true
 
 [[files]]
 file = "mods/moogs-voyager-structures.pw.toml"
-hash = "894ee34cd14eeceaec40cd812b92d413322c587ed4d779ee9c5ac9d0a22ba722"
+hash = "96069a6429a2f33d0c95a84e399db86dee16018f2ad2a17f9ad29b0434edc7c0"
 metafile = true
 
 [[files]]
