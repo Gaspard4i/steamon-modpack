@@ -1497,6 +1497,1854 @@ hash = "5a334201feff0fb2f76d486399f47d0ce5b5818c284fea895706c92bb2119470"
 metafile = true
 
 [[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/accessories/accessories/slot/charm.json"
+hash = "5876ab42f50bd11d0bf1c472fee28e4cc94c44a3e966f5d511fbcf17b3dbeb6d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/accessories/tags/item/cape.json"
+hash = "a5fc728789095f8b2c97ca3b9c9cdac08dd9baf60a49bf3783f89c241625d16c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/accessories/tags/item/charm.json"
+hash = "1201b849ab68dd3bddb5cea8bed5c0e7c46b2f2cb59d824df7f7acaba92cd66e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/accessories/tags/item/face.json"
+hash = "25a01c627f09c16e5316ba5407136db1931de720d75d3a6de5fc66c5efd6e3a0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/accessories/tags/item/hat.json"
+hash = "7dd2474b173fd4c3873c3ec41341522f56e63b5c7001d8427dd9c799ae7fb1cc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/aethersdelight/recipe/holystone_stove.json"
+hash = "7012d35b99fe7b7b6369aeb291269ca9a9f9d53f14c5a3442d76bc91e4660f2b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/c/tags/item/foods/milk.json"
+hash = "9defc0c49973b639320a3e01ae44858f62b93128b7b584a9c49cef5fbbd18a6a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon/species_additions/generation1/sandshrew_alola.json"
+hash = "a20ba88cc056758c282c38d21e07721dabaaf332c9663f68925c26b5783daed4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_industries/recipe/mixing/candy/rare_candy_rec.json"
+hash = "9f36eb59897f07952619c1e72017551d383f5dc037f1b7924d0647934e6d47df"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone.json"
+hash = "0f97b114470b762acc70331d947a296dc8758e1a9cb5712867c2d087f4ef65cf"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone_create.json"
+hash = "f49366bd2504854ea3fb4e6c9d96b36b62035722c3ed1ebb5f6bf80f0bb6df50"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone.json"
+hash = "53454c6cdd635691e4b81393e47d3d2df3232413887f1c2121bc5d1c411b0396"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone_create.json"
+hash = "f269b230ef91e3d7e2557ad2a5ecfd62855feab5458f0efb1c36394457f7cda4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/brown_smartphone.json"
+hash = "2cf8a53b27fbe2057d1127dd13051948f9efac328e6b0138d4d36edf0070c429"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/cyan_smartphone.json"
+hash = "5e0b43877b78cf27eb3d1e970133a165240d0b8e5c4b6e8a90ece889452cbb50"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/gray_smartphone.json"
+hash = "b0ce374a59d3afa82d282d058f6d9f3a167d15487212d39ab3d5717c7f1a20ba"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone.json"
+hash = "78cd013c77693a5a0a8b21304d6e737ad01dbade13d03101fc93fd3d17f8aaf3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone_create.json"
+hash = "f012e8a16bab5b86a1c2a6e46f0e1969e6c75f4d06962df813a1f4da28f89bf2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_blue_smartphone.json"
+hash = "30d061778d9828647e18911ec2e44a48e8481b0012cc839f26dfa124d5a48cbe"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_gray_smartphone.json"
+hash = "cb5a059a926e03d3805390c6600f5336b26dabd7cfe3105dee3dcd4d28fd9b2e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/lime_smartphone.json"
+hash = "fdf16a4e9a313aa609414c84f2989e500d0034220f9a06f83002c30da7a1f2bf"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/magenta_smartphone.json"
+hash = "7b416be3c09a44c5b634da3f2e991e8905bb1f87c346e11073c445e8b5e50093"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/orange_smartphone.json"
+hash = "24b5f8d751f49391964f0966c51d313367f88568522b30be98b843cfbcb32bdf"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone.json"
+hash = "7b172f4aacd06530d7ff2f1c6558823bad3a917076d48b44d8c8e10d3a8b6e20"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone_create.json"
+hash = "36d528307ffefe5bd721e94407a29ed74fda2ff49569242c067b721bb43efe73"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/purple_smartphone.json"
+hash = "d2caf06a119570527aae2e6492f213556f931912284025dc803b605a95b3e9ee"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone.json"
+hash = "cbf308116e61d416b2d338484b35f62b1b78d29a4aa030cd466bf8b798222b65"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone_create.json"
+hash = "944ddac84f4c843c510bc76bebfbd4b440b4bafba512d17de4c67a6bd84aab79"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone.json"
+hash = "33546658f9a10a67904ca84a6e47837cfdcdfd478501e97d9eca800a26091449"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone_create.json"
+hash = "0bc88107490f390c4c08d71f874775dabd53cd839e8b0d76389f8c960f59ef2d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone.json"
+hash = "7c8a2fef532fb8a0d998f7e7b74064ae4d547e467878bba176706efc59b6812f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone_create.json"
+hash = "bb585956eae93c922a08159be579922ce29f92e0be15b6db488b14d2b5a821b5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/compacting/aether_ambrosium_block.json"
+hash = "59811909a42772364ed17814a26f5bc58a2b2ba9ecd9f7f8fa2bda05abd4d57a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/compacting/aether_zanite_block.json"
+hash = "06cedccd52b2d6bd728e86cbf3b4f0bf5855fa76d3dfd61e3e72a96b3b454a7f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/crushing/aether_ambrosium_ore.json"
+hash = "63ea4d210d6dcb6d453347155f2eea8df6203c9dd95b74ad6457a1313ab813df"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/crushing/aether_holystone.json"
+hash = "5c974b0a69bdb198b425bfc392c80ee38f80c83ef40aaba8855cea3a64f9df07"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/blueberry_from_poison.json"
+hash = "df0d2a7597265ea811ecd32c8d495ed11eef790ac00918906fec0623b5811b03"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/golden_dart_from_poison.json"
+hash = "79c31425dbb0ce99e025b25140fa7fdf36c2ab6a682624b859eab23987482f1e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/golden_dart_shooter_from_poison.json"
+hash = "b6404dfebe52acc27f01bc4058261989798664f4e359ff456e800d71493794e1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/gravitite_ore_from_poison.json"
+hash = "7ad17653a858133e2a0be4ae7f06361308f18f2cbbb6a7bdb06761fde43aab2a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/holystone_from_poison.json"
+hash = "295b884336c479d75aad43f3f4e7df29194df8e38d89b8a3e9611597b05928cf"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/poison_bucket_from_poison.json"
+hash = "e39d0e25f9ca7ceeb8ad65af53a9c7d6437e1bbd2b59653fdb4175a71a22ff51"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/poisonous_potato_from_poison.json"
+hash = "511908f7a19a6aada5f475e35450f552ee64a32d2ab741189058184145f4100f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/quicksoil_from_poison.json"
+hash = "2164aca3051790d35e07d0ea9cdb00e4e1d9ca912f6c236a329dfbb6f6cbe659"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/raw_clorite_from_poison.json"
+hash = "6b353637973ceafe4dc93ecb6d240ca82a582b6b33243780e610ad27821ed7ef"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/skyroot_poison_bucket_from_poison.json"
+hash = "4b824a08ac65f387e86e6c0745992cec282400aa7dddc7c0a3f50018beba5932"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create/recipe/filling/warp_stone_from_dormant_shard.json"
+hash = "554a5b8b1eed13d8eb8b179cd5546d82eb538d70ab437bf832e05dc163c1f212"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/blue_aercloud_from_freezing.json"
+hash = "32c5a6d43954707b2da0c73433ce8bc4424ca264bcaf0ce62234b1743624ff6e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/crystal_leaves_from_freezing.json"
+hash = "2e062e8a452f827da1e8959009fdea6e0285fc8e53597061682b15d7b54793a5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_from_water_bucket_freezing.json"
+hash = "7d0bc1afdc01b6db4ac163f229d3b1259d0724993b56d45535ff6bd3290b7932"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_pendant_from_freezing.json"
+hash = "78bef58b8eb4679345912e4d88ab96877d07ab1105fa661c686655e13c9fb121"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_ring_from_freezing.json"
+hash = "0bea747e0dd27877533d9d31b7406c641cd02c10ba43bcb7d0b235d1245264e2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/obsidian_from_lava_bucket_freezing.json"
+hash = "9df6aa4c98ffb90ac60b907644e92f672f6fa72c5be5c6e423048193c744216c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_enchantment_industry/recipe/infested_cobblestone.json"
+hash = "b8c2709b90b7684b03693652ee587dfde9e004fab27949dd09ad6c5b8475f316"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_enchantment_industry/recipe/infested_stone.json"
+hash = "efaa1090e9aabc99b8b3b5b134d36619959d45c266557b75f16164a73bdbed56"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/azure_ball_fill.json"
+hash = "bdda1fcf41fdde9a6452f816ee77b0944a8140c3925f5308106ae406393defcb"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/black_fill.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/black_paint_empty.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/black_paint_mix.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/blue_fill.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/blue_paint_empty.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/blue_paint_mix.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/calcium_mix.json"
+hash = "6d67d9fc35d9294606b27f3b7a6fe0188f1a6f49c36d90324f426c50849c66ef"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/carbos_mix.json"
+hash = "98b948c01f5c975b127effdb3a205a25b570e9b91de54fc6d90e911516522f3e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/citrine_ball_fill.json"
+hash = "e99acdf0871ef249f3e69c529a85f1840b93cb05a127d1eae4403621723c53e0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/dive_ball_painting.json"
+hash = "7a418e3c727aee1f0a72a3fe35997797f739cbb4f7f5e4b2d8ad0cb5e86f2e7f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/dream_ball_painting.json"
+hash = "7b155568c3f3325619e64bdc57a76492bda8cc8cb564a5f96d37b736cb17691c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/dusk_ball_painting.json"
+hash = "f1a3ba2822f81a6fe681fbc19eff05e315f267a0c451660f4fbd13338617676a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/fast_ball_painting.json"
+hash = "33eda58609a3db0e193f5662e4cefb64221fbb3fa17cc3e174431e44990cf889"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/friend_ball_painting.json"
+hash = "3b02731bbc1888f2fb25825fb3769694b5bf4245120d9fb5968abf3dc633e48b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/great_ball_painting.json"
+hash = "27cf909622940d82e7c73fbd86a8ef30f5cbf5f6ad5499376d5d1cb5e822026c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/green_fill.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/green_paint_empty.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/greenpaint_mix.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/heal_ball_painting.json"
+hash = "36b494c1f43038234553c3aba4cb49d38f599fd74cb1c5559776e6a986b563a2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/heavy_ball_painting.json"
+hash = "d8ca798791570f3f45214b883299879b2e2c864b9b54751e2b0e7e2ca36d9471"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/hp_up_mix.json"
+hash = "624abac13fe39bf1a714305f43583f2de7639d4f49699a4aab236aa9da27c260"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/iron_mix.json"
+hash = "3eee37c1356622c3199a39cb0b0ef59cf1c51b7a482b031f925a268cbc8c4959"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/level_ball_painting.json"
+hash = "168d4f79e6c3e3c207c3da86e706096499573fb2f31f12314be19fee6ed9bb2e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/love_ball_painting.json"
+hash = "0d216a80f4212eb5d7a181f44f31633d70061a43e8df2c6541772501fab33d93"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/lure_ball_painting.json"
+hash = "bbbb24e265f4c2736543b00840c5e3e4df1cad0cd82b7bf613ad5a212a4b9791"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/luxury_ball_painting.json"
+hash = "7643602e85ef6e753a1b75bc35106d6bbab6120e207c8fa801fe19b13317e82a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/molten_rare_candy_mix.json"
+hash = "580588fdb54075319eda95f35cb01ed0f0c7b2ea2c70ca21fe416aada14432c2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/moon_ball_painting.json"
+hash = "a1de5dc87be5b6facc5b67975e8a443a0e7d5b5c70a0f66afbe7e8c03745cd3e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/nest_ball_painting.json"
+hash = "a02fe93b45697afc40a41334e04cdc22f6b2ac118dc96f4d0934ab70e7c12a57"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/net_ball_painting.json"
+hash = "b343bd68c7f465316e36255e50997a2e3946d70ea7de40451c45482baa4bbdb5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/park_ball_painting.json"
+hash = "3765006fd878cd6e847854cc4f075cda3c9645e4a149587dc1714fbde03fd800"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pink_fill.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pink_paint_empty.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pink_paint_mix.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/poke_ball_fill.json"
+hash = "3466121fa2384fa0d57370ea9589f96cc6303470d4d08cd31d1bf20458c25606"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pp_max_mix.json"
+hash = "d89e3d2255e0a6b20d8c410c44fc8f1da877b5cb7b0c721fda03b60c09c7291a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pp_up_mix.json"
+hash = "bce3459d999353e10dbd94f2656ecc7f8f05a3cfb80af8c5ce68c7e0d40e7d96"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/premier_ball_fill.json"
+hash = "4476ceb6bc4687b4a07223aafb83b0df026ec09cd1faf8271bc2b7ca9209b182"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/protein_mix.json"
+hash = "674259de92854d1c91a674cee5aabb87d960cd5635b20a0ee8362ae7b88246f2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/quick_ball_painting.json"
+hash = "9fd34984f2e2c16a2cfc2ddd0df9d9633196f662e032a8b1bb1cdbbc216e49f4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/red_fill.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/red_paint_empty.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/red_paint_mix.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/repeat_ball_painting.json"
+hash = "86e38831779bba6184ab4557e081c80751c68709552cc170fd125809ac77ceda"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/roseate_ball_fill.json"
+hash = "82398808df1d0111b02285ed77c6b1f0a8d3cf05f8f424af4f2ebaaf5aa3e939"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/safari_ball_painting.json"
+hash = "e537aadae59453732f0a8ca36a8880269dee8f4a013c1a9f5eca341c0d1a8ef4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/slate_ball_fill.json"
+hash = "e7357fd9f013cdbc3c9f77257e85531bf6fd55efaddf20e8a62c25a818d7b80b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/sport_ball_painting.json"
+hash = "1d88c95eed310ed1a10780baf56330923586451518dceb2e4359ec32f2fbaece"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/timer_ball_painting.json"
+hash = "5c3984ef1cc4102328534365ffb7166d62623737dfb3da16f40afe0a4fd7d9d5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/ultra_ball_painting.json"
+hash = "87289537bf5c1732da84f36c4456397be6cdec30bbc8104b87da8e84c9beb4a6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/verdant_ball_fill.json"
+hash = "d15abb72635114bbe666d19b1959123af396c22bdac2bb1ee65caaa5ed42f18b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/white_fill.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/white_paint_empty.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/white_paint_mix.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/yellow_fill.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/yellow_paint_empty.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/yellow_paint_mix.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/zinc_mix_fix.json"
+hash = "eb3865823bbace3eab0bc78dcab031c3cb26dcc1fb319f7d847df9c41efafbd8"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
+hash = "fa42271f92f727bbee7bdcdc2267771b8bd209c35fda4ba8ffdb48e6155abebc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_obsidian.json"
+hash = "01ef910c73f922e03c28508e973591909290eb23fc84f500231ceb22c6cf48bc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_witherrose.json"
+hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/asurine.json"
+hash = "f3ebf124b52ee42bdfd0390ac00e160ef15dbec6cda0ee619c3285a99faf4ee6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/basalt.json"
+hash = "e453ece357f4c7722b2ceaf08048bbdf0b018ab94068f7692bfd391e17fb263c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/clorite.json"
+hash = "74ea56c1d10f9144bf41f1d314b389c00b7182d564f928a0f216bb4c9539dab0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/cobblestone.json"
+hash = "d68f87b887aba15b942c12f5501b340fa39a2ae760ad65d8f3f671b7e40dfac0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/crimsite.json"
+hash = "cc37523ebea8cce94e2fe5d4dce5a108b6356b0ce5a9e86575de2a4da98abf05"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/dripstone.json"
+hash = "3c20bd0745ae09dfee9cd637e258982a6c79c9af74592d2959c454bb0a534c80"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/granite.json"
+hash = "e86276cfb104264602aeaaaa6d920447f1fa95ff751d4d8b5b7b81d87cdc3ac3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/highstone.json"
+hash = "ed9906fd20edb807e2bfa9d32bec393eb7195a0ad69fb5056709e745530698d3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/holystone.json"
+hash = "503d0edc6f6df7adaa618ed390efbef574d78de00654c57d028b5fdb05847b65"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/icestone.json"
+hash = "c3276ea47fff8726af632588f547ae73f036fd6e93fa1deb2374b9949a766641"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/limestone.json"
+hash = "22e860dd32fb80a63f82cc5873f9fe18758940c2bd835f123c9659365ed7ddd2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/ochrum.json"
+hash = "f316595b4a7f2202ce19f1df3da908e8840230f5ca2de8545de4057ecff16833"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/scorchia.json"
+hash = "5745acf9d82453887ac3f4fac1fe1445652ed508b93f1533484bbd6a1d28e3ef"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/scoria.json"
+hash = "603a111248c775f359e12d77730d27dd37172cd9fabd31b9f76e8490705123ce"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/stone.json"
+hash = "f7b62afb4ff37c3c5ef4cf7259825e3c2751be9e093081ab063faf25daa30c0f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/tuff.json"
+hash = "e822eba65a33318d736c2bac08209f4deb9b995a32d33f09653de01dba8819fc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/veridium.json"
+hash = "f1e45577f4793720ffa4ae8cee787a08137949f569dc8db6656e49c976b22be1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/recipe/mechanical_generator.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createendertransmission/recipe/crafting/chunk_loader.json"
+hash = "525014a56647a80c8933577991ae6ddb396c14525c4db5d0f2c3629a7427f4c3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/energy_transmitter.json"
+hash = "aeda5a695bf774b2b90601afdcf999d99bc62fbeb36c9a17f5882ea828f1a392"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/fluid_transmitter.json"
+hash = "85b5b4eb28f352b0f268cd5c26ac84c0bbcb97df833b6e03dbe5d68219e0f1a2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/item_transmitter.json"
+hash = "52cb5ea7ec83c22f2f4199aca6f6def07301aad4fc313e37ad90b69e51fc51f4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/curios/tags/item/badge.json"
+hash = "38c4a07f6606d74470a96fac5b048b305de73b34f52b6180061ece342f2771cd"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/curios/tags/item/cape.json"
+hash = "a5fc728789095f8b2c97ca3b9c9cdac08dd9baf60a49bf3783f89c241625d16c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/curios/tags/item/charm.json"
+hash = "605001b8eb478d74e32607b20250be010f09980123640bb010d92987fb20a313"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/curios/tags/item/head.json"
+hash = "952a8be4c0d2c449c86fd79de39829a0e8ea19d0d4e456d11816c8de6ec7447e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/blooming_sculk_stone.json"
+hash = "1c7d8d0c9d238008f5ae7e4dd4165602265b2b3a85e0177c0d1f223b8eb1b61e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/chiseled_sculk_stone.json"
+hash = "3a8bd4a5446b1585cb08cf5837a2ecc0a233ced680a57630ff0d9d73ca1d2596"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_sculk_stone.json"
+hash = "8527da74b4ae2225825f543dc09cf6df49677180c8b01b826c8bf46d5dc92e6f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_sculk_stone_slab.json"
+hash = "e7cc13ad1984027d564941915f1b32261b7597224d7987dca1ba348685aebf2a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_sculk_stone_stairs.json"
+hash = "30916c8325897d30726f9595304a4aedb41f2ead8f3dea13147e0932a5ee7131"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_sculk_stone_wall.json"
+hash = "579640313b313af9b8f776b4961df1fdd6cd3868683699d37bf316d2b7ddcf5c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone.json"
+hash = "6256de677f86cd6c1ce8aab078d5707dcd7608e20c1aad38e2b11e63397900f7"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone_slab.json"
+hash = "a455b26b22d5b43ee9b4fe04189838ca23fdab1f2296e48a63740afef51dc96a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone_stairs.json"
+hash = "66b38b804b882aec9ecb0ae92b2b42baf47554f194e9b5d7ec7cf4072394630d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone_wall.json"
+hash = "398a93d33fcc78f0ca327d07bedbed5586a3c241b19402dd33d11fdb6df9ffc0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_sculk_stone.json"
+hash = "6292945ab6588d1b88528a9ce42e2e4410db2031612345de4ed07fcf0f2904dd"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_sculk_stone_slab.json"
+hash = "18ca8ef806e892d77cf8f26f0b93adf76396af31a51864c3d5cc011da0b181d6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_sculk_stone_stairs.json"
+hash = "c68bc10075e3e000ca6b29c8b97e37e513214243db963e3804e902152d7a31d5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_sculk_stone_wall.json"
+hash = "7b532592dcdd7a6f6d32c96b8f9b0d4e4b9a1b7d9caa24b17c4bc95e7a1e4235"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone.json"
+hash = "a362f7b4df6dd20aa0b7bf309cc4dcd29e7778878a13493162d52144f2e341c4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_brick_slab.json"
+hash = "ab6d76b7be5873a3b78cad53ed9e1651248961d584237bd1bdb2cee1a284e4ec"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_brick_stairs.json"
+hash = "30ee3d4392a7894fd06190632c2951d1259cbc56b6d576841bd1c8c8783225c6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_brick_wall.json"
+hash = "3aa1a5b2417030d9289a7e9c5762a122cd5e1b96e419ef371edd9f2d7522a841"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_bricks.json"
+hash = "d0e2367c00d0f00d1bf21b8ad4aa475417591bf3d2dd315dc757a5527bb6bec6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_slab.json"
+hash = "6bb43fa1388289b7f4d646d4eab25ce9b1c3f0a08a276b030b5a91c0efad42b2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_stairs.json"
+hash = "422bff50a236cfdbdbb9c55210eaeec113148d635d432f9ae6476f0bda45fe9c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_tile_slab.json"
+hash = "6ab7786328664e9548a338f3e27728a71de5dd66fffd4ee7fa2f632bae969196"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_tile_stairs.json"
+hash = "d2cc963531c2e0fa253cf327035cebb5b809df10ea3aab88259e5031a0f21620"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_tile_wall.json"
+hash = "cf8c4db1249d8ff4c566d0d61ae5b904130b3be80d48de473a521574f77d3f95"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_tiles.json"
+hash = "6dde4589602895a395437288ef385755453a43bfe824d5265121ed0b0f1cdee1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_wall.json"
+hash = "a53df930d3971921c24df2bfbf76f9c112f7bf1f7ca6210557ec70ba64900202"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone.json"
+hash = "72368c96108a367beeff5347beacf0eb27776f9ba2771d51fc42c608b53c57a2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone_slab.json"
+hash = "a19f20cbeda8545e6e5375ce58433485adbaa4895ae495f852a4fc76547bf7b5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone_stairs.json"
+hash = "648a98dc4828913e867bb4f58ee62c227b33f0770835ab0b6207593cc80e69fd"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone_wall.json"
+hash = "3b9140a83c68285a264bc36b3185df41cfe17c8cd88aec60d0a64d3e2d9338e3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/arceus.json"
+hash = "98917dd121a9fa459d4b46957f75b255db818b02cdf4462fb3b4e85bcfa0110b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/articuno.json"
+hash = "b1d7414f3818b5b2583b14a603a97a50ebf2a585877e8acd547aa95552588d94"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/azelf.json"
+hash = "24d01b59edcea95051a63c247f87e33cd4c0b6a59f2964104cfead0e90be1480"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/calyrex.json"
+hash = "2394e6c6362e77732fb3e5db3a3bff9df1e380677ebe0850a5bdfecd173c358f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/celebi.json"
+hash = "0e8aa1f9f59492a54039ce733bae8a835cbb22336a508432b9587fcdd774e34c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/cobalion.json"
+hash = "40d79965bba5a35c4fb37b9123f742f869ecd48587d0fe8b6f19b25449719164"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/cosmog.json"
+hash = "a58aa4b571ce4044e250a1605e6ac75ffc04f034fdb1720ef9ccc5be892d6124"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/cresselia.json"
+hash = "3730ad4aa8d1987627ed43964cf58252fa003ef56eb60c110a3137a72c70dd4a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/darkrai.json"
+hash = "1c3be168c56f60f05d7a92a8198fccfd71b2b208c9b1d2e9253700d6155f10a2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/deoxys.json"
+hash = "ed15285fef432229253cea76189981d5d8261499f76ef0629840659043d76390"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/dialga.json"
+hash = "144e6dd59f3457a33325d5f26f21c60eab8a7bea118af3513bc940650703ba72"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/diancie.json"
+hash = "e19b931764c7a5da82afb5390e4e1b8959d9b89bcf04a6a40eeecce6ab3ab026"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/enamorus.json"
+hash = "cf7d649c59c2b62da7642d603b4c2d668e742f305545984abb02ada94d9e4d91"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/entei.json"
+hash = "fb37de45945b595e2f26f90cd5d46d8a06dec805fc3e7d87f717d10c07d6ea9e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/eternatus.json"
+hash = "2b45dd0b7faeb0fccdc24b53171426bb08d028738db70db65f593d1279eee8cb"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/giratina.json"
+hash = "53d5b2925fbecafb106fcd92bb87bcacd867e6567bff4b9ad718f544c3a6b5e9"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/glastrier.json"
+hash = "92557a9e0eaabd52b83f978196a341196de94c8b82429c98195ca199105d4c4a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/groudon.json"
+hash = "d271c9b2cbb577a504a8fff93e4be3904ebe229cf572863406b99bd1fd6bb740"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/heatran.json"
+hash = "2a30c96ddba85848040bca03211cfd5e6e5f54b2633e70f97614ab59e4865cc1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/hooh.json"
+hash = "b867b1a0d44d0ea616b1b25337b83aa3d4b50026d57eab1791e3db92b05ade1e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/hoopa.json"
+hash = "7b2a1cd455dd87aab8e68e521f168d4f1262ab1f5e65e204b7aee28ae9f3752f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/jirachi.json"
+hash = "2fc4167d2a721fb0d8647d907964b52b01e7db95e413cefb1d266fbaac028a68"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/keldeo.json"
+hash = "7d7742d6901df8eae8756a2205e296f05e487f9b7480a4a3b8a7fc0e10c332d7"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/koraidon.json"
+hash = "d34b42c20653915bc2add2d497a04a36973ff4b2dc2d0c55f4cb9ce3807c8465"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/kubfu.json"
+hash = "76fc3a1496afa68bf4fe079e6597605c2ec80bb26ec3e40b3a1c3a191a2a9670"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/kyogre.json"
+hash = "e36a7573b8848868c8b458cb4dcb495dab91675970064f5d86f6d382f9fb9601"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/kyurem.json"
+hash = "4ae335c6f15875cf8a94f7749a14d3229f1fc78e19ea39cd4e24d1f776175fcb"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/landorus.json"
+hash = "8328cb433f8b1856563b96c89774bcdf92e4010a7fe95e6f7699cf0ca78915f8"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/latias.json"
+hash = "de6f178e697b03bc3f2c52742ceb19ff9fbd2030267e431bfced796d24fdb433"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/latios.json"
+hash = "c35364dc9284729d7373d61f404e3892231a31ce347a9c96de806a5ebebbe57f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/lugia.json"
+hash = "eda73fe537fa9e778f9d423bdad94d3213b5ba7fe6f3fecd3e0975295b2d0135"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/magearna.json"
+hash = "ca7ff1cfe8cb6b58fa6b227f2bab9b6f81b53ca2a44a2589eddfc99384434934"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/marshadow.json"
+hash = "94e76a28a81011af2ddb9ce04616d40f886626422a09a5061db528998ea44b3d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/meloetta.json"
+hash = "8d5103f7222915ab614cdc88a2c5a91eb01cad8fd0b69e2e3ff27a6c69aee86b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/meltan.json"
+hash = "514d569e3ebe9b13dcc6596c59bed493a47a1717e30212664b695519c045aeab"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/mesprit.json"
+hash = "dffef9bfc3cce32656da9300e60f5c8a98708dd7792c26314d87fa263dd7c259"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/mew.json"
+hash = "d3840170c2b1ed185280ce9ded14d99c3d1fd60ec52f5124e3eb8b6a3d26fd6c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/miraidon.json"
+hash = "c7b4f08fdebf56afe26ca78526ee4a60a115049451af8e514f13919cd8fb54b5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/moltres.json"
+hash = "55a70277080a1047499cf047971e8ced42f6d5255804ef85887ea1e64bbbeb56"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/necrozma.json"
+hash = "c98d8e444ec7c003efbf804af13db2b066d352dd1db5e9a11913b12d340d6891"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/ogerpon.json"
+hash = "c7909c0a213231dfd0f4e3130d15078212ea26f4f65efc55de2eee4e8f9f9127"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/palkia.json"
+hash = "f96a59a7c66e023a99558d151577770d03c711255f3bc12ad3ba134b7e962948"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/pecharunt.json"
+hash = "f0bf5a42670069663902ccabd8dad2f53d51cbd041dab8ff7081be8bc134c6a2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/raikou.json"
+hash = "51f4049d8e930fccb3b1cc143fe18f2aacdb2d04f6cd4dac4fa1758c0c8abd5d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/rayquaza.json"
+hash = "1ae3629d4a9f8b6310f07c50cb49b3c8c84f560778e67a685fc2c3843c793073"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regice.json"
+hash = "3b98babf6a2777ef39b8e6e1864131a4b130b5115272fdee6aec7228c75f7792"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regidrago.json"
+hash = "99a2268df527c01374070adf7f13948852f2c8714dbaef52ce8daaccc0e63c74"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regieleki.json"
+hash = "0fd52831c36f299cca791e2326d72b1b559fd40dbe6a2b5f61806402b8949c78"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regigigas.json"
+hash = "52ba9259927f1b79640ec9fdc627622bed42f7c38d8dfbd3e45ff0086f4c6bb5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regirock.json"
+hash = "82295d1717b7744e4703639170538113e158b27e3164e52167d9932a901dd1a1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/registeel.json"
+hash = "2acbfac7bc3d16cd3954b42158508ad4ae36dd337867ada7825d060a490ba38a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/reshiram.json"
+hash = "06e1f378c669ea6478a471eec54899d88b1bd1239628522892e6fed73c48ac52"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/shaymin.json"
+hash = "39b32140e7fc0ea67a77c739cb7be43f9a283eb4004d40294245f5b836ce0547"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/spectrier.json"
+hash = "40e78bfe240a462788db238a73b26b5a919b24256a326fb4b9d676eba6473d26"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/suicune.json"
+hash = "aecba5d5395c667b7797dabfbe3e87bd58cac22909b1400b8f544379dc7718e9"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapubulu.json"
+hash = "57e0e3767958f4cc179cc21e6696fa82c29498730961f65d03a5de11e8659cb5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapufini.json"
+hash = "0cf2649ee026ad0d88e929f2e556495ab4ded2d4cbf555e024cc4c351f3b2bce"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapukoko.json"
+hash = "1a616ab1061788af446348f42c5f1bd29864f93cb92d40537a4f659cd716e850"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapulele.json"
+hash = "ec4581f1841b84cd3cd90ca20e62f522fc63bc111da800b429b3f8032cbb0f17"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/terrakion.json"
+hash = "7275f04c8875153861f0f96c46ff66f93072fa84f0881bb483db0d2a6ebb5bfe"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/thundurus.json"
+hash = "53d53733a6b2b7e2f5f16e7ea0b11a1ce3d812a8f6ad45a437c63e68be81579c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tornadus.json"
+hash = "3083ba47f34383f8af0862e9992266dcf465a1a7590cfc9a94c76b6d69ab62ee"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/uxie.json"
+hash = "09fe84b8d2f3a2ffdef94c2d30632858b3808e8b78097103886380bf2968ce4c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/victini.json"
+hash = "3bace5543ebd26a6caae8e1eb7300a1dd30a8213634ee34357d5cf99a5a03907"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/volcanion.json"
+hash = "9f8e56fb15bb960e1917d589ea23e5c6058e368d130580340cb17a1262201924"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/xerneas.json"
+hash = "69a7dbd3096427aad786f8e782a5e854ad7eb95a0276a8f13e79983b0860d5b5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/yveltal.json"
+hash = "b7167652714f85e18fc77ccfe57c72d6a74994a1bcdeeffede02e8b0f217dded"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zacian.json"
+hash = "3e9d4b794b283a8a24fd3a74bb766feb701ba974e58071d8bbe6c1c9bb3db064"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zamazenta.json"
+hash = "c52221cbec932a499aa25854b9e626a6be0ada717bad932a91adc63d82e3ec6d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zapdos.json"
+hash = "7b0142d6f55bc3cf3028c85a2a4508f73979629f61ec595b4ef9d2894b51d9c3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zarude.json"
+hash = "0e4d5ae0cf2933532b539e7da234937cb79ed1ab4ec34d55cd999d1cac8f7a96"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zekrom.json"
+hash = "7003d6817e9da88db4bad260df30385f13939331959820a09fe760e0e7960877"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zeraora.json"
+hash = "ed447a855aacd2a08d2e7c7932b62858c31ebfe256990cefe85e6ce8d500064d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zygarde.json"
+hash = "42182334fec896fe22842b42a0101601b476624d16a4e494964d69bfc9de51af"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/mega_showdown/recipe/zygarde_cell_create.json"
+hash = "06ef45cd9583f9325dbbc3d15216c36f08dd0bd4563cdb254d9bc3f0b9bd029e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/minecraft/recipe/disc_fragment_5_create.json"
+hash = "690b105c8ec3214f3fed404d31fd37157cd74c3cb20972681694f99d9b83e0de"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/minecraft/recipe/enchanted_golden_apple_create.json"
+hash = "88b59a2a31eae78b015575a39dbbdbe9e03f0916ca6e5e812c89bb580464abde"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
+hash = "f74498097708215ee46031db7467ce3abed880ed8188eff156e81993d9787e31"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/brutebonnet.json"
+hash = "a839195b21e28a2aee85366f02dc1f3e925b6eeb7e6cea69dcbaf68f35ec7ad2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/fluttermane.json"
+hash = "b44fdbf005010e37d3bb6f8022c256c27644724011711165c4eba7e3fbfa2b00"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/gougingfire.json"
+hash = "30f1f295b73b5cb17c06123f1138bf246be7c2379876e36ae69242c451b60ac6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/greattusk.json"
+hash = "27cc35efdbb822e3d49892b483e1da4d2f114f19146b80cbdd8efd92790b371d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironbundle.json"
+hash = "2028a36051dd67d3ac4bc8abe402c812421655397786e5388b39c0c232ca9b54"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironcrown.json"
+hash = "ed8c9f8ca047913b729f21a31aa1b03773e9b99cb162e352949d452e26c7f9c5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironleaves.json"
+hash = "5758a4852fd08e4cf6a1099530301b42459e2552b079083c616f1d51068464a0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironmoth.json"
+hash = "3d0e21e36ca0d245473cbd239faa16e6e2fdb4c5bc92fd8c46252026d5dcb476"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironthorns.json"
+hash = "91844bdce01e930ab453c164f3862385e21e3503fcdf4fcb6e8b4c8af69798af"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/irontreads.json"
+hash = "8641741b5796375242393c5e6b4324d170726b4b444d0311408ee8e297024831"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironvaliant.json"
+hash = "099e3d7aa4cc2446e9f0120c8ace8db6b8e991fce4a42ded5042efce23595eed"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ragingbolt.json"
+hash = "a50fe75367317d68b23a8315e2dff0bd771f180ed6d4753e674d18e2b643e348"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/roaringmoon.json"
+hash = "58b154f3874727a660f0d9faeff1954748ab581482d61aa4943ed641ee97cf8a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/sandyshocks.json"
+hash = "6923c9675453efdbbfeca4b00ee3aa841cf72769032f45a70b264dace0bfbc5d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/screamtail.json"
+hash = "c67766bfd575513389748726ed528e75c756ab15625463a02c41764a045c8c27"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/slitherwing.json"
+hash = "ad73825c5bdca5abf8631efa8f99e33ca6d73e54e2f41d5a1378162d3301df2b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/walkingwake.json"
+hash = "4718336192c573ca4b80ae2efd3cb8854fc5f3c1aa7b4c7368f99ee5485a6e4b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/simpletms/recipe/tm_blank_create.json"
+hash = "a041903a99873e9b975b47e49ef29c4b2f3a3abbd2310f3e83d55d1f0eaba44e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/simpletms/recipe/tm_blank_soap.json"
+hash = "1e06246c860cde23f26e5e852aab1cd99eb1f113374a25bc04de2c2fdac446af"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_create.json"
+hash = "5e94c98d1aa6ff4af242bbe3dac99dcc13d0bd55763fcc42a75142bd7c7643af"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_soap.json"
+hash = "825aef5e513bbf4daa21e8eb2e641f891b6ac448f25fe66d79f860b9c15d46e2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/curios/entities/player_badge.json"
+hash = "44fbfb2953afdffa1b2784d595fc0c66c8bf8893f746877bf4a64b3d066677e9"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/curios/slots/badge.json"
+hash = "cfe316f4c1ac8b7252efb9c9e629ea1fd6d6ec614404b11b1860ac71d9ce1b6a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/function/disable_end_tick.mcfunction"
+hash = "01785ded93410f601df3d27f76ac6cfd792266b1930c07abe7de0964b27ddccb"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_from_crops.json"
+hash = "1bc6b34ee18a50b180591289113f40c24cddc889fdf5223967e282461238ec27"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_from_flowers.json"
+hash = "2da4a6914822dac3fdee6a98bcd157b7146d2a886919a8b8e614a1e2687df8e9"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_from_leaves.json"
+hash = "2e83ffada64f8e2195dbd95606c87fedb34e829968002f81b4025f17c2f61921"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_from_logs.json"
+hash = "a82f526983d3dbc6ff38f66a1fa4d5e1e91dc238c48bdbf8722c1b9e3b8e24d1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_from_saplings.json"
+hash = "165d400df67b67c83b03d00a899cf34f3800b1e7082f03a76da0f819b00cb194"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_crops.json"
+hash = "02c046ed123c9dccaed94987e1111dc0b12eeed30a4e8a60fa6a970e0a47a7a4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_flowers.json"
+hash = "b39fb95ef693ccbc58c159bd0d4def8054b957f246cacde33aa60f13ce769b35"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_leaves.json"
+hash = "80e81d2cecdca409b3b991d6819338bf918c3172b7b1e375e4e653e20af4e818"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_logs.json"
+hash = "af433c6192aeb28198f078184cc8215fc4be3216aca51e0c82e5860a151ac7e4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_saplings.json"
+hash = "45147de1701d26ae5bb1c5f032e8d1229ae976b2831be31acc506fe3f268c977"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/badge_case.json"
+hash = "482db6a664b8c7331b2f5a0d8ab253215d9083b9119ae70fe9a97e0efad3d67d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/big_root_cutting.json"
+hash = "0df6be78ae857ccfb42b882070a06b1d41413c75daf0828338eff8c3c4993a15"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/blank_z.json"
+hash = "bdb3be849e6abb8ac9b311ada03fbfd1a190a350c8a7834c6b9d32b9c55cb3bb"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/blank_z_deploying.json"
+hash = "fa67e48de6423fe8478679fedcedaa330846268db14c2cf36e1bf9a53b025f6e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_crushing_nautilus.json"
+hash = "6a5b21e1cff7dd6e3be7c2257ce3f677661e6430ad3abed015936c6c6d2994d6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_crushing_seashell.json"
+hash = "44c8d3913d207b38e0373ca7045939d15c205959c72620e336b5f402c55d66ed"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_milling_nautilus.json"
+hash = "b144ec55c83d9263596e3e0970a1607e28b504d34a9431b4e80906b917c93e22"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_milling_seashell.json"
+hash = "c9689abf3cb4cc3677489f7b6592eaa6163bc28998a426d1ce0f9d39ce3ec05a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/blooming_sculk_stone.json"
+hash = "4ea9439f5d3cb20b251a592b59758e686b5b616a4f9a02a2b14637e02eea53df"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/chiseled_sculk_stone.json"
+hash = "9bd143a6bbc16c06fd50dacc7b1d22880dca35a96219965e0eb06d58c0ad5d8a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone.json"
+hash = "e80136ffcaf7037c83e0149c5817c518a3c983b63e513770b45200ddc328ad9f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone_slab.json"
+hash = "eaf3b95f4228a3b4f0b5326874a323713dc754d83731d79a81270cd1a7bd0c25"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone_stairs.json"
+hash = "2e3cd7e79230cc311a042c1dfba312d7ddb93453f495c7f23885a2d68c2c3c3e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone_wall.json"
+hash = "eb3f22b7ab44dc6f17fe5eb69f3171f7f76fff268a520696ddcf87db0f2660c1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone.json"
+hash = "ce958c775482db23f2a1ce7d38b85fce3c9110f1536084f7b0eda463e1e1ffd0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone_slab.json"
+hash = "b5f6d9bf793350b716584f25965c4d1f7009854f7b7223c7ffa04390630a44d4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone_stairs.json"
+hash = "c677f87e652f9c0d1d973be7c19bfda054f4743c19298fa6e129bb17e58a1e12"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone_wall.json"
+hash = "0de51280f1040ded5de73da3cf695eefa0f2f51a00c17bc107979ae02082f6e4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone.json"
+hash = "0ed7f7d2e266315deab73ff01ac891e065bc4da4f970c1f7084b2028d61d1426"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone_slab.json"
+hash = "00686dbff2e1523284cd3cee9838c12ae506246b43eed242bfef336dc152a982"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone_stairs.json"
+hash = "a68d60b4cacf65bfae8ef246a8ea3fa2150215aeb695591485b0504bd9979d6f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone_wall.json"
+hash = "0929dea771df8566ad2bdc9e75e1317c6f7ae6c26fe551fe60a228c0d2f496bc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone.json"
+hash = "3131c75165210a199e93530eafa11af2753e8930506056f4581ed4c8da434e4d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_brick_slab.json"
+hash = "7f8784fe4dbe6447787f8dd02875038dea5e210748f96e996bbc8aa1da99a980"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_brick_stairs.json"
+hash = "ef66f0b1d42bb1b03fbc4147457e742cdceba603bd8c45a70a8d0c67ed258aef"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_brick_wall.json"
+hash = "f637f2c90da6e55dac3551a3cb7b9bee723aec6d061944d7419098b2c4079825"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_bricks.json"
+hash = "528d8f013ff82e4c2828bc0c04aca4c6cdf99ae9912f480503af0bb649dc951d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_slab.json"
+hash = "581bc7443f2bdb8105f1b734d474696908e79f56688e43c1b3950127dab93a42"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_stairs.json"
+hash = "1544e4da124d03b952206b57c6f0350c2e94b9e1271138c6cc12e6c8bf4ebe7a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tile_slab.json"
+hash = "9f03ec8f33849782a522a8f8126bcf5976d71f7d391b0bbd7daae5a731751ee5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tile_stairs.json"
+hash = "1fc09257be5f5335bb5e88357297273d5835ae8821fe8b1189e68bcc4f5b57bc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tile_wall.json"
+hash = "8f059204143baff6b4ab6c056f78797cec2a7e19e548534e17e44415ef654af5"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tiles.json"
+hash = "167bd2711a4e577aef0f0068113396f621cc514c390b57758f06f84bf6db3e05"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_wall.json"
+hash = "b9532e36b60b648107fbbf5151d34bf4ea7d8377282fa109ee6d5e7ad87357b3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone.json"
+hash = "94c74483509af499068f2f2a6a1da5f9dc54949c96ffb0f508405c84d627910f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone_slab.json"
+hash = "7274146902010fef584823c028cc7bd4632c2e71fb5b7d4b0398b05ef5b8c742"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone_stairs.json"
+hash = "932169c88823b0338679b717c568914ef6489e36257018d92de09a62a99340ee"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone_wall.json"
+hash = "be40ff2c5d9176c792368156410bf449c109ae967083a382f9bd28a4055ae468"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_black_smartphone.json"
+hash = "e389eb047444fb668f2b9eeb06ba9918694f650527ce8c97bd2f2ac5d165f083"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_blue_smartphone.json"
+hash = "e3cc4c7e3f27a10e96e29b9c39a3bb415658cca615c864e85234068955997981"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_brown_smartphone.json"
+hash = "1712a64f5c494e5f40219d1f0939c50207f4aaf5699d5fbf353341c8f3978f99"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_cyan_smartphone.json"
+hash = "e28381242223cf62bee9f282c6cf18075c857ca47469070e86bbf5c5ba9fc252"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_gray_smartphone.json"
+hash = "649f838712d711a8789363593563f738dd4eefa08237a870b99c856ceb74c414"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_green_smartphone.json"
+hash = "dc44704a49fb874ccef6b8992b57e1e90977cfe7260a1ced8ff0655e8765b802"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_light_blue_smartphone.json"
+hash = "521df3ecab58d8ac1d7baae81919c8f4a52ff35d568f35a4fccd253b474b10da"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_light_gray_smartphone.json"
+hash = "bdb58dc6d3fe463522e651cdeed9b1516db895a8d89385a0927c45a226c48080"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_lime_smartphone.json"
+hash = "f66e15710c8bb54612d3c71d847ee835c1a1d3f44bb320c0fafc853935adf179"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_magenta_smartphone.json"
+hash = "5edf6276c57dded48b7dfe911b1405edef5c88019f9fde9cd296a543c0c46af7"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_orange_smartphone.json"
+hash = "10a5034f2242a32c90020dfa6596c3a80c3dc61c6ce5208a3051109e0cfb33b2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_pink_smartphone.json"
+hash = "ae9e47d796a9d55dae5ef5fb7d2e0783891bb199644218833faa7cbb39f2adac"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_purple_smartphone.json"
+hash = "1e87048097f055e5704a5f23029cd201dc1541fbeefb2da3c3e25c6d1e588b9a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_red_smartphone.json"
+hash = "9f3231bdca16f4e36bb18d403d44bd6b7fd448e79af2488c496519f58cb399ec"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_white_smartphone.json"
+hash = "f65206e6a8cc803d88ae25a2cfdfcf5e691366352814f65853f97a1f4c5dccd4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/dye_yellow_smartphone.json"
+hash = "05941104959b7791e42a89b46d2a98d3fe83bd6d19c363b9bb2fb6f888446782"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_crafting.json"
+hash = "da539c5200bfdf490bf5f514ff1b9390b85b0eb9967ba3dcf7e56cf4cd2ff62f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_deploying.json"
+hash = "22f502c2e47e2260d11252bc5c624dcdded7a3bb85fcd203a455f68e333f25dd"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_from_heart_cutting.json"
+hash = "1aa0042f8bdfed4c33aa0524cd822ca1b63386ae32293ed33ed5ca6836c9c6af"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/energy_root_cutting.json"
+hash = "6c8c4163b64a27fbe61128be09f00c08d2d35192c3f75f3c016a0579690628e2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/everstone.json"
+hash = "3493a82dffbfe3aa84721e31ffa584a01679204d630f5e1ee2cab76c88e9b2c1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_bug.json"
+hash = "c45320072637167cf150e4a5e10cbb09c44b26d4a102a22df355826b4d8c878c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_bug_from_shards.json"
+hash = "c019010b3f59e67e914b868333a5d1e43f7703eaf9464bb145398fb4c6b53146"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_dark.json"
+hash = "387ae4aaaed954db801f3764f106412060d833ac8019bc331379023d2c67bcce"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_dark_from_shards.json"
+hash = "142d6d4f201ebfa5d3943143210593f9fc708de24fb9f8a169a4df48124ec2a2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_dragon.json"
+hash = "6f3f294ea7fd3f9215d464ef208e5c6082c9c7bf00eaad7a8771ae242fd70043"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_dragon_from_shards.json"
+hash = "3784021e4a7d55ee385f482b09fad2491cafc265d08e9752aff41dcd6eae8504"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_electric.json"
+hash = "9c8b1261ebf0ea8a38c55b4840ecab5c957659501f51bebf5fc4ada204f338fa"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_electric_from_shards.json"
+hash = "ee75c12c43e9b202677e599af52b9ab01bcdaaa4f127d45d9095c345c5a7f430"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_fairy.json"
+hash = "8f2fc280a1db20890577b5dd9defa2c5535ae729921c17520d5cf124e0488817"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_fairy_from_shards.json"
+hash = "6bb057ca26973d71f76021ea8c4abb16aefd55c2026fdb557a2e09a3d41d5a55"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_fighting.json"
+hash = "75926d4da511c9cb56536fefd394d2cac7291f0e012f7af38b37d146da49d68a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_fighting_from_shards.json"
+hash = "63cf1993a05797ec3506128893c83d1c7018c6c8def5d905fd25b2de58c6e029"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_fire.json"
+hash = "73b3a4eb68da5d50cb7afeacac5209b0ed9d02c40a038353ff7b16e32d1c84dc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_fire_from_shards.json"
+hash = "7d6344b4aae86234dc0e9522cc7069d3c94deb638d1805df1e2a5c95549d0cc8"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_flying.json"
+hash = "85ee0c774e8a9afb0079d36ffcdb03cc5bec148deb5f5c1ba4c406873e41b515"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_flying_from_shards.json"
+hash = "a0e0193617e2292aa76a950d230ba27cd5bf37a32661cab67df2f9653c73205b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_ghost.json"
+hash = "7beb60de5c599e6e35c7a2e9fff19bc3fe771223888a456c6b53126f6c5291ae"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_ghost_from_shards.json"
+hash = "aa03d19df1b92c9c0d91b32d494bc457858e9b4e2cc7761d4f250a60d45fbed9"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_grass.json"
+hash = "5fe0d51439d6863eda4601c90832d3fb187da71f0872e122df58a764ffaeff7c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_grass_from_shards.json"
+hash = "c230e9ddf48e89f1f0c5f3074bf4a3d2090182e7140cd76616df31c738200d15"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_ground.json"
+hash = "5c3ad94238cfde7d6d05cde8b98f70439315062a1e6361d9e80e04808ca3d551"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_ground_from_shards.json"
+hash = "360862ff0405f6032eebaab7dae0bddaf48a7c9bc44cdf0ac42fa614f8b445c3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_ice.json"
+hash = "bc1a70d84454ba26c4e7358c0db949db4d697278056b8ef28373144a179a9ce1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_ice_from_shards.json"
+hash = "dae08f94b1db7e944a1499cf315342e286291f6e342028e2648e514c8534e3d0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_normal.json"
+hash = "b82cff4813ab89f84a643be8a9cab301269ba8702b6dd485f8eb63914cd1af8e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_normal_from_shards.json"
+hash = "acb0163c8bf709f878377662aacbf5d2470d3cb346ac9d7e930b5a96121be108"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_poison.json"
+hash = "c990524a488b98148888f1859e106132f58aac28edda70e93e3364acc351f554"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_poison_from_shards.json"
+hash = "dc81e13f79070a3a47f9b545cd9d48d5014a9f7cbce973e506c838f3a365458c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_psychic.json"
+hash = "f91cbd52c7714a3ac0d1d792862262b7d3fbd242343f4d97da4384b7c1e480ad"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_psychic_from_shards.json"
+hash = "ab5ecb814efd73c6e0af96499974e8f9e5b9fe8586f3e2601a10bf9026d7313a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_rock.json"
+hash = "ea265545ee009a366f24d8d758a9fedf6e89a244e776cc838b10dc31687f3d68"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_rock_from_shards.json"
+hash = "80062c367488c77d3f4eba648fed4cdca44e6cc26294a64dfe183e81026434f3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_steel.json"
+hash = "c13d3711c12fb7b588ed4f2f2049ad23840c642671d2bee060155d81f0a795d2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_steel_from_shards.json"
+hash = "d04991a1b218042be7677a90c97f93c3cd21583b370d50ca7676ea7346525c35"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_water.json"
+hash = "1e145d3313e3ff7ffb370c2b3261f356bafc7d9706e0dda9d7b5ebec9a757531"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/gem_water_from_shards.json"
+hash = "e464a8fb6515b09812cd48252c77ba1064be482b4a605a74321f05681a8b059b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/keystone.json"
+hash = "d2b7a77c8bc72b937c0f4b30d87b2aa1dea688270eaeca3cf63b465b23f77d56"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/keystone_assembly.json"
+hash = "2a68a83de90f96511d8a2fe5d1cb488573ad9928e8ef055049e6dbc001f6f26b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/keystone_deploying.json"
+hash = "e792971503a4625c270dbff246ea05c5aa74027a2cf85a32fc714505a1bdb932"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/leftovers.json"
+hash = "fce1a6e3b1cc2f30a05989d01e422911c0351463089c8ab573b3309c4c3c2242"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/lucky_egg.json"
+hash = "bddda225ade1be379d1aa03de7a5f62dab082482e3625a394e02648cb4873aa0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/mechanical_generator_crafting.json"
+hash = "3055b364034df279f564117bb241bf49839ffda04adf51bb6c98ac7d087d4657"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/mega_stone.json"
+hash = "b6a078245cc46d696fd224cee52913f5e3986968a5791174fb62f9fea2fa0703"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/mega_stone_deploying.json"
+hash = "ec1c19743964ec879595e2145c0332ac0816b3cbf557dbd6b6e5470dbb610ec0"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/nether_star_dupe.json"
+hash = "a26151838846864431106fe250d73d936a99b48e488d74ebdfb199b04ad41a23"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/old_pokenav_crushing.json"
+hash = "1f1fa204364981615fab72014b3127260101dc22c48b76a3968419c353ff9335"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/pokerod_template_crushing.json"
+hash = "cf85ff02491fc345a7c56e470f063ee655f599b663a54aeb1ee470a17a6f1efc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/rare_candy.json"
+hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/shulker_shell_crafting.json"
+hash = "aaed4a6d46980f803c43e1895e09ce594524e247c8f7ff7187f3b0f6ee6c09a7"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/skeleton_skull.json"
+hash = "f3f5d41f8df974be57ef71918642c6f946847787417f9f9e949e42593d10d28f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/soap_classic_mixing.json"
+hash = "acb7158efab73423f2a1e123976c3ef0d03583ed72f26755c85b4cbf1a29a589"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/soap_coconut_scrub_mixing.json"
+hash = "e9630a4757be4d1c47ba5c0f3858fad41d21535fefc94b7911a5f497d99aec3c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/soap_coffee_miners_mixing.json"
+hash = "259524deaa39166881b3cd030bb52f1ee8fd4d3ede4d614a7dbc0f4779fd7968"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/soap_honey_oat_mixing.json"
+hash = "ad7e1934b19ddd444d575d8e873b9d1f866acdd3b4ce0fe8d73aab317ed30a13"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/soap_lavender_potion_mixing.json"
+hash = "df5284358e0e9182688c3127696139f7bf572e707a81ea1f922a8a6a8575a0fe"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_dark.json"
+hash = "50790b87744aabf907a2d1aaf956a1b86ec7f8efb69c6aa667b0156265a29614"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_dark_assembly.json"
+hash = "39e6711fc40faab19d46db85d21a38d2a224971fc1a1209d83c1e8cebabd6b37"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_light.json"
+hash = "30b03cd3841e49243a7144bdc338dee6e911825b541ee169e23786fddec9e3fd"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_light_assembly.json"
+hash = "aa69a0a69251fb394099a3cd196eb22fd372b414d9e43d6ee15e067d0d4efc14"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/sweet_apple.json"
+hash = "4a3367d4cfec3715dd045bd41c6835f58fa6cc3aa0a1e9d5c263d946f4ff1776"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/syrupy_apple.json"
+hash = "5053936455dedbad51991f44f6f8e094b29d8cfbcb073bd70669b12018745bd9"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tart_apple.json"
+hash = "5a508e02297395ed3f259c41b4e1c2b29f3fedc401cbd3a6caff2c90593711e2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_bug_cutting.json"
+hash = "a2af1a8f5c6d91081bcbb62e23cf2f7e0b84b0e6b0190a4776ea32932fb45ad6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_bug_saw.json"
+hash = "269cd6503fc878d13ef3c616ddab5697ae922af1bfe4c38533f94f15f42bd717"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_dark_cutting.json"
+hash = "737f703af12f8b29ffc975abfb5d174790b927be4c2e592a3660173796a867ae"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_dark_saw.json"
+hash = "cf7b4493696f6cf7f18b51fb7c357a6e1f5e6beefbde4a7167ea8175a5bdb733"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_dragon_cutting.json"
+hash = "41397b24fe9cff0f02a3f8499101bfb9c455fb8c492fe0ad2af7c44776778666"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_dragon_saw.json"
+hash = "45206ebdaf2239ac62e10a2ce0b4d6d1c47368c7fc9c9f2f412a4bde15ea335e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_electric_cutting.json"
+hash = "ba5e04595c103359a89571561254c9332892c557fd7f67fdd82906e3af42e576"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_electric_saw.json"
+hash = "3fbd94c341043ab2253a85fed33995c26219faa57dddca8c43b759a09c6cad60"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_fairy_cutting.json"
+hash = "3607e9feaeff817eb4de4a83468b0908054ba713653b524246509e9914d3b37a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_fairy_saw.json"
+hash = "6ff9eeb4ecad1113e28a6d22c5d728bf8183205c3ced9242b98b564f791eb63e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_fighting_cutting.json"
+hash = "70a9631f932ccb90749b5fae94d8d54ed4454efc57293fb95e92f542375e651a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_fighting_saw.json"
+hash = "2a02e6774c1432813816466551f435905344f161f8dbfdfaec19a460d08e1c68"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_fire_cutting.json"
+hash = "23abe0603afd5a97351b81efdb7a6ec65ff6dd499ac0c103bce0aa8c335789bc"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_fire_saw.json"
+hash = "f61e44bd2012560b0901583f3b1854ce6ace792f7c97723606e37b32f3e0bac1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_flying_cutting.json"
+hash = "4781e969b3dd343b3098719f034e3838ed1f9cfd32190eacffe20aa1bf3091ad"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_flying_saw.json"
+hash = "ffc3a51e0072394d3c8904ebaf0c9c0c67fbd7f732aeeb325341ecaaee8b1055"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_ghost_cutting.json"
+hash = "f4da2ffe8a06768c211e3189b6b8bc4cb38ec00a74d040dc1b8f84ccd0dd24fb"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_ghost_saw.json"
+hash = "d832a2ae90760d7f79e915288eff365e416dc9ee89b7568bd2618b0f98cc3b3d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_grass_cutting.json"
+hash = "5736c8705a27bf13ed184c3ef6c303b1be94a1c8c8ec4c119392108dd20b9938"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_grass_saw.json"
+hash = "e137915ba1e76a02e929a045607f6a08b01f1d6e26467b4d8b789089bc8070f2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_ground_cutting.json"
+hash = "cd39d36a08e8dd4e62c856135f98b7a28feb6c1f9e65774ee32310f7ddaff3cf"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_ground_saw.json"
+hash = "bcbcb7ec453a2c4ac98e1c15bc2a54efcd4420aaeebdef879cf7ef1c96d4bfe8"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_ice_cutting.json"
+hash = "fe331c2c1652ca89f8444ed8fd80f4e9acf6382e4f920a24943249dfb509aef6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_ice_saw.json"
+hash = "97aed626ac59f61f9680ab408cf8da8a9fc477eb39c4bcfc275d9c6d35270c44"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_normal_cutting.json"
+hash = "a0c6c5e4c5cedd4d7626a62464f009f0e98e553430de8acea404a113a2131f73"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_normal_saw.json"
+hash = "88296b6ec9c787689022ac0d45755a5d7001c765fa5a38467e7a91dce82fa792"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_poison_cutting.json"
+hash = "2c30449c3fa13f9b2055c7bee083e8d571c50449102b16d71609644505b26860"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_poison_saw.json"
+hash = "e4d83a0ec60de7336bc5d31802cb4cb41454c8fdfca8797c4729023c408d428a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_psychic_cutting.json"
+hash = "0f8a01f414765cbb1ba62a3fc8a38d1c32cec560907efd8fa72a79b90344930d"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_psychic_saw.json"
+hash = "c58698976769b9e0d335157d6d500a8988aada2e19611f82b17955153bc1848c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_rock_cutting.json"
+hash = "f00b9238fa6566e462c90fc4cfaae1215fa41171ba42e4a513d85e106444a0ed"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_rock_saw.json"
+hash = "4de2da1ef614ae03ce80d784e1594945ab64b28a0dcd5d2128e162ad06473576"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_steel_cutting.json"
+hash = "bcc8e81e11dc81ec8c13f51197216f1318c8ddcde6744e4aee68cb10936667d2"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_steel_saw.json"
+hash = "ecd59d3641cd81b0ee9c824bbe247457eeb5cd3d5294671a6418aaccdc7d9c51"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_stellar_cutting.json"
+hash = "673408c75b8105863cb46d18942e837da208b28132845ae96bc577fb1e967476"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_stellar_saw.json"
+hash = "6ff4932ac694f14880d6d95cb9419e5d84e82aea144257ec22866a2731d8580c"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_water_cutting.json"
+hash = "d70c6c3866902eec628c441985cd313a605cf3d4481cfb8f2156069d05b6d07b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/tera_water_saw.json"
+hash = "7fc1d2c8c120ccae9085189cd090fa2e20ff2e813f8b65dafb1529776a8f1eb4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/wishing_star.json"
+hash = "ff2f4ee2b20c67b72e3f4950975da5d5ee9d5e77dd685141d8f08414782da60f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/wishing_star_mixing.json"
+hash = "c532831c45dcca324ab908a42cc59522468ad06cdac71a9b08b757e94beedc87"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/wither_skull_assembly.json"
+hash = "1c0ef9a677fa7da83d91743ddc438a7c6b4879c11513dccd808704aa18f70eba"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/recipe/wither_skull_mixing.json"
+hash = "43880e86b4de859c9fa501accf34bfaf30c02d84779bc87236a9093f18509749"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/tags/item/diamond_plus_knives.json"
+hash = "cbf8c5af06afa371e3d1d98969ca63a68ecd9a6840bf39432c99952a6f4dd4a3"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/tags/item/iron_plus_pickaxes.json"
+hash = "54452d178ac991973eeb36df6ee904479354050e809ea58c374de8640f4bc0b8"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/tags/item/moa_eggs.json"
+hash = "15524877ba965d49c9f931e2557bb1cafd24595db0efae5aa536d0fb844497a9"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/tags/item/pokefinders.json"
+hash = "6f1eab0bbfebed8afbbc84a78603d4787c391b081370756803508fd22e433328"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/steamon/tags/item/smartphones.json"
+hash = "678ab0023c05dc78ffb447546ebc6e8b7e10492e2fcbffe4e6d88bf487135f2b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/blacephalon.json"
+hash = "6714699d2d518e889a287c0c7449c95969182859d092b28939d6ec112b37c778"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/buzzwole.json"
+hash = "72d3a4579db497840d5ddbb77c81c7b10b4abf0c45f9e131ee44b671dd1e4a1e"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/guzzlord.json"
+hash = "1c1650a6792a9754f156fe50c0a68eb9fda26d05059fbba3d6bd104ff97751ee"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/kartana.json"
+hash = "90a9ad4b936e3f3a7e34241d4c3591516571b8c91332b08d4eb318714f83b675"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/nihilego.json"
+hash = "4807d79349f0fa5369dcad0890c5cbd4a02e787ffc354a20ac0b068c4598d7d6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/poipole.json"
+hash = "c643ba304a121aaeedbdd92574866e5f76f66cab7494abe5719d9af91f1c9a02"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/stakataka.json"
+hash = "3bd5db3c9ba425f975f2ff38ff5dd25e192b26125e2ba590a95cf485167e7d3b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/xurkitree.json"
+hash = "10d7c825bfab7e3d8eac1ee73d76fedfe6b5d6dd3bdb926ea1d6326c5689fc37"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/pack.mcmeta"
+hash = "5345281ea6fdd2aa5334eb05a10bc21f3ac4a36cfd29959a4d494539d09ac108"
+
+[[files]]
 file = "resourcepacks/allthemons-x-mega-showdown.pw.toml"
 hash = "90a4e4e987b7ae510308bbe2389ae2dcf72a70fbb3e007abacef11b6d2491099"
 metafile = true
@@ -1584,1851 +3432,3 @@ metafile = true
 file = "world/datapacks/no-creeper-grief.pw.toml"
 hash = "60435af7e2a3e876327b0de2abfa623546990a39b0f4fb0890991e9030cb6809"
 metafile = true
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/accessories/accessories/slot/charm.json"
-hash = "5876ab42f50bd11d0bf1c472fee28e4cc94c44a3e966f5d511fbcf17b3dbeb6d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/cape.json"
-hash = "a5fc728789095f8b2c97ca3b9c9cdac08dd9baf60a49bf3783f89c241625d16c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/charm.json"
-hash = "1201b849ab68dd3bddb5cea8bed5c0e7c46b2f2cb59d824df7f7acaba92cd66e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/face.json"
-hash = "25a01c627f09c16e5316ba5407136db1931de720d75d3a6de5fc66c5efd6e3a0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/hat.json"
-hash = "7dd2474b173fd4c3873c3ec41341522f56e63b5c7001d8427dd9c799ae7fb1cc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/aethersdelight/recipe/holystone_stove.json"
-hash = "7012d35b99fe7b7b6369aeb291269ca9a9f9d53f14c5a3442d76bc91e4660f2b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/c/tags/item/foods/milk.json"
-hash = "9defc0c49973b639320a3e01ae44858f62b93128b7b584a9c49cef5fbbd18a6a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon/species_additions/generation1/sandshrew_alola.json"
-hash = "a20ba88cc056758c282c38d21e07721dabaaf332c9663f68925c26b5783daed4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_industries/recipe/mixing/candy/rare_candy_rec.json"
-hash = "9f36eb59897f07952619c1e72017551d383f5dc037f1b7924d0647934e6d47df"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone.json"
-hash = "0f97b114470b762acc70331d947a296dc8758e1a9cb5712867c2d087f4ef65cf"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone_create.json"
-hash = "f49366bd2504854ea3fb4e6c9d96b36b62035722c3ed1ebb5f6bf80f0bb6df50"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone.json"
-hash = "53454c6cdd635691e4b81393e47d3d2df3232413887f1c2121bc5d1c411b0396"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone_create.json"
-hash = "f269b230ef91e3d7e2557ad2a5ecfd62855feab5458f0efb1c36394457f7cda4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/brown_smartphone.json"
-hash = "2cf8a53b27fbe2057d1127dd13051948f9efac328e6b0138d4d36edf0070c429"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/cyan_smartphone.json"
-hash = "5e0b43877b78cf27eb3d1e970133a165240d0b8e5c4b6e8a90ece889452cbb50"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/gray_smartphone.json"
-hash = "b0ce374a59d3afa82d282d058f6d9f3a167d15487212d39ab3d5717c7f1a20ba"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone.json"
-hash = "78cd013c77693a5a0a8b21304d6e737ad01dbade13d03101fc93fd3d17f8aaf3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone_create.json"
-hash = "f012e8a16bab5b86a1c2a6e46f0e1969e6c75f4d06962df813a1f4da28f89bf2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_blue_smartphone.json"
-hash = "30d061778d9828647e18911ec2e44a48e8481b0012cc839f26dfa124d5a48cbe"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_gray_smartphone.json"
-hash = "cb5a059a926e03d3805390c6600f5336b26dabd7cfe3105dee3dcd4d28fd9b2e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/lime_smartphone.json"
-hash = "fdf16a4e9a313aa609414c84f2989e500d0034220f9a06f83002c30da7a1f2bf"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/magenta_smartphone.json"
-hash = "7b416be3c09a44c5b634da3f2e991e8905bb1f87c346e11073c445e8b5e50093"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/orange_smartphone.json"
-hash = "24b5f8d751f49391964f0966c51d313367f88568522b30be98b843cfbcb32bdf"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone.json"
-hash = "7b172f4aacd06530d7ff2f1c6558823bad3a917076d48b44d8c8e10d3a8b6e20"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone_create.json"
-hash = "36d528307ffefe5bd721e94407a29ed74fda2ff49569242c067b721bb43efe73"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/purple_smartphone.json"
-hash = "d2caf06a119570527aae2e6492f213556f931912284025dc803b605a95b3e9ee"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone.json"
-hash = "cbf308116e61d416b2d338484b35f62b1b78d29a4aa030cd466bf8b798222b65"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone_create.json"
-hash = "944ddac84f4c843c510bc76bebfbd4b440b4bafba512d17de4c67a6bd84aab79"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone.json"
-hash = "33546658f9a10a67904ca84a6e47837cfdcdfd478501e97d9eca800a26091449"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone_create.json"
-hash = "0bc88107490f390c4c08d71f874775dabd53cd839e8b0d76389f8c960f59ef2d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone.json"
-hash = "7c8a2fef532fb8a0d998f7e7b74064ae4d547e467878bba176706efc59b6812f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone_create.json"
-hash = "bb585956eae93c922a08159be579922ce29f92e0be15b6db488b14d2b5a821b5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/compacting/aether_ambrosium_block.json"
-hash = "59811909a42772364ed17814a26f5bc58a2b2ba9ecd9f7f8fa2bda05abd4d57a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/compacting/aether_zanite_block.json"
-hash = "06cedccd52b2d6bd728e86cbf3b4f0bf5855fa76d3dfd61e3e72a96b3b454a7f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_ambrosium_ore.json"
-hash = "63ea4d210d6dcb6d453347155f2eea8df6203c9dd95b74ad6457a1313ab813df"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_holystone.json"
-hash = "5c974b0a69bdb198b425bfc392c80ee38f80c83ef40aaba8855cea3a64f9df07"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/blueberry_from_poison.json"
-hash = "df0d2a7597265ea811ecd32c8d495ed11eef790ac00918906fec0623b5811b03"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/golden_dart_from_poison.json"
-hash = "79c31425dbb0ce99e025b25140fa7fdf36c2ab6a682624b859eab23987482f1e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/golden_dart_shooter_from_poison.json"
-hash = "b6404dfebe52acc27f01bc4058261989798664f4e359ff456e800d71493794e1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/gravitite_ore_from_poison.json"
-hash = "7ad17653a858133e2a0be4ae7f06361308f18f2cbbb6a7bdb06761fde43aab2a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/holystone_from_poison.json"
-hash = "295b884336c479d75aad43f3f4e7df29194df8e38d89b8a3e9611597b05928cf"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/poison_bucket_from_poison.json"
-hash = "e39d0e25f9ca7ceeb8ad65af53a9c7d6437e1bbd2b59653fdb4175a71a22ff51"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/poisonous_potato_from_poison.json"
-hash = "511908f7a19a6aada5f475e35450f552ee64a32d2ab741189058184145f4100f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/quicksoil_from_poison.json"
-hash = "2164aca3051790d35e07d0ea9cdb00e4e1d9ca912f6c236a329dfbb6f6cbe659"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/raw_clorite_from_poison.json"
-hash = "6b353637973ceafe4dc93ecb6d240ca82a582b6b33243780e610ad27821ed7ef"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/skyroot_poison_bucket_from_poison.json"
-hash = "4b824a08ac65f387e86e6c0745992cec282400aa7dddc7c0a3f50018beba5932"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/warp_stone_from_dormant_shard.json"
-hash = "554a5b8b1eed13d8eb8b179cd5546d82eb538d70ab437bf832e05dc163c1f212"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/blue_aercloud_from_freezing.json"
-hash = "32c5a6d43954707b2da0c73433ce8bc4424ca264bcaf0ce62234b1743624ff6e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/crystal_leaves_from_freezing.json"
-hash = "2e062e8a452f827da1e8959009fdea6e0285fc8e53597061682b15d7b54793a5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_from_water_bucket_freezing.json"
-hash = "7d0bc1afdc01b6db4ac163f229d3b1259d0724993b56d45535ff6bd3290b7932"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_pendant_from_freezing.json"
-hash = "78bef58b8eb4679345912e4d88ab96877d07ab1105fa661c686655e13c9fb121"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_ring_from_freezing.json"
-hash = "0bea747e0dd27877533d9d31b7406c641cd02c10ba43bcb7d0b235d1245264e2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/obsidian_from_lava_bucket_freezing.json"
-hash = "9df6aa4c98ffb90ac60b907644e92f672f6fa72c5be5c6e423048193c744216c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_enchantment_industry/recipe/infested_cobblestone.json"
-hash = "b8c2709b90b7684b03693652ee587dfde9e004fab27949dd09ad6c5b8475f316"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_enchantment_industry/recipe/infested_stone.json"
-hash = "efaa1090e9aabc99b8b3b5b134d36619959d45c266557b75f16164a73bdbed56"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/azure_ball_fill.json"
-hash = "bdda1fcf41fdde9a6452f816ee77b0944a8140c3925f5308106ae406393defcb"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/black_fill.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/black_paint_empty.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/black_paint_mix.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/blue_fill.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/blue_paint_empty.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/blue_paint_mix.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/calcium_mix.json"
-hash = "6d67d9fc35d9294606b27f3b7a6fe0188f1a6f49c36d90324f426c50849c66ef"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/carbos_mix.json"
-hash = "98b948c01f5c975b127effdb3a205a25b570e9b91de54fc6d90e911516522f3e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/citrine_ball_fill.json"
-hash = "e99acdf0871ef249f3e69c529a85f1840b93cb05a127d1eae4403621723c53e0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/dive_ball_painting.json"
-hash = "7a418e3c727aee1f0a72a3fe35997797f739cbb4f7f5e4b2d8ad0cb5e86f2e7f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/dream_ball_painting.json"
-hash = "7b155568c3f3325619e64bdc57a76492bda8cc8cb564a5f96d37b736cb17691c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/dusk_ball_painting.json"
-hash = "f1a3ba2822f81a6fe681fbc19eff05e315f267a0c451660f4fbd13338617676a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/fast_ball_painting.json"
-hash = "33eda58609a3db0e193f5662e4cefb64221fbb3fa17cc3e174431e44990cf889"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/friend_ball_painting.json"
-hash = "3b02731bbc1888f2fb25825fb3769694b5bf4245120d9fb5968abf3dc633e48b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/great_ball_painting.json"
-hash = "27cf909622940d82e7c73fbd86a8ef30f5cbf5f6ad5499376d5d1cb5e822026c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/green_fill.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/green_paint_empty.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/greenpaint_mix.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/heal_ball_painting.json"
-hash = "36b494c1f43038234553c3aba4cb49d38f599fd74cb1c5559776e6a986b563a2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/heavy_ball_painting.json"
-hash = "d8ca798791570f3f45214b883299879b2e2c864b9b54751e2b0e7e2ca36d9471"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/hp_up_mix.json"
-hash = "624abac13fe39bf1a714305f43583f2de7639d4f49699a4aab236aa9da27c260"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/iron_mix.json"
-hash = "3eee37c1356622c3199a39cb0b0ef59cf1c51b7a482b031f925a268cbc8c4959"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/level_ball_painting.json"
-hash = "168d4f79e6c3e3c207c3da86e706096499573fb2f31f12314be19fee6ed9bb2e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/love_ball_painting.json"
-hash = "0d216a80f4212eb5d7a181f44f31633d70061a43e8df2c6541772501fab33d93"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/lure_ball_painting.json"
-hash = "bbbb24e265f4c2736543b00840c5e3e4df1cad0cd82b7bf613ad5a212a4b9791"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/luxury_ball_painting.json"
-hash = "7643602e85ef6e753a1b75bc35106d6bbab6120e207c8fa801fe19b13317e82a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/molten_rare_candy_mix.json"
-hash = "580588fdb54075319eda95f35cb01ed0f0c7b2ea2c70ca21fe416aada14432c2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/moon_ball_painting.json"
-hash = "a1de5dc87be5b6facc5b67975e8a443a0e7d5b5c70a0f66afbe7e8c03745cd3e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/nest_ball_painting.json"
-hash = "a02fe93b45697afc40a41334e04cdc22f6b2ac118dc96f4d0934ab70e7c12a57"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/net_ball_painting.json"
-hash = "b343bd68c7f465316e36255e50997a2e3946d70ea7de40451c45482baa4bbdb5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/park_ball_painting.json"
-hash = "3765006fd878cd6e847854cc4f075cda3c9645e4a149587dc1714fbde03fd800"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pink_fill.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pink_paint_empty.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pink_paint_mix.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/poke_ball_fill.json"
-hash = "3466121fa2384fa0d57370ea9589f96cc6303470d4d08cd31d1bf20458c25606"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pp_max_mix.json"
-hash = "d89e3d2255e0a6b20d8c410c44fc8f1da877b5cb7b0c721fda03b60c09c7291a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/pp_up_mix.json"
-hash = "bce3459d999353e10dbd94f2656ecc7f8f05a3cfb80af8c5ce68c7e0d40e7d96"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/premier_ball_fill.json"
-hash = "4476ceb6bc4687b4a07223aafb83b0df026ec09cd1faf8271bc2b7ca9209b182"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/protein_mix.json"
-hash = "674259de92854d1c91a674cee5aabb87d960cd5635b20a0ee8362ae7b88246f2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/quick_ball_painting.json"
-hash = "9fd34984f2e2c16a2cfc2ddd0df9d9633196f662e032a8b1bb1cdbbc216e49f4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/red_fill.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/red_paint_empty.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/red_paint_mix.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/repeat_ball_painting.json"
-hash = "86e38831779bba6184ab4557e081c80751c68709552cc170fd125809ac77ceda"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/roseate_ball_fill.json"
-hash = "82398808df1d0111b02285ed77c6b1f0a8d3cf05f8f424af4f2ebaaf5aa3e939"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/safari_ball_painting.json"
-hash = "e537aadae59453732f0a8ca36a8880269dee8f4a013c1a9f5eca341c0d1a8ef4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/slate_ball_fill.json"
-hash = "e7357fd9f013cdbc3c9f77257e85531bf6fd55efaddf20e8a62c25a818d7b80b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/sport_ball_painting.json"
-hash = "1d88c95eed310ed1a10780baf56330923586451518dceb2e4359ec32f2fbaece"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/timer_ball_painting.json"
-hash = "5c3984ef1cc4102328534365ffb7166d62623737dfb3da16f40afe0a4fd7d9d5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/ultra_ball_painting.json"
-hash = "87289537bf5c1732da84f36c4456397be6cdec30bbc8104b87da8e84c9beb4a6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/verdant_ball_fill.json"
-hash = "d15abb72635114bbe666d19b1959123af396c22bdac2bb1ee65caaa5ed42f18b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/white_fill.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/white_paint_empty.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/white_paint_mix.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/yellow_fill.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/yellow_paint_empty.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/yellow_paint_mix.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/zinc_mix_fix.json"
-hash = "eb3865823bbace3eab0bc78dcab031c3cb26dcc1fb319f7d847df9c41efafbd8"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
-hash = "fa42271f92f727bbee7bdcdc2267771b8bd209c35fda4ba8ffdb48e6155abebc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_obsidian.json"
-hash = "01ef910c73f922e03c28508e973591909290eb23fc84f500231ceb22c6cf48bc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_witherrose.json"
-hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/asurine.json"
-hash = "f3ebf124b52ee42bdfd0390ac00e160ef15dbec6cda0ee619c3285a99faf4ee6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/basalt.json"
-hash = "e453ece357f4c7722b2ceaf08048bbdf0b018ab94068f7692bfd391e17fb263c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/clorite.json"
-hash = "74ea56c1d10f9144bf41f1d314b389c00b7182d564f928a0f216bb4c9539dab0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/cobblestone.json"
-hash = "d68f87b887aba15b942c12f5501b340fa39a2ae760ad65d8f3f671b7e40dfac0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/crimsite.json"
-hash = "cc37523ebea8cce94e2fe5d4dce5a108b6356b0ce5a9e86575de2a4da98abf05"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/dripstone.json"
-hash = "3c20bd0745ae09dfee9cd637e258982a6c79c9af74592d2959c454bb0a534c80"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/granite.json"
-hash = "e86276cfb104264602aeaaaa6d920447f1fa95ff751d4d8b5b7b81d87cdc3ac3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/highstone.json"
-hash = "ed9906fd20edb807e2bfa9d32bec393eb7195a0ad69fb5056709e745530698d3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/holystone.json"
-hash = "503d0edc6f6df7adaa618ed390efbef574d78de00654c57d028b5fdb05847b65"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/icestone.json"
-hash = "c3276ea47fff8726af632588f547ae73f036fd6e93fa1deb2374b9949a766641"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/limestone.json"
-hash = "22e860dd32fb80a63f82cc5873f9fe18758940c2bd835f123c9659365ed7ddd2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/ochrum.json"
-hash = "f316595b4a7f2202ce19f1df3da908e8840230f5ca2de8545de4057ecff16833"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/scorchia.json"
-hash = "5745acf9d82453887ac3f4fac1fe1445652ed508b93f1533484bbd6a1d28e3ef"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/scoria.json"
-hash = "603a111248c775f359e12d77730d27dd37172cd9fabd31b9f76e8490705123ce"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/stone.json"
-hash = "f7b62afb4ff37c3c5ef4cf7259825e3c2751be9e093081ab063faf25daa30c0f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/tuff.json"
-hash = "e822eba65a33318d736c2bac08209f4deb9b995a32d33f09653de01dba8819fc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/veridium.json"
-hash = "f1e45577f4793720ffa4ae8cee787a08137949f569dc8db6656e49c976b22be1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createcobblestone/recipe/mechanical_generator.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/crafting/chunk_loader.json"
-hash = "525014a56647a80c8933577991ae6ddb396c14525c4db5d0f2c3629a7427f4c3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/energy_transmitter.json"
-hash = "aeda5a695bf774b2b90601afdcf999d99bc62fbeb36c9a17f5882ea828f1a392"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/fluid_transmitter.json"
-hash = "85b5b4eb28f352b0f268cd5c26ac84c0bbcb97df833b6e03dbe5d68219e0f1a2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/item_transmitter.json"
-hash = "52cb5ea7ec83c22f2f4199aca6f6def07301aad4fc313e37ad90b69e51fc51f4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/curios/tags/item/badge.json"
-hash = "38c4a07f6606d74470a96fac5b048b305de73b34f52b6180061ece342f2771cd"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/curios/tags/item/cape.json"
-hash = "a5fc728789095f8b2c97ca3b9c9cdac08dd9baf60a49bf3783f89c241625d16c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/curios/tags/item/charm.json"
-hash = "605001b8eb478d74e32607b20250be010f09980123640bb010d92987fb20a313"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/curios/tags/item/head.json"
-hash = "952a8be4c0d2c449c86fd79de39829a0e8ea19d0d4e456d11816c8de6ec7447e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/blooming_sculk_stone.json"
-hash = "1c7d8d0c9d238008f5ae7e4dd4165602265b2b3a85e0177c0d1f223b8eb1b61e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/chiseled_sculk_stone.json"
-hash = "3a8bd4a5446b1585cb08cf5837a2ecc0a233ced680a57630ff0d9d73ca1d2596"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_sculk_stone.json"
-hash = "8527da74b4ae2225825f543dc09cf6df49677180c8b01b826c8bf46d5dc92e6f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_sculk_stone_slab.json"
-hash = "e7cc13ad1984027d564941915f1b32261b7597224d7987dca1ba348685aebf2a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_sculk_stone_stairs.json"
-hash = "30916c8325897d30726f9595304a4aedb41f2ead8f3dea13147e0932a5ee7131"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cobbled_sculk_stone_wall.json"
-hash = "579640313b313af9b8f776b4961df1fdd6cd3868683699d37bf316d2b7ddcf5c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone.json"
-hash = "6256de677f86cd6c1ce8aab078d5707dcd7608e20c1aad38e2b11e63397900f7"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone_slab.json"
-hash = "a455b26b22d5b43ee9b4fe04189838ca23fdab1f2296e48a63740afef51dc96a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone_stairs.json"
-hash = "66b38b804b882aec9ecb0ae92b2b42baf47554f194e9b5d7ec7cf4072394630d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/cut_sculk_stone_wall.json"
-hash = "398a93d33fcc78f0ca327d07bedbed5586a3c241b19402dd33d11fdb6df9ffc0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_sculk_stone.json"
-hash = "6292945ab6588d1b88528a9ce42e2e4410db2031612345de4ed07fcf0f2904dd"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_sculk_stone_slab.json"
-hash = "18ca8ef806e892d77cf8f26f0b93adf76396af31a51864c3d5cc011da0b181d6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_sculk_stone_stairs.json"
-hash = "c68bc10075e3e000ca6b29c8b97e37e513214243db963e3804e902152d7a31d5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/polished_sculk_stone_wall.json"
-hash = "7b532592dcdd7a6f6d32c96b8f9b0d4e4b9a1b7d9caa24b17c4bc95e7a1e4235"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone.json"
-hash = "a362f7b4df6dd20aa0b7bf309cc4dcd29e7778878a13493162d52144f2e341c4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_brick_slab.json"
-hash = "ab6d76b7be5873a3b78cad53ed9e1651248961d584237bd1bdb2cee1a284e4ec"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_brick_stairs.json"
-hash = "30ee3d4392a7894fd06190632c2951d1259cbc56b6d576841bd1c8c8783225c6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_brick_wall.json"
-hash = "3aa1a5b2417030d9289a7e9c5762a122cd5e1b96e419ef371edd9f2d7522a841"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_bricks.json"
-hash = "d0e2367c00d0f00d1bf21b8ad4aa475417591bf3d2dd315dc757a5527bb6bec6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_slab.json"
-hash = "6bb43fa1388289b7f4d646d4eab25ce9b1c3f0a08a276b030b5a91c0efad42b2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_stairs.json"
-hash = "422bff50a236cfdbdbb9c55210eaeec113148d635d432f9ae6476f0bda45fe9c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_tile_slab.json"
-hash = "6ab7786328664e9548a338f3e27728a71de5dd66fffd4ee7fa2f632bae969196"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_tile_stairs.json"
-hash = "d2cc963531c2e0fa253cf327035cebb5b809df10ea3aab88259e5031a0f21620"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_tile_wall.json"
-hash = "cf8c4db1249d8ff4c566d0d61ae5b904130b3be80d48de473a521574f77d3f95"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_tiles.json"
-hash = "6dde4589602895a395437288ef385755453a43bfe824d5265121ed0b0f1cdee1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/sculk_stone_wall.json"
-hash = "a53df930d3971921c24df2bfbf76f9c112f7bf1f7ca6210557ec70ba64900202"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone.json"
-hash = "72368c96108a367beeff5347beacf0eb27776f9ba2771d51fc42c608b53c57a2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone_slab.json"
-hash = "a19f20cbeda8545e6e5375ce58433485adbaa4895ae495f852a4fc76547bf7b5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone_stairs.json"
-hash = "648a98dc4828913e867bb4f58ee62c227b33f0770835ab0b6207593cc80e69fd"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone_wall.json"
-hash = "3b9140a83c68285a264bc36b3185df41cfe17c8cd88aec60d0a64d3e2d9338e3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/arceus.json"
-hash = "98917dd121a9fa459d4b46957f75b255db818b02cdf4462fb3b4e85bcfa0110b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/articuno.json"
-hash = "b1d7414f3818b5b2583b14a603a97a50ebf2a585877e8acd547aa95552588d94"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/azelf.json"
-hash = "24d01b59edcea95051a63c247f87e33cd4c0b6a59f2964104cfead0e90be1480"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/calyrex.json"
-hash = "2394e6c6362e77732fb3e5db3a3bff9df1e380677ebe0850a5bdfecd173c358f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/celebi.json"
-hash = "0e8aa1f9f59492a54039ce733bae8a835cbb22336a508432b9587fcdd774e34c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/cobalion.json"
-hash = "40d79965bba5a35c4fb37b9123f742f869ecd48587d0fe8b6f19b25449719164"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/cosmog.json"
-hash = "a58aa4b571ce4044e250a1605e6ac75ffc04f034fdb1720ef9ccc5be892d6124"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/cresselia.json"
-hash = "3730ad4aa8d1987627ed43964cf58252fa003ef56eb60c110a3137a72c70dd4a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/darkrai.json"
-hash = "1c3be168c56f60f05d7a92a8198fccfd71b2b208c9b1d2e9253700d6155f10a2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/deoxys.json"
-hash = "ed15285fef432229253cea76189981d5d8261499f76ef0629840659043d76390"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/dialga.json"
-hash = "144e6dd59f3457a33325d5f26f21c60eab8a7bea118af3513bc940650703ba72"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/diancie.json"
-hash = "e19b931764c7a5da82afb5390e4e1b8959d9b89bcf04a6a40eeecce6ab3ab026"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/enamorus.json"
-hash = "cf7d649c59c2b62da7642d603b4c2d668e742f305545984abb02ada94d9e4d91"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/entei.json"
-hash = "fb37de45945b595e2f26f90cd5d46d8a06dec805fc3e7d87f717d10c07d6ea9e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/eternatus.json"
-hash = "2b45dd0b7faeb0fccdc24b53171426bb08d028738db70db65f593d1279eee8cb"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/giratina.json"
-hash = "53d5b2925fbecafb106fcd92bb87bcacd867e6567bff4b9ad718f544c3a6b5e9"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/glastrier.json"
-hash = "92557a9e0eaabd52b83f978196a341196de94c8b82429c98195ca199105d4c4a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/groudon.json"
-hash = "d271c9b2cbb577a504a8fff93e4be3904ebe229cf572863406b99bd1fd6bb740"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/heatran.json"
-hash = "2a30c96ddba85848040bca03211cfd5e6e5f54b2633e70f97614ab59e4865cc1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/hooh.json"
-hash = "b867b1a0d44d0ea616b1b25337b83aa3d4b50026d57eab1791e3db92b05ade1e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/hoopa.json"
-hash = "7b2a1cd455dd87aab8e68e521f168d4f1262ab1f5e65e204b7aee28ae9f3752f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/jirachi.json"
-hash = "2fc4167d2a721fb0d8647d907964b52b01e7db95e413cefb1d266fbaac028a68"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/keldeo.json"
-hash = "7d7742d6901df8eae8756a2205e296f05e487f9b7480a4a3b8a7fc0e10c332d7"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/koraidon.json"
-hash = "d34b42c20653915bc2add2d497a04a36973ff4b2dc2d0c55f4cb9ce3807c8465"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/kubfu.json"
-hash = "76fc3a1496afa68bf4fe079e6597605c2ec80bb26ec3e40b3a1c3a191a2a9670"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/kyogre.json"
-hash = "e36a7573b8848868c8b458cb4dcb495dab91675970064f5d86f6d382f9fb9601"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/kyurem.json"
-hash = "4ae335c6f15875cf8a94f7749a14d3229f1fc78e19ea39cd4e24d1f776175fcb"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/landorus.json"
-hash = "8328cb433f8b1856563b96c89774bcdf92e4010a7fe95e6f7699cf0ca78915f8"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/latias.json"
-hash = "de6f178e697b03bc3f2c52742ceb19ff9fbd2030267e431bfced796d24fdb433"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/latios.json"
-hash = "c35364dc9284729d7373d61f404e3892231a31ce347a9c96de806a5ebebbe57f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/lugia.json"
-hash = "eda73fe537fa9e778f9d423bdad94d3213b5ba7fe6f3fecd3e0975295b2d0135"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/magearna.json"
-hash = "ca7ff1cfe8cb6b58fa6b227f2bab9b6f81b53ca2a44a2589eddfc99384434934"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/marshadow.json"
-hash = "94e76a28a81011af2ddb9ce04616d40f886626422a09a5061db528998ea44b3d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/meloetta.json"
-hash = "8d5103f7222915ab614cdc88a2c5a91eb01cad8fd0b69e2e3ff27a6c69aee86b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/meltan.json"
-hash = "514d569e3ebe9b13dcc6596c59bed493a47a1717e30212664b695519c045aeab"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/mesprit.json"
-hash = "dffef9bfc3cce32656da9300e60f5c8a98708dd7792c26314d87fa263dd7c259"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/mew.json"
-hash = "d3840170c2b1ed185280ce9ded14d99c3d1fd60ec52f5124e3eb8b6a3d26fd6c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/miraidon.json"
-hash = "c7b4f08fdebf56afe26ca78526ee4a60a115049451af8e514f13919cd8fb54b5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/moltres.json"
-hash = "55a70277080a1047499cf047971e8ced42f6d5255804ef85887ea1e64bbbeb56"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/necrozma.json"
-hash = "c98d8e444ec7c003efbf804af13db2b066d352dd1db5e9a11913b12d340d6891"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/ogerpon.json"
-hash = "c7909c0a213231dfd0f4e3130d15078212ea26f4f65efc55de2eee4e8f9f9127"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/palkia.json"
-hash = "f96a59a7c66e023a99558d151577770d03c711255f3bc12ad3ba134b7e962948"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/pecharunt.json"
-hash = "f0bf5a42670069663902ccabd8dad2f53d51cbd041dab8ff7081be8bc134c6a2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/raikou.json"
-hash = "51f4049d8e930fccb3b1cc143fe18f2aacdb2d04f6cd4dac4fa1758c0c8abd5d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/rayquaza.json"
-hash = "1ae3629d4a9f8b6310f07c50cb49b3c8c84f560778e67a685fc2c3843c793073"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regice.json"
-hash = "3b98babf6a2777ef39b8e6e1864131a4b130b5115272fdee6aec7228c75f7792"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regidrago.json"
-hash = "99a2268df527c01374070adf7f13948852f2c8714dbaef52ce8daaccc0e63c74"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regieleki.json"
-hash = "0fd52831c36f299cca791e2326d72b1b559fd40dbe6a2b5f61806402b8949c78"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regigigas.json"
-hash = "52ba9259927f1b79640ec9fdc627622bed42f7c38d8dfbd3e45ff0086f4c6bb5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/regirock.json"
-hash = "82295d1717b7744e4703639170538113e158b27e3164e52167d9932a901dd1a1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/registeel.json"
-hash = "2acbfac7bc3d16cd3954b42158508ad4ae36dd337867ada7825d060a490ba38a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/reshiram.json"
-hash = "06e1f378c669ea6478a471eec54899d88b1bd1239628522892e6fed73c48ac52"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/shaymin.json"
-hash = "39b32140e7fc0ea67a77c739cb7be43f9a283eb4004d40294245f5b836ce0547"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/spectrier.json"
-hash = "40e78bfe240a462788db238a73b26b5a919b24256a326fb4b9d676eba6473d26"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/suicune.json"
-hash = "aecba5d5395c667b7797dabfbe3e87bd58cac22909b1400b8f544379dc7718e9"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapubulu.json"
-hash = "57e0e3767958f4cc179cc21e6696fa82c29498730961f65d03a5de11e8659cb5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapufini.json"
-hash = "0cf2649ee026ad0d88e929f2e556495ab4ded2d4cbf555e024cc4c351f3b2bce"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapukoko.json"
-hash = "1a616ab1061788af446348f42c5f1bd29864f93cb92d40537a4f659cd716e850"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tapulele.json"
-hash = "ec4581f1841b84cd3cd90ca20e62f522fc63bc111da800b429b3f8032cbb0f17"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/terrakion.json"
-hash = "7275f04c8875153861f0f96c46ff66f93072fa84f0881bb483db0d2a6ebb5bfe"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/thundurus.json"
-hash = "53d53733a6b2b7e2f5f16e7ea0b11a1ce3d812a8f6ad45a437c63e68be81579c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/tornadus.json"
-hash = "3083ba47f34383f8af0862e9992266dcf465a1a7590cfc9a94c76b6d69ab62ee"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/uxie.json"
-hash = "09fe84b8d2f3a2ffdef94c2d30632858b3808e8b78097103886380bf2968ce4c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/victini.json"
-hash = "3bace5543ebd26a6caae8e1eb7300a1dd30a8213634ee34357d5cf99a5a03907"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/volcanion.json"
-hash = "9f8e56fb15bb960e1917d589ea23e5c6058e368d130580340cb17a1262201924"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/xerneas.json"
-hash = "69a7dbd3096427aad786f8e782a5e854ad7eb95a0276a8f13e79983b0860d5b5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/yveltal.json"
-hash = "b7167652714f85e18fc77ccfe57c72d6a74994a1bcdeeffede02e8b0f217dded"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zacian.json"
-hash = "3e9d4b794b283a8a24fd3a74bb766feb701ba974e58071d8bbe6c1c9bb3db064"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zamazenta.json"
-hash = "c52221cbec932a499aa25854b9e626a6be0ada717bad932a91adc63d82e3ec6d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zapdos.json"
-hash = "7b0142d6f55bc3cf3028c85a2a4508f73979629f61ec595b4ef9d2894b51d9c3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zarude.json"
-hash = "0e4d5ae0cf2933532b539e7da234937cb79ed1ab4ec34d55cd999d1cac8f7a96"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zekrom.json"
-hash = "7003d6817e9da88db4bad260df30385f13939331959820a09fe760e0e7960877"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zeraora.json"
-hash = "ed447a855aacd2a08d2e7c7932b62858c31ebfe256990cefe85e6ce8d500064d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/zygarde.json"
-hash = "42182334fec896fe22842b42a0101601b476624d16a4e494964d69bfc9de51af"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/mega_showdown/recipe/zygarde_cell_create.json"
-hash = "06ef45cd9583f9325dbbc3d15216c36f08dd0bd4563cdb254d9bc3f0b9bd029e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/disc_fragment_5_create.json"
-hash = "690b105c8ec3214f3fed404d31fd37157cd74c3cb20972681694f99d9b83e0de"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/enchanted_golden_apple_create.json"
-hash = "88b59a2a31eae78b015575a39dbbdbe9e03f0916ca6e5e812c89bb580464abde"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
-hash = "f74498097708215ee46031db7467ce3abed880ed8188eff156e81993d9787e31"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/brutebonnet.json"
-hash = "a839195b21e28a2aee85366f02dc1f3e925b6eeb7e6cea69dcbaf68f35ec7ad2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/fluttermane.json"
-hash = "b44fdbf005010e37d3bb6f8022c256c27644724011711165c4eba7e3fbfa2b00"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/gougingfire.json"
-hash = "30f1f295b73b5cb17c06123f1138bf246be7c2379876e36ae69242c451b60ac6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/greattusk.json"
-hash = "27cc35efdbb822e3d49892b483e1da4d2f114f19146b80cbdd8efd92790b371d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironbundle.json"
-hash = "2028a36051dd67d3ac4bc8abe402c812421655397786e5388b39c0c232ca9b54"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironcrown.json"
-hash = "ed8c9f8ca047913b729f21a31aa1b03773e9b99cb162e352949d452e26c7f9c5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironleaves.json"
-hash = "5758a4852fd08e4cf6a1099530301b42459e2552b079083c616f1d51068464a0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironmoth.json"
-hash = "3d0e21e36ca0d245473cbd239faa16e6e2fdb4c5bc92fd8c46252026d5dcb476"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironthorns.json"
-hash = "91844bdce01e930ab453c164f3862385e21e3503fcdf4fcb6e8b4c8af69798af"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/irontreads.json"
-hash = "8641741b5796375242393c5e6b4324d170726b4b444d0311408ee8e297024831"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ironvaliant.json"
-hash = "099e3d7aa4cc2446e9f0120c8ace8db6b8e991fce4a42ded5042efce23595eed"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/ragingbolt.json"
-hash = "a50fe75367317d68b23a8315e2dff0bd771f180ed6d4753e674d18e2b643e348"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/roaringmoon.json"
-hash = "58b154f3874727a660f0d9faeff1954748ab581482d61aa4943ed641ee97cf8a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/sandyshocks.json"
-hash = "6923c9675453efdbbfeca4b00ee3aa841cf72769032f45a70b264dace0bfbc5d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/screamtail.json"
-hash = "c67766bfd575513389748726ed528e75c756ab15625463a02c41764a045c8c27"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/slitherwing.json"
-hash = "ad73825c5bdca5abf8631efa8f99e33ca6d73e54e2f41d5a1378162d3301df2b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/walkingwake.json"
-hash = "4718336192c573ca4b80ae2efd3cb8854fc5f3c1aa7b4c7368f99ee5485a6e4b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tm_blank_create.json"
-hash = "a041903a99873e9b975b47e49ef29c4b2f3a3abbd2310f3e83d55d1f0eaba44e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tm_blank_soap.json"
-hash = "1e06246c860cde23f26e5e852aab1cd99eb1f113374a25bc04de2c2fdac446af"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_create.json"
-hash = "5e94c98d1aa6ff4af242bbe3dac99dcc13d0bd55763fcc42a75142bd7c7643af"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_soap.json"
-hash = "825aef5e513bbf4daa21e8eb2e641f891b6ac448f25fe66d79f860b9c15d46e2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/curios/entities/player_badge.json"
-hash = "44fbfb2953afdffa1b2784d595fc0c66c8bf8893f746877bf4a64b3d066677e9"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/curios/slots/badge.json"
-hash = "cfe316f4c1ac8b7252efb9c9e629ea1fd6d6ec614404b11b1860ac71d9ce1b6a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/function/disable_end_tick.mcfunction"
-hash = "01785ded93410f601df3d27f76ac6cfd792266b1930c07abe7de0964b27ddccb"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_crops.json"
-hash = "1bc6b34ee18a50b180591289113f40c24cddc889fdf5223967e282461238ec27"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_flowers.json"
-hash = "2da4a6914822dac3fdee6a98bcd157b7146d2a886919a8b8e614a1e2687df8e9"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_leaves.json"
-hash = "2e83ffada64f8e2195dbd95606c87fedb34e829968002f81b4025f17c2f61921"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_logs.json"
-hash = "a82f526983d3dbc6ff38f66a1fa4d5e1e91dc238c48bdbf8722c1b9e3b8e24d1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_saplings.json"
-hash = "165d400df67b67c83b03d00a899cf34f3800b1e7082f03a76da0f819b00cb194"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_crops.json"
-hash = "02c046ed123c9dccaed94987e1111dc0b12eeed30a4e8a60fa6a970e0a47a7a4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_flowers.json"
-hash = "b39fb95ef693ccbc58c159bd0d4def8054b957f246cacde33aa60f13ce769b35"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_leaves.json"
-hash = "80e81d2cecdca409b3b991d6819338bf918c3172b7b1e375e4e653e20af4e818"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_logs.json"
-hash = "af433c6192aeb28198f078184cc8215fc4be3216aca51e0c82e5860a151ac7e4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_saplings.json"
-hash = "45147de1701d26ae5bb1c5f032e8d1229ae976b2831be31acc506fe3f268c977"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/badge_case.json"
-hash = "482db6a664b8c7331b2f5a0d8ab253215d9083b9119ae70fe9a97e0efad3d67d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/big_root_cutting.json"
-hash = "0df6be78ae857ccfb42b882070a06b1d41413c75daf0828338eff8c3c4993a15"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/blank_z.json"
-hash = "bdb3be849e6abb8ac9b311ada03fbfd1a190a350c8a7834c6b9d32b9c55cb3bb"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/blank_z_deploying.json"
-hash = "fa67e48de6423fe8478679fedcedaa330846268db14c2cf36e1bf9a53b025f6e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_crushing_nautilus.json"
-hash = "6a5b21e1cff7dd6e3be7c2257ce3f677661e6430ad3abed015936c6c6d2994d6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_crushing_seashell.json"
-hash = "44c8d3913d207b38e0373ca7045939d15c205959c72620e336b5f402c55d66ed"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_milling_nautilus.json"
-hash = "b144ec55c83d9263596e3e0970a1607e28b504d34a9431b4e80906b917c93e22"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_milling_seashell.json"
-hash = "c9689abf3cb4cc3677489f7b6592eaa6163bc28998a426d1ce0f9d39ce3ec05a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/blooming_sculk_stone.json"
-hash = "4ea9439f5d3cb20b251a592b59758e686b5b616a4f9a02a2b14637e02eea53df"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/chiseled_sculk_stone.json"
-hash = "9bd143a6bbc16c06fd50dacc7b1d22880dca35a96219965e0eb06d58c0ad5d8a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone.json"
-hash = "e80136ffcaf7037c83e0149c5817c518a3c983b63e513770b45200ddc328ad9f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone_slab.json"
-hash = "eaf3b95f4228a3b4f0b5326874a323713dc754d83731d79a81270cd1a7bd0c25"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone_stairs.json"
-hash = "2e3cd7e79230cc311a042c1dfba312d7ddb93453f495c7f23885a2d68c2c3c3e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cobbled_sculk_stone_wall.json"
-hash = "eb3f22b7ab44dc6f17fe5eb69f3171f7f76fff268a520696ddcf87db0f2660c1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone.json"
-hash = "ce958c775482db23f2a1ce7d38b85fce3c9110f1536084f7b0eda463e1e1ffd0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone_slab.json"
-hash = "b5f6d9bf793350b716584f25965c4d1f7009854f7b7223c7ffa04390630a44d4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone_stairs.json"
-hash = "c677f87e652f9c0d1d973be7c19bfda054f4743c19298fa6e129bb17e58a1e12"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/cut_sculk_stone_wall.json"
-hash = "0de51280f1040ded5de73da3cf695eefa0f2f51a00c17bc107979ae02082f6e4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone.json"
-hash = "0ed7f7d2e266315deab73ff01ac891e065bc4da4f970c1f7084b2028d61d1426"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone_slab.json"
-hash = "00686dbff2e1523284cd3cee9838c12ae506246b43eed242bfef336dc152a982"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone_stairs.json"
-hash = "a68d60b4cacf65bfae8ef246a8ea3fa2150215aeb695591485b0504bd9979d6f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/polished_sculk_stone_wall.json"
-hash = "0929dea771df8566ad2bdc9e75e1317c6f7ae6c26fe551fe60a228c0d2f496bc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone.json"
-hash = "3131c75165210a199e93530eafa11af2753e8930506056f4581ed4c8da434e4d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_brick_slab.json"
-hash = "7f8784fe4dbe6447787f8dd02875038dea5e210748f96e996bbc8aa1da99a980"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_brick_stairs.json"
-hash = "ef66f0b1d42bb1b03fbc4147457e742cdceba603bd8c45a70a8d0c67ed258aef"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_brick_wall.json"
-hash = "f637f2c90da6e55dac3551a3cb7b9bee723aec6d061944d7419098b2c4079825"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_bricks.json"
-hash = "528d8f013ff82e4c2828bc0c04aca4c6cdf99ae9912f480503af0bb649dc951d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_slab.json"
-hash = "581bc7443f2bdb8105f1b734d474696908e79f56688e43c1b3950127dab93a42"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_stairs.json"
-hash = "1544e4da124d03b952206b57c6f0350c2e94b9e1271138c6cc12e6c8bf4ebe7a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tile_slab.json"
-hash = "9f03ec8f33849782a522a8f8126bcf5976d71f7d391b0bbd7daae5a731751ee5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tile_stairs.json"
-hash = "1fc09257be5f5335bb5e88357297273d5835ae8821fe8b1189e68bcc4f5b57bc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tile_wall.json"
-hash = "8f059204143baff6b4ab6c056f78797cec2a7e19e548534e17e44415ef654af5"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_tiles.json"
-hash = "167bd2711a4e577aef0f0068113396f621cc514c390b57758f06f84bf6db3e05"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/sculk_stone_wall.json"
-hash = "b9532e36b60b648107fbbf5151d34bf4ea7d8377282fa109ee6d5e7ad87357b3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone.json"
-hash = "94c74483509af499068f2f2a6a1da5f9dc54949c96ffb0f508405c84d627910f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone_slab.json"
-hash = "7274146902010fef584823c028cc7bd4632c2e71fb5b7d4b0398b05ef5b8c742"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone_stairs.json"
-hash = "932169c88823b0338679b717c568914ef6489e36257018d92de09a62a99340ee"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/smooth_sculk_stone_wall.json"
-hash = "be40ff2c5d9176c792368156410bf449c109ae967083a382f9bd28a4055ae468"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_black_smartphone.json"
-hash = "e389eb047444fb668f2b9eeb06ba9918694f650527ce8c97bd2f2ac5d165f083"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_blue_smartphone.json"
-hash = "e3cc4c7e3f27a10e96e29b9c39a3bb415658cca615c864e85234068955997981"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_brown_smartphone.json"
-hash = "1712a64f5c494e5f40219d1f0939c50207f4aaf5699d5fbf353341c8f3978f99"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_cyan_smartphone.json"
-hash = "e28381242223cf62bee9f282c6cf18075c857ca47469070e86bbf5c5ba9fc252"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_gray_smartphone.json"
-hash = "649f838712d711a8789363593563f738dd4eefa08237a870b99c856ceb74c414"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_green_smartphone.json"
-hash = "dc44704a49fb874ccef6b8992b57e1e90977cfe7260a1ced8ff0655e8765b802"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_light_blue_smartphone.json"
-hash = "521df3ecab58d8ac1d7baae81919c8f4a52ff35d568f35a4fccd253b474b10da"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_light_gray_smartphone.json"
-hash = "bdb58dc6d3fe463522e651cdeed9b1516db895a8d89385a0927c45a226c48080"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_lime_smartphone.json"
-hash = "f66e15710c8bb54612d3c71d847ee835c1a1d3f44bb320c0fafc853935adf179"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_magenta_smartphone.json"
-hash = "5edf6276c57dded48b7dfe911b1405edef5c88019f9fde9cd296a543c0c46af7"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_orange_smartphone.json"
-hash = "10a5034f2242a32c90020dfa6596c3a80c3dc61c6ce5208a3051109e0cfb33b2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_pink_smartphone.json"
-hash = "ae9e47d796a9d55dae5ef5fb7d2e0783891bb199644218833faa7cbb39f2adac"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_purple_smartphone.json"
-hash = "1e87048097f055e5704a5f23029cd201dc1541fbeefb2da3c3e25c6d1e588b9a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_red_smartphone.json"
-hash = "9f3231bdca16f4e36bb18d403d44bd6b7fd448e79af2488c496519f58cb399ec"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_white_smartphone.json"
-hash = "f65206e6a8cc803d88ae25a2cfdfcf5e691366352814f65853f97a1f4c5dccd4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_yellow_smartphone.json"
-hash = "05941104959b7791e42a89b46d2a98d3fe83bd6d19c363b9bb2fb6f888446782"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_crafting.json"
-hash = "da539c5200bfdf490bf5f514ff1b9390b85b0eb9967ba3dcf7e56cf4cd2ff62f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_deploying.json"
-hash = "22f502c2e47e2260d11252bc5c624dcdded7a3bb85fcd203a455f68e333f25dd"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_from_heart_cutting.json"
-hash = "1aa0042f8bdfed4c33aa0524cd822ca1b63386ae32293ed33ed5ca6836c9c6af"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/energy_root_cutting.json"
-hash = "6c8c4163b64a27fbe61128be09f00c08d2d35192c3f75f3c016a0579690628e2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/everstone.json"
-hash = "3493a82dffbfe3aa84721e31ffa584a01679204d630f5e1ee2cab76c88e9b2c1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_bug.json"
-hash = "c45320072637167cf150e4a5e10cbb09c44b26d4a102a22df355826b4d8c878c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_bug_from_shards.json"
-hash = "c019010b3f59e67e914b868333a5d1e43f7703eaf9464bb145398fb4c6b53146"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dark.json"
-hash = "387ae4aaaed954db801f3764f106412060d833ac8019bc331379023d2c67bcce"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dark_from_shards.json"
-hash = "142d6d4f201ebfa5d3943143210593f9fc708de24fb9f8a169a4df48124ec2a2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dragon.json"
-hash = "6f3f294ea7fd3f9215d464ef208e5c6082c9c7bf00eaad7a8771ae242fd70043"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dragon_from_shards.json"
-hash = "3784021e4a7d55ee385f482b09fad2491cafc265d08e9752aff41dcd6eae8504"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_electric.json"
-hash = "9c8b1261ebf0ea8a38c55b4840ecab5c957659501f51bebf5fc4ada204f338fa"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_electric_from_shards.json"
-hash = "ee75c12c43e9b202677e599af52b9ab01bcdaaa4f127d45d9095c345c5a7f430"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fairy.json"
-hash = "8f2fc280a1db20890577b5dd9defa2c5535ae729921c17520d5cf124e0488817"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fairy_from_shards.json"
-hash = "6bb057ca26973d71f76021ea8c4abb16aefd55c2026fdb557a2e09a3d41d5a55"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fighting.json"
-hash = "75926d4da511c9cb56536fefd394d2cac7291f0e012f7af38b37d146da49d68a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fighting_from_shards.json"
-hash = "63cf1993a05797ec3506128893c83d1c7018c6c8def5d905fd25b2de58c6e029"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fire.json"
-hash = "73b3a4eb68da5d50cb7afeacac5209b0ed9d02c40a038353ff7b16e32d1c84dc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fire_from_shards.json"
-hash = "7d6344b4aae86234dc0e9522cc7069d3c94deb638d1805df1e2a5c95549d0cc8"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_flying.json"
-hash = "85ee0c774e8a9afb0079d36ffcdb03cc5bec148deb5f5c1ba4c406873e41b515"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_flying_from_shards.json"
-hash = "a0e0193617e2292aa76a950d230ba27cd5bf37a32661cab67df2f9653c73205b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ghost.json"
-hash = "7beb60de5c599e6e35c7a2e9fff19bc3fe771223888a456c6b53126f6c5291ae"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ghost_from_shards.json"
-hash = "aa03d19df1b92c9c0d91b32d494bc457858e9b4e2cc7761d4f250a60d45fbed9"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_grass.json"
-hash = "5fe0d51439d6863eda4601c90832d3fb187da71f0872e122df58a764ffaeff7c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_grass_from_shards.json"
-hash = "c230e9ddf48e89f1f0c5f3074bf4a3d2090182e7140cd76616df31c738200d15"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ground.json"
-hash = "5c3ad94238cfde7d6d05cde8b98f70439315062a1e6361d9e80e04808ca3d551"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ground_from_shards.json"
-hash = "360862ff0405f6032eebaab7dae0bddaf48a7c9bc44cdf0ac42fa614f8b445c3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ice.json"
-hash = "bc1a70d84454ba26c4e7358c0db949db4d697278056b8ef28373144a179a9ce1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ice_from_shards.json"
-hash = "dae08f94b1db7e944a1499cf315342e286291f6e342028e2648e514c8534e3d0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_normal.json"
-hash = "b82cff4813ab89f84a643be8a9cab301269ba8702b6dd485f8eb63914cd1af8e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_normal_from_shards.json"
-hash = "acb0163c8bf709f878377662aacbf5d2470d3cb346ac9d7e930b5a96121be108"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_poison.json"
-hash = "c990524a488b98148888f1859e106132f58aac28edda70e93e3364acc351f554"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_poison_from_shards.json"
-hash = "dc81e13f79070a3a47f9b545cd9d48d5014a9f7cbce973e506c838f3a365458c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_psychic.json"
-hash = "f91cbd52c7714a3ac0d1d792862262b7d3fbd242343f4d97da4384b7c1e480ad"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_psychic_from_shards.json"
-hash = "ab5ecb814efd73c6e0af96499974e8f9e5b9fe8586f3e2601a10bf9026d7313a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_rock.json"
-hash = "ea265545ee009a366f24d8d758a9fedf6e89a244e776cc838b10dc31687f3d68"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_rock_from_shards.json"
-hash = "80062c367488c77d3f4eba648fed4cdca44e6cc26294a64dfe183e81026434f3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_steel.json"
-hash = "c13d3711c12fb7b588ed4f2f2049ad23840c642671d2bee060155d81f0a795d2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_steel_from_shards.json"
-hash = "d04991a1b218042be7677a90c97f93c3cd21583b370d50ca7676ea7346525c35"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_water.json"
-hash = "1e145d3313e3ff7ffb370c2b3261f356bafc7d9706e0dda9d7b5ebec9a757531"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_water_from_shards.json"
-hash = "e464a8fb6515b09812cd48252c77ba1064be482b4a605a74321f05681a8b059b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone.json"
-hash = "d2b7a77c8bc72b937c0f4b30d87b2aa1dea688270eaeca3cf63b465b23f77d56"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone_assembly.json"
-hash = "2a68a83de90f96511d8a2fe5d1cb488573ad9928e8ef055049e6dbc001f6f26b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone_deploying.json"
-hash = "e792971503a4625c270dbff246ea05c5aa74027a2cf85a32fc714505a1bdb932"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/leftovers.json"
-hash = "fce1a6e3b1cc2f30a05989d01e422911c0351463089c8ab573b3309c4c3c2242"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/lucky_egg.json"
-hash = "bddda225ade1be379d1aa03de7a5f62dab082482e3625a394e02648cb4873aa0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/mechanical_generator_crafting.json"
-hash = "3055b364034df279f564117bb241bf49839ffda04adf51bb6c98ac7d087d4657"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/mega_stone.json"
-hash = "b6a078245cc46d696fd224cee52913f5e3986968a5791174fb62f9fea2fa0703"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/mega_stone_deploying.json"
-hash = "ec1c19743964ec879595e2145c0332ac0816b3cbf557dbd6b6e5470dbb610ec0"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/nether_star_dupe.json"
-hash = "a26151838846864431106fe250d73d936a99b48e488d74ebdfb199b04ad41a23"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/old_pokenav_crushing.json"
-hash = "1f1fa204364981615fab72014b3127260101dc22c48b76a3968419c353ff9335"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/pokerod_template_crushing.json"
-hash = "cf85ff02491fc345a7c56e470f063ee655f599b663a54aeb1ee470a17a6f1efc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/rare_candy.json"
-hash = "50edea645c3c7ee821e5e701150287483308955da19ad229d5da51e5eb1a7966"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/shulker_shell_crafting.json"
-hash = "aaed4a6d46980f803c43e1895e09ce594524e247c8f7ff7187f3b0f6ee6c09a7"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/skeleton_skull.json"
-hash = "f3f5d41f8df974be57ef71918642c6f946847787417f9f9e949e42593d10d28f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_classic_mixing.json"
-hash = "acb7158efab73423f2a1e123976c3ef0d03583ed72f26755c85b4cbf1a29a589"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_coconut_scrub_mixing.json"
-hash = "e9630a4757be4d1c47ba5c0f3858fad41d21535fefc94b7911a5f497d99aec3c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_coffee_miners_mixing.json"
-hash = "259524deaa39166881b3cd030bb52f1ee8fd4d3ede4d614a7dbc0f4779fd7968"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_honey_oat_mixing.json"
-hash = "ad7e1934b19ddd444d575d8e873b9d1f866acdd3b4ce0fe8d73aab317ed30a13"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_lavender_potion_mixing.json"
-hash = "df5284358e0e9182688c3127696139f7bf572e707a81ea1f922a8a6a8575a0fe"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_dark.json"
-hash = "50790b87744aabf907a2d1aaf956a1b86ec7f8efb69c6aa667b0156265a29614"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_dark_assembly.json"
-hash = "39e6711fc40faab19d46db85d21a38d2a224971fc1a1209d83c1e8cebabd6b37"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_light.json"
-hash = "30b03cd3841e49243a7144bdc338dee6e911825b541ee169e23786fddec9e3fd"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_light_assembly.json"
-hash = "aa69a0a69251fb394099a3cd196eb22fd372b414d9e43d6ee15e067d0d4efc14"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sweet_apple.json"
-hash = "4a3367d4cfec3715dd045bd41c6835f58fa6cc3aa0a1e9d5c263d946f4ff1776"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/syrupy_apple.json"
-hash = "5053936455dedbad51991f44f6f8e094b29d8cfbcb073bd70669b12018745bd9"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tart_apple.json"
-hash = "5a508e02297395ed3f259c41b4e1c2b29f3fedc401cbd3a6caff2c90593711e2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_bug_cutting.json"
-hash = "a2af1a8f5c6d91081bcbb62e23cf2f7e0b84b0e6b0190a4776ea32932fb45ad6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_bug_saw.json"
-hash = "269cd6503fc878d13ef3c616ddab5697ae922af1bfe4c38533f94f15f42bd717"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_dark_cutting.json"
-hash = "737f703af12f8b29ffc975abfb5d174790b927be4c2e592a3660173796a867ae"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_dark_saw.json"
-hash = "cf7b4493696f6cf7f18b51fb7c357a6e1f5e6beefbde4a7167ea8175a5bdb733"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_dragon_cutting.json"
-hash = "41397b24fe9cff0f02a3f8499101bfb9c455fb8c492fe0ad2af7c44776778666"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_dragon_saw.json"
-hash = "45206ebdaf2239ac62e10a2ce0b4d6d1c47368c7fc9c9f2f412a4bde15ea335e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_electric_cutting.json"
-hash = "ba5e04595c103359a89571561254c9332892c557fd7f67fdd82906e3af42e576"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_electric_saw.json"
-hash = "3fbd94c341043ab2253a85fed33995c26219faa57dddca8c43b759a09c6cad60"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fairy_cutting.json"
-hash = "3607e9feaeff817eb4de4a83468b0908054ba713653b524246509e9914d3b37a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fairy_saw.json"
-hash = "6ff9eeb4ecad1113e28a6d22c5d728bf8183205c3ced9242b98b564f791eb63e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fighting_cutting.json"
-hash = "70a9631f932ccb90749b5fae94d8d54ed4454efc57293fb95e92f542375e651a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fighting_saw.json"
-hash = "2a02e6774c1432813816466551f435905344f161f8dbfdfaec19a460d08e1c68"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fire_cutting.json"
-hash = "23abe0603afd5a97351b81efdb7a6ec65ff6dd499ac0c103bce0aa8c335789bc"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fire_saw.json"
-hash = "f61e44bd2012560b0901583f3b1854ce6ace792f7c97723606e37b32f3e0bac1"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_flying_cutting.json"
-hash = "4781e969b3dd343b3098719f034e3838ed1f9cfd32190eacffe20aa1bf3091ad"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_flying_saw.json"
-hash = "ffc3a51e0072394d3c8904ebaf0c9c0c67fbd7f732aeeb325341ecaaee8b1055"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ghost_cutting.json"
-hash = "f4da2ffe8a06768c211e3189b6b8bc4cb38ec00a74d040dc1b8f84ccd0dd24fb"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ghost_saw.json"
-hash = "d832a2ae90760d7f79e915288eff365e416dc9ee89b7568bd2618b0f98cc3b3d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_grass_cutting.json"
-hash = "5736c8705a27bf13ed184c3ef6c303b1be94a1c8c8ec4c119392108dd20b9938"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_grass_saw.json"
-hash = "e137915ba1e76a02e929a045607f6a08b01f1d6e26467b4d8b789089bc8070f2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ground_cutting.json"
-hash = "cd39d36a08e8dd4e62c856135f98b7a28feb6c1f9e65774ee32310f7ddaff3cf"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ground_saw.json"
-hash = "bcbcb7ec453a2c4ac98e1c15bc2a54efcd4420aaeebdef879cf7ef1c96d4bfe8"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ice_cutting.json"
-hash = "fe331c2c1652ca89f8444ed8fd80f4e9acf6382e4f920a24943249dfb509aef6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ice_saw.json"
-hash = "97aed626ac59f61f9680ab408cf8da8a9fc477eb39c4bcfc275d9c6d35270c44"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_normal_cutting.json"
-hash = "a0c6c5e4c5cedd4d7626a62464f009f0e98e553430de8acea404a113a2131f73"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_normal_saw.json"
-hash = "88296b6ec9c787689022ac0d45755a5d7001c765fa5a38467e7a91dce82fa792"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_poison_cutting.json"
-hash = "2c30449c3fa13f9b2055c7bee083e8d571c50449102b16d71609644505b26860"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_poison_saw.json"
-hash = "e4d83a0ec60de7336bc5d31802cb4cb41454c8fdfca8797c4729023c408d428a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_psychic_cutting.json"
-hash = "0f8a01f414765cbb1ba62a3fc8a38d1c32cec560907efd8fa72a79b90344930d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_psychic_saw.json"
-hash = "c58698976769b9e0d335157d6d500a8988aada2e19611f82b17955153bc1848c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_rock_cutting.json"
-hash = "f00b9238fa6566e462c90fc4cfaae1215fa41171ba42e4a513d85e106444a0ed"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_rock_saw.json"
-hash = "4de2da1ef614ae03ce80d784e1594945ab64b28a0dcd5d2128e162ad06473576"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_steel_cutting.json"
-hash = "bcc8e81e11dc81ec8c13f51197216f1318c8ddcde6744e4aee68cb10936667d2"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_steel_saw.json"
-hash = "ecd59d3641cd81b0ee9c824bbe247457eeb5cd3d5294671a6418aaccdc7d9c51"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_stellar_cutting.json"
-hash = "673408c75b8105863cb46d18942e837da208b28132845ae96bc577fb1e967476"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_stellar_saw.json"
-hash = "6ff4932ac694f14880d6d95cb9419e5d84e82aea144257ec22866a2731d8580c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_water_cutting.json"
-hash = "d70c6c3866902eec628c441985cd313a605cf3d4481cfb8f2156069d05b6d07b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_water_saw.json"
-hash = "7fc1d2c8c120ccae9085189cd090fa2e20ff2e813f8b65dafb1529776a8f1eb4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wishing_star.json"
-hash = "ff2f4ee2b20c67b72e3f4950975da5d5ee9d5e77dd685141d8f08414782da60f"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wishing_star_mixing.json"
-hash = "c532831c45dcca324ab908a42cc59522468ad06cdac71a9b08b757e94beedc87"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wither_skull_assembly.json"
-hash = "1c0ef9a677fa7da83d91743ddc438a7c6b4879c11513dccd808704aa18f70eba"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wither_skull_mixing.json"
-hash = "43880e86b4de859c9fa501accf34bfaf30c02d84779bc87236a9093f18509749"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/diamond_plus_knives.json"
-hash = "cbf8c5af06afa371e3d1d98969ca63a68ecd9a6840bf39432c99952a6f4dd4a3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/iron_plus_pickaxes.json"
-hash = "54452d178ac991973eeb36df6ee904479354050e809ea58c374de8640f4bc0b8"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/moa_eggs.json"
-hash = "15524877ba965d49c9f931e2557bb1cafd24595db0efae5aa536d0fb844497a9"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/pokefinders.json"
-hash = "6f1eab0bbfebed8afbbc84a78603d4787c391b081370756803508fd22e433328"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/smartphones.json"
-hash = "678ab0023c05dc78ffb447546ebc6e8b7e10492e2fcbffe4e6d88bf487135f2b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/blacephalon.json"
-hash = "6714699d2d518e889a287c0c7449c95969182859d092b28939d6ec112b37c778"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/buzzwole.json"
-hash = "72d3a4579db497840d5ddbb77c81c7b10b4abf0c45f9e131ee44b671dd1e4a1e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/guzzlord.json"
-hash = "1c1650a6792a9754f156fe50c0a68eb9fda26d05059fbba3d6bd104ff97751ee"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/kartana.json"
-hash = "90a9ad4b936e3f3a7e34241d4c3591516571b8c91332b08d4eb318714f83b675"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/nihilego.json"
-hash = "4807d79349f0fa5369dcad0890c5cbd4a02e787ffc354a20ac0b068c4598d7d6"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/poipole.json"
-hash = "c643ba304a121aaeedbdd92574866e5f76f66cab7494abe5719d9af91f1c9a02"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/stakataka.json"
-hash = "3bd5db3c9ba425f975f2ff38ff5dd25e192b26125e2ba590a95cf485167e7d3b"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/xurkitree.json"
-hash = "10d7c825bfab7e3d8eac1ee73d76fedfe6b5d6dd3bdb926ea1d6326c5689fc37"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/pack.mcmeta"
-hash = "5345281ea6fdd2aa5334eb05a10bc21f3ac4a36cfd29959a4d494539d09ac108"
