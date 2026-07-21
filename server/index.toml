@@ -513,7 +513,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "baad81133f5263fb4a8f88a052847766308a5ce1a0bc3cc26db429564e3d5274"
+hash = "31411fced67d5b743f6cd1ce2be55e4bce428de8df2fe38c6a39097099da5e4f"
 metafile = true
 
 [[files]]
@@ -793,7 +793,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-obliterator.pw.toml"
-hash = "7cea606e8bf0406c38b43117653a2a0a10ca433b7a292f27798e7d7801d04c6c"
+hash = "139c5ee36d4528998d33d47ec4c5538f9ce7043b2197879db5f8945e8fe991bb"
 metafile = true
 
 [[files]]
@@ -913,7 +913,7 @@ metafile = true
 
 [[files]]
 file = "mods/necronomicon.pw.toml"
-hash = "8a47f450836326fbab861a04677dee883bd01f7a34990b7a50336cb93cf64f3a"
+hash = "f4e01222594116f7ebe3bd3908ae066550172eafb9a1ef383b277be569c38e45"
 metafile = true
 
 [[files]]
@@ -1043,7 +1043,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "e81d275990e2a38497aab9b69bcacd6b799258523412c06ed0a5acb02729a467"
+hash = "2c1661e65d47c2942d2c3e926698d0762672224f1925c7f25105b964ce25b093"
 metafile = true
 
 [[files]]
@@ -1108,7 +1108,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "a4dbb6b17d7c671ad4ccce9c319ac391bed2687e0611616557909b1c84dcd31a"
+hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]

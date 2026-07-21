@@ -653,6 +653,11 @@ hash = "456e6ca92a9163946df03afc1697cdf8e58ab4f98e9ab0888b5dc6808c665682"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+hash = "31411fced67d5b743f6cd1ce2be55e4bce428de8df2fe38c6a39097099da5e4f"
+metafile = true
+
+[[files]]
 file = "mods/crawl.pw.toml"
 hash = "ba0b3dd9c3c1089c7d22f7394c4d3b1de5d67dbccb2c2a2e6a264f2e20619684"
 metafile = true
@@ -973,6 +978,11 @@ hash = "f67aa60c765593a8c70f78296a460349c6aef5f4a16d173eae02e8803b545ad4"
 metafile = true
 
 [[files]]
+file = "mods/item-obliterator.pw.toml"
+hash = "139c5ee36d4528998d33d47ec4c5538f9ce7043b2197879db5f8945e8fe991bb"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "2e16af87696f93732c20c9ee426b2e27996bee140be17c26011fe47fec586de2"
 metafile = true
@@ -1105,6 +1115,11 @@ metafile = true
 [[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "c26813c0d001083592dd7f12a1bde79972c8d24a7ea2e9dbf59f84b52cae4da9"
+metafile = true
+
+[[files]]
+file = "mods/necronomicon.pw.toml"
+hash = "f4e01222594116f7ebe3bd3908ae066550172eafb9a1ef383b277be569c38e45"
 metafile = true
 
 [[files]]
@@ -1243,6 +1258,11 @@ hash = "131ad3525a3b1a35468f734f48011e40b2a651d70403b0c33ac75fca1ad889d3"
 metafile = true
 
 [[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "2c1661e65d47c2942d2c3e926698d0762672224f1925c7f25105b964ce25b093"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "c150b2a60128cad4bd32ea0d3106502241ad234f1ad355ad3b98d0ac82324589"
 metafile = true
@@ -1320,6 +1340,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "0ff245c56546725b9d34797f701c701ba37071bceee980442a08a99fad05f099"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
