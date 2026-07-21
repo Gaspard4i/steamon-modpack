@@ -82,6 +82,14 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **Terralith** — it conflicts with Oh The Biomes We've Gone over biome feature
   ordering ("Feature order cycle found"), which crashed world generation. BWG is
   kept as the overworld biome overhaul; Terralith removed to fix the cycle.
+- **Cobblemon Industries** and **Cobblemore Library** — kept Create: Klinks n'
+  Klangs instead. Klinks n' Klangs does not depend on Cobblemore Library.
+
+### Performance
+- **Noisium** 2.3.0 added — optimizes biome/noise world generation, which is
+  the heaviest part of this biome-rich pack. Client + server.
+- **C2ME** `globalExecutorParallelism` set to 13 (from default ~9) to use more
+  CPU threads for chunk generation. Config shipped in client and server.
 
 ## [1.9.0] - 2026-07-17
 

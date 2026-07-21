@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/c2me.toml"
+hash = "94e739c13fac032df86b054bf8795f7dec98abe444567b70cd17f4ff5fa21ed1"
+
+[[files]]
 file = "config/cobbleannounce/config.json"
 hash = "bc7c31b39daaeaa6ec430beb9b1c3f94ee783056acfb18e69092b7631bcb9301"
 
@@ -381,11 +385,6 @@ hash = "63a3ec5e1ac2cb333f12a5210b67b2a7e9fd616ce1168253299bfa6a0cbdb203"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-create-industries.pw.toml"
-hash = "f920f707995d836b8d0629910557b08520d07d38bf16076098c90a99ac714d24"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-droploottables.pw.toml"
 hash = "96b1fa704a8fd2597370dee426864f9edfbbe6e103c278c5f20b959684d933a5"
 metafile = true
@@ -468,11 +467,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemonraiddens.pw.toml"
 hash = "c1e6d1661d7a1bf175cd1b8d39f4d49cdc7d47f7feebc60932a1f954c17bfd99"
-metafile = true
-
-[[files]]
-file = "mods/cobblemore-library.pw.toml"
-hash = "b65f2b09d07b8db21de571c3353a8a2d3386aa0ee8b3f5abb00d736c3286910b"
 metafile = true
 
 [[files]]
@@ -928,6 +922,11 @@ metafile = true
 [[files]]
 file = "mods/necronomicon.pw.toml"
 hash = "8a47f450836326fbab861a04677dee883bd01f7a34990b7a50336cb93cf64f3a"
+metafile = true
+
+[[files]]
+file = "mods/noisium.pw.toml"
+hash = "b3e831b3e4d6ddbf23806b0fec6087eca264af1ebc04e747c89024972aaa8607"
 metafile = true
 
 [[files]]
