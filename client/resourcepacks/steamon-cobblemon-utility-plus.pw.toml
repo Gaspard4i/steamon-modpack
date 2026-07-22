@@ -1,0 +1,13 @@
+name = "Steamon: Cobblemon Utility+ Resource Pack"
+filename = "Steamon-Utility-RP-1.0.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/kF3LxuFD/versions/yyeC4jxU/Steamon-Utility-RP-1.0.0.zip"
+hash-format = "sha512"
+hash = "f74aca8547a9d1e9e5e99536bda19536a0888ea61b21f7c9d842945cab86eec481dd441d698262c6eff643bd390ed33c555b0b81e397508a48aabf24229b533c"
+
+[update]
+[update.modrinth]
+mod-id = "kF3LxuFD"
+version = "yyeC4jxU"

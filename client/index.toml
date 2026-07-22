@@ -118,7 +118,7 @@ hash = "fcb8d3ebf0f78c841b1b6e8981ae155de102fa8c05aa4867cae9ea99c507edc9"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "9106c16f22f6a7414c8ca521bebc7ba7aa4af3aded36c088dcb7686d64aaa882"
+hash = "12529ca8d3ad9c3f2132756d0f4502eba7a6bc6f5af7fe7d6e3906ee62822c6b"
 
 [[files]]
 file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
@@ -3763,6 +3763,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/simple-grass-flowers.pw.toml"
 hash = "bc4dcbd6b77adb2180049d63ed4a8981553f06dbf3e32080022ffd87dd1fb09b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/steamon-cobblemon-utility-plus.pw.toml"
+hash = "328b16674434b33ae154b22749d5ab97a6b699755fb4b709016ad0f418bba4b2"
 metafile = true
 
 [[files]]
