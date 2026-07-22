@@ -118,7 +118,7 @@ hash = "fcb8d3ebf0f78c841b1b6e8981ae155de102fa8c05aa4867cae9ea99c507edc9"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "12529ca8d3ad9c3f2132756d0f4502eba7a6bc6f5af7fe7d6e3906ee62822c6b"
+hash = "c6eb5b5cc655b5f7947e101cd93615f53cff9ee1ac21726b11caf2761c2c0abe"
 
 [[files]]
 file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
@@ -3767,7 +3767,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/steamon-cobblemon-utility-plus.pw.toml"
-hash = "328b16674434b33ae154b22749d5ab97a6b699755fb4b709016ad0f418bba4b2"
+hash = "302c21deba4b24314d99ced7570c08b9c5fde1867935fe5a8cfcda59a4ac2245"
 metafile = true
 
 [[files]]
