@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_4"
+	group: "BF31BC8702FBB7DE"
+	icon: { id: "create:precision_mechanism" }
+	id: "320A946A705510B3"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create IV"
+}

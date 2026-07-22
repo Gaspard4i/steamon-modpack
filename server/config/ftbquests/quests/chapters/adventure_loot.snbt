@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure_loot"
+	group: "D8738BA0B5C2847A"
+	icon: { id: "artifacts:cross_necklace" }
+	id: "5EFD32D15CC97C4F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Adventure & Loot"
+}

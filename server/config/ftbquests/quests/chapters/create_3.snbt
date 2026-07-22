@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_3"
+	group: "BF31BC8702FBB7DE"
+	icon: { id: "create:brass_ingot" }
+	id: "4AC9C2A03CC7FEF4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create III"
+}

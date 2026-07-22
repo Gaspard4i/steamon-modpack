@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cobblemon_3"
+	group: "998678911BF4AE20"
+	icon: { id: "cobblemon:ultra_ball" }
+	id: "388F59E226EBC45B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Cobblemon III"
+}

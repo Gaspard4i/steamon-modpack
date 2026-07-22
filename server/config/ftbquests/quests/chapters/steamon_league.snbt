@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steamon_league"
+	group: "D8738BA0B5C2847A"
+	icon: { id: "cobblemon:relic_coin" }
+	id: "4B491D83F2C81B36"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Steamon League"
+}

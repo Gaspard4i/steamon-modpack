@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "3DBCC9E2D8397D4A", title: "Getting Started" }
+		{ id: "B203523C28886053", title: "Dimensions" }
+		{ id: "BF31BC8702FBB7DE", title: "Create" }
+		{ id: "998678911BF4AE20", title: "Cobblemon" }
+		{ id: "D387644DAE3E9886", title: "Culinary" }
+		{ id: "D8738BA0B5C2847A", title: "Adventure" }
+	]
+}
