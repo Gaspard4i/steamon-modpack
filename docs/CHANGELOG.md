@@ -44,6 +44,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **Myths and Legends Zygarde items** (zygarde_cell/core/cube) blacklisted via
   Item Obliterator (recipes, loot and inventories cleared, hidden from JEI).
   Mega Showdown handles Zygarde instead.
+- **Cobblemon Utility+ bottle caps (except Golden Cap) and candies** — the 25
+  silver/obsidian/void/shining/wooden caps plus common/master candy are
+  blacklisted via Item Obliterator (hidden from JEI, removed from loot). Only
+  the Golden Cap remains obtainable. Also pulled from the Moog's loot tables.
 - **FTB Quests questing system** — the pack now ships a quest line through FTB
   Quests. FTB Library and FTB Quests are CurseForge only and cannot be
   redistributed in a Modrinth .mrpack, so the two builds differ:

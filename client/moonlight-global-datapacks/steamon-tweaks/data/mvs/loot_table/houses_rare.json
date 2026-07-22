@@ -445,133 +445,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon_utility:atksilvercap",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon_utility:spatksilvercap",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon_utility:defsilvercap",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon_utility:spdefsilvercap",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon_utility:speedsilvercap",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon_utility:hpsilvercap",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon_utility:mastercandy",
-          "weight": 1,
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ],
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.35
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 1
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "mythsandlegends:adamant_orb",
           "weight": 1
         },
@@ -974,7 +847,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.000001
+          "chance": 1e-06
         }
       ]
     },
@@ -995,7 +868,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.00001
+          "chance": 1e-05
         }
       ]
     },
@@ -1016,7 +889,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.00001
+          "chance": 1e-05
         }
       ]
     }

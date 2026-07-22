@@ -49,6 +49,78 @@ file = "config/fightorflight_visual_effect.json5"
 hash = "9d517b6ccdb67af77d8ad79b0463d27311f169e7cda7e44dee071f36d8b1e148"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "31c39ec3fa9a0e068338269f7d9fc630d6a1af0adbcee90dc43f1bf914d50e45"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/adventure_loot.snbt"
+hash = "8ec8b378a888582ff50c06726e0cdb1341ca4f9b53abd3abd75860cda5aa8d95"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/aether.snbt"
+hash = "38853835d522cd933b931da9331da83b54c0bb6a9a009f2fe9034fa0430d91a9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cobblemon_1.snbt"
+hash = "40c5a1b66b059762baf7a840950d3edb633b0bf168ce28db77c46f255cf6b22a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cobblemon_2.snbt"
+hash = "80e7787a2a1efe2d195669c8fbfc885d7bd6967ad045fe844cbabd488918769b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/cobblemon_3.snbt"
+hash = "8ff4f062745ac5c017baa6a6146021173e2c8be66e1e33e9c952127e5f6cbf21"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_1.snbt"
+hash = "52410bf4fac27966618c0ee133133e0146cbcf2f6bcf1607760e5c2e6ca088bf"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_2.snbt"
+hash = "2d5561acbc46f6b01e6c9fa10cffde255094a0549ed7e6fc1b113da81cf93fe5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_3.snbt"
+hash = "86564bd157271be94dfaaf8e049fd92d43ed7f220276f68554611f8a41325544"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create_4.snbt"
+hash = "b1e6a3d30f9ddfa7f9352b37a09b45526a70b6d1623f52924bf6a48abf59fa14"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/culinary.snbt"
+hash = "6423f0fe1a19847957797ae9b190b5a214d7c84047a2e294ecd43bd75b28be42"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/daily_quests.snbt"
+hash = "89cb6569507fe34b6c12777f69e9704d79ce4aa19152633a8829225aa5cbc836"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/end.snbt"
+hash = "22408fdbea7e3073526379033f78936160e0dd48ef07e306954ab663137ede68"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/nether.snbt"
+hash = "3ace3203d796b9d7d95468dbddb0c943978c1c029210507138b69c33fb178009"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/otherside.snbt"
+hash = "77dd78f6aa6f56fed327ce619d6a474cb7bbe541e779160368ca6aca42b6213e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/overworld.snbt"
+hash = "8ad7d08c7c43414dc0b4518176d503b633a47b1b2f80af6e6af54b441157e0e1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/steamon_league.snbt"
+hash = "7b5c3c3c1de78cc023deede9c8ad010e2175b12a36158c00f3a192b887767b79"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "6fca2c85ba7dd3e05e57f79e617689c356a8cf231ec88dec1190cdbc4db8d794"
+
+[[files]]
 file = "config/gravestone-server.toml"
 hash = "427bdf6725b448f596e78da5108e5ae06777e4b7a24732f2e1b63621d62b1322"
 
@@ -62,7 +134,7 @@ hash = "833b5fdb1d0c6558643c582731e9aaab0bacc8cb1250fa79ef7bb0b1c400cfb3"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "af18c50493c37886b027addc069ff3f0c74fd791e09789c057b3882253252893"
+hash = "b3d3c504a842944432f5aa4f16f8bea0d0fed5375e9e1c4e39c3d0ebe7a1daa4"
 
 [[files]]
 file = "config/letmedespawn.json"
@@ -2531,27 +2603,27 @@ hash = "04dc855f9e7ba000cba1883f4e1aeea8942e29c6cfe9d4ac68948478f13fa166"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cartographer_tower.json"
-hash = "0cd18b68ea433c8f615af31177ee1685cd015b121c5a5710ef3ef5212e625458"
+hash = "7ce19c319a4ea3b6249e28cddf9eae59cb74a03cbca90b4c035da2cf4976d02c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_base.json"
-hash = "321e9f0a067d1665a20781a3c0a22400a3a0009aa2dc04d4ba12909ba10c9ef3"
+hash = "f34ea75e9430e805b5a54afc5b903086c71bd81e3ed029c2afa8e6d138270419"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_common.json"
-hash = "a241ce45fcdfd113f20af28388a1d1f63fe529725cda7f06d631de05fd89d808"
+hash = "ee63734f44390bd44f39d48f29917ef36d433d3ad32c57f13656ce03d307396a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_rare.json"
-hash = "1ac309022e2de9ca69bc25573ac746cb90bc0214095bd2d56525ad442f02def7"
+hash = "c2fc4a215cff15375e643a111d4715a6addf88b4b4ed4f7eb57439c686d1a5dc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/crystal.json"
-hash = "0e44bdc063e409b996500063d8346b7353f57457b862d939bec54bbe4bb05059"
+hash = "20c730bd1601cd511affab6a893c73ffdde8d51416f9793fb8b7bd613d02ed04"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/floating_islands.json"
-hash = "2a0f4fdf603100229c9e8897940e060becbb33561ab1b07ff71ef2603e2a0feb"
+hash = "3cbdd9fbf52a4c6bd6c1375e6c51321198703bba2f2f9ff86441385bddb0deac"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/general.json"
@@ -2559,11 +2631,11 @@ hash = "63546435d3f2d52c62e4dab5c10fc1cacf25a3cbb1612ee690fb0c20b0534281"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_books.json"
-hash = "a81ba1d1bbd2ba9d68eb572b69323047f322f9871cdb8ff2c0b228664284ec4d"
+hash = "9ec1167537994a4936c87332a194453e332f9d68260eec27d25215c32eaa2380"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_brewing.json"
-hash = "7d6f5fbf58b29ad280a3a7018d5ee44089853bb5d5a2ceba145d277661acc280"
+hash = "3ccc14586a1fda7112576650165a96c3ab85d84e1c8de6e6c699370365909f8a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_common.json"
@@ -2571,31 +2643,31 @@ hash = "f9c5c1e818f7cc9fa4b3414dc711e812465313c0448aea24c0af8b030e746812"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_desert.json"
-hash = "680acb5726f8aa71e9e8b04f2376bfd3e09b8f4d584556428586b37357dda837"
+hash = "bce789ed1301fd91f768a564b475064dd0cd12482ae2b5a0bf2da803ac9213f8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_flower.json"
-hash = "2d137f6e5737299b5e216da19400975e13712a5eb42e52ed5ab0a0dde80b13be"
+hash = "677a43bd8a741ef45bbd9b823463b435d2f073fed1a7e62400df1f2a7c90736a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_rare.json"
-hash = "43a5a0cf8764d20670ef2e60cddfa771b60730b85016e884a3144739449c6266"
+hash = "856dfb4ec8b1e3fa86164577e524cb9be88f5692a3aef87286d1bdc329190595"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_uncommon.json"
-hash = "65c53f24afbdd98cc656b4169aad6d26f284516e674dd4635fbc288e8650d545"
+hash = "3a2b02f0944ddfcd8e8fabb9e2a459d6bccc523f03ce2366127aea0e5c77e470"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/jungle_tower.json"
-hash = "211bc6dd7cdd08c071452870b9625ba1f38b4ffbffefc350fbeeba438f7dc0d2"
+hash = "467e4659e890558df70a31e2e39dd2ccae83339b103959c3e40ea8ad8b094798"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/large_carts.json"
-hash = "85bcd98858a3c12cff9be45205e86131b433be4886dabbc95e7955f83c1673c1"
+hash = "78288ab33637b131e1ed0f871b501d99f6c90e0be526e65db055eecbf0e15333"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/large_carts_2.json"
-hash = "ca76ce595a93896663082cfee2a5b527431fd8e2a796bcd32de5b0c1b8d09ae4"
+hash = "f3330d51ef267d0e6c2f12a45a1cf8c0f7f81606f4715159b061310f19d711bd"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/mushroom_pond.json"
@@ -2603,7 +2675,7 @@ hash = "14dbe7c69c7d902462472a5296e78f0ad5045004accf9915e6205fddcf69e97c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/pillager.json"
-hash = "f4ac823ab13611401a63c5b6f32a17e62488f5dd3dd66e92b4255c3c841ffaec"
+hash = "35cb9ab6cd90465b7b42c36b33bc6130486116b640309b851e0438c27064d477"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/pond.json"
@@ -2611,7 +2683,7 @@ hash = "6f07da4a0840ffc4c15a352164e9f6b9df45c18883b0917e420383d3dfc9d725"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/rare.json"
-hash = "c6adbd53bd32f0a765eedc0c2a64f15f5532de53a6a95e0a1177199660f6988c"
+hash = "5d3af2c8810baf22fe2ebaa73fdc6e03168558e6ef69a9d0d669dcaca96a50ce"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/stable.json"

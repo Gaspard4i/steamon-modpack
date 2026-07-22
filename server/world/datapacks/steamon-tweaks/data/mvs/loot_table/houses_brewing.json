@@ -565,21 +565,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon_utility:commoncandy",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "cobblemon_utility:voidfeather",
           "weight": 2,
           "conditions": [
