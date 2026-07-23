@@ -2980,16 +2980,192 @@ file = "world/datapacks/steamon-tweaks/data/mega_showdown/recipe/zygarde_cell_cr
 hash = "06ef45cd9583f9325dbbc3d15216c36f08dd0bd4563cdb254d9bc3f0b9bd029e"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/abandoned_mineshaft.json"
+hash = "93dda6f34c06cbbbe1c06b5772a748260e38e6d3e887b896b9b4410320a182fe"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/ancient_city.json"
 hash = "e7027025b8582d04db242de879287317e6f3fd66a923d75210c274359c6afb54"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/ancient_city_ice_box.json"
+hash = "e9350d60a79d09b00af2035dd49799d2c38be66504df338ff58809d4ef558112"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/bastion_bridge.json"
+hash = "ba441e37adca11a0343fbc187749ff6f7d72386dd049894ec97168785af32d27"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/bastion_hoglin_stable.json"
+hash = "6a53e918c0db05f73b31cd27205d9c35d235a68bc909a03278d60b7b69e29aea"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/bastion_other.json"
+hash = "50731e77e488ba33eab0b6256f086d6bc0419e94eaf1bbc0ede00a24546316b2"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/bastion_treasure.json"
 hash = "df6dfcdfda950505a30da6ad33cfe0b306c6ce7d812849522f17554fa900e985"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/buried_treasure.json"
+hash = "859172d74221f04e4c63b602cf00cafeb5b0f24e08636b2dcff8cb18b0b35dd5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/desert_pyramid.json"
+hash = "0b166775e55b7afc343d74535b6d182236b222e503536f554980be8a2193bce7"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/end_city_treasure.json"
-hash = "ec7ae8f221babcaab1a6e4f79e1c5bcfdf0031a19b53e52f474c62fdff64865e"
+hash = "d7392ede533e969854f60385bddfa03824c288c3180476022ea1443f346e6932"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/igloo_chest.json"
+hash = "743c2081cd6179163cf5cb86696ab81959d09385449ff350117cb948fb58e1af"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/jungle_temple.json"
+hash = "424a17db42cee62f0e623ae8519f5c81242467e99d31b5a711cb84b4647e956e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/jungle_temple_dispenser.json"
+hash = "496698ad44a3d53e0b56731ba85ddf546e6750e8d78fe53eeaa0eae81af14884"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/nether_bridge.json"
+hash = "b8391ea16936c1350369b524496af43763512be5208fc097c747f556f09cada5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/pillager_outpost.json"
+hash = "18b44c997983731dae295b455fb49befa85876cb782eb3e73cc715bad6fd5b2a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/ruined_portal.json"
+hash = "2ecb1fa4e6d2d91c2ce507a6b59a2f70ee17bd00248680dd863506367c47d81a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/shipwreck_map.json"
+hash = "4ce1b790894c62f6dd719a2410fb8f0750741926195225f5f067c78a72a6bc26"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/shipwreck_supply.json"
+hash = "ac44620fc6fc3aa2afd24f55e1b676664279124fba3f3862bd2ce145ccecb964"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/shipwreck_treasure.json"
+hash = "6cf4e28abce22ba795e05a3c8124d06ab1e4378fd8e8da9b14f53b2f92932c51"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/simple_dungeon.json"
+hash = "52ff5aa91190fc3a34ae32a3dc64eb47dc22e5e32147d5b7724cebafba199adf"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/spawn_bonus_chest.json"
+hash = "8123fc52fb714c001ba55c83f0d976d43919792e3ab5bb0b0cbe7801d27c809e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/stronghold_corridor.json"
+hash = "14167af163efa26ee1e515964cac530bb33c41a2296d3512c2e4ff75b7981cb5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/stronghold_crossing.json"
+hash = "6ff7527b90fd922cbb7ad0335f718c5c84c856156ea35fc5d466c93b59c67964"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/stronghold_library.json"
+hash = "636e78b93bf575367afecd7a3b45b1dc474ddc9469e4cafe2e00f252f9d6b08a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/trail_ruins_archaeology_common.json"
+hash = "65503a0a31db963a5d04793d4da84f5cf2db35e7fa6eebdc23699ffa3c4d2019"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/trail_ruins_common.json"
+hash = "9f4615073f36c2320c1e17abae89cc4d17c7da68e32de38691a9b1fbdf3f18e6"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/trail_ruins_rare.json"
+hash = "429cfddb7aa047a8bba6cd217c96e94b0bb171a1109ff08aee6867213dadbe15"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/trial_chambers/reward.json"
+hash = "b67ec5a5a2664861de551a264a6564a624ffddb0d8a797ea026cb12894fd063a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/trial_chambers/reward_ominous.json"
+hash = "38fbd1dea84419817bb441a40bc881e72e5881e5f8835e5c0a61196a164d9a00"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/underwater_ruin_big.json"
+hash = "198545692aaca2bc42df36a55a09e64575ebe3f572ce2551b0e1d440fc739af4"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/underwater_ruin_small.json"
+hash = "084a22115081cb9853647ab8bee4d99b28139090a488a60c04bdbaa66c763f07"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_armorer.json"
+hash = "f7e0b497033483d05b52db1d9a4b2168c3a9fad042470b373e5332e080f03403"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_butcher.json"
+hash = "56f3efc674277e7090b1fd84e92e6ccf758d5167bd739f4e2a8fafc19e2b0e4c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_cartographer.json"
+hash = "2fe44a6fcd1c3ac231a67a45e8080b6724d770b863f9274499def9783441df00"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_desert_house.json"
+hash = "fac60babc1c2a8c1a4ed86cc1e33743a9f31ab68dc6a3b44e4c64a32958ddfe1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_fisher.json"
+hash = "4f4433908e38345b79fd88a568bd7e4e8593a097b78be26842aa1504d4be842f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_fletcher.json"
+hash = "1e8c1ac02729f62d918a816d854b8cf28a02aa46245a382808e9c6c3c9dbc8b6"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_mason.json"
+hash = "7820a1538dd4758043a652cf6ff47d1eeedd9592a40249bdad3e9bfe52b0b36c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_plains_house.json"
+hash = "ab7bdb3a1e2d8fd831780f8a2320fb1c34e9a86fbb808d3eaff8a84133b7b16c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_savanna_house.json"
+hash = "a7ede753a8d8ccd4c0bc75cab0fdb5683b8c46be783a7a23c0a4da71f966bf40"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_shepherd.json"
+hash = "0b4e32a3c607a049f51c4780b5784f0fc023541221fbdfa48fe39e32fda45a36"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_snowy_house.json"
+hash = "2ac201f209858da3be741ebda5bd6a8809f798c98f9ecfdd79b0a10be513abdd"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_taiga_house.json"
+hash = "af7c156a2aeda60b73e4e38f349ca871d05847c9d41262c96404cbbc127c644f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_temple.json"
+hash = "81983183904b9ceaed0bb2689b800560e57601a3a052b4d6f5c84bb4c945c2f5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_toolsmith.json"
+hash = "8763b5e83391b6a6c2d993478ff126f0651d25dedf583fbc6f36ab6ff8396cd0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/village/village_weaponsmith.json"
+hash = "194a69e611c6fc31ffca13b72564957e666c28d1b08ffffa41a0125f43b78972"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/loot_table/chests/woodland_mansion.json"
+hash = "c3abfa4da09d9a43dc4e9c01baf921deb7f40254725efb9c43574e3715bdf6a8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/disc_fragment_5_create.json"

@@ -41,6 +41,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   /sethome /rtp /warp`) are CurseForge-only (ARR) — installed on the server,
   never in the packwiz repo.
 
+**Loot — vanilla structures now Pokemon-themed**
+- 44 vanilla structure loot tables overridden with restrained, repetitive
+  Cobblemon/Create loot themed to each structure (mineshafts, temples,
+  shipwrecks/ocean ruins, strongholds, bastions, pillager outpost, ruined
+  portal, trail ruins, trial chambers, woodland mansion, all village houses,
+  spawn bonus chest). Vanilla base loot kept; themed balls/stones/berries added,
+  rares isolated in low-chance pools.
+- **Shiny Card** (`cobblemon_utility:shinycard`) at 0.001% (1e-05) added to
+  endgame chests only: End City, Woodland Mansion, Stronghold Library, and
+  Trial Chambers ominous reward (which also gets master ball at 1e-06).
+
 **Loot — tighter, thematic, repetitive**
 - Rebuilt the 25 MVS structure loot tables: from ~73 unique items each (up to
   150) down to ~8-12 thematic items, repeated (higher weights / stacked counts)

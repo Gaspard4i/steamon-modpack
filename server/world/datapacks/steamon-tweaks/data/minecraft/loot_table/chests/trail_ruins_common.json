@@ -1,0 +1,138 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 2.0,
+    "max": 4.0
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:heavy_ball",
+     "weight": 18,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:fast_ball",
+     "weight": 15,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:poke_ball",
+     "weight": 18,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 4.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:leppa_berry",
+     "weight": 8,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+       },
+       "add": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bonus_rolls": 0.0,
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 1.0,
+    "max": 2.0
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:coal",
+     "weight": 8,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 6.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:wheat",
+     "weight": 6,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 5.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:emerald",
+     "weight": 4,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+       },
+       "add": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "random_sequence": "minecraft:chests/trail_ruins_common"
+}

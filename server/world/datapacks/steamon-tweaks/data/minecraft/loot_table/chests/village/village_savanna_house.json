@@ -1,0 +1,186 @@
+{
+ "type": "minecraft:chest",
+ "pools": [
+  {
+   "bonus_rolls": 0.0,
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 1.0,
+    "max": 3.0
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:nest_ball",
+     "weight": 10,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:poke_ball",
+     "weight": 22,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:great_ball",
+     "weight": 12,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:oran_berry",
+     "weight": 10,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:leppa_berry",
+     "weight": 8,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+       },
+       "add": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bonus_rolls": 0.0,
+   "rolls": {
+    "type": "minecraft:uniform",
+    "min": 1.0,
+    "max": 3.0
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:acacia_log",
+     "weight": 6,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 3.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:short_grass",
+     "weight": 6,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:wheat_seeds",
+     "weight": 8,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 5.0
+       },
+       "add": false
+      }
+     ]
+    },
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:emerald",
+     "weight": 4,
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+       },
+       "add": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 0.03
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "cobblemon:leaf_stone"
+    }
+   ]
+  }
+ ],
+ "random_sequence": "minecraft:chests/village/village_savanna_house"
+}
