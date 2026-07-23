@@ -1,20 +1,24 @@
 {
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:false"
-    }
-  ],
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
-    "X"
+    "III",
+    "IBI",
+    "ICI"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:air"
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "create_klinks_n_klangs:blank_ball"
+    },
+    "C": {
+      "item": "computercraft:computer_advanced"
     }
   },
   "result": {
-    "id": "minecraft:air",
-    "count": 1
+    "count": 1,
+    "id": "cobblemon_utility:ballsynchronizer"
   }
 }

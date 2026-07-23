@@ -1,19 +1,62 @@
 [
   {
-    "mob": ["minecraft:skeleton_horse", "minecraft:zombie_horse"],
+    "mob": "cobblemon:pokemon",
+    "dimension": [
+      "resource_world:exploration"
+    ],
+    "spawntype": [
+      "natural",
+      "chunk_generation",
+      "structure",
+      "patrol",
+      "reinforcement",
+      "jockey",
+      "breeding",
+      "bucket"
+    ],
+    "result": "deny"
+  },
+  {
+    "dimension": [
+      "resource_world:exploration"
+    ],
+    "spawntype": [
+      "natural",
+      "chunk_generation",
+      "structure",
+      "patrol",
+      "reinforcement",
+      "jockey",
+      "breeding",
+      "bucket"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:skeleton_horse",
+      "minecraft:zombie_horse"
+    ],
     "result": "deny"
   },
   {
     "mob": "cobblemon:pokemon",
-    "dimension": ["deeperdarker:otherside"],
+    "dimension": [
+      "deeperdarker:otherside"
+    ],
     "result": "deny"
   },
   {
-    "mob": ["minecraft:phantom"],
+    "mob": [
+      "minecraft:phantom"
+    ],
     "result": "deny"
   },
   {
-    "dimension": ["aether:the_aether", "deeperdarker:otherside"],
+    "dimension": [
+      "aether:the_aether",
+      "deeperdarker:otherside"
+    ],
     "hostile": true,
     "result": "allow"
   },
@@ -24,7 +67,14 @@
   },
   {
     "hostile": true,
-    "spawntype": ["natural", "chunk_generation", "patrol", "reinforcement", "event", "mob_summoned"],
+    "spawntype": [
+      "natural",
+      "chunk_generation",
+      "patrol",
+      "reinforcement",
+      "event",
+      "mob_summoned"
+    ],
     "result": "deny"
   }
 ]

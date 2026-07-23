@@ -25,8 +25,12 @@ file = "config/create-server.toml"
 hash = "b3a75deed8723b8bf3dbbd59d65bedd21dfa841ef1035d157abfee2b84c077e9"
 
 [[files]]
+file = "config/create_dragons_plus-aether-integration-server.toml"
+hash = "10310bf2978db94f6d2d072e6e6a7e3ee5e92066b2aff3f53b5553cfa56f7242"
+
+[[files]]
 file = "config/create_integrated_farming-server.toml"
-hash = "7ed0680872d2249a64d7e0de8c2c2eeee6361047c60c9b29c8f60777d7616887"
+hash = "3d7f61cddae2f3853ca5187dcbc3a68bc0f67456076488adfaec041f9d57b4e0"
 
 [[files]]
 file = "config/createcobblestone-common.toml"
@@ -130,7 +134,7 @@ hash = "623cdb8a59a1d77cabadaa5dbad53d0b6ae764be3941c229f988a418bd4706ef"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "833b5fdb1d0c6558643c582731e9aaab0bacc8cb1250fa79ef7bb0b1c400cfb3"
+hash = "f6a8a0934c5d15cd2833ac2cc518b43731079aae82e25fe3b6d8a72b1cf77ea0"
 
 [[files]]
 file = "config/item_obliterator.json5"
@@ -1116,6 +1120,11 @@ hash = "b63454cc671d53d523e5fa7b1dd8f9ce11cd46bb0126afb5994c13c5f1defe2a"
 metafile = true
 
 [[files]]
+file = "mods/resource-world.pw.toml"
+hash = "2d53a36511669c3972b539e9f9dadcc6fc2033635a0c6225dfe464a39f8ccf80"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "68694ce6e055f9634e73316760d02a70b55acd3834991e46d7463d3763b437ce"
 metafile = true
@@ -1138,6 +1147,11 @@ metafile = true
 [[files]]
 file = "mods/scalablelux.pw.toml"
 hash = "2c1661e65d47c2942d2c3e926698d0762672224f1925c7f25105b964ce25b093"
+metafile = true
+
+[[files]]
+file = "mods/server-i18n-api.pw.toml"
+hash = "31d81068472044cf0d69fec666a6fd24a0986d894b8b8b247763caad9fc7588e"
 metafile = true
 
 [[files]]
@@ -1407,7 +1421,7 @@ hash = "0f97b114470b762acc70331d947a296dc8758e1a9cb5712867c2d087f4ef65cf"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone_create.json"
-hash = "f49366bd2504854ea3fb4e6c9d96b36b62035722c3ed1ebb5f6bf80f0bb6df50"
+hash = "bfc83f66e011ea5e481b53fc51c60bd6385bb6be2f003f9e8742778f37416501"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone.json"
@@ -1415,7 +1429,7 @@ hash = "53454c6cdd635691e4b81393e47d3d2df3232413887f1c2121bc5d1c411b0396"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone_create.json"
-hash = "f269b230ef91e3d7e2557ad2a5ecfd62855feab5458f0efb1c36394457f7cda4"
+hash = "bf37dd6ee84199fdec7ea742d5069a4d906a446266c0efabac16c823ad1fafce"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/brown_smartphone.json"
@@ -1435,7 +1449,7 @@ hash = "78cd013c77693a5a0a8b21304d6e737ad01dbade13d03101fc93fd3d17f8aaf3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone_create.json"
-hash = "f012e8a16bab5b86a1c2a6e46f0e1969e6c75f4d06962df813a1f4da28f89bf2"
+hash = "5c831860256a89089a5bbb63a977bf6ad01f2f027090e8417c3e1858ad935511"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_blue_smartphone.json"
@@ -1463,7 +1477,7 @@ hash = "7b172f4aacd06530d7ff2f1c6558823bad3a917076d48b44d8c8e10d3a8b6e20"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone_create.json"
-hash = "36d528307ffefe5bd721e94407a29ed74fda2ff49569242c067b721bb43efe73"
+hash = "3ace6a084019f95c696a1f7783dfdc2137d173b66e240497927dd1195bf7f102"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/purple_smartphone.json"
@@ -1475,7 +1489,7 @@ hash = "cbf308116e61d416b2d338484b35f62b1b78d29a4aa030cd466bf8b798222b65"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone_create.json"
-hash = "944ddac84f4c843c510bc76bebfbd4b440b4bafba512d17de4c67a6bd84aab79"
+hash = "606a2547dfc2cd403ced5826efbdb17390003bb62b2ae1fae8044a7f3e023871"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone.json"
@@ -1483,7 +1497,7 @@ hash = "33546658f9a10a67904ca84a6e47837cfdcdfd478501e97d9eca800a26091449"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone_create.json"
-hash = "0bc88107490f390c4c08d71f874775dabd53cd839e8b0d76389f8c960f59ef2d"
+hash = "6334214a2eaf4bfa2fe82548e943ef56724aa77f2e809b9a74982fabf2f48fb9"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone.json"
@@ -1491,7 +1505,7 @@ hash = "7c8a2fef532fb8a0d998f7e7b74064ae4d547e467878bba176706efc59b6812f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone_create.json"
-hash = "bb585956eae93c922a08159be579922ce29f92e0be15b6db488b14d2b5a821b5"
+hash = "b2e2333df30bcea33c160b927428330b9d9dbc449a8c49376e389655c0ff66fb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/atk_bottle_cap.json"
@@ -1507,7 +1521,7 @@ hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/ball_synchronizer.json"
-hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
+hash = "70ae1a1726d67aa0011f414376441f6a8a8f668acc3c3d8581da4ff1a01b2a3e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/clever_feather.json"
@@ -1670,96 +1684,128 @@ file = "world/datapacks/steamon-tweaks/data/cobblemon_utility/recipe/wooden_cap.
 hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/compacting/aether_ambrosium_block.json"
-hash = "59811909a42772364ed17814a26f5bc58a2b2ba9ecd9f7f8fa2bda05abd4d57a"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/compacting/aether_zanite_block.json"
-hash = "06cedccd52b2d6bd728e86cbf3b4f0bf5855fa76d3dfd61e3e72a96b3b454a7f"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced/computercraft/speaker.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_ambrosium_ore.json"
-hash = "63ea4d210d6dcb6d453347155f2eea8df6203c9dd95b74ad6457a1313ab813df"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced/computercraft/wireless_modem_advanced.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_holystone.json"
-hash = "5c974b0a69bdb198b425bfc392c80ee38f80c83ef40aaba8855cea3a64f9df07"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced/computercraft/wireless_modem_normal.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/blueberry_from_poison.json"
-hash = "df0d2a7597265ea811ecd32c8d495ed11eef790ac00918906fec0623b5811b03"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced/minecraft/crafting_table.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/golden_dart_from_poison.json"
-hash = "79c31425dbb0ce99e025b25140fa7fdf36c2ab6a682624b859eab23987482f1e"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced/minecraft/diamond_axe.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/golden_dart_shooter_from_poison.json"
-hash = "b6404dfebe52acc27f01bc4058261989798664f4e359ff456e800d71493794e1"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced/minecraft/diamond_hoe.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/gravitite_ore_from_poison.json"
-hash = "7ad17653a858133e2a0be4ae7f06361308f18f2cbbb6a7bdb06761fde43aab2a"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced/minecraft/diamond_pickaxe.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/holystone_from_poison.json"
-hash = "295b884336c479d75aad43f3f4e7df29194df8e38d89b8a3e9611597b05928cf"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced/minecraft/diamond_shovel.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/poison_bucket_from_poison.json"
-hash = "e39d0e25f9ca7ceeb8ad65af53a9c7d6437e1bbd2b59653fdb4175a71a22ff51"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced/minecraft/diamond_sword.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/poisonous_potato_from_poison.json"
-hash = "511908f7a19a6aada5f475e35450f552ee64a32d2ab741189058184145f4100f"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced_overlays/rainbow_flag.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/quicksoil_from_poison.json"
-hash = "2164aca3051790d35e07d0ea9cdb00e4e1d9ca912f6c236a329dfbb6f6cbe659"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced_overlays/trans_flag.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/raw_clorite_from_poison.json"
-hash = "6b353637973ceafe4dc93ecb6d240ca82a582b6b33243780e610ad27821ed7ef"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_advanced_upgrade.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/skyroot_poison_bucket_from_poison.json"
-hash = "4b824a08ac65f387e86e6c0745992cec282400aa7dddc7c0a3f50018beba5932"
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal/computercraft/speaker.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal/computercraft/wireless_modem_advanced.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal/computercraft/wireless_modem_normal.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal/minecraft/crafting_table.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal/minecraft/diamond_axe.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal/minecraft/diamond_hoe.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal/minecraft/diamond_pickaxe.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal/minecraft/diamond_shovel.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal/minecraft/diamond_sword.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal_overlays/rainbow_flag.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_normal_overlays/trans_flag.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_upgrade.json"
+hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/warp_stone_from_dormant_shard.json"
 hash = "554a5b8b1eed13d8eb8b179cd5546d82eb538d70ab437bf832e05dc163c1f212"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/blue_aercloud_from_freezing.json"
-hash = "32c5a6d43954707b2da0c73433ce8bc4424ca264bcaf0ce62234b1743624ff6e"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/crystal_leaves_from_freezing.json"
-hash = "2e062e8a452f827da1e8959009fdea6e0285fc8e53597061682b15d7b54793a5"
-
-[[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_from_water_bucket_freezing.json"
 hash = "7d0bc1afdc01b6db4ac163f229d3b1259d0724993b56d45535ff6bd3290b7932"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_pendant_from_freezing.json"
-hash = "78bef58b8eb4679345912e4d88ab96877d07ab1105fa661c686655e13c9fb121"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_ring_from_freezing.json"
-hash = "0bea747e0dd27877533d9d31b7406c641cd02c10ba43bcb7d0b235d1245264e2"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/obsidian_from_lava_bucket_freezing.json"
 hash = "9df6aa4c98ffb90ac60b907644e92f672f6fa72c5be5c6e423048193c744216c"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create_enchantment_industry/recipe/infested_cobblestone.json"
-hash = "b8c2709b90b7684b03693652ee587dfde9e004fab27949dd09ad6c5b8475f316"
+file = "world/datapacks/steamon-tweaks/data/create_enchantment_industry/recipe/compacting/infested_stone.json"
+hash = "e0e5290ceec38046b26541a0514ddb852a8fb9c2161dbd2e84eb138e8171d830"
 
 [[files]]
-file = "world/datapacks/steamon-tweaks/data/create_enchantment_industry/recipe/infested_stone.json"
-hash = "efaa1090e9aabc99b8b3b5b134d36619959d45c266557b75f16164a73bdbed56"
+file = "world/datapacks/steamon-tweaks/data/create_enchantment_industry/recipe/crushing/infested_cobblestone.json"
+hash = "a7dfa7acd1378abe6cfed911dbd6af48e8a66710809de3d6bb7493de2042c964"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/azure_ball_fill.json"
@@ -2002,6 +2048,10 @@ file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.j
 hash = "fa42271f92f727bbee7bdcdc2267771b8bd209c35fda4ba8ffdb48e6155abebc"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/crushing_netherite.json"
+hash = "9722cf7b342b31df9c8e4d8e2d23bd35cba6d2d572b853a2e7b9fb365ca34f29"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_obsidian.json"
 hash = "01ef910c73f922e03c28508e973591909290eb23fc84f500231ceb22c6cf48bc"
 
@@ -2232,6 +2282,10 @@ hash = "648a98dc4828913e867bb4f58ee62c227b33f0770835ab0b6207593cc80e69fd"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/blocks/smooth_sculk_stone_wall.json"
 hash = "3b9140a83c68285a264bc36b3185df41cfe17c8cd88aec60d0a64d3e2d9338e3"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/dndesires/recipe/crafting/handheld_drill.json"
+hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/arceus.json"
@@ -2539,7 +2593,7 @@ hash = "690b105c8ec3214f3fed404d31fd37157cd74c3cb20972681694f99d9b83e0de"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/enchanted_golden_apple_create.json"
-hash = "88b59a2a31eae78b015575a39dbbdbe9e03f0916ca6e5e812c89bb580464abde"
+hash = "66920fcec5d7f05738b06eca1a601434c006ea902619bdb0cf71abb105e1d302"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"

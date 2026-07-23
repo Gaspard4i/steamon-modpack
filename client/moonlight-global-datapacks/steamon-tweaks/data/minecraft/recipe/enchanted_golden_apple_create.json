@@ -10,30 +10,20 @@
     {
       "id": "minecraft:enchanted_golden_apple",
       "count": 1,
+      "chance": 0.08
+    },
+    {
+      "id": "minecraft:golden_apple",
+      "count": 1,
       "chance": 0.25
     },
     {
       "id": "minecraft:gold_nugget",
       "count": 1,
-      "chance": 0.3
-    },
-    {
-      "id": "minecraft:apple",
-      "count": 1,
-      "chance": 0.22
-    },
-    {
-      "id": "minecraft:gold_ingot",
-      "count": 1,
-      "chance": 0.15
-    },
-    {
-      "id": "minecraft:golden_apple",
-      "count": 1,
-      "chance": 0.08
+      "chance": 0.4
     }
   ],
-  "loops": 1,
+  "loops": 4,
   "sequence": [
     {
       "type": "create:filling",
@@ -43,8 +33,24 @@
         },
         {
           "type": "neoforge:single",
-          "amount": 1000,
+          "amount": 2500,
           "fluid": "create_enchantment_industry:experience"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:golden_apple"
+        },
+        {
+          "item": "minecraft:gold_block"
         }
       ],
       "results": [
@@ -61,14 +67,46 @@
         },
         {
           "type": "neoforge:components",
-          "amount": 25,
+          "amount": 250,
           "components": {
             "create:potion_fluid_bottle_type": "regular",
             "minecraft:potion_contents": {
-              "potion": "minecraft:fire_resistance"
+              "potion": "minecraft:strong_regeneration"
             }
           },
           "fluids": "create:potion"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:golden_apple"
+        },
+        {
+          "item": "minecraft:glowstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:golden_apple"
+        },
+        {
+          "item": "minecraft:echo_shard"
         }
       ],
       "results": [
