@@ -1,0 +1,329 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "evolution_items"
+	group: "2A4A6BF9FB018712"
+	icon: { id: "cobblemon:leaf_stone" }
+	id: "C0157DBF045118CA"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30E9681CB438878A"]
+			icon: { id: "cobblemon:fire_stone" }
+			id: "C057447D94D4FDB1"
+			tasks: [{ id: "C0031072FA835EE5", item: { count: 1, id: "cobblemon:fire_stone" }, type: "item" }]
+			description: ["Evolves certain Fire-related Pokemon such as Vulpix and Growlithe."]
+			rewards: [{ count: 4, id: "C0740F1E619A500C", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C057447D94D4FDB1"]
+			icon: { id: "cobblemon:water_stone" }
+			id: "C01708556A75D532"
+			tasks: [{ id: "C02B83880F11D82F", item: { count: 1, id: "cobblemon:water_stone" }, type: "item" }]
+			description: ["Evolves Water Pokemon like Poliwhirl and Shellder."]
+			rewards: [{ count: 4, id: "C04A8D5DFBD38C00", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C01708556A75D532"]
+			icon: { id: "cobblemon:thunder_stone" }
+			id: "C0B04DD4EA09B946"
+			tasks: [{ id: "C0426AC304DD490A", item: { count: 1, id: "cobblemon:thunder_stone" }, type: "item" }]
+			description: ["Evolves Electric Pokemon such as Pikachu and Eelektrik."]
+			rewards: [{ count: 4, id: "C065540DD3AD80C7", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C0B04DD4EA09B946"]
+			icon: { id: "cobblemon:leaf_stone" }
+			id: "C03A7F37E2EBC506"
+			tasks: [{ id: "C0E9ADD28696BD66", item: { count: 1, id: "cobblemon:leaf_stone" }, type: "item" }]
+			description: ["Evolves Grass Pokemon like Gloom and Exeggcute."]
+			rewards: [{ count: 4, id: "C010E39893C4036E", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C03A7F37E2EBC506"]
+			icon: { id: "cobblemon:moon_stone" }
+			id: "C0E180FFE21239CD"
+			tasks: [{ id: "C0389102BA0E7FED", item: { count: 1, id: "cobblemon:moon_stone" }, type: "item" }]
+			description: ["Evolves Moon-linked Pokemon such as Nidorina and Clefairy."]
+			rewards: [{ count: 4, id: "C0053B2F7EBD9B30", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C0E180FFE21239CD"]
+			icon: { id: "cobblemon:sun_stone" }
+			id: "C0A00706F781B8F4"
+			tasks: [{ id: "C024409BC99AC55B", item: { count: 1, id: "cobblemon:sun_stone" }, type: "item" }]
+			description: ["Evolves Sun-linked Pokemon like Gloom and Sunkern."]
+			rewards: [{ count: 4, id: "C041E47C7D6B1C4B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C0A00706F781B8F4"]
+			icon: { id: "cobblemon:dusk_stone" }
+			id: "C02B4DD1205466F2"
+			tasks: [{ id: "C0FD7ED1A05D3F76", item: { count: 1, id: "cobblemon:dusk_stone" }, type: "item" }]
+			description: ["Evolves dark Pokemon such as Murkrow and Misdreavus."]
+			rewards: [{ count: 4, id: "C0D7206523EAC6F7", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C02B4DD1205466F2"]
+			icon: { id: "cobblemon:dawn_stone" }
+			id: "C0B541FA0AB01E8B"
+			tasks: [{ id: "C0A4D0A2B08873F4", item: { count: 1, id: "cobblemon:dawn_stone" }, type: "item" }]
+			description: ["Evolves gender-specific Pokemon like male Kirlia and female Snorunt."]
+			rewards: [{ count: 4, id: "C0B35CBA99C977E5", item: "cobblemon:relic_coin", type: "item" }]
+			x: 7.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C0B541FA0AB01E8B"]
+			icon: { id: "cobblemon:shiny_stone" }
+			id: "C02231F64197AB23"
+			tasks: [{ id: "C095F044DEDAACED", item: { count: 1, id: "cobblemon:shiny_stone" }, type: "item" }]
+			description: ["Evolves Pokemon such as Togetic and Roselia."]
+			rewards: [{ count: 5, id: "C0997775CFBECB8A", item: "cobblemon:relic_coin", type: "item" }]
+			x: 8.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C02231F64197AB23"]
+			icon: { id: "cobblemon:ice_stone" }
+			id: "C0BF0001E7212D0B"
+			tasks: [{ id: "C0574EF1D879D6CD", item: { count: 1, id: "cobblemon:ice_stone" }, type: "item" }]
+			description: ["Evolves Ice Pokemon like Alolan Vulpix and Galarian Darumaka."]
+			rewards: [{ count: 5, id: "C0CF96B1878BC901", item: "cobblemon:relic_coin", type: "item" }]
+			x: 9.0d
+			y: 0.0d
+		},
+		{
+			icon: { id: "cobblemon:link_cable" }
+			id: "C0FF7CD4B61A65AD"
+			tasks: [{ id: "C05D676C976B8E6B", item: { count: 1, id: "cobblemon:link_cable" }, type: "item" }]
+			description: ["Triggers trade evolutions in Cobblemon without a partner. Evolves Machoke, Haunter and more."]
+			rewards: [{ count: 6, id: "C0286AAD115B48FC", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0FF7CD4B61A65AD"]
+			icon: { id: "cobblemon:metal_coat" }
+			id: "C06ADEC2DBE509CF"
+			tasks: [{ id: "C029AB873CB194A3", item: { count: 1, id: "cobblemon:metal_coat" }, type: "item" }]
+			description: ["A held metal coating that evolves Onix into Steelix and Scyther into Scizor."]
+			rewards: [{ count: 5, id: "C02AD45DC548196B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C06ADEC2DBE509CF"]
+			icon: { id: "cobblemon:kings_rock" }
+			id: "C0219BCFF8DC8611"
+			tasks: [{ id: "C05E10B144EB2135", item: { count: 1, id: "cobblemon:kings_rock" }, type: "item" }]
+			description: ["A held item that evolves Poliwhirl and Slowpoke, and can cause flinching in battle."]
+			rewards: [{ count: 5, id: "C02DB1AFD5262A38", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0219BCFF8DC8611"]
+			icon: { id: "cobblemon:dragon_scale" }
+			id: "C00E5560A2DA8F9B"
+			tasks: [{ id: "C0F7E1305F8B8309", item: { count: 1, id: "cobblemon:dragon_scale" }, type: "item" }]
+			description: ["A tough scale that evolves Seadra into Kingdra when held."]
+			rewards: [{ count: 5, id: "C082002A23B06B1D", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C00E5560A2DA8F9B"]
+			icon: { id: "cobblemon:deep_sea_scale" }
+			id: "C0F05B7A89B4DCD2"
+			tasks: [{ id: "C0A5FAD4B959048B", item: { count: 1, id: "cobblemon:deep_sea_scale" }, type: "item" }]
+			description: ["Held by Clamperl it evolves into Gorebyss, and boosts Special Defense."]
+			rewards: [{ count: 5, id: "C0C12A659894B344", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0F05B7A89B4DCD2"]
+			icon: { id: "cobblemon:deep_sea_tooth" }
+			id: "C06733263C1ADEAA"
+			tasks: [{ id: "C02B765BA614F77A", item: { count: 1, id: "cobblemon:deep_sea_tooth" }, type: "item" }]
+			description: ["Held by Clamperl it evolves into Huntail, and boosts Special Attack."]
+			rewards: [{ count: 5, id: "C04DC065467F34EC", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C06733263C1ADEAA"]
+			icon: { id: "cobblemon:prism_scale" }
+			id: "C0AC6625DCDCF450"
+			tasks: [{ id: "C0B573978E4344E2", item: { count: 1, id: "cobblemon:prism_scale" }, type: "item" }]
+			description: ["A shiny scale that evolves Feebas into the elegant Milotic."]
+			rewards: [{ count: 5, id: "C0CAF810375BE94B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 1.0d
+		},
+		{
+			icon: { id: "cobblemon:razor_claw" }
+			id: "C00FFBD95B0ABE91"
+			tasks: [{ id: "C01B73FCCBD0AA85", item: { count: 1, id: "cobblemon:razor_claw" }, type: "item" }]
+			description: ["Evolves Sneasel into Weavile when held at night, and raises the critical-hit ratio."]
+			rewards: [{ count: 5, id: "C02C6654E0E5EE51", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C00FFBD95B0ABE91"]
+			icon: { id: "cobblemon:razor_fang" }
+			id: "C0D123A93C78E91B"
+			tasks: [{ id: "C07E7F0A2D01F03E", item: { count: 1, id: "cobblemon:razor_fang" }, type: "item" }]
+			description: ["Evolves Gligar into Gliscor when held at night, and can cause flinching."]
+			rewards: [{ count: 5, id: "C0E9C7D951EF3F9F", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C0D123A93C78E91B"]
+			icon: { id: "cobblemon:protector" }
+			id: "C0D1686A8466D43C"
+			tasks: [{ id: "C0D6A9B484BC1957", item: { count: 1, id: "cobblemon:protector" }, type: "item" }]
+			description: ["A heavy protective item that evolves Rhydon into Rhyperior on trade."]
+			rewards: [{ count: 5, id: "C0D79351C05CEA99", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C0D1686A8466D43C"]
+			icon: { id: "cobblemon:reaper_cloth" }
+			id: "C07B1164F3D798D7"
+			tasks: [{ id: "C0D085350D0EDC25", item: { count: 1, id: "cobblemon:reaper_cloth" }, type: "item" }]
+			description: ["An eerie cloth that evolves Dusclops into Dusknoir on trade."]
+			rewards: [{ count: 5, id: "C055B07F1B473320", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C07B1164F3D798D7"]
+			icon: { id: "cobblemon:electirizer" }
+			id: "C039C95AAD12DFAE"
+			tasks: [{ id: "C0BA6B5A552A278D", item: { count: 1, id: "cobblemon:electirizer" }, type: "item" }]
+			description: ["An electric device that evolves Electabuzz into Electivire."]
+			rewards: [{ count: 5, id: "C0068B3ED6B339F4", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C039C95AAD12DFAE"]
+			icon: { id: "cobblemon:magmarizer" }
+			id: "C064095BA12DD9FA"
+			tasks: [{ id: "C0C5E8625B3681DC", item: { count: 1, id: "cobblemon:magmarizer" }, type: "item" }]
+			description: ["A magma-heated device that evolves Magmar into Magmortar."]
+			rewards: [{ count: 5, id: "C009319D39207394", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C064095BA12DD9FA"]
+			icon: { id: "cobblemon:dubious_disc" }
+			id: "C0C06210015C35F0"
+			tasks: [{ id: "C0A7172AC080B4FE", item: { count: 1, id: "cobblemon:dubious_disc" }, type: "item" }]
+			description: ["A suspicious disc that evolves Porygon2 into Porygon-Z."]
+			rewards: [{ count: 5, id: "C053E1ED93BAD3C0", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 2.0d
+		},
+		{
+			icon: { id: "cobblemon:sachet" }
+			id: "C08C3D1FCC0090EC"
+			tasks: [{ id: "C0D33A5CA5365E64", item: { count: 1, id: "cobblemon:sachet" }, type: "item" }]
+			description: ["A sweet-scented sachet that evolves Spritzee into Aromatisse on trade."]
+			rewards: [{ count: 5, id: "C0413838CA6530B4", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C08C3D1FCC0090EC"]
+			icon: { id: "cobblemon:whipped_dream" }
+			id: "C0484D227131598A"
+			tasks: [{ id: "C075F27E6C81E404", item: { count: 1, id: "cobblemon:whipped_dream" }, type: "item" }]
+			description: ["A fluffy cream that evolves Swirlix into Slurpuff on trade."]
+			rewards: [{ count: 5, id: "C0BDE550EE811078", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0484D227131598A"]
+			icon: { id: "cobblemon:oval_stone" }
+			id: "C0309CA868FAD171"
+			tasks: [{ id: "C031DB53C06DD062", item: { count: 1, id: "cobblemon:oval_stone" }, type: "item" }]
+			description: ["A round stone that evolves Happiny into Chansey when held during the day."]
+			rewards: [{ count: 4, id: "C0431BB78377749C", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0309CA868FAD171"]
+			icon: { id: "cobblemon:float_stone" }
+			id: "C0407A2796080424"
+			tasks: [{ id: "C0F630F5F37E441F", item: { count: 1, id: "cobblemon:float_stone" }, type: "item" }]
+			description: ["A light stone held item that halves the holder's weight for weight-based moves."]
+			rewards: [{ count: 4, id: "C0E0943BFA98AAB9", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0407A2796080424"]
+			icon: { id: "cobblemon:hard_stone" }
+			id: "C01F5C9D9984CF7A"
+			tasks: [{ id: "C0C6C0AB3F4BF912", item: { count: 1, id: "cobblemon:hard_stone" }, type: "item" }]
+			description: ["A held item that boosts the power of the holder's Rock-type moves."]
+			rewards: [{ count: 4, id: "C0E8BEDD987103B5", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C01F5C9D9984CF7A"]
+			icon: { id: "cobblemon_utility:devolutionrelic" }
+			id: "C074A1293F773B6C"
+			tasks: [{ id: "C0EB86858331DDE2", item: { count: 1, id: "cobblemon_utility:devolutionrelic" }, type: "item" }]
+			description: ["A Utility+ relic that reverses an evolution, sending a Pokemon back a stage."]
+			rewards: [{ count: 7, id: "C052755D96A84E07", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 3.0d
+		},
+		{
+			icon: { id: "cobblemon:leaf_stone" }
+			id: "C0FD50114CA1560D"
+			rewards: [
+				{ id: "C0ED2FAB89CC33C2", table_id: "C0362F1FA7AF2A2A", type: "random" }
+				{ id: "C0D5BF3FA28FDEBE", type: "xp", xp: 500 }
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{ id: "C0025C2A68C4B5C8", type: "checkmark" }]
+			description: [
+				"Collect every evolution stone and evolution item to unlock every branch of the Pokedex."
+				""
+				"Reward: a random evolution stone or rare item plus a big XP payout."
+			]
+			subtitle: "Gather every evolution item"
+			title: "Stone Collector"
+			x: 3.0d
+			y: 5.0d
+		}
+	]
+}

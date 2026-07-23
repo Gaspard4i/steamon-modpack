@@ -1,0 +1,110 @@
+{
+	hide_tooltip: false
+	icon: { id: "create:precision_mechanism" }
+	id: "20AABBCC00000001"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			reward: {
+				count: 1
+				id: "205E93D7EC3F6997"
+				item: { count: 1, id: "cobblemon:relic_coin_pouch" }
+				type: "item"
+			}
+			weight: 40.0f
+		},
+		{
+			reward: {
+				count: 4
+				id: "2068C447D883676D"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}
+			weight: 30.0f
+		},
+		{
+			reward: {
+				count: 16
+				id: "208AD884B579781B"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}
+			weight: 30.0f
+		},
+		{
+			reward: {
+				count: 16
+				id: "207EFDF4A2DD50AE"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}
+			weight: 30.0f
+		},
+		{
+			reward: {
+				count: 4
+				id: "20D213A6857D86AE"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 16
+				id: "20EDFE265A561BCE"
+				item: { count: 1, id: "create:copper_ingot" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "2076B3EAA36532EA"
+				item: { count: 1, id: "cobblemon:relic_coin_sack" }
+				type: "item"
+			}
+			weight: 15.0f
+		},
+		{
+			reward: {
+				count: 2
+				id: "2000C1EABAD33CBA"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}
+			weight: 12.0f
+		},
+		{
+			reward: {
+				count: 4
+				id: "20D75524F8D94E29"
+				item: { count: 1, id: "cobblemon:exp_candy_l" }
+				type: "item"
+			}
+			weight: 10.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "2094567FCC273002"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}
+			weight: 8.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "20C391BCB8466FB3"
+				item: { count: 1, id: "create:rotation_speed_controller" }
+				type: "item"
+			}
+			weight: 3.0f
+		}
+	]
+	title: "Cogs and Crates Rewards"
+	use_title: true
+}

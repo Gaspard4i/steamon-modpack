@@ -3005,103 +3005,103 @@ hash = "f74498097708215ee46031db7467ce3abed880ed8188eff156e81993d9787e31"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/abandoned.json"
-hash = "1d55a2ee984a4624a0c13b0d679e3cce15ae2842b33093f56d5ac8a7a6c0203a"
+hash = "04d4b72d8bba93a20fb3000c7512fb4181f874a76724f7c4e2845c0a0035f8bf"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cart.json"
-hash = "01b42412a8756e4139e08f48ade9a1bae52f655678e013eb1d46a1507fb54ff1"
+hash = "af5210491d9d10733d23ca66ad05f3f3a9662c4417ceefd5f120658444816d7c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cartographer_tower.json"
-hash = "4e1a7e85847537044452056490df95279fef8be38695a0f7e3607d7e553f0db2"
+hash = "c6f7925e5bb8e012adaa4dea6e9c2f3d39555aa7eef2c7c290cb7068b16aced3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_base.json"
-hash = "3ff483d4d86dbdb3954965597dd467b5f3a77ad2a37d2e940eebe25aba0c80d9"
+hash = "25f13af335a48d8619be3bc83cd46ac44ef0eae0cb1a3426801721f4c653d2fd"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_common.json"
-hash = "24770eed244e3c453475fc089b350cd74ff08c56c041995eb56be9ec1ded96b9"
+hash = "fbb4c59e34f406e71d128fb1f28419db5ef64fe2d751113a82214386fcf5e7f3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_rare.json"
-hash = "01f51499b17a386b76167e62aeba651fda5d15f4918f3d772d0ffa26cb6d9cc7"
+hash = "120566f3ccac6779ddfb6bf2c0a075a49e710fc11b2eddcaa39959768e5f88c9"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/crystal.json"
-hash = "dcea9d4abad1a016513bca1f8cca687b2e95dff882731ee15a38b4ff4e53adec"
+hash = "d478007ea626d4d1d392f4084db5d08db75a9ff9c372aaad1583ec7e7c0e7a86"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/floating_islands.json"
-hash = "c04e98961860b229bbaec715f63d351d159393e08191159b5bc72b9e7f531ba5"
+hash = "505974f25201c2bee1d5c7729d6644c02efbb0c08d837867987ddb4b720151cb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/general.json"
-hash = "7371b1fdf22a4cbfa6d3aa405b8f457eb89389f6bdaafc4839033a43c7cadc64"
+hash = "825f16800a50645fef8c489d7ccd306ef231e51e5b8a6ab775bb5c13a5051db5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_books.json"
-hash = "7c1bed8df7ef079dbd735d5f211aeb2d7b996c0bbb32bf3ea751e291d246709e"
+hash = "a769f8c0a330f6caaa33d5f8652d13a71c8c7215100078db55c5ea8672da338b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_brewing.json"
-hash = "1c91ec5a08dba510c9974683fb03041d0424d12ab6c697034a6bfa2c9db26c1b"
+hash = "7695dc1c828a6e5f91c10f9eba27ac85582570439f0bd0b059f3bc33035422eb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_common.json"
-hash = "5b9f6578369dc0f78fd05d131fc390901cb0b237389ffcc5e23586f5c22ceb0a"
+hash = "020be7ae0f04b771eb3900e7fb7fcd2051d4ece33782d6b50196d6bf5cb49d83"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_desert.json"
-hash = "758c47bf1812aa93f28f0fae80334158b37ab964974ae0292ac119cfd2844a66"
+hash = "c0395a8f48af58316a966920f75a84ecffe26eef0ad212c20d61c07bf79e2fb7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_flower.json"
-hash = "259825d3eec6ef711a2917b2a43e82058f4a50feab0f064e0044de622b3a93af"
+hash = "8c3cd18f52896950eb1a0a4267e14041504cfd9c69f1971b02a2357159b7c115"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_rare.json"
-hash = "759f03f019f26e8fcb52252703cf03614ce2942ecf86171c02b1c7fc37be60aa"
+hash = "ece1a2146b46f33062e57cfb83aaffb2a6bdd413e6d49de7fad66041717eba46"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_uncommon.json"
-hash = "a447e18dc1e56a168fb6024b7758932c9d3dd6cec06a7eda5ce111156b59f91a"
+hash = "316bdd2acfd1b70315cffcc298907d34af67a0a96604397a65354cbf667a4400"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/jungle_tower.json"
-hash = "09ded29d4d754f0000a849e03c633f9900f0213325c43fe30da86cbd2c9fca97"
+hash = "e1f17426025f75613d1a6300881eee8680ded21a71e75231023a55b325212b10"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/large_carts.json"
-hash = "d4f53911a288757e859982154f993e2c5a4bb19a692091a5f268d7eb3d137fae"
+hash = "505e2b1d2686b9108ee60fd10e50eac90f393837b59f9de2cc29be5e95fe980b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/large_carts_2.json"
-hash = "dae9a220c309a3ae1df7146b7dad3d2038c4b2c6527b6796013fb3cc7f0fb098"
+hash = "239d30557ed4b8b63af4c7184f3b5595b7f3a44ebef7d64f013dac749fdd0402"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/mushroom_pond.json"
-hash = "dcfddb463c3657beef5167a4b26d39534174285ddb488d72fba5dfaacd6a5c1d"
+hash = "8844929cd87767414a55a7c9d7315b85cf3b6d71730d94a2cfcde7e243f16e06"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/pillager.json"
-hash = "1455caf27c700294895a80e070a733594069146bd5e82947e7ebe7ae0c617df4"
+hash = "c4bd4c214bdcb1019b24e2e921a81191c4b88e2280136146b8edf59f38acf3c7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/pond.json"
-hash = "a25990a0af6aa8ee1caf28fdbad91801c2124de8e416e84ab958df73028d2af5"
+hash = "67121d14a757c4d1ec51e38c91ffd99240e0b11caad978c0e563958ef6204db5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/rare.json"
-hash = "dade81f163ad36d49114be7a5f04b4873c5316d0f28e9a43bbf775b03b1c46a3"
+hash = "ae2119aaae07c0e62cc0f5689999cdb21a84e236338da8bd76faa62e9cf1f9ae"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/stable.json"
-hash = "121b980dad4c5ff22b4cbb9d8c9f454755f78e57542b218c369d166731578532"
+hash = "60abb0b025a860cd70dbcd66e7b7368f0f30eee1f746846ac6962532a01bc886"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/swamps.json"
-hash = "da186a3dca58a5598932d2486cb54ae78b8724b8316a84817cb87cdf5dd38107"
+hash = "d79912fd1dbbff9ad3a7473647609347b76fd3a6533d62d0d007a739e5b2230f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/brutebonnet.json"

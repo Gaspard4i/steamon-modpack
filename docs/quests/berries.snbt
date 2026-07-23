@@ -1,0 +1,1940 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "berries"
+	group: "2A4A6BF9FB018712"
+	icon: {
+		id: "cobblemon:oran_berry"
+	}
+	id: "612C81EB79BF4D14"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobblemon:aguav_berry"
+			}
+			id: "0786B6A084D59A9A"
+			tasks: [{
+				id: "42547665C933C293"
+				item: { count: 1, id: "cobblemon:aguav_berry" }
+				type: "item"
+			}]
+			description: [
+				"A bitter food berry. In the games it can pinch-heal HP but may confuse a picky Pokemon; here it is mainly a cooking ingredient."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F19B21D25C01D8EB"
+					item: "cobblemon:aguav_berry"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"0786B6A084D59A9A"
+				]
+			icon: {
+				id: "cobblemon:apicot_berry"
+			}
+			id: "0F46F990084649AE"
+			tasks: [{
+				id: "79D8D0D096C2004C"
+				item: { count: 1, id: "cobblemon:apicot_berry" }
+				type: "item"
+			}]
+			description: [
+				"Raises Special Defense when HP runs low, helping a special wall survive the follow-up hit."
+			]
+			rewards: [
+				{
+					count: 7
+					id: "F1B58974B2A5A91B"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"0F46F990084649AE"
+				]
+			icon: {
+				id: "cobblemon:aspear_berry"
+			}
+			id: "338F6A3444EB747E"
+			tasks: [{
+				id: "018A225AB7B189D3"
+				item: { count: 1, id: "cobblemon:aspear_berry" }
+				type: "item"
+			}]
+			description: [
+				"Thaws a frozen Pokemon at once so it can act instead of waiting out the freeze."
+			]
+			rewards: [
+				{
+					count: 2
+					id: "F1486725E9E22FF9"
+					item: "cobblemon:aspear_berry"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"338F6A3444EB747E"
+				]
+			icon: {
+				id: "cobblemon:babiri_berry"
+			}
+			id: "1FB03D40A5F26F5E"
+			tasks: [{
+				id: "5465EB18CFE77B21"
+				item: { count: 1, id: "cobblemon:babiri_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Steel-type hit. Useful on Ice, Rock and Fairy types weak to Steel."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F11CB7322A4BCDEE"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"1FB03D40A5F26F5E"
+				]
+			icon: {
+				id: "cobblemon:belue_berry"
+			}
+			id: "6DA4719DA9D3C18B"
+			tasks: [{
+				id: "2A879AF37C613493"
+				item: { count: 1, id: "cobblemon:belue_berry" }
+				type: "item"
+			}]
+			description: [
+				"A glossy, sweet-then-sour food berry. No battle use, good for cooking and dyes."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F1996153FB959512"
+					item: "cobblemon:belue_berry"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"6DA4719DA9D3C18B"
+				]
+			icon: {
+				id: "cobblemon:bluk_berry"
+			}
+			id: "1D1EE056126AAA28"
+			tasks: [{
+				id: "4490A4AC5B7044E3"
+				item: { count: 1, id: "cobblemon:bluk_berry" }
+				type: "item"
+			}]
+			description: [
+				"A soft blue food berry used in cooking and dyes. Purely culinary, no battle use."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F196E4411BC2AEE2"
+					item: "cobblemon:bluk_berry"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"1D1EE056126AAA28"
+				]
+			icon: {
+				id: "cobblemon:charti_berry"
+			}
+			id: "3156ED3D702729A3"
+			tasks: [{
+				id: "13A92348C3973420"
+				item: { count: 1, id: "cobblemon:charti_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Rock-type hit. Great on Fire, Flying, Bug and Ice types that dread Stone Edge."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F12277C522EB9532"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"3156ED3D702729A3"
+				]
+			icon: {
+				id: "cobblemon:cheri_berry"
+			}
+			id: "7D6E430C26EDE06C"
+			tasks: [{
+				id: "38D4858AA6693520"
+				item: { count: 1, id: "cobblemon:cheri_berry" }
+				type: "item"
+			}]
+			description: [
+				"A held or in-battle Cheri Berry cures paralysis, letting a Pokemon move freely again. Handy on fast sweepers that hate being locked down."
+			]
+			rewards: [
+				{
+					count: 2
+					id: "F1F806FE920299D4"
+					item: "cobblemon:cheri_berry"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"7D6E430C26EDE06C"
+				]
+			icon: {
+				id: "cobblemon:chesto_berry"
+			}
+			id: "7B390BAE8ED58355"
+			tasks: [{
+				id: "47B32542D1F82547"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			description: [
+				"Wakes a sleeping Pokemon instantly. Held before a Rest, it lets you heal to full and act on the same turn."
+			]
+			rewards: [
+				{
+					count: 2
+					id: "F15B885C41DDE9FE"
+					item: "cobblemon:chesto_berry"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"7B390BAE8ED58355"
+				]
+			icon: {
+				id: "cobblemon:chilan_berry"
+			}
+			id: "5C583CAA8FE451DD"
+			tasks: [{
+				id: "67B34BF1796EDAD3"
+				item: { count: 1, id: "cobblemon:chilan_berry" }
+				type: "item"
+			}]
+			description: [
+				"The odd one out: halves a Normal-type hit, even when it is not super-effective. Niche but unique among resist berries."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F17AE2D0C47CC928"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+				dependencies: [
+					"0786B6A084D59A9A"
+				]
+			icon: {
+				id: "cobblemon:chople_berry"
+			}
+			id: "7107C7BDAB487C21"
+			tasks: [{
+				id: "6D4F7E8F8740F9EC"
+				item: { count: 1, id: "cobblemon:chople_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Fighting-type hit. Lets Normal and Steel types survive a Close Combat."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F1A9589DACA12E23"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"7107C7BDAB487C21"
+				]
+			icon: {
+				id: "cobblemon:coba_berry"
+			}
+			id: "33DFC5D1B2C45880"
+			tasks: [{
+				id: "0A5BF9BA041BEC96"
+				item: { count: 1, id: "cobblemon:coba_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Flying-type hit. Shields Grass, Fighting and Bug types from Brave Bird."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F130D07D822D290C"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"33DFC5D1B2C45880"
+				]
+			icon: {
+				id: "cobblemon:colbur_berry"
+			}
+			id: "4BCA5AE6E024A7AF"
+			tasks: [{
+				id: "55134CCA9B7299D9"
+				item: { count: 1, id: "cobblemon:colbur_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Dark-type hit, guarding Psychic and Ghost types from Dark moves."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F13463CB69668C51"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"4BCA5AE6E024A7AF"
+				]
+			icon: {
+				id: "cobblemon:cornn_berry"
+			}
+			id: "160AD5DDFCD12842"
+			tasks: [{
+				id: "1694206063A46405"
+				item: { count: 1, id: "cobblemon:cornn_berry" }
+				type: "item"
+			}]
+			description: [
+				"A corn-shaped food berry with no battle effect, good for cooking and juices."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F17D16AF162CF152"
+					item: "cobblemon:cornn_berry"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"160AD5DDFCD12842"
+				]
+			icon: {
+				id: "cobblemon:custap_berry"
+			}
+			id: "2DE76DFC1086F69F"
+			tasks: [{
+				id: "008DCBF81FB9CA26"
+				item: { count: 1, id: "cobblemon:custap_berry" }
+				type: "item"
+			}]
+			description: [
+				"Lets the holder move first within its priority bracket once when HP runs low. A clutch pinch berry for landing the final blow."
+			]
+			rewards: [
+				{
+					count: 7
+					id: "F1C11F38F101B671"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"2DE76DFC1086F69F"
+				]
+			icon: {
+				id: "cobblemon:durin_berry"
+			}
+			id: "212D7476B4076095"
+			tasks: [{
+				id: "3BEF005EA4DA7E48"
+				item: { count: 1, id: "cobblemon:durin_berry" }
+				type: "item"
+			}]
+			description: [
+				"A famously bitter food berry with a strong smell. Culinary only, an acquired taste in recipes."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F16CCFD9560B8DA5"
+					item: "cobblemon:durin_berry"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"212D7476B4076095"
+				]
+			icon: {
+				id: "cobblemon:eggant_berry"
+			}
+			id: "09EA7E2A62D56CB6"
+			tasks: [{
+				id: "7451DC66FAF33609"
+				item: { count: 1, id: "cobblemon:eggant_berry" }
+				type: "item"
+			}]
+			description: [
+				"An eggplant-shaped food berry. Purely a cooking ingredient with no battle use."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F10288EDEEB9E085"
+					item: "cobblemon:eggant_berry"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"09EA7E2A62D56CB6"
+				]
+			icon: {
+				id: "cobblemon:enigma_berry"
+			}
+			id: "1C0F43010C872618"
+			tasks: [{
+				id: "6C5ACD387723CEFA"
+				item: { count: 1, id: "cobblemon:enigma_berry" }
+				type: "item"
+			}]
+			description: [
+				"A mysterious berry that heals the holder when hit by a super-effective move. Rare, powerful, and hard to grow."
+			]
+			rewards: [
+				{
+					id: "F17501B6979E9AA8"
+					item: "cobblemon:relic_coin_pouch"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"1C0F43010C872618"
+				]
+			icon: {
+				id: "cobblemon:figy_berry"
+			}
+			id: "5C4F8C7C2625DA6B"
+			tasks: [{
+				id: "7444AE4AE3E3D209"
+				item: { count: 1, id: "cobblemon:figy_berry" }
+				type: "item"
+			}]
+			description: [
+				"A spicy food berry that can pinch-heal HP with a chance to confuse. Mostly used in cooking on the server."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F1DA3C1B7C9029BE"
+					item: "cobblemon:figy_berry"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"5C4F8C7C2625DA6B"
+				]
+			icon: {
+				id: "cobblemon:ganlon_berry"
+			}
+			id: "2D2959F7A73FA0EB"
+			tasks: [{
+				id: "098C0D8E25CB7DC3"
+				item: { count: 1, id: "cobblemon:ganlon_berry" }
+				type: "item"
+			}]
+			description: [
+				"Raises Defense when HP runs low, letting a wall dig in at the worst moment."
+			]
+			rewards: [
+				{
+					count: 7
+					id: "F1DDD5EC26207EC9"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+				dependencies: [
+					"7107C7BDAB487C21"
+				]
+			icon: {
+				id: "cobblemon:grepa_berry"
+			}
+			id: "7E453D568132465C"
+			tasks: [{
+				id: "5224D91B7458A29E"
+				item: { count: 1, id: "cobblemon:grepa_berry" }
+				type: "item"
+			}]
+			description: [
+				"Lowers Special Defense EVs and raises friendship. A gentle way to fix an over-trained spread."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F192C01174F3D78B"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"7E453D568132465C"
+				]
+			icon: {
+				id: "cobblemon:haban_berry"
+			}
+			id: "23417F87E6CFA339"
+			tasks: [{
+				id: "358ECC2C2F91D88C"
+				item: { count: 1, id: "cobblemon:haban_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Dragon-type hit. Essential tech on Dragon types in the mirror match."
+			]
+			rewards: [
+				{
+					count: 6
+					id: "F11CF50145120356"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"23417F87E6CFA339"
+				]
+			icon: {
+				id: "cobblemon:hondew_berry"
+			}
+			id: "103C9803731EF929"
+			tasks: [{
+				id: "27517FEE99AAB94C"
+				item: { count: 1, id: "cobblemon:hondew_berry" }
+				type: "item"
+			}]
+			description: [
+				"Lowers Special Attack EVs and raises friendship, letting you re-train a physical attacker cleanly."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F1DFA1D35F83AAEC"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"103C9803731EF929"
+				]
+			icon: {
+				id: "cobblemon:hopo_berry"
+			}
+			id: "74057901CB46C6FC"
+			tasks: [{
+				id: "19ED592D3B139BB7"
+				item: { count: 1, id: "cobblemon:hopo_berry" }
+				type: "item"
+			}]
+			description: [
+				"Restores PP to all of a Pokemon's moves. A rarer PP-recovery berry for drawn-out battles."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F1BB36ED23A96BF9"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"74057901CB46C6FC"
+				]
+			icon: {
+				id: "cobblemon:iapapa_berry"
+			}
+			id: "2514160C77268B55"
+			tasks: [{
+				id: "2B9079521C66ADD3"
+				item: { count: 1, id: "cobblemon:iapapa_berry" }
+				type: "item"
+			}]
+			description: [
+				"A sour food berry, the sour member of the flavor-heal family. Chiefly a cooking ingredient here."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F10E5235A7B47467"
+					item: "cobblemon:iapapa_berry"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"2514160C77268B55"
+				]
+			icon: {
+				id: "cobblemon:jaboca_berry"
+			}
+			id: "163F89F9BD994CEA"
+			tasks: [{
+				id: "4C85D533534673B0"
+				item: { count: 1, id: "cobblemon:jaboca_berry" }
+				type: "item"
+			}]
+			description: [
+				"Held item that damages an attacker back when the holder is hit by a physical move. Chip revenge on aggressive foes."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F12B24236BC528BD"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"163F89F9BD994CEA"
+				]
+			icon: {
+				id: "cobblemon:kasib_berry"
+			}
+			id: "76530D0122392A08"
+			tasks: [{
+				id: "65C22ACBD27987A4"
+				item: { count: 1, id: "cobblemon:kasib_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Ghost-type hit, protecting Psychic and other Ghost types."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F10131403460C18E"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"76530D0122392A08"
+				]
+			icon: {
+				id: "cobblemon:kebia_berry"
+			}
+			id: "35E796275277CA87"
+			tasks: [{
+				id: "19E67E08C754C93D"
+				item: { count: 1, id: "cobblemon:kebia_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Poison-type hit, protecting Grass and Fairy types."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F120935B34162289"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"35E796275277CA87"
+				]
+			icon: {
+				id: "cobblemon:kee_berry"
+			}
+			id: "7808D45744C35AEE"
+			tasks: [{
+				id: "3781AD2ADAB1868A"
+				item: { count: 1, id: "cobblemon:kee_berry" }
+				type: "item"
+			}]
+			description: [
+				"Held item that raises Defense when the holder is hit by a physical move. Turns an incoming hit into a setup."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F13771045CEB2376"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"7808D45744C35AEE"
+				]
+			icon: {
+				id: "cobblemon:kelpsy_berry"
+			}
+			id: "05843ACAD754B724"
+			tasks: [{
+				id: "548951B9ADD067B2"
+				item: { count: 1, id: "cobblemon:kelpsy_berry" }
+				type: "item"
+			}]
+			description: [
+				"Lowers Attack EVs and raises friendship. Handy for re-training a special attacker or evolving on friendship."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F18268A0E9C639C1"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+				dependencies: [
+					"7E453D568132465C"
+				]
+			icon: {
+				id: "cobblemon:lansat_berry"
+			}
+			id: "7B63BDBF02CC4CA0"
+			tasks: [{
+				id: "7339F2237957D18C"
+				item: { count: 1, id: "cobblemon:lansat_berry" }
+				type: "item"
+			}]
+			description: [
+				"Sharply raises the critical-hit ratio when HP runs low, making nearly every hit a crit."
+			]
+			rewards: [
+				{
+					id: "F104E23832D14D2F"
+					item: "cobblemon:relic_coin_pouch"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"7B63BDBF02CC4CA0"
+				]
+			icon: {
+				id: "cobblemon:leppa_berry"
+			}
+			id: "79A3BC35DD7F0C88"
+			tasks: [{
+				id: "0E23FABE6455B494"
+				item: { count: 1, id: "cobblemon:leppa_berry" }
+				type: "item"
+			}]
+			description: [
+				"Restores 10 PP to a single move when held or used. Keeps a key attack from running dry in long fights."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F154C47EA3E0B697"
+					item: "cobblemon:leppa_berry"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"79A3BC35DD7F0C88"
+				]
+			icon: {
+				id: "cobblemon:liechi_berry"
+			}
+			id: "7FEA374D63883FC9"
+			tasks: [{
+				id: "6F4128D917B5A0CB"
+				item: { count: 1, id: "cobblemon:liechi_berry" }
+				type: "item"
+			}]
+			description: [
+				"A pinch berry: when HP drops low it sharply raises Attack, turning a near-faint into a sweep."
+			]
+			rewards: [
+				{
+					count: 7
+					id: "F10A636945B3A927"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"7FEA374D63883FC9"
+				]
+			icon: {
+				id: "cobblemon:lum_berry"
+			}
+			id: "7CB5661D486CF43B"
+			tasks: [{
+				id: "07D29F898A500902"
+				item: { count: 1, id: "cobblemon:lum_berry" }
+				type: "item"
+			}]
+			description: [
+				"The universal cure: heals any single status condition, including confusion. One of the most reliable held berries in competitive play."
+			]
+			rewards: [
+				{
+					count: 8
+					id: "F17DE90E67F64A06"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"7CB5661D486CF43B"
+				]
+			icon: {
+				id: "cobblemon:mago_berry"
+			}
+			id: "17CFE63D9CCD4A62"
+			tasks: [{
+				id: "1246E672ADAFF7B3"
+				item: { count: 1, id: "cobblemon:mago_berry" }
+				type: "item"
+			}]
+			description: [
+				"A sweet food berry from the flavor-heal family. Sweet-tooth Pokemon love it; great for recipes."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F125EA76537AAE47"
+					item: "cobblemon:mago_berry"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"17CFE63D9CCD4A62"
+				]
+			icon: {
+				id: "cobblemon:magost_berry"
+			}
+			id: "1625B3BD9C78D8C4"
+			tasks: [{
+				id: "6F67B6B92889FD40"
+				item: { count: 1, id: "cobblemon:magost_berry" }
+				type: "item"
+			}]
+			description: [
+				"A rich, sweet food berry used purely in cooking and treats."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F1E356C7BEA3483A"
+					item: "cobblemon:magost_berry"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"1625B3BD9C78D8C4"
+				]
+			icon: {
+				id: "cobblemon:maranga_berry"
+			}
+			id: "61AA8829A6838596"
+			tasks: [{
+				id: "65D77A42E4187144"
+				item: { count: 1, id: "cobblemon:maranga_berry" }
+				type: "item"
+			}]
+			description: [
+				"Held item that raises Special Defense when the holder is hit by a special move, hardening a special wall on contact."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F1F44B8614E8F00D"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"61AA8829A6838596"
+				]
+			icon: {
+				id: "cobblemon:micle_berry"
+			}
+			id: "31A8811F6306EC1C"
+			tasks: [{
+				id: "5866B718D1E39ADB"
+				item: { count: 1, id: "cobblemon:micle_berry" }
+				type: "item"
+			}]
+			description: [
+				"Raises accuracy for the next move when HP runs low, guaranteeing an otherwise shaky attack lands."
+			]
+			rewards: [
+				{
+					count: 7
+					id: "F1CE4F3B89953E7A"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"31A8811F6306EC1C"
+				]
+			icon: {
+				id: "cobblemon:nanab_berry"
+			}
+			id: "73A90838A9F8B990"
+			tasks: [{
+				id: "3443F85DAEE785F4"
+				item: { count: 1, id: "cobblemon:nanab_berry" }
+				type: "item"
+			}]
+			description: [
+				"A sweet food berry, prized in the kitchen rather than in battle. Farm a patch and stock up."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F1F676F9AEE5BB6A"
+					item: "cobblemon:nanab_berry"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"73A90838A9F8B990"
+				]
+			icon: {
+				id: "cobblemon:nomel_berry"
+			}
+			id: "75BA0D99BF39BE21"
+			tasks: [{
+				id: "419C53DAA38CA406"
+				item: { count: 1, id: "cobblemon:nomel_berry" }
+				type: "item"
+			}]
+			description: [
+				"An extremely sour food berry. Culinary only, best blended into recipes."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F170F15B96B563B3"
+					item: "cobblemon:nomel_berry"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+				dependencies: [
+					"7B63BDBF02CC4CA0"
+				]
+			icon: {
+				id: "cobblemon:occa_berry"
+			}
+			id: "43C55E1C1051E955"
+			tasks: [{
+				id: "7F1CA9CFEDDA7874"
+				item: { count: 1, id: "cobblemon:occa_berry" }
+				type: "item"
+			}]
+			description: [
+				"Held item that halves the damage from a super-effective Fire-type move once. A lifesaver for Grass, Ice, Bug and Steel types."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F155D02047A47BF0"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"43C55E1C1051E955"
+				]
+			icon: {
+				id: "cobblemon:oran_berry"
+			}
+			id: "1015F00E0936A20C"
+			tasks: [{
+				id: "649E12034BABD8D4"
+				item: { count: 1, id: "cobblemon:oran_berry" }
+				type: "item"
+			}]
+			description: [
+				"Restores 10 HP when held and HP runs low. A classic early-game pinch heal for frail Pokemon."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F1EF3BD366314373"
+					item: "cobblemon:oran_berry"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"1015F00E0936A20C"
+				]
+			icon: {
+				id: "cobblemon:pamtre_berry"
+			}
+			id: "73512D315FA8BF3F"
+			tasks: [{
+				id: "5CF09650C655C2B6"
+				item: { count: 1, id: "cobblemon:pamtre_berry" }
+				type: "item"
+			}]
+			description: [
+				"A fancy food berry once used for high-class snacks. Cooking ingredient with no battle use."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F1ABBAF318B8522D"
+					item: "cobblemon:pamtre_berry"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"73512D315FA8BF3F"
+				]
+			icon: {
+				id: "cobblemon:passho_berry"
+			}
+			id: "1999C22F426BB20D"
+			tasks: [{
+				id: "0B6C04F46E5123EC"
+				item: { count: 1, id: "cobblemon:passho_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Water-type hit. Buys a Fire, Ground or Rock type a turn to strike back."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F1B13B319F4B0CF3"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"1999C22F426BB20D"
+				]
+			icon: {
+				id: "cobblemon:payapa_berry"
+			}
+			id: "6E7DCFD62C81A8FC"
+			tasks: [{
+				id: "162E35A98DAF8276"
+				item: { count: 1, id: "cobblemon:payapa_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Psychic-type hit, helping Fighting and Poison types survive Psychic."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F1CF168657BD98F4"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"6E7DCFD62C81A8FC"
+				]
+			icon: {
+				id: "cobblemon:pecha_berry"
+			}
+			id: "58D5E7FD62AAB638"
+			tasks: [{
+				id: "33F665B93E8B3318"
+				item: { count: 1, id: "cobblemon:pecha_berry" }
+				type: "item"
+			}]
+			description: [
+				"Cures poison the moment it takes hold. A cheap insurance held item against poison and toxic stallers."
+			]
+			rewards: [
+				{
+					count: 2
+					id: "F1FF75F82B92A6B7"
+					item: "cobblemon:pecha_berry"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"58D5E7FD62AAB638"
+				]
+			icon: {
+				id: "cobblemon:persim_berry"
+			}
+			id: "3AB4439C155914C0"
+			tasks: [{
+				id: "0C56C3A883FD9626"
+				item: { count: 1, id: "cobblemon:persim_berry" }
+				type: "item"
+			}]
+			description: [
+				"Snaps a confused Pokemon back to its senses, preventing it from hurting itself."
+			]
+			rewards: [
+				{
+					count: 2
+					id: "F1C20E9E7D1C89A5"
+					item: "cobblemon:persim_berry"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"3AB4439C155914C0"
+				]
+			icon: {
+				id: "cobblemon:petaya_berry"
+			}
+			id: "25FF5F49346F0351"
+			tasks: [{
+				id: "7DE6D749D2B8F936"
+				item: { count: 1, id: "cobblemon:petaya_berry" }
+				type: "item"
+			}]
+			description: [
+				"Raises Special Attack when HP runs low, powering up a special sweeper on its last legs."
+			]
+			rewards: [
+				{
+					count: 7
+					id: "F1E839C2452960D7"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"25FF5F49346F0351"
+				]
+			icon: {
+				id: "cobblemon:pinap_berry"
+			}
+			id: "21B58E36233A376E"
+			tasks: [{
+				id: "471A1A054B0D9FE9"
+				item: { count: 1, id: "cobblemon:pinap_berry" }
+				type: "item"
+			}]
+			description: [
+				"A spicy-sweet food berry. No held effect, but a staple ingredient for cooking and treats."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F1820B6BF7B0F021"
+					item: "cobblemon:pinap_berry"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"21B58E36233A376E"
+				]
+			icon: {
+				id: "cobblemon:pomeg_berry"
+			}
+			id: "6B45A4029B04DFFC"
+			tasks: [{
+				id: "1EE8D728646A6902"
+				item: { count: 1, id: "cobblemon:pomeg_berry" }
+				type: "item"
+			}]
+			description: [
+				"Lowers a Pokemon's HP EVs while raising its friendship. Used to reset training or reach a friendship evolution."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F18EF2591FC945BB"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+				dependencies: [
+					"43C55E1C1051E955"
+				]
+			icon: {
+				id: "cobblemon:qualot_berry"
+			}
+			id: "28506AD088DC6827"
+			tasks: [{
+				id: "47E35D13B6A3C00F"
+				item: { count: 1, id: "cobblemon:qualot_berry" }
+				type: "item"
+			}]
+			description: [
+				"Lowers Defense EVs and raises friendship. Useful when reshaping a spread or pushing a friendship evolution."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F113D9EABAFACD6D"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"28506AD088DC6827"
+				]
+			icon: {
+				id: "cobblemon:rabuta_berry"
+			}
+			id: "2AA86FA3605C966D"
+			tasks: [{
+				id: "246B9A283AB72A16"
+				item: { count: 1, id: "cobblemon:rabuta_berry" }
+				type: "item"
+			}]
+			description: [
+				"A hairy, sour food berry. No battle use, but a solid cooking ingredient."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F1310BFF0E81DA44"
+					item: "cobblemon:rabuta_berry"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"2AA86FA3605C966D"
+				]
+			icon: {
+				id: "cobblemon:rawst_berry"
+			}
+			id: "44943D9F41393F60"
+			tasks: [{
+				id: "77A5E7561156323A"
+				item: { count: 1, id: "cobblemon:rawst_berry" }
+				type: "item"
+			}]
+			description: [
+				"Cures a burn, restoring lost Attack pressure and stopping the chip damage each turn."
+			]
+			rewards: [
+				{
+					count: 2
+					id: "F1CABC4937B7448C"
+					item: "cobblemon:rawst_berry"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"44943D9F41393F60"
+				]
+			icon: {
+				id: "cobblemon:razz_berry"
+			}
+			id: "183BDF232B778A6E"
+			tasks: [{
+				id: "35F1E361EB56D690"
+				item: { count: 1, id: "cobblemon:razz_berry" }
+				type: "item"
+			}]
+			description: [
+				"A tart food berry with no battle effect. Grow it on a plot and use it in cooking and berry recipes."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F112F95F314ECCB8"
+					item: "cobblemon:razz_berry"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"183BDF232B778A6E"
+				]
+			icon: {
+				id: "cobblemon:rindo_berry"
+			}
+			id: "1BFA2B372F6E2B48"
+			tasks: [{
+				id: "57ED5C3A056A6368"
+				item: { count: 1, id: "cobblemon:rindo_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Grass-type hit, easing the Grass weakness of Water, Ground and Rock types."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F107E20DAC235BE9"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"1BFA2B372F6E2B48"
+				]
+			icon: {
+				id: "cobblemon:roseli_berry"
+			}
+			id: "5D380D157C097D1B"
+			tasks: [{
+				id: "4F13042B10A608B4"
+				item: { count: 1, id: "cobblemon:roseli_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Fairy-type hit. Prized tech on Dragon, Dark and Fighting types that fear Fairy moves."
+			]
+			rewards: [
+				{
+					count: 6
+					id: "F14625016F33D48C"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"5D380D157C097D1B"
+				]
+			icon: {
+				id: "cobblemon:rowap_berry"
+			}
+			id: "07B41EF5E9FD3A17"
+			tasks: [{
+				id: "16C20C7DCDA487EA"
+				item: { count: 1, id: "cobblemon:rowap_berry" }
+				type: "item"
+			}]
+			description: [
+				"Held item that damages an attacker back when the holder is hit by a special move. The special-side counterpart to Jaboca."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F17E62BDDF9A2140"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"07B41EF5E9FD3A17"
+				]
+			icon: {
+				id: "cobblemon:salac_berry"
+			}
+			id: "7A6122D4891EE43B"
+			tasks: [{
+				id: "6E775C3F3527C358"
+				item: { count: 1, id: "cobblemon:salac_berry" }
+				type: "item"
+			}]
+			description: [
+				"Raises Speed when HP runs low. The core of many pinch-sweep setups, outpacing the whole field."
+			]
+			rewards: [
+				{
+					count: 8
+					id: "F12EE0E9A75FF339"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"7A6122D4891EE43B"
+				]
+			icon: {
+				id: "cobblemon:shuca_berry"
+			}
+			id: "24EDE1EB4FBADB4C"
+			tasks: [{
+				id: "36EE88FB24B9B59C"
+				item: { count: 1, id: "cobblemon:shuca_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Ground-type hit. A common pick on Fire, Electric and Steel types weak to Earthquake."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F189CCC850C250F5"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"24EDE1EB4FBADB4C"
+				]
+			icon: {
+				id: "cobblemon:sitrus_berry"
+			}
+			id: "4863CD6DE6F03905"
+			tasks: [{
+				id: "0EE624BAA65375E2"
+				item: { count: 1, id: "cobblemon:sitrus_berry" }
+				type: "item"
+			}]
+			description: [
+				"Restores about a quarter of max HP when the holder drops to half. The staple bulk-restoring held berry."
+			]
+			rewards: [
+				{
+					count: 6
+					id: "F1FD34C520A3CD10"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+				dependencies: [
+					"28506AD088DC6827"
+				]
+			icon: {
+				id: "cobblemon:spelon_berry"
+			}
+			id: "3A21272C12F3782D"
+			tasks: [{
+				id: "526DA08B77D55ADC"
+				item: { count: 1, id: "cobblemon:spelon_berry" }
+				type: "item"
+			}]
+			description: [
+				"A fiery, spicy food berry covered in bumps. No battle effect; grow it for cooking."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F1861FE6487DE9ED"
+					item: "cobblemon:spelon_berry"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"3A21272C12F3782D"
+				]
+			icon: {
+				id: "cobblemon:starf_berry"
+			}
+			id: "030706C9972D89C0"
+			tasks: [{
+				id: "327139DD33AC5F6D"
+				item: { count: 1, id: "cobblemon:starf_berry" }
+				type: "item"
+			}]
+			description: [
+				"Sharply raises one random stat when HP runs low. High-risk, high-reward and famously unpredictable."
+			]
+			rewards: [
+				{
+					id: "F13989FF731CA203"
+					item: "cobblemon:relic_coin_pouch"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"030706C9972D89C0"
+				]
+			icon: {
+				id: "cobblemon:tamato_berry"
+			}
+			id: "3E7681AB12026F3F"
+			tasks: [{
+				id: "5619AF9DC9F7367A"
+				item: { count: 1, id: "cobblemon:tamato_berry" }
+				type: "item"
+			}]
+			description: [
+				"Lowers Speed EVs and raises friendship, useful for Trick Room builds or friendship evolutions."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F19E53EBB16ED918"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"3E7681AB12026F3F"
+				]
+			icon: {
+				id: "cobblemon:tanga_berry"
+			}
+			id: "44D4B1C50A9377B4"
+			tasks: [{
+				id: "3E3CC3BC9C286A90"
+				item: { count: 1, id: "cobblemon:tanga_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Bug-type hit, easing the Bug weakness of Psychic, Grass and Dark types."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F19F6F565C60FF5A"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"44D4B1C50A9377B4"
+				]
+			icon: {
+				id: "cobblemon:touga_berry"
+			}
+			id: "06BA82A06BF7842E"
+			tasks: [{
+				id: "1637DE0D42E0112F"
+				item: { count: 1, id: "cobblemon:touga_berry" }
+				type: "item"
+			}]
+			description: [
+				"A firm food berry used in cooking. No held battle effect on the server."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F1CEAF14FCC73704"
+					item: "cobblemon:touga_berry"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"06BA82A06BF7842E"
+				]
+			icon: {
+				id: "cobblemon:wacan_berry"
+			}
+			id: "374870F324D9E89A"
+			tasks: [{
+				id: "6C0F5F8DC24E5645"
+				item: { count: 1, id: "cobblemon:wacan_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Electric-type hit. Popular on Flying and Water types that fear Thunderbolt."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F1985DD8B634E92C"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"374870F324D9E89A"
+				]
+			icon: {
+				id: "cobblemon:watmel_berry"
+			}
+			id: "18625E0A72A07F84"
+			tasks: [{
+				id: "5AE8E46BDBB4305F"
+				item: { count: 1, id: "cobblemon:watmel_berry" }
+				type: "item"
+			}]
+			description: [
+				"An enormous, very sweet food berry. A dessert staple in the kitchen, no battle effect."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F19FE4309F7387C6"
+					item: "cobblemon:watmel_berry"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"18625E0A72A07F84"
+				]
+			icon: {
+				id: "cobblemon:wepear_berry"
+			}
+			id: "7DABE28A86480F2F"
+			tasks: [{
+				id: "1D29FE64E3E514FB"
+				item: { count: 1, id: "cobblemon:wepear_berry" }
+				type: "item"
+			}]
+			description: [
+				"A tangy food berry for cooking and juices. No battle effect, but easy to farm in bulk."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "F15357394611F7F4"
+					item: "cobblemon:wepear_berry"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"7DABE28A86480F2F"
+				]
+			icon: {
+				id: "cobblemon:wiki_berry"
+			}
+			id: "1490B18DC7964605"
+			tasks: [{
+				id: "512B8E92C0252562"
+				item: { count: 1, id: "cobblemon:wiki_berry" }
+				type: "item"
+			}]
+			description: [
+				"A dry food berry, the dry member of the flavor-heal family. Best put to use in the kitchen."
+			]
+			rewards: [
+				{
+					count: 3
+					id: "F11E6EFD4D468E11"
+					item: "cobblemon:wiki_berry"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"1490B18DC7964605"
+				]
+			icon: {
+				id: "cobblemon:yache_berry"
+			}
+			id: "56065A80390AF05A"
+			tasks: [{
+				id: "378309105E0E242B"
+				item: { count: 1, id: "cobblemon:yache_berry" }
+				type: "item"
+			}]
+			description: [
+				"Halves one super-effective Ice-type hit. Saves Dragon, Flying and Ground types from an Ice Beam KO."
+			]
+			rewards: [
+				{
+					count: 5
+					id: "F18662979448C049"
+					item: "cobblemon:relic_coin"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+				dependencies: [
+					"0786B6A084D59A9A"
+					"7107C7BDAB487C21"
+					"7E453D568132465C"
+					"7B63BDBF02CC4CA0"
+					"43C55E1C1051E955"
+					"28506AD088DC6827"
+					"3A21272C12F3782D"
+					"56065A80390AF05A"
+				]
+			icon: {
+				id: "cobblemon:enigma_berry"
+			}
+			id: "2E4B37499D05A742"
+			rewards: [
+				{
+					id: "624E3C4EF65E04D5"
+					type: "random"
+				}
+				{
+					id: "367B175B4DEC7EC9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "196A601AE88BD806"
+				type: "checkmark"
+			}]
+			description: [
+				"Collect every Cobblemon berry to prove you are a true Berry Master."
+				""
+				"Reward: a random pull from the Berry Master table plus a big XP payout. The grand prize for filling every plot on the farm."
+			]
+			subtitle: "Collect all 70 berries"
+			title: "Berry Master"
+			x: 4.5d
+			y: 9.0d
+		}
+	]
+}

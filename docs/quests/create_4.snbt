@@ -1,0 +1,529 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "create_4"
+	group: "348AE7020234F2D4"
+	icon: { id: "create:precision_mechanism" }
+	id: "320A946A705510B3"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20A4F79E5ACF677F"
+			x: 0d
+			y: 0d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Forge the endgame metal"
+			description: [
+				"&aCreate Nuclear&r runs on &aSteel&r. Superheat iron with coal dust in a mixer to cast &aSteel Ingots&r."
+				""
+				"Steel is the structural metal of reactors and heavy machines."
+				""
+				"&eThis milestone opens the Beyond the Machine branch.&r"
+			]
+			dependencies: ["10FC1EB90F757C1B"]
+			tasks: [
+				{
+					id: "208A267C706BCDB6"
+					type: "item"
+					item: "createnuclear:steel_ingot"
+					count: 8
+				}
+			]
+			rewards: [
+				{
+					id: "207E2F4A130DFBE8"
+					type: "item"
+					item: "createnuclear:steel_ingot"
+					count: 8
+				}
+				{
+					id: "20CA28D9DD2A4E9F"
+					type: "xp"
+					xp: 150
+				}
+			]
+		},
+		{
+			id: "2065E15A157AB684"
+			x: 0d
+			y: 2d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Mine the unstable stuff"
+			description: [
+				"Reactors need fuel. Mine &aUranium Ore&r, process it into &aYellowcake&r and refine &aUranium Rods&r."
+				""
+				"Handle it with care and wear &aAnti-Radiation&r gear when things get hot."
+				""
+			]
+			dependencies: ["20A4F79E5ACF677F"]
+			tasks: [
+				{
+					id: "20B83E21F6BCA0AE"
+					type: "item"
+					item: "createnuclear:raw_uranium"
+					count: 4
+				}
+				{
+					id: "206EC281226C181C"
+					type: "item"
+					item: "createnuclear:yellowcake"
+					count: 2
+				}
+			]
+			rewards: [
+				{
+					id: "20B6D142475A867A"
+					type: "item"
+					item: "createnuclear:raw_uranium"
+					count: 4
+				}
+				{
+					id: "2004742A0610D347"
+					type: "item"
+					item: "cobblemon:relic_coin_pouch"
+					count: 1
+				}
+				{
+					id: "20F05A762B6103F4"
+					type: "xp"
+					xp: 150
+				}
+			]
+		},
+		{
+			id: "204115B912BAFEEF"
+			x: 0d
+			y: 4d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Build a nuclear reactor"
+			description: [
+				"Assemble a multiblock &aReactor&r from casing, a controller, core, cooler and input/output ports. Fuelled with uranium, it produces enormous heat and power."
+				""
+				"This is the single most powerful energy source in Steamon. Cool it well or it melts down."
+				""
+			]
+			dependencies: ["2065E15A157AB684"]
+			tasks: [
+				{
+					id: "2024841DBF75AA0A"
+					type: "item"
+					item: "createnuclear:reactor_controller"
+					count: 1
+				}
+				{
+					id: "20ED0D5D6054A940"
+					type: "item"
+					item: "createnuclear:reactor_core"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20A9BEAD1BEEA9E9"
+					type: "item"
+					item: "createnuclear:reactor_controller"
+					count: 1
+				}
+				{
+					id: "20BE59393E9AA99B"
+					type: "item"
+					item: "createnuclear:reactor_core"
+					count: 1
+				}
+				{
+					id: "20B300FCF96688D1"
+					type: "item"
+					item: "cobblemon:relic_coin_sack"
+					count: 1
+				}
+				{
+					id: "20B2B419C1BA014D"
+					type: "xp"
+					xp: 300
+				}
+			]
+		},
+		{
+			id: "20E148ACB00080FA"
+			x: 2d
+			y: 2d
+			subtitle: "Do not glow in the dark"
+			description: [
+				"&aAnti-Radiation&r armor protects you from the radiation reactors and raw uranium give off."
+				""
+				"Craft at least a chestplate before you handle serious quantities of fuel."
+				""
+			]
+			dependencies: ["20A4F79E5ACF677F"]
+			optional: true
+			tasks: [
+				{
+					id: "20329FBF7DD58403"
+					type: "item"
+					item: "createnuclear:white_anti_radiation_chestplate"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20E171B949117A10"
+					type: "item"
+					item: "createnuclear:white_anti_radiation_chestplate"
+					count: 1
+				}
+				{
+					id: "20021B35CCFA6B03"
+					type: "xp"
+					xp: 120
+				}
+			]
+		},
+		{
+			id: "202BE63206C547AC"
+			x: 0d
+			y: 6d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Take to the skies"
+			description: [
+				"&aCreate: Stuff and Additions&r adds &aJetpacks&r. Start with the &aCopper Jetpack&r and work up to the &aNetherite Jetpack&r for full flight."
+				""
+				"Fuelled by your Create power infrastructure. Freedom of movement, endgame style."
+				""
+			]
+			dependencies: ["20A4F79E5ACF677F"]
+			tasks: [
+				{
+					id: "2034B10CF3CB80A0"
+					type: "item"
+					item: "create_sa:copper_jetpack_chestplate"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20680BFA27F80B6D"
+					type: "item"
+					item: "create_sa:copper_jetpack_chestplate"
+					count: 1
+				}
+				{
+					id: "2094B83F520544A9"
+					type: "item"
+					item: "cobblemon:relic_coin_pouch"
+					count: 1
+				}
+				{
+					id: "206E81BA4E2ACAC1"
+					type: "xp"
+					xp: 150
+				}
+			]
+		},
+		{
+			id: "20EE532E0003B22D"
+			x: 2d
+			y: 6d
+			subtitle: "The best set of wings"
+			description: [
+				"The &aNetherite Jetpack&r is the top-tier flight chestplate: longer flight, more fuel efficiency and blast resistance."
+				""
+				"Combine a jetpack with an &aExoskeleton&r for the full endgame loadout."
+				""
+			]
+			dependencies: ["202BE63206C547AC"]
+			optional: true
+			tasks: [
+				{
+					id: "20686F952B2BE7CE"
+					type: "item"
+					item: "create_sa:netherite_jetpack_chestplate"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20F317750E8175A9"
+					type: "item"
+					item: "create_sa:netherite_jetpack_chestplate"
+					count: 1
+				}
+				{
+					id: "203D63A778604389"
+					type: "item"
+					item: "cobblemon:relic_coin_sack"
+					count: 1
+				}
+				{
+					id: "2027487D08FEE6B5"
+					type: "xp"
+					xp: 250
+				}
+			]
+		},
+		{
+			id: "203EA3D6CDF9263E"
+			x: 0d
+			y: 8d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Harness dragon fire"
+			description: [
+				"&aCreate: Dragons Plus&r adds dragon-breath processing and the &aBlaze Upgrade Smithing Template&r for upgraded blaze gear."
+				""
+				"A fitting capstone: you slew the dragon, now you industrialize its fire."
+				""
+			]
+			dependencies: ["204115B912BAFEEF"]
+			tasks: [
+				{
+					id: "2034930703BAA7A3"
+					type: "item"
+					item: "create_dragons_plus:blaze_upgrade_smithing_template"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "2028397307FC159B"
+					type: "item"
+					item: "create_dragons_plus:blaze_upgrade_smithing_template"
+					count: 1
+				}
+				{
+					id: "2039AB1A0BCE771C"
+					type: "item"
+					item: "cobblemon:relic_coin_sack"
+					count: 1
+				}
+				{
+					id: "20EFC7DEE7840C2A"
+					type: "xp"
+					xp: 250
+				}
+			]
+		},
+		{
+			id: "20F48D09B2A69B4B"
+			x: 3d
+			y: 2d
+			dependencies: ["20A4F79E5ACF677F"]
+			tasks: [
+				{
+					id: "2040020EC3B80C2F"
+					type: "item"
+					item: "createnuclear:steel_ingot"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "2016473FF4C39E7E"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 3
+				}
+			]
+		},
+		{
+			id: "207CE0E2845E57B1"
+			x: 4d
+			y: 2d
+			dependencies: ["20F48D09B2A69B4B"]
+			tasks: [
+				{
+					id: "2031A0475F431A86"
+					type: "item"
+					item: "createnuclear:steel_block"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20DE8B57D8A1E784"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 3
+				}
+			]
+		},
+		{
+			id: "20837F344C6CF688"
+			x: 5d
+			y: 2d
+			dependencies: ["207CE0E2845E57B1"]
+			tasks: [
+				{
+					id: "208AEDB18F1146B4"
+					type: "item"
+					item: "createnuclear:raw_uranium"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20E6F088E021AF1F"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 3
+				}
+			]
+		},
+		{
+			id: "20A92FE5E11A07D2"
+			x: 6d
+			y: 2d
+			dependencies: ["20837F344C6CF688"]
+			tasks: [
+				{
+					id: "20E7708261248E2C"
+					type: "item"
+					item: "createnuclear:reactor_casing"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "209F33CC05280EB7"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 3
+				}
+			]
+		},
+		{
+			id: "203841C110280ECA"
+			x: 3d
+			y: 4d
+			dependencies: ["20F48D09B2A69B4B"]
+			tasks: [
+				{
+					id: "20ACFA5376039B48"
+					type: "item"
+					item: "createnuclear:reinforced_glass"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20F2D41AA587F245"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 3
+				}
+			]
+		},
+		{
+			id: "204B7949A09F0823"
+			x: 4d
+			y: 4d
+			dependencies: ["203841C110280ECA"]
+			tasks: [
+				{
+					id: "20F015142F1D9346"
+					type: "item"
+					item: "createnuclear:graphite_rod"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20C778DF27B47606"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 3
+				}
+			]
+		},
+		{
+			id: "20BBDB522BA1A12E"
+			x: 5d
+			y: 4d
+			dependencies: ["204B7949A09F0823"]
+			tasks: [
+				{
+					id: "20B78CAA0432FAA1"
+					type: "item"
+					item: "createaddition:electrum_ingot"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20B23C370D3E897F"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 3
+				}
+			]
+		},
+		{
+			id: "208F1E9FE12EF993"
+			x: 6d
+			y: 4d
+			dependencies: ["20BBDB522BA1A12E"]
+			tasks: [
+				{
+					id: "20438BD66E76AD9C"
+					type: "item"
+					item: "createnuclear:lead_ingot"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "2003A6664001F5ED"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 3
+				}
+			]
+		},
+		{
+			id: "20E7F625CC2F6BF3"
+			x: 0d
+			y: 10d
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Beyond the Machine"
+			description: [
+				"Nuclear power, flight and dragon-forged gear. You have reached the summit of Create in Steamon."
+				""
+				"&eClaim the ultimate reward. There is nothing left to build that you cannot.&r"
+				""
+			]
+			dependencies: ["204115B912BAFEEF", "202BE63206C547AC", "203EA3D6CDF9263E", "20A92FE5E11A07D2", "208F1E9FE12EF993"]
+			tasks: [
+				{
+					id: "2096E045E827BCD4"
+					type: "item"
+					item: "createnuclear:reactor_core"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20352A817F43C827"
+					type: "random"
+					table_id: "20AABBCC00000004"
+				}
+				{
+					id: "20129BD7B530C504"
+					type: "item"
+					item: "cobblemon:relic_coin_sack"
+					count: 2
+				}
+				{
+					id: "200C8F8676E24837"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+	]
+	title: "Beyond the Machine"
+}

@@ -1,0 +1,101 @@
+{
+	hide_tooltip: false
+	icon: { id: "artifacts:cross_necklace" }
+	id: "501CB7322A4BCDEE"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			reward: {
+				count: 1
+				id: "50F72514BB96D9E4"
+				item: { count: 1, id: "cobblemon:relic_coin_sack" }
+				type: "item"
+			}
+			weight: 40.0f
+		},
+		{
+			reward: {
+				count: 24
+				id: "502C64A2D3A60073"
+				item: { count: 1, id: "cobblemon:relic_coin" }
+				type: "item"
+			}
+			weight: 30.0f
+		},
+		{
+			reward: {
+				count: 4
+				id: "50544F89C83E1098"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "50F5DE35E409D9B4"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 6
+				id: "50B238F057096613"
+				item: { count: 1, id: "cobblemon:ultra_ball" }
+				type: "item"
+			}
+			weight: 18.0f
+		},
+		{
+			reward: {
+				count: 6
+				id: "503FB896A61D97E6"
+				item: { count: 1, id: "cobblemon:dusk_ball" }
+				type: "item"
+			}
+			weight: 15.0f
+		},
+		{
+			reward: {
+				count: 6
+				id: "500E37724CA76628"
+				item: { count: 1, id: "cobblemon:exp_candy_l" }
+				type: "item"
+			}
+			weight: 15.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "5033D413E3DD5DB0"
+				item: { count: 1, id: "minecraft:enchanted_golden_apple" }
+				type: "item"
+			}
+			weight: 8.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "505F593A00D06210"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}
+			weight: 8.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "508B2C0C400347F1"
+				item: { count: 1, id: "cobblemon:master_ball" }
+				type: "item"
+			}
+			weight: 2.0f
+		},
+	]
+	title: "Treasure Hunter Rewards"
+	use_title: true
+}

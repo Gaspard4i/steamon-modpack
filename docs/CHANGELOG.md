@@ -6,6 +6,52 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [2.0.0] - Unreleased (Season 2)
 
+### 2026-07-23 — Quest system (full FTB Quests tree) & FTB Essentials
+
+**Quests — complete tree (21 chapters, 734 quests, 19 reward tables)**
+- **Steamon Journey** (main line, horizontal left-to-right): from-scratch
+  progression (wood → stone → iron → diamond → nether → deep dark → aether →
+  end → dragon) with 13 side derivations that branch off to and unlock each
+  category. Gates alternate between item tasks and in-game advancements. Uses
+  FTB `quest_links` (`linked_quest`) to jump to each branch's first quest.
+- **Cascade unlock**: finishing a main-line milestone (or the previous branch)
+  unlocks the next branch via cross-chapter dependencies.
+- **Create** (renamed thematically): Cogs & Crates (vanilla kinetics + trains),
+  Rotational Power (automation), Sparks & Circuits (Create Addition / FE),
+  Beyond the Machine (nuclear, jetpacks). **Cobblemon**: First Steps, Trainer's
+  Path, Myths & Legends. **Dimensions**: Nether, End, Aether, Otherside.
+  **Culinary, Steamon League, Adventure & Loot, Welcome, Daily Quests**
+  (repeatable, `can_repeat` + `repeat_cooldown`).
+- **Collection chapters** (Cobblemon section): **Cobblemon Cooking** (all
+  vitamins, feathers, mints, mochi, candies, aprijuices, medicine, Utility+
+  treats), **Evolution Items** (stones + trade/held evo items), **PvP Battle
+  Items** (competitive held items, power items, ability items, Utility+ caps).
+  Grid-of-one layout like the Berries chapter.
+- **Every quest has a reward** (XP / item / `cobblemon:relic_coin` "spurs").
+  Category-end buttons (gear) roll a themed **reward table** (`type:"random"`).
+- **Dependency lines visible everywhere** (`default_hide_dependency_lines:false`,
+  grids hierarchised into linked sub-blocks). Each chapter reads as a tree.
+- Reward-table SNBT fixed to the correct nested format
+  (`{ reward:{...}, weight:N.Nf }`). 11 invalid item ids corrected
+  (createnuclear:uranium→raw_uranium, createaddition:accumulator→capacitor,
+  create:funnel→andesite_funnel, cobblemon puffs→rare_candy,
+  journeymount juices→relic_coin). All ids unique, no dangling refs, clean
+  in-game reload. Copies kept in `docs/quests/` (+ `reward_tables/`).
+- FTB Quests, Library, Teams and **FTB Essentials** (`/tpa /back /spawn
+  /sethome /rtp /warp`) are CurseForge-only (ARR) — installed on the server,
+  never in the packwiz repo.
+
+**Loot — tighter, thematic, repetitive**
+- Rebuilt the 25 MVS structure loot tables: from ~73 unique items each (up to
+  150) down to ~8-12 thematic items, repeated (higher weights / stacked counts)
+  instead of one-of-everything. Rare pools (master ball, jetpack, nuclear,
+  M&L legendaries) kept unique and untouched.
+- Evolution stones no longer scattered across ~40 tables — kept only in
+  dedicated structures (crystal, jungle_tower on the MVS side; plus the already
+  thematic desert/nether/snow/dark/aether tables). Feathers and vitamins
+  likewise concentrated by theme (feathers → combat/training structures,
+  vitamins → noble/brewing structures) instead of appearing everywhere.
+
 ### 2026-07-23 — Rebalance, loot refactor, exploration dimension & spawns
 
 **Mods added**

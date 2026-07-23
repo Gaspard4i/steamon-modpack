@@ -1,0 +1,110 @@
+{
+	hide_tooltip: false
+	icon: { id: "create:cogwheel" }
+	id: "20AABBCC00000002"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			reward: {
+				count: 1
+				id: "200E102AA5BA198F"
+				item: { count: 1, id: "cobblemon:relic_coin_sack" }
+				type: "item"
+			}
+			weight: 40.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "205D6BCB61B5C1A4"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "20A7963AB19810A1"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "20EAFCA17AD9C9ED"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}
+			weight: 30.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "20F19BC3CCF770C1"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "20D9E4C402B04B17"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "2072A3F3D2FB021C"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}
+			weight: 15.0f
+		},
+		{
+			reward: {
+				count: 6
+				id: "208DD84A7EFED0BC"
+				item: { count: 1, id: "cobblemon:exp_candy_l" }
+				type: "item"
+			}
+			weight: 12.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "2006E4A2B4A09E59"
+				item: { count: 1, id: "create:mechanical_piston" }
+				type: "item"
+			}
+			weight: 10.0f
+		},
+		{
+			reward: {
+				count: 2
+				id: "20A2108AC2BDA493"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}
+			weight: 8.0f
+		},
+		{
+			reward: {
+				count: 4
+				id: "208BAF40D88FFA93"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}
+			weight: 5.0f
+		}
+	]
+	title: "Rotational Power Rewards"
+	use_title: true
+}

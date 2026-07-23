@@ -1,0 +1,25 @@
+{
+	icon: {
+		id: "cobblemon:enigma_berry"
+	}
+	id: "242242FEF05835A5"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ reward: { id: "F101A8F5382E0001", type: "item", item: { id: "cobblemon:rare_candy", count: 2 } }, weight: 40.0f }
+		{ reward: { id: "F101A8F5382E0002", type: "item", item: { id: "cobblemon:exp_candy_m", count: 4 } }, weight: 40.0f }
+		{ reward: { id: "F101A8F5382E0003", type: "item", item: { id: "cobblemon:relic_coin_pouch", count: 1 } }, weight: 40.0f }
+		{ reward: { id: "F101A8F5382E0004", type: "item", item: { id: "cobblemon:leftovers", count: 1 } }, weight: 20.0f }
+		{ reward: { id: "F101A8F5382E0005", type: "item", item: { id: "cobblemon:lum_berry", count: 8 } }, weight: 20.0f }
+		{ reward: { id: "F101A8F5382E0006", type: "item", item: { id: "cobblemon:sitrus_berry", count: 8 } }, weight: 20.0f }
+		{ reward: { id: "F101A8F5382E0007", type: "item", item: { id: "cobblemon:fire_stone", count: 1 } }, weight: 8.0f }
+		{ reward: { id: "F101A8F5382E0008", type: "item", item: { id: "cobblemon:water_stone", count: 1 } }, weight: 8.0f }
+		{ reward: { id: "F101A8F5382E0009", type: "item", item: { id: "cobblemon:thunder_stone", count: 1 } }, weight: 8.0f }
+		{ reward: { id: "F101A8F5382E000A", type: "item", item: { id: "cobblemon:leaf_stone", count: 1 } }, weight: 8.0f }
+		{ reward: { id: "F101A8F5382E000B", type: "item", item: { id: "cobblemon:exp_candy_xl", count: 1 } }, weight: 3.0f }
+		{ reward: { id: "F101A8F5382E000C", type: "item", item: { id: "cobblemon:ability_capsule", count: 1 } }, weight: 3.0f }
+		{ reward: { id: "F101A8F5382E000D", type: "item", item: { id: "cobblemon:master_ball", count: 1 } }, weight: 1.0f }
+	]
+	title: "Berry Master Rewards"
+	use_title: true
+}

@@ -1,0 +1,900 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "cobblemon_cooking"
+	group: "2A4A6BF9FB018712"
+	icon: { id: "cobblemon:rare_candy" }
+	id: "C0F466D125501734"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30E9681CB438878A"]
+			icon: { id: "cobblemon:protein" }
+			id: "C07D55131B29364E"
+			tasks: [{ id: "C0D940C817AE5A96", item: { count: 1, id: "cobblemon:protein" }, type: "item" }]
+			description: ["Adds Attack EVs to a Pokemon, up to the training cap. The staple physical EV booster."]
+			rewards: [{ count: 3, id: "C00F603B8ACFD263", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C07D55131B29364E"]
+			icon: { id: "cobblemon:iron" }
+			id: "C08D71CF557A0841"
+			tasks: [{ id: "C00EDF8353794182", item: { count: 1, id: "cobblemon:iron" }, type: "item" }]
+			description: ["Adds Defense EVs to a Pokemon. Train up a physical wall fast."]
+			rewards: [{ count: 3, id: "C015A4A1713DD2AF", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C08D71CF557A0841"]
+			icon: { id: "cobblemon:calcium" }
+			id: "C02D539A40909CAF"
+			tasks: [{ id: "C020D7C740481DD2", item: { count: 1, id: "cobblemon:calcium" }, type: "item" }]
+			description: ["Adds Special Attack EVs. Core vitamin for special sweepers."]
+			rewards: [{ count: 3, id: "C04CCC15936AE3A6", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C02D539A40909CAF"]
+			icon: { id: "cobblemon:zinc" }
+			id: "C056A7EF165523C9"
+			tasks: [{ id: "C060442D9B4DBF04", item: { count: 1, id: "cobblemon:zinc" }, type: "item" }]
+			description: ["Adds Special Defense EVs, hardening a special wall."]
+			rewards: [{ count: 3, id: "C04AE51E9ADA122A", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C056A7EF165523C9"]
+			icon: { id: "cobblemon:carbos" }
+			id: "C00F8CE7944D825A"
+			tasks: [{ id: "C00EB114FE146840", item: { count: 1, id: "cobblemon:carbos" }, type: "item" }]
+			description: ["Adds Speed EVs, pushing a sweeper past the field."]
+			rewards: [{ count: 3, id: "C0CF5DF9BB837EF9", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C00F8CE7944D825A"]
+			icon: { id: "cobblemon:hp_up" }
+			id: "C0173FB31A38C779"
+			tasks: [{ id: "C05CADF95B614E59", item: { count: 1, id: "cobblemon:hp_up" }, type: "item" }]
+			description: ["Adds HP EVs, padding out a Pokemon's bulk."]
+			rewards: [{ count: 3, id: "C0C45CAADD6D460B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C0173FB31A38C779"]
+			icon: { id: "cobblemon:pp_up" }
+			id: "C0377231BDE00592"
+			tasks: [{ id: "C01833FA25F48D2C", item: { count: 1, id: "cobblemon:pp_up" }, type: "item" }]
+			description: ["Permanently raises the max PP of one move by 20 percent."]
+			rewards: [{ count: 4, id: "C0D06EB4453F9BB7", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C0377231BDE00592"]
+			icon: { id: "cobblemon:pp_max" }
+			id: "C03ED4295A24B1C1"
+			tasks: [{ id: "C08527EC39A8FD3B", item: { count: 1, id: "cobblemon:pp_max" }, type: "item" }]
+			description: ["Maxes out the PP of a single move in one use. The premium PP booster."]
+			rewards: [{ count: 6, id: "C0A4E79746E88227", item: "cobblemon:relic_coin", type: "item" }]
+			x: 7.0d
+			y: 0.0d
+		},
+		{
+			icon: { id: "cobblemon:health_feather" }
+			id: "C0FF9F720B6F49CC"
+			tasks: [{ id: "C0885A70EC838BD0", item: { count: 1, id: "cobblemon:health_feather" }, type: "item" }]
+			description: ["Adds a single HP EV. Fine-tune a spread to the exact point."]
+			rewards: [{ count: 2, id: "C0E7803BAD18DB9B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0FF9F720B6F49CC"]
+			icon: { id: "cobblemon:muscle_feather" }
+			id: "C07C3CB364867813"
+			tasks: [{ id: "C0F726CCABA47B51", item: { count: 1, id: "cobblemon:muscle_feather" }, type: "item" }]
+			description: ["Adds a single Attack EV for precise physical spreads."]
+			rewards: [{ count: 2, id: "C04BD79F363DC67B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C07C3CB364867813"]
+			icon: { id: "cobblemon:resist_feather" }
+			id: "C0265994A126A164"
+			tasks: [{ id: "C02CF7CA452EC502", item: { count: 1, id: "cobblemon:resist_feather" }, type: "item" }]
+			description: ["Adds a single Defense EV to round off bulk."]
+			rewards: [{ count: 2, id: "C0FFB4ED6FB3068A", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0265994A126A164"]
+			icon: { id: "cobblemon:genius_feather" }
+			id: "C060972BABBA90FB"
+			tasks: [{ id: "C0FFB26F5ED498F9", item: { count: 1, id: "cobblemon:genius_feather" }, type: "item" }]
+			description: ["Adds a single Special Attack EV."]
+			rewards: [{ count: 2, id: "C06EA0F20E60340E", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C060972BABBA90FB"]
+			icon: { id: "cobblemon:clever_feather" }
+			id: "C0133CD233BACDBB"
+			tasks: [{ id: "C09B7279AC70B52E", item: { count: 1, id: "cobblemon:clever_feather" }, type: "item" }]
+			description: ["Adds a single Special Defense EV."]
+			rewards: [{ count: 2, id: "C01F6EE133C38823", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0133CD233BACDBB"]
+			icon: { id: "cobblemon:swift_feather" }
+			id: "C0565568DEE092F2"
+			tasks: [{ id: "C063A521BF071C4C", item: { count: 1, id: "cobblemon:swift_feather" }, type: "item" }]
+			description: ["Adds a single Speed EV to hit a precise benchmark."]
+			rewards: [{ count: 2, id: "C044DF81CFEB60AE", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0565568DEE092F2"]
+			icon: { id: "cobblemon:fairy_feather" }
+			id: "C061283A3178F136"
+			tasks: [{ id: "C0A6A53481E2D5C9", item: { count: 1, id: "cobblemon:fairy_feather" }, type: "item" }]
+			description: ["A held item that boosts the power of the holder's Fairy-type moves."]
+			rewards: [{ count: 5, id: "C0169C966DF7A8CE", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 1.0d
+		},
+		{
+			icon: { id: "cobblemon:adamant_mint" }
+			id: "C0E48B18BE77381B"
+			tasks: [{ id: "C050D59EB9BDF704", item: { count: 1, id: "cobblemon:adamant_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Adamant, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C0612F43ABD5545C", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C0E48B18BE77381B"]
+			icon: { id: "cobblemon:bold_mint" }
+			id: "C05F31A83506CA57"
+			tasks: [{ id: "C0AE34E88FB50B02", item: { count: 1, id: "cobblemon:bold_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Bold, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C096FCB353E8F5F6", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C05F31A83506CA57"]
+			icon: { id: "cobblemon:brave_mint" }
+			id: "C03F737F05F511DE"
+			tasks: [{ id: "C0D66D476C4022A5", item: { count: 1, id: "cobblemon:brave_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Brave, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C057A4931CEAE29F", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C03F737F05F511DE"]
+			icon: { id: "cobblemon:calm_mint" }
+			id: "C08DC413AB14B390"
+			tasks: [{ id: "C0B5D165F2B2D39A", item: { count: 1, id: "cobblemon:calm_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Calm, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C09093D8308B7304", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C08DC413AB14B390"]
+			icon: { id: "cobblemon:careful_mint" }
+			id: "C02141BAD751A749"
+			tasks: [{ id: "C0E020614BC07F59", item: { count: 1, id: "cobblemon:careful_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Careful, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C0C5AA0924FEA3AF", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C02141BAD751A749"]
+			icon: { id: "cobblemon:gentle_mint" }
+			id: "C056723EE00275C2"
+			tasks: [{ id: "C003E07B4C1A82F2", item: { count: 1, id: "cobblemon:gentle_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Gentle, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C0E42A0CA1F8BDBA", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C056723EE00275C2"]
+			icon: { id: "cobblemon:hasty_mint" }
+			id: "C075896205975DF3"
+			tasks: [{ id: "C0383357815E7C30", item: { count: 1, id: "cobblemon:hasty_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Hasty, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C04F168D531E95C7", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C075896205975DF3"]
+			icon: { id: "cobblemon:impish_mint" }
+			id: "C0597F6B0C04BF04"
+			tasks: [{ id: "C0225AD56AA13778", item: { count: 1, id: "cobblemon:impish_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Impish, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C03BF906CD40EC99", item: "cobblemon:relic_coin", type: "item" }]
+			x: 7.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C0597F6B0C04BF04"]
+			icon: { id: "cobblemon:jolly_mint" }
+			id: "C05DE527EFD06F20"
+			tasks: [{ id: "C062C1BA04A6C0B5", item: { count: 1, id: "cobblemon:jolly_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Jolly, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C069373C8E04C8C2", item: "cobblemon:relic_coin", type: "item" }]
+			x: 8.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C05DE527EFD06F20"]
+			icon: { id: "cobblemon:lax_mint" }
+			id: "C02BC710199CE25C"
+			tasks: [{ id: "C082E3632E7E7D7C", item: { count: 1, id: "cobblemon:lax_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Lax, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C01D2F0EE09E1363", item: "cobblemon:relic_coin", type: "item" }]
+			x: 9.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C02BC710199CE25C"]
+			icon: { id: "cobblemon:lonely_mint" }
+			id: "C0414ED72916D2B1"
+			tasks: [{ id: "C09E5ADEC48B2198", item: { count: 1, id: "cobblemon:lonely_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Lonely, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C07879E50F5653F1", item: "cobblemon:relic_coin", type: "item" }]
+			x: 10.0d
+			y: 2.0d
+		},
+		{
+			icon: { id: "cobblemon:mild_mint" }
+			id: "C0D65641814DDD17"
+			tasks: [{ id: "C02D1DEED5042317", item: { count: 1, id: "cobblemon:mild_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Mild, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C00C1E3BFF18B539", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0D65641814DDD17"]
+			icon: { id: "cobblemon:modest_mint" }
+			id: "C061FA4B5A0EB3D2"
+			tasks: [{ id: "C016F0D16FF12EA1", item: { count: 1, id: "cobblemon:modest_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Modest, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C0CAF4FBF30237AC", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C061FA4B5A0EB3D2"]
+			icon: { id: "cobblemon:naive_mint" }
+			id: "C0D854490FB66946"
+			tasks: [{ id: "C0D778AB80C1D262", item: { count: 1, id: "cobblemon:naive_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Naive, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C0BFE2B51363B66A", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0D854490FB66946"]
+			icon: { id: "cobblemon:naughty_mint" }
+			id: "C0EBB1EEB1C8D693"
+			tasks: [{ id: "C0001911C2EBCE15", item: { count: 1, id: "cobblemon:naughty_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Naughty, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C0604EBEADC29BDC", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0EBB1EEB1C8D693"]
+			icon: { id: "cobblemon:quiet_mint" }
+			id: "C0A51A6D5EE8BDEC"
+			tasks: [{ id: "C0737162DAF29A00", item: { count: 1, id: "cobblemon:quiet_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Quiet, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C0F3A940D43F25DA", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0A51A6D5EE8BDEC"]
+			icon: { id: "cobblemon:rash_mint" }
+			id: "C02B801A6F0B5C74"
+			tasks: [{ id: "C01B0687AAA9A1FC", item: { count: 1, id: "cobblemon:rash_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Rash, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C04254791C29716F", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C02B801A6F0B5C74"]
+			icon: { id: "cobblemon:relaxed_mint" }
+			id: "C02CC57E4CB732BB"
+			tasks: [{ id: "C09CA507A49C9301", item: { count: 1, id: "cobblemon:relaxed_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Relaxed, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C0ACBF01FC0FDB97", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C02CC57E4CB732BB"]
+			icon: { id: "cobblemon:sassy_mint" }
+			id: "C07D0228DF7B6002"
+			tasks: [{ id: "C09AC904B4AA8C12", item: { count: 1, id: "cobblemon:sassy_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Sassy, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C0DF4602B3E9D14E", item: "cobblemon:relic_coin", type: "item" }]
+			x: 7.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C07D0228DF7B6002"]
+			icon: { id: "cobblemon:serious_mint" }
+			id: "C06B52899FB378C5"
+			tasks: [{ id: "C02F1CABB08C2AD7", item: { count: 1, id: "cobblemon:serious_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Serious, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C074A3D0EC372F9F", item: "cobblemon:relic_coin", type: "item" }]
+			x: 8.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C06B52899FB378C5"]
+			icon: { id: "cobblemon:timid_mint" }
+			id: "C0A05493EECE26CB"
+			tasks: [{ id: "C097658AD9F4A902", item: { count: 1, id: "cobblemon:timid_mint" }, type: "item" }]
+			description: ["Changes a Pokemon's nature to Timid, reshaping its stat spread without re-breeding."]
+			rewards: [{ count: 4, id: "C002E61F64696C37", item: "cobblemon:relic_coin", type: "item" }]
+			x: 9.0d
+			y: 3.0d
+		},
+		{
+			icon: { id: "cobblemon:health_mochi" }
+			id: "C023B658836433F6"
+			tasks: [{ id: "C085C2CC3CF1E791", item: { count: 1, id: "cobblemon:health_mochi" }, type: "item" }]
+			description: ["Adds HP EVs, the mochi counterpart to HP Up."]
+			rewards: [{ count: 3, id: "C073AD426D9F87DD", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C023B658836433F6"]
+			icon: { id: "cobblemon:muscle_mochi" }
+			id: "C03B6A161183627A"
+			tasks: [{ id: "C0A60150EF22E0BC", item: { count: 1, id: "cobblemon:muscle_mochi" }, type: "item" }]
+			description: ["Adds Attack EVs through a tasty treat."]
+			rewards: [{ count: 3, id: "C02C3E772CC32933", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C03B6A161183627A"]
+			icon: { id: "cobblemon:resist_mochi" }
+			id: "C0CEE0E65BEAD3DE"
+			tasks: [{ id: "C00D1D29C9674C3E", item: { count: 1, id: "cobblemon:resist_mochi" }, type: "item" }]
+			description: ["Adds Defense EVs to build a physical wall."]
+			rewards: [{ count: 3, id: "C0175752429CF544", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C0CEE0E65BEAD3DE"]
+			icon: { id: "cobblemon:genius_mochi" }
+			id: "C018DEC69846C285"
+			tasks: [{ id: "C0DC6EF3B6AC22A4", item: { count: 1, id: "cobblemon:genius_mochi" }, type: "item" }]
+			description: ["Adds Special Attack EVs for special attackers."]
+			rewards: [{ count: 3, id: "C0BBB4CBA20790F0", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C018DEC69846C285"]
+			icon: { id: "cobblemon:clever_mochi" }
+			id: "C0B813836384310D"
+			tasks: [{ id: "C044D7CD36105174", item: { count: 1, id: "cobblemon:clever_mochi" }, type: "item" }]
+			description: ["Adds Special Defense EVs to a spread."]
+			rewards: [{ count: 3, id: "C0971CC736D0A325", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C0B813836384310D"]
+			icon: { id: "cobblemon:swift_mochi" }
+			id: "C0DBFD65B96BB61C"
+			tasks: [{ id: "C06BC4F1507BA7CA", item: { count: 1, id: "cobblemon:swift_mochi" }, type: "item" }]
+			description: ["Adds Speed EVs, the fast track to outspeeding."]
+			rewards: [{ count: 3, id: "C00C0FF7DC8A81A8", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C0DBFD65B96BB61C"]
+			icon: { id: "cobblemon:fresh_start_mochi" }
+			id: "C046B53C92C44059"
+			tasks: [{ id: "C05996644450920C", item: { count: 1, id: "cobblemon:fresh_start_mochi" }, type: "item" }]
+			description: ["Wipes every EV off a Pokemon at once, giving you a clean slate to retrain."]
+			rewards: [{ count: 6, id: "C0D45EA731F5A108", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 5.0d
+		},
+		{
+			icon: { id: "cobblemon:courage_candy" }
+			id: "C02AC9DF9E5BE148"
+			tasks: [{ id: "C0C8B30FCE0FEEBD", item: { count: 1, id: "cobblemon:courage_candy" }, type: "item" }]
+			description: ["Raises a Pokemon's HP IV toward its maximum."]
+			rewards: [{ count: 5, id: "C0DD96797458F487", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C02AC9DF9E5BE148"]
+			icon: { id: "cobblemon:mighty_candy" }
+			id: "C0B6906F266DC3D2"
+			tasks: [{ id: "C00ED2CA6834022A", item: { count: 1, id: "cobblemon:mighty_candy" }, type: "item" }]
+			description: ["Raises the Attack IV toward its maximum."]
+			rewards: [{ count: 5, id: "C068A7B569F5889B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C0B6906F266DC3D2"]
+			icon: { id: "cobblemon:tough_candy" }
+			id: "C0366808F4593DC4"
+			tasks: [{ id: "C0C95A7B329B5266", item: { count: 1, id: "cobblemon:tough_candy" }, type: "item" }]
+			description: ["Raises the Defense IV toward its maximum."]
+			rewards: [{ count: 5, id: "C01E9345436246F0", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C0366808F4593DC4"]
+			icon: { id: "cobblemon:smart_candy" }
+			id: "C08EAEBFFB087313"
+			tasks: [{ id: "C0F463A12834AAC5", item: { count: 1, id: "cobblemon:smart_candy" }, type: "item" }]
+			description: ["Raises the Special Attack IV toward its maximum."]
+			rewards: [{ count: 5, id: "C055E119269712D3", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C08EAEBFFB087313"]
+			icon: { id: "cobblemon:health_candy" }
+			id: "C0D0045BB731BBA6"
+			tasks: [{ id: "C0EC5CA2423AA068", item: { count: 1, id: "cobblemon:health_candy" }, type: "item" }]
+			description: ["Boosts HP potential further; part of the IV candy set."]
+			rewards: [{ count: 5, id: "C060C79750C390D2", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C0D0045BB731BBA6"]
+			icon: { id: "cobblemon:quick_candy" }
+			id: "C07ECDC0609A5EB6"
+			tasks: [{ id: "C03D619D015CB544", item: { count: 1, id: "cobblemon:quick_candy" }, type: "item" }]
+			description: ["Raises the Speed IV toward its maximum."]
+			rewards: [{ count: 5, id: "C003ED254D8777EA", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C07ECDC0609A5EB6"]
+			icon: { id: "cobblemon:brittle_candy" }
+			id: "C07014EB147E3C3B"
+			tasks: [{ id: "C0DB9AC2621FC7E8", item: { count: 1, id: "cobblemon:brittle_candy" }, type: "item" }]
+			description: ["A rarer candy that pushes an IV higher for perfect stats."]
+			rewards: [{ count: 7, id: "C00EA93BB7926076", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 6.0d
+		},
+		{
+			icon: { id: "cobblemon:coward_candy" }
+			id: "C072C237CBD1777D"
+			tasks: [{ id: "C054A829BC3FFECF", item: { count: 1, id: "cobblemon:coward_candy" }, type: "item" }]
+			description: ["Lowers the HP IV. Useful for minimizing damage or Trick Room math."]
+			rewards: [{ count: 3, id: "C081807266FBAA65", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["C072C237CBD1777D"]
+			icon: { id: "cobblemon:weak_candy" }
+			id: "C0AF6A19B185C555"
+			tasks: [{ id: "C0B17D27A4D7C94A", item: { count: 1, id: "cobblemon:weak_candy" }, type: "item" }]
+			description: ["Lowers the Attack IV, handy for confusion or Foul Play sets."]
+			rewards: [{ count: 3, id: "C0F991634111A43E", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["C0AF6A19B185C555"]
+			icon: { id: "cobblemon:slow_candy" }
+			id: "C0F1641CA4EEA90A"
+			tasks: [{ id: "C06FC20FCC278DAB", item: { count: 1, id: "cobblemon:slow_candy" }, type: "item" }]
+			description: ["Lowers the Speed IV for Trick Room or Gyro Ball builds."]
+			rewards: [{ count: 3, id: "C01F75937451C9BE", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["C0F1641CA4EEA90A"]
+			icon: { id: "cobblemon:numb_candy" }
+			id: "C03C1B63AF68823B"
+			tasks: [{ id: "C0CA0D51805A7B8C", item: { count: 1, id: "cobblemon:numb_candy" }, type: "item" }]
+			description: ["Lowers the Special Defense IV in niche min-max builds."]
+			rewards: [{ count: 3, id: "C08D2DDDAB2492AB", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["C03C1B63AF68823B"]
+			icon: { id: "cobblemon:sickly_candy" }
+			id: "C09B088A31E13ECB"
+			tasks: [{ id: "C0440BC77405E0D1", item: { count: 1, id: "cobblemon:sickly_candy" }, type: "item" }]
+			description: ["Lowers the Special Attack IV for pure physical attackers."]
+			rewards: [{ count: 3, id: "C01D4B61D125D74E", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 7.0d
+		},
+		{
+			icon: { id: "cobblemon:aprijuice_black" }
+			id: "C085CCAA32EF9EB1"
+			tasks: [{ id: "C02BD2A25B856C8B", item: { count: 1, id: "cobblemon:aprijuice_black" }, type: "item" }]
+			description: ["A brewed Apricorn juice that boosts a Pokemon's stats in the field."]
+			rewards: [{ count: 3, id: "C0D7C9ADF250134F", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C085CCAA32EF9EB1"]
+			icon: { id: "cobblemon:aprijuice_blue" }
+			id: "C0C4E32AB6CDA70F"
+			tasks: [{ id: "C075CC0869F3DBC7", item: { count: 1, id: "cobblemon:aprijuice_blue" }, type: "item" }]
+			description: ["A cool Apricorn juice, a handy field consumable."]
+			rewards: [{ count: 3, id: "C04D59A47A842ECF", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C0C4E32AB6CDA70F"]
+			icon: { id: "cobblemon:aprijuice_green" }
+			id: "C0ADA68A1AF8131A"
+			tasks: [{ id: "C0FB745B77BA355E", item: { count: 1, id: "cobblemon:aprijuice_green" }, type: "item" }]
+			description: ["A refreshing Apricorn juice brewed from green Apricorns."]
+			rewards: [{ count: 3, id: "C07C9B8B28E7A972", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C0ADA68A1AF8131A"]
+			icon: { id: "cobblemon:aprijuice_pink" }
+			id: "C0C96A0BD135B753"
+			tasks: [{ id: "C06D14B2A0DEBCC9", item: { count: 1, id: "cobblemon:aprijuice_pink" }, type: "item" }]
+			description: ["A sweet pink Apricorn juice for on-the-go boosts."]
+			rewards: [{ count: 3, id: "C058081E9E3AC6CE", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C0C96A0BD135B753"]
+			icon: { id: "cobblemon:aprijuice_red" }
+			id: "C0D98DCA85D2CE1F"
+			tasks: [{ id: "C01E1D6531113276", item: { count: 1, id: "cobblemon:aprijuice_red" }, type: "item" }]
+			description: ["A zesty red Apricorn juice."]
+			rewards: [{ count: 3, id: "C046813FF2DC9C95", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C0D98DCA85D2CE1F"]
+			icon: { id: "cobblemon:aprijuice_white" }
+			id: "C089FB3A575DF2C7"
+			tasks: [{ id: "C09DE2798396D11C", item: { count: 1, id: "cobblemon:aprijuice_white" }, type: "item" }]
+			description: ["A crisp white Apricorn juice."]
+			rewards: [{ count: 3, id: "C0933D7F79CC8476", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C089FB3A575DF2C7"]
+			icon: { id: "cobblemon:aprijuice_yellow" }
+			id: "C0DC4B93A9321034"
+			tasks: [{ id: "C01D3FC8F3CD37AC", item: { count: 1, id: "cobblemon:aprijuice_yellow" }, type: "item" }]
+			description: ["A tangy yellow Apricorn juice."]
+			rewards: [{ count: 3, id: "C0366DFBA3833973", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C0DC4B93A9321034"]
+			icon: { id: "cobblemon:berry_juice" }
+			id: "C0BCE65ED9C564BD"
+			tasks: [{ id: "C0A72DDC54D63501", item: { count: 1, id: "cobblemon:berry_juice" }, type: "item" }]
+			description: ["A simple berry drink that restores a little HP. Craftable from berries."]
+			rewards: [{ count: 2, id: "C0D2C672B82846E9", item: "cobblemon:relic_coin", type: "item" }]
+			x: 7.0d
+			y: 8.0d
+		},
+		{
+			icon: { id: "cobblemon:rare_candy" }
+			id: "C0894C591A48D42B"
+			tasks: [{ id: "C087C26FCEAA85DC", item: { count: 1, id: "cobblemon:rare_candy" }, type: "item" }]
+			description: ["A fluffy Poke Puff treat used to raise a Pokemon's friendship."]
+			rewards: [{ count: 3, id: "C0B8571D5046AC17", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 9.0d
+		},
+		{
+			dependencies: ["C0894C591A48D42B"]
+			icon: { id: "cobblemon:rare_candy" }
+			id: "C061ED0FEDE72410"
+			tasks: [{ id: "C0DABE60DE6392B3", item: { count: 1, id: "cobblemon:rare_candy" }, type: "item" }]
+			description: ["A sweet cream puff snack, a tasty friendship treat."]
+			rewards: [{ count: 3, id: "C0343B8E6B6C654C", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 9.0d
+		},
+		{
+			dependencies: ["C061ED0FEDE72410"]
+			icon: { id: "cobblemon_utility:poketreat" }
+			id: "C04613A1A58FCFA2"
+			tasks: [{ id: "C038DAE8CAE9D776", item: { count: 1, id: "cobblemon_utility:poketreat" }, type: "item" }]
+			description: ["A Utility+ treat that boosts friendship quickly. Great for friendship evolutions."]
+			rewards: [{ count: 4, id: "C05376E3C67A1A2D", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 9.0d
+		},
+		{
+			dependencies: ["C04613A1A58FCFA2"]
+			icon: { id: "cobblemon_utility:commoncandy" }
+			id: "C0DF71A96AA3215B"
+			tasks: [{ id: "C04A308FDCE78694", item: { count: 1, id: "cobblemon_utility:commoncandy" }, type: "item" }]
+			description: ["A Utility+ candy that grants experience to a Pokemon."]
+			rewards: [{ count: 3, id: "C04BB186B440B179", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 9.0d
+		},
+		{
+			dependencies: ["C0DF71A96AA3215B"]
+			icon: { id: "cobblemon_utility:mastercandy" }
+			id: "C0CB29784E976339"
+			tasks: [{ id: "C00CB46BA43D5B50", item: { count: 1, id: "cobblemon_utility:mastercandy" }, type: "item" }]
+			description: ["A powerful Utility+ candy granting a large experience boost."]
+			rewards: [{ count: 6, id: "C0836CF1F92A6A05", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 9.0d
+		},
+		{
+			dependencies: ["C0CB29784E976339"]
+			icon: { id: "cobblemon_utility:transmutationorb" }
+			id: "C08D687454F61EBA"
+			tasks: [{ id: "C01654A8334F01F9", item: { count: 1, id: "cobblemon_utility:transmutationorb" }, type: "item" }]
+			description: ["A Utility+ orb used to alter or transmute a Pokemon's traits."]
+			rewards: [{ count: 7, id: "C01B26C01066EAE9", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 9.0d
+		},
+		{
+			icon: { id: "cobblemon:potion" }
+			id: "C0AA183768484ECB"
+			tasks: [{ id: "C0DF6230804812D5", item: { count: 1, id: "cobblemon:potion" }, type: "item" }]
+			description: ["Restores a small amount of a Pokemon's HP out of battle."]
+			rewards: [{ count: 2, id: "C0B93751B335571A", item: "cobblemon:potion", type: "item" }]
+			x: 0.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["C0AA183768484ECB"]
+			icon: { id: "cobblemon:super_potion" }
+			id: "C0AF083DC3F423F6"
+			tasks: [{ id: "C07376DB7D88B803", item: { count: 1, id: "cobblemon:super_potion" }, type: "item" }]
+			description: ["Restores a moderate amount of HP. The mid-tier heal."]
+			rewards: [{ count: 2, id: "C0EFF494243EA138", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["C0AF083DC3F423F6"]
+			icon: { id: "cobblemon:hyper_potion" }
+			id: "C0EF13CF555901FF"
+			tasks: [{ id: "C0DEDE0A63DAB2A4", item: { count: 1, id: "cobblemon:hyper_potion" }, type: "item" }]
+			description: ["Restores a large amount of HP for tougher fights."]
+			rewards: [{ count: 3, id: "C0B01BD83B9890AC", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["C0EF13CF555901FF"]
+			icon: { id: "cobblemon:max_potion" }
+			id: "C0EB6B15F52635AC"
+			tasks: [{ id: "C0D26D7B538D156E", item: { count: 1, id: "cobblemon:max_potion" }, type: "item" }]
+			description: ["Fully restores a Pokemon's HP."]
+			rewards: [{ count: 4, id: "C0B252AD29DB432B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["C0EB6B15F52635AC"]
+			icon: { id: "cobblemon:full_restore" }
+			id: "C0123CB518B16BD0"
+			tasks: [{ id: "C0574E230093A24C", item: { count: 1, id: "cobblemon:full_restore" }, type: "item" }]
+			description: ["Fully restores HP and cures any status condition at once."]
+			rewards: [{ count: 5, id: "C0087A5CCD7A2C79", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["C0123CB518B16BD0"]
+			icon: { id: "cobblemon:revive" }
+			id: "C0EDFBBA209483F4"
+			tasks: [{ id: "C006A9C858C4ECC0", item: { count: 1, id: "cobblemon:revive" }, type: "item" }]
+			description: ["Revives a fainted Pokemon with half its HP."]
+			rewards: [{ count: 4, id: "C07D3BA2CE9E0ABA", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["C0EDFBBA209483F4"]
+			icon: { id: "cobblemon:max_revive" }
+			id: "C0BB45ED8910B551"
+			tasks: [{ id: "C0F60CC80DF03027", item: { count: 1, id: "cobblemon:max_revive" }, type: "item" }]
+			description: ["Revives a fainted Pokemon with full HP. The premium revival item."]
+			rewards: [{ count: 6, id: "C057F80C03DF4787", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 10.0d
+		},
+		{
+			icon: { id: "cobblemon:full_heal" }
+			id: "C064B40267F12764"
+			tasks: [{ id: "C012BD55D731B664", item: { count: 1, id: "cobblemon:full_heal" }, type: "item" }]
+			description: ["Cures any single status condition on a Pokemon."]
+			rewards: [{ count: 2, id: "C0197FAEDCA1C2D1", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 11.0d
+		},
+		{
+			dependencies: ["C064B40267F12764"]
+			icon: { id: "cobblemon:heal_powder" }
+			id: "C0DC3A8F06A3A255"
+			tasks: [{ id: "C02D1699C8D6050C", item: { count: 1, id: "cobblemon:heal_powder" }, type: "item" }]
+			description: ["A bitter herbal powder that cures all status conditions cheaply."]
+			rewards: [{ count: 2, id: "C02E12D08F550760", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 11.0d
+		},
+		{
+			dependencies: ["C0DC3A8F06A3A255"]
+			icon: { id: "cobblemon:antidote" }
+			id: "C07D8BAD5DF01F31"
+			tasks: [{ id: "C042D9D52A0C8406", item: { count: 1, id: "cobblemon:antidote" }, type: "item" }]
+			description: ["Cures poison on a single Pokemon."]
+			rewards: [{ count: 2, id: "C0E91CBC710D8372", item: "cobblemon:antidote", type: "item" }]
+			x: 2.0d
+			y: 11.0d
+		},
+		{
+			dependencies: ["C07D8BAD5DF01F31"]
+			icon: { id: "cobblemon:burn_heal" }
+			id: "C01DC251250BEA32"
+			tasks: [{ id: "C02010F2BAA22044", item: { count: 1, id: "cobblemon:burn_heal" }, type: "item" }]
+			description: ["Cures a burn on a single Pokemon."]
+			rewards: [{ count: 2, id: "C03BBD935B58C0B4", item: "cobblemon:burn_heal", type: "item" }]
+			x: 3.0d
+			y: 11.0d
+		},
+		{
+			dependencies: ["C01DC251250BEA32"]
+			icon: { id: "cobblemon:ice_heal" }
+			id: "C0E764907BBC6393"
+			tasks: [{ id: "C05FC4ED817DE590", item: { count: 1, id: "cobblemon:ice_heal" }, type: "item" }]
+			description: ["Thaws a frozen Pokemon."]
+			rewards: [{ count: 2, id: "C084D477EB639BC6", item: "cobblemon:ice_heal", type: "item" }]
+			x: 4.0d
+			y: 11.0d
+		},
+		{
+			dependencies: ["C0E764907BBC6393"]
+			icon: { id: "cobblemon:paralyze_heal" }
+			id: "C00A611A6C67045C"
+			tasks: [{ id: "C0081F133F3CE318", item: { count: 1, id: "cobblemon:paralyze_heal" }, type: "item" }]
+			description: ["Cures paralysis on a single Pokemon."]
+			rewards: [{ count: 2, id: "C05DACC90DC25850", item: "cobblemon:paralyze_heal", type: "item" }]
+			x: 5.0d
+			y: 11.0d
+		},
+		{
+			dependencies: ["C00A611A6C67045C"]
+			icon: { id: "cobblemon:awakening" }
+			id: "C0D623EFF2EEB1A4"
+			tasks: [{ id: "C09B257853BEAD44", item: { count: 1, id: "cobblemon:awakening" }, type: "item" }]
+			description: ["Wakes a sleeping Pokemon."]
+			rewards: [{ count: 2, id: "C0B416F006730814", item: "cobblemon:awakening", type: "item" }]
+			x: 6.0d
+			y: 11.0d
+		},
+		{
+			icon: { id: "cobblemon:ether" }
+			id: "C03D742161E00912"
+			tasks: [{ id: "C01B9FF6F8CCB72D", item: { count: 1, id: "cobblemon:ether" }, type: "item" }]
+			description: ["Restores 10 PP to one of a Pokemon's moves."]
+			rewards: [{ count: 2, id: "C0E4EF5CDD531E66", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 12.0d
+		},
+		{
+			dependencies: ["C03D742161E00912"]
+			icon: { id: "cobblemon:max_ether" }
+			id: "C0FAEAD192785111"
+			tasks: [{ id: "C01FEC6F4D0D8476", item: { count: 1, id: "cobblemon:max_ether" }, type: "item" }]
+			description: ["Fully restores the PP of a single move."]
+			rewards: [{ count: 3, id: "C0DE196F95C332BE", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 12.0d
+		},
+		{
+			dependencies: ["C0FAEAD192785111"]
+			icon: { id: "cobblemon:elixir" }
+			id: "C0A0285F5CFB8133"
+			tasks: [{ id: "C02A71D879786761", item: { count: 1, id: "cobblemon:elixir" }, type: "item" }]
+			description: ["Restores 10 PP to all of a Pokemon's moves."]
+			rewards: [{ count: 3, id: "C0F042911987FA10", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 12.0d
+		},
+		{
+			dependencies: ["C0A0285F5CFB8133"]
+			icon: { id: "cobblemon:max_elixir" }
+			id: "C0F33281AB98554D"
+			tasks: [{ id: "C0EF0F7CC1114002", item: { count: 1, id: "cobblemon:max_elixir" }, type: "item" }]
+			description: ["Fully restores the PP of every move."]
+			rewards: [{ count: 5, id: "C0FEC88BC8C2404A", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 12.0d
+		},
+		{
+			icon: { id: "cobblemon:oran_berry" }
+			id: "C0056DEB75F3CA0E"
+			tasks: [{ id: "C0DA57DBC55A1936", item: { count: 1, id: "cobblemon:oran_berry" }, type: "item" }]
+			description: ["All 70 Cobblemon berries have their own collection in the Berries chapter. Head there to fill every plot on the farm."]
+			rewards: [{ count: 2, id: "C0E331AFC19255B2", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 13.0d
+		},
+		{
+			icon: { id: "cobblemon:rare_candy" }
+			id: "C0F521083A9E03D3"
+			rewards: [
+				{ id: "C0F82A61D2877B90", table_id: "C01B21E7E6F740BF", type: "random" }
+				{ id: "C0EC0A673A99287D", type: "xp", xp: 500 }
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{ id: "C0C6D1776A1A17E8", type: "checkmark" }]
+			description: [
+				"Collect every Cobblemon cooking, vitamin and medicine item to master the kitchen."
+				""
+				"Reward: a random pull from the Master Chef table plus a big XP payout."
+			]
+			subtitle: "Cook and collect it all"
+			title: "Master Chef"
+			x: 3.5d
+			y: 14.0d
+		}
+	]
+}

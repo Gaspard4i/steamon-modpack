@@ -1,0 +1,493 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "end"
+	group: "1AF20BFA15DC3940"
+	icon: {
+		id: "minecraft:end_stone"
+	}
+	id: "2139644C7994A01B"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4007E20DAC235BE9"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: { id: "minecraft:ender_eye" }
+			subtitle: "Find the stronghold"
+			description: [
+				"&aEnder Pearls&r and &aBlaze Powder&r make &aEyes of Ender&r. Throw them to follow the trail to the stronghold portal."
+				""
+				"Craft 6 Eyes of Ender, then fill the End portal frame and step through."
+				""
+				"A barren island floats in the void. Upon it waits the Ender Dragon."
+			]
+			dependencies: ["105FB4F860A68106"]
+			tasks: [
+				{
+					id: "404625016F33D48C"
+					type: "item"
+					title: "Craft Eyes of Ender to find the stronghold"
+					item: "minecraft:ender_eye"
+					count: 6
+				}
+			]
+			rewards: [
+				{
+					id: "407E62BDDF9A2140"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 6
+				}
+				{
+					id: "402EE0E9A75FF339"
+					type: "xp"
+					xp: 150
+				}
+			]
+		},
+		{
+			id: "4089CCC850C250F5"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Into the void"
+			description: [
+				"Activate the End portal and drop into the &aEnd&r."
+				""
+				"Bring blocks to bridge, a bow, and courage. The dragon does not wait."
+			]
+			dependencies: ["4007E20DAC235BE9"]
+			tasks: [
+				{
+					id: "40FD34C520A3CD10"
+					type: "dimension"
+					dimension: "minecraft:the_end"
+				}
+			]
+			rewards: [
+				{
+					id: "40861FE6487DE9ED"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 32
+				}
+				{
+					id: "403989FF731CA203"
+					type: "xp"
+					xp: 200
+				}
+			]
+		},
+		{
+			id: "409E53EBB16ED918"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Slay the Ender Dragon"
+			description: [
+				"The &aEnder Dragon&r rules the central island. Destroy the End Crystals, then bring it down."
+				""
+				"Defeating it opens the gateway to the outer End islands. This is the classic endgame boss, so come prepared."
+			]
+			dependencies: ["4089CCC850C250F5"]
+			tasks: [
+				{
+					id: "409F6F565C60FF5A"
+					type: "advancement"
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "40CEAF14FCC73704"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 16
+				}
+				{
+					id: "40985DD8B634E92C"
+					type: "item"
+					item: "cobblemon:relic_coin_pouch"
+					count: 1
+				}
+				{
+					id: "409FE4309F7387C6"
+					type: "xp"
+					xp: 400
+				}
+			]
+		},
+		{
+			id: "405357394611F7F4"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Plunder the End Cities"
+			description: [
+				"Ride the outer gateway to the &aEnd Cities&r, towers full of loot and shulkers."
+				""
+				"Bring back 2 &aShulker Shells&r. Shulker boxes are the best portable storage in the game."
+			]
+			dependencies: ["409E53EBB16ED918"]
+			tasks: [
+				{
+					id: "401E6EFD4D468E11"
+					type: "item"
+					item: "minecraft:shulker_shell"
+					count: 2
+				}
+			]
+			rewards: [
+				{
+					id: "408662979448C049"
+					type: "item"
+					item: "minecraft:chorus_fruit"
+					count: 16
+				}
+				{
+					id: "4081D3D52B34AC1D"
+					type: "xp"
+					xp: 250
+				}
+			]
+		},
+		{
+			id: "4040629EF17E4552"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "Wings at last"
+			description: [
+				"Deep in an &aEnd Ship&r hangs the &aElytra&r, the wings that let you glide across the world."
+				""
+				"Claim one Elytra. Pair it with fireworks and the whole map opens up."
+			]
+			dependencies: ["405357394611F7F4"]
+			tasks: [
+				{
+					id: "40C9EDFE44CD6B5C"
+					type: "item"
+					item: "minecraft:elytra"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "4004671785D12ABF"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 32
+				}
+				{
+					id: "40C9B0B685A44B7E"
+					type: "xp"
+					xp: 300
+				}
+			]
+		},
+		{
+			id: "401C56BC12A6160F"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Balls for the strangest catches"
+			description: [
+				"The &aBeast Ball&r is built for the oddest Pokemon. Stock up for the hardest hunts."
+				""
+				"Gather 3 Beast Balls, then save the reward for the Aether and Otherside legends."
+			]
+			dependencies: ["4040629EF17E4552"]
+			tasks: [
+				{
+					id: "40B7F45AAB16D272"
+					type: "item"
+					title: "Gather Beast Balls for the rarest catches"
+					item: "cobblemon:beast_ball"
+					count: 3
+				}
+			]
+			rewards: [
+				{
+					id: "402684F98BF0F945"
+					type: "item"
+					item: "cobblemon:beast_ball"
+					count: 5
+				}
+				{
+					id: "40EF310714B02630"
+					type: "xp"
+					xp: 250
+				}
+			]
+		},
+		{
+			id: "403EA98C0D6DA092"
+			x: 6.0d
+			y: -2.5d
+			subtitle: "Minds beyond the void"
+			description: [
+				"The End is home to powerful &aPsychic type&r Pokemon. Catch 2 of them here."
+				""
+				"Psychic types command the strange energies of this dimension. Weaken them carefully, they are rare and strong."
+			]
+			dependencies: ["409E53EBB16ED918"]
+			tasks: [
+				{
+					id: "4065764CF034912C"
+					title: "Catch 2 Psychic type Pokemon in the End"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 2L
+					biome: ""
+					dimension: "minecraft:the_end"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "psychic"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "40796B9D2AC76677"
+					type: "item"
+					item: "cobblemon:ultra_ball"
+					count: 5
+				}
+				{
+					id: "40063B6867040658"
+					type: "xp"
+					xp: 250
+				}
+			]
+		},
+		{
+			id: "40D62523710408DC"
+			x: 8.0d
+			y: -2.5d
+			subtitle: "Tame a dragon of your own"
+			description: [
+				"Where better to find &aDragon type&r Pokemon than the End? Catch one here."
+				""
+				"Dragon types are among the strongest partners in the game. A patient trainer earns a mighty ally."
+			]
+			dependencies: ["403EA98C0D6DA092"]
+			tasks: [
+				{
+					id: "40642DCAE7539CCA"
+					title: "Catch a Dragon type Pokemon in the End"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: "minecraft:the_end"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "dragon"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "40A2B21B8AA09831"
+					type: "item"
+					item: "cobblemon:beast_ball"
+					count: 3
+				}
+				{
+					id: "40C5C85C61846DDA"
+					type: "xp"
+					xp: 300
+				}
+			]
+		},
+		{
+			id: "4044E086A32B8BAB"
+			x: 6.0d
+			y: 2.5d
+			icon: { id: "cobblemon:twisted_spoon" }
+			dependencies: ["409E53EBB16ED918"]
+			min_required_dependencies: 0
+			tasks: [
+				{
+					id: "40671B593F8BCC11"
+					title: "Catch a Psychic type"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: "minecraft:the_end"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "psychic"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "409B51CE9DE23414"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 5
+				}
+				{
+					id: "405B36F47C7108B8"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "4064C3F139A34C8D"
+			x: 8.0d
+			y: 2.5d
+			icon: { id: "cobblemon:dragon_fang" }
+			dependencies: ["4044E086A32B8BAB"]
+			min_required_dependencies: 0
+			tasks: [
+				{
+					id: "406B9A6F6EC1D24C"
+					title: "Catch a Dragon type"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: "minecraft:the_end"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "dragon"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "407CEC039B55736C"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 5
+				}
+				{
+					id: "40F3C205CBB5BF7C"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "40C8746684D36B5F"
+			x: 10.0d
+			y: 2.5d
+			icon: { id: "cobblemon:dusk_ball" }
+			dependencies: ["4064C3F139A34C8D"]
+			min_required_dependencies: 0
+			tasks: [
+				{
+					id: "403D33EFA38EA9BD"
+					title: "Catch a Ghost type"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: "minecraft:the_end"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "ghost"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "40CEA00FB19DE5B6"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 5
+				}
+				{
+					id: "40AFABB0672FF981"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "4053CC3CE24C8C96"
+			x: 12.0d
+			y: 0.0d
+			shape: "gear"
+			size: 2.0d
+			icon: { id: "minecraft:dragon_egg" }
+			subtitle: "Champion of the End"
+			description: [
+				"You have slain the dragon, looted the cities and earned your wings."
+				""
+				"Assemble a true End team by catching &a4 Pokemon&r in the void, then claim a random pull from the &aEnd Cache&r."
+				""
+				"The sky is not the limit. The Aether calls those who conquer the End."
+			]
+			dependencies: ["401C56BC12A6160F" "40D62523710408DC" "4044E086A32B8BAB" "4064C3F139A34C8D" "40C8746684D36B5F"]
+			min_required_dependencies: 1
+			tasks: [
+				{
+					id: "404A72FF4479269D"
+					title: "Catch 4 Pokemon in the End"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 4L
+					biome: ""
+					dimension: "minecraft:the_end"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "40D9BC2A6588B167"
+					type: "random"
+					table_id: "40B58974B2A5A91B"
+				}
+				{
+					id: "400D74290F430E2A"
+					type: "item"
+					item: "minecraft:dragon_head"
+					count: 1
+				}
+				{
+					id: "4023639836C016C1"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+	]
+}

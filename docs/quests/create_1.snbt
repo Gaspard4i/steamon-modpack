@@ -1,0 +1,760 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "create_1"
+	group: "348AE7020234F2D4"
+	icon: { id: "create:andesite_alloy" }
+	id: "13E19555881008B6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "207A81A64CBCE64F"
+			x: 0d
+			y: 0d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The heart of every machine"
+			description: [
+				"&aCreate&r turns raw rotation into automation. It all starts with &aAndesite Alloy&r: andesite plus iron nuggets, or wash gravel and combine."
+				""
+				"Craft a stack. Almost every Create recipe wants it."
+				""
+				"&eThis milestone opens the Cogs and Crates branch.&r"
+			]
+			dependencies: ["102BA726C9F17223"]
+			tasks: [
+				{
+					id: "20C8B7D7FF869C1C"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 8
+				}
+			]
+			rewards: [
+				{
+					id: "20BED0DFF661580A"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 8
+				}
+				{
+					id: "200C0D727B5A802A"
+					type: "xp"
+					xp: 50
+				}
+			]
+		},
+		{
+			id: "209D0560ED3D4C5F"
+			x: 0d
+			y: 2d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Wrap it in wood"
+			description: [
+				"&aAndesite Casing&r is the base building block of Create machinery. Strip a log, add andesite alloy, done."
+				""
+				"Casings encase shafts and cogs to keep contraptions tidy and connectable."
+				""
+			]
+			dependencies: ["207A81A64CBCE64F"]
+			tasks: [
+				{
+					id: "209FE279902BB68E"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 4
+				}
+			]
+			rewards: [
+				{
+					id: "2033DDE5B2B6699A"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 4
+				}
+				{
+					id: "20558449AF849CD9"
+					type: "xp"
+					xp: 40
+				}
+			]
+		},
+		{
+			id: "20E7C0647EB21B28"
+			x: 2d
+			y: 2d
+			subtitle: "Move the power around"
+			description: [
+				"&aShafts&r carry rotational force in a straight line. &aCogwheels&r transfer it between parallel axes and change speed."
+				""
+				"Place a large cogwheel next to a small one to speed up, reverse it to gain torque."
+				""
+			]
+			dependencies: ["209D0560ED3D4C5F"]
+			optional: true
+			tasks: [
+				{
+					id: "20308EABC2213CA6"
+					type: "item"
+					item: "create:shaft"
+					count: 4
+				}
+				{
+					id: "20AC5CCA9330B6A6"
+					type: "item"
+					item: "create:cogwheel"
+					count: 2
+				}
+				{
+					id: "206C35A010257760"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "204766C3ED3A5E48"
+					type: "item"
+					item: "create:cogwheel"
+					count: 8
+				}
+				{
+					id: "20DAE4CDE602C0F8"
+					type: "xp"
+					xp: 40
+				}
+			]
+		},
+		{
+			id: "20A3D7F340B0C863"
+			x: 0d
+			y: 4d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Your first power source"
+			description: [
+				"A &aWater Wheel&r spins when flowing water pushes its blades. It is the simplest reliable source of rotation."
+				""
+				"Place it in a stream, hook a shaft to the center, and you have free power. Upgrade to a &aLarge Water Wheel&r for more."
+				""
+			]
+			dependencies: ["209D0560ED3D4C5F"]
+			tasks: [
+				{
+					id: "2034D1D576DE6CDB"
+					type: "item"
+					item: "create:water_wheel"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20ED095D1BAAB661"
+					type: "item"
+					item: "create:water_wheel"
+					count: 1
+				}
+				{
+					id: "20FBB879E05219A2"
+					type: "item"
+					item: "cobblemon:relic_coin_pouch"
+					count: 1
+				}
+				{
+					id: "20AA09705244330D"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "2002A559B5E40733"
+			x: 2d
+			y: 4d
+			subtitle: "Catch the wind instead"
+			description: [
+				"Prefer the sky to the river? A &aWindmill Bearing&r spins a sail contraption made of wool or sails."
+				""
+				"Bigger sails, more power. A clean alternative when no water is nearby."
+				""
+			]
+			dependencies: ["20A3D7F340B0C863"]
+			optional: true
+			tasks: [
+				{
+					id: "20BDE5A1FC2C5C15"
+					type: "item"
+					item: "create:windmill_bearing"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "2028E05946FFD0BE"
+					type: "item"
+					item: "create:windmill_bearing"
+					count: 1
+				}
+				{
+					id: "206B10150C32A26F"
+					type: "xp"
+					xp: 40
+				}
+			]
+		},
+		{
+			id: "20A91FB0F8BB462F"
+			x: 0d
+			y: 6d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Grind and crush"
+			description: [
+				"The &aMillstone&r grinds ores, seeds and more using rotation. It is your first processing machine and needs only andesite."
+				""
+				"Feed it from above or by hand. Later, &aCrushing Wheels&r do the same job faster and double your ore."
+				""
+			]
+			dependencies: ["20A3D7F340B0C863"]
+			tasks: [
+				{
+					id: "205849D08A06E190"
+					type: "item"
+					item: "create:millstone"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "2047DEA5AB996256"
+					type: "item"
+					item: "create:millstone"
+					count: 1
+				}
+				{
+					id: "203F287AB22B5708"
+					type: "xp"
+					xp: 50
+				}
+			]
+		},
+		{
+			id: "2008DD0A6FF59772"
+			x: 2d
+			y: 6d
+			subtitle: "Double your ores"
+			description: [
+				"A pair of &aCrushing Wheels&r spun in opposite directions shreds anything dropped between them, doubling most ore yields."
+				""
+				"The backbone of any serious ore-processing line."
+				""
+			]
+			dependencies: ["20A91FB0F8BB462F"]
+			optional: true
+			tasks: [
+				{
+					id: "20178F61B82BFFEA"
+					type: "item"
+					item: "create:crushing_wheel"
+					count: 2
+				}
+			]
+			rewards: [
+				{
+					id: "20A54BCF329CF2F1"
+					type: "item"
+					item: "create:crushing_wheel"
+					count: 2
+				}
+				{
+					id: "2066227FCDA01CFD"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 8
+				}
+				{
+					id: "20B451AAF0501910"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "2012AD441F050A12"
+			x: 0d
+			y: 8d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Stamp out plates"
+			description: [
+				"The &aMechanical Press&r pounds ingots into &aSheets&r and compacts materials. Mount it over a &aBasin&r or a &aDepot&r."
+				""
+				"Sheets of iron, brass and copper feed almost every advanced recipe. This machine is unavoidable."
+				""
+			]
+			dependencies: ["20A91FB0F8BB462F"]
+			tasks: [
+				{
+					id: "20A2CB59C57168CA"
+					type: "item"
+					item: "create:mechanical_press"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "206A33229466EFC4"
+					type: "item"
+					item: "create:mechanical_press"
+					count: 1
+				}
+				{
+					id: "203CA6C604D8274D"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "208FB0F149A17EDF"
+			x: 0d
+			y: 10d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Mix, wash and alloy"
+			description: [
+				"The &aMechanical Mixer&r over a &aBasin&r combines items and fluids, and smelts alloys like &aBrass&r."
+				""
+				"Set your heat with a &aBlaze Burner&r underneath for recipes that need it."
+				""
+			]
+			dependencies: ["2012AD441F050A12"]
+			tasks: [
+				{
+					id: "20DC69FE00A18B54"
+					type: "item"
+					item: "create:mechanical_mixer"
+					count: 1
+				}
+				{
+					id: "203572E9170BFF8B"
+					type: "item"
+					item: "create:basin"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20AA3C00818C9467"
+					type: "item"
+					item: "create:mechanical_mixer"
+					count: 1
+				}
+				{
+					id: "20425CFDC40FE3D3"
+					type: "item"
+					item: "create:basin"
+					count: 1
+				}
+				{
+					id: "2010ED6E9CC46D2E"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "20CAAB71BA55C41D"
+			x: 0d
+			y: 12d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The second-tier metal"
+			description: [
+				"Mix &aCopper&r and &aZinc&r in a heated basin to make &aBrass Ingots&r, then press them into &aBrass Casing&r."
+				""
+				"Brass unlocks the smarter half of Create: deployers, funnels, arms and more."
+				""
+			]
+			dependencies: ["208FB0F149A17EDF"]
+			tasks: [
+				{
+					id: "2054BCF41FDB0202"
+					type: "item"
+					item: "create:brass_ingot"
+					count: 8
+				}
+				{
+					id: "20468D16028416E3"
+					type: "item"
+					item: "create:brass_casing"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20F34239E1B1EE13"
+					type: "item"
+					item: "create:brass_casing"
+					count: 4
+				}
+				{
+					id: "201BB9B5E93F06FE"
+					type: "item"
+					item: "cobblemon:relic_coin_pouch"
+					count: 1
+				}
+				{
+					id: "20770CC0689ABB34"
+					type: "xp"
+					xp: 80
+				}
+			]
+		},
+		{
+			id: "206989E928EDBBA1"
+			x: 0d
+			y: 14d
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Clockwork in a box"
+			description: [
+				"The &aPrecision Mechanism&r is Create advanced crafting component, assembled from cogs, a golden sheet and iron nuggets."
+				""
+				"Deployers, mechanical arms and most automation blocks demand it. Making a few is a real milestone."
+				""
+			]
+			dependencies: ["20CAAB71BA55C41D"]
+			tasks: [
+				{
+					id: "2082922AA59BD654"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 2
+				}
+			]
+			rewards: [
+				{
+					id: "204667F9FCE9367E"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 2
+				}
+				{
+					id: "202B8380D6E1C594"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 12
+				}
+				{
+					id: "2060F9FD7AE4FFFC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		},
+		{
+			id: "206E8BE76893FB18"
+			x: -2d
+			y: 12d
+			subtitle: "Lay down some rails"
+			description: [
+				"Create ships a full train system. &aTrain Track&r is bent and placed with the track item, following any curve you draw."
+				""
+				"This optional branch is your gateway to bogeys, stations and cross-map cargo trains."
+				""
+			]
+			dependencies: ["20CAAB71BA55C41D"]
+			optional: true
+			tasks: [
+				{
+					id: "20DE01F079A81331"
+					type: "item"
+					item: "create:track"
+					count: 16
+				}
+			]
+			rewards: [
+				{
+					id: "20AD1BF75EE28FBF"
+					type: "item"
+					item: "create:track"
+					count: 32
+				}
+				{
+					id: "20BB749585A1ABA1"
+					type: "xp"
+					xp: 50
+				}
+			]
+		},
+		{
+			id: "20C8F98628C8F832"
+			x: -2d
+			y: 14d
+			subtitle: "All aboard"
+			description: [
+				"A &aTrain Station&r assembles and dispatches trains and lets you schedule them. Add a &aConductor Whistle&r from Steam and Rails for hands-on control."
+				""
+				"Pair a station with bogeys and a controller to build your first working locomotive."
+				""
+			]
+			dependencies: ["206E8BE76893FB18"]
+			optional: true
+			tasks: [
+				{
+					id: "208543D53E556160"
+					type: "item"
+					item: "create:track_station"
+					count: 1
+				}
+				{
+					id: "20F7E14B0281E8D0"
+					type: "item"
+					item: "create:railway_casing"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "201E3765841C0D42"
+					type: "item"
+					item: "create:track_station"
+					count: 1
+				}
+				{
+					id: "20A55F9B47695A52"
+					type: "item"
+					item: "cobblemon:relic_coin_pouch"
+					count: 1
+				}
+				{
+					id: "20E5335EB4161332"
+					type: "xp"
+					xp: 80
+				}
+			]
+		},
+		{
+			id: "200C2CB7FAEF3E2D"
+			x: 3d
+			y: 8d
+			dependencies: ["2012AD441F050A12"]
+			tasks: [
+				{
+					id: "20BA5DF43FD66E49"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20D729646EE8EFDD"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 2
+				}
+			]
+		},
+		{
+			id: "2079DA6E3870F3DA"
+			x: 4d
+			y: 8d
+			dependencies: ["200C2CB7FAEF3E2D"]
+			tasks: [
+				{
+					id: "20F2BECAB2324FA7"
+					type: "item"
+					item: "create:brass_casing"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "203D2DC580852492"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 2
+				}
+			]
+		},
+		{
+			id: "202C2458DA1C9251"
+			x: 5d
+			y: 8d
+			dependencies: ["2079DA6E3870F3DA"]
+			tasks: [
+				{
+					id: "20AA36A4836A47DA"
+					type: "item"
+					item: "create:copper_casing"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20A200A91ED9D55F"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 2
+				}
+			]
+		},
+		{
+			id: "20F8F67BF8440AE7"
+			x: 6d
+			y: 8d
+			dependencies: ["202C2458DA1C9251"]
+			tasks: [
+				{
+					id: "205969044988FC86"
+					type: "item"
+					item: "createdeco:andesite_sheet_metal"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "20BC1B5E580B55D0"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 2
+				}
+			]
+		},
+		{
+			id: "20E392CE37577E72"
+			x: 3d
+			y: 10d
+			dependencies: ["200C2CB7FAEF3E2D"]
+			tasks: [
+				{
+					id: "20F5D25EE448472B"
+					type: "item"
+					item: "createdeco:brass_sheet_metal"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "206936ECE98CF2FB"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 2
+				}
+			]
+		},
+		{
+			id: "20FF3FE8CF37091A"
+			x: 4d
+			y: 10d
+			dependencies: ["20E392CE37577E72"]
+			tasks: [
+				{
+					id: "202965864EEA81D1"
+					type: "item"
+					item: "createdeco:iron_sheet_metal"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "205AC4EB67DDB683"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 2
+				}
+			]
+		},
+		{
+			id: "20A2DBB8C9A8D1BE"
+			x: 5d
+			y: 10d
+			dependencies: ["20FF3FE8CF37091A"]
+			tasks: [
+				{
+					id: "20F3CD7E3F5C3722"
+					type: "item"
+					item: "createdeco:andesite_catwalk"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "200EC821D07DD998"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 2
+				}
+			]
+		},
+		{
+			id: "209554CADD4AC97B"
+			x: 6d
+			y: 10d
+			dependencies: ["20A2DBB8C9A8D1BE"]
+			tasks: [
+				{
+					id: "20283F9DC2D10F47"
+					type: "item"
+					item: "createdeco:andesite_support"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "204D7FB28E1A1B38"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 2
+				}
+			]
+		},
+		{
+			id: "20D1FD9D0ADDE063"
+			x: 0d
+			y: 16d
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Master of Cogs and Crates"
+			description: [
+				"You have laid the foundation of Create: power sources, processing, brass and precision components."
+				""
+				"&eClaim your reward and move on to Rotational Power&r, where machines start working for you."
+				""
+			]
+			dependencies: ["206989E928EDBBA1", "20F8F67BF8440AE7", "209554CADD4AC97B"]
+			tasks: [
+				{
+					id: "208CFD81E872927E"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "200201F4333A89D2"
+					type: "random"
+					table_id: "20AABBCC00000001"
+				}
+				{
+					id: "2020F33524111499"
+					type: "item"
+					item: "cobblemon:relic_coin_pouch"
+					count: 1
+				}
+				{
+					id: "209A38E2F0291634"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
+	]
+	title: "Cogs & Crates"
+}

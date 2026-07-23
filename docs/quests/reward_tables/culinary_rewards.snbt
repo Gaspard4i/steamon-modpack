@@ -1,0 +1,110 @@
+{
+	hide_tooltip: false
+	icon: { id: "farmersdelight:cooking_pot" }
+	id: "50B58974B2A5A91B"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			reward: {
+				count: 16
+				id: "5004A8B06ADDFF24"
+				item: { count: 1, id: "cobblemon:relic_coin" }
+				type: "item"
+			}
+			weight: 40.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "504D84E2FFB30DF9"
+				item: { count: 1, id: "cobblemon:relic_coin_sack" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 16
+				id: "509C6E11E1E28792"
+				item: { count: 1, id: "farmersdelight:cooked_rice" }
+				type: "item"
+			}
+			weight: 30.0f
+		},
+		{
+			reward: {
+				count: 16
+				id: "506EEA6AFA735EAE"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}
+			weight: 30.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "504C470CA3CD144E"
+				item: { count: 1, id: "farmersdelight:cabbage_seeds" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "509A5C624B008C6A"
+				item: { count: 1, id: "farmersdelight:tomato_seeds" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 6
+				id: "50705925B3B6C6EB"
+				item: { count: 1, id: "cobblemon:exp_candy_l" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "50070EE77AB05C07"
+				item: { count: 1, id: "cobblemon:exp_candy_xl" }
+				type: "item"
+			}
+			weight: 8.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "50F3BF275376772E"
+				item: { count: 1, id: "aethersdelight:arkenium_ingot" }
+				type: "item"
+			}
+			weight: 6.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "50322309A8CBE2FC"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}
+			weight: 6.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "50741A0297DF544C"
+				item: { count: 1, id: "cobblemon:master_ball" }
+				type: "item"
+			}
+			weight: 1.0f
+		},
+	]
+	title: "Master Chef Rewards"
+	use_title: true
+}

@@ -1,0 +1,101 @@
+{
+	hide_tooltip: false
+	icon: { id: "create:precision_mechanism" }
+	id: "20AABBCC00000004"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			reward: {
+				count: 2
+				id: "20042525FD4F6250"
+				item: { count: 1, id: "cobblemon:relic_coin_sack" }
+				type: "item"
+			}
+			weight: 40.0f
+		},
+		{
+			reward: {
+				count: 4
+				id: "20A1402D53C41678"
+				item: { count: 1, id: "createnuclear:steel_block" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "206999E33781F0A4"
+				item: { count: 1, id: "createnuclear:raw_uranium" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "209D915C96B0CC3D"
+				item: { count: 1, id: "createnuclear:reactor_casing" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "20BDC2934968F57F"
+				item: { count: 1, id: "create_sa:copper_jetpack_chestplate" }
+				type: "item"
+			}
+			weight: 12.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "20DE81E4ED4620D9"
+				item: { count: 1, id: "createnuclear:reactor_core" }
+				type: "item"
+			}
+			weight: 10.0f
+		},
+		{
+			reward: {
+				count: 5
+				id: "209263D8F7BDCCB0"
+				item: { count: 1, id: "cobblemon:exp_candy_xl" }
+				type: "item"
+			}
+			weight: 12.0f
+		},
+		{
+			reward: {
+				count: 5
+				id: "2045D5E391435BF0"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}
+			weight: 10.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "2082BAEF5A571E8E"
+				item: { count: 1, id: "create_sa:netherite_jetpack_chestplate" }
+				type: "item"
+			}
+			weight: 4.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "20ABF25111A64FC1"
+				item: { count: 1, id: "cobblemon:master_ball" }
+				type: "item"
+			}
+			weight: 2.0f
+		}
+	]
+	title: "Beyond the Machine Rewards"
+	use_title: true
+}

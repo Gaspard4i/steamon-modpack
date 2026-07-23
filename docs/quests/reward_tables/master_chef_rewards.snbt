@@ -1,0 +1,22 @@
+{
+	icon: { id: "cobblemon:rare_candy" }
+	id: "C01B21E7E6F740BF"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ reward: { id: "C0EAA2D4709B2CE5", type: "item", item: { id: "cobblemon:rare_candy", count: 2 } }, weight: 40.0f }
+		{ reward: { id: "C0C8E4AD9DC15074", type: "item", item: { id: "cobblemon:exp_candy_l", count: 3 } }, weight: 40.0f }
+		{ reward: { id: "C02FA2C641A9C759", type: "item", item: { id: "cobblemon:relic_coin_pouch", count: 1 } }, weight: 40.0f }
+		{ reward: { id: "C0DF801656AA8D9B", type: "item", item: { id: "cobblemon:pp_max", count: 1 } }, weight: 20.0f }
+		{ reward: { id: "C0DB86387552F07C", type: "item", item: { id: "cobblemon:max_revive", count: 3 } }, weight: 20.0f }
+		{ reward: { id: "C08EF43E045C4AF1", type: "item", item: { id: "cobblemon:full_restore", count: 5 } }, weight: 20.0f }
+		{ reward: { id: "C07D656EE421F7DC", type: "item", item: { id: "cobblemon:fresh_start_mochi", count: 2 } }, weight: 10.0f }
+		{ reward: { id: "C0AECD64EB6BCC1E", type: "item", item: { id: "cobblemon:protein", count: 6 } }, weight: 10.0f }
+		{ reward: { id: "C0BE9F2DA9B21B8D", type: "item", item: { id: "cobblemon:calcium", count: 6 } }, weight: 10.0f }
+		{ reward: { id: "C0F333C50AA706C3", type: "item", item: { id: "cobblemon_utility:mastercandy", count: 2 } }, weight: 6.0f }
+		{ reward: { id: "C0607940CA8C6BFA", type: "item", item: { id: "cobblemon:brittle_candy", count: 2 } }, weight: 3.0f }
+		{ reward: { id: "C0BF1E911B2A5B13", type: "item", item: { id: "cobblemon:exp_candy_xl", count: 1 } }, weight: 3.0f }
+	]
+	title: "Master Chef Rewards"
+	use_title: true
+}

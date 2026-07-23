@@ -1,0 +1,92 @@
+{
+	hide_tooltip: false
+	icon: { id: "cobblemon:poke_ball" }
+	id: "300C2F87515349E9"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			reward: {
+				count: 16
+				id: "3047D3DBDE3BF8F7"
+				item: { count: 1, id: "cobblemon:relic_coin" }
+				type: "item"
+			}
+			weight: 40.0f
+		}
+		{
+			reward: {
+				count: 8
+				id: "30F27FD48594DC3D"
+				item: { count: 1, id: "cobblemon:great_ball" }
+				type: "item"
+			}
+			weight: 35.0f
+		}
+		{
+			reward: {
+				count: 4
+				id: "306ED07C51156C50"
+				item: { count: 1, id: "cobblemon:ultra_ball" }
+				type: "item"
+			}
+			weight: 25.0f
+		}
+		{
+			reward: {
+				count: 4
+				id: "30DECFFFE8A2FB6B"
+				item: { count: 1, id: "cobblemon:exp_candy_l" }
+				type: "item"
+			}
+			weight: 25.0f
+		}
+		{
+			reward: {
+				count: 3
+				id: "300C78DDDE740634"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}
+			weight: 15.0f
+		}
+		{
+			reward: {
+				count: 1
+				id: "3085CF1F7199CDD4"
+				item: { count: 1, id: "cobblemon:relic_coin_sack" }
+				type: "item"
+			}
+			weight: 15.0f
+		}
+		{
+			reward: {
+				count: 2
+				id: "3065B12CFEB564C4"
+				item: { count: 1, id: "cobblemon_utility:woodencap" }
+				type: "item"
+			}
+			weight: 10.0f
+		}
+		{
+			reward: {
+				count: 1
+				id: "30797EB1FE315039"
+				item: { count: 1, id: "cobblemon:ability_capsule" }
+				type: "item"
+			}
+			weight: 5.0f
+		}
+		{
+			reward: {
+				count: 1
+				id: "3085E88350BC85D3"
+				item: { count: 1, id: "cobblemon:master_ball" }
+				type: "item"
+			}
+			weight: 2.0f
+		}
+	]
+	title: "First Steps Rewards"
+	use_title: true
+}

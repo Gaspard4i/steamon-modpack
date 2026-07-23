@@ -1,0 +1,101 @@
+{
+	hide_tooltip: false
+	icon: { id: "deeperdarker:heart_of_the_deep" }
+	id: "401CB7322A4BCDEE"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			reward: {
+				count: 16
+				id: "406CA58BDA6296E0"
+				item: { count: 1, id: "cobblemon:relic_coin" }
+				type: "item"
+			}
+			weight: 40.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "40E9FB985B829791"
+				item: { count: 1, id: "cobblemon:relic_coin_sack" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 6
+				id: "4035665954F13AAF"
+				item: { count: 1, id: "deeperdarker:resonarium" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "4048D15AFB748FBB"
+				item: { count: 1, id: "cobblemon:dusk_ball" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "40492F81A4EB1B4A"
+				item: { count: 1, id: "deeperdarker:sculk_transmitter" }
+				type: "item"
+			}
+			weight: 15.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "40FBCCA33F1852D3"
+				item: { count: 1, id: "cobblemon:exp_candy_l" }
+				type: "item"
+			}
+			weight: 15.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "40D03A46E53F626F"
+				item: { count: 1, id: "cobblemon:dusk_stone" }
+				type: "item"
+			}
+			weight: 10.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "404587448608FA65"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}
+			weight: 8.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "40C813F26B2759F2"
+				item: { count: 1, id: "cobblemon:beast_ball" }
+				type: "item"
+			}
+			weight: 6.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "408AFE39BD80E363"
+				item: { count: 1, id: "cobblemon:master_ball" }
+				type: "item"
+			}
+			weight: 3.0f
+		}
+	]
+	title: "Otherside Cache"
+	use_title: true
+}

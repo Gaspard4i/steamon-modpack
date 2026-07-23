@@ -4,106 +4,82 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 0,
-        "max": 1
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:spyglass",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1,
-              "add": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 0,
-        "max": 1
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clock",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1,
-              "add": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 0,
-        "max": 1
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:compass",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1,
-              "add": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 2
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:paper",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spyglass",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
               }
             }
           ]
@@ -111,14 +87,100 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:book",
+          "name": "cobblemon:poke_ball",
+          "weight": 10,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:great_ball",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:nest_ball",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:swift_feather",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:heal_ball",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xs",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 8
+              }
             }
           ]
         }
@@ -143,236 +205,6 @@
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 2
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "cobblemon:poke_ball",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 8,
-          "name": "cobblemon:great_ball",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "cobblemon:ultra_ball",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 6,
-          "name": "cobblemon:premier_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "cobblemon:heal_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "cobblemon:net_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "cobblemon:nest_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "cobblemon:dusk_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "cobblemon:quick_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "cobblemon:timer_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "cobblemon:health_feather"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "cobblemon:muscle_feather"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "cobblemon:resist_feather"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "cobblemon:genius_feather"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "cobblemon:clever_feather"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "cobblemon:swift_feather"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 4,
-          "name": "cobblemon:rare_candy"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:pp_up"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:protein"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:calcium"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:iron"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:zinc"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:carbos"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:hp_up"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:ability_capsule"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:fire_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:water_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:thunder_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:leaf_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:moon_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "cobblemon:sun_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "cobblemon:dusk_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "cobblemon:dawn_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "cobblemon:shiny_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "cobblemon:ice_stone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "cobblemon:exp_candy_xs",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 8
               }
             }
           ]

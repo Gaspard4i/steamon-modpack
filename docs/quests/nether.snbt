@@ -1,0 +1,483 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "nether"
+	group: "1AF20BFA15DC3940"
+	icon: {
+		id: "minecraft:netherrack"
+	}
+	id: "3EF16F7A003E45D5"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40996153FB959512"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.5d
+			icon: { id: "minecraft:flint_and_steel" }
+			subtitle: "Light the way down"
+			description: [
+				"Build a &aNether Portal&r from obsidian and light it. Step through into a world of fire, ash and rare Pokemon."
+				""
+				"Bring &agold&r armor or trinkets. The piglins respect those who wear it, and the road ahead runs hot."
+				""
+				"Fire and Dark type Pokemon spawn here and almost nowhere else."
+			]
+			dependencies: ["105485D414441DF4"]
+			tasks: [
+				{
+					id: "4096E4411BC2AEE2"
+					type: "advancement"
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "402277C522EB9532"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8
+				}
+				{
+					id: "40F806FE920299D4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		},
+		{
+			id: "405B885C41DDE9FE"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Harvest the wastes"
+			description: [
+				"&aNether Quartz&r feeds Create redstone builds and dozens of decorative recipes."
+				""
+				"Mine 16 Nether Quartz. The Nether is the only place it grows."
+			]
+			dependencies: ["40996153FB959512"]
+			tasks: [
+				{
+					id: "407AE2D0C47CC928"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 16
+				}
+			]
+			rewards: [
+				{
+					id: "40A9589DACA12E23"
+					type: "item"
+					item: "minecraft:quartz_block"
+					count: 4
+				}
+				{
+					id: "4030D07D822D290C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		},
+		{
+			id: "403463CB69668C51"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Storm the fortress"
+			description: [
+				"&aNether Fortresses&r are the home of blazes and the only source of &aBlaze Rods&r."
+				""
+				"Defeat blazes and claim 3 Blaze Rods. They power brewing and heat your Create foundry."
+			]
+			dependencies: ["405B885C41DDE9FE"]
+			tasks: [
+				{
+					id: "407D16AF162CF152"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 3
+				}
+			]
+			rewards: [
+				{
+					id: "40C11F38F101B671"
+					type: "item"
+					item: "create:blaze_burner"
+					count: 1
+				}
+				{
+					id: "406CCFD9560B8DA5"
+					type: "xp"
+					xp: 150
+				}
+			]
+		},
+		{
+			id: "400288EDEEB9E085"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Raid the bastion"
+			description: [
+				"&aBastion Remnants&r are piglin strongholds packed with gold and gear."
+				""
+				"Loot a bastion and bring back its treasure. Wear your gold and watch the brutes."
+				""
+				"This is where the road to Netherite begins."
+			]
+			dependencies: ["403463CB69668C51"]
+			tasks: [
+				{
+					id: "407501B6979E9AA8"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 2
+				}
+			]
+			rewards: [
+				{
+					id: "40DA3C1B7C9029BE"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+					count: 1
+				}
+				{
+					id: "40DDD5EC26207EC9"
+					type: "item"
+					item: "cobblemon:relic_coin_pouch"
+					count: 1
+				}
+				{
+					id: "4092C01174F3D78B"
+					type: "xp"
+					xp: 200
+				}
+			]
+		},
+		{
+			id: "401CF50145120356"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "The hardest metal"
+			description: [
+				"&aAncient Debris&r hides deep near the lava seas. Smelt it into scrap and forge &aNetherite Ingots&r."
+				""
+				"Process enough debris for one Netherite Ingot. Netherite gear survives what diamond cannot."
+			]
+			dependencies: ["400288EDEEB9E085"]
+			tasks: [
+				{
+					id: "40DFA1D35F83AAEC"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+					count: 4
+				}
+			]
+			rewards: [
+				{
+					id: "40BB36ED23A96BF9"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 1
+				}
+				{
+					id: "400E5235A7B47467"
+					type: "xp"
+					xp: 250
+				}
+			]
+		},
+		{
+			id: "402B24236BC528BD"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Brew and grow"
+			description: [
+				"&aNether Wart&r is the base of every potion, grown in fortress soul sand gardens."
+				""
+				"Collect 8 Nether Wart and start a brewing supply. Potions keep you and your team in the fight."
+			]
+			dependencies: ["401CF50145120356"]
+			tasks: [
+				{
+					id: "400131403460C18E"
+					type: "item"
+					item: "minecraft:nether_wart"
+					count: 8
+				}
+			]
+			rewards: [
+				{
+					id: "4020935B34162289"
+					type: "item"
+					item: "minecraft:brewing_stand"
+					count: 1
+				}
+				{
+					id: "403771045CEB2376"
+					type: "xp"
+					xp: 150
+				}
+			]
+		},
+		{
+			id: "408268A0E9C639C1"
+			x: 2.0d
+			y: -2.5d
+			subtitle: "A proper fire team"
+			description: [
+				"Build a squad suited to the heat. Catch &a3 Fire type&r Pokemon down here."
+				""
+				"Fire types resist the environment and hit hard. Weaken them first, the Nether species are tough."
+			]
+			dependencies: ["40996153FB959512"]
+			tasks: [
+				{
+					id: "4004E23832D14D2F"
+					title: "Catch 3 Fire type Pokemon in the Nether"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 3L
+					biome: ""
+					dimension: "minecraft:the_nether"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "fire"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "4054C47EA3E0B697"
+					type: "item"
+					item: "cobblemon:great_ball"
+					count: 6
+				}
+				{
+					id: "400A636945B3A927"
+					type: "xp"
+					xp: 150
+				}
+			]
+		},
+		{
+			id: "407DE90E67F64A06"
+			x: 4.0d
+			y: -2.5d
+			subtitle: "Creatures of the dark"
+			description: [
+				"The Nether's shadows hide &aDark type&r Pokemon. Catch 2 of them here."
+				""
+				"Dark types punish the reckless and thrive far from the sun. A balanced Nether team runs fire and dark side by side."
+			]
+			dependencies: ["408268A0E9C639C1"]
+			tasks: [
+				{
+					id: "4025EA76537AAE47"
+					title: "Catch 2 Dark type Pokemon in the Nether"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 2L
+					biome: ""
+					dimension: "minecraft:the_nether"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "dark"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "40E356C7BEA3483A"
+					type: "item"
+					item: "cobblemon:ultra_ball"
+					count: 4
+				}
+				{
+					id: "40F44B8614E8F00D"
+					type: "xp"
+					xp: 200
+				}
+			]
+		},
+		{
+			id: "40CE4F3B89953E7A"
+			x: 2.0d
+			y: 2.5d
+			icon: { id: "cobblemon:fire_stone" }
+			dependencies: ["40996153FB959512"]
+			min_required_dependencies: 0
+			tasks: [
+				{
+					id: "40F676F9AEE5BB6A"
+					title: "Catch a Fire type"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: "minecraft:the_nether"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "fire"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "4070F15B96B563B3"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 5
+				}
+				{
+					id: "4055D02047A47BF0"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "40EF3BD366314373"
+			x: 4.0d
+			y: 2.5d
+			icon: { id: "cobblemon:dusk_ball" }
+			dependencies: ["40CE4F3B89953E7A"]
+			min_required_dependencies: 0
+			tasks: [
+				{
+					id: "40ABBAF318B8522D"
+					title: "Catch a Dark type"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: "minecraft:the_nether"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "dark"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "40B13B319F4B0CF3"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 5
+				}
+				{
+					id: "40CF168657BD98F4"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "40FF75F82B92A6B7"
+			x: 6.0d
+			y: 2.5d
+			icon: { id: "cobblemon:soft_sand" }
+			dependencies: ["40EF3BD366314373"]
+			min_required_dependencies: 0
+			tasks: [
+				{
+					id: "40C20E9E7D1C89A5"
+					title: "Catch a Ground type"
+					type: "cobblemon_tasks:cobblemon_task"
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: "minecraft:the_nether"
+					form: ""
+					gender: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "ground"
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+				}
+			]
+			rewards: [
+				{
+					id: "40E839C2452960D7"
+					type: "item"
+					item: "cobblemon:relic_coin"
+					count: 5
+				}
+				{
+					id: "40820B6BF7B0F021"
+					type: "xp"
+					xp: 60
+				}
+			]
+		},
+		{
+			id: "408EF2591FC945BB"
+			x: 12.0d
+			y: 0.0d
+			shape: "gear"
+			size: 2.0d
+			icon: { id: "minecraft:netherite_block" }
+			subtitle: "Master of the fire realm"
+			description: [
+				"You have looted the fortress, raided the bastion and forged the hardest metal in the game."
+				""
+				"Craft one more &aNetherite Ingot&r as your trophy, then claim a random pull from the &aNether Cache&r."
+				""
+				"With the Nether behind you, the End awaits."
+			]
+			dependencies: ["402B24236BC528BD" "407DE90E67F64A06" "40CE4F3B89953E7A" "40EF3BD366314373" "40FF75F82B92A6B7"]
+			min_required_dependencies: 1
+			tasks: [
+				{
+					id: "4013D9EABAFACD6D"
+					type: "item"
+					title: "Forge a Netherite milestone"
+					item: "minecraft:netherite_ingot"
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "40310BFF0E81DA44"
+					type: "random"
+					table_id: "409B21D25C01D8EB"
+				}
+				{
+					id: "40CABC4937B7448C"
+					type: "item"
+					item: "cobblemon:rare_candy"
+					count: 4
+				}
+				{
+					id: "4012F95F314ECCB8"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+	]
+}

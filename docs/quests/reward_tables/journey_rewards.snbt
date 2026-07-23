@@ -1,0 +1,18 @@
+{
+	icon: {
+		id: "minecraft:dragon_egg"
+	}
+	id: "102F9B9151F548D8"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ reward: { id: "1001A8F5382E0001", type: "item", item: { id: "cobblemon:relic_coin_pouch", count: 1 } }, weight: 40.0f }
+		{ reward: { id: "1001A8F5382E0002", type: "item", item: { id: "cobblemon:rare_candy", count: 3 } }, weight: 30.0f }
+		{ reward: { id: "1001A8F5382E0003", type: "item", item: { id: "cobblemon:ultra_ball", count: 8 } }, weight: 25.0f }
+		{ reward: { id: "1001A8F5382E0004", type: "item", item: { id: "cobblemon:exp_candy_l", count: 2 } }, weight: 15.0f }
+		{ reward: { id: "1001A8F5382E0005", type: "item", item: { id: "cobblemon:relic_coin_sack", count: 1 } }, weight: 15.0f }
+		{ reward: { id: "1001A8F5382E0006", type: "item", item: { id: "cobblemon:master_ball", count: 1 } }, weight: 3.0f }
+	]
+	title: "Journey Rewards"
+	use_title: true
+}

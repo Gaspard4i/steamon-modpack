@@ -1,0 +1,574 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "pvp_items"
+	group: "2A4A6BF9FB018712"
+	icon: { id: "cobblemon:choice_band" }
+	id: "C0CE44042B5F1369"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30E9681CB438878A"]
+			icon: { id: "cobblemon:leftovers" }
+			id: "C0A6AA3C6E929189"
+			tasks: [{ id: "C0577C6A9C5F91AB", item: { count: 1, id: "cobblemon:leftovers" }, type: "item" }]
+			description: ["A held item that restores a little HP every turn. The bread and butter of defensive teams."]
+			rewards: [{ count: 7, id: "C0FA36E789E217BB", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C0A6AA3C6E929189"]
+			icon: { id: "cobblemon:life_orb" }
+			id: "C08CB55E5A0EE5A7"
+			tasks: [{ id: "C0E7575690390F6F", item: { count: 1, id: "cobblemon:life_orb" }, type: "item" }]
+			description: ["Boosts move power by 30 percent at the cost of chip damage each hit. A staple offensive item."]
+			rewards: [{ count: 7, id: "C058A69E26CDF1AD", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C08CB55E5A0EE5A7"]
+			icon: { id: "cobblemon:choice_band" }
+			id: "C0315A18FB5277B3"
+			tasks: [{ id: "C0EB21737B4593AF", item: { count: 1, id: "cobblemon:choice_band" }, type: "item" }]
+			description: ["Locks the holder into one move but boosts its Attack by 50 percent."]
+			rewards: [{ count: 6, id: "C037CABEF818ED04", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C0315A18FB5277B3"]
+			icon: { id: "cobblemon:choice_scarf" }
+			id: "C0DB8A3E1D7DB683"
+			tasks: [{ id: "C0507653F830D1DC", item: { count: 1, id: "cobblemon:choice_scarf" }, type: "item" }]
+			description: ["Locks the holder into one move but boosts its Speed by 50 percent."]
+			rewards: [{ count: 6, id: "C0D8DFB730FFC3E1", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C0DB8A3E1D7DB683"]
+			icon: { id: "cobblemon:choice_specs" }
+			id: "C056CD53CF6AFAEE"
+			tasks: [{ id: "C02D6EACAFD14004", item: { count: 1, id: "cobblemon:choice_specs" }, type: "item" }]
+			description: ["Locks the holder into one move but boosts its Special Attack by 50 percent."]
+			rewards: [{ count: 6, id: "C016545A38E3359E", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C056CD53CF6AFAEE"]
+			icon: { id: "cobblemon:focus_sash" }
+			id: "C060F676A4AC8CE3"
+			tasks: [{ id: "C0750F70E0E5EFF7", item: { count: 1, id: "cobblemon:focus_sash" }, type: "item" }]
+			description: ["Lets the holder survive any single hit at 1 HP from full. A frail sweeper staple."]
+			rewards: [{ count: 6, id: "C011D43152F9510A", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["C060F676A4AC8CE3"]
+			icon: { id: "cobblemon:assault_vest" }
+			id: "C07818529BE9ECB9"
+			tasks: [{ id: "C08A4354D73DD722", item: { count: 1, id: "cobblemon:assault_vest" }, type: "item" }]
+			description: ["Boosts Special Defense by 50 percent but blocks status moves. Turns attackers into tanks."]
+			rewards: [{ count: 6, id: "C024D6BB7961718E", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 0.0d
+		},
+		{
+			icon: { id: "cobblemon:eviolite" }
+			id: "C0E1AC13886D3DD1"
+			tasks: [{ id: "C04FE66F608CF3C8", item: { count: 1, id: "cobblemon:eviolite" }, type: "item" }]
+			description: ["Boosts the Defenses of a not-fully-evolved Pokemon by 50 percent. Makes prevos into walls."]
+			rewards: [{ count: 7, id: "C06294D5DD84C8B5", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0E1AC13886D3DD1"]
+			icon: { id: "cobblemon:rocky_helmet" }
+			id: "C059BCDF38491220"
+			tasks: [{ id: "C07B67E3296FAA4A", item: { count: 1, id: "cobblemon:rocky_helmet" }, type: "item" }]
+			description: ["Damages attackers that make contact with the holder. Punishes physical attackers."]
+			rewards: [{ count: 5, id: "C0CDB98A2E7FA34D", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C059BCDF38491220"]
+			icon: { id: "cobblemon:black_sludge" }
+			id: "C0D05EF849247D6D"
+			tasks: [{ id: "C02F348C5398BF0E", item: { count: 1, id: "cobblemon:black_sludge" }, type: "item" }]
+			description: ["Heals Poison types each turn but harms everyone else. Poison-type Leftovers."]
+			rewards: [{ count: 5, id: "C0F197FAEF6F2ADD", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0D05EF849247D6D"]
+			icon: { id: "cobblemon:heavy_duty_boots" }
+			id: "C0C76AB6D91B78E9"
+			tasks: [{ id: "C0A848CF1129FCDB", item: { count: 1, id: "cobblemon:heavy_duty_boots" }, type: "item" }]
+			description: ["Ignores entry hazards on switch-in. Essential tech against Stealth Rock teams."]
+			rewards: [{ count: 6, id: "C068725D834C76BC", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0C76AB6D91B78E9"]
+			icon: { id: "cobblemon:expert_belt" }
+			id: "C083A1FF5570E897"
+			tasks: [{ id: "C03C7BEC17AADCE4", item: { count: 1, id: "cobblemon:expert_belt" }, type: "item" }]
+			description: ["Boosts the power of super-effective moves by 20 percent."]
+			rewards: [{ count: 5, id: "C0DEED386F7A1D4B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C083A1FF5570E897"]
+			icon: { id: "cobblemon:muscle_band" }
+			id: "C0C85C9C3AEFC901"
+			tasks: [{ id: "C056330C3D286C33", item: { count: 1, id: "cobblemon:muscle_band" }, type: "item" }]
+			description: ["A held band that boosts the power of physical moves by 10 percent."]
+			rewards: [{ count: 5, id: "C0A256C2F0BAB486", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 1.0d
+		},
+		{
+			dependencies: ["C0C85C9C3AEFC901"]
+			icon: { id: "cobblemon:wise_glasses" }
+			id: "C01E5EF1218668AC"
+			tasks: [{ id: "C010CA0BB1F2DF34", item: { count: 1, id: "cobblemon:wise_glasses" }, type: "item" }]
+			description: ["Held glasses that boost the power of special moves by 10 percent."]
+			rewards: [{ count: 5, id: "C0220E307B76446A", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 1.0d
+		},
+		{
+			icon: { id: "cobblemon:light_clay" }
+			id: "C0A764BE899B6BAF"
+			tasks: [{ id: "C0A2498BD4BD786B", item: { count: 1, id: "cobblemon:light_clay" }, type: "item" }]
+			description: ["Extends Reflect and Light Screen from five turns to eight. A screen-setter staple."]
+			rewards: [{ count: 5, id: "C0DD0596A4DDB327", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C0A764BE899B6BAF"]
+			icon: { id: "cobblemon:mental_herb" }
+			id: "C094E1A9F00BD004"
+			tasks: [{ id: "C0B45D700F9EDA85", item: { count: 1, id: "cobblemon:mental_herb" }, type: "item" }]
+			description: ["Cures the holder of move-blocking effects like Taunt or Encore, once."]
+			rewards: [{ count: 4, id: "C0DE52156805FA8C", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C094E1A9F00BD004"]
+			icon: { id: "cobblemon:protective_pads" }
+			id: "C006F00E400912D7"
+			tasks: [{ id: "C04A3E1604F102F6", item: { count: 1, id: "cobblemon:protective_pads" }, type: "item" }]
+			description: ["Shields the holder from contact side effects like Rocky Helmet or Static."]
+			rewards: [{ count: 4, id: "C0F9BDCFD700E9FA", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C006F00E400912D7"]
+			icon: { id: "cobblemon:safety_goggles" }
+			id: "C09E2FE45F69BB0E"
+			tasks: [{ id: "C06AF5A50ADB50B2", item: { count: 1, id: "cobblemon:safety_goggles" }, type: "item" }]
+			description: ["Protects from weather damage and powder moves like Spore."]
+			rewards: [{ count: 4, id: "C0F2DCD35E471CBB", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C09E2FE45F69BB0E"]
+			icon: { id: "cobblemon:wide_lens" }
+			id: "C007593024DE3743"
+			tasks: [{ id: "C0440385062DEF2E", item: { count: 1, id: "cobblemon:wide_lens" }, type: "item" }]
+			description: ["Raises the accuracy of the holder's moves by 10 percent."]
+			rewards: [{ count: 4, id: "C025C681417F74AA", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["C007593024DE3743"]
+			icon: { id: "cobblemon:zoom_lens" }
+			id: "C0670BD8ED90EE3D"
+			tasks: [{ id: "C0C3EAF8BE3E5862", item: { count: 1, id: "cobblemon:zoom_lens" }, type: "item" }]
+			description: ["Raises accuracy when the holder moves after the target."]
+			rewards: [{ count: 4, id: "C08CF7EBBA416CAD", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 2.0d
+		},
+		{
+			icon: { id: "cobblemon:power_anklet" }
+			id: "C0F89F12D06091EA"
+			tasks: [{ id: "C055995181D4AFB2", item: { count: 1, id: "cobblemon:power_anklet" }, type: "item" }]
+			description: ["Halves Speed but adds Speed EVs after battle. A breeding and EV-training tool."]
+			rewards: [{ count: 5, id: "C0181811B024F34F", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0F89F12D06091EA"]
+			icon: { id: "cobblemon:power_band" }
+			id: "C0ED2F8888CD2779"
+			tasks: [{ id: "C0758D761B0A0CC6", item: { count: 1, id: "cobblemon:power_band" }, type: "item" }]
+			description: ["Halves Speed but adds Special Defense EVs after battle."]
+			rewards: [{ count: 5, id: "C09F8A7FFF05E6A2", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0ED2F8888CD2779"]
+			icon: { id: "cobblemon:power_belt" }
+			id: "C0AB168CDE8632E8"
+			tasks: [{ id: "C0A4ECBB88ADC0A6", item: { count: 1, id: "cobblemon:power_belt" }, type: "item" }]
+			description: ["Halves Speed but adds Defense EVs after battle."]
+			rewards: [{ count: 5, id: "C08DD49365844C5D", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0AB168CDE8632E8"]
+			icon: { id: "cobblemon:power_bracer" }
+			id: "C0581FE1CE5C7228"
+			tasks: [{ id: "C0E0B3C9FC48C00C", item: { count: 1, id: "cobblemon:power_bracer" }, type: "item" }]
+			description: ["Halves Speed but adds Attack EVs after battle."]
+			rewards: [{ count: 5, id: "C0808F2F03AE894D", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C0581FE1CE5C7228"]
+			icon: { id: "cobblemon:power_lens" }
+			id: "C028F82F2000F14C"
+			tasks: [{ id: "C0E27277E4277E4C", item: { count: 1, id: "cobblemon:power_lens" }, type: "item" }]
+			description: ["Halves Speed but adds Special Attack EVs after battle."]
+			rewards: [{ count: 5, id: "C0F80A05EC9BB789", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 3.0d
+		},
+		{
+			dependencies: ["C028F82F2000F14C"]
+			icon: { id: "cobblemon:power_weight" }
+			id: "C0EC674CBF1B0278"
+			tasks: [{ id: "C0FBF56308DBF522", item: { count: 1, id: "cobblemon:power_weight" }, type: "item" }]
+			description: ["Halves Speed but adds HP EVs after battle."]
+			rewards: [{ count: 5, id: "C00DF7EC40057182", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 3.0d
+		},
+		{
+			icon: { id: "cobblemon:ability_capsule" }
+			id: "C0354B7E7DEB99B0"
+			tasks: [{ id: "C0B736DE8D08CC49", item: { count: 1, id: "cobblemon:ability_capsule" }, type: "item" }]
+			description: ["Swaps a Pokemon between its two regular Abilities."]
+			rewards: [{ count: 6, id: "C02C233AF3CA226F", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 4.0d
+		},
+		{
+			dependencies: ["C0354B7E7DEB99B0"]
+			icon: { id: "cobblemon:ability_patch" }
+			id: "C0A1E3DCA1A4090D"
+			tasks: [{ id: "C0FC3A10D5BE9227", item: { count: 1, id: "cobblemon:ability_patch" }, type: "item" }]
+			description: ["Swaps a Pokemon's Ability to its Hidden Ability. Highly sought after."]
+			rewards: [{ count: 8, id: "C09CB084CD5BE8B8", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 4.0d
+		},
+		{
+			icon: { id: "cobblemon_utility:hpsilvercap" }
+			id: "C0786E8344B90357"
+			tasks: [{ id: "C0FDAEF9A47D1BEF", item: { count: 1, id: "cobblemon_utility:hpsilvercap" }, type: "item" }]
+			description: ["A Utility+ cap that guarantees a high HP IV floor when applied."]
+			rewards: [{ count: 5, id: "C013F07BCD9C37C9", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C0786E8344B90357"]
+			icon: { id: "cobblemon_utility:atksilvercap" }
+			id: "C0FE7219F66DCFC0"
+			tasks: [{ id: "C01D3C075560CD0D", item: { count: 1, id: "cobblemon_utility:atksilvercap" }, type: "item" }]
+			description: ["A Utility+ cap that guarantees a high Attack IV floor."]
+			rewards: [{ count: 5, id: "C012699F414DBDF4", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C0FE7219F66DCFC0"]
+			icon: { id: "cobblemon_utility:defsilvercap" }
+			id: "C0E9ED2D582EB26D"
+			tasks: [{ id: "C0E36AEF9A459AF1", item: { count: 1, id: "cobblemon_utility:defsilvercap" }, type: "item" }]
+			description: ["A Utility+ cap that guarantees a high Defense IV floor."]
+			rewards: [{ count: 5, id: "C07D81EA04E62D7F", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C0E9ED2D582EB26D"]
+			icon: { id: "cobblemon_utility:spatksilvercap" }
+			id: "C0C732B3B24ACD68"
+			tasks: [{ id: "C055AD2EC5449378", item: { count: 1, id: "cobblemon_utility:spatksilvercap" }, type: "item" }]
+			description: ["A Utility+ cap that guarantees a high Special Attack IV floor."]
+			rewards: [{ count: 5, id: "C0DA89FD68A20426", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C0C732B3B24ACD68"]
+			icon: { id: "cobblemon_utility:spdefsilvercap" }
+			id: "C04E4E143D072493"
+			tasks: [{ id: "C0607B3433A8410A", item: { count: 1, id: "cobblemon_utility:spdefsilvercap" }, type: "item" }]
+			description: ["A Utility+ cap that guarantees a high Special Defense IV floor."]
+			rewards: [{ count: 5, id: "C07DB8EE96B66876", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 5.0d
+		},
+		{
+			dependencies: ["C04E4E143D072493"]
+			icon: { id: "cobblemon_utility:speedsilvercap" }
+			id: "C0FB898BAF44B319"
+			tasks: [{ id: "C0E9CB50BFFBC7C2", item: { count: 1, id: "cobblemon_utility:speedsilvercap" }, type: "item" }]
+			description: ["A Utility+ cap that guarantees a high Speed IV floor."]
+			rewards: [{ count: 5, id: "C0CFB67EC099248D", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 5.0d
+		},
+		{
+			icon: { id: "cobblemon_utility:goldencap" }
+			id: "C0A1B049CF89E81C"
+			tasks: [{ id: "C08322B9BD264DAE", item: { count: 1, id: "cobblemon_utility:goldencap" }, type: "item" }]
+			description: ["A Utility+ golden cap that maxes an IV. The premium hyper-training tool."]
+			rewards: [{ count: 8, id: "C0F25745A35F71F0", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C0A1B049CF89E81C"]
+			icon: { id: "cobblemon_utility:woodencap" }
+			id: "C06A2AF108B9502E"
+			tasks: [{ id: "C0C51FBDA5BFCB73", item: { count: 1, id: "cobblemon_utility:woodencap" }, type: "item" }]
+			description: ["A basic Utility+ wooden cap, the entry-level IV cap."]
+			rewards: [{ count: 3, id: "C071439612855477", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C06A2AF108B9502E"]
+			icon: { id: "cobblemon_utility:shinycard" }
+			id: "C0AB393F4DCF4232"
+			tasks: [{ id: "C07B254B9C5738BF", item: { count: 1, id: "cobblemon_utility:shinycard" }, type: "item" }]
+			description: ["A special Utility+ card tied to shiny Pokemon rewards."]
+			rewards: [{ count: 8, id: "C026F86C5152116B", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C0AB393F4DCF4232"]
+			icon: { id: "cobblemon_utility:shininghpsilvercap" }
+			id: "C05F426DD817A5F5"
+			tasks: [{ id: "C0F3EF4C4445F743", item: { count: 1, id: "cobblemon_utility:shininghpsilvercap" }, type: "item" }]
+			description: ["A shiny Utility+ HP cap variant."]
+			rewards: [{ count: 6, id: "C0E6B13A485BE3DD", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C05F426DD817A5F5"]
+			icon: { id: "cobblemon_utility:shiningatksilvercap" }
+			id: "C060D04DECAA0F64"
+			tasks: [{ id: "C0C7BB3B9643205E", item: { count: 1, id: "cobblemon_utility:shiningatksilvercap" }, type: "item" }]
+			description: ["A shiny Utility+ Attack cap variant."]
+			rewards: [{ count: 6, id: "C025A30D6A95C93A", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C060D04DECAA0F64"]
+			icon: { id: "cobblemon_utility:shiningdefsilvercap" }
+			id: "C0A2B5EA96114D01"
+			tasks: [{ id: "C04B3AABB45E1D2E", item: { count: 1, id: "cobblemon_utility:shiningdefsilvercap" }, type: "item" }]
+			description: ["A shiny Utility+ Defense cap variant."]
+			rewards: [{ count: 6, id: "C08BBC57667D1EDD", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C0A2B5EA96114D01"]
+			icon: { id: "cobblemon_utility:shiningspatksilvercap" }
+			id: "C0F60ABFB8287DE0"
+			tasks: [{ id: "C0655ECDA97E8B42", item: { count: 1, id: "cobblemon_utility:shiningspatksilvercap" }, type: "item" }]
+			description: ["A shiny Utility+ Special Attack cap variant."]
+			rewards: [{ count: 6, id: "C0A9B15BB0D4D324", item: "cobblemon:relic_coin", type: "item" }]
+			x: 6.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C0F60ABFB8287DE0"]
+			icon: { id: "cobblemon_utility:shiningspdefsilvercap" }
+			id: "C045CFA96B51FC35"
+			tasks: [{ id: "C037B4578F05256F", item: { count: 1, id: "cobblemon_utility:shiningspdefsilvercap" }, type: "item" }]
+			description: ["A shiny Utility+ Special Defense cap variant."]
+			rewards: [{ count: 6, id: "C0EDE1D0035FE8B3", item: "cobblemon:relic_coin", type: "item" }]
+			x: 7.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["C045CFA96B51FC35"]
+			icon: { id: "cobblemon_utility:shiningspeedsilvercap" }
+			id: "C044E0EA1C8F161A"
+			tasks: [{ id: "C074BE2C7750020A", item: { count: 1, id: "cobblemon_utility:shiningspeedsilvercap" }, type: "item" }]
+			description: ["A shiny Utility+ Speed cap variant."]
+			rewards: [{ count: 6, id: "C094B1110F42213C", item: "cobblemon:relic_coin", type: "item" }]
+			x: 8.0d
+			y: 6.0d
+		},
+		{
+			icon: { id: "cobblemon_utility:hpobsidiancap" }
+			id: "C00B377267300B46"
+			tasks: [{ id: "C0913CCB571CD81E", item: { count: 1, id: "cobblemon_utility:hpobsidiancap" }, type: "item" }]
+			description: ["A Utility+ obsidian cap for a stronger HP IV guarantee."]
+			rewards: [{ count: 6, id: "C021562C0E1D0728", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["C00B377267300B46"]
+			icon: { id: "cobblemon_utility:atkobsidiancap" }
+			id: "C0B803986BEC6048"
+			tasks: [{ id: "C0201F9B4C50CF06", item: { count: 1, id: "cobblemon_utility:atkobsidiancap" }, type: "item" }]
+			description: ["A Utility+ obsidian Attack cap."]
+			rewards: [{ count: 6, id: "C0DF4D174EFCABCE", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["C0B803986BEC6048"]
+			icon: { id: "cobblemon_utility:defobsidiancap" }
+			id: "C0DF68548CE020F6"
+			tasks: [{ id: "C00C028962D39630", item: { count: 1, id: "cobblemon_utility:defobsidiancap" }, type: "item" }]
+			description: ["A Utility+ obsidian Defense cap."]
+			rewards: [{ count: 6, id: "C00F977D294EEC2A", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["C0DF68548CE020F6"]
+			icon: { id: "cobblemon_utility:spatkobsidiancap" }
+			id: "C05C77D105B1D559"
+			tasks: [{ id: "C064BB9F4F171E49", item: { count: 1, id: "cobblemon_utility:spatkobsidiancap" }, type: "item" }]
+			description: ["A Utility+ obsidian Special Attack cap."]
+			rewards: [{ count: 6, id: "C0278CAD62CF6932", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["C05C77D105B1D559"]
+			icon: { id: "cobblemon_utility:spdefobsidiancap" }
+			id: "C0D55859BD6C5748"
+			tasks: [{ id: "C02FA906E660ADAE", item: { count: 1, id: "cobblemon_utility:spdefobsidiancap" }, type: "item" }]
+			description: ["A Utility+ obsidian Special Defense cap."]
+			rewards: [{ count: 6, id: "C0102B08D695F971", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 7.0d
+		},
+		{
+			dependencies: ["C0D55859BD6C5748"]
+			icon: { id: "cobblemon_utility:speedobsidiancap" }
+			id: "C0CD71F8B3899CC7"
+			tasks: [{ id: "C06E9918D91A3AC0", item: { count: 1, id: "cobblemon_utility:speedobsidiancap" }, type: "item" }]
+			description: ["A Utility+ obsidian Speed cap."]
+			rewards: [{ count: 6, id: "C0374FC4AB890B05", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 7.0d
+		},
+		{
+			icon: { id: "cobblemon_utility:hpvoidcap" }
+			id: "C077562D04E50A1B"
+			tasks: [{ id: "C0A43FE733015F15", item: { count: 1, id: "cobblemon_utility:hpvoidcap" }, type: "item" }]
+			description: ["A Utility+ void cap, the top-tier HP IV guarantee."]
+			rewards: [{ count: 7, id: "C08A76113087094E", item: "cobblemon:relic_coin", type: "item" }]
+			x: 0.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C077562D04E50A1B"]
+			icon: { id: "cobblemon_utility:atkvoidcap" }
+			id: "C0722B9A1BD69A12"
+			tasks: [{ id: "C0BA8F92E20789AC", item: { count: 1, id: "cobblemon_utility:atkvoidcap" }, type: "item" }]
+			description: ["A Utility+ void Attack cap."]
+			rewards: [{ count: 7, id: "C0224FA344DF92A8", item: "cobblemon:relic_coin", type: "item" }]
+			x: 1.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C0722B9A1BD69A12"]
+			icon: { id: "cobblemon_utility:defvoidcap" }
+			id: "C0BC174CA3AD7665"
+			tasks: [{ id: "C07CB79B1E2E312E", item: { count: 1, id: "cobblemon_utility:defvoidcap" }, type: "item" }]
+			description: ["A Utility+ void Defense cap."]
+			rewards: [{ count: 7, id: "C0E88BD964037E17", item: "cobblemon:relic_coin", type: "item" }]
+			x: 2.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C0BC174CA3AD7665"]
+			icon: { id: "cobblemon_utility:spatkvoidcap" }
+			id: "C07442C0BCAF021E"
+			tasks: [{ id: "C01296DF21A36538", item: { count: 1, id: "cobblemon_utility:spatkvoidcap" }, type: "item" }]
+			description: ["A Utility+ void Special Attack cap."]
+			rewards: [{ count: 7, id: "C0B2477BF42309A1", item: "cobblemon:relic_coin", type: "item" }]
+			x: 3.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C07442C0BCAF021E"]
+			icon: { id: "cobblemon_utility:spdefvoidcap" }
+			id: "C0874CBEC7E53C49"
+			tasks: [{ id: "C01C638B4A0AE773", item: { count: 1, id: "cobblemon_utility:spdefvoidcap" }, type: "item" }]
+			description: ["A Utility+ void Special Defense cap."]
+			rewards: [{ count: 7, id: "C01F41C2114A7DAA", item: "cobblemon:relic_coin", type: "item" }]
+			x: 4.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["C0874CBEC7E53C49"]
+			icon: { id: "cobblemon_utility:speedvoidcap" }
+			id: "C0F495684AE659EC"
+			tasks: [{ id: "C032A12DE17317CF", item: { count: 1, id: "cobblemon_utility:speedvoidcap" }, type: "item" }]
+			description: ["A Utility+ void Speed cap."]
+			rewards: [{ count: 7, id: "C04601A579424721", item: "cobblemon:relic_coin", type: "item" }]
+			x: 5.0d
+			y: 8.0d
+		},
+		{
+			icon: { id: "cobblemon:choice_band" }
+			id: "C0539A030E8F74EF"
+			rewards: [
+				{ id: "C09F4B1EC7498705", table_id: "C0004AB87DC05D60", type: "random" }
+				{ id: "C009C6F4EBFF6B7E", type: "xp", xp: 600 }
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{ id: "C07B6B03B92EA714", type: "checkmark" }]
+			description: [
+				"Collect every competitive held item and IV cap to build the perfect battle team."
+				""
+				"Reward: a random top-tier held item or IV tool plus a big XP payout."
+			]
+			subtitle: "Assemble every battle item"
+			title: "Battle Master"
+			x: 3.0d
+			y: 9.0d
+		}
+	]
+}

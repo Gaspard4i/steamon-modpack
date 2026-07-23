@@ -1,0 +1,101 @@
+{
+	hide_tooltip: false
+	icon: { id: "minecraft:dragon_head" }
+	id: "40B58974B2A5A91B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			reward: {
+				count: 16
+				id: "40273CCB1CF22852"
+				item: { count: 1, id: "cobblemon:relic_coin" }
+				type: "item"
+			}
+			weight: 40.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "40E202438D12298F"
+				item: { count: 1, id: "cobblemon:relic_coin_sack" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "40C1F7A926C0CD19"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "40F4E7B3E590B2DF"
+				item: { count: 1, id: "cobblemon:beast_ball" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 8
+				id: "407C03F1F41986EE"
+				item: { count: 1, id: "cobblemon:exp_candy_l" }
+				type: "item"
+			}
+			weight: 15.0f
+		},
+		{
+			reward: {
+				count: 2
+				id: "405177E739F323E3"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
+			}
+			weight: 12.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "40C9179ADBDF8F79"
+				item: { count: 1, id: "cobblemon:dawn_stone" }
+				type: "item"
+			}
+			weight: 10.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "40F50B7F50BE2D35"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}
+			weight: 8.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "401F436DE9FBA7D7"
+				item: { count: 1, id: "cobblemon:ability_capsule" }
+				type: "item"
+			}
+			weight: 4.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "402787CE1AFBE45F"
+				item: { count: 1, id: "cobblemon:master_ball" }
+				type: "item"
+			}
+			weight: 3.0f
+		}
+	]
+	title: "End Cache"
+	use_title: true
+}

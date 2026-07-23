@@ -1,0 +1,110 @@
+{
+	hide_tooltip: false
+	icon: { id: "create:brass_ingot" }
+	id: "20AABBCC00000003"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			reward: {
+				count: 1
+				id: "2084B88E0D9C6E7E"
+				item: { count: 1, id: "cobblemon:relic_coin_sack" }
+				type: "item"
+			}
+			weight: 40.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "20D51E1EB8813C60"
+				item: { count: 1, id: "createaddition:capacitor" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "200671F586CD245C"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}
+			weight: 25.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "20A1C599B27256FF"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 16
+				id: "205F009DEC730F3E"
+				item: { count: 1, id: "createaddition:copper_wire" }
+				type: "item"
+			}
+			weight: 30.0f
+		},
+		{
+			reward: {
+				count: 16
+				id: "20DAA29186A361AA"
+				item: { count: 1, id: "createaddition:electrum_ingot" }
+				type: "item"
+			}
+			weight: 20.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "207EEE3FBA02B938"
+				item: { count: 1, id: "createendertransmission:energy_transmitter" }
+				type: "item"
+			}
+			weight: 15.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "20868320C8C48784"
+				item: { count: 1, id: "cobblemon:exp_candy_xl" }
+				type: "item"
+			}
+			weight: 12.0f
+		},
+		{
+			reward: {
+				count: 2
+				id: "205357E7B70A163A"
+				item: { count: 1, id: "create_enchantment_industry:experience_cake" }
+				type: "item"
+			}
+			weight: 10.0f
+		},
+		{
+			reward: {
+				count: 3
+				id: "2088224E3D6DA611"
+				item: { count: 1, id: "cobblemon:rare_candy" }
+				type: "item"
+			}
+			weight: 8.0f
+		},
+		{
+			reward: {
+				count: 1
+				id: "204CDBD7DCA644FF"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}
+			weight: 5.0f
+		}
+	]
+	title: "Sparks and Circuits Rewards"
+	use_title: true
+}

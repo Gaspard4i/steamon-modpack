@@ -1,0 +1,601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "culinary"
+	group: "2C0FD201CD572F12"
+	icon: { id: "farmersdelight:cooking_pot" }
+	id: "46B599A838F27B8A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Now that you can smelt and cook, food becomes a craft. Farmer's Delight adds crops, tools and hearty meals."
+				""
+				"Plant a garden: &acabbages&r, &atomatoes&r and &aonions&r are the backbone of every recipe."
+				""
+				"&eGated behind the Stone Age milestone&r of the Steamon Journey."
+			]
+			id: "50996153FB959512"
+			rewards: [
+				{
+					count: 4
+					id: "503463CB69668C51"
+					item: { count: 1, id: "farmersdelight:cabbage_seeds" }
+					type: "item"
+				}
+				{
+					count: 4
+					id: "507D16AF162CF152"
+					item: { count: 1, id: "farmersdelight:tomato_seeds" }
+					type: "item"
+				}
+				{
+					id: "50C11F38F101B671"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Grow your first crops"
+			tasks: [
+				{
+					count: 1L
+					id: "506CCFD9560B8DA5"
+					item: { count: 1, id: "farmersdelight:cabbage" }
+					type: "item"
+				}
+			]
+			title: "A Farmer's Start"
+			x: 0d
+			y: 0d
+			dependencies: ["102D9356B8648743"]
+		},
+		{
+			description: [
+				"A &aKnife&r lets you cut ingredients on a Cutting Board and butcher animals for extra drops."
+				""
+				"Craft a &aFlint Knife&r to begin, then upgrade to iron and beyond."
+				""
+				"Reward: a free Iron Knife to get you cutting."
+			]
+			id: "5096E4411BC2AEE2"
+			rewards: [
+				{
+					id: "500288EDEEB9E085"
+					item: { count: 1, id: "farmersdelight:iron_knife" }
+					type: "item"
+				}
+				{
+					id: "507501B6979E9AA8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Every cook needs a blade"
+			tasks: [
+				{
+					count: 1L
+					id: "50DA3C1B7C9029BE"
+					item: { count: 1, id: "farmersdelight:flint_knife" }
+					type: "item"
+				}
+			]
+			title: "Sharpen Up"
+			x: 0d
+			y: 2d
+			dependencies: ["50996153FB959512"]
+		},
+		{
+			description: [
+				"Place a &aCutting Board&r and use your knife on it to slice ingredients, unlocking dozens of recipes."
+				""
+				"It also butchers raw meat into cuts for a better yield."
+			]
+			id: "502277C522EB9532"
+			rewards: [
+				{
+					count: 6
+					id: "50DDD5EC26207EC9"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "5092C01174F3D78B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Prep station"
+			tasks: [
+				{
+					count: 1L
+					id: "501CF50145120356"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			title: "The Cutting Board"
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["5096E4411BC2AEE2"]
+		},
+		{
+			description: [
+				"The &aCooking Pot&r is the heart of the kitchen. Set it over heat and simmer stews and soups from your harvest."
+				""
+				"Cook your first &aVegetable Soup&r, &aBeef Stew&r or &aNoodle Soup&r for lasting nourishment."
+			]
+			id: "50F806FE920299D4"
+			rewards: [
+				{
+					count: 3
+					id: "50DFA1D35F83AAEC"
+					item: { count: 1, id: "farmersdelight:vegetable_soup" }
+					type: "item"
+				}
+				{
+					id: "50BB36ED23A96BF9"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Slow-cook hearty meals"
+			tasks: [
+				{
+					count: 1L
+					id: "500E5235A7B47467"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+			]
+			title: "The Cooking Pot"
+			x: 0d
+			y: 4d
+			dependencies: ["5096E4411BC2AEE2"]
+		},
+		{
+			description: [
+				"The &aSkillet&r fries food fast and can even be carried to cook over a campfire in the field."
+				""
+				"Great for quick meals during a Pokemon hunt."
+			]
+			id: "505B885C41DDE9FE"
+			rewards: [
+				{
+					count: 4
+					id: "502B24236BC528BD"
+					item: { count: 1, id: "farmersdelight:fried_egg" }
+					type: "item"
+				}
+				{
+					count: 6
+					id: "500131403460C18E"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "5020935B34162289"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Fry on the go"
+			tasks: [
+				{
+					count: 1L
+					id: "503771045CEB2376"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					type: "item"
+				}
+			]
+			title: "The Skillet"
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["5096E4411BC2AEE2"]
+		},
+		{
+			description: [
+				"Build a &aStove&r to cook several Skillets at once and heat your Cooking Pots without a campfire."
+				""
+				"Your kitchen is now complete. Time to master the world's cuisines."
+			]
+			id: "507AE2D0C47CC928"
+			rewards: [
+				{
+					id: "508268A0E9C639C1"
+					item: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					type: "item"
+				}
+				{
+					id: "5004E23832D14D2F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "A proper kitchen"
+			tasks: [
+				{
+					count: 1L
+					id: "5054C47EA3E0B697"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+			]
+			title: "Fire Up the Stove"
+			x: 0d
+			y: 6d
+			dependencies: ["50F806FE920299D4"]
+		},
+		{
+			description: [
+				"&aRice&r grows in shallow water and cooks into a filling base for countless dishes."
+				""
+				"Cook a bowl of &aCooked Rice&r to prove your stove works."
+			]
+			id: "50A9589DACA12E23"
+			rewards: [
+				{
+					count: 8
+					id: "500A636945B3A927"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "507DE90E67F64A06"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "A staple of every table"
+			tasks: [
+				{
+					count: 1L
+					id: "5025EA76537AAE47"
+					item: { count: 1, id: "farmersdelight:cooked_rice" }
+					type: "item"
+				}
+			]
+			title: "Cook Some Rice"
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["507AE2D0C47CC928"]
+		},
+		{
+			description: [
+				"Sweet or savoury, a &aPie&r is the pride of any baker. Bake an &aApple Pie&r from a pie crust and apples."
+				""
+				"Reward: a handful of spurs for the effort."
+			]
+			id: "5030D07D822D290C"
+			rewards: [
+				{
+					count: 8
+					id: "50E356C7BEA3483A"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "50F44B8614E8F00D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Dessert time"
+			tasks: [
+				{
+					count: 1L
+					id: "50CE4F3B89953E7A"
+					item: { count: 1, id: "farmersdelight:apple_pie" }
+					type: "item"
+				}
+			]
+			title: "Bake a Pie"
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["507AE2D0C47CC928"]
+		},
+		{
+			description: [
+				"A whole roast chicken, the classic centerpiece feast."
+				""
+				"Cook and obtain one to add it to your culinary collection."
+			]
+			icon: { id: "farmersdelight:roast_chicken" }
+			id: "50F676F9AEE5BB6A"
+			dependencies: ["507AE2D0C47CC928"]
+			rewards: [
+				{
+					count: 6
+					id: "5070F15B96B563B3"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "5055D02047A47BF0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Farmer's Delight"
+			tasks: [
+				{
+					count: 1L
+					id: "50EF3BD366314373"
+					item: { count: 1, id: "farmersdelight:roast_chicken" }
+					type: "item"
+				}
+			]
+			title: "Farmhouse Roast"
+			x: 3.5d
+			y: 6.0d
+		},
+		{
+			description: [
+				"A hearty wrapped burrito from far-flung kitchens."
+				""
+				"Cook and obtain one to add it to your culinary collection."
+			]
+			icon: { id: "culturaldelights:beef_burrito" }
+			id: "50ABBAF318B8522D"
+			dependencies: ["50F676F9AEE5BB6A"]
+			rewards: [
+				{
+					count: 6
+					id: "50B13B319F4B0CF3"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "50CF168657BD98F4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Cultural Delights"
+			tasks: [
+				{
+					count: 1L
+					id: "50FF75F82B92A6B7"
+					item: { count: 1, id: "culturaldelights:beef_burrito" }
+					type: "item"
+				}
+			]
+			title: "Street Burrito"
+			x: 5.0d
+			y: 5.0d
+		},
+		{
+			description: [
+				"A pie baked from the fruit of the outer islands."
+				""
+				"Cook and obtain one to add it to your culinary collection."
+			]
+			icon: { id: "ends_delight:chorus_fruit_pie" }
+			id: "50C20E9E7D1C89A5"
+			dependencies: ["50F676F9AEE5BB6A"]
+			rewards: [
+				{
+					count: 6
+					id: "50E839C2452960D7"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "50820B6BF7B0F021"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "End's Delight"
+			tasks: [
+				{
+					count: 1L
+					id: "508EF2591FC945BB"
+					item: { count: 1, id: "ends_delight:chorus_fruit_pie" }
+					type: "item"
+				}
+			]
+			title: "Chorus Pie"
+			x: 6.5d
+			y: 5.0d
+		},
+		{
+			description: [
+				"A warming soup brewed deep underground."
+				""
+				"Cook and obtain one to add it to your culinary collection."
+			]
+			icon: { id: "minersdelight:cave_soup" }
+			id: "5013D9EABAFACD6D"
+			dependencies: ["50F676F9AEE5BB6A"]
+			rewards: [
+				{
+					count: 6
+					id: "50310BFF0E81DA44"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "50CABC4937B7448C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Miner's Delight"
+			tasks: [
+				{
+					count: 1L
+					id: "5012F95F314ECCB8"
+					item: { count: 1, id: "minersdelight:cave_soup" }
+					type: "item"
+				}
+			]
+			title: "Cavern Soup"
+			x: 8.0d
+			y: 5.0d
+		},
+		{
+			description: [
+				"A sausage cured from hoglin loin over blazing heat."
+				""
+				"Cook and obtain one to add it to your culinary collection."
+			]
+			icon: { id: "mynethersdelight:hoglin_sausage" }
+			id: "5007E20DAC235BE9"
+			dependencies: ["50F676F9AEE5BB6A"]
+			rewards: [
+				{
+					count: 6
+					id: "504625016F33D48C"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "507E62BDDF9A2140"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "My Nether's Delight"
+			tasks: [
+				{
+					count: 1L
+					id: "502EE0E9A75FF339"
+					item: { count: 1, id: "mynethersdelight:hoglin_sausage" }
+					type: "item"
+				}
+			]
+			title: "Hoglin Sausage"
+			x: 5.0d
+			y: 7.0d
+		},
+		{
+			description: [
+				"Roast moa, a delicacy from the floating isles."
+				""
+				"Cook and obtain one to add it to your culinary collection."
+			]
+			icon: { id: "aethersdelight:roast_moa" }
+			id: "5089CCC850C250F5"
+			dependencies: ["50F676F9AEE5BB6A"]
+			rewards: [
+				{
+					count: 6
+					id: "50FD34C520A3CD10"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "50861FE6487DE9ED"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Aether's Delight"
+			tasks: [
+				{
+					count: 1L
+					id: "503989FF731CA203"
+					item: { count: 1, id: "aethersdelight:roast_moa" }
+					type: "item"
+				}
+			]
+			title: "Roast Moa"
+			x: 6.5d
+			y: 7.0d
+		},
+		{
+			description: [
+				"Moon-viewing dango, a treat from the land of Gensokyo."
+				""
+				"Cook and obtain one to add it to your culinary collection."
+			]
+			icon: { id: "youkaisfeasts:tsukimi_dango" }
+			id: "509E53EBB16ED918"
+			dependencies: ["50F676F9AEE5BB6A"]
+			rewards: [
+				{
+					count: 6
+					id: "509F6F565C60FF5A"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "50CEAF14FCC73704"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Youkai's Feasts"
+			tasks: [
+				{
+					count: 1L
+					id: "50985DD8B634E92C"
+					item: { count: 1, id: "youkaisfeasts:tsukimi_dango" }
+					type: "item"
+				}
+			]
+			title: "Tsukimi Dango"
+			x: 8.0d
+			y: 7.0d
+		},
+		{
+			description: [
+				"Prepare a signature dish from every Delight kitchen in the pack to earn the title of &aMaster Chef&r."
+				""
+				"Reward: one random pull from the Master Chef table plus a sack of spurs."
+				""
+				"Complete every dish in the grid to unlock this."
+			]
+			id: "509FE4309F7387C6"
+			rewards: [
+				{
+					id: "505357394611F7F4"
+					table_id: "50B58974B2A5A91B"
+					type: "random"
+				}
+				{
+					id: "501E6EFD4D468E11"
+					item: { count: 1, id: "cobblemon:relic_coin_sack" }
+					type: "item"
+				}
+				{
+					id: "508662979448C049"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "gear"
+			size: 2d
+			subtitle: "Cook a signature dish from every kitchen"
+			tasks: [
+				{
+					id: "5081D3D52B34AC1D"
+					title: "Master Chef"
+					type: "checkmark"
+				}
+			]
+			title: "Master Chef"
+			x: 6.5d
+			y: 9.0d
+			dependencies: [
+				"50F676F9AEE5BB6A"
+				"50ABBAF318B8522D"
+				"50C20E9E7D1C89A5"
+				"5013D9EABAFACD6D"
+				"5007E20DAC235BE9"
+				"5089CCC850C250F5"
+				"509E53EBB16ED918"
+			]
+		},
+	]
+	title: "Culinary"
+}

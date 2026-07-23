@@ -1,0 +1,989 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "overworld"
+	group: "3DBCC9E2D8397D4A"
+	icon: {
+		id: "minecraft:grass_block"
+	}
+	id: "612937DFCAE1B256"
+	order_index: 1
+	quest_links: [
+		{
+			id: "11E8917204072C82"
+			linked_quest: "50996153FB959512"
+			shape: "circle"
+			size: 1.0d
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "11841F8D46FF42DC"
+			linked_quest: "207A81A64CBCE64F"
+			shape: "circle"
+			size: 1.0d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "11B4234FE73150E6"
+			linked_quest: "30E9681CB438878A"
+			shape: "circle"
+			size: 1.0d
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "1157A81AD7752B5D"
+			linked_quest: "20B15066AC9B97D2"
+			shape: "circle"
+			size: 1.0d
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			id: "11982C780E01B5BA"
+			linked_quest: "40996153FB959512"
+			shape: "circle"
+			size: 1.0d
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			id: "11A22577859A600D"
+			linked_quest: "20D321EEC05603E1"
+			shape: "circle"
+			size: 1.0d
+			x: 19.0d
+			y: -3.5d
+		}
+		{
+			id: "11052AEA38E628A7"
+			linked_quest: "40C4EA2C73849FF0"
+			shape: "circle"
+			size: 1.0d
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			id: "113FAC4583ECDFCD"
+			linked_quest: "40091CD67B4264AE"
+			shape: "circle"
+			size: 1.0d
+			x: 27.0d
+			y: -3.5d
+		}
+		{
+			id: "110347B6D5C8478C"
+			linked_quest: "4007E20DAC235BE9"
+			shape: "circle"
+			size: 1.0d
+			x: 30.0d
+			y: 3.5d
+		}
+		{
+			id: "11F2722F6CF1A3D1"
+			linked_quest: "20A4F79E5ACF677F"
+			shape: "circle"
+			size: 1.0d
+			x: 32.0d
+			y: -3.5d
+		}
+		{
+			id: "11F2672582AC467F"
+			linked_quest: "30E0E43F6CBBE3F0"
+			shape: "circle"
+			size: 1.0d
+			x: 34.0d
+			y: 3.5d
+		}
+		{
+			id: "11A972E80ED3DE2B"
+			linked_quest: "501DCF0AC468F2D7"
+			shape: "circle"
+			size: 1.0d
+			x: 32.0d
+			y: 5.5d
+		}
+		{
+			id: "11243D5606646AAA"
+			linked_quest: "5040629EF17E4552"
+			shape: "circle"
+			size: 1.0d
+			x: 34.0d
+			y: -5.5d
+		}
+	]
+	quests: [
+		{
+			id: "10A267E791DF2E98"
+			rewards: [
+				{
+					count: 16
+					id: "10A46BF73581AC78"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "109851C4AC2B4458"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "10585FFF3ED37CF6"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+				{
+					id: "10877EC8286A4447"
+					item: { count: 1, id: "minecraft:wooden_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10A267E791DF2E98"]
+			id: "102D9356B8648743"
+			rewards: [
+				{
+					count: 8
+					id: "104043584CFF7483"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "10A469ED05AA73C0"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "10EF9546F9F152FB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+				id: "104F8FAE6FFE076F"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["102D9356B8648743"]
+			id: "102BA726C9F17223"
+			rewards: [
+				{
+					count: 8
+					id: "107192FED82D074E"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1063C755B1989048"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "100DD04D06A30D2E"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "105590A442BF47E9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				id: "10DEF69022C2DE83"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["102BA726C9F17223"]
+			id: "100F316559785DED"
+			rewards: [
+				{
+					count: 5
+					id: "107007E552A829EC"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "10B857FCD33BCCC0"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1090295E4D7BBE08"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "1012303505500F75"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100F316559785DED"]
+			id: "106FA347B5C829E2"
+			rewards: [
+				{
+					count: 3
+					id: "10D277D41D143D7A"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "10146EC228FD41B5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				id: "109F692619786329"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["106FA347B5C829E2"]
+			id: "103386F13265F194"
+			rewards: [
+				{
+					id: "107E7F6AC71D7E35"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "1092CA8832BD8ED5"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "10CF1EFBBD1F3CE5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "10EF9DB906E0FDD4"
+				item: { components: { "ftbquests:missing_item": "" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["103386F13265F194"]
+			id: "105485D414441DF4"
+			rewards: [
+				{
+					count: 10
+					id: "104C10CDB0AE3ECB"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "10B3ADF7A3E91438"
+					type: "xp"
+					xp: 125
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "100B33E831703E97"
+				type: "advancement"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105485D414441DF4"]
+			id: "106A1449763D07CF"
+			rewards: [
+				{
+					count: 8
+					id: "10B286BBF62830E6"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "109A06EEC246AF97"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "10473B59EBE2D7DE"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:nether/get_wither_skull"
+				criterion: ""
+				id: "103CAC7B1D4B9A91"
+				type: "advancement"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["106A1449763D07CF"]
+			id: "1008C7F7965BD055"
+			rewards: [
+				{
+					count: 2
+					id: "1080481C5A5014A7"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "1051E9E2147CB74C"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_sack"
+					}
+					type: "item"
+				}
+				{
+					id: "10507367B01A4C97"
+					type: "xp"
+					xp: 175
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1049D67044406DB0"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1008C7F7965BD055"]
+			id: "100573543B0B18B8"
+			rewards: [
+				{
+					id: "10E2354EFCA3CF5F"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "1072D181704264F5"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "10565E2C15434657"
+				item: { count: 1, id: "minecraft:glowstone" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["100573543B0B18B8"]
+			id: "105FB4F860A68106"
+			rewards: [
+				{
+					count: 4
+					id: "10C08775589434CE"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "10CB095A7099DAAE"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_sack"
+					}
+					type: "item"
+				}
+				{
+					id: "108C0B59CC58AB98"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:end/enter_the_end"
+				criterion: ""
+				id: "103FBA80C35E7410"
+				type: "advancement"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105FB4F860A68106"]
+			id: "10FC1EB90F757C1B"
+			rewards: [
+				{
+					id: "103B4BAB31F3C4D5"
+					type: "random"
+				}
+				{
+					id: "10F2D00FB76F2D11"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "10DFDE1CA2318147"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "10B3E2AE5A31E4E4"
+				type: "advancement"
+			}]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["102D9356B8648743"]
+			description: [
+				"This path leads to the &eCulinary&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "farmersdelight:cooking_pot" }
+			id: "11D05E3CE2B7E750"
+			rewards: [
+				{
+					id: "11BED8D8931C7D15"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "1158F360462BD45B"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "11EA4E5DE0F0F981"
+				title: "Open the Culinary branch"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["102BA726C9F17223"]
+			description: [
+				"This path leads to the &eCreate: Cogs & Crates&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "create:cogwheel" }
+			id: "11D0ACCB0E10BB07"
+			rewards: [
+				{
+					id: "1194FDB8C0088524"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "1187200ADEE49EC4"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "115C179A0EA2FF4A"
+				title: "Open the Create: Cogs & Crates branch"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["100F316559785DED"]
+			description: [
+				"This path leads to the &eCobblemon: First Steps&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "cobblemon:poke_ball" }
+			id: "11136ED5775F20DC"
+			rewards: [
+				{
+					id: "11DB134B819FBA3C"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "11AC6811ED6317BC"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "11E4D451ED94121A"
+				title: "Open the Cobblemon: First Steps branch"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["106FA347B5C829E2"]
+			description: [
+				"This path leads to the &eCreate: Rotational Power&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "create:water_wheel" }
+			id: "11F2E207DC27FDC7"
+			rewards: [
+				{
+					id: "11D1C43798A77881"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					id: "11C24A5DB98B2F2D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "11804A03DDE526BA"
+				title: "Open the Create: Rotational Power branch"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["105485D414441DF4"]
+			description: [
+				"This path leads to the &eNether&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "minecraft:netherrack" }
+			id: "11560D8A44F37744"
+			rewards: [
+				{
+					id: "11EEF4D5D8F8E6A4"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "1129081618FE0F2A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "118FFA559CCBB31A"
+				title: "Open the Nether branch"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["105485D414441DF4"]
+			description: [
+				"This path leads to the &eCreate: Sparks & Circuits&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "create:electron_tube" }
+			id: "11F3534AE5D06169"
+			rewards: [
+				{
+					id: "11ADDA485D266F40"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+				{
+					id: "114CF160DD5DA07C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "11D082D0A300EE28"
+				title: "Open the Create: Sparks & Circuits branch"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1008C7F7965BD055"]
+			description: [
+				"This path leads to the &eOtherside&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "minecraft:sculk" }
+			id: "11F862B29B31518C"
+			rewards: [
+				{
+					id: "11139142B31FCA48"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+				{
+					id: "11CA4027F3968948"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "1153027299E6144A"
+				title: "Open the Otherside branch"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["100573543B0B18B8"]
+			description: [
+				"This path leads to the &eAether&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "aether:ambrosium_shard" }
+			id: "1149EDEE2BFF17BB"
+			rewards: [
+				{
+					id: "1185EA72A58EF665"
+					item: { count: 1, id: "cobblemon:relic_coin" }
+					type: "item"
+				}
+				{
+					id: "1154BFE96612090F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "116F6872E7DF1D56"
+				title: "Open the Aether branch"
+				type: "checkmark"
+			}]
+			x: 27.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["105FB4F860A68106"]
+			description: [
+				"This path leads to the &eEnd&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "minecraft:end_stone" }
+			id: "1168BD4586502127"
+			rewards: [
+				{
+					id: "119BC83FDBC5004E"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					id: "11CE0BD220B09643"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "111B8118D2ACD419"
+				title: "Open the End branch"
+				type: "checkmark"
+			}]
+			x: 30.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10FC1EB90F757C1B"]
+			description: [
+				"This path leads to the &eBeyond the Machine&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "create:precision_mechanism" }
+			id: "112DBC53A3383FEB"
+			rewards: [
+				{
+					id: "11EC97DCF5F6117F"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					id: "114348FC907A15E5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "113EC65E5862F8C3"
+				title: "Open the Beyond the Machine branch"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10FC1EB90F757C1B"]
+			description: [
+				"This path leads to the &eMyths & Legends&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "cobblemon:leftovers" }
+			id: "11B9E97BEC38C56B"
+			rewards: [
+				{
+					id: "110B737996BA8536"
+					item: { count: 1, id: "cobblemon:relic_coin_sack" }
+					type: "item"
+				}
+				{
+					id: "11A9866708852A29"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "11591721E1EE3A6F"
+				title: "Open the Myths & Legends branch"
+				type: "checkmark"
+			}]
+			x: 34.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10FC1EB90F757C1B"]
+			description: [
+				"This path leads to the &eAdventure&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "minecraft:map" }
+			id: "11E9CC6C443AC051"
+			rewards: [
+				{
+					id: "11065A596D86369F"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					id: "112A659A26F6E8B3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "11198A271F7937D0"
+				title: "Open the Adventure branch"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10FC1EB90F757C1B"]
+			description: [
+				"This path leads to the &eLeague&r branch."
+				""
+				"Follow the marker to open that quest line."
+			]
+			icon: { count: 1, id: "cobblemon:gilded_chest" }
+			id: "112C6A2A5F5B44AF"
+			rewards: [
+				{
+					id: "1143270FB5942ED0"
+					item: { count: 1, id: "cobblemon:relic_coin_sack" }
+					type: "item"
+				}
+				{
+					id: "118C9607DA6D02E7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "Branch marker"
+			tasks: [{
+				id: "1130964870FFC07D"
+				title: "Open the League branch"
+				type: "checkmark"
+			}]
+			x: 34.0d
+			y: -4.0d
+		}
+	]
+	title: "Steamon Journey"
+}
