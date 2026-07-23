@@ -465,16 +465,6 @@ hash = "f98df5df0d6502bf3151c76fe88d6640ac830c0641a512582c0bb7c43678e04c"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-counter.pw.toml"
-hash = "63a3ec5e1ac2cb333f12a5210b67b2a7e9fd616ce1168253299bfa6a0cbdb203"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-droploottables.pw.toml"
-hash = "96b1fa704a8fd2597370dee426864f9edfbbe6e103c278c5f20b959684d933a5"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-exp.-all.pw.toml"
 hash = "63f47b25dacfced4a04b3a5708b4ef2051f421e8fb09293fca450911dbfa318b"
 metafile = true
@@ -2603,54 +2593,6 @@ hash = "66920fcec5d7f05738b06eca1a601434c006ea902619bdb0cf71abb105e1d302"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
 hash = "f74498097708215ee46031db7467ce3abed880ed8188eff156e81993d9787e31"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_asurine_vent.json"
-hash = "63d77ec9dea667e53a031f001ac13b3dec2aea6e343a860995473c15217c597d"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_crimsite_vent.json"
-hash = "ca46dc277113a6b05ed1740e595368d95869678ef2ff45747d0b07a86951867a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_ochrum_vent.json"
-hash = "e896eb95cfd92a4501ea356d50ba30206dfba4cc6b7023fdd128dc6077d2141c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_scorchia_vent.json"
-hash = "82c2da4cee9d95a50f354af5d276dfc332af33be5de538d3a7e558c630d7e1ee"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_scoria_vent.json"
-hash = "7b8dbd6f818be89626a2e8de2f2aa8968681ebb7fb3d28bd871bf9c6918c0f49"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_veridium_vent.json"
-hash = "5969e526bfe932c5cbebed23625ed6c8bb042c467bad50b049e05ae105c6ddb3"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/asurine_vent.json"
-hash = "9ccad620bfacccc7f685aea69ac9a18a502cb7450b611bbb3f0eca3ec0ba97c4"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/crimsite_vent.json"
-hash = "6f1660e51fef06d2478bae468f3f7ade8ed1908a1a5f095be77e465fe4534c80"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/ochrum_vent.json"
-hash = "8d01364b57ea09d12f2788945bd14bd1b5fe47b1f97269a6e91ff437ce989f2c"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/scorchia_vent.json"
-hash = "b70798495e5b5ab432e2144d0633dd387ebe525f183bd3ad087a5f8a8876f053"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/scoria_vent.json"
-hash = "24367235f9a931117ecf69caf2d4efe8b6fa1cc765d5a61a46c7fe131aaaf55a"
-
-[[files]]
-file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/veridium_vent.json"
-hash = "31b6f4d4cd437786e48353dc8ed55668f682f138a8e5caf059f6fd8e37fe2131"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/abandoned.json"
