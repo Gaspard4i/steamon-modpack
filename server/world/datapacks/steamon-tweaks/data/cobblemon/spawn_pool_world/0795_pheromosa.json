@@ -1,5 +1,5 @@
 {
- "enabled": true,
+ "enabled": false,
  "neededInstalledMods": [],
  "neededUninstalledMods": [],
  "spawns": [
@@ -13,7 +13,7 @@
    "spawnablePositionType": "grounded",
    "bucket": "ultra-rare",
    "level": "45-65",
-   "weight": 0.14,
+   "weight": 0.7,
    "condition": {
     "biomes": [
      "minecraft:plains",
@@ -36,7 +36,7 @@
    "spawnablePositionType": "grounded",
    "bucket": "ultra-rare",
    "level": "50-75",
-   "weight": 0.12,
+   "weight": 0.6,
    "condition": {
     "biomes": [
      "incendium:inverted_forest",
@@ -55,7 +55,7 @@
    "context": "grounded",
    "bucket": "rare",
    "level": "50-90",
-   "weight": 0.56,
+   "weight": 2.8,
    "condition": {
     "biomes": [
      "aether:skyroot_meadow"

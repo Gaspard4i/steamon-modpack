@@ -1,5 +1,5 @@
 {
- "enabled": true,
+ "enabled": false,
  "neededInstalledMods": [],
  "neededUninstalledMods": [],
  "spawns": [
@@ -10,7 +10,7 @@
    "context": "grounded",
    "bucket": "ultra-rare",
    "level": "40-65",
-   "weight": 0.22,
+   "weight": 1.1,
    "condition": {
     "biomes": [
      "#minecraft:is_end"
@@ -27,7 +27,7 @@
    "context": "grounded",
    "bucket": "rare",
    "level": "50-90",
-   "weight": 0.68,
+   "weight": 3.4,
    "condition": {
     "biomes": [
      "aether:skyroot_grove"

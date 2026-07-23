@@ -49,12 +49,58 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **Create components** tiered in loot: andesite alloy uncommon (15%),
   brass rare (0.3%, low count), electron tube mythic (0.1%),
   precision mechanism legendary (0.01%) — encourages producing them via Create.
+- **Chunk Loader** (Create Ender Transmission) fully blacklisted via Item
+  Obliterator — recipe off, removed from inventories/drops, hidden from JEI.
+- **Nuclear reactor parts** (createnuclear controller/core/casing/frame/cooler/
+  input/output/blueprint) in a dedicated 0.0001% loot pool in endgame chests
+  (End City, Ancient City, Bastion) + rare MVS — separate from the endgame pool.
 
-**Spawns**
+**Spawns — no legendaries / paradox / ultra beasts in the overworld**
 - **Cobblemon Otherside Spawns** 2.1 — themed Ghost/Dark/Dragon/Paradox spawns
   in the Otherside.
-- **Cobblemon Biome Expanded Spawns** 5.9 — broader spawns; its 63 legendaries
-  disabled (kept blocked per M&L design), 10 Ultra Beasts weight reduced (÷5).
+- **Cobblemon Biome Expanded Spawns** 5.9 — broader spawns; all 82 of its
+  special mons (72 legendaries/paradox + 10 Ultra Beasts, incl. Terapagos,
+  Koraidon, Miraidon, Poipole) now fully `enabled:false` in the overworld
+  (previously 63 blocked + Ultra Beasts only weight-reduced — that let Terapagos
+  and Poipole still spawn).
+- Disabled the bundled AllTheMons spawn packs that were leaking overworld
+  spawns: **`legendary_spawns_atm`** (74), **`paradox_spawns_atm`** (17, all
+  were active), **`ultra_beast_spawns_atm`** (8, Poipole's real source) — every
+  entry forced `enabled:false`. Legendaries/UB now come only from their intended
+  structures/mechanics, never wild in the overworld.
+
+**Loot — themed per structure**
+- Per-structure themed loot across ~17 structure mods, restrained (2-3 balls
+  max, one dominant theme, rare items in separate `random_chance` pools):
+  - **Create LTAB** (14 tables): industrial Create loot, low-tier balls,
+    biome-flavored stones; electron tube / precision mechanism in rare pools;
+    Netherite Jetpack kept at 0.0001% in Create legend chests only.
+  - **Aether / Deep Aether** (6 tables): divine/pure/light theme — fairy/heal/
+    premier balls, moon/shiny stones, feathers; Beast Ball preserved; no
+    legendary items.
+  - **Deeper Darker / Otherside** (2 chest tables): dark/Ghost/Sculk — dusk
+    ball/stone, random Ghost/Dark TMs, defensive held items rare; Beast Ball
+    pool preserved.
+  - **Villages** (CTOV, Towns & Towers, BWG — 15 tables): keep vanilla village
+    loot + light sprinkle (berries, basic balls, random TM in libraries, one
+    Create item in smiths, dusk ball in Salem/halloween).
+  - **Explorify / Beautify / Supplementaries** (5 tables): camp supplies,
+    dark-forest/mausoleum dusk theme, botanist berries, aquatic galleon
+    (dive/lure/net balls, poké rod + fishing smithing template).
+- Random TMs added to several structure pools (via SimpleTMs type tags) so loot
+  isn't always about rare items.
+
+**Item rarity tuning**
+- **Golden Poké Snack** → 0.01% rare roll (was normal pool).
+- **Exp Candy** tiered: XS common, S 0.5%, M 0.1%, L 0.01%, XL not lootable.
+- **Create components** tiered: andesite alloy uncommon, brass rare (low count),
+  electron tube 0.1%, precision mechanism 0.01%.
+- **XP Nuggets** reduced (max 5, weight 1) — were far too common.
+- **Empty Z-Crystal** available at 0.01% in endgame (Ultranecrozium stays out).
+- **Chunk Loader** fully blacklisted (Item Obliterator) — no recipe, no loot,
+  hidden from JEI.
+- **Nuclear reactor parts** in a dedicated 0.0001% pool, separate from the
+  endgame/legendary/mythic pools.
 
 **Resource packs**
 - Updated Fresh Waystones Texture to 3.3; re-enabled Fresh Animations,

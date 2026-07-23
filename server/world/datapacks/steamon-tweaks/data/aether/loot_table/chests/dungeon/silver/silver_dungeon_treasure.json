@@ -32,6 +32,61 @@
       "rolls": 1.0
     },
     {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:premier_ball",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:heal_ball",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:dream_ball",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:love_ball",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:friend_ball",
+          "weight": 4
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "bonus_rolls": 0,
       "conditions": [

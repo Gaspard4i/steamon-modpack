@@ -1,0 +1,19 @@
+{
+ "enabled": false,
+ "spawns": [
+  {
+   "id": "zarude-1",
+   "pokemon": "zarude",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.7,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_jungle"
+    ]
+   }
+  }
+ ]
+}

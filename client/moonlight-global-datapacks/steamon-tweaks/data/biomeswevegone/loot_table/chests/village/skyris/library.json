@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "biomeswevegone:chests/village/skyris/library",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/village/village_temple"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "simpletms:tm_items",
+          "expand": true,
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simpletms:tm_blank",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:link_cable",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}
