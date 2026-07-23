@@ -1,0 +1,62 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "buzzwole-1",
+   "pokemon": "buzzwole min_perfect_ivs=3",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-65",
+   "weight": 0.3,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_swamp"
+    ]
+   }
+  },
+  {
+   "id": "buzzwole-2",
+   "pokemon": "buzzwole min_perfect_ivs=3",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-70",
+   "weight": 0.46,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_end"
+    ]
+   }
+  },
+  {
+   "id": "aether_buzzwole_1",
+   "pokemon": "buzzwole min_perfect_ivs=3",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "rare",
+   "level": "50-100",
+   "weight": 1.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_forest"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

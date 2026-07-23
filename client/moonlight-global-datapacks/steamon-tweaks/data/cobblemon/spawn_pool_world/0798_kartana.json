@@ -1,0 +1,44 @@
+{
+ "enabled": "true",
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "kartana-1",
+   "pokemon": "kartana",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60",
+   "weight": 1.0,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_bamboo"
+    ]
+   }
+  },
+  {
+   "id": "aether_kartana_1",
+   "pokemon": "kartana",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "rare",
+   "level": "50-100",
+   "weight": 1.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_woodland"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 48,
-    "description": "Steamon modpack tweaks: smartphone recipe overrides + temporary End-access lockout (bounces players out of the_end)."
+    "description": "Steamon tweaks: recipe overrides & disables (Cobblemon Utility+ caps/candies, chunk loader, netherite, aether, turtles), Create recipes (smartphones, ball synchronizer, tera shards), MVS loot tables (Cobblemon/legendaries), legendary spawn blocks, Molten Vents rarity, sculk crushing."
   }
 }

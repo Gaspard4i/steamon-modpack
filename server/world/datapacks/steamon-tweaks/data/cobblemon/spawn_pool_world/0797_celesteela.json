@@ -1,0 +1,41 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "celesteela-1",
+   "pokemon": "celesteela",
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-65",
+   "weight": 0.22,
+   "condition": {
+    "biomes": [
+     "#minecraft:is_end"
+    ]
+   }
+  },
+  {
+   "id": "aether_celesteela_1",
+   "pokemon": "celesteela",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "rare",
+   "level": "50-90",
+   "weight": 0.68,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_grove"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

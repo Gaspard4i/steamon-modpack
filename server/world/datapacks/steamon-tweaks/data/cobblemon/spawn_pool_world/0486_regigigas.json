@@ -1,0 +1,25 @@
+{
+ "enabled": false,
+ "spawns": [
+  {
+   "id": "regigigas-1",
+   "pokemon": "regigigas",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.3,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_sandy"
+    ],
+    "structures": [
+     "#minecraft:village"
+    ]
+   }
+  }
+ ]
+}

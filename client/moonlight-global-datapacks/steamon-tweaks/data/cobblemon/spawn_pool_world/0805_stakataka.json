@@ -1,0 +1,63 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "stakataka-1",
+   "pokemon": "stakataka min_perfect_ivs=3",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-65",
+   "weight": 0.76,
+   "condition": {
+    "biomes": [
+     "minecraft:deep_dark"
+    ]
+   }
+  },
+  {
+   "id": "stakataka-2",
+   "pokemon": "stakataka min_perfect_ivs=3",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "45-75",
+   "weight": 0.56,
+   "condition": {
+    "biomes": [
+     "minecraft:ancient_city"
+    ]
+   }
+  },
+  {
+   "id": "aether_stakataka_1",
+   "pokemon": "stakataka min_perfect_ivs=3",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "rare",
+   "level": "50-100",
+   "weight": 1.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_meadow",
+     "aether:skyroot_grove"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

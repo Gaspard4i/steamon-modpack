@@ -1,0 +1,45 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "xerneas-1",
+   "pokemon": "xerneas",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.4,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_woodland",
+     "aether:skyroot_forest"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  },
+  {
+   "id": "xerneas-2",
+   "pokemon": "xerneas",
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 5.4,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 15,
+    "biomes": [
+     "aether:skyroot_woodland",
+     "aether:skyroot_forest"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

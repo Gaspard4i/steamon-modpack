@@ -1,0 +1,72 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "poipole-1",
+   "pokemon": "poipole min_perfect_ivs=3",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "15-35",
+   "weight": 0.36,
+   "weightMultipliers": [
+    {
+     "multiplier": 2.5,
+     "condition": {
+      "neededNearbyBlocks": [
+       "minecraft:bee_nest"
+      ]
+     }
+    }
+   ],
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_forest"
+    ]
+   }
+  },
+  {
+   "id": "poipole-2",
+   "pokemon": "poipole min_perfect_ivs=3",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "15-35",
+   "weight": 0.74,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_end"
+    ]
+   }
+  },
+  {
+   "id": "aether_poipole_1",
+   "pokemon": "poipole min_perfect_ivs=3",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "rare",
+   "level": "50-100",
+   "weight": 1.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_woodland"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "nihilego",
+   "pokemon": "nihilego min_perfect_ivs=3",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-65",
+   "weight": 0.44,
+   "condition": {
+    "minSkyLight": 8,
+    "maxSkyLight": 15,
+    "biomes": [
+     "#cobblemon:is_swamp"
+    ]
+   }
+  },
+  {
+   "id": "aether_nihilego_1",
+   "pokemon": "nihilego min_perfect_ivs=3",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "rare",
+   "level": "50-100",
+   "weight": 1.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_meadow"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

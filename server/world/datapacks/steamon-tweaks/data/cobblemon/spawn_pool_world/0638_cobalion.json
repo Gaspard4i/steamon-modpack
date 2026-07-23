@@ -1,0 +1,25 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "cobalion-1T",
+   "pokemon": "cobalion",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60",
+   "weight": 0.3,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_forest"
+    ]
+   }
+  }
+ ]
+}

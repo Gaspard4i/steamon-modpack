@@ -1,0 +1,13 @@
+name = "Retraining"
+filename = "Retraining-neoforge-1.21-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Iugiwphr/versions/kHyn8yHS/Retraining-neoforge-1.21-2.0.0.jar"
+hash-format = "sha512"
+hash = "5bb1d002dd1da13330a425e535c89a0898ff9f2611fc459a5b901646b11255258ed8d6c5124c656a0177542f1d9ac9cbf195eca8291947efe8d2be32bad2e80c"
+
+[update]
+[update.modrinth]
+mod-id = "Iugiwphr"
+version = "kHyn8yHS"

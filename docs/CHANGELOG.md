@@ -6,6 +6,63 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [2.0.0] - Unreleased (Season 2)
 
+### 2026-07-23 — Rebalance, loot refactor, exploration dimension & spawns
+
+**Mods added**
+- **Resource World** 2.0 (+ Server I18n API) — server-side, regenerating
+  overworld-like exploration dimension (`resource_world:exploration`).
+- **No Chat Reports** — unreportable chat (both sides).
+- **Particle Core, Runelic, Shoulder Surfing Reloaded, Stylish Effects,
+  Subtle Skybox, Traveler's Titles** — client QoL/cosmetic.
+- **Retraining** — recycle/reroll villager trades (replaces Visible Traders).
+- **Gensokyo Delight ~ Youkai's Feasts** 1.1.0 — Japanese-style food/drink addon
+  for Farmer's Delight (143+ dishes). Both sides.
+
+**Mods removed**
+- **Visible Traders** (replaced by Retraining).
+- **DropLootTables** + **Counter re-added** — DropLootTables crashed boot
+  ("Registry already frozen"); removed. Counter kept (required by Unchained).
+
+**Recipes / configs (datapack `steamon-tweaks`)**
+- Nerfed Create auto-fishing (cooldown x16, maxBlocks 64).
+- Removed all Create↔Aether recipes; disabled Dragons+ bulk enchanting & moa
+  incubation; blocked netherite scrap from nether-brick crushing.
+- Disabled ComputerCraft turtles + DnDesires handheld drill (kept portable drill).
+- Ball Synchronizer recipe = blank ball + advanced computer.
+- Smartphones: nether_star → advanced computer.
+- Enchanted Golden Apple → hard sequenced assembly.
+- Removed Enchantment Industry infested recipes / XP.
+
+**Loot refactor (MVS + endgame)**
+- MVS structure loot: replaced "evolution-stones-only" Cobblemon pool with a
+  broad pool (basic balls, EV feathers, vitamins/candies, evolution stones).
+  Master Ball removed from normal pools.
+- **Master Ball** now 0.0001% only in endgame chests (End City, Ancient City,
+  Bastion) + rare MVS (cathedral_rare, crystal).
+- **Beast Ball** only in End, Otherside and Aether chests (~5%).
+- **Golden Poké Snack** (instant max friendship) moved out of normal pools to a
+  rare 0.01% roll.
+- **Exp Candy** tiered by rarity: XS common, S super-rare (0.5%),
+  M mythic (0.1%), L legendary (0.01%), XL no longer obtainable from loot.
+- **Create components** tiered in loot: andesite alloy uncommon (15%),
+  brass rare (0.3%, low count), electron tube mythic (0.1%),
+  precision mechanism legendary (0.01%) — encourages producing them via Create.
+
+**Spawns**
+- **Cobblemon Otherside Spawns** 2.1 — themed Ghost/Dark/Dragon/Paradox spawns
+  in the Otherside.
+- **Cobblemon Biome Expanded Spawns** 5.9 — broader spawns; its 63 legendaries
+  disabled (kept blocked per M&L design), 10 Ultra Beasts weight reduced (÷5).
+
+**Resource packs**
+- Updated Fresh Waystones Texture to 3.3; re-enabled Fresh Animations,
+  RCT Trainer Animation and Fresh Moves in default options (15/15 active).
+- Added **Gazai's Cobblemon Utility+** resource pack (retexture/rename).
+
+**Fix**
+- Datapack load order: `steamon-tweaks` must load last so its recipe overrides
+  win over mod runtime datapacks (some disables were being overwritten).
+
 ### Added
 - **Oh The Biomes We've Gone** 2.6.0 — a large biome and worldgen expansion
   (new overworld and nether biomes, trees, blocks). Client + server. Uses the

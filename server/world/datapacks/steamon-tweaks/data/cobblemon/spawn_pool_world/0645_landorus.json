@@ -1,0 +1,29 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "landorus-2",
+   "pokemon": "landorus",
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50",
+   "weight": 4.5,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 15,
+    "biomes": [
+     "aether:skyroot_meadow",
+     "aether:skyroot_grove",
+     "aether:skyroot_woodland",
+     "aether:skyroot_forest"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

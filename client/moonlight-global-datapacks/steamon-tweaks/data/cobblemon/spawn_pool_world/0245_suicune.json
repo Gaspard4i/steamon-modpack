@@ -1,0 +1,53 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "suicune-1",
+   "pokemon": "suicune",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60",
+   "weight": 0.5,
+   "weightMultipliers": [
+    {
+     "multiplier": 0.7,
+     "condition": {
+      "neededNearbyBlocks": [
+       "minecraft:water"
+      ]
+     }
+    },
+    {
+     "multiplier": 1,
+     "condition": {
+      "isRaining": true
+     },
+     "anticondition": {
+      "biomes": [
+       "#cobblemon:is_arid"
+      ]
+     }
+    },
+    {
+     "multiplier": 0.2,
+     "condition": {
+      "biomes": [
+       "#cobblemon:is_arid"
+      ]
+     }
+    }
+   ],
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ]
+   }
+  }
+ ]
+}

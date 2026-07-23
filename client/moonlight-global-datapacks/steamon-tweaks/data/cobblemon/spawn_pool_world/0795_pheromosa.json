@@ -1,0 +1,69 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "pheromosa-1",
+   "pokemon": "pheromosa",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "45-65",
+   "weight": 0.14,
+   "condition": {
+    "biomes": [
+     "minecraft:plains",
+     "minecraft:flower_forest",
+     "minecraft:sparse_jungle",
+     "minecraft:meadow",
+     "terralith:blooming_valley",
+     "terralith:steppe",
+     "terralith:white_cliffs"
+    ]
+   }
+  },
+  {
+   "id": "pheromosa-2",
+   "pokemon": "pheromosa",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-75",
+   "weight": 0.12,
+   "condition": {
+    "biomes": [
+     "incendium:inverted_forest",
+     "incendium:quartz_flats",
+     "minecraft:the_end"
+    ]
+   }
+  },
+  {
+   "id": "aether_pheromosa_1",
+   "pokemon": "pheromosa",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "rare",
+   "level": "50-90",
+   "weight": 0.56,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_meadow"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

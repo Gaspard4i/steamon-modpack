@@ -1,0 +1,44 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "guzzlord-1",
+   "pokemon": "guzzlord min_perfect_ivs=3",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "45-60",
+   "weight": 0.56,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_end"
+    ]
+   }
+  },
+  {
+   "id": "aether_guzzlord_1",
+   "pokemon": "guzzlord min_perfect_ivs=3",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "rare",
+   "level": "50-100",
+   "weight": 1.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_grove"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}
