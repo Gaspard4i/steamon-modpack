@@ -17,6 +17,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - **Retraining** — recycle/reroll villager trades (replaces Visible Traders).
 - **Gensokyo Delight ~ Youkai's Feasts** 1.1.0 — Japanese-style food/drink addon
   for Farmer's Delight (143+ dishes). Both sides.
+- **Display Delight** 1.6.0 — place every Farmer's Delight food item in 3D.
+  Both sides.
 
 **Mods removed**
 - **Visible Traders** (replaced by Retraining).
