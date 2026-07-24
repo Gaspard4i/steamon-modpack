@@ -6,7 +6,16 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [2.0.0] - Unreleased (Season 2)
 
-### 2026-07-24 — Worldgen: Continents & Deeper Oceans
+### 2026-07-24 — Worldgen: Continents, Deeper Oceans & rarer Molten Vents
+
+**Changed**
+- **Molten Vents** made ultra rare: overrode the 12 placed features'
+  `rarity_filter` chance x15 (land 1000→15000, aquatic 690→10350). They were
+  spawning far too often. Only the placed_features are overridden (the
+  configured_features' `feature` reference is kept intact) to avoid the
+  worldgen boot crash seen last season.
+- **Deeper Oceans** config left at defaults (depth x2, deep-ocean trial
+  chambers disabled, monument offset -20). **Continents** needs no config.
 
 **Mods added**
 - **Continents** 1.1.14 (Stardust Labs) — reshapes the overworld into large

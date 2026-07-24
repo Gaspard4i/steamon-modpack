@@ -3372,6 +3372,54 @@ file = "moonlight-global-datapacks/steamon-tweaks/data/minecraft/tags/function/t
 hash = "f74498097708215ee46031db7467ce3abed880ed8188eff156e81993d9787e31"
 
 [[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_asurine_vent.json"
+hash = "304f6a3c5397e3f39a17057cf55854d9e80c2dea47b98645f6d86ac77cd99b2f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_crimsite_vent.json"
+hash = "d043ee407a21e53c6185eeace3ab3c55864f90457bc47057b3d26d5cfad5a2c8"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_ochrum_vent.json"
+hash = "5d4eaaf095b7bd740237d333a699da64bde529c8d3757030a03badeed4263e47"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_scorchia_vent.json"
+hash = "0bfcd13674632d5058b0eda9883b9a05660b59c63e6ed278e7d30367c4936bc4"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_scoria_vent.json"
+hash = "2b284bd6975bfb95b936d2f2fc84e8f1737fb9b399510ed593e8b86586b01e80"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_veridium_vent.json"
+hash = "1852b2609ad683868107bfac728bddcc9ad5105e0aa16bc84cc4b5d9c17eb9c1"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/asurine_vent.json"
+hash = "388da4e7ee8c636e8fbe77ebd207dfd76281378e33a079c2791f349613d115d6"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/crimsite_vent.json"
+hash = "7c89d8d1089b978d4bd029c919185b8602678c16f3416271ff88d28036ec3917"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/ochrum_vent.json"
+hash = "2d4a84195da283560d6dc162b6d4bbe7a7ff8a6a1aab61b16624672eb9212a6a"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/scorchia_vent.json"
+hash = "028bf4de9022e11d94b5d1aa9f3f3f73c8c7f5315eefddd5132018e37643615b"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/scoria_vent.json"
+hash = "dcb0dca8a1d0e4bdaa98a472fcf810de20c518de3ed5ee977bc8124c12a2b88f"
+
+[[files]]
+file = "moonlight-global-datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/veridium_vent.json"
+hash = "96b0e4e67c3b78a6d2e9f1e0879906648cf34a7cabb0aab7c39e51af2dafc383"
+
+[[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/abandoned.json"
 hash = "04d4b72d8bba93a20fb3000c7512fb4181f874a76724f7c4e2845c0a0035f8bf"
 
