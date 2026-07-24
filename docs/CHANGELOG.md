@@ -6,6 +6,18 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [2.0.0] - Unreleased (Season 2)
 
+### 2026-07-24 — Worldgen: Continents & Deeper Oceans
+
+**Mods added**
+- **Continents** 1.1.14 (Stardust Labs) — reshapes the overworld into large
+  continents and islands separated by wide oceans; always spawn on a medium
+  continent. Compatible with BWG/Biomes We've Gone (it redistributes vanilla
+  biome placement to make oceans common and land sparse, without touching how
+  BWG injects its biomes via TerraBlender). Both sides.
+- **Deeper Oceans** 2.0.1 — deeper, more varied ocean floors. Depends on
+  Lithostitched (already in the pack). Both sides.
+- Requires a fresh world to take effect (map reset on the test server).
+
 ### 2026-07-23 — Quest system (full FTB Quests tree) & FTB Essentials
 
 **Quests — complete tree (21 chapters, 734 quests, 19 reward tables)**

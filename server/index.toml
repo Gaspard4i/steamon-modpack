@@ -580,6 +580,11 @@ hash = "2ba745596551b094106347e9a5898545c11eed25dd28099afd8b28a1c0b87a91"
 metafile = true
 
 [[files]]
+file = "mods/continents.pw.toml"
+hash = "a516cae54142a38262b5b0163a30e119df844ee4bd11ad1cbea5accbc0334540"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "aa9c0d138dae3e5b23e7917f7fdb2e5cb68229278798ea247f0f0dd4f5ea01f7"
 metafile = true
@@ -767,6 +772,11 @@ metafile = true
 [[files]]
 file = "mods/deep-aether.pw.toml"
 hash = "e3211d7d54a7203a183ed3b453be5dd52d27f389dbef26dd7e769f20e1dea81f"
+metafile = true
+
+[[files]]
+file = "mods/deeper-oceans.pw.toml"
+hash = "f796566fc58b6e3ec9cb594a769ba390ef9d1e34574f7f16408a6150ccc0785b"
 metafile = true
 
 [[files]]
