@@ -11,30 +11,30 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:wheat",
-          "weight": 9,
+          "name": "minecraft:hay_block",
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
-                "max": 6
+                "max": 4
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:hay_block",
-          "weight": 6,
+          "name": "minecraft:wheat",
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
+                "min": 4,
+                "max": 8
               }
             }
           ]
@@ -48,8 +48,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
+                "min": 3,
+                "max": 6
               }
             }
           ]
@@ -63,8 +63,8 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
+                "min": 2,
+                "max": 5
               }
             }
           ]
@@ -72,7 +72,52 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
-          "weight": 3,
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_fence",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bucket",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -97,17 +142,47 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:saddle",
-          "weight": 5
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "weight": 4
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:lead",
-          "weight": 5
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     },
@@ -121,23 +196,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon:poke_ball",
-          "weight": 10,
+          "name": "cobblemon:friend_ball",
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
-                "max": 5
+                "max": 4
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:nest_ball",
-          "weight": 6,
+          "name": "cobblemon:heal_ball",
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -151,8 +226,53 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:net_ball",
+          "name": "cobblemon:poke_ball",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:soothe_bell",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:swift_feather",
           "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:jolly_mint",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -166,15 +286,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:heal_ball",
-          "weight": 5,
+          "name": "cobblemon:sitrus_berry",
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
+                "min": 2,
+                "max": 4
               }
             }
           ]
@@ -182,7 +302,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:exp_candy_xs",
-          "weight": 6,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -193,99 +313,12 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:rare_candy",
-          "weight": 3
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 1
-      },
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "create:cogwheel",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "create:shaft",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "create:andesite_casing",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "create:copper_sheet",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.5
         }
       ]
     },
     {
       "rolls": 1,
       "bonus_rolls": 0,
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.005
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -301,107 +334,81 @@
             }
           ]
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.005
+        }
       ]
     },
     {
       "rolls": 1,
       "bonus_rolls": 0,
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.001
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "cobblemon:exp_candy_m"
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.0001
-        }
       ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:exp_candy_l"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.15
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "create:andesite_alloy",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.0001
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "create:precision_mechanism"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
       "conditions": [
         {
           "condition": "minecraft:random_chance",
           "chance": 0.001
         }
-      ],
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "create:electron_tube"
+          "name": "cobblemon:exp_candy_l"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0001
         }
       ]
     },
     {
       "rolls": 1,
       "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:precision_mechanism"
+        }
+      ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.003
+          "chance": 0.0001
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:electron_tube"
         }
       ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.001
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -417,21 +424,43 @@
             }
           ]
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.003
+        }
       ]
     },
     {
       "rolls": 1,
       "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:brass_sheet"
+        }
+      ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
           "chance": 0.002
         }
-      ],
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "create:brass_sheet"
+          "name": "mythsandlegends:reins_of_unity"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1e-07
         }
       ]
     }

@@ -1593,7 +1593,7 @@ metafile = true
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/accessories/accessories/slot/charm.json"
-hash = "5876ab42f50bd11d0bf1c472fee28e4cc94c44a3e966f5d511fbcf17b3dbeb6d"
+hash = "1dee8caec69fc80c12a709ce6a17cb6c702c5f028c4a3aecff3c267ad908471d"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/accessories/tags/item/cape.json"
@@ -3421,103 +3421,103 @@ hash = "96b0e4e67c3b78a6d2e9f1e0879906648cf34a7cabb0aab7c39e51af2dafc383"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/abandoned.json"
-hash = "04d4b72d8bba93a20fb3000c7512fb4181f874a76724f7c4e2845c0a0035f8bf"
+hash = "7350c23005ef5f2ea1e909fdcc839101c86913b117e33cb8ae4ed70f20cb416e"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/cart.json"
-hash = "af5210491d9d10733d23ca66ad05f3f3a9662c4417ceefd5f120658444816d7c"
+hash = "d687c251d535e110f7d40b2ed1a3b9826c08f289884155d6c9f7c79a10f364fd"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/cartographer_tower.json"
-hash = "c6f7925e5bb8e012adaa4dea6e9c2f3d39555aa7eef2c7c290cb7068b16aced3"
+hash = "f79926159ed471df4492dbd9a084079425c413a35ce58a27d1747c2ff0a4fa01"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_base.json"
-hash = "25f13af335a48d8619be3bc83cd46ac44ef0eae0cb1a3426801721f4c653d2fd"
+hash = "3cd032d775b6785851426ae0d81d76090e2b03ed368829c728911e6a40fd45e0"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_common.json"
-hash = "fbb4c59e34f406e71d128fb1f28419db5ef64fe2d751113a82214386fcf5e7f3"
+hash = "8e45e48ace7c865819b5e3ab45b2ceb9264460b1ccf12e06afa5dd6d95c8162e"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_rare.json"
-hash = "120566f3ccac6779ddfb6bf2c0a075a49e710fc11b2eddcaa39959768e5f88c9"
+hash = "07417279b3cf2edef80efb2c3be48b26cfc6abeea9b5572551275d399cfb69dc"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/crystal.json"
-hash = "d478007ea626d4d1d392f4084db5d08db75a9ff9c372aaad1583ec7e7c0e7a86"
+hash = "d1336a9230e574e8a2370ea9d6da93e9f9e56556ba7064a48d2689f1dad3cabf"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/floating_islands.json"
-hash = "505974f25201c2bee1d5c7729d6644c02efbb0c08d837867987ddb4b720151cb"
+hash = "3e59e6f6b37591600cd23248470e846a2c4801ff725686b555921d9a2941e5f2"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/general.json"
-hash = "825f16800a50645fef8c489d7ccd306ef231e51e5b8a6ab775bb5c13a5051db5"
+hash = "b4b92e0e684a92a83bd3e02a23004fb8b53632e8df888dd0276cfa601930e3f4"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_books.json"
-hash = "a769f8c0a330f6caaa33d5f8652d13a71c8c7215100078db55c5ea8672da338b"
+hash = "5613738d890527f8e181d7d62ed70cf241c87928cdaaafee968230666b236555"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_brewing.json"
-hash = "7695dc1c828a6e5f91c10f9eba27ac85582570439f0bd0b059f3bc33035422eb"
+hash = "0d8575a53605c86417d47a9fdbe82636f44aa835de1f1fe0b52eaa10bc486cf0"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_common.json"
-hash = "020be7ae0f04b771eb3900e7fb7fcd2051d4ece33782d6b50196d6bf5cb49d83"
+hash = "ce279c33efd978297d3aebdcd5d52433b9a417bcdf342964dff75d64ce52e791"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_desert.json"
-hash = "c0395a8f48af58316a966920f75a84ecffe26eef0ad212c20d61c07bf79e2fb7"
+hash = "4edb67d1e598b370caa0aa5d8bd897ca113e69a93347fbe889d693ace5eb5ffc"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_flower.json"
-hash = "8c3cd18f52896950eb1a0a4267e14041504cfd9c69f1971b02a2357159b7c115"
+hash = "03729388f56cc3a728757d53328ccb7665f821c4d14ba1be50eea1272cc2013c"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_rare.json"
-hash = "ece1a2146b46f33062e57cfb83aaffb2a6bdd413e6d49de7fad66041717eba46"
+hash = "78e5f218c7631a36388b574dd5e69376f975d8ec15591e0e2e126c3ae64e893f"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_uncommon.json"
-hash = "316bdd2acfd1b70315cffcc298907d34af67a0a96604397a65354cbf667a4400"
+hash = "4068e387b1ec0e695b86e725498b551bc82bd078dcd5186e1fb2116901eb66df"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/jungle_tower.json"
-hash = "e1f17426025f75613d1a6300881eee8680ded21a71e75231023a55b325212b10"
+hash = "6a203ec9c790db8e5463dcf26c4f99d712fbad609ec8ce0733ec31f40c207898"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/large_carts.json"
-hash = "505e2b1d2686b9108ee60fd10e50eac90f393837b59f9de2cc29be5e95fe980b"
+hash = "754d001045b2a972956bed28e3d8c26cb0d9dd0b08dec9fd7599b2e103dcdb00"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/large_carts_2.json"
-hash = "239d30557ed4b8b63af4c7184f3b5595b7f3a44ebef7d64f013dac749fdd0402"
+hash = "0df21c1ace19afd54c0b1d95a7416c8ce8886109f8d0e412f52d7cdb640a6032"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/mushroom_pond.json"
-hash = "8844929cd87767414a55a7c9d7315b85cf3b6d71730d94a2cfcde7e243f16e06"
+hash = "7e9b3ee1d79808be72392a18d98e3742ad21e14d94f4c80f88b00e02909351f7"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/pillager.json"
-hash = "c4bd4c214bdcb1019b24e2e921a81191c4b88e2280136146b8edf59f38acf3c7"
+hash = "223602d1fadc9c04b4f45eebb9ba37050a5d5ead711ffdd3b368e74b6dd7b6db"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/pond.json"
-hash = "67121d14a757c4d1ec51e38c91ffd99240e0b11caad978c0e563958ef6204db5"
+hash = "b5a8fa1c0955afc049ffad4c1f70be6585ae30a7b61e253a11cd0fcb9fe54d70"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/rare.json"
-hash = "ae2119aaae07c0e62cc0f5689999cdb21a84e236338da8bd76faa62e9cf1f9ae"
+hash = "49d19d64d945b8a49c5c1c7d300323c25be399963e7ea6a27a8ee7c16d74035b"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/stable.json"
-hash = "60abb0b025a860cd70dbcd66e7b7368f0f30eee1f746846ac6962532a01bc886"
+hash = "afc8d62fa049e361ddd57d3d6b8faa798586dde6df3a0f4faceb843603647a8b"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/swamps.json"
-hash = "d79912fd1dbbff9ad3a7473647609347b76fd3a6533d62d0d007a739e5b2230f"
+hash = "3507a4a6b18452f0ff587e7745ddd07403b5a2112b074a91f595a7bf9be97709"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/brutebonnet.json"

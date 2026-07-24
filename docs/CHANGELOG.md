@@ -6,6 +6,29 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [2.0.0] - Unreleased (Season 2)
 
+### 2026-07-24 — Structure loot rethemed + linked legendaries, 2 charm slots
+
+**Loot — MVS structures rethemed per ambiance**
+- Rebuilt all 25 MVS structure loot tables so the loot actually matches the
+  structure. Off-theme items removed — most notably `houses_flower` (a flower
+  house) no longer drops Create cogwheels/andesite alloy; it now drops flowers,
+  seeds, berries, mints and a Leaf Stone. Create loot is kept only where it
+  makes sense (cartographer tower = tech/mapping, carts = freight).
+- Each structure now has a **linked legendary**: one thematic Myths & Legends
+  key item at **0.00001%** (`chance: 1e-07`) — Celebi's GS Ball in the flower
+  house, Kyogre's Blue Orb in ponds, Arceus' Azure Flute in the cathedral,
+  Rayquaza's Jade Orb on floating islands, Calyrex's Reins of Unity in stables,
+  Cobalion's sword in pillager loot, and so on for all 25.
+- Existing rare pools (master ball, nuclear parts, jetpack, shiny card, exp
+  candy and Create component tiers, M&L endgame pool) preserved untouched.
+- All 300 item ids validated against the live jars; client and server datapack
+  copies byte-identical.
+
+**Accessories**
+- **Charm slot count set to 2** (datapack override of
+  `accessories:accessories/slot/charm`, `amount: 2`) — the base mod defined 1
+  while the Aether defined 2; the pack now settles it at 2.
+
 ### 2026-07-24 — Worldgen: Continents, Deeper Oceans & rarer Molten Vents
 
 **Changed**
