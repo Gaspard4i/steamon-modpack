@@ -1,101 +1,52 @@
 {
-	hide_tooltip: false
-	icon: { id: "artifacts:cross_necklace" }
+	icon: {
+		components: {
+			"relics:data": {
+				abilities: {
+					abilities: {
+						protection: {
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							stats: {
+								fire_duration: {
+									initialQuality: 5
+								}
+								invulnerability: {
+									initialQuality: 8
+								}
+								survival_chance: {
+									initialQuality: 5
+								}
+								undead_damage: {
+									initialQuality: 3
+								}
+							}
+						}
+					}
+					synergies: { }
+				}
+				leveling: { }
+				statistic: { }
+			}
+		}
+		id: "artifacts:cross_necklace"
+	}
 	id: "501CB7322A4BCDEE"
 	loot_size: 1
-	order_index: 0
+	order_index: 6
 	rewards: [
-		{
-			reward: {
-				count: 1
-				id: "50F72514BB96D9E4"
-				item: { count: 1, id: "cobblemon:relic_coin_sack" }
-				type: "item"
-			}
-			weight: 40.0f
-		},
-		{
-			reward: {
-				count: 24
-				id: "502C64A2D3A60073"
-				item: { count: 1, id: "cobblemon:relic_coin" }
-				type: "item"
-			}
-			weight: 30.0f
-		},
-		{
-			reward: {
-				count: 4
-				id: "50544F89C83E1098"
-				item: { count: 1, id: "minecraft:diamond" }
-				type: "item"
-			}
-			weight: 20.0f
-		},
-		{
-			reward: {
-				count: 8
-				id: "50F5DE35E409D9B4"
-				item: { count: 1, id: "minecraft:emerald" }
-				type: "item"
-			}
-			weight: 20.0f
-		},
-		{
-			reward: {
-				count: 6
-				id: "50B238F057096613"
-				item: { count: 1, id: "cobblemon:ultra_ball" }
-				type: "item"
-			}
-			weight: 18.0f
-		},
-		{
-			reward: {
-				count: 6
-				id: "503FB896A61D97E6"
-				item: { count: 1, id: "cobblemon:dusk_ball" }
-				type: "item"
-			}
-			weight: 15.0f
-		},
-		{
-			reward: {
-				count: 6
-				id: "500E37724CA76628"
-				item: { count: 1, id: "cobblemon:exp_candy_l" }
-				type: "item"
-			}
-			weight: 15.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "5033D413E3DD5DB0"
-				item: { count: 1, id: "minecraft:enchanted_golden_apple" }
-				type: "item"
-			}
-			weight: 8.0f
-		},
-		{
-			reward: {
-				count: 3
-				id: "505F593A00D06210"
-				item: { count: 1, id: "cobblemon:rare_candy" }
-				type: "item"
-			}
-			weight: 8.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "508B2C0C400347F1"
-				item: { count: 1, id: "cobblemon:master_ball" }
-				type: "item"
-			}
-			weight: 2.0f
-		},
+		{ id: "3A61C91A2179EF45", weight: 40.0f }
+		{ id: "3840233271E659A8", weight: 30.0f }
+		{ id: "7D17C466D3827944", weight: 20.0f }
+		{ id: "29442F521FAC00A2", weight: 20.0f }
+		{ id: "15E9F06B82CAD65D", weight: 18.0f }
+		{ id: "5345C33A7071FFF6", weight: 15.0f }
+		{ id: "73380FF376272FD9", weight: 15.0f }
+		{ id: "77CFB4869361238E", weight: 8.0f }
+		{ id: "41EE6805D80E2F49", weight: 8.0f }
+		{ id: "4CD7B875F3BB0184", weight: 2.0f }
 	]
-	title: "Treasure Hunter Rewards"
 	use_title: true
 }

@@ -1,92 +1,20 @@
 {
-	hide_tooltip: false
-	icon: { id: "cobblemon:great_ball" }
+	icon: {
+		id: "cobblemon:great_ball"
+	}
 	id: "3064955842E54192"
 	loot_size: 1
-	order_index: 0
+	order_index: 2
 	rewards: [
-		{
-			reward: {
-				count: 1
-				id: "30C828F952D364EB"
-				item: { count: 1, id: "cobblemon:relic_coin_sack" }
-				type: "item"
-			}
-			weight: 40.0f
-		}
-		{
-			reward: {
-				count: 8
-				id: "309EFCBD1FA69E60"
-				item: { count: 1, id: "cobblemon:ultra_ball" }
-				type: "item"
-			}
-			weight: 30.0f
-		}
-		{
-			reward: {
-				count: 3
-				id: "3062E3B086678C02"
-				item: { count: 1, id: "cobblemon:exp_candy_xl" }
-				type: "item"
-			}
-			weight: 25.0f
-		}
-		{
-			reward: {
-				count: 1
-				id: "30F3962F159CEEBC"
-				item: { count: 1, id: "cobblemon:destiny_knot" }
-				type: "item"
-			}
-			weight: 20.0f
-		}
-		{
-			reward: {
-				count: 1
-				id: "30A32A47F2D87E8F"
-				item: { count: 1, id: "cobblemon:ability_patch" }
-				type: "item"
-			}
-			weight: 12.0f
-		}
-		{
-			reward: {
-				count: 1
-				id: "30BC6E85E739FA63"
-				item: { count: 1, id: "cobblemon_utility:goldencap" }
-				type: "item"
-			}
-			weight: 10.0f
-		}
-		{
-			reward: {
-				count: 1
-				id: "30C1E06CDA746CBF"
-				item: { count: 1, id: "cobblemon:relic_coin_pouch" }
-				type: "item"
-			}
-			weight: 8.0f
-		}
-		{
-			reward: {
-				count: 1
-				id: "304F9E495E226F46"
-				item: { count: 1, id: "mega_showdown:mega_bracelet" }
-				type: "item"
-			}
-			weight: 5.0f
-		}
-		{
-			reward: {
-				count: 1
-				id: "30325F74264C95BA"
-				item: { count: 1, id: "cobblemon:master_ball" }
-				type: "item"
-			}
-			weight: 3.0f
-		}
+		{ id: "582C900686374AF8", weight: 40.0f }
+		{ id: "5C9947B299D37B79", weight: 30.0f }
+		{ id: "44D737126B1C8F74", weight: 25.0f }
+		{ id: "03C6BF7A48FBB70C", weight: 20.0f }
+		{ id: "4068CC75AD453008", weight: 12.0f }
+		{ id: "20B535272780A8D2", weight: 10.0f }
+		{ id: "3449EAFA6D5EE3E5", weight: 8.0f }
+		{ id: "2E8E7C9BF0C8EA83", weight: 5.0f }
+		{ id: "1E8B446ED90ED560", weight: 3.0f }
 	]
-	title: "Trainer's Path Rewards"
 	use_title: true
 }

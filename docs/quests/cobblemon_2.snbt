@@ -3,33 +3,35 @@
 	default_quest_shape: ""
 	filename: "cobblemon_2"
 	group: "2A4A6BF9FB018712"
-	icon: { id: "cobblemon:great_ball" }
+	icon: {
+		id: "cobblemon:great_ball"
+	}
 	id: "680467472FCE4635"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"30AFAC41F3B73B72"
-			]
-			description: [
-				"Two compatible Pokemon left together produce an &aEgg&r. Hold a &aDestiny Knot&r to pass down more IVs, an &aEverstone&r to lock a nature."
-				""
-				"Hatch an Egg to prove you understand breeding."
-			]
-			icon: { id: "cobblemon:destiny_knot" }
+			dependencies: ["30AFAC41F3B73B72"]
+			icon: {
+				id: "cobblemon:destiny_knot"
+			}
 			id: "305663B330131573"
 			rewards: [
 				{
-					count: 1
 					id: "3007A623433E5AB0"
-					item: { count: 1, id: "cobblemon:destiny_knot" }
+					item: {
+						count: 1
+						id: "cobblemon:destiny_knot"
+					}
 					type: "item"
 				}
 				{
 					count: 4
 					id: "3025DB5C3A3B7983"
-					item: { count: 1, id: "cobblemon:exp_candy_m" }
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
 					type: "item"
 				}
 				{
@@ -40,58 +42,52 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Eggs and inheritance"
-			tasks: [
-				{
-					abilities: ""
-					action: "hatch_egg"
-					amount: 1L
-					aspects: ""
-					biome: ""
-					dex_progress: "seen"
-					dimension: ""
-					form: ""
-					gender: ""
-					held_items: ""
-					id: "305F64A2A0933510"
-					max_level: 0
-					max_turns: 0
-					min_level: 0
-					moves: ""
-					natures: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: ""
-					raid_tiers: ""
-					region: ""
-					shiny: false
-					targetPlayer: ""
-					time_max: 24000L
-					time_min: 0L
-					trainers: ""
-					type: "cobblemon_tasks:cobblemon_task"
-				}
-			]
-			title: "The Breeder"
+			tasks: [{
+				abilities: ""
+				action: "hatch_egg"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "305F64A2A0933510"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"305663B330131573"
-			]
-			description: [
-				"A parent holding a &aDestiny Knot&r passes five of its IVs to the offspring instead of the usual three, the key to breeding perfect stats."
-				""
-				"Obtain a Destiny Knot for your breeding pen."
-			]
-			icon: { id: "cobblemon:destiny_knot" }
+			dependencies: ["305663B330131573"]
+			icon: {
+				id: "cobblemon:destiny_knot"
+			}
 			id: "303908B6866F41F7"
 			rewards: [
 				{
 					count: 2
 					id: "30872C1B24152730"
-					item: { count: 1, id: "cobblemon:exp_candy_l" }
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
 					type: "item"
 				}
 				{
@@ -100,34 +96,28 @@
 					xp: 125
 				}
 			]
-			subtitle: "Pass down five IVs"
-			tasks: [
-				{
-					id: "303DD9BFB4025741"
-					item: { count: 1, id: "cobblemon:destiny_knot" }
-					type: "item"
-				}
-			]
-			title: "Destiny Knot"
+			tasks: [{
+				id: "303DD9BFB4025741"
+				item: { count: 1, id: "cobblemon:destiny_knot" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"305663B330131573"
-			]
-			description: [
-				"A parent holding an &aEverstone&r passes its exact nature to every offspring, and stops that Pokemon from evolving."
-				""
-				"Obtain an Everstone to control inherited natures."
-			]
-			icon: { id: "cobblemon:everstone" }
+			dependencies: ["305663B330131573"]
+			icon: {
+				id: "cobblemon:everstone"
+			}
 			id: "30719A910D67E638"
 			rewards: [
 				{
 					count: 6
 					id: "30BF3AFB7083A31C"
-					item: { count: 1, id: "cobblemon:heal_powder" }
+					item: {
+						count: 1
+						id: "cobblemon:heal_powder"
+					}
 					type: "item"
 				}
 				{
@@ -136,29 +126,28 @@
 					xp: 100
 				}
 			]
-			subtitle: "Lock the nature"
-			tasks: [
-				{
-					id: "30E7CC23120DD34C"
-					item: { count: 1, id: "cobblemon:everstone" }
-					type: "item"
-				}
-			]
-			title: "Everstone"
+			tasks: [{
+				id: "30E7CC23120DD34C"
+				item: { count: 1, id: "cobblemon:everstone" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"3036D09558224631"
-			]
-			icon: { id: "cobblemon:health_feather" }
+			dependencies: ["3036D09558224631"]
+			icon: {
+				id: "cobblemon:health_feather"
+			}
 			id: "30DD0695A18DB579"
 			rewards: [
 				{
 					count: 3
 					id: "305EC2CC28D36021"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -167,27 +156,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30A89A080EB3B017"
-					item: { count: 1, id: "cobblemon:health_feather" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A89A080EB3B017"
+				item: { count: 1, id: "cobblemon:health_feather" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"30DD0695A18DB579"
-			]
-			icon: { id: "cobblemon:muscle_feather" }
+			dependencies: ["30DD0695A18DB579"]
+			icon: {
+				id: "cobblemon:muscle_feather"
+			}
 			id: "307BDA51206961FA"
 			rewards: [
 				{
 					count: 3
 					id: "30F7AF97AA37B50C"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -196,27 +186,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3019A06A27175CEE"
-					item: { count: 1, id: "cobblemon:muscle_feather" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3019A06A27175CEE"
+				item: { count: 1, id: "cobblemon:muscle_feather" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"307BDA51206961FA"
-			]
-			icon: { id: "cobblemon:resist_feather" }
+			dependencies: ["307BDA51206961FA"]
+			icon: {
+				id: "cobblemon:resist_feather"
+			}
 			id: "30B2FF7FD02A503A"
 			rewards: [
 				{
 					count: 3
 					id: "3017DC2BCB6BC7D8"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -225,27 +216,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30FDB87FA75BDFB4"
-					item: { count: 1, id: "cobblemon:resist_feather" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30FDB87FA75BDFB4"
+				item: { count: 1, id: "cobblemon:resist_feather" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"30B2FF7FD02A503A"
-			]
-			icon: { id: "cobblemon:genius_feather" }
+			dependencies: ["30B2FF7FD02A503A"]
+			icon: {
+				id: "cobblemon:genius_feather"
+			}
 			id: "30A08256863E39E2"
 			rewards: [
 				{
 					count: 3
 					id: "309C23E07E760411"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -254,27 +246,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30E869473B2D3536"
-					item: { count: 1, id: "cobblemon:genius_feather" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30E869473B2D3536"
+				item: { count: 1, id: "cobblemon:genius_feather" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"30A08256863E39E2"
-			]
-			icon: { id: "cobblemon:clever_feather" }
+			dependencies: ["30A08256863E39E2"]
+			icon: {
+				id: "cobblemon:clever_feather"
+			}
 			id: "303EE58454C0E91F"
 			rewards: [
 				{
 					count: 3
 					id: "30413527976BA075"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -283,27 +276,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "307472FA29472E72"
-					item: { count: 1, id: "cobblemon:clever_feather" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "307472FA29472E72"
+				item: { count: 1, id: "cobblemon:clever_feather" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"303EE58454C0E91F"
-			]
-			icon: { id: "cobblemon:swift_feather" }
+			dependencies: ["303EE58454C0E91F"]
+			icon: {
+				id: "cobblemon:swift_feather"
+			}
 			id: "30EF412CAA11F710"
 			rewards: [
 				{
 					count: 3
 					id: "30EC40120FB207C5"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -312,27 +306,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3095CCEF2F5AF9F5"
-					item: { count: 1, id: "cobblemon:swift_feather" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3095CCEF2F5AF9F5"
+				item: { count: 1, id: "cobblemon:swift_feather" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"30EF412CAA11F710"
-			]
-			icon: { id: "cobblemon:fairy_feather" }
+			dependencies: ["30EF412CAA11F710"]
+			icon: {
+				id: "cobblemon:fairy_feather"
+			}
 			id: "308F400A7603278D"
 			rewards: [
 				{
 					count: 3
 					id: "30654ECF5D383981"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -341,27 +336,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30291E95C9710C7D"
-					item: { count: 1, id: "cobblemon:fairy_feather" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30291E95C9710C7D"
+				item: { count: 1, id: "cobblemon:fairy_feather" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"3036D09558224631"
-			]
-			icon: { id: "cobblemon:power_weight" }
+			dependencies: ["3036D09558224631"]
+			icon: {
+				id: "cobblemon:power_weight"
+			}
 			id: "30DCCA286C7F2334"
 			rewards: [
 				{
 					count: 2
 					id: "30B2C51AFA09C59D"
-					item: { count: 1, id: "cobblemon:exp_candy_m" }
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
 					type: "item"
 				}
 				{
@@ -370,27 +366,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3066DF553FB0C059"
-					item: { count: 1, id: "cobblemon:power_weight" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3066DF553FB0C059"
+				item: { count: 1, id: "cobblemon:power_weight" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"30DCCA286C7F2334"
-			]
-			icon: { id: "cobblemon:power_bracer" }
+			dependencies: ["30DCCA286C7F2334"]
+			icon: {
+				id: "cobblemon:power_bracer"
+			}
 			id: "3007BEC8B19AF460"
 			rewards: [
 				{
 					count: 2
 					id: "305AE254B3D053F9"
-					item: { count: 1, id: "cobblemon:exp_candy_m" }
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
 					type: "item"
 				}
 				{
@@ -399,27 +396,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30A2FE99679A743B"
-					item: { count: 1, id: "cobblemon:power_bracer" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A2FE99679A743B"
+				item: { count: 1, id: "cobblemon:power_bracer" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"3007BEC8B19AF460"
-			]
-			icon: { id: "cobblemon:power_belt" }
+			dependencies: ["3007BEC8B19AF460"]
+			icon: {
+				id: "cobblemon:power_belt"
+			}
 			id: "309849011DF1EFAB"
 			rewards: [
 				{
 					count: 2
 					id: "304AB84A2724203F"
-					item: { count: 1, id: "cobblemon:exp_candy_m" }
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
 					type: "item"
 				}
 				{
@@ -428,27 +426,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30EF3277E98D6AC7"
-					item: { count: 1, id: "cobblemon:power_belt" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30EF3277E98D6AC7"
+				item: { count: 1, id: "cobblemon:power_belt" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"309849011DF1EFAB"
-			]
-			icon: { id: "cobblemon:power_lens" }
+			dependencies: ["309849011DF1EFAB"]
+			icon: {
+				id: "cobblemon:power_lens"
+			}
 			id: "303B3D91EB54B5DC"
 			rewards: [
 				{
 					count: 2
 					id: "3067574423BE4182"
-					item: { count: 1, id: "cobblemon:exp_candy_m" }
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
 					type: "item"
 				}
 				{
@@ -457,27 +456,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "300C4F5D5A40B18B"
-					item: { count: 1, id: "cobblemon:power_lens" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "300C4F5D5A40B18B"
+				item: { count: 1, id: "cobblemon:power_lens" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"303B3D91EB54B5DC"
-			]
-			icon: { id: "cobblemon:power_band" }
+			dependencies: ["303B3D91EB54B5DC"]
+			icon: {
+				id: "cobblemon:power_band"
+			}
 			id: "3062DE24E8F0E93E"
 			rewards: [
 				{
 					count: 2
 					id: "30EFD80F8C48EEC6"
-					item: { count: 1, id: "cobblemon:exp_candy_m" }
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
 					type: "item"
 				}
 				{
@@ -486,27 +486,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30CCF9B83F4FD94C"
-					item: { count: 1, id: "cobblemon:power_band" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30CCF9B83F4FD94C"
+				item: { count: 1, id: "cobblemon:power_band" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"3062DE24E8F0E93E"
-			]
-			icon: { id: "cobblemon:power_anklet" }
+			dependencies: ["3062DE24E8F0E93E"]
+			icon: {
+				id: "cobblemon:power_anklet"
+			}
 			id: "308E93AEC837F9F7"
 			rewards: [
 				{
 					count: 2
 					id: "30EA45EB6533612C"
-					item: { count: 1, id: "cobblemon:exp_candy_m" }
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
 					type: "item"
 				}
 				{
@@ -515,32 +516,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30B40D71D533A4E2"
-					item: { count: 1, id: "cobblemon:power_anklet" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B40D71D533A4E2"
+				item: { count: 1, id: "cobblemon:power_anklet" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"305663B330131573"
-			]
-			description: [
-				"&aVitamins&r each add effort values to one stat, up to the cap. Combined with battling the right Pokemon, they shape a competitive spread."
-				""
-				"Gather one of each core vitamin to master EV training."
-			]
-			icon: { id: "cobblemon:protein" }
+			dependencies: ["305663B330131573"]
+			icon: {
+				id: "cobblemon:protein"
+			}
 			id: "3036D09558224631"
 			rewards: [
 				{
 					count: 2
 					id: "301AF9B1B15C86F7"
-					item: { count: 1, id: "cobblemon:hp_up" }
+					item: {
+						count: 1
+						id: "cobblemon:hp_up"
+					}
 					type: "item"
 				}
 				{
@@ -549,7 +546,6 @@
 					xp: 175
 				}
 			]
-			subtitle: "Vitamins raise effort values"
 			tasks: [
 				{
 					id: "30A90B2E69535A76"
@@ -572,21 +568,23 @@
 					type: "item"
 				}
 			]
-			title: "EV Training"
 			x: 6.0d
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"303E068A7A7CAFDB"
-			]
-			icon: { id: "mega_showdown:charizardite_x" }
+			dependencies: ["303E068A7A7CAFDB"]
+			icon: {
+				id: "mega_showdown:charizardite_x"
+			}
 			id: "30A7F926885FFE58"
 			rewards: [
 				{
 					count: 4
 					id: "3094A4B478BA296E"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -595,27 +593,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30157EB9F462ABB1"
-					item: { count: 1, id: "mega_showdown:charizardite_x" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30157EB9F462ABB1"
+				item: { count: 1, id: "mega_showdown:charizardite_x" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"30A7F926885FFE58"
-			]
-			icon: { id: "mega_showdown:charizardite_y" }
+			dependencies: ["30A7F926885FFE58"]
+			icon: {
+				id: "mega_showdown:charizardite_y"
+			}
 			id: "30B2831F3F3E1691"
 			rewards: [
 				{
 					count: 4
 					id: "30AA23F32F4210D9"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -624,27 +623,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "308D11000C71E00C"
-					item: { count: 1, id: "mega_showdown:charizardite_y" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "308D11000C71E00C"
+				item: { count: 1, id: "mega_showdown:charizardite_y" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"30B2831F3F3E1691"
-			]
-			icon: { id: "mega_showdown:blastoisinite" }
+			dependencies: ["30B2831F3F3E1691"]
+			icon: {
+				id: "mega_showdown:blastoisinite"
+			}
 			id: "30F9A056985029E5"
 			rewards: [
 				{
 					count: 4
 					id: "30BECCAE95D0A371"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -653,27 +653,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30D1CC710646982A"
-					item: { count: 1, id: "mega_showdown:blastoisinite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30D1CC710646982A"
+				item: { count: 1, id: "mega_showdown:blastoisinite" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"30F9A056985029E5"
-			]
-			icon: { id: "mega_showdown:venusaurite" }
+			dependencies: ["30F9A056985029E5"]
+			icon: {
+				id: "mega_showdown:venusaurite"
+			}
 			id: "303903377B039520"
 			rewards: [
 				{
 					count: 4
 					id: "30F4B57CAFB92477"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -682,27 +683,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "308B296C56309282"
-					item: { count: 1, id: "mega_showdown:venusaurite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "308B296C56309282"
+				item: { count: 1, id: "mega_showdown:venusaurite" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"303903377B039520"
-			]
-			icon: { id: "mega_showdown:blazikenite" }
+			dependencies: ["303903377B039520"]
+			icon: {
+				id: "mega_showdown:blazikenite"
+			}
 			id: "30920B1130A55F98"
 			rewards: [
 				{
 					count: 4
 					id: "3087967B8925CC0A"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -711,27 +713,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30A4C620372EA4E4"
-					item: { count: 1, id: "mega_showdown:blazikenite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A4C620372EA4E4"
+				item: { count: 1, id: "mega_showdown:blazikenite" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"30920B1130A55F98"
-			]
-			icon: { id: "mega_showdown:gardevoirite" }
+			dependencies: ["30920B1130A55F98"]
+			icon: {
+				id: "mega_showdown:gardevoirite"
+			}
 			id: "30975098DFDB64CE"
 			rewards: [
 				{
 					count: 4
 					id: "30B91BFC6F501BEB"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -740,27 +743,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3037151287BA5162"
-					item: { count: 1, id: "mega_showdown:gardevoirite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3037151287BA5162"
+				item: { count: 1, id: "mega_showdown:gardevoirite" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"30975098DFDB64CE"
-			]
-			icon: { id: "mega_showdown:garchompite" }
+			dependencies: ["30975098DFDB64CE"]
+			icon: {
+				id: "mega_showdown:garchompite"
+			}
 			id: "30EA13770C164BF9"
 			rewards: [
 				{
 					count: 4
 					id: "3020F004D6839CA2"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -769,27 +773,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3072F37F615C4B2D"
-					item: { count: 1, id: "mega_showdown:garchompite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3072F37F615C4B2D"
+				item: { count: 1, id: "mega_showdown:garchompite" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"30EA13770C164BF9"
-			]
-			icon: { id: "mega_showdown:lucarionite" }
+			dependencies: ["30EA13770C164BF9"]
+			icon: {
+				id: "mega_showdown:lucarionite"
+			}
 			id: "30507FAF62CFCA7D"
 			rewards: [
 				{
 					count: 4
 					id: "30E9BA210BFB49CC"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -798,27 +803,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3027293AE69161B3"
-					item: { count: 1, id: "mega_showdown:lucarionite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3027293AE69161B3"
+				item: { count: 1, id: "mega_showdown:lucarionite" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"30507FAF62CFCA7D"
-			]
-			icon: { id: "mega_showdown:gengarite" }
+			dependencies: ["30507FAF62CFCA7D"]
+			icon: {
+				id: "mega_showdown:gengarite"
+			}
 			id: "30E1E6C45359037E"
 			rewards: [
 				{
 					count: 4
 					id: "3082835DDBFC7BA3"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -827,27 +833,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30E558BA2A1B8857"
-					item: { count: 1, id: "mega_showdown:gengarite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30E558BA2A1B8857"
+				item: { count: 1, id: "mega_showdown:gengarite" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"30E1E6C45359037E"
-			]
-			icon: { id: "mega_showdown:alakazite" }
+			dependencies: ["30E1E6C45359037E"]
+			icon: {
+				id: "mega_showdown:alakazite"
+			}
 			id: "301E8D2EF724A0D7"
 			rewards: [
 				{
 					count: 4
 					id: "30936106C8CA031F"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -856,27 +863,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30BA8B966436DDDF"
-					item: { count: 1, id: "mega_showdown:alakazite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30BA8B966436DDDF"
+				item: { count: 1, id: "mega_showdown:alakazite" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"303E068A7A7CAFDB"
-			]
-			icon: { id: "mega_showdown:aggronite" }
+			dependencies: ["303E068A7A7CAFDB"]
+			icon: {
+				id: "mega_showdown:aggronite"
+			}
 			id: "301F28A6B93CAEC4"
 			rewards: [
 				{
 					count: 4
 					id: "301DE4F2E1B8AB8C"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -885,27 +893,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3021B9FE5D1EA26B"
-					item: { count: 1, id: "mega_showdown:aggronite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3021B9FE5D1EA26B"
+				item: { count: 1, id: "mega_showdown:aggronite" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"301F28A6B93CAEC4"
-			]
-			icon: { id: "mega_showdown:tyranitarite" }
+			dependencies: ["301F28A6B93CAEC4"]
+			icon: {
+				id: "mega_showdown:tyranitarite"
+			}
 			id: "30387EA9F30A81A7"
 			rewards: [
 				{
 					count: 4
 					id: "30D1F3C41E1DB2A6"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -914,27 +923,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30B963DB729D327E"
-					item: { count: 1, id: "mega_showdown:tyranitarite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B963DB729D327E"
+				item: { count: 1, id: "mega_showdown:tyranitarite" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"30387EA9F30A81A7"
-			]
-			icon: { id: "mega_showdown:salamencite" }
+			dependencies: ["30387EA9F30A81A7"]
+			icon: {
+				id: "mega_showdown:salamencite"
+			}
 			id: "30AD7A9AF915B823"
 			rewards: [
 				{
 					count: 4
 					id: "30C59F3EB12105AB"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -943,27 +953,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30F388F856406F96"
-					item: { count: 1, id: "mega_showdown:salamencite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30F388F856406F96"
+				item: { count: 1, id: "mega_showdown:salamencite" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"30AD7A9AF915B823"
-			]
-			icon: { id: "mega_showdown:metagrossite" }
+			dependencies: ["30AD7A9AF915B823"]
+			icon: {
+				id: "mega_showdown:metagrossite"
+			}
 			id: "30B724BFF3E183A5"
 			rewards: [
 				{
 					count: 4
 					id: "30AAF303155644A2"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -972,27 +983,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "305E2C107BB15436"
-					item: { count: 1, id: "mega_showdown:metagrossite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "305E2C107BB15436"
+				item: { count: 1, id: "mega_showdown:metagrossite" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"30B724BFF3E183A5"
-			]
-			icon: { id: "mega_showdown:kangaskhanite" }
+			dependencies: ["30B724BFF3E183A5"]
+			icon: {
+				id: "mega_showdown:kangaskhanite"
+			}
 			id: "30D207ACB8A419AD"
 			rewards: [
 				{
 					count: 4
 					id: "30DEC75697EC281B"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1001,27 +1013,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "306FD7445443E2D0"
-					item: { count: 1, id: "mega_showdown:kangaskhanite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "306FD7445443E2D0"
+				item: { count: 1, id: "mega_showdown:kangaskhanite" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"30D207ACB8A419AD"
-			]
-			icon: { id: "mega_showdown:mawilite" }
+			dependencies: ["30D207ACB8A419AD"]
+			icon: {
+				id: "mega_showdown:mawilite"
+			}
 			id: "300C908D6391CEBC"
 			rewards: [
 				{
 					count: 4
 					id: "30DFA669C0FBB4CB"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1030,27 +1043,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30B549B325865395"
-					item: { count: 1, id: "mega_showdown:mawilite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B549B325865395"
+				item: { count: 1, id: "mega_showdown:mawilite" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"300C908D6391CEBC"
-			]
-			icon: { id: "mega_showdown:absolite" }
+			dependencies: ["300C908D6391CEBC"]
+			icon: {
+				id: "mega_showdown:absolite"
+			}
 			id: "302E91CD200B28A7"
 			rewards: [
 				{
 					count: 4
 					id: "305DC4C46786846E"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1059,27 +1073,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30CB41BF56B91BE8"
-					item: { count: 1, id: "mega_showdown:absolite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30CB41BF56B91BE8"
+				item: { count: 1, id: "mega_showdown:absolite" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"302E91CD200B28A7"
-			]
-			icon: { id: "mega_showdown:aerodactylite" }
+			dependencies: ["302E91CD200B28A7"]
+			icon: {
+				id: "mega_showdown:aerodactylite"
+			}
 			id: "305933A5EC389AE1"
 			rewards: [
 				{
 					count: 4
 					id: "30330C170198F459"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1088,27 +1103,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30E65F2BE1605F1F"
-					item: { count: 1, id: "mega_showdown:aerodactylite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30E65F2BE1605F1F"
+				item: { count: 1, id: "mega_showdown:aerodactylite" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"305933A5EC389AE1"
-			]
-			icon: { id: "mega_showdown:banettite" }
+			dependencies: ["305933A5EC389AE1"]
+			icon: {
+				id: "mega_showdown:banettite"
+			}
 			id: "3029C7A980324F3B"
 			rewards: [
 				{
 					count: 4
 					id: "30E58D4512E1EBA6"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1117,27 +1133,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30069A00E9B5D7B7"
-					item: { count: 1, id: "mega_showdown:banettite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30069A00E9B5D7B7"
+				item: { count: 1, id: "mega_showdown:banettite" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"3029C7A980324F3B"
-			]
-			icon: { id: "mega_showdown:houndoominite" }
+			dependencies: ["3029C7A980324F3B"]
+			icon: {
+				id: "mega_showdown:houndoominite"
+			}
 			id: "30105E3063C51445"
 			rewards: [
 				{
 					count: 4
 					id: "300E6705805EF794"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1146,27 +1163,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "307CD1616DD0D9F9"
-					item: { count: 1, id: "mega_showdown:houndoominite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "307CD1616DD0D9F9"
+				item: { count: 1, id: "mega_showdown:houndoominite" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"303E068A7A7CAFDB"
-			]
-			icon: { id: "mega_showdown:manectite" }
+			dependencies: ["303E068A7A7CAFDB"]
+			icon: {
+				id: "mega_showdown:manectite"
+			}
 			id: "30035C7522983D36"
 			rewards: [
 				{
 					count: 4
 					id: "300898FD90F411F6"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1175,27 +1193,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30B94B799ACE39C3"
-					item: { count: 1, id: "mega_showdown:manectite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B94B799ACE39C3"
+				item: { count: 1, id: "mega_showdown:manectite" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"30035C7522983D36"
-			]
-			icon: { id: "mega_showdown:scizorite" }
+			dependencies: ["30035C7522983D36"]
+			icon: {
+				id: "mega_showdown:scizorite"
+			}
 			id: "30A253ECDAE7DBA3"
 			rewards: [
 				{
 					count: 4
 					id: "30E477E42BC19F8B"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1204,27 +1223,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "308C796F77334ABD"
-					item: { count: 1, id: "mega_showdown:scizorite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "308C796F77334ABD"
+				item: { count: 1, id: "mega_showdown:scizorite" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"30A253ECDAE7DBA3"
-			]
-			icon: { id: "mega_showdown:pinsirite" }
+			dependencies: ["30A253ECDAE7DBA3"]
+			icon: {
+				id: "mega_showdown:pinsirite"
+			}
 			id: "30809A1DE172436D"
 			rewards: [
 				{
 					count: 4
 					id: "30C1DBC1688D61AA"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1233,27 +1253,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30EC4B3E18A42965"
-					item: { count: 1, id: "mega_showdown:pinsirite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30EC4B3E18A42965"
+				item: { count: 1, id: "mega_showdown:pinsirite" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"30809A1DE172436D"
-			]
-			icon: { id: "mega_showdown:heracronite" }
+			dependencies: ["30809A1DE172436D"]
+			icon: {
+				id: "mega_showdown:heracronite"
+			}
 			id: "309BAA75D59D9EB9"
 			rewards: [
 				{
 					count: 4
 					id: "300CBC3DC04D8E59"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1262,27 +1283,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30FA3A2E47B15E25"
-					item: { count: 1, id: "mega_showdown:heracronite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30FA3A2E47B15E25"
+				item: { count: 1, id: "mega_showdown:heracronite" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"309BAA75D59D9EB9"
-			]
-			icon: { id: "mega_showdown:gyaradosite" }
+			dependencies: ["309BAA75D59D9EB9"]
+			icon: {
+				id: "mega_showdown:gyaradosite"
+			}
 			id: "30D32E1A322ED982"
 			rewards: [
 				{
 					count: 4
 					id: "30C66A15109DDF53"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1291,27 +1313,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30272A512E368294"
-					item: { count: 1, id: "mega_showdown:gyaradosite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30272A512E368294"
+				item: { count: 1, id: "mega_showdown:gyaradosite" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"30D32E1A322ED982"
-			]
-			icon: { id: "mega_showdown:ampharosite" }
+			dependencies: ["30D32E1A322ED982"]
+			icon: {
+				id: "mega_showdown:ampharosite"
+			}
 			id: "30AE7647160187A5"
 			rewards: [
 				{
 					count: 4
 					id: "3010D2414694BDB4"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1320,27 +1343,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30D1FB62C36A11C0"
-					item: { count: 1, id: "mega_showdown:ampharosite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30D1FB62C36A11C0"
+				item: { count: 1, id: "mega_showdown:ampharosite" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"30AE7647160187A5"
-			]
-			icon: { id: "mega_showdown:abomasite" }
+			dependencies: ["30AE7647160187A5"]
+			icon: {
+				id: "mega_showdown:abomasite"
+			}
 			id: "303F4261BA807B02"
 			rewards: [
 				{
 					count: 4
 					id: "30493DCCB294ADA3"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1349,27 +1373,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "306716789EE216E0"
-					item: { count: 1, id: "mega_showdown:abomasite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "306716789EE216E0"
+				item: { count: 1, id: "mega_showdown:abomasite" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"303F4261BA807B02"
-			]
-			icon: { id: "mega_showdown:cameruptite" }
+			dependencies: ["303F4261BA807B02"]
+			icon: {
+				id: "mega_showdown:cameruptite"
+			}
 			id: "30ED72C36D4AE8F8"
 			rewards: [
 				{
 					count: 4
 					id: "30BE7788985C8B85"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1378,27 +1403,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30A1AFFAED1A9D0C"
-					item: { count: 1, id: "mega_showdown:cameruptite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A1AFFAED1A9D0C"
+				item: { count: 1, id: "mega_showdown:cameruptite" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"30ED72C36D4AE8F8"
-			]
-			icon: { id: "mega_showdown:sharpedonite" }
+			dependencies: ["30ED72C36D4AE8F8"]
+			icon: {
+				id: "mega_showdown:sharpedonite"
+			}
 			id: "30C9AE66C16352F4"
 			rewards: [
 				{
 					count: 4
 					id: "300B04724563CC6B"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1407,27 +1433,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30B90DFD85A3A7E2"
-					item: { count: 1, id: "mega_showdown:sharpedonite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B90DFD85A3A7E2"
+				item: { count: 1, id: "mega_showdown:sharpedonite" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"30C9AE66C16352F4"
-			]
-			icon: { id: "mega_showdown:slowbronite" }
+			dependencies: ["30C9AE66C16352F4"]
+			icon: {
+				id: "mega_showdown:slowbronite"
+			}
 			id: "3058929A137131D3"
 			rewards: [
 				{
 					count: 4
 					id: "305226D991F72D38"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1436,27 +1463,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "307F0B83D31897B9"
-					item: { count: 1, id: "mega_showdown:slowbronite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "307F0B83D31897B9"
+				item: { count: 1, id: "mega_showdown:slowbronite" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"303E068A7A7CAFDB"
-			]
-			icon: { id: "mega_showdown:steelixite" }
+			dependencies: ["303E068A7A7CAFDB"]
+			icon: {
+				id: "mega_showdown:steelixite"
+			}
 			id: "30C1AE118F1266C1"
 			rewards: [
 				{
 					count: 4
 					id: "30E649BF96DCA0DE"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1465,27 +1493,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30750285D17A2A67"
-					item: { count: 1, id: "mega_showdown:steelixite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30750285D17A2A67"
+				item: { count: 1, id: "mega_showdown:steelixite" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"30C1AE118F1266C1"
-			]
-			icon: { id: "mega_showdown:sceptilite" }
+			dependencies: ["30C1AE118F1266C1"]
+			icon: {
+				id: "mega_showdown:sceptilite"
+			}
 			id: "30AE7467AD8E4319"
 			rewards: [
 				{
 					count: 4
 					id: "307E4B82E0F62F1B"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1494,27 +1523,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30A042824549BE6B"
-					item: { count: 1, id: "mega_showdown:sceptilite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A042824549BE6B"
+				item: { count: 1, id: "mega_showdown:sceptilite" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"30AE7467AD8E4319"
-			]
-			icon: { id: "mega_showdown:swampertite" }
+			dependencies: ["30AE7467AD8E4319"]
+			icon: {
+				id: "mega_showdown:swampertite"
+			}
 			id: "30CFE8E679E3CD04"
 			rewards: [
 				{
 					count: 4
 					id: "30CAA9CCF1B61197"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1523,27 +1553,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30F78D1731E4289D"
-					item: { count: 1, id: "mega_showdown:swampertite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30F78D1731E4289D"
+				item: { count: 1, id: "mega_showdown:swampertite" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"30CFE8E679E3CD04"
-			]
-			icon: { id: "mega_showdown:altarianite" }
+			dependencies: ["30CFE8E679E3CD04"]
+			icon: {
+				id: "mega_showdown:altarianite"
+			}
 			id: "309495501E070FBA"
 			rewards: [
 				{
 					count: 4
 					id: "30CF240040F5F6E4"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1552,27 +1583,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30CC306C8D21171D"
-					item: { count: 1, id: "mega_showdown:altarianite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30CC306C8D21171D"
+				item: { count: 1, id: "mega_showdown:altarianite" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"309495501E070FBA"
-			]
-			icon: { id: "mega_showdown:audinite" }
+			dependencies: ["309495501E070FBA"]
+			icon: {
+				id: "mega_showdown:audinite"
+			}
 			id: "303CC900F56FC852"
 			rewards: [
 				{
 					count: 4
 					id: "308B4A9B0B420FF4"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1581,27 +1613,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "301C19323CB6349C"
-					item: { count: 1, id: "mega_showdown:audinite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "301C19323CB6349C"
+				item: { count: 1, id: "mega_showdown:audinite" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"303CC900F56FC852"
-			]
-			icon: { id: "mega_showdown:beedrillite" }
+			dependencies: ["303CC900F56FC852"]
+			icon: {
+				id: "mega_showdown:beedrillite"
+			}
 			id: "30E669C5056C22E4"
 			rewards: [
 				{
 					count: 4
 					id: "30E1B5E5DB8AB44F"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1610,27 +1643,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30A36B5CE6446C9F"
-					item: { count: 1, id: "mega_showdown:beedrillite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A36B5CE6446C9F"
+				item: { count: 1, id: "mega_showdown:beedrillite" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"30E669C5056C22E4"
-			]
-			icon: { id: "mega_showdown:diancite" }
+			dependencies: ["30E669C5056C22E4"]
+			icon: {
+				id: "mega_showdown:diancite"
+			}
 			id: "30F96BF47C50F57D"
 			rewards: [
 				{
 					count: 4
 					id: "308F339C8933A012"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1639,27 +1673,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30337FFBB383FCA7"
-					item: { count: 1, id: "mega_showdown:diancite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30337FFBB383FCA7"
+				item: { count: 1, id: "mega_showdown:diancite" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"30F96BF47C50F57D"
-			]
-			icon: { id: "mega_showdown:galladite" }
+			dependencies: ["30F96BF47C50F57D"]
+			icon: {
+				id: "mega_showdown:galladite"
+			}
 			id: "305A061A774F6C7D"
 			rewards: [
 				{
 					count: 4
 					id: "302A0C05DDE2F0D5"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1668,27 +1703,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "305A13B49001A5BA"
-					item: { count: 1, id: "mega_showdown:galladite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "305A13B49001A5BA"
+				item: { count: 1, id: "mega_showdown:galladite" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"305A061A774F6C7D"
-			]
-			icon: { id: "mega_showdown:glalitite" }
+			dependencies: ["305A061A774F6C7D"]
+			icon: {
+				id: "mega_showdown:glalitite"
+			}
 			id: "301304EB4448394D"
 			rewards: [
 				{
 					count: 4
 					id: "30A6DFA7CF58E002"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1697,27 +1733,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3001F9EE28318E39"
-					item: { count: 1, id: "mega_showdown:glalitite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3001F9EE28318E39"
+				item: { count: 1, id: "mega_showdown:glalitite" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"301304EB4448394D"
-			]
-			icon: { id: "mega_showdown:lopunnite" }
+			dependencies: ["301304EB4448394D"]
+			icon: {
+				id: "mega_showdown:lopunnite"
+			}
 			id: "303C740B42DE9D00"
 			rewards: [
 				{
 					count: 4
 					id: "30AC27FB4B9269D2"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1726,27 +1763,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30DDCD30C006B5C7"
-					item: { count: 1, id: "mega_showdown:lopunnite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30DDCD30C006B5C7"
+				item: { count: 1, id: "mega_showdown:lopunnite" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 16.0d
 		}
 		{
-			dependencies: [
-				"303E068A7A7CAFDB"
-			]
-			icon: { id: "mega_showdown:medichamite" }
+			dependencies: ["303E068A7A7CAFDB"]
+			icon: {
+				id: "mega_showdown:medichamite"
+			}
 			id: "30964C02E3D83290"
 			rewards: [
 				{
 					count: 4
 					id: "30D50BCB17176A40"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1755,27 +1793,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3019FDAC79766417"
-					item: { count: 1, id: "mega_showdown:medichamite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3019FDAC79766417"
+				item: { count: 1, id: "mega_showdown:medichamite" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"30964C02E3D83290"
-			]
-			icon: { id: "mega_showdown:pidgeotite" }
+			dependencies: ["30964C02E3D83290"]
+			icon: {
+				id: "mega_showdown:pidgeotite"
+			}
 			id: "30D95857748D55CF"
 			rewards: [
 				{
 					count: 4
 					id: "30D8772A20C4C104"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1784,27 +1823,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30B22FC6D2920D54"
-					item: { count: 1, id: "mega_showdown:pidgeotite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B22FC6D2920D54"
+				item: { count: 1, id: "mega_showdown:pidgeotite" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"30D95857748D55CF"
-			]
-			icon: { id: "mega_showdown:sablenite" }
+			dependencies: ["30D95857748D55CF"]
+			icon: {
+				id: "mega_showdown:sablenite"
+			}
 			id: "30330A165CEECCFC"
 			rewards: [
 				{
 					count: 4
 					id: "306BE7A41347006D"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1813,27 +1853,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "302ACFD7B4BEEB0A"
-					item: { count: 1, id: "mega_showdown:sablenite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "302ACFD7B4BEEB0A"
+				item: { count: 1, id: "mega_showdown:sablenite" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"30330A165CEECCFC"
-			]
-			icon: { id: "mega_showdown:mewtwonite_x" }
+			dependencies: ["30330A165CEECCFC"]
+			icon: {
+				id: "mega_showdown:mewtwonite_x"
+			}
 			id: "30569E6D9D802D53"
 			rewards: [
 				{
 					count: 4
 					id: "3099C3A318560BB1"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1842,27 +1883,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "302A4EA807D04BF8"
-					item: { count: 1, id: "mega_showdown:mewtwonite_x" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "302A4EA807D04BF8"
+				item: { count: 1, id: "mega_showdown:mewtwonite_x" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"30569E6D9D802D53"
-			]
-			icon: { id: "mega_showdown:mewtwonite_y" }
+			dependencies: ["30569E6D9D802D53"]
+			icon: {
+				id: "mega_showdown:mewtwonite_y"
+			}
 			id: "30AC9ACF335F8208"
 			rewards: [
 				{
 					count: 4
 					id: "30ACC010B9369A6C"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1871,27 +1913,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "3068E6A67266F61C"
-					item: { count: 1, id: "mega_showdown:mewtwonite_y" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3068E6A67266F61C"
+				item: { count: 1, id: "mega_showdown:mewtwonite_y" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"30AC9ACF335F8208"
-			]
-			icon: { id: "mega_showdown:latiasite" }
+			dependencies: ["30AC9ACF335F8208"]
+			icon: {
+				id: "mega_showdown:latiasite"
+			}
 			id: "30458B00BE0EC80D"
 			rewards: [
 				{
 					count: 4
 					id: "307A16C60AAC9CA6"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1900,27 +1943,28 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "304EA6372F7BBE17"
-					item: { count: 1, id: "mega_showdown:latiasite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "304EA6372F7BBE17"
+				item: { count: 1, id: "mega_showdown:latiasite" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"30458B00BE0EC80D"
-			]
-			icon: { id: "mega_showdown:latiosite" }
+			dependencies: ["30458B00BE0EC80D"]
+			icon: {
+				id: "mega_showdown:latiosite"
+			}
 			id: "304998CEF69F2B45"
 			rewards: [
 				{
 					count: 4
 					id: "306DA2B5E5F190F3"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1929,32 +1973,27 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "30EBBE7D66D30D9F"
-					item: { count: 1, id: "mega_showdown:latiosite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30EBBE7D66D30D9F"
+				item: { count: 1, id: "mega_showdown:latiosite" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"305663B330131573"
-			]
-			description: [
-				"A &aMega Bracelet&r (or Key Stone gear) lets a Pokemon holding its Mega Stone temporarily &aMega Evolve&r in battle for a huge power spike."
-				""
-				"Obtain the wearable trigger and a first Mega Stone to begin Mega Evolving."
-			]
-			icon: { id: "mega_showdown:mega_bracelet" }
+			dependencies: ["305663B330131573"]
+			icon: {
+				id: "mega_showdown:mega_bracelet"
+			}
 			id: "303E068A7A7CAFDB"
 			rewards: [
 				{
-					count: 1
 					id: "308789715E51F1C0"
-					item: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1963,7 +2002,6 @@
 					xp: 250
 				}
 			]
-			subtitle: "Unlock the surge"
 			tasks: [
 				{
 					id: "30F8272858C43667"
@@ -1976,21 +2014,23 @@
 					type: "item"
 				}
 			]
-			title: "Mega Evolution"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"303E068A7A7CAFDB"
-			]
-			icon: { id: "cobblemonarmory:charizard_armor_helmet" }
+			dependencies: ["303E068A7A7CAFDB"]
+			icon: {
+				id: "cobblemonarmory:charizard_armor_helmet"
+			}
 			id: "30EC4CC72C582BA0"
 			rewards: [
 				{
 					count: 2
 					id: "3040C7D587814B4C"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -1999,27 +2039,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30314619E4BF9563"
-					item: { count: 1, id: "cobblemonarmory:charizard_armor_helmet" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30314619E4BF9563"
+				item: { count: 1, id: "cobblemonarmory:charizard_armor_helmet" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"30EC4CC72C582BA0"
-			]
-			icon: { id: "cobblemonarmory:charizard_armor_chestplate" }
+			dependencies: ["30EC4CC72C582BA0"]
+			icon: {
+				id: "cobblemonarmory:charizard_armor_chestplate"
+			}
 			id: "30A79CE5FD06BE9C"
 			rewards: [
 				{
 					count: 2
 					id: "30F7D8DCB6343533"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2028,27 +2069,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30C35EF2B0C56BF6"
-					item: { count: 1, id: "cobblemonarmory:charizard_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30C35EF2B0C56BF6"
+				item: { count: 1, id: "cobblemonarmory:charizard_armor_chestplate" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"30A79CE5FD06BE9C"
-			]
-			icon: { id: "cobblemonarmory:charizard_armor_leggings" }
+			dependencies: ["30A79CE5FD06BE9C"]
+			icon: {
+				id: "cobblemonarmory:charizard_armor_leggings"
+			}
 			id: "30ECC1AD0AFEA1F4"
 			rewards: [
 				{
 					count: 2
 					id: "30BD75110EC8D7DE"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2057,27 +2099,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3083706B0D2C47E0"
-					item: { count: 1, id: "cobblemonarmory:charizard_armor_leggings" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3083706B0D2C47E0"
+				item: { count: 1, id: "cobblemonarmory:charizard_armor_leggings" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"30ECC1AD0AFEA1F4"
-			]
-			icon: { id: "cobblemonarmory:charizard_armor_boots" }
+			dependencies: ["30ECC1AD0AFEA1F4"]
+			icon: {
+				id: "cobblemonarmory:charizard_armor_boots"
+			}
 			id: "3067D92512BB21C6"
 			rewards: [
 				{
 					count: 2
 					id: "30CB299A7F7C08E8"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2086,27 +2129,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "309CE80DC8B707B9"
-					item: { count: 1, id: "cobblemonarmory:charizard_armor_boots" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "309CE80DC8B707B9"
+				item: { count: 1, id: "cobblemonarmory:charizard_armor_boots" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"3067D92512BB21C6"
-			]
-			icon: { id: "cobblemonarmory:blaziken_armor_chestplate" }
+			dependencies: ["3067D92512BB21C6"]
+			icon: {
+				id: "cobblemonarmory:blaziken_armor_chestplate"
+			}
 			id: "301EB667E498C990"
 			rewards: [
 				{
 					count: 2
 					id: "3059B4ACC678881F"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2115,27 +2159,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3012FC268E99B832"
-					item: { count: 1, id: "cobblemonarmory:blaziken_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3012FC268E99B832"
+				item: { count: 1, id: "cobblemonarmory:blaziken_armor_chestplate" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"301EB667E498C990"
-			]
-			icon: { id: "cobblemonarmory:eevee_armor_chestplate" }
+			dependencies: ["301EB667E498C990"]
+			icon: {
+				id: "cobblemonarmory:eevee_armor_chestplate"
+			}
 			id: "308C1E89468DC925"
 			rewards: [
 				{
 					count: 2
 					id: "304B433B347C16AE"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2144,27 +2189,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3018AB1491DF9D71"
-					item: { count: 1, id: "cobblemonarmory:eevee_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3018AB1491DF9D71"
+				item: { count: 1, id: "cobblemonarmory:eevee_armor_chestplate" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"308C1E89468DC925"
-			]
-			icon: { id: "cobblemonarmory:espeon_armor_chestplate" }
+			dependencies: ["308C1E89468DC925"]
+			icon: {
+				id: "cobblemonarmory:espeon_armor_chestplate"
+			}
 			id: "309D27FFA81E112D"
 			rewards: [
 				{
 					count: 2
 					id: "3050C90D050446F5"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2173,27 +2219,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "305B941554551E48"
-					item: { count: 1, id: "cobblemonarmory:espeon_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "305B941554551E48"
+				item: { count: 1, id: "cobblemonarmory:espeon_armor_chestplate" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"309D27FFA81E112D"
-			]
-			icon: { id: "cobblemonarmory:umbreon_armor_chestplate" }
+			dependencies: ["309D27FFA81E112D"]
+			icon: {
+				id: "cobblemonarmory:umbreon_armor_chestplate"
+			}
 			id: "309396D086299DB6"
 			rewards: [
 				{
 					count: 2
 					id: "308D744ACA9C657D"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2202,27 +2249,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30C5D3B88BC53CD4"
-					item: { count: 1, id: "cobblemonarmory:umbreon_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30C5D3B88BC53CD4"
+				item: { count: 1, id: "cobblemonarmory:umbreon_armor_chestplate" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"309396D086299DB6"
-			]
-			icon: { id: "cobblemonarmory:vaporeon_armor_chestplate" }
+			dependencies: ["309396D086299DB6"]
+			icon: {
+				id: "cobblemonarmory:vaporeon_armor_chestplate"
+			}
 			id: "30430B55B21CEEEA"
 			rewards: [
 				{
 					count: 2
 					id: "3039FAEE4B3BE895"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2231,27 +2279,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30D2F8267CE94856"
-					item: { count: 1, id: "cobblemonarmory:vaporeon_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30D2F8267CE94856"
+				item: { count: 1, id: "cobblemonarmory:vaporeon_armor_chestplate" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"30430B55B21CEEEA"
-			]
-			icon: { id: "cobblemonarmory:jolteon_armor_chestplate" }
+			dependencies: ["30430B55B21CEEEA"]
+			icon: {
+				id: "cobblemonarmory:jolteon_armor_chestplate"
+			}
 			id: "30E51552EAC7283A"
 			rewards: [
 				{
 					count: 2
 					id: "30067A0D5239DE85"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2260,27 +2309,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3038CF0DB4D6DF87"
-					item: { count: 1, id: "cobblemonarmory:jolteon_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3038CF0DB4D6DF87"
+				item: { count: 1, id: "cobblemonarmory:jolteon_armor_chestplate" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 19.0d
 		}
 		{
-			dependencies: [
-				"303E068A7A7CAFDB"
-			]
-			icon: { id: "cobblemonarmory:flareon_armor_chestplate" }
+			dependencies: ["303E068A7A7CAFDB"]
+			icon: {
+				id: "cobblemonarmory:flareon_armor_chestplate"
+			}
 			id: "30B682A304B3AAAA"
 			rewards: [
 				{
 					count: 2
 					id: "3068DB9B38189625"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2289,27 +2339,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30E2E3B3DD847C59"
-					item: { count: 1, id: "cobblemonarmory:flareon_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30E2E3B3DD847C59"
+				item: { count: 1, id: "cobblemonarmory:flareon_armor_chestplate" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"30B682A304B3AAAA"
-			]
-			icon: { id: "cobblemonarmory:leafeon_armor_chestplate" }
+			dependencies: ["30B682A304B3AAAA"]
+			icon: {
+				id: "cobblemonarmory:leafeon_armor_chestplate"
+			}
 			id: "30775BBDD0C5C5D2"
 			rewards: [
 				{
 					count: 2
 					id: "3073A25969DEDD11"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2318,27 +2369,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30449A740674D5A8"
-					item: { count: 1, id: "cobblemonarmory:leafeon_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30449A740674D5A8"
+				item: { count: 1, id: "cobblemonarmory:leafeon_armor_chestplate" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"30775BBDD0C5C5D2"
-			]
-			icon: { id: "cobblemonarmory:glaceon_armor_chestplate" }
+			dependencies: ["30775BBDD0C5C5D2"]
+			icon: {
+				id: "cobblemonarmory:glaceon_armor_chestplate"
+			}
 			id: "30857E0BD764C8B4"
 			rewards: [
 				{
 					count: 2
 					id: "302570CFBA374D9C"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2347,27 +2399,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3073D00A231A2ACE"
-					item: { count: 1, id: "cobblemonarmory:glaceon_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3073D00A231A2ACE"
+				item: { count: 1, id: "cobblemonarmory:glaceon_armor_chestplate" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"30857E0BD764C8B4"
-			]
-			icon: { id: "cobblemonarmory:sylveon_armor_chestplate" }
+			dependencies: ["30857E0BD764C8B4"]
+			icon: {
+				id: "cobblemonarmory:sylveon_armor_chestplate"
+			}
 			id: "303852599BDB2366"
 			rewards: [
 				{
 					count: 2
 					id: "30909186BF332C02"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2376,27 +2429,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3041C4AA5DBD9CF2"
-					item: { count: 1, id: "cobblemonarmory:sylveon_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3041C4AA5DBD9CF2"
+				item: { count: 1, id: "cobblemonarmory:sylveon_armor_chestplate" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"303852599BDB2366"
-			]
-			icon: { id: "cobblemonarmory:haxorus_armor_chestplate" }
+			dependencies: ["303852599BDB2366"]
+			icon: {
+				id: "cobblemonarmory:haxorus_armor_chestplate"
+			}
 			id: "30B143D090EB965F"
 			rewards: [
 				{
 					count: 2
 					id: "30B594DA06666471"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2405,27 +2459,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3071C50696ABC018"
-					item: { count: 1, id: "cobblemonarmory:haxorus_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3071C50696ABC018"
+				item: { count: 1, id: "cobblemonarmory:haxorus_armor_chestplate" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"30B143D090EB965F"
-			]
-			icon: { id: "cobblemonarmory:metagross_armor_chestplate" }
+			dependencies: ["30B143D090EB965F"]
+			icon: {
+				id: "cobblemonarmory:metagross_armor_chestplate"
+			}
 			id: "309ACB20FC2CC942"
 			rewards: [
 				{
 					count: 2
 					id: "303E6DFF690227D4"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2434,27 +2489,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30F144467FD0CB5D"
-					item: { count: 1, id: "cobblemonarmory:metagross_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30F144467FD0CB5D"
+				item: { count: 1, id: "cobblemonarmory:metagross_armor_chestplate" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"309ACB20FC2CC942"
-			]
-			icon: { id: "cobblemonarmory:corviknight_armor_chestplate" }
+			dependencies: ["309ACB20FC2CC942"]
+			icon: {
+				id: "cobblemonarmory:corviknight_armor_chestplate"
+			}
 			id: "30DBC6E1B8EE18B9"
 			rewards: [
 				{
 					count: 2
 					id: "30BF6DFEFAF3C0ED"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2463,27 +2519,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30DCE64573DC60C6"
-					item: { count: 1, id: "cobblemonarmory:corviknight_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30DCE64573DC60C6"
+				item: { count: 1, id: "cobblemonarmory:corviknight_armor_chestplate" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"30DBC6E1B8EE18B9"
-			]
-			icon: { id: "cobblemonarmory:torterra_armor_chestplate" }
+			dependencies: ["30DBC6E1B8EE18B9"]
+			icon: {
+				id: "cobblemonarmory:torterra_armor_chestplate"
+			}
 			id: "305DDB92A9B075EB"
 			rewards: [
 				{
 					count: 2
 					id: "30408B871EA37506"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2492,27 +2549,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30CF5A1B2EE9798E"
-					item: { count: 1, id: "cobblemonarmory:torterra_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30CF5A1B2EE9798E"
+				item: { count: 1, id: "cobblemonarmory:torterra_armor_chestplate" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"305DDB92A9B075EB"
-			]
-			icon: { id: "cobblemonarmory:rayquaza_armor_chestplate" }
+			dependencies: ["305DDB92A9B075EB"]
+			icon: {
+				id: "cobblemonarmory:rayquaza_armor_chestplate"
+			}
 			id: "30CCC05DACD64BE2"
 			rewards: [
 				{
 					count: 2
 					id: "30268BF0296436AC"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2521,27 +2579,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30B4B3B534827FAC"
-					item: { count: 1, id: "cobblemonarmory:rayquaza_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B4B3B534827FAC"
+				item: { count: 1, id: "cobblemonarmory:rayquaza_armor_chestplate" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"30CCC05DACD64BE2"
-			]
-			icon: { id: "cobblemonarmory:ceruledge_armor_chestplate" }
+			dependencies: ["30CCC05DACD64BE2"]
+			icon: {
+				id: "cobblemonarmory:ceruledge_armor_chestplate"
+			}
 			id: "30381468EB25CDA0"
 			rewards: [
 				{
 					count: 2
 					id: "3065AD789D1DB857"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2550,27 +2609,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "306B6E7BB5BB95B2"
-					item: { count: 1, id: "cobblemonarmory:ceruledge_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "306B6E7BB5BB95B2"
+				item: { count: 1, id: "cobblemonarmory:ceruledge_armor_chestplate" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"303E068A7A7CAFDB"
-			]
-			icon: { id: "cobblemonarmory:armarouge_armor_chestplate" }
+			dependencies: ["303E068A7A7CAFDB"]
+			icon: {
+				id: "cobblemonarmory:armarouge_armor_chestplate"
+			}
 			id: "30E81C833F9213F8"
 			rewards: [
 				{
 					count: 2
 					id: "30B6BC701C737DF9"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2579,27 +2639,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30438AB82F432C40"
-					item: { count: 1, id: "cobblemonarmory:armarouge_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30438AB82F432C40"
+				item: { count: 1, id: "cobblemonarmory:armarouge_armor_chestplate" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"30E81C833F9213F8"
-			]
-			icon: { id: "cobblemonarmory:mimikyu_armor_chestplate" }
+			dependencies: ["30E81C833F9213F8"]
+			icon: {
+				id: "cobblemonarmory:mimikyu_armor_chestplate"
+			}
 			id: "3038BF2D2027B55C"
 			rewards: [
 				{
 					count: 2
 					id: "300869C3AF5F3FE2"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2608,27 +2669,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30F9869AA11F540D"
-					item: { count: 1, id: "cobblemonarmory:mimikyu_armor_chestplate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30F9869AA11F540D"
+				item: { count: 1, id: "cobblemonarmory:mimikyu_armor_chestplate" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"3038BF2D2027B55C"
-			]
-			icon: { id: "cobblemonarmory:zacian_sword" }
+			dependencies: ["3038BF2D2027B55C"]
+			icon: {
+				id: "cobblemonarmory:zacian_sword"
+			}
 			id: "30BCC8985DBC5059"
 			rewards: [
 				{
 					count: 2
 					id: "3057E34E96B608D3"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2637,27 +2699,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3044825C8878FC87"
-					item: { count: 1, id: "cobblemonarmory:zacian_sword" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3044825C8878FC87"
+				item: { count: 1, id: "cobblemonarmory:zacian_sword" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"30BCC8985DBC5059"
-			]
-			icon: { id: "cobblemonarmory:ceruledge_sword" }
+			dependencies: ["30BCC8985DBC5059"]
+			icon: {
+				id: "cobblemonarmory:ceruledge_sword"
+			}
 			id: "301AF5A96EC2D535"
 			rewards: [
 				{
 					count: 2
 					id: "30F7428525A09518"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2666,27 +2729,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30F61F33948C53DF"
-					item: { count: 1, id: "cobblemonarmory:ceruledge_sword" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30F61F33948C53DF"
+				item: { count: 1, id: "cobblemonarmory:ceruledge_sword" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"301AF5A96EC2D535"
-			]
-			icon: { id: "cobblemonarmory:starmie_sword" }
+			dependencies: ["301AF5A96EC2D535"]
+			icon: {
+				id: "cobblemonarmory:starmie_sword"
+			}
 			id: "30E7C4775AA7B149"
 			rewards: [
 				{
 					count: 2
 					id: "30F920988C196618"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2695,27 +2759,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30B581EDD331FC4B"
-					item: { count: 1, id: "cobblemonarmory:starmie_sword" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B581EDD331FC4B"
+				item: { count: 1, id: "cobblemonarmory:starmie_sword" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"30E7C4775AA7B149"
-			]
-			icon: { id: "cobblemonarmory:metagross_hammer" }
+			dependencies: ["30E7C4775AA7B149"]
+			icon: {
+				id: "cobblemonarmory:metagross_hammer"
+			}
 			id: "3000FC1FEAE11BE0"
 			rewards: [
 				{
 					count: 2
 					id: "3055355FD9C5DF6C"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2724,27 +2789,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30A8778665AFEAA4"
-					item: { count: 1, id: "cobblemonarmory:metagross_hammer" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A8778665AFEAA4"
+				item: { count: 1, id: "cobblemonarmory:metagross_hammer" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"3000FC1FEAE11BE0"
-			]
-			icon: { id: "cobblemonarmory:tinkaton_hammer" }
+			dependencies: ["3000FC1FEAE11BE0"]
+			icon: {
+				id: "cobblemonarmory:tinkaton_hammer"
+			}
 			id: "309516767636BD7F"
 			rewards: [
 				{
 					count: 2
 					id: "307ED7AFB252300B"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2753,27 +2819,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30C318E14F449E1D"
-					item: { count: 1, id: "cobblemonarmory:tinkaton_hammer" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30C318E14F449E1D"
+				item: { count: 1, id: "cobblemonarmory:tinkaton_hammer" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"309516767636BD7F"
-			]
-			icon: { id: "cobblemonarmory:sirfetchd_sword" }
+			dependencies: ["309516767636BD7F"]
+			icon: {
+				id: "cobblemonarmory:sirfetchd_sword"
+			}
 			id: "30E880CBB29FC61E"
 			rewards: [
 				{
 					count: 2
 					id: "30B9B35A7C75B82A"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2782,27 +2849,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "307E3F80505AC174"
-					item: { count: 1, id: "cobblemonarmory:sirfetchd_sword" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "307E3F80505AC174"
+				item: { count: 1, id: "cobblemonarmory:sirfetchd_sword" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"30E880CBB29FC61E"
-			]
-			icon: { id: "cobblemonarmory:bastiodon_shield" }
+			dependencies: ["30E880CBB29FC61E"]
+			icon: {
+				id: "cobblemonarmory:bastiodon_shield"
+			}
 			id: "30828F7CC3DF63A6"
 			rewards: [
 				{
 					count: 2
 					id: "30DA3476CA554C77"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2811,27 +2879,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30F4DCE32A5B644C"
-					item: { count: 1, id: "cobblemonarmory:bastiodon_shield" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30F4DCE32A5B644C"
+				item: { count: 1, id: "cobblemonarmory:bastiodon_shield" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"30828F7CC3DF63A6"
-			]
-			icon: { id: "cobblemonarmory:blastoise_shell" }
+			dependencies: ["30828F7CC3DF63A6"]
+			icon: {
+				id: "cobblemonarmory:blastoise_shell"
+			}
 			id: "30D1CD6C0006E892"
 			rewards: [
 				{
 					count: 2
 					id: "300C10129EE125FF"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2840,27 +2909,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30C1E29747B10AD7"
-					item: { count: 1, id: "cobblemonarmory:blastoise_shell" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30C1E29747B10AD7"
+				item: { count: 1, id: "cobblemonarmory:blastoise_shell" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"30FF79947BBD7BF0"
-			]
-			icon: { id: "cobblemon:helix_fossil" }
+			dependencies: ["30FF79947BBD7BF0"]
+			icon: {
+				id: "cobblemon:helix_fossil"
+			}
 			id: "300508018D2FB093"
 			rewards: [
 				{
 					count: 3
 					id: "306E63E078B89092"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2869,27 +2939,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "302B6EEC5D35A76A"
-					item: { count: 1, id: "cobblemon:helix_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "302B6EEC5D35A76A"
+				item: { count: 1, id: "cobblemon:helix_fossil" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"300508018D2FB093"
-			]
-			icon: { id: "cobblemon:dome_fossil" }
+			dependencies: ["300508018D2FB093"]
+			icon: {
+				id: "cobblemon:dome_fossil"
+			}
 			id: "30A414FC75ABC6FB"
 			rewards: [
 				{
 					count: 3
 					id: "30B12C20586B3E18"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2898,27 +2969,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3068F27CBE4C8A82"
-					item: { count: 1, id: "cobblemon:dome_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3068F27CBE4C8A82"
+				item: { count: 1, id: "cobblemon:dome_fossil" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"30A414FC75ABC6FB"
-			]
-			icon: { id: "cobblemon:old_amber_fossil" }
+			dependencies: ["30A414FC75ABC6FB"]
+			icon: {
+				id: "cobblemon:old_amber_fossil"
+			}
 			id: "30013DFCCEDD2617"
 			rewards: [
 				{
 					count: 3
 					id: "306EC7D469F8EF1A"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2927,27 +2999,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30B0433E06333A74"
-					item: { count: 1, id: "cobblemon:old_amber_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B0433E06333A74"
+				item: { count: 1, id: "cobblemon:old_amber_fossil" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"30013DFCCEDD2617"
-			]
-			icon: { id: "cobblemon:root_fossil" }
+			dependencies: ["30013DFCCEDD2617"]
+			icon: {
+				id: "cobblemon:root_fossil"
+			}
 			id: "30BFBE0178A5C344"
 			rewards: [
 				{
 					count: 3
 					id: "3025B22A39E46B49"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2956,27 +3029,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30EE473559FD3837"
-					item: { count: 1, id: "cobblemon:root_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30EE473559FD3837"
+				item: { count: 1, id: "cobblemon:root_fossil" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"30BFBE0178A5C344"
-			]
-			icon: { id: "cobblemon:claw_fossil" }
+			dependencies: ["30BFBE0178A5C344"]
+			icon: {
+				id: "cobblemon:claw_fossil"
+			}
 			id: "30B9DE35DE3A1136"
 			rewards: [
 				{
 					count: 3
 					id: "303607E9D1FDA5C5"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -2985,27 +3059,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30A0BF0CABB13D1C"
-					item: { count: 1, id: "cobblemon:claw_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A0BF0CABB13D1C"
+				item: { count: 1, id: "cobblemon:claw_fossil" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"30B9DE35DE3A1136"
-			]
-			icon: { id: "cobblemon:armor_fossil" }
+			dependencies: ["30B9DE35DE3A1136"]
+			icon: {
+				id: "cobblemon:armor_fossil"
+			}
 			id: "30C50DE77012F3EB"
 			rewards: [
 				{
 					count: 3
 					id: "30310E416C0E6478"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3014,27 +3089,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30AD158E9F5BDEF4"
-					item: { count: 1, id: "cobblemon:armor_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30AD158E9F5BDEF4"
+				item: { count: 1, id: "cobblemon:armor_fossil" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"30C50DE77012F3EB"
-			]
-			icon: { id: "cobblemon:skull_fossil" }
+			dependencies: ["30C50DE77012F3EB"]
+			icon: {
+				id: "cobblemon:skull_fossil"
+			}
 			id: "301260204F27DDD2"
 			rewards: [
 				{
 					count: 3
 					id: "30901F5695A047D2"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3043,27 +3119,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3010EEFD3A755684"
-					item: { count: 1, id: "cobblemon:skull_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3010EEFD3A755684"
+				item: { count: 1, id: "cobblemon:skull_fossil" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"301260204F27DDD2"
-			]
-			icon: { id: "cobblemon:cover_fossil" }
+			dependencies: ["301260204F27DDD2"]
+			icon: {
+				id: "cobblemon:cover_fossil"
+			}
 			id: "3048E975BD5CA4EE"
 			rewards: [
 				{
 					count: 3
 					id: "30FF2937795A7FC3"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3072,27 +3149,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30280BA9E7E69306"
-					item: { count: 1, id: "cobblemon:cover_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30280BA9E7E69306"
+				item: { count: 1, id: "cobblemon:cover_fossil" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 24.0d
 		}
 		{
-			dependencies: [
-				"30FF79947BBD7BF0"
-			]
-			icon: { id: "cobblemon:plume_fossil" }
+			dependencies: ["30FF79947BBD7BF0"]
+			icon: {
+				id: "cobblemon:plume_fossil"
+			}
 			id: "30328FC514FB9ED5"
 			rewards: [
 				{
 					count: 3
 					id: "305354DA1803B4F9"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3101,27 +3179,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30A0353955FD8A3C"
-					item: { count: 1, id: "cobblemon:plume_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A0353955FD8A3C"
+				item: { count: 1, id: "cobblemon:plume_fossil" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 25.0d
 		}
 		{
-			dependencies: [
-				"30328FC514FB9ED5"
-			]
-			icon: { id: "cobblemon:jaw_fossil" }
+			dependencies: ["30328FC514FB9ED5"]
+			icon: {
+				id: "cobblemon:jaw_fossil"
+			}
 			id: "30CD170B14CABA08"
 			rewards: [
 				{
 					count: 3
 					id: "307F533EB7E7B390"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3130,27 +3209,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3094624741CCB88A"
-					item: { count: 1, id: "cobblemon:jaw_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3094624741CCB88A"
+				item: { count: 1, id: "cobblemon:jaw_fossil" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 25.0d
 		}
 		{
-			dependencies: [
-				"30CD170B14CABA08"
-			]
-			icon: { id: "cobblemon:sail_fossil" }
+			dependencies: ["30CD170B14CABA08"]
+			icon: {
+				id: "cobblemon:sail_fossil"
+			}
 			id: "30F2DDAAEA5F1138"
 			rewards: [
 				{
 					count: 3
 					id: "305256103CE17C88"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3159,27 +3239,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3004CD6818FA486F"
-					item: { count: 1, id: "cobblemon:sail_fossil" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3004CD6818FA486F"
+				item: { count: 1, id: "cobblemon:sail_fossil" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 25.0d
 		}
 		{
-			dependencies: [
-				"30F2DDAAEA5F1138"
-			]
-			icon: { id: "cobblemon:fossilized_bird" }
+			dependencies: ["30F2DDAAEA5F1138"]
+			icon: {
+				id: "cobblemon:fossilized_bird"
+			}
 			id: "3058C07D4EAB336D"
 			rewards: [
 				{
 					count: 3
 					id: "30382D84E8462DFF"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3188,27 +3269,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "307B67055322CDD9"
-					item: { count: 1, id: "cobblemon:fossilized_bird" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "307B67055322CDD9"
+				item: { count: 1, id: "cobblemon:fossilized_bird" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 25.0d
 		}
 		{
-			dependencies: [
-				"3058C07D4EAB336D"
-			]
-			icon: { id: "cobblemon:fossilized_dino" }
+			dependencies: ["3058C07D4EAB336D"]
+			icon: {
+				id: "cobblemon:fossilized_dino"
+			}
 			id: "309542AABA7AF34F"
 			rewards: [
 				{
 					count: 3
 					id: "3033CCA336A8E925"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3217,27 +3299,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3093D22D9FC4F487"
-					item: { count: 1, id: "cobblemon:fossilized_dino" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3093D22D9FC4F487"
+				item: { count: 1, id: "cobblemon:fossilized_dino" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 25.0d
 		}
 		{
-			dependencies: [
-				"309542AABA7AF34F"
-			]
-			icon: { id: "cobblemon:fossilized_drake" }
+			dependencies: ["309542AABA7AF34F"]
+			icon: {
+				id: "cobblemon:fossilized_drake"
+			}
 			id: "30534E14A079E03B"
 			rewards: [
 				{
 					count: 3
 					id: "302D23B234BE6C45"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3246,27 +3329,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30F485F78994E127"
-					item: { count: 1, id: "cobblemon:fossilized_drake" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30F485F78994E127"
+				item: { count: 1, id: "cobblemon:fossilized_drake" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 25.0d
 		}
 		{
-			dependencies: [
-				"30534E14A079E03B"
-			]
-			icon: { id: "cobblemon:fossilized_fish" }
+			dependencies: ["30534E14A079E03B"]
+			icon: {
+				id: "cobblemon:fossilized_fish"
+			}
 			id: "30E030577F71779F"
 			rewards: [
 				{
 					count: 3
 					id: "309839F65EF8A0E8"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3275,32 +3359,27 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30A82C6AB7803936"
-					item: { count: 1, id: "cobblemon:fossilized_fish" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A82C6AB7803936"
+				item: { count: 1, id: "cobblemon:fossilized_fish" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 25.0d
 		}
 		{
-			dependencies: [
-				"305663B330131573"
-			]
-			description: [
-				"A &aLab Table&r and a &aChisel&r let you clean fossils from &aConcretion&r and resurrect long extinct Pokemon."
-				""
-				"Set up a Lab Table and a chisel to start reviving fossils."
-			]
-			icon: { id: "cobblemon_paleontologist:lab_table" }
+			dependencies: ["305663B330131573"]
+			icon: {
+				id: "cobblemon_paleontologist:lab_table"
+			}
 			id: "30FF79947BBD7BF0"
 			rewards: [
 				{
-					count: 1
 					id: "309B82B9E8DFEA0F"
-					item: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3309,7 +3388,6 @@
 					xp: 200
 				}
 			]
-			subtitle: "Revive the ancients"
 			tasks: [
 				{
 					id: "309FD6B1C94731A6"
@@ -3322,21 +3400,23 @@
 					type: "item"
 				}
 			]
-			title: "Paleontologist"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3052CD5F4DA81C08"
-			]
-			icon: { id: "cobblemon:relic_coin" }
+			dependencies: ["3052CD5F4DA81C08"]
+			icon: {
+				id: "numismatics:spur"
+			}
 			id: "302931B91D9BCD9F"
 			rewards: [
 				{
 					count: 2
 					id: "304596F6D5AF6C45"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3345,27 +3425,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "304D125E9A5E9A1C"
-					item: { count: 1, id: "cobblemon:relic_coin" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "304D125E9A5E9A1C"
+				item: { count: 1, id: "numismatics:spur" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 27.0d
 		}
 		{
-			dependencies: [
-				"302931B91D9BCD9F"
-			]
-			icon: { id: "cobblemon:relic_coin" }
+			dependencies: ["302931B91D9BCD9F"]
+			icon: {
+				id: "numismatics:spur"
+			}
 			id: "301532F0F7332C31"
 			rewards: [
 				{
 					count: 2
 					id: "30FABCA4DC55650F"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3374,27 +3455,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "300192A14AB2DE6C"
-					item: { count: 1, id: "cobblemon:relic_coin" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "300192A14AB2DE6C"
+				item: { count: 1, id: "numismatics:spur" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 27.0d
 		}
 		{
-			dependencies: [
-				"301532F0F7332C31"
-			]
-			icon: { id: "cobblemon:relic_coin" }
+			dependencies: ["301532F0F7332C31"]
+			icon: {
+				id: "numismatics:spur"
+			}
 			id: "30D3EBC8E2F949AA"
 			rewards: [
 				{
 					count: 2
 					id: "3083E75BECD825CE"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3403,27 +3485,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3047F0D536D08E7B"
-					item: { count: 1, id: "cobblemon:relic_coin" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3047F0D536D08E7B"
+				item: { count: 1, id: "numismatics:spur" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 27.0d
 		}
 		{
-			dependencies: [
-				"30D3EBC8E2F949AA"
-			]
-			icon: { id: "cobblemon:relic_coin" }
+			dependencies: ["30D3EBC8E2F949AA"]
+			icon: {
+				id: "numismatics:spur"
+			}
 			id: "301CE5FCC6FEA567"
 			rewards: [
 				{
 					count: 2
 					id: "305F16D9085A9E6E"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3432,27 +3515,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30D62A1CD9468E04"
-					item: { count: 1, id: "cobblemon:relic_coin" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30D62A1CD9468E04"
+				item: { count: 1, id: "numismatics:spur" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 27.0d
 		}
 		{
-			dependencies: [
-				"301CE5FCC6FEA567"
-			]
-			icon: { id: "cobblemon:relic_coin" }
+			dependencies: ["301CE5FCC6FEA567"]
+			icon: {
+				id: "numismatics:spur"
+			}
 			id: "304398CEEFA0C0C5"
 			rewards: [
 				{
 					count: 2
 					id: "30B8F52A55F62B95"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3461,27 +3545,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "3035FCA05FE3BEA0"
-					item: { count: 1, id: "cobblemon:relic_coin" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3035FCA05FE3BEA0"
+				item: { count: 1, id: "numismatics:spur" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 27.0d
 		}
 		{
-			dependencies: [
-				"304398CEEFA0C0C5"
-			]
-			icon: { id: "cobblemon:relic_coin" }
+			dependencies: ["304398CEEFA0C0C5"]
+			icon: {
+				id: "numismatics:spur"
+			}
 			id: "30AC9AD023DBDD21"
 			rewards: [
 				{
 					count: 2
 					id: "3015CE0DF2DEA9D9"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3490,32 +3575,28 @@
 					xp: 30
 				}
 			]
-			tasks: [
-				{
-					id: "30409800B646A0AE"
-					item: { count: 1, id: "cobblemon:relic_coin" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30409800B646A0AE"
+				item: { count: 1, id: "numismatics:spur" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 27.0d
 		}
 		{
-			dependencies: [
-				"305663B330131573"
-			]
-			description: [
-				"&aAprijuice&r brewed from Apricorns boosts a rideable Pokemon's speed, jump and stamina so it carries you across the world."
-				""
-				"Brew a Swift Aprijuice and take to the road on your partner."
-			]
-			icon: { id: "cobblemon:relic_coin" }
+			dependencies: ["305663B330131573"]
+			icon: {
+				id: "numismatics:spur"
+			}
 			id: "3052CD5F4DA81C08"
 			rewards: [
 				{
 					count: 6
 					id: "30AA6EC6313F3531"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3524,34 +3605,27 @@
 					xp: 150
 				}
 			]
-			subtitle: "Journey Mounts"
-			tasks: [
-				{
-					id: "3090C40A88B1C2D9"
-					item: { count: 1, id: "cobblemon:relic_coin" }
-					type: "item"
-				}
-			]
-			title: "Ride On"
+			tasks: [{
+				id: "3090C40A88B1C2D9"
+				item: { count: 1, id: "numismatics:spur" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"305663B330131573"
-			]
-			description: [
-				"&aRaid Den Crystals&r summon powerful boss Pokemon. Bring a &aCatching Charm&r to raise the catch rate and &aCheers&r to buff your party."
-				""
-				"Obtain a Catching Charm and clear the way to raid."
-			]
-			icon: { id: "cobblemonraiddens:raid_crystal_block" }
+			dependencies: ["305663B330131573"]
+			icon: {
+				id: "cobblemonraiddens:raid_crystal_block"
+			}
 			id: "3009BF63BDA7534E"
 			rewards: [
 				{
-					count: 1
 					id: "30BA0CDEED4F6943"
-					item: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3560,29 +3634,28 @@
 					xp: 250
 				}
 			]
-			subtitle: "Team up on a boss"
-			tasks: [
-				{
-					id: "3052B79D48F2FB0C"
-					item: { count: 1, id: "cobblemonraiddens:catching_charm" }
-					type: "item"
-				}
-			]
-			title: "Raid Dens"
+			tasks: [{
+				id: "3052B79D48F2FB0C"
+				item: { count: 1, id: "cobblemonraiddens:catching_charm" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"3009BF63BDA7534E"
-			]
-			icon: { id: "cobblemon:leftovers" }
+			dependencies: ["3009BF63BDA7534E"]
+			icon: {
+				id: "cobblemon:leftovers"
+			}
 			id: "30891DD5530DBDBA"
 			rewards: [
 				{
 					count: 3
 					id: "30BDCFEEF37F9EDA"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3591,27 +3664,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "300D0A8ED794061B"
-					item: { count: 1, id: "cobblemon:leftovers" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "300D0A8ED794061B"
+				item: { count: 1, id: "cobblemon:leftovers" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"30891DD5530DBDBA"
-			]
-			icon: { id: "cobblemon:life_orb" }
+			dependencies: ["30891DD5530DBDBA"]
+			icon: {
+				id: "cobblemon:life_orb"
+			}
 			id: "30A3F2C5EA2E1362"
 			rewards: [
 				{
 					count: 3
 					id: "30E2C4C97854A6D9"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3620,27 +3694,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30773DCFB43134A2"
-					item: { count: 1, id: "cobblemon:life_orb" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30773DCFB43134A2"
+				item: { count: 1, id: "cobblemon:life_orb" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"30A3F2C5EA2E1362"
-			]
-			icon: { id: "cobblemon:choice_band" }
+			dependencies: ["30A3F2C5EA2E1362"]
+			icon: {
+				id: "cobblemon:choice_band"
+			}
 			id: "30901E1DF299FC9E"
 			rewards: [
 				{
 					count: 3
 					id: "30B3C50B5ACBED20"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3649,27 +3724,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3099B43E4FC402B1"
-					item: { count: 1, id: "cobblemon:choice_band" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3099B43E4FC402B1"
+				item: { count: 1, id: "cobblemon:choice_band" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"30901E1DF299FC9E"
-			]
-			icon: { id: "cobblemon:choice_specs" }
+			dependencies: ["30901E1DF299FC9E"]
+			icon: {
+				id: "cobblemon:choice_specs"
+			}
 			id: "30C268AD63DFD860"
 			rewards: [
 				{
 					count: 3
 					id: "3021AD42DE849FAB"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3678,27 +3754,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "309131986EBB884C"
-					item: { count: 1, id: "cobblemon:choice_specs" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "309131986EBB884C"
+				item: { count: 1, id: "cobblemon:choice_specs" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"30C268AD63DFD860"
-			]
-			icon: { id: "cobblemon:choice_scarf" }
+			dependencies: ["30C268AD63DFD860"]
+			icon: {
+				id: "cobblemon:choice_scarf"
+			}
 			id: "30F821B456516A2E"
 			rewards: [
 				{
 					count: 3
 					id: "3032798CEB374591"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3707,27 +3784,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30A0D0AF691484B2"
-					item: { count: 1, id: "cobblemon:choice_scarf" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30A0D0AF691484B2"
+				item: { count: 1, id: "cobblemon:choice_scarf" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"30F821B456516A2E"
-			]
-			icon: { id: "cobblemon:focus_sash" }
+			dependencies: ["30F821B456516A2E"]
+			icon: {
+				id: "cobblemon:focus_sash"
+			}
 			id: "309D050A0D237C4E"
 			rewards: [
 				{
 					count: 3
 					id: "30563EF30273C015"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3736,27 +3814,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3075F32DC5E95573"
-					item: { count: 1, id: "cobblemon:focus_sash" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3075F32DC5E95573"
+				item: { count: 1, id: "cobblemon:focus_sash" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"309D050A0D237C4E"
-			]
-			icon: { id: "cobblemon:assault_vest" }
+			dependencies: ["309D050A0D237C4E"]
+			icon: {
+				id: "cobblemon:assault_vest"
+			}
 			id: "30597E18EE7EB312"
 			rewards: [
 				{
 					count: 3
 					id: "307C6134DB35298F"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3765,27 +3844,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30B187983AF4B3D0"
-					item: { count: 1, id: "cobblemon:assault_vest" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B187983AF4B3D0"
+				item: { count: 1, id: "cobblemon:assault_vest" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"30597E18EE7EB312"
-			]
-			icon: { id: "cobblemon:eviolite" }
+			dependencies: ["30597E18EE7EB312"]
+			icon: {
+				id: "cobblemon:eviolite"
+			}
 			id: "3081B070E7B44BBE"
 			rewards: [
 				{
 					count: 3
 					id: "309658435627783B"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3794,27 +3874,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "305A5A21F02AC380"
-					item: { count: 1, id: "cobblemon:eviolite" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "305A5A21F02AC380"
+				item: { count: 1, id: "cobblemon:eviolite" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"3081B070E7B44BBE"
-			]
-			icon: { id: "cobblemon:rocky_helmet" }
+			dependencies: ["3081B070E7B44BBE"]
+			icon: {
+				id: "cobblemon:rocky_helmet"
+			}
 			id: "3041343A3B9CF312"
 			rewards: [
 				{
 					count: 3
 					id: "306E75BAC2753C1E"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3823,27 +3904,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "301E915C5D0A6FE7"
-					item: { count: 1, id: "cobblemon:rocky_helmet" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "301E915C5D0A6FE7"
+				item: { count: 1, id: "cobblemon:rocky_helmet" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"3041343A3B9CF312"
-			]
-			icon: { id: "cobblemon:black_sludge" }
+			dependencies: ["3041343A3B9CF312"]
+			icon: {
+				id: "cobblemon:black_sludge"
+			}
 			id: "30B159769B44FCF9"
 			rewards: [
 				{
 					count: 3
 					id: "30308418E4F8E0AC"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3852,27 +3934,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30F2F91A1FF5F07C"
-					item: { count: 1, id: "cobblemon:black_sludge" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30F2F91A1FF5F07C"
+				item: { count: 1, id: "cobblemon:black_sludge" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 30.0d
 		}
 		{
-			dependencies: [
-				"3009BF63BDA7534E"
-			]
-			icon: { id: "cobblemon:expert_belt" }
+			dependencies: ["3009BF63BDA7534E"]
+			icon: {
+				id: "cobblemon:expert_belt"
+			}
 			id: "30F4D9D4776C3C91"
 			rewards: [
 				{
 					count: 3
 					id: "300FEC19BD529DD0"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3881,27 +3964,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30BA8E554DC55085"
-					item: { count: 1, id: "cobblemon:expert_belt" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30BA8E554DC55085"
+				item: { count: 1, id: "cobblemon:expert_belt" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"30F4D9D4776C3C91"
-			]
-			icon: { id: "cobblemon:muscle_band" }
+			dependencies: ["30F4D9D4776C3C91"]
+			icon: {
+				id: "cobblemon:muscle_band"
+			}
 			id: "30539120EDFC4865"
 			rewards: [
 				{
 					count: 3
 					id: "30834AE2905E0FCA"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3910,27 +3994,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "304B0E66EF3DFB40"
-					item: { count: 1, id: "cobblemon:muscle_band" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "304B0E66EF3DFB40"
+				item: { count: 1, id: "cobblemon:muscle_band" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"30539120EDFC4865"
-			]
-			icon: { id: "cobblemon:wise_glasses" }
+			dependencies: ["30539120EDFC4865"]
+			icon: {
+				id: "cobblemon:wise_glasses"
+			}
 			id: "305067D4DED4E35D"
 			rewards: [
 				{
 					count: 3
 					id: "30508B2572685C06"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3939,27 +4024,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30977E8A786377CD"
-					item: { count: 1, id: "cobblemon:wise_glasses" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30977E8A786377CD"
+				item: { count: 1, id: "cobblemon:wise_glasses" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"305067D4DED4E35D"
-			]
-			icon: { id: "cobblemon:light_clay" }
+			dependencies: ["305067D4DED4E35D"]
+			icon: {
+				id: "cobblemon:light_clay"
+			}
 			id: "30D87276D2061F6B"
 			rewards: [
 				{
 					count: 3
 					id: "3069B4F9B2F05D0E"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3968,27 +4054,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3007D0768AFF6330"
-					item: { count: 1, id: "cobblemon:light_clay" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3007D0768AFF6330"
+				item: { count: 1, id: "cobblemon:light_clay" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"30D87276D2061F6B"
-			]
-			icon: { id: "cobblemon:heavy_duty_boots" }
+			dependencies: ["30D87276D2061F6B"]
+			icon: {
+				id: "cobblemon:heavy_duty_boots"
+			}
 			id: "30CCDF070C288BFC"
 			rewards: [
 				{
 					count: 3
 					id: "30B19EAFC7EE2880"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -3997,27 +4084,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30FDB33300452D67"
-					item: { count: 1, id: "cobblemon:heavy_duty_boots" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30FDB33300452D67"
+				item: { count: 1, id: "cobblemon:heavy_duty_boots" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"30CCDF070C288BFC"
-			]
-			icon: { id: "cobblemon:weakness_policy" }
+			dependencies: ["30CCDF070C288BFC"]
+			icon: {
+				id: "cobblemon:weakness_policy"
+			}
 			id: "30D82BE694F98E8D"
 			rewards: [
 				{
 					count: 3
 					id: "30045EF18744D5C8"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4026,27 +4114,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30E1D9ED9C002225"
-					item: { count: 1, id: "cobblemon:weakness_policy" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30E1D9ED9C002225"
+				item: { count: 1, id: "cobblemon:weakness_policy" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"30D82BE694F98E8D"
-			]
-			icon: { id: "cobblemon:scope_lens" }
+			dependencies: ["30D82BE694F98E8D"]
+			icon: {
+				id: "cobblemon:scope_lens"
+			}
 			id: "30617919FCBE6F58"
 			rewards: [
 				{
 					count: 3
 					id: "301C6C2C5B29428B"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4055,27 +4144,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3068E05A7B1D6AB6"
-					item: { count: 1, id: "cobblemon:scope_lens" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3068E05A7B1D6AB6"
+				item: { count: 1, id: "cobblemon:scope_lens" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"30617919FCBE6F58"
-			]
-			icon: { id: "cobblemon:razor_claw" }
+			dependencies: ["30617919FCBE6F58"]
+			icon: {
+				id: "cobblemon:razor_claw"
+			}
 			id: "307244CB88C8FEE3"
 			rewards: [
 				{
 					count: 3
 					id: "308A6341F74CE0C9"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4084,27 +4174,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30FCBE13BCAC0391"
-					item: { count: 1, id: "cobblemon:razor_claw" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30FCBE13BCAC0391"
+				item: { count: 1, id: "cobblemon:razor_claw" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"307244CB88C8FEE3"
-			]
-			icon: { id: "cobblemon:razor_fang" }
+			dependencies: ["307244CB88C8FEE3"]
+			icon: {
+				id: "cobblemon:razor_fang"
+			}
 			id: "3091762BB9038285"
 			rewards: [
 				{
 					count: 3
 					id: "3074D2DD27CBEFDF"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4113,27 +4204,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "307C264B1655A651"
-					item: { count: 1, id: "cobblemon:razor_fang" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "307C264B1655A651"
+				item: { count: 1, id: "cobblemon:razor_fang" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"3091762BB9038285"
-			]
-			icon: { id: "cobblemon:quick_claw" }
+			dependencies: ["3091762BB9038285"]
+			icon: {
+				id: "cobblemon:quick_claw"
+			}
 			id: "30AC3F1FACD6C791"
 			rewards: [
 				{
 					count: 3
 					id: "304C873F5CF7D6BF"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4142,27 +4234,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30B66AD0389D564B"
-					item: { count: 1, id: "cobblemon:quick_claw" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30B66AD0389D564B"
+				item: { count: 1, id: "cobblemon:quick_claw" }
+				type: "item"
+			}]
 			x: 9.0d
 			y: 31.0d
 		}
 		{
-			dependencies: [
-				"3009BF63BDA7534E"
-			]
-			icon: { id: "cobblemon:kings_rock" }
+			dependencies: ["3009BF63BDA7534E"]
+			icon: {
+				id: "cobblemon:kings_rock"
+			}
 			id: "308F36EBE96B7372"
 			rewards: [
 				{
 					count: 3
 					id: "30CF04BCA3E32BEA"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4171,27 +4264,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "307FCC4F4EFE202E"
-					item: { count: 1, id: "cobblemon:kings_rock" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "307FCC4F4EFE202E"
+				item: { count: 1, id: "cobblemon:kings_rock" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 32.0d
 		}
 		{
-			dependencies: [
-				"308F36EBE96B7372"
-			]
-			icon: { id: "cobblemon:safety_goggles" }
+			dependencies: ["308F36EBE96B7372"]
+			icon: {
+				id: "cobblemon:safety_goggles"
+			}
 			id: "3023931BEAE14C4E"
 			rewards: [
 				{
 					count: 3
 					id: "30B5A6648D08C237"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4200,27 +4294,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "304D5728ABE5B2E9"
-					item: { count: 1, id: "cobblemon:safety_goggles" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "304D5728ABE5B2E9"
+				item: { count: 1, id: "cobblemon:safety_goggles" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 32.0d
 		}
 		{
-			dependencies: [
-				"3023931BEAE14C4E"
-			]
-			icon: { id: "cobblemon:mental_herb" }
+			dependencies: ["3023931BEAE14C4E"]
+			icon: {
+				id: "cobblemon:mental_herb"
+			}
 			id: "301B9619835E7BE6"
 			rewards: [
 				{
 					count: 3
 					id: "3034760D0920A4AB"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4229,27 +4324,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30F9A05A324D8BB6"
-					item: { count: 1, id: "cobblemon:mental_herb" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30F9A05A324D8BB6"
+				item: { count: 1, id: "cobblemon:mental_herb" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 32.0d
 		}
 		{
-			dependencies: [
-				"3036D09558224631"
-			]
-			icon: { id: "cobblemon:power_herb" }
+			dependencies: ["3036D09558224631"]
+			icon: {
+				id: "cobblemon:power_herb"
+			}
 			id: "300846AE10C6C809"
 			rewards: [
 				{
 					count: 3
 					id: "305F79DA9209E16A"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4258,27 +4354,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30435768B62D390D"
-					item: { count: 1, id: "cobblemon:power_herb" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30435768B62D390D"
+				item: { count: 1, id: "cobblemon:power_herb" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 11.0d
 		}
 		{
-			dependencies: [
-				"301B9619835E7BE6"
-			]
-			icon: { id: "cobblemon:white_herb" }
+			dependencies: ["301B9619835E7BE6"]
+			icon: {
+				id: "cobblemon:white_herb"
+			}
 			id: "30AF04FFD55CAC70"
 			rewards: [
 				{
 					count: 3
 					id: "303CF0D30942E687"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4287,27 +4384,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "302C2CEA655C5156"
-					item: { count: 1, id: "cobblemon:white_herb" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "302C2CEA655C5156"
+				item: { count: 1, id: "cobblemon:white_herb" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 32.0d
 		}
 		{
-			dependencies: [
-				"30AF04FFD55CAC70"
-			]
-			icon: { id: "cobblemon:toxic_orb" }
+			dependencies: ["30AF04FFD55CAC70"]
+			icon: {
+				id: "cobblemon:toxic_orb"
+			}
 			id: "30A9ED8D94442420"
 			rewards: [
 				{
 					count: 3
 					id: "30F7B8B91E00A832"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4316,27 +4414,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "3073C1A3FF0C175C"
-					item: { count: 1, id: "cobblemon:toxic_orb" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3073C1A3FF0C175C"
+				item: { count: 1, id: "cobblemon:toxic_orb" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 32.0d
 		}
 		{
-			dependencies: [
-				"30A9ED8D94442420"
-			]
-			icon: { id: "cobblemon:flame_orb" }
+			dependencies: ["30A9ED8D94442420"]
+			icon: {
+				id: "cobblemon:flame_orb"
+			}
 			id: "308F9BB6C221E067"
 			rewards: [
 				{
 					count: 3
 					id: "308F06205CAD7233"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4345,27 +4444,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "305F00BE00CD051D"
-					item: { count: 1, id: "cobblemon:flame_orb" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "305F00BE00CD051D"
+				item: { count: 1, id: "cobblemon:flame_orb" }
+				type: "item"
+			}]
 			x: 5.0d
 			y: 32.0d
 		}
 		{
-			dependencies: [
-				"308F9BB6C221E067"
-			]
-			icon: { id: "cobblemon:shell_bell" }
+			dependencies: ["308F9BB6C221E067"]
+			icon: {
+				id: "cobblemon:shell_bell"
+			}
 			id: "301FDCBBDB5619BB"
 			rewards: [
 				{
 					count: 3
 					id: "309968BE9B4A6AE5"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4374,27 +4474,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30702E8F1D58CB3C"
-					item: { count: 1, id: "cobblemon:shell_bell" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30702E8F1D58CB3C"
+				item: { count: 1, id: "cobblemon:shell_bell" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 32.0d
 		}
 		{
-			dependencies: [
-				"301FDCBBDB5619BB"
-			]
-			icon: { id: "cobblemon:bright_powder" }
+			dependencies: ["301FDCBBDB5619BB"]
+			icon: {
+				id: "cobblemon:bright_powder"
+			}
 			id: "30CD0D4F37E375C3"
 			rewards: [
 				{
 					count: 3
 					id: "3075D2F43A133A96"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4403,27 +4504,28 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "30CAA52C3FB9D8E1"
-					item: { count: 1, id: "cobblemon:bright_powder" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "30CAA52C3FB9D8E1"
+				item: { count: 1, id: "cobblemon:bright_powder" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: 32.0d
 		}
 		{
-			dependencies: [
-				"30CD0D4F37E375C3"
-			]
-			icon: { id: "cobblemon:wide_lens" }
+			dependencies: ["30CD0D4F37E375C3"]
+			icon: {
+				id: "cobblemon:wide_lens"
+			}
 			id: "304E206A783FA152"
 			rewards: [
 				{
 					count: 3
 					id: "308D0BB4BAC95506"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -4432,13 +4534,11 @@
 					xp: 40
 				}
 			]
-			tasks: [
-				{
-					id: "304BE8700E84BD75"
-					item: { count: 1, id: "cobblemon:wide_lens" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "304BE8700E84BD75"
+				item: { count: 1, id: "cobblemon:wide_lens" }
+				type: "item"
+			}]
 			x: 8.0d
 			y: 32.0d
 		}
@@ -4454,19 +4554,13 @@
 				"30AC9AD023DBDD21"
 				"304E206A783FA152"
 			]
-			description: [
-				"You breed for stats, train EVs, wield Mega Stones, ride mounts and raid dens. Few Trainers reach this far."
-				""
-				"&eUnlocks Myths & Legends&r once the Ender Dragon falls. Claim the Trainer's Path cache."
-				""
-				"Reward: one pull from the Trainer's Path loot table, plus a bonus."
-			]
-			icon: { id: "cobblemon:great_ball" }
+			icon: {
+				id: "cobblemon:great_ball"
+			}
 			id: "3090960AFB219897"
 			rewards: [
 				{
 					id: "30BAC2E46132D8CE"
-					table_id: "3064955842E54192"
 					type: "random"
 				}
 				{
@@ -4477,24 +4571,21 @@
 				{
 					count: 8
 					id: "3065C44DB8E1D0C0"
-					item: { count: 1, id: "cobblemon:ultra_ball" }
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
 					type: "item"
 				}
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "A battler and a collector"
-			tasks: [
-				{
-					id: "30B4A1F78532EA40"
-					title: "Trainer's Path Complete"
-					type: "checkmark"
-				}
-			]
-			title: "Trainer's Path Complete"
+			tasks: [{
+				id: "30B4A1F78532EA40"
+				type: "checkmark"
+			}]
 			x: 9.0d
 			y: 0.0d
 		}
 	]
-	title: "Trainer's Path"
 }

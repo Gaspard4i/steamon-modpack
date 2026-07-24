@@ -1,83 +1,19 @@
 {
-	hide_tooltip: false
-	icon: { id: "cobblemon:master_ball" }
+	icon: {
+		id: "cobblemon:master_ball"
+	}
 	id: "30239D3A6DD1E57A"
 	loot_size: 1
-	order_index: 0
+	order_index: 8
 	rewards: [
-		{
-			reward: {
-				count: 1
-				id: "3049D7CC177D1872"
-				item: { count: 1, id: "cobblemon:relic_coin_pouch" }
-				type: "item"
-			}
-			weight: 40.0f
-		}
-		{
-			reward: {
-				count: 6
-				id: "3098EE1AD7818C58"
-				item: { count: 1, id: "cobblemon:exp_candy_xl" }
-				type: "item"
-			}
-			weight: 30.0f
-		}
-		{
-			reward: {
-				count: 1
-				id: "300387A6890AFEBB"
-				item: { count: 1, id: "cobblemon:master_ball" }
-				type: "item"
-			}
-			weight: 20.0f
-		}
-		{
-			reward: {
-				count: 8
-				id: "307FB36A8A3D4180"
-				item: { count: 1, id: "cobblemon:rare_candy" }
-				type: "item"
-			}
-			weight: 20.0f
-		}
-		{
-			reward: {
-				count: 2
-				id: "30B25A9D67F16B35"
-				item: { count: 1, id: "cobblemon_utility:goldencap" }
-				type: "item"
-			}
-			weight: 12.0f
-		}
-		{
-			reward: {
-				count: 2
-				id: "3034F46C28B903BD"
-				item: { count: 1, id: "cobblemon:ability_patch" }
-				type: "item"
-			}
-			weight: 10.0f
-		}
-		{
-			reward: {
-				count: 5
-				id: "303E027930A45967"
-				item: { count: 1, id: "cobblemon:cherish_ball" }
-				type: "item"
-			}
-			weight: 10.0f
-		}
-		{
-			reward: {
-				count: 1
-				id: "30CA4D12B69AA0B1"
-				item: { count: 1, id: "mythsandlegends:gs_ball" }
-				type: "item"
-			}
-			weight: 4.0f
-		}
+		{ id: "2672A1923235C13F", weight: 40.0f }
+		{ id: "46547950184AFBF8", weight: 30.0f }
+		{ id: "5AA5E89A9652322E", weight: 20.0f }
+		{ id: "2EE58D932F44028B", weight: 20.0f }
+		{ id: "557FBCB9A2D921E6", weight: 12.0f }
+		{ id: "00C70898A8494DC6", weight: 10.0f }
+		{ id: "017767D945915474", weight: 10.0f }
+		{ id: "6A7F299A3424D802", weight: 4.0f }
 	]
-	title: "Myths & Legends Rewards"
 	use_title: true
 }

@@ -6,20 +6,19 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ reward: { id: "F101A8F5382E0001", type: "item", item: { id: "cobblemon:rare_candy", count: 2 } }, weight: 40.0f }
-		{ reward: { id: "F101A8F5382E0002", type: "item", item: { id: "cobblemon:exp_candy_m", count: 4 } }, weight: 40.0f }
-		{ reward: { id: "F101A8F5382E0003", type: "item", item: { id: "cobblemon:relic_coin_pouch", count: 1 } }, weight: 40.0f }
-		{ reward: { id: "F101A8F5382E0004", type: "item", item: { id: "cobblemon:leftovers", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "F101A8F5382E0005", type: "item", item: { id: "cobblemon:lum_berry", count: 8 } }, weight: 20.0f }
-		{ reward: { id: "F101A8F5382E0006", type: "item", item: { id: "cobblemon:sitrus_berry", count: 8 } }, weight: 20.0f }
-		{ reward: { id: "F101A8F5382E0007", type: "item", item: { id: "cobblemon:fire_stone", count: 1 } }, weight: 8.0f }
-		{ reward: { id: "F101A8F5382E0008", type: "item", item: { id: "cobblemon:water_stone", count: 1 } }, weight: 8.0f }
-		{ reward: { id: "F101A8F5382E0009", type: "item", item: { id: "cobblemon:thunder_stone", count: 1 } }, weight: 8.0f }
-		{ reward: { id: "F101A8F5382E000A", type: "item", item: { id: "cobblemon:leaf_stone", count: 1 } }, weight: 8.0f }
-		{ reward: { id: "F101A8F5382E000B", type: "item", item: { id: "cobblemon:exp_candy_xl", count: 1 } }, weight: 3.0f }
-		{ reward: { id: "F101A8F5382E000C", type: "item", item: { id: "cobblemon:ability_capsule", count: 1 } }, weight: 3.0f }
-		{ reward: { id: "F101A8F5382E000D", type: "item", item: { id: "cobblemon:master_ball", count: 1 } }, weight: 1.0f }
+		{ id: "1E47FA30F5BFBA21", weight: 40.0f }
+		{ id: "31474E973F2EB662", weight: 40.0f }
+		{ id: "0B34D3AEF3C3097C", weight: 40.0f }
+		{ id: "1E2888131BB0AE7F", weight: 20.0f }
+		{ id: "45C4B2012B21D6AC", weight: 20.0f }
+		{ id: "49204C89940FF7B1", weight: 20.0f }
+		{ id: "51AB088F3775B2F7", weight: 8.0f }
+		{ id: "4FB3E840E73D4192", weight: 8.0f }
+		{ id: "1AD3000CC9CDFDB4", weight: 8.0f }
+		{ id: "2A53E9FA3A25B4FB", weight: 8.0f }
+		{ id: "27F7F0D6150E4121", weight: 3.0f }
+		{ id: "6D1175C44A4CE721", weight: 3.0f }
+		{ id: "2E00750C9F7F6FB0" }
 	]
-	title: "Berry Master Rewards"
 	use_title: true
 }

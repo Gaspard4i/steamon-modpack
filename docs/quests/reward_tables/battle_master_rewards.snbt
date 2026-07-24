@@ -1,23 +1,24 @@
 {
-	icon: { id: "cobblemon:life_orb" }
-	id: "C0004AB87DC05D60"
+	icon: {
+		id: "cobblemon:life_orb"
+	}
+	id: "6808DB766C96F1E2"
 	loot_size: 1
-	order_index: 0
+	order_index: 5
 	rewards: [
-		{ reward: { id: "C05D6829C4BFC2D4", type: "item", item: { id: "cobblemon:leftovers", count: 1 } }, weight: 30.0f }
-		{ reward: { id: "C00484A4A8969711", type: "item", item: { id: "cobblemon:life_orb", count: 1 } }, weight: 25.0f }
-		{ reward: { id: "C0326168A48C4F09", type: "item", item: { id: "cobblemon:choice_band", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C0AFDF16A63BEB1C", type: "item", item: { id: "cobblemon:choice_scarf", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C0CFB9F90C017772", type: "item", item: { id: "cobblemon:choice_specs", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C09123AD141A779C", type: "item", item: { id: "cobblemon:focus_sash", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C05DC5242E1F59F5", type: "item", item: { id: "cobblemon:assault_vest", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "C0FDB4F6CF8ADF2C", type: "item", item: { id: "cobblemon:eviolite", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "C0B773D91DB48E4C", type: "item", item: { id: "cobblemon:heavy_duty_boots", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "C0FB50078707BDA4", type: "item", item: { id: "cobblemon:ability_patch", count: 1 } }, weight: 8.0f }
-		{ reward: { id: "C009EA11BBE98ECA", type: "item", item: { id: "cobblemon_utility:goldencap", count: 1 } }, weight: 5.0f }
-		{ reward: { id: "C0C69B6E19A53412", type: "item", item: { id: "cobblemon:relic_coin_pouch", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C0C828C0658305AD", type: "item", item: { id: "cobblemon:master_ball", count: 1 } }, weight: 1.0f }
+		{ id: "52F3AA4B4BA95381", weight: 30.0f }
+		{ id: "23ACB5DD55F58F6C", weight: 25.0f }
+		{ id: "10BB1BDD7C63DE95", weight: 20.0f }
+		{ id: "447F7C44B114A216", weight: 20.0f }
+		{ id: "293EAAA04F9586AE", weight: 20.0f }
+		{ id: "47FEA683B351848D", weight: 20.0f }
+		{ id: "269023A998381D0D", weight: 15.0f }
+		{ id: "4E013B62131FAD22", weight: 15.0f }
+		{ id: "71AD580B50DCB116", weight: 15.0f }
+		{ id: "49FCA0EC0E1D992D", weight: 8.0f }
+		{ id: "40F467B4C9ABF154", weight: 5.0f }
+		{ id: "7929B2C2083BC8FD", weight: 20.0f }
+		{ id: "068025F7C1E50CA9" }
 	]
-	title: "Battle Master Rewards"
 	use_title: true
 }

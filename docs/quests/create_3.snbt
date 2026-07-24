@@ -3,46 +3,28 @@
 	default_quest_shape: "square"
 	filename: "create_3"
 	group: "348AE7020234F2D4"
-	icon: { id: "create:brass_ingot" }
+	icon: {
+		id: "create:brass_ingot"
+	}
 	id: "4AC9C2A03CC7FEF4"
-	order_index: 9
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"105485D414441DF4"
+				"20D128D0BDB10CB3"
+			]
 			id: "20D321EEC05603E1"
-			x: 0d
-			y: 0d
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "Electricity enters Create"
-			description: [
-				"&aCreate: Additions&r bridges Create rotation and Forge Energy (FE). It all runs on &aWires&r and &aConnectors&r that move power between blocks."
-				""
-				"Craft &aCopper Wire&r and a &aConnector&r to start your first electrical grid."
-				""
-				"&eThis milestone opens the Sparks and Circuits branch.&r"
-			]
-			dependencies: ["105485D414441DF4", "20D128D0BDB10CB3"]
-			tasks: [
-				{
-					id: "20AA36E223777756"
-					type: "item"
-					item: "createaddition:copper_wire"
-					count: 4
-				}
-				{
-					id: "202403185CA97E4B"
-					type: "item"
-					item: "createaddition:connector"
-					count: 1
-				}
-			]
 			rewards: [
 				{
-					id: "20A0212BF610ABC4"
-					type: "item"
-					item: "createaddition:copper_wire"
 					count: 8
+					id: "20A0212BF610ABC4"
+					item: {
+						count: 1
+						id: "createaddition:copper_wire"
+					}
+					type: "item"
 				}
 				{
 					id: "201A7C3DDEE821FF"
@@ -50,41 +32,43 @@
 					xp: 80
 				}
 			]
-		},
-		{
-			id: "202A9BD1C81F243A"
-			x: 0d
-			y: 2d
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Rotation into FE"
-			description: [
-				"The &aAlternator&r turns rotational force into electricity. Spin it fast with a water wheel or windmill to generate FE."
-				""
-				"This is your first generator. Everything electric downstream needs it."
-				""
-			]
-			dependencies: ["20D321EEC05603E1"]
 			tasks: [
 				{
-					id: "206EF305736EEFA5"
+					count: 4L
+					id: "20AA36E223777756"
+					item: { count: 1, id: "createaddition:copper_wire" }
 					type: "item"
-					item: "createaddition:alternator"
-					count: 1
+				}
+				{
+					id: "202403185CA97E4B"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
 				}
 			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20D321EEC05603E1"]
+			id: "202A9BD1C81F243A"
 			rewards: [
 				{
 					id: "2092B950AB349DE2"
+					item: {
+						count: 1
+						id: "createaddition:alternator"
+					}
 					type: "item"
-					item: "createaddition:alternator"
-					count: 1
 				}
 				{
 					id: "20F3FBA202D01105"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
-					item: "cobblemon:relic_coin_pouch"
-					count: 1
 				}
 				{
 					id: "20D6B48B9C6E55D1"
@@ -92,35 +76,27 @@
 					xp: 90
 				}
 			]
-		},
-		{
-			id: "20194D83090E4E55"
-			x: 0d
-			y: 4d
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "FE back into rotation"
-			description: [
-				"The &aElectric Motor&r does the reverse: it consumes FE to produce rotation on demand, with adjustable speed."
-				""
-				"Store power when you have surplus, spend it when you need a burst. The heart of a hybrid setup."
-				""
-			]
+			tasks: [{
+				id: "206EF305736EEFA5"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
 			dependencies: ["202A9BD1C81F243A"]
-			tasks: [
-				{
-					id: "209E78EE80134AF1"
-					type: "item"
-					item: "createaddition:electric_motor"
-					count: 1
-				}
-			]
+			id: "20194D83090E4E55"
 			rewards: [
 				{
 					id: "206764571B022C27"
+					item: {
+						count: 1
+						id: "createaddition:electric_motor"
+					}
 					type: "item"
-					item: "createaddition:electric_motor"
-					count: 1
 				}
 				{
 					id: "20DF9C3C2562DC92"
@@ -128,41 +104,36 @@
 					xp: 90
 				}
 			]
-		},
-		{
-			id: "202DEA1408818B44"
-			x: 0d
-			y: 6d
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Bank your power"
-			description: [
-				"The &aAccumulator&r stores FE for later. Chain several, or build a &aModular Accumulator&r, to hold a serious reserve."
-				""
-				"Buffer your generators so machines never stall when the wind drops."
-				""
-			]
+			tasks: [{
+				id: "209E78EE80134AF1"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
 			dependencies: ["20194D83090E4E55"]
-			tasks: [
-				{
-					id: "2092D1D05F6A73BB"
-					type: "item"
-					item: "createaddition:capacitor"
-					count: 1
-				}
-			]
+			id: "202DEA1408818B44"
 			rewards: [
 				{
 					id: "20CEE82BD668B167"
+					item: {
+						count: 1
+						id: "createaddition:capacitor"
+					}
 					type: "item"
-					item: "createaddition:capacitor"
-					count: 1
 				}
 				{
-					id: "20C0D0A9F02B22EA"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 10
+					id: "20C0D0A9F02B22EA"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "201D6F7AD5743E11"
@@ -170,41 +141,35 @@
 					xp: 90
 				}
 			]
-		},
-		{
-			id: "20446249E22B29B0"
-			x: 0d
-			y: 8d
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Send power anywhere"
-			description: [
-				"&aEnder Transmission&r adds wireless transmitters for items, fluids and energy across any distance, plus a &aChunk Loader&r to keep it running."
-				""
-				"Link a base and an outpost without a single wire between them."
-				""
-			]
+			tasks: [{
+				id: "2092D1D05F6A73BB"
+				item: { count: 1, id: "createaddition:capacitor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
 			dependencies: ["202DEA1408818B44"]
-			tasks: [
-				{
-					id: "2097C822F8C10EAC"
-					type: "item"
-					item: "createendertransmission:energy_transmitter"
-					count: 1
-				}
-			]
+			id: "20446249E22B29B0"
 			rewards: [
 				{
 					id: "20CB645D577867CB"
+					item: {
+						count: 1
+						id: "createendertransmission:energy_transmitter"
+					}
 					type: "item"
-					item: "createendertransmission:energy_transmitter"
-					count: 1
 				}
 				{
 					id: "204DC427B7C7AB1E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
-					item: "cobblemon:relic_coin_pouch"
-					count: 1
 				}
 				{
 					id: "20957B052FA79574"
@@ -212,34 +177,28 @@
 					xp: 100
 				}
 			]
-		},
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2097C822F8C10EAC"
+				item: { count: 1, id: "createendertransmission:energy_transmitter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
 		{
-			id: "20FE34F6B18DB45D"
-			x: 2d
-			y: 8d
-			subtitle: "Keep it loaded"
-			description: [
-				"A &aChunk Loader&r forces its chunk to stay active even when no player is nearby, so remote farms and transmitters never pause."
-				""
-				"Essential for any automation you leave running while you are away."
-				""
-			]
 			dependencies: ["20446249E22B29B0"]
+			id: "20FE34F6B18DB45D"
 			optional: true
-			tasks: [
-				{
-					id: "20649CABE08B1C3D"
-					type: "item"
-					item: "createendertransmission:chunk_loader"
-					count: 1
-				}
-			]
 			rewards: [
 				{
 					id: "2073A09DC356B23E"
+					item: {
+						count: 1
+						id: "createendertransmission:chunk_loader"
+					}
 					type: "item"
-					item: "createendertransmission:chunk_loader"
-					count: 1
 				}
 				{
 					id: "20C914FE0A97DD21"
@@ -247,41 +206,33 @@
 					xp: 80
 				}
 			]
-		},
+			tasks: [{
+				id: "20649CABE08B1C3D"
+				item: { count: 1, id: "createendertransmission:chunk_loader" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
 		{
-			id: "204D78A5D6475BBF"
-			x: 0d
-			y: 10d
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "Automate enchanting"
-			description: [
-				"&aEnchantment Industry&r lets you pump liquid &aExperience&r and automate enchanting with the &aBlaze Enchanter&r and &aPrinter&r."
-				""
-				"Turn a mob farm XP into fluid, then enchant and print books at industrial scale."
-				""
-			]
 			dependencies: ["20446249E22B29B0"]
-			tasks: [
-				{
-					id: "20038FE87EE8F2CA"
-					type: "item"
-					item: "create_enchantment_industry:blaze_enchanter"
-					count: 1
-				}
-			]
+			id: "204D78A5D6475BBF"
 			rewards: [
 				{
 					id: "2018C4ACBB4F0788"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:blaze_enchanter"
+					}
 					type: "item"
-					item: "create_enchantment_industry:blaze_enchanter"
-					count: 1
 				}
 				{
 					id: "2026A37D6C0E7D31"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
-					item: "cobblemon:relic_coin_sack"
-					count: 1
 				}
 				{
 					id: "2048B4BC38965E90"
@@ -289,40 +240,37 @@
 					xp: 120
 				}
 			]
-		},
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "20038FE87EE8F2CA"
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
 		{
-			id: "20015467B3A63340"
-			x: 2d
-			y: 10d
-			subtitle: "Copy your books"
-			description: [
-				"The &aPrinter&r duplicates written books and enchanted books using ink and liquid experience."
-				""
-				"Mass-produce your best enchantments once you have the recipe dialed in."
-				""
-			]
 			dependencies: ["204D78A5D6475BBF"]
+			id: "20015467B3A63340"
 			optional: true
-			tasks: [
-				{
-					id: "20CDD023B1D41A4D"
-					type: "item"
-					item: "create_enchantment_industry:printer"
-					count: 1
-				}
-			]
 			rewards: [
 				{
 					id: "20BCC237C0F8D1CC"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:printer"
+					}
 					type: "item"
-					item: "create_enchantment_industry:printer"
-					count: 1
 				}
 				{
-					id: "202017A0381F877A"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 10
+					id: "202017A0381F877A"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "20DA1C7B467A9ADD"
@@ -330,216 +278,193 @@
 					xp: 90
 				}
 			]
-		},
+			tasks: [{
+				id: "20CDD023B1D41A4D"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
 		{
-			id: "205FD3E5819062F3"
-			x: 3d
-			y: 2d
 			dependencies: ["20D321EEC05603E1"]
-			tasks: [
-				{
-					id: "20802C93ABAFEBC4"
-					type: "item"
-					item: "createaddition:copper_wire"
+			id: "205FD3E5819062F3"
+			rewards: [{
+				count: 2
+				id: "204B3BCB679C390A"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "204B3BCB679C390A"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "20802C93ABAFEBC4"
+				item: { count: 1, id: "createaddition:copper_wire" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
 		{
+			dependencies: ["205FD3E5819062F3"]
 			id: "20889B13282F2365"
-			x: 4d
-			y: 2d
-			dependencies: ["205FD3E5819062F3"]
-			tasks: [
-				{
-					id: "20C677409DFFB990"
-					type: "item"
-					item: "createaddition:gold_wire"
+			rewards: [{
+				count: 2
+				id: "20FE22095C3CB8FB"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20FE22095C3CB8FB"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "20C677409DFFB990"
+				item: { count: 1, id: "createaddition:gold_wire" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
 		{
-			id: "2003BF12AD31051A"
-			x: 5d
-			y: 2d
 			dependencies: ["20889B13282F2365"]
-			tasks: [
-				{
-					id: "204CA6AE813544A6"
-					type: "item"
-					item: "createaddition:connector"
+			id: "2003BF12AD31051A"
+			rewards: [{
+				count: 2
+				id: "20AF42B9219FB60C"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20AF42B9219FB60C"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "204CA6AE813544A6"
+				item: { count: 1, id: "createaddition:connector" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
 		{
-			id: "2050ECFABF39515D"
-			x: 6d
-			y: 2d
 			dependencies: ["2003BF12AD31051A"]
-			tasks: [
-				{
-					id: "20F85EDFB2DEB9AD"
-					type: "item"
-					item: "createaddition:large_connector"
+			id: "2050ECFABF39515D"
+			rewards: [{
+				count: 2
+				id: "2086315BED4F2BA7"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "2086315BED4F2BA7"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "20F85EDFB2DEB9AD"
+				item: { count: 1, id: "createaddition:large_connector" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
 		{
-			id: "2054F3196E527301"
-			x: 3d
-			y: 4d
 			dependencies: ["205FD3E5819062F3"]
-			tasks: [
-				{
-					id: "20FCD852B2A588C4"
-					type: "item"
-					item: "createaddition:capacitor"
+			id: "2054F3196E527301"
+			rewards: [{
+				count: 2
+				id: "20F249AFE1293C81"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20F249AFE1293C81"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "20FCD852B2A588C4"
+				item: { count: 1, id: "createaddition:capacitor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
 		{
-			id: "208A47FEC33055B8"
-			x: 4d
-			y: 4d
 			dependencies: ["2054F3196E527301"]
-			tasks: [
-				{
-					id: "20DA56EDD33A48AF"
-					type: "item"
-					item: "createaddition:electrum_ingot"
+			id: "208A47FEC33055B8"
+			rewards: [{
+				count: 2
+				id: "201F6C7B5FBC42B5"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "201F6C7B5FBC42B5"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "20DA56EDD33A48AF"
+				item: { count: 1, id: "createaddition:electrum_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
 		{
-			id: "205C5B77675AD95D"
-			x: 5d
-			y: 4d
 			dependencies: ["208A47FEC33055B8"]
-			tasks: [
-				{
-					id: "202B001B7327196D"
-					type: "item"
-					item: "createaddition:tesla_coil"
+			id: "205C5B77675AD95D"
+			rewards: [{
+				count: 2
+				id: "20433DCC644914AA"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20433DCC644914AA"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "202B001B7327196D"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
 		{
-			id: "208E7F469308A0AD"
-			x: 6d
-			y: 4d
 			dependencies: ["205C5B77675AD95D"]
-			tasks: [
-				{
-					id: "203D9510B7B5DDAE"
-					type: "item"
-					item: "createaddition:rolling_mill"
+			id: "208E7F469308A0AD"
+			rewards: [{
+				count: 2
+				id: "20DD7DA32184B35A"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20DD7DA32184B35A"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "203D9510B7B5DDAE"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
 		{
+			dependencies: [
+				"204D78A5D6475BBF"
+				"2050ECFABF39515D"
+				"208E7F469308A0AD"
+			]
 			id: "20FC1F519A9040EF"
-			x: 0d
-			y: 12d
-			shape: "gear"
-			size: 2.0d
-			subtitle: "Master of Sparks and Circuits"
-			description: [
-				"You generate, store and transmit power, and you automate enchanting. Create is now a fully electrified factory."
-				""
-				"&eClaim your reward and prepare for Beyond the Machine&r, the endgame of Steamon tech tree."
-				""
-			]
-			dependencies: ["204D78A5D6475BBF", "2050ECFABF39515D", "208E7F469308A0AD"]
-			tasks: [
-				{
-					id: "202D874414A410E0"
-					type: "item"
-					item: "createaddition:capacitor"
-					count: 1
-				}
-			]
 			rewards: [
 				{
 					id: "20F98DFFA81464B6"
 					type: "random"
-					table_id: "20AABBCC00000003"
 				}
 				{
 					id: "209B7F2696799D03"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
-					item: "cobblemon:relic_coin_sack"
-					count: 1
 				}
 				{
 					id: "2059DC63C8DF0C59"
@@ -547,7 +472,15 @@
 					xp: 250
 				}
 			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "202D874414A410E0"
+				item: { count: 1, id: "createaddition:capacitor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
 		}
 	]
-	title: "Sparks & Circuits"
 }

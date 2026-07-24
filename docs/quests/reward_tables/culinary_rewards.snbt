@@ -1,110 +1,22 @@
 {
-	hide_tooltip: false
-	icon: { id: "farmersdelight:cooking_pot" }
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
 	id: "50B58974B2A5A91B"
 	loot_size: 1
-	order_index: 0
+	order_index: 1
 	rewards: [
-		{
-			reward: {
-				count: 16
-				id: "5004A8B06ADDFF24"
-				item: { count: 1, id: "cobblemon:relic_coin" }
-				type: "item"
-			}
-			weight: 40.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "504D84E2FFB30DF9"
-				item: { count: 1, id: "cobblemon:relic_coin_sack" }
-				type: "item"
-			}
-			weight: 25.0f
-		},
-		{
-			reward: {
-				count: 16
-				id: "509C6E11E1E28792"
-				item: { count: 1, id: "farmersdelight:cooked_rice" }
-				type: "item"
-			}
-			weight: 30.0f
-		},
-		{
-			reward: {
-				count: 16
-				id: "506EEA6AFA735EAE"
-				item: { count: 1, id: "farmersdelight:rice" }
-				type: "item"
-			}
-			weight: 30.0f
-		},
-		{
-			reward: {
-				count: 8
-				id: "504C470CA3CD144E"
-				item: { count: 1, id: "farmersdelight:cabbage_seeds" }
-				type: "item"
-			}
-			weight: 20.0f
-		},
-		{
-			reward: {
-				count: 8
-				id: "509A5C624B008C6A"
-				item: { count: 1, id: "farmersdelight:tomato_seeds" }
-				type: "item"
-			}
-			weight: 20.0f
-		},
-		{
-			reward: {
-				count: 6
-				id: "50705925B3B6C6EB"
-				item: { count: 1, id: "cobblemon:exp_candy_l" }
-				type: "item"
-			}
-			weight: 20.0f
-		},
-		{
-			reward: {
-				count: 3
-				id: "50070EE77AB05C07"
-				item: { count: 1, id: "cobblemon:exp_candy_xl" }
-				type: "item"
-			}
-			weight: 8.0f
-		},
-		{
-			reward: {
-				count: 3
-				id: "50F3BF275376772E"
-				item: { count: 1, id: "aethersdelight:arkenium_ingot" }
-				type: "item"
-			}
-			weight: 6.0f
-		},
-		{
-			reward: {
-				count: 3
-				id: "50322309A8CBE2FC"
-				item: { count: 1, id: "cobblemon:rare_candy" }
-				type: "item"
-			}
-			weight: 6.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "50741A0297DF544C"
-				item: { count: 1, id: "cobblemon:master_ball" }
-				type: "item"
-			}
-			weight: 1.0f
-		},
+		{ id: "6B36E644E48E6E83", weight: 40.0f }
+		{ id: "1173516F353615F3", weight: 25.0f }
+		{ id: "0B62A83467BA7D4D", weight: 30.0f }
+		{ id: "3111523632EE4A3B", weight: 30.0f }
+		{ id: "6DDB612B2F588791", weight: 20.0f }
+		{ id: "43B10660360EF7A2", weight: 20.0f }
+		{ id: "49EA6CF14368A1EB", weight: 20.0f }
+		{ id: "65F092B4A2CAAA24", weight: 8.0f }
+		{ id: "46707D307E224B36", weight: 6.0f }
+		{ id: "41A64E1285F3FEA4", weight: 6.0f }
+		{ id: "3058A051B67E730D" }
 	]
-	title: "Master Chef Rewards"
 	use_title: true
 }

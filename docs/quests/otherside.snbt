@@ -7,40 +7,23 @@
 		id: "deeperdarker:cobbled_gloomslate"
 	}
 	id: "3D0322088ABD7480"
-	order_index: 13
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			id: "40C4EA2C73849FF0"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: { id: "minecraft:echo_shard" }
-			subtitle: "Descend to the Ancient City"
-			description: [
-				"The path to the &aOtherside&r begins in the &aDeep Dark&r, inside an &aAncient City&r beneath the world."
-				""
-				"Sneak past the Warden, loot the chests and bring back 2 &aEcho Shards&r. Somewhere down there is the doorway to another realm."
-				""
-				"&aGhost&r, &aDark&r and &aDragon&r type Pokemon lurk beyond the gate."
-			]
 			dependencies: ["1008C7F7965BD055"]
-			tasks: [
-				{
-					id: "40C99ACE29D2E2C6"
-					type: "item"
-					title: "Loot Echo Shards from an Ancient City"
-					item: "minecraft:echo_shard"
-					count: 2
-				}
-			]
+			icon: {
+				id: "minecraft:echo_shard"
+			}
+			id: "40C4EA2C73849FF0"
 			rewards: [
 				{
 					id: "40F491A2BFDA7546"
+					item: {
+						count: 1
+						id: "minecraft:sculk_catalyst"
+					}
 					type: "item"
-					item: "minecraft:sculk_catalyst"
-					count: 1
 				}
 				{
 					id: "40DD1928846DFB30"
@@ -48,32 +31,29 @@
 					xp: 200
 				}
 			]
-		},
-		{
-			id: "40A7467B5D2CE20D"
-			x: 2.0d
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "40C99ACE29D2E2C6"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 0.0d
 			y: 0.0d
-			subtitle: "Open the Otherside portal"
-			description: [
-				"Within the Ancient City stands a portal frame of &aOtherside stone&r. Fill and light it to open the gate, then step through."
-				""
-				"The Otherside is a dark mirror of the Deep Dark, sprawling and silent."
-			]
+		}
+		{
 			dependencies: ["40C4EA2C73849FF0"]
-			tasks: [
-				{
-					id: "40019331EDEA6045"
-					type: "advancement"
-					advancement: "deeperdarker:main/enter_otherside"
-					criterion: "otherside"
-				}
-			]
+			id: "40A7467B5D2CE20D"
 			rewards: [
 				{
-					id: "40BB563ABABFC072"
-					type: "item"
-					item: "deeperdarker:echo_log"
 					count: 8
+					id: "40BB563ABABFC072"
+					item: {
+						count: 1
+						id: "deeperdarker:echo_log"
+					}
+					type: "item"
 				}
 				{
 					id: "40AAAB18D455CBE9"
@@ -81,32 +61,27 @@
 					xp: 250
 				}
 			]
-		},
-		{
-			id: "4066741F39AE17E5"
-			x: 4.0d
+			tasks: [{
+				advancement: "deeperdarker:main/enter_otherside"
+				criterion: "otherside"
+				id: "40019331EDEA6045"
+				type: "advancement"
+			}]
+			x: 2.0d
 			y: 0.0d
-			subtitle: "Stone of the other realm"
-			description: [
-				"The Otherside is carved from &aGloomslate&r and &aSculk Stone&r. Mine it to build in this shadowed world."
-				""
-				"Collect a stack of Cobbled Gloomslate. Its tools and armor rival the overworld's best."
-			]
+		}
+		{
 			dependencies: ["40A7467B5D2CE20D"]
-			tasks: [
-				{
-					id: "405DFAACB2B5B41B"
-					type: "item"
-					item: "deeperdarker:cobbled_gloomslate"
-					count: 16
-				}
-			]
+			id: "4066741F39AE17E5"
 			rewards: [
 				{
-					id: "40D447A8EE6213D2"
-					type: "item"
-					item: "deeperdarker:gloomslate"
 					count: 8
+					id: "40D447A8EE6213D2"
+					item: {
+						count: 1
+						id: "deeperdarker:gloomslate"
+					}
+					type: "item"
 				}
 				{
 					id: "4034D82AEC30B10A"
@@ -114,32 +89,27 @@
 					xp: 200
 				}
 			]
-		},
-		{
-			id: "400B70B15CA981EA"
-			x: 6.0d
+			tasks: [{
+				count: 16L
+				id: "405DFAACB2B5B41B"
+				item: { count: 1, id: "deeperdarker:cobbled_gloomslate" }
+				type: "item"
+			}]
+			x: 4.0d
 			y: 0.0d
-			subtitle: "Shards of the deep"
-			description: [
-				"&aReinforced Echo Shards&r are the Otherside's crafting cores, forged from echo shards and the realm's own stone."
-				""
-				"Craft a Reinforced Echo Shard. It fuels the strongest Deeper Darker gear."
-			]
+		}
+		{
 			dependencies: ["4066741F39AE17E5"]
-			tasks: [
-				{
-					id: "40C32A7DAC16B572"
-					type: "advancement"
-					advancement: "deeperdarker:main/obtain_reinforced_echo_shard"
-					criterion: ""
-				}
-			]
+			id: "400B70B15CA981EA"
 			rewards: [
 				{
-					id: "4021B66350669FC7"
-					type: "item"
-					item: "deeperdarker:resonarium"
 					count: 2
+					id: "4021B66350669FC7"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium"
+					}
+					type: "item"
 				}
 				{
 					id: "4030A5695075FEED"
@@ -147,38 +117,34 @@
 					xp: 250
 				}
 			]
-		},
-		{
-			id: "4043768E77603466"
-			x: 8.0d
+			tasks: [{
+				advancement: "deeperdarker:main/obtain_reinforced_echo_shard"
+				criterion: ""
+				id: "40C32A7DAC16B572"
+				type: "advancement"
+			}]
+			x: 6.0d
 			y: 0.0d
-			subtitle: "The Otherside Temple"
-			description: [
-				"Deep in the Otherside stands a &aTemple&r holding the &aHeart of the Deep&r, its greatest treasure."
-				""
-				"Explore the temple and claim the Heart of the Deep. It is the key to the realm's finest crafts."
-			]
+		}
+		{
 			dependencies: ["400B70B15CA981EA"]
-			tasks: [
-				{
-					id: "4038370F09396856"
-					type: "item"
-					item: "deeperdarker:heart_of_the_deep"
-					count: 1
-				}
-			]
+			id: "4043768E77603466"
 			rewards: [
 				{
 					id: "40B90A0EE0284991"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium_helmet"
+					}
 					type: "item"
-					item: "deeperdarker:resonarium_helmet"
-					count: 1
 				}
 				{
 					id: "40BDCF8ECBEEA1C3"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
-					item: "cobblemon:relic_coin_pouch"
-					count: 1
 				}
 				{
 					id: "402A267939B37A10"
@@ -186,44 +152,26 @@
 					xp: 350
 				}
 			]
-		},
+			tasks: [{
+				id: "4038370F09396856"
+				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
 		{
-			id: "40E836AE008BD782"
-			x: 2.0d
-			y: -2.5d
-			subtitle: "Spirits of the dark"
-			description: [
-				"The Otherside crawls with &aGhost type&r Pokemon from the OthersideCobblemonSpawns pack. Catch 2 of them here."
-				""
-				"Ghost types haunt this dimension in numbers found nowhere else. Bring a light and a steady nerve."
-			]
 			dependencies: ["40A7467B5D2CE20D"]
-			tasks: [
-				{
-					id: "40230BB08D0CA62B"
-					title: "Catch 2 Ghost type Pokemon in the Otherside"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 2L
-					biome: ""
-					dimension: "deeperdarker:otherside"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "ghost"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			id: "40E836AE008BD782"
 			rewards: [
 				{
-					id: "40BCD40A1F20C789"
-					type: "item"
-					item: "cobblemon:dusk_ball"
 					count: 6
+					id: "40BCD40A1F20C789"
+					item: {
+						count: 1
+						id: "cobblemon:dusk_ball"
+					}
+					type: "item"
 				}
 				{
 					id: "40F7839E18B48DB2"
@@ -231,44 +179,50 @@
 					xp: 250
 				}
 			]
-		},
-		{
-			id: "4000684EADA90E4E"
-			x: 4.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 2L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "40230BB08D0CA62B"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.0d
 			y: -2.5d
-			subtitle: "Denizens of shadow"
-			description: [
-				"&aDark type&r Pokemon rule the Otherside alongside the ghosts. Catch 2 here."
-				""
-				"Dark types thrive far from any sun. Fire and Ghost teammates cover their weaknesses well."
-			]
+		}
+		{
 			dependencies: ["40E836AE008BD782"]
-			tasks: [
-				{
-					id: "40E63FE828612DD1"
-					title: "Catch 2 Dark type Pokemon in the Otherside"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 2L
-					biome: ""
-					dimension: "deeperdarker:otherside"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "dark"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			id: "4000684EADA90E4E"
 			rewards: [
 				{
-					id: "40D61EED2F5653E8"
-					type: "item"
-					item: "cobblemon:ultra_ball"
 					count: 4
+					id: "40D61EED2F5653E8"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
 				}
 				{
 					id: "400C6F5AB73D0A27"
@@ -276,44 +230,50 @@
 					xp: 250
 				}
 			]
-		},
-		{
-			id: "40B0202CA677F4CD"
-			x: 6.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 2L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "40E63FE828612DD1"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.0d
 			y: -2.5d
-			subtitle: "Dragons in the deep"
-			description: [
-				"The Otherside hides rare &aDragon&r and paradox Pokemon in its deepest reaches."
-				""
-				"Catch a Dragon type here. A Beast Ball may be your best chance at the strangest species."
-			]
+		}
+		{
 			dependencies: ["4000684EADA90E4E"]
-			tasks: [
-				{
-					id: "40B480BECC77AEAC"
-					title: "Catch a Dragon type Pokemon in the Otherside"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: "deeperdarker:otherside"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "dragon"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			id: "40B0202CA677F4CD"
 			rewards: [
 				{
-					id: "405F7F5458FC8852"
-					type: "item"
-					item: "cobblemon:beast_ball"
 					count: 3
+					id: "405F7F5458FC8852"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
 				}
 				{
 					id: "40C55BE6FD062F72"
@@ -321,40 +281,53 @@
 					xp: 350
 				}
 			]
-		},
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "40B480BECC77AEAC"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dragon"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
 		{
-			id: "40CDEB41E5A18660"
-			x: 2.0d
-			y: 2.5d
-			icon: { id: "deeperdarker:heart_of_the_deep" }
 			dependencies: ["40A7467B5D2CE20D"]
-			min_required_dependencies: 0
-			tasks: [
-				{
-					id: "4046F7C28D3F1916"
-					title: "Catch a Ghost type"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: "deeperdarker:otherside"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "ghost"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			id: "40CDEB41E5A18660"
 			rewards: [
 				{
-					id: "40A93BF1976A5AFC"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 5
+					id: "40A93BF1976A5AFC"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "40116F99FDA23D12"
@@ -362,40 +335,53 @@
 					xp: 60
 				}
 			]
-		},
-		{
-			id: "403420D65C5F13B8"
-			x: 4.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4046F7C28D3F1916"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.0d
 			y: 2.5d
-			icon: { id: "cobblemon:dusk_ball" }
+		}
+		{
 			dependencies: ["40CDEB41E5A18660"]
-			min_required_dependencies: 0
-			tasks: [
-				{
-					id: "406860FAA952CF40"
-					title: "Catch a Dark type"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: "deeperdarker:otherside"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "dark"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			icon: {
+				id: "cobblemon:dusk_ball"
+			}
+			id: "403420D65C5F13B8"
 			rewards: [
 				{
-					id: "402D3430D7F21654"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 5
+					id: "402D3430D7F21654"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "40B161A3934CA9A3"
@@ -403,40 +389,53 @@
 					xp: 60
 				}
 			]
-		},
-		{
-			id: "4017A30D1D6290F2"
-			x: 6.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "406860FAA952CF40"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.0d
 			y: 2.5d
-			icon: { id: "cobblemon:beast_ball" }
+		}
+		{
 			dependencies: ["403420D65C5F13B8"]
-			min_required_dependencies: 0
-			tasks: [
-				{
-					id: "40375736D69B146F"
-					title: "Catch a Dragon type"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: "deeperdarker:otherside"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "dragon"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			icon: {
+				id: "cobblemon:beast_ball"
+			}
+			id: "4017A30D1D6290F2"
 			rewards: [
 				{
-					id: "40ADC81315EA628B"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 5
+					id: "40ADC81315EA628B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "40288DFCD49A4A2B"
@@ -444,44 +443,63 @@
 					xp: 60
 				}
 			]
-		},
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "40375736D69B146F"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dragon"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
 		{
+			dependencies: [
+				"4043768E77603466"
+				"40B0202CA677F4CD"
+				"40CDEB41E5A18660"
+				"403420D65C5F13B8"
+				"4017A30D1D6290F2"
+			]
+			icon: {
+				id: "deeperdarker:resonarium_chestplate"
+			}
 			id: "4029EBE8C49167AB"
-			x: 12.0d
-			y: 0.0d
-			shape: "gear"
-			size: 2.0d
-			icon: { id: "deeperdarker:resonarium_chestplate" }
-			subtitle: "Sovereign of the shadow realm"
-			description: [
-				"You have opened the gate, cleared the temple and tamed the dark."
-				""
-				"Forge a piece of &aResonarium&r armor to seal your mastery of every dimension, then claim a random pull from the &aOtherside Cache&r."
-				""
-				"From the overworld to the Otherside, Steamon holds no realm you have not conquered."
-			]
-			dependencies: ["4043768E77603466" "40B0202CA677F4CD" "40CDEB41E5A18660" "403420D65C5F13B8" "4017A30D1D6290F2"]
 			min_required_dependencies: 1
-			tasks: [
-				{
-					id: "405924FE5B81C46C"
-					type: "item"
-					title: "Forge Resonarium armor"
-					item: "deeperdarker:resonarium_chestplate"
-					count: 1
-				}
-			]
 			rewards: [
 				{
 					id: "404ADBB0E1B0DD58"
 					type: "random"
-					table_id: "401CB7322A4BCDEE"
 				}
 				{
 					id: "4083DD823017E1C4"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
 					type: "item"
-					item: "cobblemon:master_ball"
-					count: 1
 				}
 				{
 					id: "40F85C00E6608BF6"
@@ -489,6 +507,15 @@
 					xp: 600
 				}
 			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "405924FE5B81C46C"
+				item: { count: 1, id: "deeperdarker:resonarium_chestplate" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
 		}
 	]
 }

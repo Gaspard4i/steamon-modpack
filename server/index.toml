@@ -3506,6 +3506,10 @@ file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_milling_seas
 hash = "c9689abf3cb4cc3677489f7b6592eaa6163bc28998a426d1ce0f9d39ce3ec05a"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/cherish_ball_sequenced.json"
+hash = "362442f0a54c60c2cb14fce47df643b5402934197e84e7d120c3c325b325261b"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/crushing/blooming_sculk_stone.json"
 hash = "4ea9439f5d3cb20b251a592b59758e686b5b616a4f9a02a2b14637e02eea53df"
 

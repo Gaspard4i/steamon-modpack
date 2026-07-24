@@ -4,15 +4,14 @@
 	}
 	id: "102F9B9151F548D8"
 	loot_size: 1
-	order_index: 1
+	order_index: 10
 	rewards: [
-		{ reward: { id: "1001A8F5382E0001", type: "item", item: { id: "cobblemon:relic_coin_pouch", count: 1 } }, weight: 40.0f }
-		{ reward: { id: "1001A8F5382E0002", type: "item", item: { id: "cobblemon:rare_candy", count: 3 } }, weight: 30.0f }
-		{ reward: { id: "1001A8F5382E0003", type: "item", item: { id: "cobblemon:ultra_ball", count: 8 } }, weight: 25.0f }
-		{ reward: { id: "1001A8F5382E0004", type: "item", item: { id: "cobblemon:exp_candy_l", count: 2 } }, weight: 15.0f }
-		{ reward: { id: "1001A8F5382E0005", type: "item", item: { id: "cobblemon:relic_coin_sack", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "1001A8F5382E0006", type: "item", item: { id: "cobblemon:master_ball", count: 1 } }, weight: 3.0f }
+		{ id: "7E1A040FA2D7FE81", weight: 40.0f }
+		{ id: "5DE373FA4C081B26", weight: 30.0f }
+		{ id: "3F356D4AD2128C12", weight: 25.0f }
+		{ id: "7FDC97CE9D0E4F5A", weight: 15.0f }
+		{ id: "630C9EF5F6D44F51", weight: 15.0f }
+		{ id: "62799E0568E59CE6", weight: 3.0f }
 	]
-	title: "Journey Rewards"
 	use_title: true
 }

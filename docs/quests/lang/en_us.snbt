@@ -1,0 +1,2869 @@
+{
+	chapter.11428B5DCB284F18.title: "The Aether"
+	chapter.13E19555881008B6.title: "Cogs & Crates"
+	chapter.2139644C7994A01B.title: "The End"
+	chapter.217E2268CE450D1B.title: "First Steps"
+	chapter.2BC90E55E57FA3C2.title: "Daily Quests"
+	chapter.320A946A705510B3.title: "Beyond the Machine"
+	chapter.388F59E226EBC45B.title: "Myths & Legends"
+	chapter.3D0322088ABD7480.title: "Otherside"
+	chapter.3EF16F7A003E45D5.title: "Nether"
+	chapter.46B599A838F27B8A.title: "Culinary"
+	chapter.4AC9C2A03CC7FEF4.title: "Sparks & Circuits"
+	chapter.4B491D83F2C81B36.title: "Steamon League"
+	chapter.509B21D25C01D8EB.title: "Welcome"
+	chapter.5EFD32D15CC97C4F.title: "Adventure & Loot"
+	chapter.612937DFCAE1B256.title: "Steamon Journey"
+	chapter.612C81EB79BF4D14.title: "Berries"
+	chapter.680467472FCE4635.title: "Trainer's Path"
+	chapter.7562E720C8A255F8.title: "Rotational Power"
+	chapter.C0157DBF045118CA.title: "Evolution Items"
+	chapter.C0CE44042B5F1369.title: "PvP Battle Items"
+	chapter.C0F466D125501734.title: "Cobblemon Cooking"
+	chapter_group.175FA950F5B31EAB.title: "Adventure"
+	chapter_group.1AF20BFA15DC3940.title: "Dimensions"
+	chapter_group.2A4A6BF9FB018712.title: "Cobblemon"
+	chapter_group.2C0FD201CD572F12.title: "Culinary"
+	chapter_group.348AE7020234F2D4.title: "Create"
+	chapter_group.3DBCC9E2D8397D4A.title: "Getting Started"
+	quest.00716086C3AA6CCE.quest_desc: [
+		"&aAncient Debris&r hides deep in the Nether. Smelt it into Netherite Scrap and craft &aNetherite Ingots&r."
+		""
+		"Mine and process enough debris for a Netherite Ingot."
+		""
+		"Netherite gear survives what diamond cannot."
+	]
+	quest.00716086C3AA6CCE.quest_subtitle: "The hardest metal"
+	quest.00B30EAE2FF80368.quest_desc: ["A Utility+ obsidian Speed cap."]
+	quest.0108345428C6A5A1.quest_desc: [
+		"Build a &aNether Portal&r from obsidian and light it with flint and steel."
+		""
+		"Step through into a world of fire, ash and rare Pokemon."
+		""
+		"Bring gold. The Nether respects those who wear it."
+	]
+	quest.0108345428C6A5A1.quest_subtitle: "Light the way down"
+	quest.01CD388FD52FF912.quest_desc: [
+		"Poke Balls are the tools of every Trainer. In Steamon you craft them from &aApricorns&r."
+		""
+		"Harvest colored Apricorns from Apricorn trees found around the world, cook a &ered Apricorn&r in a furnace to get an &aApricorn Lid&r, then craft a Poke Ball with the lid and an iron ingot."
+		""
+		"Stock up. You will need plenty."
+	]
+	quest.01CD388FD52FF912.quest_subtitle: "No Trainer travels without Poke Balls"
+	quest.0273F11F73F41C4B.quest_desc: ["A Utility+ cap that guarantees a high HP IV floor when applied."]
+	quest.030706C9972D89C0.quest_desc: ["Sharply raises one random stat when HP runs low. High-risk, high-reward and famously unpredictable."]
+	quest.033AA5825BF33610.quest_desc: [
+		"&aCreate Nuclear&r adds &aUranium&r ore deep underground. Mine it, then process the raw uranium into &aYellowcake&r and &aUranium Rods&r."
+		""
+		"Handle it with care. This is the fuel for your reactor."
+		""
+		"Gather raw uranium and refine your first Uranium Rod."
+	]
+	quest.033AA5825BF33610.quest_subtitle: "Mine the glowing rock"
+	quest.0359CFB8910D5E9A.quest_desc: [
+		"A &aBlaze Burner&r holds a captured blaze and heats the Basin above it. Feed it fuel for normal heat, or &aBlaze Cake&r for &asuperheating&r."
+		""
+		"Superheated basins unlock the pack's most advanced mixing and alloying recipes."
+		""
+		"Capture a blaze in an Empty Blaze Burner and craft a stack of Blaze Cakes."
+	]
+	quest.0359CFB8910D5E9A.quest_subtitle: "Fire, heat and power"
+	quest.0392EBF332416130.quest_desc: ["Changes a Pokemon's nature to Brave, reshaping its stat spread without re-breeding."]
+	quest.04126E3C1AB76169.quest_desc: ["A held metal coating that evolves Onix into Steelix and Scyther into Scizor."]
+	quest.0488BD2CA10821C5.quest_desc: [
+		"Pour water into your glowstone frame and rise into the &aAether&r, a paradise of floating islands."
+		""
+		"Enter the Aether dimension."
+		""
+		"Bright skies, holy stone and divine creatures await above the clouds."
+	]
+	quest.0488BD2CA10821C5.quest_subtitle: "Ascend to the isles"
+	quest.05843ACAD754B724.quest_desc: ["Lowers Attack EVs and raises friendship. Handy for re-training a special attacker or evolving on friendship."]
+	quest.060BBC24DA4BF541.quest_desc: ["Evolves Gligar into Gliscor when held at night, and can cause flinching."]
+	quest.0665B33E2B5770CB.quest_desc: [
+		"You now have every tool to automate a full process end to end."
+		""
+		"Build one &aself-running production line&r: a source of rotation feeding drills or fans, items carried on belts and sorted by funnels or an arm, with the output collected in a chest."
+		""
+		"Prove it works by stockpiling &a64 washed materials, planks or crushed ore&r. You have graduated to true automation."
+	]
+	quest.0665B33E2B5770CB.quest_subtitle: "A machine that runs itself"
+	quest.06BA82A06BF7842E.quest_desc: ["A firm food berry used in cooking. No held battle effect on the server."]
+	quest.07734F1A60D01289.quest_desc: [
+		"Beating wild Pokemon grants hidden &aEVs&r that permanently boost your stats. &aFeathers&r give a small, targeted EV boost in one stat with no grinding."
+		""
+		"Collect a set of feathers so you can hand tune any stat: &aHealth&r, &aMuscle&r, &aResist&r, &aGenius&r, &aClever&r and &aSwift&r feathers cover all six."
+		""
+		"Stock up on feathers to shape your team's stats."
+	]
+	quest.07734F1A60D01289.quest_subtitle: "Train stats the fast way"
+	quest.0786B6A084D59A9A.quest_desc: ["A bitter food berry. In the games it can pinch-heal HP but may confuse a picky Pokemon; here it is mainly a cooking ingredient."]
+	quest.07B41EF5E9FD3A17.quest_desc: ["Held item that damages an attacker back when the holder is hit by a special move. The special-side counterpart to Jaboca."]
+	quest.07E4C99E4BEDE8E9.quest_desc: ["Protects from weather damage and powder moves like Spore."]
+	quest.0810A531D8798861.quest_desc: ["Locks the holder into one move but boosts its Special Attack by 50 percent."]
+	quest.09EA7E2A62D56CB6.quest_desc: ["An eggplant-shaped food berry. Purely a cooking ingredient with no battle use."]
+	quest.0A96541156F30C36.quest_desc: ["Raises the Speed IV toward its maximum."]
+	quest.0AF37277D45D5B46.quest_desc: [
+		"Some species have &aregional forms&r, alternate versions with different typings and looks depending on where they are found."
+		""
+		"Track down and &acatch a regional form&r, such as an Alolan or Galarian variant, to expand your collection beyond the ordinary."
+		""
+		"A true collector chases every form, not just every species."
+	]
+	quest.0AF37277D45D5B46.quest_subtitle: "Pokemon from distant lands"
+	quest.0C309E7E5DAF01C8.quest_desc: [
+		"The &aFactory Gauge&r and &aRedstone Requester&r let machines request exactly the items they need and keep production balanced automatically."
+		""
+		"Wire them into your package network so a machine pulls stock only when it runs low."
+		""
+		"This is the difference between a pile of machines and a real factory."
+	]
+	quest.0C309E7E5DAF01C8.quest_subtitle: "Read your factory at a glance"
+	quest.0C572BFFD9ED2FB9.quest_desc: [
+		"A Pokemon's &aNature&r raises one stat and lowers another. When breeding, a parent holding an &aEverstone&r passes its exact Nature to the whole clutch."
+		""
+		"Everstones also stop a Pokemon from evolving, handy when you want to keep a low form."
+		""
+		"Obtain an Everstone to control the Natures of your bred Pokemon."
+	]
+	quest.0C572BFFD9ED2FB9.quest_subtitle: "Lock in the nature you want"
+	quest.0CE52A5881BE9369.quest_desc: ["Boosts HP potential further; part of the IV candy set."]
+	quest.0D22B07789AE6D40.quest_desc: ["A fluffy Poke Puff treat used to raise a Pokemon's friendship."]
+	quest.0D383980B566BC0D.quest_desc: ["A sweet cream puff snack, a tasty friendship treat."]
+	quest.0D994F3743783D4C.quest_desc: ["A magma-heated device that evolves Magmar into Magmortar."]
+	quest.0E433EF0B0919A69.quest_desc: ["Adds a single Special Attack EV."]
+	quest.0E5235A7B474672B.quest_desc: [
+		"Never run out of Poke Balls again. Plant Apricorns and build a farm."
+		""
+		"Harvest &aApricorns of every color&r. Each color makes a different special ball later on."
+		""
+		"Collect a good stock of assorted Apricorns."
+	]
+	quest.0E5235A7B474672B.quest_subtitle: "Grow your own ball supply"
+	quest.0E70C676DA82E5DB.quest_desc: [
+		"Steamon adds dozens of biomes through &aOh The Biomes We've Gone&r and rich villages via &aContinents / CTOV&r."
+		""
+		"Travel until you find a biome you have never seen before and grab a piece of its ground."
+		""
+		"Different biomes hold different Pokemon. Exploration pays off."
+	]
+	quest.0E70C676DA82E5DB.quest_subtitle: "A world of strange new biomes"
+	quest.0E81DA44CABC4937.quest_desc: [
+		"Welcome to &6Create&r. Every machine you will ever build begins with one thing: &aAndesite Alloy&r."
+		""
+		"Combine &eAndesite&r with an &eIron Nugget&r or &eZinc Nugget&r in a crafting grid."
+		""
+		"Craft a small stockpile. You will use a lot of it."
+	]
+	quest.0E81DA44CABC4937.quest_subtitle: "The material that starts it all"
+	quest.0EB826979D2A990C.quest_desc: [
+		"&aReinforced Echo Shards&r and &aGloomsherds&r are the Otherside's crafting cores."
+		""
+		"Gather a &aReinforced Echo Shard&r."
+		""
+		"These fuel the strongest Deeper Darker gear."
+	]
+	quest.0EB826979D2A990C.quest_subtitle: "Shards of the deep"
+	quest.0ED6291DA820379B.quest_desc: ["Held by Clamperl it evolves into Huntail, and boosts Special Attack."]
+	quest.0F26DE78BF20BA89.quest_desc: ["A powerful Utility+ candy granting a large experience boost."]
+	quest.0F46F990084649AE.quest_desc: ["Raises Special Defense when HP runs low, helping a special wall survive the follow-up hit."]
+	quest.0F99E51F573AE76E.quest_desc: ["Evolves Moon-linked Pokemon such as Nidorina and Clefairy."]
+	quest.0FFAB9114DA6C811.quest_desc: [
+		"&aEngineer's Goggles&r let you read the stress and speed of any kinetic network at a glance."
+		""
+		"Craft them and wear them while building."
+		""
+		"They will save you from countless overstressed contraptions."
+	]
+	quest.0FFAB9114DA6C811.quest_subtitle: "See what your machines are doing"
+	quest.100573543B0B18B8.quest_desc: [
+		"Far above the world floats the &aAether&r. To reach it, build a frame of &aGlowstone&r and pour a bucket of water inside to open the portal."
+		""
+		"Gather the &aGlowstone&r you need for the frame. The sky is waiting."
+		""
+		"&eUnlocks the Aether dimension branch&r."
+	]
+	quest.100573543B0B18B8.quest_subtitle: "Build a doorway to the clouds"
+	quest.1008C7F7965BD055.quest_desc: [
+		"Deep beneath the surface lies the &aDeep Dark&r and its silent &aAncient Cities&r. Sneak past the Warden and loot what you can."
+		""
+		"Bring back an &aEcho Shard&r as proof you walked the dark and lived."
+		""
+		"&eUnlocks the Otherside branch&r. The whispers of the Deep Dark lead somewhere stranger."
+	]
+	quest.1008C7F7965BD055.quest_subtitle: "Something whispers below"
+	quest.100F316559785DED.quest_desc: [
+		"You have tools and iron. Now survive the world above ground. Build a shelter, then craft &aPoke Balls&r and catch your very first &aPokemon&r."
+		""
+		"Weaken a wild Pokemon in battle, then throw a Poke Ball. Your team starts with one."
+		""
+		"&eUnlocks the Cobblemon branch: First Steps&r. The real adventure begins now."
+	]
+	quest.100F316559785DED.quest_subtitle: "Shelter, and your first partner"
+	quest.100F316559785DED.title: "Your First Partner"
+	quest.1015F00E0936A20C.quest_desc: ["Restores 10 HP when held and HP runs low. A classic early-game pinch heal for frail Pokemon."]
+	quest.102BA726C9F17223.quest_desc: [
+		"Dig deeper and mine &aIron Ore&r. Smelt it into &aIron Ingots&r and craft a full set of iron tools."
+		""
+		"Iron is the backbone of both Create and Cobblemon. Machines, Poke Balls and better gear all demand it."
+		""
+		"&eUnlocks the Create branch: Cogs & Crates&r. Time to start building machines."
+	]
+	quest.102BA726C9F17223.quest_subtitle: "The metal that runs everything"
+	quest.102BA726C9F17223.title: "Iron Age"
+	quest.102D9356B8648743.quest_desc: [
+		"Wood only gets you so far. Mine &aStone&r with your wooden pickaxe, upgrade to stone tools, and smelt your first &aCharcoal&r or find &aCoal&r."
+		""
+		"Build a &aFurnace&r and get a fire going. Cooking, smelting and light all start here."
+		""
+		"&eUnlocks the Culinary branch&r. Once you can cook, food and farming open up."
+	]
+	quest.102D9356B8648743.quest_subtitle: "Stone, coal and the first furnace"
+	quest.102D9356B8648743.title: "Stone Age"
+	quest.103386F13265F194.quest_desc: [
+		"Explore until you find a &aVillage&r. Villages are landmarks, trade hubs, and the easiest source of a &aWaystone&r."
+		""
+		"Bring back a &aWaystone&r: craft one from stone and a diamond, or take one from a village by breaking it. Either path works."
+		""
+		"&eUnlocks fast travel with Waystones&r, turning the whole overworld into your backyard."
+	]
+	quest.103386F13265F194.quest_subtitle: "Civilization on the horizon"
+	quest.103C9803731EF929.quest_desc: ["Lowers Special Attack EVs and raises friendship, letting you re-train a physical attacker cleanly."]
+	quest.10477055F5BA0E4B.quest_desc: ["Evolves Ice Pokemon like Alolan Vulpix and Galarian Darumaka."]
+	quest.104AC6B428F14891.quest_desc: [
+		"Wild Pokemon roam every biome. Catch one that lives near your base."
+		""
+		"Weaken it in battle, then throw a Poke Ball."
+		""
+		"Your overworld team starts here."
+	]
+	quest.104AC6B428F14891.quest_subtitle: "Meet the locals"
+	quest.105485D414441DF4.quest_desc: [
+		"Gather &aObsidian&r, build a &aNether Portal&r, and light it with flint and steel."
+		""
+		"Step through into a world of fire, ash and rare Pokemon. Bring gold. The Nether respects those who wear it."
+		""
+		"&eUnlocks the Nether dimension branch and the Create branch: Sparks & Circuits&r."
+	]
+	quest.105485D414441DF4.quest_subtitle: "Light your first portal"
+	quest.105485D414441DF4.title: "Into the Nether"
+	quest.105FB4F860A68106.quest_desc: [
+		"Locate a &aStronghold&r, fill the &aEnd Portal&r with Eyes of Ender, and step into the &aEnd&r."
+		""
+		"A barren island floats in the void, and upon it waits the &aEnder Dragon&r."
+		""
+		"&eUnlocks the End dimension branch&r. This is the beginning of the endgame."
+	]
+	quest.105FB4F860A68106.quest_subtitle: "The final frontier"
+	quest.105FB4F860A68106.title: "The End Approaches"
+	quest.106A1449763D07CF.quest_desc: [
+		"Master the Nether. Brave a &aNether Fortress&r or &aBastion&r, farm blazes, and hunt down &aWither Skeletons&r for their skulls."
+		""
+		"Three Wither Skeleton skulls and soul sand summon the &aWither&r. Prepare well before you try."
+		""
+		"The deeper Nether holds the materials for your strongest early gear."
+	]
+	quest.106A1449763D07CF.quest_subtitle: "Fortresses, blazes and skulls"
+	quest.106A1449763D07CF.title: "Nether Mastery"
+	quest.106FA347B5C829E2.quest_desc: [
+		"No overworld run is complete without &aDiamonds&r. Dig deep, watch for lava, and light your tunnels."
+		""
+		"Mine diamonds and set up an &aEnchanting Table&r for your first enchanted gear."
+		""
+		"&eUnlocks the Create branch: Rotational Power&r. Diamonds feed the pack's advanced machinery."
+	]
+	quest.106FA347B5C829E2.quest_subtitle: "The classic milestone"
+	quest.106FA347B5C829E2.title: "Diamond Age"
+	quest.1074005F5BFE6C71.quest_desc: ["A zesty red Apricorn juice."]
+	quest.10A267E791DF2E98.quest_desc: [
+		"Welcome to &aSteamon&r. Your adventure through the overworld, the Nether, the Aether, the Otherside and the End begins right here."
+		""
+		"Punch a few &atrees&r, turn the logs into planks, and build your first &aCrafting Table&r and wooden tools."
+		""
+		"This main line is your map. Each milestone below unlocks a whole branch of the pack. Follow it top to bottom."
+	]
+	quest.10A267E791DF2E98.quest_subtitle: "Every journey starts with a tree"
+	quest.10F0A6A7E1E23DFF.quest_desc: [
+		"Collect every evolution stone and evolution item to unlock every branch of the Pokedex."
+		""
+		"Reward: a random evolution stone or rare item plus a big XP payout."
+	]
+	quest.10F0A6A7E1E23DFF.quest_subtitle: "Gather every evolution item"
+	quest.10F0A6A7E1E23DFF.title: "Stone Collector"
+	quest.10FC1EB90F757C1B.quest_desc: [
+		"Face the &aEnder Dragon&r and bring it down. Destroy the End Crystals, dodge its breath, and land the final blow."
+		""
+		"This is the peak of the main line. Beyond it lies the true endgame content of Steamon."
+		""
+		"&eUnlocks the Create branch: Beyond the Machine, the Cobblemon branch: Myths & Legends, and the Adventure & League content&r. You are ready for it all."
+	]
+	quest.10FC1EB90F757C1B.quest_subtitle: "Slay the Ender Dragon"
+	quest.10FC1EB90F757C1B.title: "Dragon Slayer"
+	quest.11136ED5775F20DC.quest_desc: [
+		"This path leads to the &eCobblemon: First Steps&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.11136ED5775F20DC.quest_subtitle: "Branch marker"
+	quest.11136ED5775F20DC.title: "Path: First Steps"
+	quest.112C6A2A5F5B44AF.quest_desc: [
+		"This path leads to the &eLeague&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.112C6A2A5F5B44AF.quest_subtitle: "Branch marker"
+	quest.112C6A2A5F5B44AF.title: "Path: League"
+	quest.112DBC53A3383FEB.quest_desc: [
+		"This path leads to the &eBeyond the Machine&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.112DBC53A3383FEB.quest_subtitle: "Branch marker"
+	quest.112DBC53A3383FEB.title: "Path: Beyond the Machine"
+	quest.1149EDEE2BFF17BB.quest_desc: [
+		"This path leads to the &eAether&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.1149EDEE2BFF17BB.quest_subtitle: "Branch marker"
+	quest.1149EDEE2BFF17BB.title: "Path: The Aether"
+	quest.11560D8A44F37744.quest_desc: [
+		"This path leads to the &eNether&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.11560D8A44F37744.quest_subtitle: "Branch marker"
+	quest.11560D8A44F37744.title: "Path: Nether"
+	quest.1168BD4586502127.quest_desc: [
+		"This path leads to the &eEnd&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.1168BD4586502127.quest_subtitle: "Branch marker"
+	quest.1168BD4586502127.title: "Path: The End"
+	quest.11B9E97BEC38C56B.quest_desc: [
+		"This path leads to the &eMyths & Legends&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.11B9E97BEC38C56B.quest_subtitle: "Branch marker"
+	quest.11B9E97BEC38C56B.title: "Path: Myths & Legends"
+	quest.11D05E3CE2B7E750.quest_desc: [
+		"This path leads to the &eCulinary&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.11D05E3CE2B7E750.quest_subtitle: "Branch marker"
+	quest.11D05E3CE2B7E750.title: "Path: Culinary"
+	quest.11D0ACCB0E10BB07.quest_desc: [
+		"This path leads to the &eCreate: Cogs & Crates&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.11D0ACCB0E10BB07.quest_subtitle: "Branch marker"
+	quest.11D0ACCB0E10BB07.title: "Path: Cogs & Crates"
+	quest.11E9CC6C443AC051.quest_desc: [
+		"This path leads to the &eAdventure&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.11E9CC6C443AC051.quest_subtitle: "Branch marker"
+	quest.11E9CC6C443AC051.title: "Path: Adventure"
+	quest.11F2E207DC27FDC7.quest_desc: [
+		"This path leads to the &eCreate: Rotational Power&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.11F2E207DC27FDC7.quest_subtitle: "Branch marker"
+	quest.11F2E207DC27FDC7.title: "Path: Rotational Power"
+	quest.11F3534AE5D06169.quest_desc: [
+		"This path leads to the &eCreate: Sparks & Circuits&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.11F3534AE5D06169.quest_subtitle: "Branch marker"
+	quest.11F3534AE5D06169.title: "Path: Sparks & Circuits"
+	quest.11F862B29B31518C.quest_desc: [
+		"This path leads to the &eOtherside&r branch."
+		""
+		"Follow the marker to open that quest line."
+	]
+	quest.11F862B29B31518C.quest_subtitle: "Branch marker"
+	quest.11F862B29B31518C.title: "Path: Otherside"
+	quest.12B850B5CC9D04E0.quest_desc: [
+		"The &aSilver Dungeon&r hides in the clouds, home to the Valkyries and a &aSilver Dungeon Key&r."
+		""
+		"Claim a Silver Dungeon Key."
+		""
+		"Only a proven trainer survives the Valkyrie Queen."
+	]
+	quest.12B850B5CC9D04E0.quest_subtitle: "The Silver Dungeon"
+	quest.130C627C6A5F1EBB.quest_desc: ["Raises the accuracy of the holder's moves by 10 percent."]
+	quest.137AB3330219C4EF.quest_desc: [
+		"Not every held item is about damage. Defensive items keep your Pokemon standing when the odds are against them."
+		""
+		"A &aFocus Sash&r lets a Pokemon survive any one hit from full health with 1 HP. The &aAssault Vest&r boosts Special Defense, and &aEviolite&r hugely bolsters an unevolved Pokemon."
+		""
+		"Obtain these defensive tools to round out a balanced team."
+	]
+	quest.137AB3330219C4EF.quest_subtitle: "Survive what should have killed you"
+	quest.13E7C3F47FA3A2F1.quest_desc: ["Changes a Pokemon's nature to Naughty, reshaping its stat spread without re-breeding."]
+	quest.13F6FFD1A29A1126.quest_desc: ["A Utility+ cap that guarantees a high Speed IV floor."]
+	quest.1490B18DC7964605.quest_desc: ["A dry food berry, the dry member of the flavor-heal family. Best put to use in the kitchen."]
+	quest.160AD5DDFCD12842.quest_desc: ["A corn-shaped food berry with no battle effect, good for cooking and juices."]
+	quest.1625B3BD9C78D8C4.quest_desc: ["A rich, sweet food berry used purely in cooking and treats."]
+	quest.163F89F9BD994CEA.quest_desc: ["Held item that damages an attacker back when the holder is hit by a physical move. Chip revenge on aggressive foes."]
+	quest.170A01C2CACC7EEB.quest_desc: [
+		"The &aPrecision Mechanism&r is the core of every advanced Create machine: Deployers, Mechanical Arms, Trains and more."
+		""
+		"Assemble one on a &aMechanical Crafter&r array from Brass Sheets, cogwheels and an iron nugget."
+		""
+		"Craft your first Precision Mechanism. You have mastered the basics of Create."
+	]
+	quest.170A01C2CACC7EEB.quest_subtitle: "The gateway to automation"
+	quest.176442F9DCC8290F.quest_desc: ["Damages attackers that make contact with the holder. Punishes physical attackers."]
+	quest.177CD3E5CB58423C.quest_desc: ["A shiny Utility+ Attack cap variant."]
+	quest.17CEA112FD730299.quest_desc: [
+		"The &aMechanical Mixer&r over a &aBasin&r combines ingredients, halves the cost of Andesite Alloy, and, when heated, alloys metals."
+		""
+		"Build a Mixer and a Basin and power the Mixer with rotation."
+		""
+		"You are about to make Brass."
+	]
+	quest.17CEA112FD730299.quest_subtitle: "Mixing in a Basin"
+	quest.17CFE63D9CCD4A62.quest_desc: ["A sweet food berry from the flavor-heal family. Sweet-tooth Pokemon love it; great for recipes."]
+	quest.17DD46F32F55CB95.quest_desc: [
+		"You have the tools, the team, and the know how. Now build a real collection."
+		""
+		"Catch &a10 Pokemon&r in total to complete your first steps as a Steamon Trainer."
+		""
+		"The League awaits. This is only the beginning."
+	]
+	quest.17DD46F32F55CB95.quest_subtitle: "Become a true Trainer"
+	quest.17E6A8EE94843D92.quest_desc: ["Adds a single Speed EV to hit a precise benchmark."]
+	quest.183BDF232B778A6E.quest_desc: ["A tart food berry with no battle effect. Grow it on a plot and use it in cooking and berry recipes."]
+	quest.18625E0A72A07F84.quest_desc: ["An enormous, very sweet food berry. A dessert staple in the kitchen, no battle effect."]
+	quest.18646D37EA26C626.quest_desc: ["Swaps a Pokemon's Ability to its Hidden Ability. Highly sought after."]
+	quest.188AE9C67B19D68A.quest_desc: ["Locks the holder into one move but boosts its Speed by 50 percent."]
+	quest.18D3CED4A6ED20C3.quest_desc: ["Adds Special Attack EVs. Core vitamin for special sweepers."]
+	quest.1999103A28608AC3.quest_desc: ["A simple berry drink that restores a little HP. Craftable from berries."]
+	quest.1999C22F426BB20D.quest_desc: ["Halves one super-effective Water-type hit. Buys a Fire, Ground or Rock type a turn to strike back."]
+	quest.19F9D702E551404C.quest_desc: ["A refreshing Apricorn juice brewed from green Apricorns."]
+	quest.1A18EF9AC0DDE038.quest_desc: ["Changes a Pokemon's nature to Lax, reshaping its stat spread without re-breeding."]
+	quest.1A925D76A2FF78D3.quest_desc: [
+		"You have conquered the Nether. Forge a full &aNetherite&r milestone to prove it."
+		""
+		"Craft a Netherite tool or piece of armor from your hard won ingots."
+		""
+		"With the Nether behind you, the End awaits."
+	]
+	quest.1A925D76A2FF78D3.quest_subtitle: "Master of the fire realm"
+	quest.1A93AD935EE3EDF2.quest_desc: ["A bitter herbal powder that cures all status conditions cheaply."]
+	quest.1AC65393D96E9678.quest_desc: ["Revives a fainted Pokemon with full HP. The premium revival item."]
+	quest.1AF90F28483C7B8D.quest_desc: ["A light stone held item that halves the holder's weight for weight-based moves."]
+	quest.1B467E5FA96BDA7D.quest_desc: [
+		"The &aBronze Dungeon&r is guarded by the Slider. Beat it to earn a &aBronze Dungeon Key&r and its loot."
+		""
+		"Claim a Bronze Dungeon Key."
+		""
+		"The dungeons hold the Aether's finest treasures."
+	]
+	quest.1B467E5FA96BDA7D.quest_subtitle: "The Bronze Dungeon"
+	quest.1B917470468262BB.quest_desc: ["Changes a Pokemon's nature to Lonely, reshaping its stat spread without re-breeding."]
+	quest.1BA9F8118A2405A6.quest_desc: [
+		"Prove you have truly explored. Catch &a8 Pokemon&r across the overworld."
+		""
+		"Range across biomes to find variety. Grass, water, cave and mountain species all count."
+		""
+		"A broad team is a strong team."
+	]
+	quest.1BA9F8118A2405A6.quest_subtitle: "A team from every corner"
+	quest.1BC2713197791E48.quest_desc: [
+		"The overworld of Steamon is packed with new biomes, structures and Pokemon."
+		""
+		"This is your home base. From here you will reach the Nether, the End, the Aether and the Otherside."
+		""
+		"Start by gathering &awood and stone&r and getting on your feet."
+	]
+	quest.1BC2713197791E48.quest_subtitle: "Your world is bigger than it looks"
+	quest.1BD4D2B56502E419.quest_desc: ["A Utility+ void Speed cap."]
+	quest.1BFA2B372F6E2B48.quest_desc: ["Halves one super-effective Grass-type hit, easing the Grass weakness of Water, Ground and Rock types."]
+	quest.1C0F43010C872618.quest_desc: ["A mysterious berry that heals the holder when hit by a super-effective move. Rare, powerful, and hard to grow."]
+	quest.1C89D1B5A2D65844.quest_desc: [
+		"The Otherside is carved from &aGloomslate&r and &aSculk Stone&r. Mine it to build in this shadowed world."
+		""
+		"Collect a stack of Cobbled Gloomslate."
+		""
+		"Its tools and armor rival the overworld's best."
+	]
+	quest.1C89D1B5A2D65844.quest_subtitle: "Stone of the other realm"
+	quest.1D1EE056126AAA28.quest_desc: ["A soft blue food berry used in cooking and dyes. Purely culinary, no battle use."]
+	quest.1D8B9F9A896BBBD8.quest_desc: [
+		"The Otherside hides rare &aDragon and Paradox&r Pokemon. Catch a &aDragon type&r here."
+		""
+		"The strangest species from the spawn pack lurk in the deepest dark."
+		""
+		"A Beast Ball may be your best chance."
+	]
+	quest.1D8B9F9A896BBBD8.quest_subtitle: "Dragons and paradoxes"
+	quest.1E952BD01475D2F6.quest_desc: ["A Utility+ void Attack cap."]
+	quest.1FB03D40A5F26F5E.quest_desc: ["Halves one super-effective Steel-type hit. Useful on Ice, Rock and Fairy types weak to Steel."]
+	quest.1FB3D299115C8958.quest_desc: [
+		"The Aether teems with &aFlying type Pokemon&r drifting between islands. Catch &a2 Flying types&r here."
+		""
+		"Flying types rule the open skies of this dimension."
+		""
+		"Watch your footing, the drop is a long one."
+	]
+	quest.1FB3D299115C8958.quest_subtitle: "Wings among the clouds"
+	quest.1FE091D678CD5052.quest_desc: ["Held by Clamperl it evolves into Gorebyss, and boosts Special Defense."]
+	quest.1FE371A587F832EC.quest_desc: ["An eerie cloth that evolves Dusclops into Dusknoir on trade."]
+	quest.1FE67AB5B5252619.quest_desc: ["A tangy yellow Apricorn juice."]
+	quest.1FE6F0C60B6EF704.quest_desc: ["Changes a Pokemon's nature to Timid, reshaping its stat spread without re-breeding."]
+	quest.1FF558FFC63724B4.quest_desc: ["A Utility+ void cap, the top-tier HP IV guarantee."]
+	quest.20015467B3A63340.quest_desc: [
+		"The &aPrinter&r duplicates written books and enchanted books using ink and liquid experience."
+		""
+		"Mass-produce your best enchantments once you have the recipe dialed in."
+		""
+	]
+	quest.20015467B3A63340.quest_subtitle: "Copy your books"
+	quest.2002A559B5E40733.quest_desc: [
+		"Prefer the sky to the river? A &aWindmill Bearing&r spins a sail contraption made of wool or sails."
+		""
+		"Bigger sails, more power. A clean alternative when no water is nearby."
+		""
+	]
+	quest.2002A559B5E40733.quest_subtitle: "Catch the wind instead"
+	quest.2008DD0A6FF59772.quest_desc: [
+		"A pair of &aCrushing Wheels&r spun in opposite directions shreds anything dropped between them, doubling most ore yields."
+		""
+		"The backbone of any serious ore-processing line."
+		""
+	]
+	quest.2008DD0A6FF59772.quest_subtitle: "Double your ores"
+	quest.2011B7295E3AD0E8.quest_desc: ["Halves Speed but adds Defense EVs after battle."]
+	quest.2012AD441F050A12.quest_desc: [
+		"The &aMechanical Press&r pounds ingots into &aSheets&r and compacts materials. Mount it over a &aBasin&r or a &aDepot&r."
+		""
+		"Sheets of iron, brass and copper feed almost every advanced recipe. This machine is unavoidable."
+		""
+	]
+	quest.2012AD441F050A12.quest_subtitle: "Stamp out plates"
+	quest.20194D83090E4E55.quest_desc: [
+		"The &aElectric Motor&r does the reverse: it consumes FE to produce rotation on demand, with adjustable speed."
+		""
+		"Store power when you have surplus, spend it when you need a burst. The heart of a hybrid setup."
+		""
+	]
+	quest.20194D83090E4E55.quest_subtitle: "FE back into rotation"
+	quest.202A9BD1C81F243A.quest_desc: [
+		"The &aAlternator&r turns rotational force into electricity. Spin it fast with a water wheel or windmill to generate FE."
+		""
+		"This is your first generator. Everything electric downstream needs it."
+		""
+	]
+	quest.202A9BD1C81F243A.quest_subtitle: "Rotation into FE"
+	quest.202BE63206C547AC.quest_desc: [
+		"&aCreate: Stuff and Additions&r adds &aJetpacks&r. Start with the &aCopper Jetpack&r and work up to the &aNetherite Jetpack&r for full flight."
+		""
+		"Fuelled by your Create power infrastructure. Freedom of movement, endgame style."
+		""
+	]
+	quest.202BE63206C547AC.quest_subtitle: "Take to the skies"
+	quest.202DEA1408818B44.quest_desc: [
+		"The &aAccumulator&r stores FE for later. Chain several, or build a &aModular Accumulator&r, to hold a serious reserve."
+		""
+		"Buffer your generators so machines never stall when the wind drops."
+		""
+	]
+	quest.202DEA1408818B44.quest_subtitle: "Bank your power"
+	quest.203EA3D6CDF9263E.quest_desc: [
+		"&aCreate: Dragons Plus&r adds dragon-breath processing and the &aBlaze Upgrade Smithing Template&r for upgraded blaze gear."
+		""
+		"A fitting capstone: you slew the dragon, now you industrialize its fire."
+		""
+	]
+	quest.203EA3D6CDF9263E.quest_subtitle: "Harness dragon fire"
+	quest.204115B912BAFEEF.quest_desc: [
+		"Assemble a multiblock &aReactor&r from casing, a controller, core, cooler and input/output ports. Fuelled with uranium, it produces enormous heat and power."
+		""
+		"This is the single most powerful energy source in Steamon. Cool it well or it melts down."
+		""
+	]
+	quest.204115B912BAFEEF.quest_subtitle: "Build a nuclear reactor"
+	quest.20426A4BA2350D92.quest_desc: ["Changes a Pokemon's nature to Quiet, reshaping its stat spread without re-breeding."]
+	quest.20438DB0F60F2253.quest_desc: [
+		"&aCreate Compressed&r adds compressed material blocks. Press or craft sheets into &aSheet Blocks&r for compact storage and new recipes."
+		""
+		"A neat way to store bulk metal output from your presses."
+		""
+	]
+	quest.20438DB0F60F2253.quest_subtitle: "Pack it tighter"
+	quest.20446249E22B29B0.quest_desc: [
+		"&aEnder Transmission&r adds wireless transmitters for items, fluids and energy across any distance, plus a &aChunk Loader&r to keep it running."
+		""
+		"Link a base and an outpost without a single wire between them."
+		""
+	]
+	quest.20446249E22B29B0.quest_subtitle: "Send power anywhere"
+	quest.20483FEDF2CD20B5.quest_desc: [
+		"You know the overworld. Now the other dimensions call."
+		""
+		"Assemble &aObsidian&r and prepare to light your first portal."
+		""
+		"The Nether is your next destination."
+	]
+	quest.20483FEDF2CD20B5.quest_subtitle: "Ready for the beyond"
+	quest.204D78A5D6475BBF.quest_desc: [
+		"&aEnchantment Industry&r lets you pump liquid &aExperience&r and automate enchanting with the &aBlaze Enchanter&r and &aPrinter&r."
+		""
+		"Turn a mob farm XP into fluid, then enchant and print books at industrial scale."
+		""
+	]
+	quest.204D78A5D6475BBF.quest_subtitle: "Automate enchanting"
+	quest.205AE059EFBB160A.quest_desc: [
+		"An &aEncased Fan&r pushes air through blocks to process items: fire smelts, water washes, lava smokes. Place a Blaze Burner in front to smelt for free."
+		""
+		"One fan replaces a whole row of furnaces. Washing gravel and ores is where it shines."
+		""
+	]
+	quest.205AE059EFBB160A.quest_subtitle: "Air does the work"
+	quest.2065E15A157AB684.quest_desc: [
+		"Reactors need fuel. Mine &aUranium Ore&r, process it into &aYellowcake&r and refine &aUranium Rods&r."
+		""
+		"Handle it with care and wear &aAnti-Radiation&r gear when things get hot."
+		""
+	]
+	quest.2065E15A157AB684.quest_subtitle: "Mine the unstable stuff"
+	quest.206989E928EDBBA1.quest_desc: [
+		"The &aPrecision Mechanism&r is Create advanced crafting component, assembled from cogs, a golden sheet and iron nuggets."
+		""
+		"Deployers, mechanical arms and most automation blocks demand it. Making a few is a real milestone."
+		""
+	]
+	quest.206989E928EDBBA1.quest_subtitle: "Clockwork in a box"
+	quest.206E8BE76893FB18.quest_desc: [
+		"Create ships a full train system. &aTrain Track&r is bent and placed with the track item, following any curve you draw."
+		""
+		"This optional branch is your gateway to bogeys, stations and cross-map cargo trains."
+		""
+	]
+	quest.206E8BE76893FB18.quest_subtitle: "Lay down some rails"
+	quest.207A81A64CBCE64F.quest_desc: [
+		"&aCreate&r turns raw rotation into automation. It all starts with &aAndesite Alloy&r: andesite plus iron nuggets, or wash gravel and combine."
+		""
+		"Craft a stack. Almost every Create recipe wants it."
+		""
+		"&eThis milestone opens the Cogs and Crates branch.&r"
+	]
+	quest.207A81A64CBCE64F.quest_subtitle: "The heart of every machine"
+	quest.208376490BBB8C2B.quest_desc: [
+		"&aBelts&r are placed by right-clicking two shafts with the belt item. They carry items and even players across your factory."
+		""
+		"Combine with &aFunnels&r and &aChutes&r to load and unload machines automatically."
+		""
+	]
+	quest.208376490BBB8C2B.quest_subtitle: "Move items around"
+	quest.208FB0F149A17EDF.quest_desc: [
+		"The &aMechanical Mixer&r over a &aBasin&r combines items and fluids, and smelts alloys like &aBrass&r."
+		""
+		"Set your heat with a &aBlaze Burner&r underneath for recipes that need it."
+		""
+	]
+	quest.208FB0F149A17EDF.quest_subtitle: "Mix, wash and alloy"
+	quest.209D0560ED3D4C5F.quest_desc: [
+		"&aAndesite Casing&r is the base building block of Create machinery. Strip a log, add andesite alloy, done."
+		""
+		"Casings encase shafts and cogs to keep contraptions tidy and connectable."
+		""
+	]
+	quest.209D0560ED3D4C5F.quest_subtitle: "Wrap it in wood"
+	quest.20A3CD10861FE648.quest_desc: [
+		"&aShafts&r and &aCogwheels&r carry rotation from one place to another. They are the veins of every contraption."
+		""
+		"Craft Shafts from Andesite Alloy, and Cogwheels from a Shaft and planks."
+		""
+		"Two cogwheels of different sizes let you change the speed of rotation."
+	]
+	quest.20A3CD10861FE648.quest_subtitle: "Transmit rotational force"
+	quest.20A3D7F340B0C863.quest_desc: [
+		"A &aWater Wheel&r spins when flowing water pushes its blades. It is the simplest reliable source of rotation."
+		""
+		"Place it in a stream, hook a shaft to the center, and you have free power. Upgrade to a &aLarge Water Wheel&r for more."
+		""
+	]
+	quest.20A3D7F340B0C863.quest_subtitle: "Your first power source"
+	quest.20A4F79E5ACF677F.quest_desc: [
+		"&aCreate Nuclear&r runs on &aSteel&r. Superheat iron with coal dust in a mixer to cast &aSteel Ingots&r."
+		""
+		"Steel is the structural metal of reactors and heavy machines."
+		""
+		"&eThis milestone opens the Beyond the Machine branch.&r"
+	]
+	quest.20A4F79E5ACF677F.quest_subtitle: "Forge the endgame metal"
+	quest.20A91FB0F8BB462F.quest_desc: [
+		"The &aMillstone&r grinds ores, seeds and more using rotation. It is your first processing machine and needs only andesite."
+		""
+		"Feed it from above or by hand. Later, &aCrushing Wheels&r do the same job faster and double your ore."
+		""
+	]
+	quest.20A91FB0F8BB462F.quest_subtitle: "Grind and crush"
+	quest.20AACBD489D285A7.quest_desc: ["Adds Special Defense EVs, hardening a special wall."]
+	quest.20B15066AC9B97D2.quest_desc: [
+		"The &aDeployer&r uses items on the world just like a player: it plants, harvests, crafts in-world and applies tools."
+		""
+		"It needs a &aPrecision Mechanism&r. This is the first true automation block."
+		""
+		"&eThis milestone opens the Rotational Power branch.&r"
+	]
+	quest.20B15066AC9B97D2.quest_subtitle: "A mechanical hand"
+	quest.20C2A022D887ED88.quest_desc: ["Cures paralysis on a single Pokemon."]
+	quest.20C8F98628C8F832.quest_desc: [
+		"A &aTrain Station&r assembles and dispatches trains and lets you schedule them. Add a &aConductor Whistle&r from Steam and Rails for hands-on control."
+		""
+		"Pair a station with bogeys and a controller to build your first working locomotive."
+		""
+	]
+	quest.20C8F98628C8F832.quest_subtitle: "All aboard"
+	quest.20CAAB71BA55C41D.quest_desc: [
+		"Mix &aCopper&r and &aZinc&r in a heated basin to make &aBrass Ingots&r, then press them into &aBrass Casing&r."
+		""
+		"Brass unlocks the smarter half of Create: deployers, funnels, arms and more."
+		""
+	]
+	quest.20CAAB71BA55C41D.quest_subtitle: "The second-tier metal"
+	quest.20CBCF7B1EED391C.quest_desc: [
+		"The &aMechanical Piston&r pushes and pulls entire structures as a moving contraption. Add &aLinear Chassis&r to hold blocks together."
+		""
+		"Doors, bridges, elevators and moving farms all start with this."
+		""
+	]
+	quest.20CBCF7B1EED391C.quest_subtitle: "Move whole builds"
+	quest.20D128D0BDB10CB3.quest_desc: [
+		"Your machines now move items, process materials and build themselves. This is a full Create factory."
+		""
+		"&eClaim your reward and advance to Sparks and Circuits&r, where rotation becomes electricity."
+		""
+	]
+	quest.20D128D0BDB10CB3.quest_subtitle: "Master of Rotational Power"
+	quest.20D1FD9D0ADDE063.quest_desc: [
+		"You have laid the foundation of Create: power sources, processing, brass and precision components."
+		""
+		"&eClaim your reward and move on to Rotational Power&r, where machines start working for you."
+		""
+	]
+	quest.20D1FD9D0ADDE063.quest_subtitle: "Master of Cogs and Crates"
+	quest.20D321EEC05603E1.quest_desc: [
+		"&aCreate: Additions&r bridges Create rotation and Forge Energy (FE). It all runs on &aWires&r and &aConnectors&r that move power between blocks."
+		""
+		"Craft &aCopper Wire&r and a &aConnector&r to start your first electrical grid."
+		""
+		"&eThis milestone opens the Sparks and Circuits branch.&r"
+	]
+	quest.20D321EEC05603E1.quest_subtitle: "Electricity enters Create"
+	quest.20D3234CBD4EBB26.quest_desc: [
+		"Some Pokemon only evolve when traded, sometimes while holding an item. On a server you can set this up with a friend, or use a &aLink Cable&r to force a trade evolution on your own."
+		""
+		"Held items like the &aMetal Coat&r, &aKing's Rock&r, &aDragon Scale&r and &aUpgrade&r trigger specific trade evolutions."
+		""
+		"Obtain a Link Cable and a trade evolution item to unlock these Pokemon."
+	]
+	quest.20D3234CBD4EBB26.quest_subtitle: "Evolutions that need a trade"
+	quest.20D998170F74A935.quest_desc: [
+		"The &aMechanical Bearing&r rotates an attached contraption. Windmills, rotating displays and rolling machines are built on it."
+		""
+		"Pair it with a chassis to spin large builds around a single axis."
+		""
+	]
+	quest.20D998170F74A935.quest_subtitle: "Spin anything"
+	quest.20DF52C01D4B1B82.quest_desc: [
+		"&aCentral Kitchen&r links Create automation to Farmer Delight cooking, letting deployers and mechanical crafters prepare food in bulk."
+		""
+		"Craft a &aMechanical Crafter&r to start building automated cooking lines."
+		""
+	]
+	quest.20DF52C01D4B1B82.quest_subtitle: "Cook at scale"
+	quest.20E148ACB00080FA.quest_desc: [
+		"&aAnti-Radiation&r armor protects you from the radiation reactors and raw uranium give off."
+		""
+		"Craft at least a chestplate before you handle serious quantities of fuel."
+		""
+	]
+	quest.20E148ACB00080FA.quest_subtitle: "Do not glow in the dark"
+	quest.20E3EF17EDC036C8.quest_desc: [
+		"The &aMechanical Arm&r picks items from inputs and drops them into outputs you assign. Perfect for feeding multiple machines from one belt."
+		""
+		"It needs a Precision Mechanism and a Brass Casing. Automation gets smart here."
+		""
+	]
+	quest.20E3EF17EDC036C8.quest_subtitle: "Sort and distribute"
+	quest.20E7C0647EB21B28.quest_desc: [
+		"&aShafts&r carry rotational force in a straight line. &aCogwheels&r transfer it between parallel axes and change speed."
+		""
+		"Place a large cogwheel next to a small one to speed up, reverse it to gain torque."
+		""
+	]
+	quest.20E7C0647EB21B28.quest_subtitle: "Move the power around"
+	quest.20E7F625CC2F6BF3.quest_desc: [
+		"Nuclear power, flight and dragon-forged gear. You have reached the summit of Create in Steamon."
+		""
+		"&eClaim the ultimate reward. There is nothing left to build that you cannot.&r"
+		""
+	]
+	quest.20E7F625CC2F6BF3.quest_subtitle: "Beyond the Machine"
+	quest.20EE532E0003B22D.quest_desc: [
+		"The &aNetherite Jetpack&r is the top-tier flight chestplate: longer flight, more fuel efficiency and blast resistance."
+		""
+		"Combine a jetpack with an &aExoskeleton&r for the full endgame loadout."
+		""
+	]
+	quest.20EE532E0003B22D.quest_subtitle: "The best set of wings"
+	quest.20FB4CD6EA08FFD3.quest_desc: [
+		"&aIntegrated Farming&r adds &aRoosts&r that raise chickens and other birds automatically, plus &aFishing Nets&r that fish while you work."
+		""
+		"Feed a roost and let it produce eggs, meat and feathers hands-free."
+		""
+	]
+	quest.20FB4CD6EA08FFD3.quest_subtitle: "Automate the farmyard"
+	quest.20FC1F519A9040EF.quest_desc: [
+		"You generate, store and transmit power, and you automate enchanting. Create is now a fully electrified factory."
+		""
+		"&eClaim your reward and prepare for Beyond the Machine&r, the endgame of Steamon tech tree."
+		""
+	]
+	quest.20FC1F519A9040EF.quest_subtitle: "Master of Sparks and Circuits"
+	quest.20FE34F6B18DB45D.quest_desc: [
+		"A &aChunk Loader&r forces its chunk to stay active even when no player is nearby, so remote farms and transmitters never pause."
+		""
+		"Essential for any automation you leave running while you are away."
+		""
+	]
+	quest.20FE34F6B18DB45D.quest_subtitle: "Keep it loaded"
+	quest.21121601C2CB9B7E.quest_desc: ["Halves Speed but adds Speed EVs after battle. A breeding and EV-training tool."]
+	quest.212D7476B4076095.quest_desc: ["A famously bitter food berry with a strong smell. Culinary only, an acquired taste in recipes."]
+	quest.213218C1D22EA2F2.quest_desc: [
+		"A &aMechanical Crafter&r array crafts recipes automatically. Arrange crafters in the shape of the recipe, feed each slot, and power them."
+		""
+		"This is how you mass-produce complex items without ever opening a crafting table."
+		""
+		"Build a crafter array and connect its outputs with the wrench."
+	]
+	quest.213218C1D22EA2F2.quest_subtitle: "Craft in an automated grid"
+	quest.214899BF912F4F74.quest_desc: ["Swaps a Pokemon between its two regular Abilities."]
+	quest.21B58E36233A376E.quest_desc: ["A spicy-sweet food berry. No held effect, but a staple ingredient for cooking and treats."]
+	quest.22256AB2CA6F8387.quest_desc: ["Adds Defense EVs to build a physical wall."]
+	quest.22DA14024D89D66A.quest_desc: [
+		"Your factory runs, but it is crude. This chapter is about &acontrol&r: dialing in exact speeds, chaining machines together, and crafting the most complex items in Create."
+		""
+		"You will also lay your first &atrain track&r and send a locomotive down it."
+		""
+		"Grab your goggles. Speed matters from here on."
+	]
+	quest.22DA14024D89D66A.quest_subtitle: "Precision and control"
+	quest.22EBCEFF7199FB36.quest_desc: ["A Utility+ obsidian Attack cap."]
+	quest.23417F87E6CFA339.quest_desc: ["Halves one super-effective Dragon-type hit. Essential tech on Dragon types in the mirror match."]
+	quest.23D8DE84CD09720C.quest_desc: [
+		"Every base runs on &aIron&r. Mine and smelt it for tools, machines and Poke Ball crafting."
+		""
+		"Collect a solid stock of Iron Ingots."
+		""
+		"Create and Cobblemon both eat iron by the stack."
+	]
+	quest.23D8DE84CD09720C.quest_subtitle: "Dig for the essentials"
+	quest.2451ED951A75B7AD.quest_desc: [
+		"You have mined the isles, cleared the dungeons and tamed the divine."
+		""
+		"Earn the &aGold Dungeon Key&r to conquer the Aether's final trial, the Sun Spirit."
+		""
+		"Few trainers ever rule the sky."
+	]
+	quest.2451ED951A75B7AD.quest_subtitle: "Champion of the heavens"
+	quest.249ECDA7E5BA1D9E.quest_desc: [
+		"The Nether's shadows hide Dark type Pokemon. Catch &a2 Dark type Pokemon&r here."
+		""
+		"Dark types punish the reckless and thrive far from the sun."
+		""
+		"A balanced Nether team runs fire and dark side by side."
+	]
+	quest.249ECDA7E5BA1D9E.quest_subtitle: "Creatures of the dark"
+	quest.24A196A2176196BB.quest_desc: ["A round stone that evolves Happiny into Chansey when held during the day."]
+	quest.24BD917FDE507BEF.quest_desc: ["Changes a Pokemon's nature to Careful, reshaping its stat spread without re-breeding."]
+	quest.24DCCC0F39A3DB29.quest_desc: [
+		"You have built it all: superheated steam power, self-driving trains, a package-logistics factory, jetpacks and a nuclear reactor."
+		""
+		"There is nothing left in Create you cannot automate. Assemble a &aReactor Output&r feeding a &aSteam Engine&r backup grid, or simply stand atop your factory and look at what you have made."
+		""
+		"Craft one final &aReactor Output&r to claim the title of &aMaster Engineer&r. The world of Steamon runs on your machines now."
+	]
+	quest.24DCCC0F39A3DB29.quest_subtitle: "Master Engineer of Steamon"
+	quest.24EDE1EB4FBADB4C.quest_desc: ["Halves one super-effective Ground-type hit. A common pick on Fire, Electric and Steel types weak to Earthquake."]
+	quest.2506D45CAAB9A0E9.quest_desc: ["Lets the holder survive any single hit at 1 HP from full. A frail sweeper staple."]
+	quest.2514160C77268B55.quest_desc: ["A sour food berry, the sour member of the flavor-heal family. Chiefly a cooking ingredient here."]
+	quest.25A62FB450AE4A72.quest_desc: [
+		"You mastered the basics and built your first &aPrecision Mechanism&r. Now it is time to make Create do the work for you."
+		""
+		"This chapter is all about &amoving items automatically&r: belts, funnels, and the machines that act on the world without you."
+		""
+		"Keep a stack of &aBrass&r ready. You will need it."
+	]
+	quest.25A62FB450AE4A72.quest_subtitle: "Automation begins here"
+	quest.25FF5F49346F0351.quest_desc: ["Raises Special Attack when HP runs low, powering up a special sweeper on its last legs."]
+	quest.26207EC992C01174.quest_desc: [
+		"You can only carry six Pokemon at a time. A &aPC&r lets you store all the rest safely."
+		""
+		"Craft and place a PC block, then access it to manage your boxes."
+		""
+		"A serious collector always keeps a PC nearby."
+	]
+	quest.26207EC992C01174.quest_subtitle: "Storage for a growing collection"
+	quest.2644106AA53AF793.quest_desc: ["Changes a Pokemon's nature to Serious, reshaping its stat spread without re-breeding."]
+	quest.268F06238367BCC1.quest_desc: [
+		"Trains run on Create's own &aTrain Track&r, not vanilla rails. Craft track and use the &aTrack&r item to draw long curves and slopes."
+		""
+		"You need a &aRailway Casing&r to build station and bogey parts, so keep some ready."
+		""
+		"Lay a stretch of track. Your rail network starts here."
+	]
+	quest.268F06238367BCC1.quest_subtitle: "Lay down the rails"
+	quest.26C0C6CE2C52BEB8.quest_desc: ["Restores a moderate amount of HP. The mid-tier heal."]
+	quest.28506AD088DC6827.quest_desc: ["Lowers Defense EVs and raises friendship. Useful when reshaping a spread or pushing a friendship evolution."]
+	quest.28C66D72E795C3F9.quest_desc: ["Triggers trade evolutions in Cobblemon without a partner. Evolves Machoke, Haunter and more."]
+	quest.292433F584B1F7F8.quest_desc: ["Changes a Pokemon's nature to Calm, reshaping its stat spread without re-breeding."]
+	quest.2942D044BBBC30C6.quest_desc: [
+		"A &aTrain Schedule&r tells a train where to go and what to do without a driver. Insert it into the train's Controls to send it on an automatic route."
+		""
+		"Set stops, waiting conditions and cargo transfers so your network runs unattended."
+		""
+		"Write a schedule and let a train run a loop between your stations on its own."
+	]
+	quest.2942D044BBBC30C6.quest_subtitle: "Trains that drive themselves"
+	quest.29753B0D399860BB.quest_desc: [
+		"You can now control speed to the exact rotation, assemble complex items automatically, and run trains between stations."
+		""
+		"Bring together everything you learned: build an &aItem Vault&r fed by a &aMechanical Crafter&r line, and a &atrain&r that hauls the goods between two stations."
+		""
+		"Craft an &aElectron Tube&r worth of components, or simply gather &a8 more Precision Mechanisms&r, and step into the endgame."
+	]
+	quest.29753B0D399860BB.quest_subtitle: "Master of precision"
+	quest.2A27EACB10DB3932.quest_desc: ["Adds Defense EVs to a Pokemon. Train up a physical wall fast."]
+	quest.2AA86FA3605C966D.quest_desc: ["A hairy, sour food berry. No battle use, but a solid cooking ingredient."]
+	quest.2BE068E77B254EBC.quest_desc: ["A fluffy cream that evolves Swirlix into Slurpuff on trade."]
+	quest.2C8F8890D682892A.quest_desc: ["Halves Speed but adds Attack EVs after battle."]
+	quest.2D0DD5D06EE5C01E.quest_desc: ["Adds a single Defense EV to round off bulk."]
+	quest.2D2959F7A73FA0EB.quest_desc: ["Raises Defense when HP runs low, letting a wall dig in at the worst moment."]
+	quest.2D4073C4E9B49592.quest_desc: [
+		"Competitive Pokemon live and die by their &aheld item&r. Two items form the backbone of nearly every team."
+		""
+		"&aLeftovers&r slowly heals the holder every turn, keeping walls alive. The &aLife Orb&r boosts every attack at the cost of a little recoil."
+		""
+		"Obtain Leftovers and a Life Orb to arm your first competitive Pokemon."
+	]
+	quest.2D4073C4E9B49592.quest_subtitle: "The staple held items"
+	quest.2D5627C699DEE86D.quest_desc: ["Thaws a frozen Pokemon."]
+	quest.2D5D8F8ED4B33668.quest_desc: [
+		"Deep in an End Ship hangs the &aElytra&r, the wings that let you glide across the world."
+		""
+		"Claim an Elytra from an End Ship."
+		""
+		"Pair it with fireworks and the whole map opens up."
+	]
+	quest.2D5D8F8ED4B33668.quest_subtitle: "Wings at last"
+	quest.2D61BC168DEC8637.quest_desc: ["Changes a Pokemon's nature to Adamant, reshaping its stat spread without re-breeding."]
+	quest.2D9165DC900E5B80.quest_desc: [
+		"A &aTrain Station&r is where you assemble, name and dispatch trains. Place it beside a track to define a stop."
+		""
+		"From the station you can build a new train, board it, and send it on its way."
+		""
+		"Every rail line needs at least two stations to be useful."
+	]
+	quest.2D9165DC900E5B80.quest_subtitle: "Where trains stop"
+	quest.2DBEA8B7F1AF1D5D.quest_desc: ["An electric device that evolves Electabuzz into Electivire."]
+	quest.2DE76DFC1086F69F.quest_desc: ["Lets the holder move first within its priority bracket once when HP runs low. A clutch pinch berry for landing the final blow."]
+	quest.2E1887D3388210DD.quest_desc: ["Boosts Special Defense by 50 percent but blocks status moves. Turns attackers into tanks."]
+	quest.2E4B37499D05A742.quest_desc: [
+		"Collect every Cobblemon berry to prove you are a true Berry Master."
+		""
+		"Reward: a random pull from the Berry Master table plus a big XP payout. The grand prize for filling every plot on the farm."
+	]
+	quest.2E4B37499D05A742.quest_subtitle: "Collect all 70 berries"
+	quest.2E4B37499D05A742.title: "Berry Master"
+	quest.2E77D644E3015866.quest_desc: ["Held glasses that boost the power of special moves by 10 percent."]
+	quest.2E7F2F734F9ABE0B.quest_desc: ["Evolves Grass Pokemon like Gloom and Exeggcute."]
+	quest.2F54C47EA3E0B697.quest_desc: [
+		"Different Apricorns craft different balls. &aUltra Balls&r give you the best catch rate before the Master Ball."
+		""
+		"Craft a set of specialty balls to prepare for tougher catches. Great Balls and Ultra Balls will save many battles."
+		""
+		"Bring a good ball to a hard fight."
+	]
+	quest.2F54C47EA3E0B697.quest_subtitle: "A ball for every situation"
+	quest.2FE46CF354474F9A.quest_desc: [
+		"Prove you have mastered the shadow realm. Catch &a4 Pokemon&r total in the Otherside."
+		""
+		"Ghost, Dark and Dragon types await the bold."
+		""
+		"Few trainers ever assemble an Otherside team."
+	]
+	quest.2FE46CF354474F9A.quest_subtitle: "Walker of the Otherside"
+	quest.3009BF63BDA7534E.quest_desc: [
+		"&aRaid Den Crystals&r summon powerful boss Pokemon. Bring a &aCatching Charm&r to raise the catch rate and &aCheers&r to buff your party."
+		""
+		"Obtain a Catching Charm and clear the way to raid."
+	]
+	quest.3009BF63BDA7534E.quest_subtitle: "Team up on a boss"
+	quest.3009BF63BDA7534E.title: "Raid Dens"
+	quest.300F18E5A7C1E9C1.quest_desc: [
+		"Some species wear a &aregional form&r, an Alolan, Galarian, Hisuian or Paldean variant with different types and looks."
+		""
+		"Catch a Pokemon of the &aAlola&r region to record a regional form."
+	]
+	quest.300F18E5A7C1E9C1.quest_subtitle: "Same name, new shape"
+	quest.300F18E5A7C1E9C1.title: "Regional Forms"
+	quest.3011D0116C97D3B8.quest_desc: [
+		"Battle a wild Pokemon to lower its health, then throw a Poke Ball. The weaker and rarer the target, the harder the catch."
+		""
+		"Catch your first wild &aPokemon&r to grow your team beyond your starter."
+	]
+	quest.3011D0116C97D3B8.quest_subtitle: "Weaken it, then throw"
+	quest.3011D0116C97D3B8.title: "First Catch"
+	quest.301EBF84866B3D56.quest_desc: [
+		"Poke Balls are crafted in Steamon from &aApricorns&r grown on trees. Cook and press them into the balls that catch wild Pokemon."
+		""
+		"Gather a starting stock of &aPoke Balls&r so you are never caught empty handed."
+	]
+	quest.301EBF84866B3D56.quest_subtitle: "No Trainer travels without Poke Balls"
+	quest.301EBF84866B3D56.title: "Apricorn Balls"
+	quest.302DD22E9EACED58.quest_desc: [
+		"The Utility+ &aShiny Card&r raises your shiny encounter rate as you fill it, rewarding sustained hunting."
+		""
+		"Obtain a Shiny Card and start stacking your odds."
+	]
+	quest.302DD22E9EACED58.quest_subtitle: "Tilt the odds"
+	quest.302DD22E9EACED58.title: "Shiny Charm"
+	quest.3030E5100B772F76.quest_desc: [
+		"Level 100 is the ceiling. Battle high level trainers, use Exp. Candies and spread experience to close the final levels."
+		""
+		"Raise any Pokemon to &alevel 100&r."
+	]
+	quest.3030E5100B772F76.quest_subtitle: "Push to 100"
+	quest.3030E5100B772F76.title: "Maximum Level"
+	quest.3036D09558224631.quest_desc: [
+		"&aVitamins&r each add effort values to one stat, up to the cap. Combined with battling the right Pokemon, they shape a competitive spread."
+		""
+		"Gather one of each core vitamin to master EV training."
+	]
+	quest.3036D09558224631.quest_subtitle: "Vitamins raise effort values"
+	quest.3036D09558224631.title: "EV Training"
+	quest.303908B6866F41F7.quest_desc: [
+		"A parent holding a &aDestiny Knot&r passes five of its IVs to the offspring instead of the usual three, the key to breeding perfect stats."
+		""
+		"Obtain a Destiny Knot for your breeding pen."
+	]
+	quest.303908B6866F41F7.quest_subtitle: "Pass down five IVs"
+	quest.303908B6866F41F7.title: "Destiny Knot"
+	quest.303E068A7A7CAFDB.quest_desc: [
+		"A &aMega Bracelet&r (or Key Stone gear) lets a Pokemon holding its Mega Stone temporarily &aMega Evolve&r in battle for a huge power spike."
+		""
+		"Obtain the wearable trigger and a first Mega Stone to begin Mega Evolving."
+	]
+	quest.303E068A7A7CAFDB.quest_subtitle: "Unlock the surge"
+	quest.303E068A7A7CAFDB.title: "Mega Evolution"
+	quest.30476E776CD6A508.quest_desc: [
+		"Made a mistake with EVs? &aMochi&r lets you adjust a Pokemon's training after the fact, raising the EVs of a chosen stat."
+		""
+		"Obtain a &aMochi&r and use it to fine tune a Pokemon that has already been trained."
+		""
+		"With Mochi you never have to start a Pokemon over from scratch."
+	]
+	quest.30476E776CD6A508.quest_subtitle: "Reset and retrain"
+	quest.3047F188A089450E.quest_desc: [
+		"&aDefeat 100 Pokemon&r in battle, wild encounters or the teams of rival Trainers, to prove your combat record."
+		""
+		"Rack up 100 victories."
+	]
+	quest.3047F188A089450E.quest_subtitle: "One hundred wins"
+	quest.3047F188A089450E.title: "Battle Hardened"
+	quest.3052CD5F4DA81C08.quest_desc: [
+		"&aAprijuice&r brewed from Apricorns boosts a rideable Pokemon's speed, jump and stamina so it carries you across the world."
+		""
+		"Brew a Swift Aprijuice and take to the road on your partner."
+	]
+	quest.3052CD5F4DA81C08.quest_subtitle: "Journey Mounts"
+	quest.3052CD5F4DA81C08.title: "Ride On"
+	quest.305663B330131573.quest_desc: [
+		"Two compatible Pokemon left together produce an &aEgg&r. Hold a &aDestiny Knot&r to pass down more IVs, an &aEverstone&r to lock a nature."
+		""
+		"Hatch an Egg to prove you understand breeding."
+	]
+	quest.305663B330131573.quest_subtitle: "Eggs and inheritance"
+	quest.305663B330131573.title: "The Breeder"
+	quest.30719A910D67E638.quest_desc: [
+		"A parent holding an &aEverstone&r passes its exact nature to every offspring, and stops that Pokemon from evolving."
+		""
+		"Obtain an Everstone to control inherited natures."
+	]
+	quest.30719A910D67E638.quest_subtitle: "Lock the nature"
+	quest.30719A910D67E638.title: "Everstone"
+	quest.3084470212E5AD9E.quest_desc: ["A heavy protective item that evolves Rhydon into Rhyperior on trade."]
+	quest.3090960AFB219897.quest_desc: [
+		"You breed for stats, train EVs, wield Mega Stones, ride mounts and raid dens. Few Trainers reach this far."
+		""
+		"&eUnlocks Myths & Legends&r once the Ender Dragon falls. Claim the Trainer's Path cache."
+		""
+		"Reward: one pull from the Trainer's Path loot table, plus a bonus."
+	]
+	quest.3090960AFB219897.quest_subtitle: "A battler and a collector"
+	quest.3090960AFB219897.title: "Trainer's Path Complete"
+	quest.30A01E1B7FF3061E.quest_desc: [
+		"A &aHealing Machine&r fully restores your whole party's health and status in seconds, powered by redstone."
+		""
+		"Craft one and you never have to trek home to heal again."
+	]
+	quest.30A01E1B7FF3061E.quest_subtitle: "Restore your team"
+	quest.30A01E1B7FF3061E.title: "Field Medic"
+	quest.30A36CD67E88494F.quest_desc: [
+		"Shinies, regional forms, a maxed team, a wide Pokedex and a hundred wins. You stand among the legends."
+		""
+		"Claim the ultimate cache. There is no higher Trainer rank in Steamon."
+		""
+		"Reward: one pull from the Myths & Legends loot table, plus a bonus."
+	]
+	quest.30A36CD67E88494F.quest_subtitle: "The peak of the journey"
+	quest.30A36CD67E88494F.title: "Champion of Steamon"
+	quest.30A94C8C925E9C8A.quest_desc: [
+		"The &aPC&r lets you store, sort and swap Pokemon beyond your six party slots. Every catch is safely kept here."
+		""
+		"Build a PC to manage a growing collection."
+	]
+	quest.30A94C8C925E9C8A.quest_subtitle: "More than six"
+	quest.30A94C8C925E9C8A.title: "Storage System"
+	quest.30AFAC41F3B73B72.quest_desc: [
+		"You have your first partner, a full ball line, vitamins and evolution stones. The basics are yours."
+		""
+		"&eUnlocks the Trainer's Path&r. Claim a random reward from the First Steps cache."
+		""
+		"Reward: one pull from the First Steps loot table, plus a bonus."
+	]
+	quest.30AFAC41F3B73B72.quest_subtitle: "You are a Trainer now"
+	quest.30AFAC41F3B73B72.title: "First Steps Complete"
+	quest.30D36D71F92789E4.quest_desc: [
+		"Serious shiny hunters do not rely on luck alone. The &aShiny Card&r from the Utility+ toolkit boosts your chance of finding a shiny."
+		""
+		"Combine it with chained encounters and a full breeding setup to hunt efficiently."
+		""
+		"Obtain a Shiny Card and turn shiny hunting from a dream into a plan."
+	]
+	quest.30D36D71F92789E4.quest_subtitle: "Tip the odds in your favour"
+	quest.30D545F671BDE23C.quest_desc: [
+		"&aUtility+ Caps&r let you tune a Pokemon's hidden IVs. The &aWooden Cap&r is the entry tier, a taste of the stat control to come."
+		""
+		"Obtain a Wooden Cap and a Common Candy to learn the Utility+ tools."
+	]
+	quest.30D545F671BDE23C.quest_subtitle: "Utility+ starter gear"
+	quest.30D545F671BDE23C.title: "A Trainer's Cap"
+	quest.30DF64A78E3B293A.quest_desc: [
+		"&aRare Candy&r raises a Pokemon one level instantly. &aExp. Candies&r grant a fixed chunk of experience, from XS up to XL."
+		""
+		"Stock candies to speed weaker team members up to fighting shape."
+	]
+	quest.30DF64A78E3B293A.quest_subtitle: "Levels in a wrapper"
+	quest.30DF64A78E3B293A.title: "Sweet Shortcut"
+	quest.30E0E43F6CBBE3F0.quest_desc: [
+		"&aShiny Pokemon&r wear alternate colours and appear once in several thousand encounters. Catching one is the mark of a dedicated Trainer."
+		""
+		"Hunt down and catch a single shiny Pokemon to open the endgame."
+	]
+	quest.30E0E43F6CBBE3F0.quest_subtitle: "One in thousands"
+	quest.30E0E43F6CBBE3F0.title: "Shiny Hunter"
+	quest.30E8147CBFAFB5F1.quest_desc: [
+		"A living record of every Pokemon you meet is the badge of a serious Trainer. Push your &aPokedex&r wide."
+		""
+		"Catch &a50 Pokemon&r in total."
+	]
+	quest.30E8147CBFAFB5F1.quest_subtitle: "Fifty species"
+	quest.30E8147CBFAFB5F1.title: "Pokedex Drive"
+	quest.30E9681CB438878A.quest_desc: [
+		"Every Trainer's journey opens with a single choice. Use a &aCobblemon starter block&r or interact with a wild Pokemon to bind your first partner."
+		""
+		"Your starter follows you, battles at your side, and levels up as you fight. Treat it well."
+	]
+	quest.30E9681CB438878A.quest_subtitle: "Choose a starter and begin"
+	quest.30E9681CB438878A.title: "Your First Partner"
+	quest.30FF79947BBD7BF0.quest_desc: [
+		"A &aLab Table&r and a &aChisel&r let you clean fossils from &aConcretion&r and resurrect long extinct Pokemon."
+		""
+		"Set up a Lab Table and a chisel to start reviving fossils."
+	]
+	quest.30FF79947BBD7BF0.quest_subtitle: "Revive the ancients"
+	quest.30FF79947BBD7BF0.title: "Paleontologist"
+	quest.31012EE829FC79F0.quest_desc: ["A shiny Utility+ Special Attack cap variant."]
+	quest.3156ED3D702729A3.quest_desc: ["Halves one super-effective Rock-type hit. Great on Fire, Flying, Bug and Ice types that dread Stone Edge."]
+	quest.31852E57381A525C.quest_desc: ["A basic Utility+ wooden cap, the entry-level IV cap."]
+	quest.31A8811F6306EC1C.quest_desc: ["Raises accuracy for the next move when HP runs low, guaranteeing an otherwise shaky attack lands."]
+	quest.31BD3E00B19E4485.quest_desc: ["A crisp white Apricorn juice."]
+	quest.31D5CA11EE99E264.quest_desc: [
+		"Within the Ancient City stands a &aportal frame&r of Otherside stone. Fill it to open the gate."
+		""
+		"Build and activate the Otherside portal, then step through."
+		""
+		"The Otherside is a dark mirror of the Deep Dark."
+	]
+	quest.31D5CA11EE99E264.quest_subtitle: "Open the Otherside portal"
+	quest.31E6BFCD89999B31.quest_desc: ["Cures poison on a single Pokemon."]
+	quest.325E291E2A1ACC80.quest_desc: ["Adds a single HP EV. Fine-tune a spread to the exact point."]
+	quest.32617E6A0918F050.quest_desc: [
+		"A belt is useless if nothing loads it. &aFunnels&r insert and extract items between belts, chests and machines."
+		""
+		"Craft &aAndesite Funnels&r and use them to feed a belt from a chest, and to pull finished goods off the other end."
+		""
+		"Sneak-right-click a funnel with the wrench to flip its direction."
+	]
+	quest.32617E6A0918F050.quest_subtitle: "Put items on and take them off"
+	quest.338F6A3444EB747E.quest_desc: ["Thaws a frozen Pokemon at once so it can act instead of waiting out the freeze."]
+	quest.33DFC5D1B2C45880.quest_desc: ["Halves one super-effective Flying-type hit. Shields Grass, Fighting and Bug types from Brave Bird."]
+	quest.34B759513B49F5E7.quest_desc: [
+		"The &aMechanical Saw&r chops trees, cuts logs into planks, and processes items travelling on a belt."
+		""
+		"Face it upward to fell a whole tree, or lay it under a belt to slice items as they pass."
+		""
+		"Pair it with a drill and a belt for your first fully automatic tree farm."
+	]
+	quest.34B759513B49F5E7.quest_subtitle: "Cut logs and slice materials"
+	quest.3544A6C021D49696.quest_desc: [
+		"Caught a great Pokemon with the wrong Nature? &aMints&r overwrite how a Nature affects stats without breeding a new one."
+		""
+		"Each mint favours a different stat spread. Grab an &aAdamant&r, &aModest&r, &aJolly&r or &aTimid&r mint to match your Pokemon's role."
+		""
+		"Obtain a Mint and correct a Nature the easy way."
+	]
+	quest.3544A6C021D49696.quest_subtitle: "Change a Pokemon's Nature"
+	quest.3557D562DF4C7F99.quest_desc: ["Evolves gender-specific Pokemon like male Kirlia and female Snorunt."]
+	quest.3566895E4C3B18C3.quest_desc: [
+		"IVs are locked when a Pokemon is caught or bred, but in Steamon you can fix them afterwards. &aBottle Caps&r max out an IV to its highest value."
+		""
+		"A &aSilver Cap&r maxes one chosen stat, and a &aGolden Cap&r maxes every stat at once. The &aAbility Patch&r swaps a Pokemon to its Hidden Ability."
+		""
+		"Obtain a Bottle Cap and an Ability Patch to finish a truly competitive Pokemon."
+	]
+	quest.3566895E4C3B18C3.quest_subtitle: "Perfect the invisible stats"
+	quest.35B939FA61281403.quest_desc: ["Evolves Sneasel into Weavile when held at night, and raises the critical-hit ratio."]
+	quest.35E796275277CA87.quest_desc: ["Halves one super-effective Poison-type hit, protecting Grass and Fairy types."]
+	quest.364B83B69AD9778A.quest_desc: [
+		"You already have a &aPasture Block&r. Now put it to work. Leave a compatible male and female pair in the pasture and, over time, they will produce an &aEgg&r."
+		""
+		"Pick up the Egg, keep it in your party, and walk around until it &ahatches&r into a fresh baby Pokemon."
+		""
+		"Hatch your first Egg to begin your breeding operation."
+	]
+	quest.364B83B69AD9778A.quest_subtitle: "Where new Pokemon come from"
+	quest.36ADA139846D7C06.quest_desc: [
+		"The islands are built from &aHolystone&r. Mine it for the Aether's tools and building blocks."
+		""
+		"Collect a stack of Holystone."
+		""
+		"Holystone tools match iron and open the Aether tech tree."
+	]
+	quest.36ADA139846D7C06.quest_subtitle: "Stone of the heavens"
+	quest.36CF5C05E74DB66B.quest_desc: [
+		"The path to the &aOtherside&r begins in the &aDeep Dark&r, in an &aAncient City&r beneath the world."
+		""
+		"Find an Ancient City and loot its chests. Beware the Warden."
+		""
+		"Somewhere down there is the doorway to another realm."
+	]
+	quest.36CF5C05E74DB66B.quest_subtitle: "Descend to the Ancient City"
+	quest.36E83CD82E8BCD6A.quest_desc: [
+		"The Otherside crawls with &aGhost type Pokemon&r from the &aOthersideCobblemonSpawns&r pack. Catch &a2 Ghost types&r here."
+		""
+		"Ghost types haunt this dimension in numbers found nowhere else."
+		""
+		"Bring a light and a steady nerve."
+	]
+	quest.36E83CD82E8BCD6A.quest_subtitle: "Spirits of the dark"
+	quest.374870F324D9E89A.quest_desc: ["Halves one super-effective Electric-type hit. Popular on Flying and Water types that fear Thunderbolt."]
+	quest.38EF33E37694D858.quest_desc: ["A Utility+ obsidian Defense cap."]
+	quest.39A88117C609668C.quest_desc: ["Adds Attack EVs to a Pokemon, up to the training cap. The staple physical EV booster."]
+	quest.39F635149B364918.quest_desc: ["A Utility+ cap that guarantees a high Special Attack IV floor."]
+	quest.3A21272C12F3782D.quest_desc: ["A fiery, spicy food berry covered in bumps. No battle effect; grow it for cooking."]
+	quest.3AB4439C155914C0.quest_desc: ["Snaps a confused Pokemon back to its senses, preventing it from hurting itself."]
+	quest.3AB6518666694897.quest_desc: [
+		"Dark type Pokemon rule the Otherside alongside the ghosts. Catch &a2 Dark types&r here."
+		""
+		"Dark types thrive far from any sun."
+		""
+		"Fire and Ghost teammates cover their weaknesses well."
+	]
+	quest.3AB6518666694897.quest_subtitle: "Denizens of shadow"
+	quest.3B6AB31341B3AAFC.quest_desc: ["A Utility+ obsidian Special Defense cap."]
+	quest.3B969103F9DFB793.quest_desc: [
+		"The End is home to powerful &aPsychic type Pokemon&r. Catch &a2 Psychic types&r here."
+		""
+		"Psychic types command the strange energies of this dimension."
+		""
+		"Weaken carefully, these are rare and strong."
+	]
+	quest.3B969103F9DFB793.quest_subtitle: "Minds beyond the void"
+	quest.3BD366314373ABBA.quest_desc: [
+		"The &aPasture Block&r lets your Pokemon roam free and, with a compatible pair, produce eggs."
+		""
+		"Craft and place a Pasture Block, then send out Pokemon to live in it."
+		""
+		"Breeding is the key to perfect teams and shiny hunting."
+	]
+	quest.3BD366314373ABBA.quest_subtitle: "Start your breeding operation"
+	quest.3BDE170AFAF57E6B.quest_desc: ["Wakes a sleeping Pokemon."]
+	quest.3D6F33D9671494ED.quest_desc: [
+		"The &aMaster Ball&r catches any Pokemon without fail, no weakening required. There is nothing rarer or more valuable in a Trainer's bag."
+		""
+		"Earn or craft a single Master Ball and save it for the catch of a lifetime, a legendary or the perfect shiny."
+		""
+		"Obtain a Master Ball. You are now Trainer elite."
+	]
+	quest.3D6F33D9671494ED.quest_subtitle: "The ball that never fails"
+	quest.3D879914D095ABB7.quest_desc: [
+		"A &aChute&r moves items vertically and can drop them straight onto a belt or into a machine below."
+		""
+		"Craft a Chute and a &aDepot&r. The Depot holds a single stack in the world, perfect for hand-feeding or as a machine target."
+		""
+		"With belts, funnels, chutes and depots you can route items anywhere."
+	]
+	quest.3D879914D095ABB7.quest_subtitle: "Drop items neatly onto belts"
+	quest.3E17125E0F3C140B.quest_desc: ["A Utility+ cap that guarantees a high Special Defense IV floor."]
+	quest.3E174A401C17B850.quest_desc: [
+		"&aNether Quartz&r is used across Create redstone builds and decorative recipes."
+		""
+		"Mine a good stock of Nether Quartz."
+		""
+		"The Nether is the only place it grows."
+	]
+	quest.3E174A401C17B850.quest_subtitle: "Harvest the wastes"
+	quest.3E7681AB12026F3F.quest_desc: ["Lowers Speed EVs and raises friendship, useful for Trick Room builds or friendship evolutions."]
+	quest.3F0B9882273FBF16.quest_desc: [
+		"Collect every Cobblemon cooking, vitamin and medicine item to master the kitchen."
+		""
+		"Reward: a random pull from the Master Chef table plus a big XP payout."
+	]
+	quest.3F0B9882273FBF16.quest_subtitle: "Cook and collect it all"
+	quest.3F0B9882273FBF16.title: "Master Chef"
+	quest.3F6695E3C74A3BEF.quest_desc: [
+		"Machines need a source of rotation. The &aWater Wheel&r is the easiest early generator: place it in flowing water and it spins forever."
+		""
+		"Alternatively, a &aWindmill Bearing&r with eight Sails gives even more power."
+		""
+		"Build a Water Wheel and get your first stress network running."
+	]
+	quest.3F6695E3C74A3BEF.quest_subtitle: "Free, endless rotational power"
+	quest.3FED7EC956C69B35.quest_desc: ["A special Utility+ card tied to shiny Pokemon rewards."]
+	quest.4000684EADA90E4E.quest_desc: [
+		"&aDark type&r Pokemon rule the Otherside alongside the ghosts. Catch 2 here."
+		""
+		"Dark types thrive far from any sun. Fire and Ghost teammates cover their weaknesses well."
+	]
+	quest.4000684EADA90E4E.quest_subtitle: "Denizens of shadow"
+	quest.4000684EADA90E4E.title: "Catch Dark-types"
+	quest.400288EDEEB9E085.quest_desc: [
+		"&aBastion Remnants&r are piglin strongholds packed with gold and gear."
+		""
+		"Loot a bastion and bring back its treasure. Wear your gold and watch the brutes."
+		""
+		"This is where the road to Netherite begins."
+	]
+	quest.400288EDEEB9E085.quest_subtitle: "Raid the bastion"
+	quest.4006743C0D1865AD.quest_desc: [
+		"Among the clouds live &aFairy type&r Pokemon of pure and radiant nature. Catch 2 here."
+		""
+		"Fairy types shine in the Aether's holy light. Gentle to look at, fierce in battle."
+	]
+	quest.4006743C0D1865AD.quest_subtitle: "Divine little spirits"
+	quest.4006743C0D1865AD.title: "Catch Fairy-types"
+	quest.4007E20DAC235BE9.quest_desc: [
+		"&aEnder Pearls&r and &aBlaze Powder&r make &aEyes of Ender&r. Throw them to follow the trail to the stronghold portal."
+		""
+		"Craft 6 Eyes of Ender, then fill the End portal frame and step through."
+		""
+		"A barren island floats in the void. Upon it waits the Ender Dragon."
+	]
+	quest.4007E20DAC235BE9.quest_subtitle: "Find the stronghold"
+	quest.40091CD67B4264AE.quest_desc: [
+		"The &aAether&r portal is framed in &aGlowstone&r instead of obsidian. Build the frame, then pour a bucket of &awater&r inside to open it."
+		""
+		"Step through and rise into a paradise of floating islands, holy stone and divine creatures."
+		""
+		"&aFlying&r and &aFairy&r type Pokemon drift between the isles up here."
+	]
+	quest.40091CD67B4264AE.quest_subtitle: "A gateway of glowstone"
+	quest.40091CD67B4264AE.title: "Enter the Aether"
+	quest.400B70B15CA981EA.quest_desc: [
+		"&aReinforced Echo Shards&r are the Otherside's crafting cores, forged from echo shards and the realm's own stone."
+		""
+		"Craft a Reinforced Echo Shard. It fuels the strongest Deeper Darker gear."
+	]
+	quest.400B70B15CA981EA.quest_subtitle: "Shards of the deep"
+	quest.400B70B15CA981EA.title: "Reinforced Echo Shard"
+	quest.4017A30D1D6290F2.title: "Paradox Hunt"
+	quest.401C56BC12A6160F.quest_desc: [
+		"The &aBeast Ball&r is built for the oddest Pokemon. Stock up for the hardest hunts."
+		""
+		"Gather 3 Beast Balls, then save the reward for the Aether and Otherside legends."
+	]
+	quest.401C56BC12A6160F.quest_subtitle: "Balls for the strangest catches"
+	quest.401CF50145120356.quest_desc: [
+		"&aAncient Debris&r hides deep near the lava seas. Smelt it into scrap and forge &aNetherite Ingots&r."
+		""
+		"Process enough debris for one Netherite Ingot. Netherite gear survives what diamond cannot."
+	]
+	quest.401CF50145120356.quest_subtitle: "The hardest metal"
+	quest.401CF9AF56F01343.quest_desc: [
+		"The &aSilver Dungeon&r floats in the clouds, home to the Valkyries and their Queen."
+		""
+		"Defeat the Valkyrie Queen. Only a proven trainer survives her blades."
+	]
+	quest.401CF9AF56F01343.quest_subtitle: "The Silver Dungeon"
+	quest.401CF9AF56F01343.title: "The Silver Dungeon"
+	quest.4029EBE8C49167AB.quest_desc: [
+		"You have opened the gate, cleared the temple and tamed the dark."
+		""
+		"Forge a piece of &aResonarium&r armor to seal your mastery of every dimension, then claim a random pull from the &aOtherside Cache&r."
+		""
+		"From the overworld to the Otherside, Steamon holds no realm you have not conquered."
+	]
+	quest.4029EBE8C49167AB.quest_subtitle: "Sovereign of the shadow realm"
+	quest.402B24236BC528BD.quest_desc: [
+		"&aNether Wart&r is the base of every potion, grown in fortress soul sand gardens."
+		""
+		"Collect 8 Nether Wart and start a brewing supply. Potions keep you and your team in the fight."
+	]
+	quest.402B24236BC528BD.quest_subtitle: "Brew and grow"
+	quest.403420D65C5F13B8.title: "Shadow Host"
+	quest.403463CB69668C51.quest_desc: [
+		"&aNether Fortresses&r are the home of blazes and the only source of &aBlaze Rods&r."
+		""
+		"Defeat blazes and claim 3 Blaze Rods. They power brewing and heat your Create foundry."
+	]
+	quest.403463CB69668C51.quest_subtitle: "Storm the fortress"
+	quest.403EA98C0D6DA092.quest_desc: [
+		"The End is home to powerful &aPsychic type&r Pokemon. Catch 2 of them here."
+		""
+		"Psychic types command the strange energies of this dimension. Weaken them carefully, they are rare and strong."
+	]
+	quest.403EA98C0D6DA092.quest_subtitle: "Minds beyond the void"
+	quest.403EA98C0D6DA092.title: "Catch Psychic-types"
+	quest.4040629EF17E4552.quest_desc: [
+		"Deep in an &aEnd Ship&r hangs the &aElytra&r, the wings that let you glide across the world."
+		""
+		"Claim one Elytra. Pair it with fireworks and the whole map opens up."
+	]
+	quest.4040629EF17E4552.quest_subtitle: "Wings at last"
+	quest.4043768E77603466.quest_desc: [
+		"Deep in the Otherside stands a &aTemple&r holding the &aHeart of the Deep&r, its greatest treasure."
+		""
+		"Explore the temple and claim the Heart of the Deep. It is the key to the realm's finest crafts."
+	]
+	quest.4043768E77603466.quest_subtitle: "The Otherside Temple"
+	quest.4044E086A32B8BAB.title: "Psychic Legion"
+	quest.4045C5FE831B4402.quest_desc: [
+		"The Aether teems with &aFlying type&r Pokemon drifting between islands. Catch 2 of them."
+		""
+		"Flying types rule these open skies. Watch your footing, the drop is a long one."
+	]
+	quest.4045C5FE831B4402.quest_subtitle: "Wings among the clouds"
+	quest.4045C5FE831B4402.title: "Catch Flying-types"
+	quest.405357394611F7F4.quest_desc: [
+		"Ride the outer gateway to the &aEnd Cities&r, towers full of loot and shulkers."
+		""
+		"Bring back 2 &aShulker Shells&r. Shulker boxes are the best portable storage in the game."
+	]
+	quest.405357394611F7F4.quest_subtitle: "Plunder the End Cities"
+	quest.4053CC3CE24C8C96.quest_desc: [
+		"You have slain the dragon, looted the cities and earned your wings."
+		""
+		"Assemble a true End team by catching &a4 Pokemon&r in the void, then claim a random pull from the &aEnd Cache&r."
+		""
+		"The sky is not the limit. The Aether calls those who conquer the End."
+	]
+	quest.4053CC3CE24C8C96.quest_subtitle: "Champion of the End"
+	quest.4053CC3CE24C8C96.title: "End Master"
+	quest.405B885C41DDE9FE.quest_desc: [
+		"&aNether Quartz&r feeds Create redstone builds and dozens of decorative recipes."
+		""
+		"Mine 16 Nether Quartz. The Nether is the only place it grows."
+	]
+	quest.405B885C41DDE9FE.quest_subtitle: "Harvest the wastes"
+	quest.405F38BF62A148A7.title: "Skybound Flock"
+	quest.4064C3F139A34C8D.title: "Dragon Legion"
+	quest.4066741F39AE17E5.quest_desc: [
+		"The Otherside is carved from &aGloomslate&r and &aSculk Stone&r. Mine it to build in this shadowed world."
+		""
+		"Collect a stack of Cobbled Gloomslate. Its tools and armor rival the overworld's best."
+	]
+	quest.4066741F39AE17E5.quest_subtitle: "Stone of the other realm"
+	quest.407DE90E67F64A06.quest_desc: [
+		"The Nether's shadows hide &aDark type&r Pokemon. Catch 2 of them here."
+		""
+		"Dark types punish the reckless and thrive far from the sun. A balanced Nether team runs fire and dark side by side."
+	]
+	quest.407DE90E67F64A06.quest_subtitle: "Creatures of the dark"
+	quest.407DE90E67F64A06.title: "Catch Dark-types"
+	quest.408268A0E9C639C1.quest_desc: [
+		"Build a squad suited to the heat. Catch &a3 Fire type&r Pokemon down here."
+		""
+		"Fire types resist the environment and hit hard. Weaken them first, the Nether species are tough."
+	]
+	quest.408268A0E9C639C1.quest_subtitle: "A proper fire team"
+	quest.408268A0E9C639C1.title: "Catch Fire-types"
+	quest.40842F992469C8BC.quest_desc: [
+		"&aZanite&r is the Aether's own gemstone. Its tools grow stronger as they wear down."
+		""
+		"Mine &aZanite Gemstones&r from inside the islands. A fine step up from Holystone gear."
+	]
+	quest.40842F992469C8BC.quest_subtitle: "Gems of the sky"
+	quest.40842F992469C8BC.title: "Zanite Gear"
+	quest.4089CCC850C250F5.quest_desc: [
+		"Activate the End portal and drop into the &aEnd&r."
+		""
+		"Bring blocks to bridge, a bow, and courage. The dragon does not wait."
+	]
+	quest.4089CCC850C250F5.quest_subtitle: "Into the void"
+	quest.4089CCC850C250F5.title: "Enter the End"
+	quest.408EF2591FC945BB.quest_desc: [
+		"You have looted the fortress, raided the bastion and forged the hardest metal in the game."
+		""
+		"Craft one more &aNetherite Ingot&r as your trophy, then claim a random pull from the &aNether Cache&r."
+		""
+		"With the Nether behind you, the End awaits."
+	]
+	quest.408EF2591FC945BB.quest_subtitle: "Master of the fire realm"
+	quest.40996153FB959512.quest_desc: [
+		"Build a &aNether Portal&r from obsidian and light it. Step through into a world of fire, ash and rare Pokemon."
+		""
+		"Bring &agold&r armor or trinkets. The piglins respect those who wear it, and the road ahead runs hot."
+		""
+		"Fire and Dark type Pokemon spawn here and almost nowhere else."
+	]
+	quest.40996153FB959512.quest_subtitle: "Light the way down"
+	quest.40996153FB959512.title: "Into the Nether"
+	quest.409E53EBB16ED918.quest_desc: [
+		"The &aEnder Dragon&r rules the central island. Destroy the End Crystals, then bring it down."
+		""
+		"Defeating it opens the gateway to the outer End islands. This is the classic endgame boss, so come prepared."
+	]
+	quest.409E53EBB16ED918.quest_subtitle: "Slay the Ender Dragon"
+	quest.409E53EBB16ED918.title: "Slay the Ender Dragon"
+	quest.40A3460330537B45.quest_desc: [
+		"&aGravitite&r is the rarest Aether ore, floating upward when disturbed. Its tools levitate blocks."
+		""
+		"Mine one &aGravitite Ore&r, the pinnacle of Aether mining."
+	]
+	quest.40A3460330537B45.quest_subtitle: "Defy gravity"
+	quest.40A6732E54F42423.title: "Frozen Isles"
+	quest.40A7467B5D2CE20D.quest_desc: [
+		"Within the Ancient City stands a portal frame of &aOtherside stone&r. Fill and light it to open the gate, then step through."
+		""
+		"The Otherside is a dark mirror of the Deep Dark, sprawling and silent."
+	]
+	quest.40A7467B5D2CE20D.quest_subtitle: "Open the Otherside portal"
+	quest.40A7467B5D2CE20D.title: "Enter the Otherside"
+	quest.40AACB4577F3D5EB.quest_desc: [
+		"The &aBronze Dungeon&r is guarded by the Slider. Beat it to earn its loot and a &aBronze Dungeon Key&r."
+		""
+		"Defeat the Slider. The dungeons hold the Aether's finest treasures."
+	]
+	quest.40AACB4577F3D5EB.quest_subtitle: "The Bronze Dungeon"
+	quest.40AACB4577F3D5EB.title: "The Bronze Dungeon"
+	quest.40B0202CA677F4CD.quest_desc: [
+		"The Otherside hides rare &aDragon&r and paradox Pokemon in its deepest reaches."
+		""
+		"Catch a Dragon type here. A Beast Ball may be your best chance at the strangest species."
+	]
+	quest.40B0202CA677F4CD.quest_subtitle: "Dragons in the deep"
+	quest.40B0202CA677F4CD.title: "Catch Dragon-types"
+	quest.40C4EA2C73849FF0.quest_desc: [
+		"The path to the &aOtherside&r begins in the &aDeep Dark&r, inside an &aAncient City&r beneath the world."
+		""
+		"Sneak past the Warden, loot the chests and bring back 2 &aEcho Shards&r. Somewhere down there is the doorway to another realm."
+		""
+		"&aGhost&r, &aDark&r and &aDragon&r type Pokemon lurk beyond the gate."
+	]
+	quest.40C4EA2C73849FF0.quest_subtitle: "Descend to the Ancient City"
+	quest.40C8746684D36B5F.title: "Void Wanderers"
+	quest.40CDEB41E5A18660.title: "Ghostly Host"
+	quest.40CE4F3B89953E7A.title: "Blazing Squad"
+	quest.40D4379A448269BF.quest_desc: [
+		"The islands are built from &aHolystone&r. Mine it for the Aether's tools and building blocks."
+		""
+		"Collect a stack of Holystone. Its tools match iron and open the Aether tech tree."
+	]
+	quest.40D4379A448269BF.quest_subtitle: "Stone of the heavens"
+	quest.40D62523710408DC.quest_desc: [
+		"Where better to find &aDragon type&r Pokemon than the End? Catch one here."
+		""
+		"Dragon types are among the strongest partners in the game. A patient trainer earns a mighty ally."
+	]
+	quest.40D62523710408DC.quest_subtitle: "Tame a dragon of your own"
+	quest.40D62523710408DC.title: "Catch Dragon-types"
+	quest.40DEB2DB8508FE06.quest_desc: [
+		"You have mined the isles, cleared the Bronze and Silver dungeons and tamed the divine."
+		""
+		"Enter the &aGold Dungeon&r and defeat the &aSun Spirit&r, the Aether's final trial, then claim a random pull from the &aAether Cache&r."
+		""
+		"Few trainers ever rule the sky."
+	]
+	quest.40DEB2DB8508FE06.quest_subtitle: "Champion of the heavens"
+	quest.40DEB2DB8508FE06.title: "Aether Master"
+	quest.40E836AE008BD782.quest_desc: [
+		"The Otherside crawls with &aGhost type&r Pokemon from the OthersideCobblemonSpawns pack. Catch 2 of them here."
+		""
+		"Ghost types haunt this dimension in numbers found nowhere else. Bring a light and a steady nerve."
+	]
+	quest.40E836AE008BD782.quest_subtitle: "Spirits of the dark"
+	quest.40E836AE008BD782.title: "Catch Ghost-types"
+	quest.40EF3BD366314373.title: "Shadow Squad"
+	quest.40F718D2A904C1D2.title: "Fairy Court"
+	quest.40FF75F82B92A6B7.title: "Catch Ground-types"
+	quest.41EFBDCF0556574A.quest_desc: ["Ignores entry hazards on switch-in. Essential tech against Stealth Rock teams."]
+	quest.42B8ED6522652C2F.quest_desc: ["Adds Speed EVs, pushing a sweeper past the field."]
+	quest.4384182E9FA93AC7.quest_desc: [
+		"The &aMechanical Drill&r mines any block placed in front of it, and grinds items on a belt or depot below it."
+		""
+		"Power it with rotation and point it at a block to break it automatically."
+		""
+		"Drills are the heart of every automated quarry."
+	]
+	quest.4384182E9FA93AC7.quest_subtitle: "Break blocks without lifting a finger"
+	quest.439125930B53268F.quest_desc: ["Changes a Pokemon's nature to Bold, reshaping its stat spread without re-breeding."]
+	quest.43A9B8A977E70989.quest_desc: ["Cures the holder of move-blocking effects like Taunt or Encore, once."]
+	quest.43BAF2421419EA72.quest_desc: [
+		"&aZanite&r is the Aether's own gemstone, used for tools that grow stronger as they wear down."
+		""
+		"Mine &aZanite Gemstones&r from the islands."
+		""
+		"Zanite gear is a fine step up from Holystone."
+	]
+	quest.43BAF2421419EA72.quest_subtitle: "Gems of the sky"
+	quest.43C55E1C1051E955.quest_desc: ["Held item that halves the damage from a super-effective Fire-type move once. A lifesaver for Grass, Ice, Bug and Steel types."]
+	quest.445A32A5539F158B.quest_desc: [
+		"Steamon runs a dedicated &aResource World&r that resets on a schedule, so you can mine freely without scarring the main map."
+		""
+		"Use the resource world command (for example &e/rw&r or the server menu) to travel to the exploration dimension and mine there."
+		""
+		"Bring back a stack of raw materials from the resource world."
+	]
+	quest.445A32A5539F158B.quest_subtitle: "Strip the land, spare your home"
+	quest.44943D9F41393F60.quest_desc: ["Cures a burn, restoring lost Attack pressure and stopping the chip damage each turn."]
+	quest.44A2C35534E51C9C.quest_desc: ["Restores a large amount of HP for tougher fights."]
+	quest.44C2ABF85A99A9C9.quest_desc: ["Adds Special Defense EVs to a spread."]
+	quest.44D4B1C50A9377B4.quest_desc: ["Halves one super-effective Bug-type hit, easing the Bug weakness of Psychic, Grass and Dark types."]
+	quest.453EFE677418A0E5.quest_desc: [
+		"Where else to find &aDragon type Pokemon&r but the End? Catch a Dragon type here."
+		""
+		"Dragon types are among the strongest partners in the game."
+		""
+		"A patient trainer earns a mighty ally."
+	]
+	quest.453EFE677418A0E5.quest_subtitle: "Tame a dragon of your own"
+	quest.4756F5C74CF34221.quest_desc: ["Revives a fainted Pokemon with half its HP."]
+	quest.4809D43C4E6C288E.quest_desc: ["Adds Attack EVs through a tasty treat."]
+	quest.4863CD6DE6F03905.quest_desc: ["Restores about a quarter of max HP when the holder drops to half. The staple bulk-restoring held berry."]
+	quest.4867E364EA0C8FF4.quest_desc: ["Boosts the power of super-effective moves by 20 percent."]
+	quest.48A408C687168324.quest_desc: ["A shiny Utility+ Special Defense cap variant."]
+	quest.49365102AE2D1F9B.quest_desc: ["A Utility+ golden cap that maxes an IV. The premium hyper-training tool."]
+	quest.49CCC0D47FD56CC2.quest_desc: [
+		"Collect every competitive held item and IV cap to build the perfect battle team."
+		""
+		"Reward: a random top-tier held item or IV tool plus a big XP payout."
+	]
+	quest.49CCC0D47FD56CC2.quest_subtitle: "Assemble every battle item"
+	quest.49CCC0D47FD56CC2.title: "Battle Master"
+	quest.4A090658157A4189.quest_desc: ["Wipes every EV off a Pokemon at once, giving you a clean slate to retrain."]
+	quest.4A1DF984344BBB42.quest_desc: [
+		"The &aMechanical Bearing&r rotates any structure attached to it. Use it to build windmills for power, or spinning contraptions for show."
+		""
+		"Attach blocks to its face, glue them together if needed, and give it rotation."
+		""
+		"Bearings and pistons together let you build machines that move themselves."
+	]
+	quest.4A1DF984344BBB42.quest_subtitle: "Spin blocks in place"
+	quest.4B342B6226C513FC.quest_desc: ["Evolves Pokemon such as Togetic and Roselia."]
+	quest.4B358F4AB4810D7F.quest_desc: [
+		"The &aPackager&r wraps items into packages that travel on belts and through chutes, and can be addressed to a destination."
+		""
+		"Add a &aStock Ticker&r and &aStock Link&r to request items from a whole warehouse over the package network."
+		""
+		"Build a Packager and send your first addressed package across the base."
+	]
+	quest.4B358F4AB4810D7F.quest_subtitle: "Package logistics"
+	quest.4B478508EF3A5998.quest_desc: ["Fully restores the PP of a single move."]
+	quest.4BCA5AE6E024A7AF.quest_desc: ["Halves one super-effective Dark-type hit, guarding Psychic and Ghost types from Dark moves."]
+	quest.4C51E3BC23133857.quest_desc: [
+		"You have automation, control and trains. Now you build the &afull factory&r: superheated boilers, scheduled rail networks, package logistics, and the flying machines this pack adds on top of Create."
+		""
+		"This chapter uses the pack's Create addons: &aCreate Stuff & Additions&r jetpacks, &aCreate Nuclear&r reactors and &aCreate Dragons Plus&r."
+		""
+		"Everything you make here runs on its own."
+	]
+	quest.4C51E3BC23133857.quest_subtitle: "The endgame of engineering"
+	quest.4C6BC4837AADD3DC.quest_desc: ["Raises a Pokemon's HP IV toward its maximum."]
+	quest.4CADC2E0A00608F9.quest_desc: ["A shiny scale that evolves Feebas into the elegant Milotic."]
+	quest.4CD930E5A9CD764E.quest_desc: ["Changes a Pokemon's nature to Rash, reshaping its stat spread without re-breeding."]
+	quest.4DB5E0E9EE60FE98.quest_desc: ["Lowers the Attack IV, handy for confusion or Foul Play sets."]
+	quest.4DDB03D15837327F.quest_desc: [
+		"Held items and perfect stats mean nothing without wins. It is time to test your team against the world."
+		""
+		"&aDefeat 100 Pokemon&r in battle, whether wild encounters or the teams of rival Trainers."
+		""
+		"A champion is forged in battle. Show everyone what your team can do."
+	]
+	quest.4DDB03D15837327F.quest_subtitle: "Prove your battle prowess"
+	quest.4DE35413F57E7AAB.quest_desc: [
+		"The &aChoice&r items lock you into a single move but grant a huge boost. They define aggressive competitive play."
+		""
+		"The &aChoice Band&r powers up physical attacks, the &aChoice Specs&r boost special attacks, and the &aChoice Scarf&r massively raises Speed."
+		""
+		"Collect the Choice trio to build fast, hard hitting sweepers."
+	]
+	quest.4DE35413F57E7AAB.quest_subtitle: "Commit to one move, gain raw power"
+	quest.4E2A62BDF80DAE06.quest_desc: ["A Utility+ orb used to alter or transmute a Pokemon's traits."]
+	quest.4E3C765D5CF8C1D7.quest_desc: ["Halves Speed but adds HP EVs after battle."]
+	quest.4EBBBD704DFA5CC6.quest_desc: [
+		"Every Pokemon has hidden &aIVs&r, values from 0 to 31 that decide how strong each stat can grow. Breeding is how you stack good IVs into a baby."
+		""
+		"The &aDestiny Knot&r is the key tool: give it to one parent and the Egg inherits five IVs from the two parents instead of three."
+		""
+		"Obtain a Destiny Knot and start breeding for perfect stats."
+	]
+	quest.4EBBBD704DFA5CC6.quest_subtitle: "Pass down the best stats"
+	quest.4EF5FFCE28F5667C.quest_desc: [
+		"Activate the End portal and step into the &aEnd&r."
+		""
+		"A barren island floats in the dark, guarded by a dragon."
+		""
+		"Bring blocks, bow and courage."
+	]
+	quest.4EF5FFCE28F5667C.quest_subtitle: "Into the void"
+	quest.4F172B6977C1A903.quest_desc: ["A Utility+ void Special Attack cap."]
+	quest.4F38DAAE2065535B.quest_desc: [
+		"&aGravitite&r is the rarest Aether ore, floating upward when disturbed. Its tools levitate blocks."
+		""
+		"Mine and enchant &aGravitite Ore&r."
+		""
+		"The pinnacle of Aether mining."
+	]
+	quest.4F38DAAE2065535B.quest_subtitle: "Defy gravity"
+	quest.4F5F09B688874FA5.quest_desc: ["A Utility+ cap that guarantees a high Defense IV floor."]
+	quest.4F88C0D441510EFD.quest_desc: ["Restores a small amount of a Pokemon's HP out of battle."]
+	quest.5000F94AD8C2D624.quest_desc: [
+		"Welcome to &aSteamon&r, a Create x Cobblemon community server."
+		""
+		"A few ground rules: no griefing, no stealing, no cheating or exploits. Be respectful in chat. Keep builds tasteful and give others space."
+		""
+		"Breaking these may cost you your whitelist. Play fair and everyone has a good time."
+	]
+	quest.5000F94AD8C2D624.quest_subtitle: "Play fair, be kind"
+	quest.5000F94AD8C2D624.title: "Server Rules"
+	quest.50019331EDEA6045.quest_desc: [
+		"Complete the catch, battle and training tasks of the Psychic Gym to earn the &aPsychic Badge&r."
+		""
+		"Reward: a pouch of spurs and a step closer to Champion."
+	]
+	quest.50019331EDEA6045.quest_subtitle: "Earn the Psychic Badge"
+	quest.50019331EDEA6045.title: "Psychic Badge"
+	quest.5007E20DAC235BE9.quest_desc: [
+		"A sausage cured from hoglin loin over blazing heat."
+		""
+		"Cook and obtain one to add it to your culinary collection."
+	]
+	quest.5007E20DAC235BE9.quest_subtitle: "My Nether's Delight"
+	quest.5007E20DAC235BE9.title: "Hoglin Sausage"
+	quest.5010FF5E2335BB50.quest_desc: [
+		"Harvest and turn in &a16 wheat&r from your fields today."
+		""
+		"Resets once per day."
+	]
+	quest.5010FF5E2335BB50.quest_subtitle: "Repeatable daily"
+	quest.5010FF5E2335BB50.title: "Daily Harvest"
+	quest.50116F99FDA23D12.quest_desc: [
+		"Raise a &aDark-type&r Pokemon to at least &alevel 70&r."
+		""
+		"The League demands ever-stronger teams as you climb."
+	]
+	quest.50116F99FDA23D12.quest_subtitle: "Dark Gym: train"
+	quest.50116F99FDA23D12.title: "Raise a Dark-type to Lv.70"
+	quest.5013D9EABAFACD6D.quest_desc: [
+		"A warming soup brewed deep underground."
+		""
+		"Cook and obtain one to add it to your culinary collection."
+	]
+	quest.5013D9EABAFACD6D.quest_subtitle: "Miner's Delight"
+	quest.5013D9EABAFACD6D.title: "Cavern Soup"
+	quest.501CF9AF56F01343.quest_desc: [
+		"Defeat &a6 Grass-type&r Pokemon in battle to earn your way through the Grass Gym."
+		""
+		"Wild encounters and rival teams both count."
+	]
+	quest.501CF9AF56F01343.quest_subtitle: "Grass Gym: battle"
+	quest.501CF9AF56F01343.title: "Grass Gym Battle"
+	quest.501DCF0AC468F2D7.quest_desc: [
+		"With the Ender Dragon slain, the world opens up. Structures hide loot, rare balls and priceless relics."
+		""
+		"Seek out villages, mineshafts and the silent Ancient Cities of the Deep Dark."
+		""
+		"&eGated behind the Dragon Slayer milestone.&r"
+	]
+	quest.501DCF0AC468F2D7.quest_subtitle: "The world is full of treasure"
+	quest.501DCF0AC468F2D7.title: "Adventure Awaits"
+	quest.502277C522EB9532.quest_desc: [
+		"Place a &aCutting Board&r and use your knife on it to slice ingredients, unlocking dozens of recipes."
+		""
+		"It also butchers raw meat into cuts for a better yield."
+	]
+	quest.502277C522EB9532.quest_subtitle: "Prep station"
+	quest.502277C522EB9532.title: "The Cutting Board"
+	quest.502684F98BF0F945.quest_desc: [
+		"Defeat &a3 Rock-type&r Pokemon in battle to earn your way through the Rock Gym."
+		""
+		"Wild encounters and rival teams both count."
+	]
+	quest.502684F98BF0F945.quest_subtitle: "Rock Gym: battle"
+	quest.502684F98BF0F945.title: "Rock Gym Battle"
+	quest.50294A5E15CF177A.quest_desc: [
+		"The &aMaster Ball&r catches any Pokemon without fail. There is nothing rarer in a Trainer's bag."
+		""
+		"Obtain one to prove your collection is complete."
+		""
+		"It is not consumed by this quest."
+	]
+	quest.50294A5E15CF177A.quest_subtitle: "The ultimate catch"
+	quest.50294A5E15CF177A.title: "The Master Ball"
+	quest.502A267939B37A10.quest_desc: [
+		"Raise a &aDragon-type&r Pokemon to at least &alevel 60&r."
+		""
+		"The League demands ever-stronger teams as you climb."
+	]
+	quest.502A267939B37A10.quest_subtitle: "Dragon Gym: train"
+	quest.502A267939B37A10.title: "Raise a Dragon-type to Lv.60"
+	quest.5030D07D822D290C.quest_desc: [
+		"Sweet or savoury, a &aPie&r is the pride of any baker. Bake an &aApple Pie&r from a pie crust and apples."
+		""
+		"Reward: a handful of spurs for the effort."
+	]
+	quest.5030D07D822D290C.quest_subtitle: "Dessert time"
+	quest.5030D07D822D290C.title: "Bake a Pie"
+	quest.503420D65C5F13B8.quest_desc: [
+		"Complete the catch, battle and training tasks of the Dark Gym to earn the &aDark Badge&r."
+		""
+		"Reward: a pouch of spurs and a step closer to Champion."
+	]
+	quest.503420D65C5F13B8.quest_subtitle: "Earn the Dark Badge"
+	quest.503420D65C5F13B8.title: "Dark Badge"
+	quest.5035665954F13AAF.quest_desc: [
+		"Excels in the dark and in caves."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.5035665954F13AAF.quest_subtitle: "Special Ball"
+	quest.5035665954F13AAF.title: "Dusk Ball"
+	quest.503EA98C0D6DA092.quest_desc: [
+		"Complete the catch, battle and training tasks of the Rock Gym to earn the &aRock Badge&r."
+		""
+		"Reward: a pouch of spurs and a step closer to Champion."
+	]
+	quest.503EA98C0D6DA092.quest_subtitle: "Earn the Rock Badge"
+	quest.503EA98C0D6DA092.title: "Rock Badge"
+	quest.5040629EF17E4552.quest_desc: [
+		"The &aSteamon League&r is eight Gyms, each devoted to a single type. Beat them in order and face the Champion."
+		""
+		"Every Gym asks you to catch a Pokemon of its type, defeat several in battle, and raise one to a set level."
+		""
+		"&eUnlocked by completing the Trainer's Path in Cobblemon II.&r"
+	]
+	quest.5040629EF17E4552.quest_subtitle: "The road to Champion begins"
+	quest.5040629EF17E4552.title: "Enter the League"
+	quest.5046F7C28D3F1916.quest_desc: [
+		"Catch a wild &aDark-type&r Pokemon to begin the Dark Gym challenge."
+		""
+		"Any dark-type counts."
+	]
+	quest.5046F7C28D3F1916.quest_subtitle: "Dark Gym: catch"
+	quest.5046F7C28D3F1916.title: "Catch a Dark-type"
+	quest.5052447EB34CB6A8.quest_desc: [
+		"Sneak into an &aAncient City&r beneath the Deep Dark. Avoid the Warden, loot the chests, and escape with an &aEcho Shard&r."
+		""
+		"The rarest overworld loot waits in the dark."
+	]
+	quest.5052447EB34CB6A8.quest_subtitle: "Brave the Deep Dark"
+	quest.5052447EB34CB6A8.title: "Ancient City"
+	quest.5055578AABFBC99D.quest_desc: [
+		"Complete the catch, battle and training tasks of the Grass Gym to earn the &aGrass Badge&r."
+		""
+		"Reward: a pouch of spurs and a step closer to Champion."
+	]
+	quest.5055578AABFBC99D.quest_subtitle: "Earn the Grass Badge"
+	quest.5055578AABFBC99D.title: "Grass Badge"
+	quest.505735A3FFD0486E.quest_desc: [
+		"With all eight Badges in hand, raise a Pokemon to &alevel 80&r and claim the title of &aLeague Champion&r."
+		""
+		"Reward: one random pull from the Champion table, a sack of spurs, and a mountain of experience."
+		""
+		"This is the summit of the Steamon League."
+	]
+	quest.505735A3FFD0486E.quest_subtitle: "Defeat the Champion"
+	quest.505735A3FFD0486E.title: "League Champion"
+	quest.505B885C41DDE9FE.quest_desc: [
+		"The &aSkillet&r fries food fast and can even be carried to cook over a campfire in the field."
+		""
+		"Great for quick meals during a Pokemon hunt."
+	]
+	quest.505B885C41DDE9FE.quest_subtitle: "Fry on the go"
+	quest.505B885C41DDE9FE.title: "The Skillet"
+	quest.505BBA33BE800664.quest_desc: [
+		"Catch &a5 Pokemon&r today. A Trainer's work is never done."
+		""
+		"Resets once per day."
+	]
+	quest.505BBA33BE800664.quest_subtitle: "Repeatable daily"
+	quest.505BBA33BE800664.title: "Daily Catch"
+	quest.505F2CB149273AD4.quest_desc: ["A Utility+ obsidian cap for a stronger HP IV guarantee."]
+	quest.506B76D432337E03.quest_desc: [
+		"Raise a &aGrass-type&r Pokemon to at least &alevel 36&r."
+		""
+		"The League demands ever-stronger teams as you climb."
+	]
+	quest.506B76D432337E03.quest_subtitle: "Grass Gym: train"
+	quest.506B76D432337E03.title: "Raise a Grass-type to Lv.36"
+	quest.506B9A6F6EC1D24C.quest_desc: [
+		"Catch a wild &aWater-type&r Pokemon to begin the Water Gym challenge."
+		""
+		"Any water-type counts."
+	]
+	quest.506B9A6F6EC1D24C.quest_subtitle: "Water Gym: catch"
+	quest.506B9A6F6EC1D24C.title: "Catch a Water-type"
+	quest.5072C373AAB7AF13.quest_desc: [
+		"Fully heals a caught Pokemon."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.5072C373AAB7AF13.quest_subtitle: "Special Ball"
+	quest.5072C373AAB7AF13.title: "Heal Ball"
+	quest.507644D633E92AAF.quest_desc: [
+		"Raise a &aElectric-type&r Pokemon to at least &alevel 29&r."
+		""
+		"The League demands ever-stronger teams as you climb."
+	]
+	quest.507644D633E92AAF.quest_subtitle: "Electric Gym: train"
+	quest.507644D633E92AAF.title: "Raise a Electric-type to Lv.29"
+	quest.5076CED6C9D4A07B.quest_desc: [
+		"Complete the catch, battle and training tasks of the Fire Gym to earn the &aFire Badge&r."
+		""
+		"Reward: a pouch of spurs and a step closer to Champion."
+	]
+	quest.5076CED6C9D4A07B.quest_subtitle: "Earn the Fire Badge"
+	quest.5076CED6C9D4A07B.title: "Fire Badge"
+	quest.507AE2D0C47CC928.quest_desc: [
+		"Build a &aStove&r to cook several Skillets at once and heat your Cooking Pots without a campfire."
+		""
+		"Your kitchen is now complete. Time to master the world's cuisines."
+	]
+	quest.507AE2D0C47CC928.quest_subtitle: "A proper kitchen"
+	quest.507AE2D0C47CC928.title: "Fire Up the Stove"
+	quest.507CEC039B55736C.quest_desc: [
+		"Defeat &a4 Water-type&r Pokemon in battle to earn your way through the Water Gym."
+		""
+		"Wild encounters and rival teams both count."
+	]
+	quest.507CEC039B55736C.quest_subtitle: "Water Gym: battle"
+	quest.507CEC039B55736C.title: "Water Gym Battle"
+	quest.508490691423DA09.quest_desc: [
+		"Better against low-level Pokemon."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.508490691423DA09.quest_subtitle: "Special Ball"
+	quest.508490691423DA09.title: "Nest Ball"
+	quest.50888E190728D8D6.quest_desc: [
+		"Useful commands for getting around Steamon:"
+		""
+		"&a/tpa <player>&r  request to teleport to someone"
+		"&a/tpaccept&r  accept a teleport request"
+		"&a/back&r  return to your last location"
+		"&a/spawn&r  travel to spawn"
+		"&a/sethome&r  set a home point"
+		"&a/home&r  return to a home"
+		"&a/rtp&r  random teleport into the wild"
+		"&a/warp <name>&r  travel to a named warp"
+		""
+		"&7Note: these commands require FTB Essentials (coming soon). They are listed here so you know what is on the way."
+	]
+	quest.50888E190728D8D6.quest_subtitle: "Get around the world"
+	quest.50888E190728D8D6.title: "Server Commands"
+	quest.5088AC64E84B2AB0.quest_desc: [
+		"Our &aDiscord&r is where everything happens: announcements, changelogs and help."
+		""
+		"Check &b#how-to-join&r for connection steps and &b#server-info&r for the current IP, map link and rules."
+		""
+		"The in-game chat is bridged to Discord, so you are never truly offline."
+	]
+	quest.5088AC64E84B2AB0.quest_subtitle: "Stay connected"
+	quest.5088AC64E84B2AB0.title: "Join the Community"
+	quest.5089CCC850C250F5.quest_desc: [
+		"Roast moa, a delicacy from the floating isles."
+		""
+		"Cook and obtain one to add it to your culinary collection."
+	]
+	quest.5089CCC850C250F5.quest_subtitle: "Aether's Delight"
+	quest.5089CCC850C250F5.title: "Roast Moa"
+	quest.508CF636C1BFF980.quest_desc: [
+		"Cook and turn in &a3 bowls of cooked rice&r today."
+		""
+		"Any cooked food works in the kitchen; rice is the turn-in."
+		""
+		"Resets once per day."
+	]
+	quest.508CF636C1BFF980.quest_subtitle: "Repeatable daily"
+	quest.508CF636C1BFF980.title: "Daily Cook"
+	quest.50902A5B0B8A2813.quest_desc: [
+		"You know the rules, you are in the Discord, and you know your way around. Time to play."
+		""
+		"Follow the &aSteamon Journey&r line to progress through the pack, and check the &aDaily Quests&r for coins every day."
+		""
+		"Reward: a starter pouch of spurs and some Poke Balls. Welcome aboard, Trainer."
+	]
+	quest.50902A5B0B8A2813.quest_subtitle: "Your adventure starts now"
+	quest.50902A5B0B8A2813.title: "Get Started"
+	quest.5095578B35049804.quest_desc: [
+		"Catch a wild &aGrass-type&r Pokemon to begin the Grass Gym challenge."
+		""
+		"Any grass-type counts."
+	]
+	quest.5095578B35049804.quest_subtitle: "Grass Gym: catch"
+	quest.5095578B35049804.title: "Catch a Grass-type"
+	quest.5096E4411BC2AEE2.quest_desc: [
+		"A &aKnife&r lets you cut ingredients on a Cutting Board and butcher animals for extra drops."
+		""
+		"Craft a &aFlint Knife&r to begin, then upgrade to iron and beyond."
+		""
+		"Reward: a free Iron Knife to get you cutting."
+	]
+	quest.5096E4411BC2AEE2.quest_subtitle: "Every cook needs a blade"
+	quest.5096E4411BC2AEE2.title: "Sharpen Up"
+	quest.50996153FB959512.quest_desc: [
+		"Now that you can smelt and cook, food becomes a craft. Farmer's Delight adds crops, tools and hearty meals."
+		""
+		"Plant a garden: &acabbages&r, &atomatoes&r and &aonions&r are the backbone of every recipe."
+		""
+		"&eGated behind the Stone Age milestone&r of the Steamon Journey."
+	]
+	quest.50996153FB959512.quest_subtitle: "Grow your first crops"
+	quest.50996153FB959512.title: "A Farmer's Start"
+	quest.509E53EBB16ED918.quest_desc: [
+		"Moon-viewing dango, a treat from the land of Gensokyo."
+		""
+		"Cook and obtain one to add it to your culinary collection."
+	]
+	quest.509E53EBB16ED918.quest_subtitle: "Youkai's Feasts"
+	quest.509E53EBB16ED918.title: "Tsukimi Dango"
+	quest.509FE4309F7387C6.quest_desc: [
+		"Prepare a signature dish from every Delight kitchen in the pack to earn the title of &aMaster Chef&r."
+		""
+		"Reward: one random pull from the Master Chef table plus a sack of spurs."
+		""
+		"Complete every dish in the grid to unlock this."
+	]
+	quest.509FE4309F7387C6.quest_subtitle: "Cook a signature dish from every kitchen"
+	quest.509FE4309F7387C6.title: "Master Chef"
+	quest.50A7467B5D2CE20D.quest_desc: [
+		"Raise a &aPsychic-type&r Pokemon to at least &alevel 50&r."
+		""
+		"The League demands ever-stronger teams as you climb."
+	]
+	quest.50A7467B5D2CE20D.quest_subtitle: "Psychic Gym: train"
+	quest.50A7467B5D2CE20D.title: "Raise a Psychic-type to Lv.50"
+	quest.50A93BF1976A5AFC.quest_desc: [
+		"Defeat &a10 Dark-type&r Pokemon in battle to earn your way through the Dark Gym."
+		""
+		"Wild encounters and rival teams both count."
+	]
+	quest.50A93BF1976A5AFC.quest_subtitle: "Dark Gym: battle"
+	quest.50A93BF1976A5AFC.title: "Dark Gym Battle"
+	quest.50A9589DACA12E23.quest_desc: [
+		"&aRice&r grows in shallow water and cooks into a filling base for countless dishes."
+		""
+		"Cook a bowl of &aCooked Rice&r to prove your stove works."
+	]
+	quest.50A9589DACA12E23.quest_subtitle: "A staple of every table"
+	quest.50A9589DACA12E23.title: "Cook Some Rice"
+	quest.50ABBAF318B8522D.quest_desc: [
+		"A hearty wrapped burrito from far-flung kitchens."
+		""
+		"Cook and obtain one to add it to your culinary collection."
+	]
+	quest.50ABBAF318B8522D.quest_subtitle: "Cultural Delights"
+	quest.50ABBAF318B8522D.title: "Street Burrito"
+	quest.50AD2FD698288044.quest_desc: [
+		"Defeat &a10 Pokemon&r in battle today, wild or trained."
+		""
+		"Resets once per day."
+	]
+	quest.50AD2FD698288044.quest_subtitle: "Repeatable daily"
+	quest.50AD2FD698288044.title: "Daily Battle"
+	quest.50B36D079EF538B3.quest_desc: [
+		"Explore the great structures of the world and gather every special Poke Ball to become a true &aTreasure Hunter&r."
+		""
+		"Reward: one random pull from the Treasure Hunter table plus a sack of spurs."
+		""
+		"Complete the structure and ball objectives to unlock this."
+	]
+	quest.50B36D079EF538B3.quest_subtitle: "Explore every structure and collect the balls"
+	quest.50B36D079EF538B3.title: "Treasure Hunter"
+	quest.50B3C21E7CF5708D.quest_desc: [
+		"Grows stronger the longer a battle lasts."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.50B3C21E7CF5708D.quest_subtitle: "Special Ball"
+	quest.50B3C21E7CF5708D.title: "Timer Ball"
+	quest.50B541D3892BB328.quest_desc: [
+		"Mine and turn in &a16 raw iron&r today."
+		""
+		"Resets once per day."
+	]
+	quest.50B541D3892BB328.quest_subtitle: "Repeatable daily"
+	quest.50B541D3892BB328.title: "Daily Mine"
+	quest.50B7F45AAB16D272.quest_desc: [
+		"Catch a wild &aRock-type&r Pokemon to begin the Rock Gym challenge."
+		""
+		"Any rock-type counts."
+	]
+	quest.50B7F45AAB16D272.quest_subtitle: "Rock Gym: catch"
+	quest.50B7F45AAB16D272.title: "Catch a Rock-type"
+	quest.50B90A0EE0284991.quest_desc: [
+		"Catch a wild &aDragon-type&r Pokemon to begin the Dragon Gym challenge."
+		""
+		"Any dragon-type counts."
+	]
+	quest.50B90A0EE0284991.quest_subtitle: "Dragon Gym: catch"
+	quest.50B90A0EE0284991.title: "Catch a Dragon-type"
+	quest.50B9E56C7B987302.quest_desc: [
+		"A strange ball for the strangest catches."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.50B9E56C7B987302.quest_subtitle: "Special Ball"
+	quest.50B9E56C7B987302.title: "Beast Ball"
+	quest.50BDCF8ECBEEA1C3.quest_desc: [
+		"Defeat &a9 Dragon-type&r Pokemon in battle to earn your way through the Dragon Gym."
+		""
+		"Wild encounters and rival teams both count."
+	]
+	quest.50BDCF8ECBEEA1C3.quest_subtitle: "Dragon Gym: battle"
+	quest.50BDCF8ECBEEA1C3.title: "Dragon Gym Battle"
+	quest.50C20E9E7D1C89A5.quest_desc: [
+		"A pie baked from the fruit of the outer islands."
+		""
+		"Cook and obtain one to add it to your culinary collection."
+	]
+	quest.50C20E9E7D1C89A5.quest_subtitle: "End's Delight"
+	quest.50C20E9E7D1C89A5.title: "Chorus Pie"
+	quest.50C8746684D36B5F.quest_desc: [
+		"Complete the catch, battle and training tasks of the Water Gym to earn the &aWater Badge&r."
+		""
+		"Reward: a pouch of spurs and a step closer to Champion."
+	]
+	quest.50C8746684D36B5F.quest_subtitle: "Earn the Water Badge"
+	quest.50C8746684D36B5F.title: "Water Badge"
+	quest.50CAE62CFB0376EE.quest_desc: [
+		"Made for catching underwater."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.50CAE62CFB0376EE.quest_subtitle: "Special Ball"
+	quest.50CAE62CFB0376EE.title: "Dive Ball"
+	quest.50CF24B5D3BA83FB.quest_desc: [
+		"Effective on Water and Bug types."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.50CF24B5D3BA83FB.quest_subtitle: "Special Ball"
+	quest.50CF24B5D3BA83FB.title: "Net Ball"
+	quest.50D03A46E53F626F.quest_desc: [
+		"Best thrown at the start of a battle."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.50D03A46E53F626F.quest_subtitle: "Special Ball"
+	quest.50D03A46E53F626F.title: "Quick Ball"
+	quest.50D198B0FBC2B764.quest_desc: [
+		"Locate a &aVillage&r. Trade with villagers, raid the chests, and note it as a fast-travel anchor."
+		""
+		"Villages are the safest source of early loot and emeralds."
+	]
+	quest.50D198B0FBC2B764.quest_subtitle: "Find a settlement"
+	quest.50D198B0FBC2B764.title: "Village Visitor"
+	quest.50D4379A448269BF.quest_desc: [
+		"Catch a wild &aElectric-type&r Pokemon to begin the Electric Gym challenge."
+		""
+		"Any electric-type counts."
+	]
+	quest.50D4379A448269BF.quest_subtitle: "Electric Gym: catch"
+	quest.50D4379A448269BF.title: "Catch a Electric-type"
+	quest.50DD0D2A2D442224.quest_desc: [
+		"A high-performance catch device."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.50DD0D2A2D442224.quest_subtitle: "Special Ball"
+	quest.50DD0D2A2D442224.title: "Ultra Ball"
+	quest.50DD1928846DFB30.quest_desc: [
+		"Defeat &a8 Psychic-type&r Pokemon in battle to earn your way through the Psychic Gym."
+		""
+		"Wild encounters and rival teams both count."
+	]
+	quest.50DD1928846DFB30.quest_subtitle: "Psychic Gym: battle"
+	quest.50DD1928846DFB30.title: "Psychic Gym Battle"
+	quest.50E194D990BF19F8.quest_desc: [
+		"Descend into an &aAbandoned Mineshaft&r. Follow the rails to chest minecarts loaded with rare drops."
+		""
+		"Watch for cave spiders in the cobwebs."
+	]
+	quest.50E194D990BF19F8.quest_subtitle: "Delve the old tunnels"
+	quest.50E194D990BF19F8.title: "Abandoned Mineshaft"
+	quest.50E836AE008BD782.quest_desc: [
+		"Complete the catch, battle and training tasks of the Dragon Gym to earn the &aDragon Badge&r."
+		""
+		"Reward: a pouch of spurs and a step closer to Champion."
+	]
+	quest.50E836AE008BD782.quest_subtitle: "Earn the Dragon Badge"
+	quest.50E836AE008BD782.title: "Dragon Badge"
+	quest.50E898FF65F0E742.quest_desc: [
+		"A stronger catch than the standard Poke Ball."
+		""
+		"Obtain one to add it to your collection."
+	]
+	quest.50E898FF65F0E742.quest_subtitle: "Special Ball"
+	quest.50E898FF65F0E742.title: "Great Ball"
+	quest.50E954F3B46B9EE2.quest_desc: [
+		"Raise a &aFire-type&r Pokemon to at least &alevel 43&r."
+		""
+		"The League demands ever-stronger teams as you climb."
+	]
+	quest.50E954F3B46B9EE2.quest_subtitle: "Fire Gym: train"
+	quest.50E954F3B46B9EE2.title: "Raise a Fire-type to Lv.43"
+	quest.50ECA1D5AB98CAAB.quest_desc: [
+		"Complete the catch, battle and training tasks of the Electric Gym to earn the &aElectric Badge&r."
+		""
+		"Reward: a pouch of spurs and a step closer to Champion."
+	]
+	quest.50ECA1D5AB98CAAB.quest_subtitle: "Earn the Electric Badge"
+	quest.50ECA1D5AB98CAAB.title: "Electric Badge"
+	quest.50EF310714B02630.quest_desc: [
+		"Raise a &aRock-type&r Pokemon to at least &alevel 15&r."
+		""
+		"The League demands ever-stronger teams as you climb."
+	]
+	quest.50EF310714B02630.quest_subtitle: "Rock Gym: train"
+	quest.50EF310714B02630.title: "Raise a Rock-type to Lv.15"
+	quest.50F3C205CBB5BF7C.quest_desc: [
+		"Raise a &aWater-type&r Pokemon to at least &alevel 22&r."
+		""
+		"The League demands ever-stronger teams as you climb."
+	]
+	quest.50F3C205CBB5BF7C.quest_subtitle: "Water Gym: train"
+	quest.50F3C205CBB5BF7C.title: "Raise a Water-type to Lv.22"
+	quest.50F491A2BFDA7546.quest_desc: [
+		"Catch a wild &aPsychic-type&r Pokemon to begin the Psychic Gym challenge."
+		""
+		"Any psychic-type counts."
+	]
+	quest.50F491A2BFDA7546.quest_subtitle: "Psychic Gym: catch"
+	quest.50F491A2BFDA7546.title: "Catch a Psychic-type"
+	quest.50F676F9AEE5BB6A.quest_desc: [
+		"A whole roast chicken, the classic centerpiece feast."
+		""
+		"Cook and obtain one to add it to your culinary collection."
+	]
+	quest.50F676F9AEE5BB6A.quest_subtitle: "Farmer's Delight"
+	quest.50F676F9AEE5BB6A.title: "Farmhouse Roast"
+	quest.50F718D2A904C1D2.quest_desc: [
+		"Defeat &a7 Fire-type&r Pokemon in battle to earn your way through the Fire Gym."
+		""
+		"Wild encounters and rival teams both count."
+	]
+	quest.50F718D2A904C1D2.quest_subtitle: "Fire Gym: battle"
+	quest.50F718D2A904C1D2.title: "Fire Gym Battle"
+	quest.50F806FE920299D4.quest_desc: [
+		"The &aCooking Pot&r is the heart of the kitchen. Set it over heat and simmer stews and soups from your harvest."
+		""
+		"Cook your first &aVegetable Soup&r, &aBeef Stew&r or &aNoodle Soup&r for lasting nourishment."
+	]
+	quest.50F806FE920299D4.quest_subtitle: "Slow-cook hearty meals"
+	quest.50F806FE920299D4.title: "The Cooking Pot"
+	quest.50FBE4F57BA8BB0B.quest_desc: [
+		"Defeat &a5 Electric-type&r Pokemon in battle to earn your way through the Electric Gym."
+		""
+		"Wild encounters and rival teams both count."
+	]
+	quest.50FBE4F57BA8BB0B.quest_subtitle: "Electric Gym: battle"
+	quest.50FBE4F57BA8BB0B.title: "Electric Gym Battle"
+	quest.50FCB3904FA220E4.quest_desc: [
+		"Catch a wild &aFire-type&r Pokemon to begin the Fire Gym challenge."
+		""
+		"Any fire-type counts."
+	]
+	quest.50FCB3904FA220E4.quest_subtitle: "Fire Gym: catch"
+	quest.50FCB3904FA220E4.title: "Catch a Fire-type"
+	quest.5119550BFA8D38DF.quest_desc: ["Permanently raises the max PP of one move by 20 percent."]
+	quest.51340482E6524F75.quest_desc: [
+		"Prove your mastery of the void. Catch &a4 Pokemon&r total in the End."
+		""
+		"Psychic and Dragon types dominate here."
+		""
+		"An End team is a rare and powerful thing."
+	]
+	quest.51340482E6524F75.quest_subtitle: "Champion of the End"
+	quest.51666628288FA69A.quest_desc: [
+		"The &aMechanical Arm&r picks items from multiple inputs and drops them into multiple outputs. It also needs a Precision Mechanism."
+		""
+		"Set its input and output points with the wrench while holding it, then power it."
+		""
+		"An Arm can sort a belt, load a crafter, or keep a furnace stocked."
+	]
+	quest.51666628288FA69A.quest_subtitle: "Automate crafting with an Arm"
+	quest.51B23C29D9374CD6.quest_desc: ["All 70 Cobblemon berries have their own collection in the Berries chapter. Head there to fill every plot on the farm."]
+	quest.52676F23B7228EA1.quest_desc: [
+		"You now control breeding, EVs, IVs, Natures and evolutions. Time to prove it."
+		""
+		"Take a Pokemon all the way through its line and &aevolve one into a fully evolved form&r, ideally one you bred and trained yourself."
+		""
+		"A finished Pokemon is the mark of a real breeder. The endgame awaits."
+	]
+	quest.52676F23B7228EA1.quest_subtitle: "Raise a masterpiece"
+	quest.528F8FBB38353426.quest_desc: [
+		"Among the clouds live &aFairy type Pokemon&r of pure and radiant nature. Catch &a2 Fairy types&r here."
+		""
+		"Fairy types shine in the Aether's holy light."
+		""
+		"Gentle to look at, fierce in battle."
+	]
+	quest.528F8FBB38353426.quest_subtitle: "Divine little spirits"
+	quest.52C2C82C8519645F.quest_desc: [
+		"Many Pokemon evolve when you use an &aEvolution Stone&r on them. Each stone triggers a different set of species."
+		""
+		"Gather a spread of stones: &aFire&r, &aWater&r, &aThunder&r and &aLeaf&r stones cover the classic four, and rarer ones like &aDusk&r, &aDawn&r, &aShiny&r and &aMoon&r stones exist too."
+		""
+		"Collect evolution stones and evolve a Pokemon that needs one."
+	]
+	quest.52C2C82C8519645F.quest_subtitle: "Evolution by stone"
+	quest.53755E5B49D1C0EF.quest_desc: ["A tough scale that evolves Seadra into Kingdra when held."]
+	quest.53968E03C9892789.quest_desc: ["Changes a Pokemon's nature to Sassy, reshaping its stat spread without re-breeding."]
+	quest.542A34A7665C3651.quest_desc: ["Adds a single Attack EV for precise physical spreads."]
+	quest.54ED834A9FADDA72.quest_desc: ["Changes a Pokemon's nature to Mild, reshaping its stat spread without re-breeding."]
+	quest.55292817F97ED857.quest_desc: [
+		"No overworld run is complete without &aDiamonds&r. Dig deep, watch for lava, and light your tunnels."
+		""
+		"Mine enough diamonds for a full set of core gear."
+		""
+		"Diamonds unlock the Healing Machine, PC and much of Create."
+	]
+	quest.55292817F97ED857.quest_subtitle: "The classic milestone"
+	quest.559FAF4F5C8DEFD0.quest_desc: ["A Utility+ void Special Defense cap."]
+	quest.55E4ED79C6250B41.quest_desc: ["Halves Speed but adds Special Attack EVs after battle."]
+	quest.56065A80390AF05A.quest_desc: ["Halves one super-effective Ice-type hit. Saves Dragon, Flying and Ground types from an Ice Beam KO."]
+	quest.56B209179516EB25.quest_desc: ["Raises accuracy when the holder moves after the target."]
+	quest.576D68A4753F7D3E.quest_desc: [
+		"The &aCTOV&r town generator fills the world with detailed villages full of trades and loot."
+		""
+		"Find a village and trade with a villager, or loot its chests."
+		""
+		"Villages are a safe first landmark and a steady supply of emeralds."
+	]
+	quest.576D68A4753F7D3E.quest_subtitle: "Civilization on the horizon"
+	quest.57DD86D8A2FAF429.quest_desc: ["Lowers the HP IV. Useful for minimizing damage or Trick Room math."]
+	quest.5837C4969FC678F4.quest_desc: ["Raises the Attack IV toward its maximum."]
+	quest.5861651435CCB6CD.quest_desc: ["A Utility+ candy that grants experience to a Pokemon."]
+	quest.58A63F4838969C97.quest_desc: [
+		"The &aMillstone&r is your first processing machine. Powered by rotation, it grinds ores, seeds and blocks into useful outputs."
+		""
+		"Build a Millstone and connect it to your Water Wheel with a shaft."
+		""
+		"Try grinding raw ores to double them."
+	]
+	quest.58A63F4838969C97.quest_subtitle: "Grind materials into more"
+	quest.58D5E7FD62AAB638.quest_desc: ["Cures poison the moment it takes hold. A cheap insurance held item against poison and toxic stallers."]
+	quest.58E1F3765BF7EAD8.quest_desc: ["Extends Reflect and Light Screen from five turns to eight. A screen-setter staple."]
+	quest.593047618466F462.quest_desc: ["Adds HP EVs, padding out a Pokemon's bulk."]
+	quest.593E5631CD866B9F.quest_desc: ["Adds Special Attack EVs for special attackers."]
+	quest.5AD9980B4D2CDBBE.quest_desc: [
+		"The &aBrass Jetpack&r flies higher and longer than the andesite model. It is the mobility endgame of the pack."
+		""
+		"Combine your engineering know-how with a good air supply and take to the skies for real."
+		""
+		"Build a Brass Jetpack."
+	]
+	quest.5AD9980B4D2CDBBE.quest_subtitle: "Upgrade to brass flight"
+	quest.5B18937EED45C725.quest_desc: ["Evolves dark Pokemon such as Murkrow and Misdreavus."]
+	quest.5B3658C7DF2D582B.quest_desc: ["A held item that evolves Poliwhirl and Slowpoke, and can cause flinching in battle."]
+	quest.5C4F8C7C2625DA6B.quest_desc: ["A spicy food berry that can pinch-heal HP with a chance to confuse. Mostly used in cooking on the server."]
+	quest.5C583CAA8FE451DD.quest_desc: ["The odd one out: halves a Normal-type hit, even when it is not super-effective. Niche but unique among resist berries."]
+	quest.5CE75183A182114F.quest_desc: ["Adds Speed EVs, the fast track to outspeeding."]
+	quest.5CE94C50F4A1FEC1.quest_desc: ["A shiny Utility+ Defense cap variant."]
+	quest.5CF8E896D8D49489.quest_desc: ["Changes a Pokemon's nature to Naive, reshaping its stat spread without re-breeding."]
+	quest.5D0E09E62E730104.quest_desc: [
+		"Welcome, Trainer. Your adventure in the world of Steamon starts here."
+		""
+		"Find a &aPoke Ball&r and interact with a wild Pokemon, or use a Cobblemon starter selection block if the server provides one, then &aselect your first partner&r."
+		""
+		"This first Pokemon will fight at your side for a long time. Choose the one that speaks to you."
+	]
+	quest.5D0E09E62E730104.quest_subtitle: "Every journey begins with a single partner"
+	quest.5D380D157C097D1B.quest_desc: ["Halves one super-effective Fairy-type hit. Prized tech on Dragon, Dark and Fighting types that fear Fairy moves."]
+	quest.5DD25C45606ACFF7.quest_desc: ["A shiny Utility+ HP cap variant."]
+	quest.5DD8B634E92C9FE4.quest_desc: [
+		"Most Create machines are built around a &aCasing&r. The first one you need is &aAndesite Casing&r."
+		""
+		"Combine Andesite Alloy with any stripped log."
+		""
+		"Craft a few. Presses, drills and belts all need it."
+	]
+	quest.5DD8B634E92C9FE4.quest_subtitle: "The shell of every machine"
+	quest.5EF26A11EEE31555.quest_desc: [
+		"&aSequenced Assembly&r builds advanced items over several stages on a belt. A Deployer and Press act on an item in order, guided by a Sequenced Gearshift."
+		""
+		"This is required for the pack's most valuable components, including upgraded mechanisms and train parts."
+		""
+		"Build a small assembly line and produce a &aPrecision Mechanism&r through it to prove the loop works."
+	]
+	quest.5EF26A11EEE31555.quest_subtitle: "Assemble items step by step"
+	quest.5F3943D7E7E3DA58.quest_desc: [
+		"&aNether Fortresses&r are the home of Blazes and the only source of &aBlaze Rods&r."
+		""
+		"Find a fortress and defeat a Blaze to claim a Blaze Rod."
+		""
+		"Blaze Rods power brewing, and Blaze Burners heat your Create foundry."
+	]
+	quest.5F3943D7E7E3DA58.quest_subtitle: "Storm the fortress"
+	quest.5F81875266DF9EC0.quest_desc: ["Lowers the Special Attack IV for pure physical attackers."]
+	quest.5FF8FDF8123257F4.quest_desc: [
+		"Add a &aControls&r block to a train contraption and you can drive it yourself, blowing the &aSteam Whistle&r as you go."
+		""
+		"Assemble a simple train: a bogey on the track, a few blocks glued on, and a set of Controls to sit at."
+		""
+		"Drive your first train from one station to another."
+	]
+	quest.5FF8FDF8123257F4.quest_subtitle: "Take the controls"
+	quest.6013505E01EFD144.quest_desc: ["A cool Apricorn juice, a handy field consumable."]
+	quest.604A7A41DC122784.quest_desc: ["Changes a Pokemon's nature to Relaxed, reshaping its stat spread without re-breeding."]
+	quest.6057F44C1806E792.quest_desc: ["Changes a Pokemon's nature to Jolly, reshaping its stat spread without re-breeding."]
+	quest.615E78995AF53EDC.quest_desc: ["Changes a Pokemon's nature to Impish, reshaping its stat spread without re-breeding."]
+	quest.61AA8829A6838596.quest_desc: ["Held item that raises Special Defense when the holder is hit by a special move, hardening a special wall on contact."]
+	quest.61C62FB48C8EB0EB.quest_desc: ["A rarer candy that pushes an IV higher for perfect stats."]
+	quest.625D3A36734D3C9F.quest_desc: [
+		"A &aClutch&r cuts rotation when it receives a redstone signal. A &aGearshift&r reverses rotation direction instead."
+		""
+		"Together they let redstone control which parts of your machine spin, and in which direction."
+		""
+		"Essential for pistons, bearings and anything that needs to move back and forth."
+	]
+	quest.625D3A36734D3C9F.quest_subtitle: "Switch and reverse rotation"
+	quest.627C814F3A419782.quest_desc: ["Changes a Pokemon's nature to Hasty, reshaping its stat spread without re-breeding."]
+	quest.63907AF6F2B026CC.quest_desc: [
+		"The &aDeployer&r acts like a player: it can place blocks, use tools, apply items and even attack. It needs a &aPrecision Mechanism&r to build."
+		""
+		"Give it a hoe to farm, a sword to fight, or an item to combine on a belt."
+		""
+		"The Deployer is Create's most versatile automation block."
+	]
+	quest.63907AF6F2B026CC.quest_subtitle: "A robotic hand for your machines"
+	quest.63F913C70F514D8D.quest_desc: [
+		"&aNether Wart&r is the base of every potion. Harvest it from fortress soul sand gardens."
+		""
+		"Collect Nether Wart and start a brewing supply."
+		""
+		"Potions keep both you and your Pokemon in the fight."
+	]
+	quest.63F913C70F514D8D.quest_subtitle: "Brew and grow"
+	quest.64869815C2449E97.quest_desc: ["Fully restores the PP of every move."]
+	quest.64FCE431D519D969.quest_desc: ["Restores 10 PP to one of a Pokemon's moves."]
+	quest.6562D2D16F386E24.quest_desc: [
+		"Weaken a wild Pokemon in battle, then throw a Poke Ball to catch it."
+		""
+		"The lower the target's HP and the better the ball, the higher your chance of success."
+		""
+		"Go out and catch your very first wild Pokemon."
+	]
+	quest.6562D2D16F386E24.quest_subtitle: "Catch your first wild Pokemon"
+	quest.65CC35BD4A0D2602.quest_desc: ["A Utility+ obsidian Special Attack cap."]
+	quest.6636BE847956C87C.quest_desc: [
+		"A competitive Pokemon needs to reach its level ceiling. Push one of your trained, held-item ready Pokemon all the way to &alevel 100&r."
+		""
+		"Battle high level trainers, use Exp Candies, and let your Exp Share spread the experience."
+		""
+		"Level a Pokemon to 100 and complete its journey to power."
+	]
+	quest.6636BE847956C87C.quest_subtitle: "Raise a Pokemon to the summit"
+	quest.66AFD1C2A52614AC.quest_desc: [
+		"&aEnder Pearls&r and &aBlaze Powder&r make &aEyes of Ender&r, which lead you to the stronghold portal."
+		""
+		"Craft a handful of Eyes of Ender."
+		""
+		"Throw them to follow the trail to the End portal."
+	]
+	quest.66AFD1C2A52614AC.quest_subtitle: "Find the stronghold"
+	quest.671B593F8BCC119B.quest_desc: [
+		"A pair of &aCrushing Wheels&r spinning into each other crush ores far faster than a Millstone and can process a full belt of items."
+		""
+		"Build two Crushing Wheels facing each other, rotating in opposite directions."
+		""
+		"This is your first real automated ore processor."
+	]
+	quest.671B593F8BCC119B.quest_subtitle: "Crushing on an industrial scale"
+	quest.672156768ED8452D.quest_desc: ["A Utility+ treat that boosts friendship quickly. Great for friendship evolutions."]
+	quest.6729335784B57978.quest_desc: [
+		"The &aEnder Dragon&r rules the central island. Destroy the End Crystals, then bring it down."
+		""
+		"Defeat the dragon to open the gateway to the outer End."
+		""
+		"This is the classic endgame boss. Come prepared."
+	]
+	quest.6729335784B57978.quest_subtitle: "Slay the Ender Dragon"
+	quest.673F1ED4695484DC.quest_desc: [
+		"An &aEncased Fan&r blows air through a source to process items on a belt or depot in front of it."
+		""
+		"Blow through &awater&r to wash ores and gravel, through &afire&r to smoke and cook food, and through &asoul fire&r to haunt blocks."
+		""
+		"One fan replaces a furnace, a smoker and a washer all at once."
+	]
+	quest.673F1ED4695484DC.quest_subtitle: "Wash, smoke and haunt with airflow"
+	quest.67859B9298078500.quest_desc: ["Boosts the Defenses of a not-fully-evolved Pokemon by 50 percent. Makes prevos into walls."]
+	quest.67D1D991292C338C.quest_desc: ["A sweet-scented sachet that evolves Spritzee into Aromatisse on trade."]
+	quest.67F51A3CF0157466.quest_desc: [
+		"The heart of Create Nuclear is a multiblock &aReactor&r. Build the frame from &aReactor Casing&r, add a &aReactor Controller&r, and load it with uranium rods via the Reactor Input."
+		""
+		"A running reactor outputs enormous rotational power through its Reactor Output."
+		""
+		"Assemble the reactor casing and controller to bring your reactor online."
+	]
+	quest.67F51A3CF0157466.quest_subtitle: "Build a nuclear reactor"
+	quest.6867040658D62523.quest_desc: [
+		"The &aMechanical Press&r hammers ingots into &aSheets&r, a key crafting material, and can compact items on a Depot or Belt."
+		""
+		"Build a Mechanical Press over a Depot, power it, and press iron into &aIron Sheets&r."
+		""
+		"Sheets unlock casings, tanks and much more."
+	]
+	quest.6867040658D62523.quest_subtitle: "Stamp out sheets and plates"
+	quest.687D0FF41B2B32AF.quest_desc: ["Changes a Pokemon's nature to Gentle, reshaping its stat spread without re-breeding."]
+	quest.68ACE7575F81183E.quest_desc: ["Adds a single Special Defense EV."]
+	quest.68E3143310F62CDC.quest_desc: ["Maxes out the PP of a single move in one use. The premium PP booster."]
+	quest.69842A9FE6D1D83B.quest_desc: ["Lowers the Speed IV for Trick Room or Gyro Ball builds."]
+	quest.69941C34B58F3E01.quest_desc: ["Raises the Special Attack IV toward its maximum."]
+	quest.69B0B0FB1EBD0E38.quest_desc: ["Changes a Pokemon's nature to Modest, reshaping its stat spread without re-breeding."]
+	quest.6A12F68AB2E2FC65.quest_desc: [
+		"The &aMechanical Piston&r pushes and pulls entire structures as a moving contraption, not just a single block like vanilla pistons."
+		""
+		"Build one with a &aPiston Extension Pole&r behind it and power it to extend and retract."
+		""
+		"This is your first &acontraption&r: a group of blocks that moves as one."
+	]
+	quest.6A12F68AB2E2FC65.quest_subtitle: "Move whole structures"
+	quest.6A2390556B6867E8.quest_desc: ["A held item that restores a little HP every turn. The bread and butter of defensive teams."]
+	quest.6A4B4A0C6266855D.quest_desc: ["Shields the holder from contact side effects like Rocky Helmet or Static."]
+	quest.6A8523589EA2B1C2.quest_desc: [
+		"&aVitamins&r pump a large amount of EVs into a single stat at once. They cost more than feathers but train far faster."
+		""
+		"Craft or trade for &aHP Up&r, &aProtein&r, &aIron&r, &aCalcium&r, &aZinc&r and &aCarbos&r, one vitamin for each of the six stats."
+		""
+		"Bring a stack of vitamins to fully train a competitive Pokemon."
+	]
+	quest.6A8523589EA2B1C2.quest_subtitle: "Premium stat boosters"
+	quest.6B3669A195FB80AE.quest_desc: [
+		"This pack adds &ajetpacks&r through Create Stuff & Additions. The &aAndesite Jetpack&r is your first taste of flight, powered by a Copper Backtank."
+		""
+		"Fill a Backtank with air using a rotating machine, equip the jetpack, and take off."
+		""
+		"Craft an Andesite Jetpack and leave the ground behind."
+	]
+	quest.6B3669A195FB80AE.quest_subtitle: "Wear the andesite wings"
+	quest.6B45A4029B04DFFC.quest_desc: ["Lowers a Pokemon's HP EVs while raising its friendship. Used to reset training or reach a friendship evolution."]
+	quest.6C255FF72F2B333E.quest_desc: ["Evolves Water Pokemon like Poliwhirl and Shellder."]
+	quest.6CEAD16A9F31722E.quest_desc: ["Locks the holder into one move but boosts its Attack by 50 percent."]
+	quest.6D97B387BFE4207F.quest_desc: ["Boosts move power by 30 percent at the cost of chip damage each hit. A staple offensive item."]
+	quest.6DA4719DA9D3C18B.quest_desc: ["A glossy, sweet-then-sour food berry. No battle use, good for cooking and dyes."]
+	quest.6DBA9B5876B3E382.quest_desc: ["A held item that boosts the power of the holder's Fairy-type moves."]
+	quest.6DD8C473F0A287AF.quest_desc: [
+		"&aWaystones&r let you fast travel across the map. Place one, attune to it, and warp between them for a small cost."
+		""
+		"Craft or find a &aWaystone&r and place it near your base."
+		""
+		"A network of Waystones turns the whole overworld into your backyard."
+	]
+	quest.6DD8C473F0A287AF.quest_subtitle: "Never walk the same road twice"
+	quest.6E38345EBB7E75DC.quest_desc: ["Restores 10 PP to all of a Pokemon's moves."]
+	quest.6E7DCFD62C81A8FC.quest_desc: ["Halves one super-effective Psychic-type hit, helping Fighting and Poison types survive Psychic."]
+	quest.6EF5321ED83ECD6C.quest_desc: ["A sweet pink Apricorn juice for on-the-go boosts."]
+	quest.6F28747609CCE274.quest_desc: ["Cures a burn on a single Pokemon."]
+	quest.6F2C91293EE586D3.quest_desc: ["A shiny Utility+ Speed cap variant."]
+	quest.6FAD6E69068A5DA5.quest_desc: ["Adds HP EVs, the mochi counterpart to HP Up."]
+	quest.6FEF46245AA194A9.quest_desc: [
+		"Build a squad suited to the heat. Catch &a3 Fire type Pokemon&r in the Nether."
+		""
+		"Fire types resist the environment and hit hard against many foes."
+		""
+		"Weaken before you throw, the Nether Pokemon are tough."
+	]
+	quest.6FEF46245AA194A9.quest_subtitle: "A proper fire team"
+	quest.703CA0D8C35A645B.quest_desc: [
+		"You have opened the gate, cleared the temple and tamed the dark."
+		""
+		"Forge a full set of &aResonarium&r gear to seal your mastery of every dimension."
+		""
+		"From the overworld to the Otherside, Steamon holds no realm you have not conquered."
+	]
+	quest.703CA0D8C35A645B.quest_subtitle: "Sovereign of the shadow realm"
+	quest.70480F6B1137D785.quest_desc: ["A Utility+ void Defense cap."]
+	quest.708E0F6BC94646E8.quest_desc: [
+		"You have hunted shinies, mastered held items, perfected stats and proven yourself in battle. Only one trophy remains."
+		""
+		"Catch a &asecond shiny Pokemon&r, a deliberate hunt this time, to seal your legacy as a master Trainer."
+		""
+		"There is no higher rank. You are a Champion of Steamon."
+	]
+	quest.708E0F6BC94646E8.quest_subtitle: "Champion of Steamon"
+	quest.7107C7BDAB487C21.quest_desc: ["Halves one super-effective Fighting-type hit. Lets Normal and Steel types survive a Close Combat."]
+	quest.715241A394E6B043.quest_desc: ["Evolves Sun-linked Pokemon like Gloom and Sunkern."]
+	quest.716CCFD9560B8DA5.quest_desc: [
+		"Battles wear your Pokemon down. A &aHealing Machine&r fully restores your whole party."
+		""
+		"Craft a Healing Machine (it needs Redstone and a diamond) and place it down. Power it with redstone and use it to heal your team."
+		""
+		"This will be the heart of your base."
+	]
+	quest.716CCFD9560B8DA5.quest_subtitle: "Keep your team in fighting shape"
+	quest.7223A5274014E6E6.quest_desc: [
+		"&aBrass&r unlocks the advanced half of Create. Crush &eZinc Ore&r for Zinc, then heat a Basin under your Mixer and alloy &eCopper&r with &eZinc&r into &aBrass Ingots&r."
+		""
+		"A Blaze Burner under the Basin provides the heat."
+		""
+		"Then craft &aBrass Casing&r to prove your foundry works."
+	]
+	quest.7223A5274014E6E6.quest_subtitle: "The second tier metal"
+	quest.723E38A7E8441E11.quest_desc: ["A held item that boosts the power of the holder's Rock-type moves."]
+	quest.72529F2BAD5B582D.quest_desc: ["Evolves Electric Pokemon such as Pikachu and Eelektrik."]
+	quest.73512D315FA8BF3F.quest_desc: ["A fancy food berry once used for high-class snacks. Cooking ingredient with no battle use."]
+	quest.73717D70820B1FDD.quest_desc: ["Halves Speed but adds Special Defense EVs after battle."]
+	quest.73A90838A9F8B990.quest_desc: ["A sweet food berry, prized in the kitchen rather than in battle. Farm a patch and stock up."]
+	quest.74057901CB46C6FC.quest_desc: ["Restores PP to all of a Pokemon's moves. A rarer PP-recovery berry for drawn-out battles."]
+	quest.74208F10F2E142B6.quest_desc: ["Raises the Defense IV toward its maximum."]
+	quest.742ADE7A6D2BF1CD.quest_desc: [
+		"The &aBeast Ball&r is built for the strangest Pokemon. Gather a stock of them for the hardest hunts."
+		""
+		"Craft or collect Beast Balls."
+		""
+		"Save them for the Aether and the Otherside legends."
+	]
+	quest.742ADE7A6D2BF1CD.quest_subtitle: "Balls for the rarest catches"
+	quest.747559FE31B2177C.quest_desc: ["Lowers the Special Defense IV in niche min-max builds."]
+	quest.75576F9FD99EB80F.quest_desc: ["A brewed Apricorn juice that boosts a Pokemon's stats in the field."]
+	quest.75BA0D99BF39BE21.quest_desc: ["An extremely sour food berry. Culinary only, best blended into recipes."]
+	quest.76530D0122392A08.quest_desc: ["Halves one super-effective Ghost-type hit, protecting Psychic and other Ghost types."]
+	quest.766D585BC011002D.quest_desc: [
+		"A strong team wins battles. Level one of your Pokemon up to &alevel 20&r."
+		""
+		"Battle wild Pokemon and other Trainers to earn experience. &aRare Candies&r instantly raise a level if you find them."
+		""
+		"Prove you can raise a Pokemon."
+	]
+	quest.766D585BC011002D.quest_subtitle: "Train a Pokemon to level 20"
+	quest.76D043AC17022CA9.quest_desc: [
+		"A &aMechanical Belt&r carries items from one place to another. Right-click two shafts with the belt item to connect them."
+		""
+		"Belts are the backbone of every factory. Build a few and get items flowing."
+		""
+		"Everything downstream depends on a moving belt."
+	]
+	quest.76D043AC17022CA9.quest_subtitle: "Move items across your base"
+	quest.77598B4BD0E37377.quest_desc: [
+		"An &aItem Vault&r is a large, connectable storage block. Place several together and they merge into one huge inventory."
+		""
+		"Funnels and arms can pull from and push to a Vault, making it the warehouse of your factory."
+		""
+		"Build a Vault and connect it to a belt to buffer your production."
+	]
+	quest.77598B4BD0E37377.quest_subtitle: "Bulk item storage"
+	quest.775ACA2AE92227E9.quest_desc: [
+		"Fire and Dark type Pokemon thrive in the heat of the Nether."
+		""
+		"Catch a Pokemon while you are in the Nether."
+		""
+		"These species rarely appear anywhere else."
+	]
+	quest.775ACA2AE92227E9.quest_subtitle: "Fire in the blood"
+	quest.77E4C16D8EBB59D7.quest_desc: [
+		"The strongest rotation source in Create is a &aSteam Engine&r on a &aFluid Tank&r boiler. Heat water with blaze burners to build boiler power, then tap it with engines."
+		""
+		"A fully superheated multi-engine boiler can run your entire factory."
+		""
+		"Build a Fluid Tank boiler and mount a Steam Engine on it."
+	]
+	quest.77E4C16D8EBB59D7.quest_subtitle: "Steam power at scale"
+	quest.7808D45744C35AEE.quest_desc: ["Held item that raises Defense when the holder is hit by a physical move. Turns an incoming hit into a setup."]
+	quest.784CA6BB23DCB72E.quest_desc: [
+		"Deep in the Otherside stands a &aTemple&r holding the &aHeart of the Deep&r, its greatest treasure."
+		""
+		"Explore the temple and claim the Heart of the Deep."
+		""
+		"It is the key to the realm's finest crafts."
+	]
+	quest.784CA6BB23DCB72E.quest_subtitle: "The Otherside Temple"
+	quest.78B8EBAC59E95DBA.quest_desc: ["A suspicious disc that evolves Porygon2 into Porygon-Z."]
+	quest.791227C8CBDED02B.quest_desc: [
+		"&aBastion Remnants&r are piglin strongholds full of gold, gear and &aAncient Debris&r hints."
+		""
+		"Loot a bastion and bring back its treasures. Watch the piglins, wear your gold."
+		""
+		"This is where the road to Netherite begins."
+	]
+	quest.791227C8CBDED02B.quest_subtitle: "Raid the bastion"
+	quest.79779A27A0335696.quest_desc: ["Cures any single status condition on a Pokemon."]
+	quest.79A3BC35DD7F0C88.quest_desc: ["Restores 10 PP to a single move when held or used. Keeps a key attack from running dry in long fights."]
+	quest.79D288DD0E67538B.quest_desc: [
+		"The &aRotation Speed Controller&r sits under a large cogwheel and lets you set the output speed to any value you want with a scroll of the wheel."
+		""
+		"Many machines only work in a narrow speed range. The RSC gives you precise control over your whole network."
+		""
+		"No more guessing with cogwheel ratios."
+	]
+	quest.79D288DD0E67538B.quest_subtitle: "Set an exact rotation speed"
+	quest.79F9DFB58FC68B31.quest_desc: [
+		"The &aSequenced Gearshift&r runs a programmed sequence of moves: turn so many degrees, wait, reverse, and so on."
+		""
+		"This is how you build machines that repeat a precise mechanical routine on their own."
+		""
+		"It is also the driver behind sequenced assembly."
+	]
+	quest.79F9DFB58FC68B31.quest_subtitle: "Timed, repeatable motion"
+	quest.7A6122D4891EE43B.quest_desc: ["Raises Speed when HP runs low. The core of many pinch-sweep setups, outpacing the whole field."]
+	quest.7A65BD80A9CC734B.quest_desc: ["A Utility+ relic that reverses an evolution, sending a Pokemon back a stage."]
+	quest.7AEB7A40BBCCB99A.quest_desc: ["Fully restores a Pokemon's HP."]
+	quest.7B078090B15F5093.quest_desc: ["A held band that boosts the power of physical moves by 10 percent."]
+	quest.7B1D3463CD4D6E7B.quest_desc: ["Heals Poison types each turn but harms everyone else. Poison-type Leftovers."]
+	quest.7B390BAE8ED58355.quest_desc: ["Wakes a sleeping Pokemon instantly. Held before a Rest, it lets you heal to full and act on the same turn."]
+	quest.7B63BDBF02CC4CA0.quest_desc: ["Sharply raises the critical-hit ratio when HP runs low, making nearly every hit a crit."]
+	quest.7CB5661D486CF43B.quest_desc: ["The universal cure: heals any single status condition, including confusion. One of the most reliable held berries in competitive play."]
+	quest.7CD6915D3DF8ED65.quest_desc: [
+		"You have beaten the dragon, looted the cities and earned your wings."
+		""
+		"Gather &aGlowstone&r and &aWater Buckets&r, for a very different portal awaits."
+		""
+		"The Aether calls those who have conquered the End."
+	]
+	quest.7CD6915D3DF8ED65.quest_subtitle: "The sky is not the limit"
+	quest.7D6E430C26EDE06C.quest_desc: ["A held or in-battle Cheri Berry cures paralysis, letting a Pokemon move freely again. Handy on fast sweepers that hate being locked down."]
+	quest.7D6FB54D986EB3DF.quest_desc: [
+		"The &aAether&r portal is built like a Nether portal but framed in &aGlowstone&r."
+		""
+		"Build a glowstone frame, then activate it by pouring &awater&r inside instead of using fire."
+		""
+		"Gather the glowstone to begin."
+	]
+	quest.7D6FB54D986EB3DF.quest_subtitle: "A gateway of glowstone"
+	quest.7DABE28A86480F2F.quest_desc: ["A tangy food berry for cooking and juices. No battle effect, but easy to farm in bulk."]
+	quest.7DCE0F34B0E1360E.quest_desc: ["Evolves certain Fire-related Pokemon such as Vulpix and Growlithe."]
+	quest.7E42887E4B81614D.quest_desc: ["A Utility+ cap that guarantees a high Attack IV floor."]
+	quest.7E453D568132465C.quest_desc: ["Lowers Special Defense EVs and raises friendship. A gentle way to fix an over-trained spread."]
+	quest.7E4CBD441FEAA432.quest_desc: ["Fully restores HP and cures any status condition at once."]
+	quest.7E5FB52E190E7B4A.quest_desc: [
+		"Ride the outer End gateway to the &aEnd Cities&r, towers full of loot and shulkers."
+		""
+		"Loot an End City and bring back a &aShulker Shell&r."
+		""
+		"Shulker boxes are the best portable storage in the game."
+	]
+	quest.7E5FB52E190E7B4A.quest_subtitle: "Plunder the End Cities"
+	quest.7E62BDDF9A21402E.quest_desc: [
+		"The &aWrench&r is your most used tool in Create. Use it to rotate components and to dismantle them by sneaking."
+		""
+		"Craft one from Andesite Alloy and an iron sheet."
+		""
+		"Never build without it."
+	]
+	quest.7E62BDDF9A21402E.quest_subtitle: "Multi purpose tool for kinetics"
+	quest.7F19A9B9B2BDE1A9.quest_desc: [
+		"A living record of every Pokemon you have met is the mark of a dedicated Trainer. Build your &aPokedex&r toward completion."
+		""
+		"Catch &a50 Pokemon&r in total across your adventure, chasing every species, form and colour you can find."
+		""
+		"Real dex completion is a lifelong goal. This is a serious milestone toward it."
+	]
+	quest.7F19A9B9B2BDE1A9.quest_subtitle: "Fill the Pokedex"
+	quest.7FA54ED3268E1447.quest_desc: [
+		"&aShiny Pokemon&r are alternately coloured and extremely rare, roughly one in every few thousand encounters. They are the ultimate trophy for a Trainer."
+		""
+		"Search, battle and breed until fortune smiles on you, then catch a &ashiny Pokemon&r of any species."
+		""
+		"This is the beginning of your endgame. Good luck, hunter."
+	]
+	quest.7FA54ED3268E1447.quest_subtitle: "The hunt for a rare colour"
+	quest.7FEA374D63883FC9.quest_desc: ["A pinch berry: when HP drops low it sharply raises Attack, turning a near-faint into a sweep."]
+	task.10EF9DB906E0FDD4.title: "Obtain a Waystone (craft or break one in a village)"
+	task.11198A271F7937D0.title: "Open the Adventure branch"
+	task.111B8118D2ACD419.title: "Open the End branch"
+	task.1130964870FFC07D.title: "Open the League branch"
+	task.113EC65E5862F8C3.title: "Open the Beyond the Machine branch"
+	task.1153027299E6144A.title: "Open the Otherside branch"
+	task.11591721E1EE3A6F.title: "Open the Myths & Legends branch"
+	task.115C179A0EA2FF4A.title: "Open the Create: Cogs & Crates branch"
+	task.116F6872E7DF1D56.title: "Open the Aether branch"
+	task.11804A03DDE526BA.title: "Open the Create: Rotational Power branch"
+	task.118FFA559CCBB31A.title: "Open the Nether branch"
+	task.11D082D0A300EE28.title: "Open the Create: Sparks & Circuits branch"
+	task.11E4D451ED94121A.title: "Open the Cobblemon: First Steps branch"
+	task.11EA4E5DE0F0F981.title: "Open the Culinary branch"
+	task.196A601AE88BD806.title: "Berry Master"
+	task.302A9D35E1F2679B.title: "First Steps Complete"
+	task.307088461895A95F.title: "Champion of Steamon"
+	task.30B4A1F78532EA40.title: "Trainer's Path Complete"
+	task.4004E23832D14D2F.title: "Catch 3 Fire type Pokemon in the Nether"
+	task.4013D9EABAFACD6D.title: "Forge a Netherite milestone"
+	task.4015F856286C0EE5.title: "Catch 2 Flying type Pokemon in the Aether"
+	task.401AE71A6BE40156.title: "Catch a Ice type"
+	task.40230BB08D0CA62B.title: "Catch 2 Ghost type Pokemon in the Otherside"
+	task.4025EA76537AAE47.title: "Catch 2 Dark type Pokemon in the Nether"
+	task.40375736D69B146F.title: "Catch a Dragon type"
+	task.403D33EFA38EA9BD.title: "Catch a Ghost type"
+	task.404625016F33D48C.title: "Craft Eyes of Ender to find the stronghold"
+	task.4046F7C28D3F1916.title: "Catch a Ghost type"
+	task.404A72FF4479269D.title: "Catch 4 Pokemon in the End"
+	task.405924FE5B81C46C.title: "Forge Resonarium armor"
+	task.40642DCAE7539CCA.title: "Catch a Dragon type Pokemon in the End"
+	task.4065764CF034912C.title: "Catch 2 Psychic type Pokemon in the End"
+	task.40671B593F8BCC11.title: "Catch a Psychic type"
+	task.406860FAA952CF40.title: "Catch a Dark type"
+	task.406B9A6F6EC1D24C.title: "Catch a Dragon type"
+	task.409A12CBD1BBDEA0.title: "Catch a Flying type"
+	task.40A8E5BD84FCB027.title: "Catch 2 Fairy type Pokemon in the Aether"
+	task.40ABBAF318B8522D.title: "Catch a Dark type"
+	task.40B480BECC77AEAC.title: "Catch a Dragon type Pokemon in the Otherside"
+	task.40B7F45AAB16D272.title: "Gather Beast Balls for the rarest catches"
+	task.40C20E9E7D1C89A5.title: "Catch a Ground type"
+	task.40C99ACE29D2E2C6.title: "Loot Echo Shards from an Ancient City"
+	task.40E63FE828612DD1.title: "Catch 2 Dark type Pokemon in the Otherside"
+	task.40E954F3B46B9EE2.title: "Catch a Fairy type"
+	task.40F676F9AEE5BB6A.title: "Catch a Fire type"
+	task.50144905BE2B04A9.title: "Learn the Commands"
+	task.5034B00F647F47D8.title: "Begin Your Journey"
+	task.50372C8369095DA2.title: "Treasure Hunter"
+	task.5038370F09396856.title: "Psychic Badge"
+	task.505BE61B6B196AE8.title: "Join the Discord"
+	task.5064C3F139A34C8D.title: "Rock Badge"
+	task.5081D3D52B34AC1D.title: "Master Chef"
+	task.50C99ACE29D2E2C6.title: "Fire Badge"
+	task.50CC7EEB92CDB135.title: "Electric Badge"
+	task.50CDEB41E5A18660.title: "Dragon Badge"
+	task.50DC98582F4A38CE.title: "League Champion"
+	task.50DFCB28DEB58B8B.title: "Grass Badge"
+	task.50F1DB7E8273237B.title: "Read the Rules"
+	task.50F4E7B3E590B2DF.title: "Ready to Explore"
+	task.50F6FF997FFD17A9.title: "Water Badge"
+	task.50F85C00E6608BF6.title: "Dark Badge"
+}

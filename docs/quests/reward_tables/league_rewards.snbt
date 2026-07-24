@@ -1,83 +1,19 @@
 {
-	hide_tooltip: false
-	icon: { id: "cobblemon:relic_coin" }
+	icon: {
+		id: "numismatics:spur"
+	}
 	id: "50486725E9E22FF9"
 	loot_size: 1
-	order_index: 0
+	order_index: 4
 	rewards: [
-		{
-			reward: {
-				count: 1
-				id: "500F6A4D88A34CB2"
-				item: { count: 1, id: "cobblemon:relic_coin_sack" }
-				type: "item"
-			}
-			weight: 40.0f
-		},
-		{
-			reward: {
-				count: 32
-				id: "502A2ACCFD2392AC"
-				item: { count: 1, id: "cobblemon:relic_coin" }
-				type: "item"
-			}
-			weight: 30.0f
-		},
-		{
-			reward: {
-				count: 5
-				id: "504B565608B2AB27"
-				item: { count: 1, id: "cobblemon:rare_candy" }
-				type: "item"
-			}
-			weight: 25.0f
-		},
-		{
-			reward: {
-				count: 5
-				id: "504380B9D55C62BA"
-				item: { count: 1, id: "cobblemon:exp_candy_xl" }
-				type: "item"
-			}
-			weight: 20.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "508487A11B8DD10F"
-				item: { count: 1, id: "cobblemon:ability_capsule" }
-				type: "item"
-			}
-			weight: 12.0f
-		},
-		{
-			reward: {
-				count: 8
-				id: "505E3B7C043F3E7A"
-				item: { count: 1, id: "cobblemon:ultra_ball" }
-				type: "item"
-			}
-			weight: 15.0f
-		},
-		{
-			reward: {
-				count: 3
-				id: "50A5CBCC5E930E84"
-				item: { count: 1, id: "cobblemon:cherish_ball" }
-				type: "item"
-			}
-			weight: 8.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "501212CEE40C574D"
-				item: { count: 1, id: "cobblemon:master_ball" }
-				type: "item"
-			}
-			weight: 3.0f
-		},
+		{ id: "033CFED9CB3C5188", weight: 40.0f }
+		{ id: "35E8758550FB19E8", weight: 30.0f }
+		{ id: "742EC842D4E87716", weight: 25.0f }
+		{ id: "6DA43F076C8537C8", weight: 20.0f }
+		{ id: "266253A55FCD3BAC", weight: 12.0f }
+		{ id: "01D2DCD37C660A91", weight: 15.0f }
+		{ id: "6E9BCA7E355387D4", weight: 8.0f }
+		{ id: "5B092B815AB99005", weight: 3.0f }
 	]
-	title: "League Champion Rewards"
 	use_title: true
 }

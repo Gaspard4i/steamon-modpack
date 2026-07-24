@@ -13,7 +13,6 @@
 			id: "11E8917204072C82"
 			linked_quest: "50996153FB959512"
 			shape: "circle"
-			size: 1.0d
 			x: 3.0d
 			y: 3.5d
 		}
@@ -21,7 +20,6 @@
 			id: "11841F8D46FF42DC"
 			linked_quest: "207A81A64CBCE64F"
 			shape: "circle"
-			size: 1.0d
 			x: 6.0d
 			y: -3.5d
 		}
@@ -29,7 +27,6 @@
 			id: "11B4234FE73150E6"
 			linked_quest: "30E9681CB438878A"
 			shape: "circle"
-			size: 1.0d
 			x: 9.0d
 			y: 3.5d
 		}
@@ -37,7 +34,6 @@
 			id: "1157A81AD7752B5D"
 			linked_quest: "20B15066AC9B97D2"
 			shape: "circle"
-			size: 1.0d
 			x: 12.0d
 			y: -3.5d
 		}
@@ -45,7 +41,6 @@
 			id: "11982C780E01B5BA"
 			linked_quest: "40996153FB959512"
 			shape: "circle"
-			size: 1.0d
 			x: 17.0d
 			y: 3.5d
 		}
@@ -53,7 +48,6 @@
 			id: "11A22577859A600D"
 			linked_quest: "20D321EEC05603E1"
 			shape: "circle"
-			size: 1.0d
 			x: 19.0d
 			y: -3.5d
 		}
@@ -61,7 +55,6 @@
 			id: "11052AEA38E628A7"
 			linked_quest: "40C4EA2C73849FF0"
 			shape: "circle"
-			size: 1.0d
 			x: 24.0d
 			y: 3.5d
 		}
@@ -69,7 +62,6 @@
 			id: "113FAC4583ECDFCD"
 			linked_quest: "40091CD67B4264AE"
 			shape: "circle"
-			size: 1.0d
 			x: 27.0d
 			y: -3.5d
 		}
@@ -77,7 +69,6 @@
 			id: "110347B6D5C8478C"
 			linked_quest: "4007E20DAC235BE9"
 			shape: "circle"
-			size: 1.0d
 			x: 30.0d
 			y: 3.5d
 		}
@@ -85,7 +76,6 @@
 			id: "11F2722F6CF1A3D1"
 			linked_quest: "20A4F79E5ACF677F"
 			shape: "circle"
-			size: 1.0d
 			x: 32.0d
 			y: -3.5d
 		}
@@ -93,7 +83,6 @@
 			id: "11F2672582AC467F"
 			linked_quest: "30E0E43F6CBBE3F0"
 			shape: "circle"
-			size: 1.0d
 			x: 34.0d
 			y: 3.5d
 		}
@@ -101,7 +90,6 @@
 			id: "11A972E80ED3DE2B"
 			linked_quest: "501DCF0AC468F2D7"
 			shape: "circle"
-			size: 1.0d
 			x: 32.0d
 			y: 5.5d
 		}
@@ -109,7 +97,6 @@
 			id: "11243D5606646AAA"
 			linked_quest: "5040629EF17E4552"
 			shape: "circle"
-			size: 1.0d
 			x: 34.0d
 			y: -5.5d
 		}
@@ -214,7 +201,7 @@
 					id: "100DD04D06A30D2E"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin_pouch"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -253,7 +240,7 @@
 					id: "10B857FCD33BCCC0"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -343,7 +330,7 @@
 					id: "1092CA8832BD8ED5"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin_pouch"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -410,7 +397,7 @@
 					id: "109A06EEC246AF97"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin_pouch"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -448,7 +435,7 @@
 					id: "1051E9E2147CB74C"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin_sack"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -514,7 +501,7 @@
 					id: "10CB095A7099DAAE"
 					item: {
 						count: 1
-						id: "cobblemon:relic_coin_sack"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -570,17 +557,17 @@
 		}
 		{
 			dependencies: ["102D9356B8648743"]
-			description: [
-				"This path leads to the &eCulinary&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "farmersdelight:cooking_pot" }
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
 			id: "11D05E3CE2B7E750"
 			rewards: [
 				{
 					id: "11BED8D8931C7D15"
-					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
 					type: "item"
 				}
 				{
@@ -591,10 +578,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "11EA4E5DE0F0F981"
-				title: "Open the Culinary branch"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -602,17 +587,17 @@
 		}
 		{
 			dependencies: ["102BA726C9F17223"]
-			description: [
-				"This path leads to the &eCreate: Cogs & Crates&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "create:cogwheel" }
+			icon: {
+				id: "create:cogwheel"
+			}
 			id: "11D0ACCB0E10BB07"
 			rewards: [
 				{
 					id: "1194FDB8C0088524"
-					item: { count: 1, id: "create:cogwheel" }
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
 					type: "item"
 				}
 				{
@@ -623,10 +608,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "115C179A0EA2FF4A"
-				title: "Open the Create: Cogs & Crates branch"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -634,17 +617,17 @@
 		}
 		{
 			dependencies: ["100F316559785DED"]
-			description: [
-				"This path leads to the &eCobblemon: First Steps&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "cobblemon:poke_ball" }
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
 			id: "11136ED5775F20DC"
 			rewards: [
 				{
 					id: "11DB134B819FBA3C"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -655,10 +638,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "11E4D451ED94121A"
-				title: "Open the Cobblemon: First Steps branch"
 				type: "checkmark"
 			}]
 			x: 9.0d
@@ -666,17 +647,17 @@
 		}
 		{
 			dependencies: ["106FA347B5C829E2"]
-			description: [
-				"This path leads to the &eCreate: Rotational Power&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "create:water_wheel" }
+			icon: {
+				id: "create:water_wheel"
+			}
 			id: "11F2E207DC27FDC7"
 			rewards: [
 				{
 					id: "11D1C43798A77881"
-					item: { count: 1, id: "create:shaft" }
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
 					type: "item"
 				}
 				{
@@ -687,10 +668,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "11804A03DDE526BA"
-				title: "Open the Create: Rotational Power branch"
 				type: "checkmark"
 			}]
 			x: 12.0d
@@ -698,17 +677,17 @@
 		}
 		{
 			dependencies: ["105485D414441DF4"]
-			description: [
-				"This path leads to the &eNether&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "minecraft:netherrack" }
+			icon: {
+				id: "minecraft:netherrack"
+			}
 			id: "11560D8A44F37744"
 			rewards: [
 				{
 					id: "11EEF4D5D8F8E6A4"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -719,10 +698,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "118FFA559CCBB31A"
-				title: "Open the Nether branch"
 				type: "checkmark"
 			}]
 			x: 17.0d
@@ -730,17 +707,17 @@
 		}
 		{
 			dependencies: ["105485D414441DF4"]
-			description: [
-				"This path leads to the &eCreate: Sparks & Circuits&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "create:electron_tube" }
+			icon: {
+				id: "create:electron_tube"
+			}
 			id: "11F3534AE5D06169"
 			rewards: [
 				{
 					id: "11ADDA485D266F40"
-					item: { count: 1, id: "create:electron_tube" }
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
 					type: "item"
 				}
 				{
@@ -751,10 +728,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "11D082D0A300EE28"
-				title: "Open the Create: Sparks & Circuits branch"
 				type: "checkmark"
 			}]
 			x: 19.0d
@@ -762,17 +737,17 @@
 		}
 		{
 			dependencies: ["1008C7F7965BD055"]
-			description: [
-				"This path leads to the &eOtherside&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "minecraft:sculk" }
+			icon: {
+				id: "minecraft:sculk"
+			}
 			id: "11F862B29B31518C"
 			rewards: [
 				{
 					id: "11139142B31FCA48"
-					item: { count: 1, id: "minecraft:echo_shard" }
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
 					type: "item"
 				}
 				{
@@ -783,10 +758,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "1153027299E6144A"
-				title: "Open the Otherside branch"
 				type: "checkmark"
 			}]
 			x: 24.0d
@@ -794,17 +767,17 @@
 		}
 		{
 			dependencies: ["100573543B0B18B8"]
-			description: [
-				"This path leads to the &eAether&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "aether:ambrosium_shard" }
+			icon: {
+				id: "aether:ambrosium_shard"
+			}
 			id: "1149EDEE2BFF17BB"
 			rewards: [
 				{
 					id: "1185EA72A58EF665"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -815,10 +788,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "116F6872E7DF1D56"
-				title: "Open the Aether branch"
 				type: "checkmark"
 			}]
 			x: 27.0d
@@ -826,17 +797,17 @@
 		}
 		{
 			dependencies: ["105FB4F860A68106"]
-			description: [
-				"This path leads to the &eEnd&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "minecraft:end_stone" }
+			icon: {
+				id: "minecraft:end_stone"
+			}
 			id: "1168BD4586502127"
 			rewards: [
 				{
 					id: "119BC83FDBC5004E"
-					item: { count: 1, id: "minecraft:ender_pearl" }
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
 					type: "item"
 				}
 				{
@@ -847,10 +818,8 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "111B8118D2ACD419"
-				title: "Open the End branch"
 				type: "checkmark"
 			}]
 			x: 30.0d
@@ -858,17 +827,17 @@
 		}
 		{
 			dependencies: ["10FC1EB90F757C1B"]
-			description: [
-				"This path leads to the &eBeyond the Machine&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "create:precision_mechanism" }
+			icon: {
+				id: "create:precision_mechanism"
+			}
 			id: "112DBC53A3383FEB"
 			rewards: [
 				{
 					id: "11EC97DCF5F6117F"
-					item: { count: 1, id: "create:precision_mechanism" }
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
 					type: "item"
 				}
 				{
@@ -879,10 +848,8 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "113EC65E5862F8C3"
-				title: "Open the Beyond the Machine branch"
 				type: "checkmark"
 			}]
 			x: 32.0d
@@ -890,17 +857,17 @@
 		}
 		{
 			dependencies: ["10FC1EB90F757C1B"]
-			description: [
-				"This path leads to the &eMyths & Legends&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "cobblemon:leftovers" }
+			icon: {
+				id: "cobblemon:leftovers"
+			}
 			id: "11B9E97BEC38C56B"
 			rewards: [
 				{
 					id: "110B737996BA8536"
-					item: { count: 1, id: "cobblemon:relic_coin_sack" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -911,10 +878,8 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "11591721E1EE3A6F"
-				title: "Open the Myths & Legends branch"
 				type: "checkmark"
 			}]
 			x: 34.0d
@@ -922,17 +887,17 @@
 		}
 		{
 			dependencies: ["10FC1EB90F757C1B"]
-			description: [
-				"This path leads to the &eAdventure&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "minecraft:map" }
+			icon: {
+				id: "minecraft:map"
+			}
 			id: "11E9CC6C443AC051"
 			rewards: [
 				{
 					id: "11065A596D86369F"
-					item: { count: 1, id: "minecraft:diamond" }
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
 					type: "item"
 				}
 				{
@@ -943,10 +908,8 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "11198A271F7937D0"
-				title: "Open the Adventure branch"
 				type: "checkmark"
 			}]
 			x: 32.0d
@@ -954,17 +917,17 @@
 		}
 		{
 			dependencies: ["10FC1EB90F757C1B"]
-			description: [
-				"This path leads to the &eLeague&r branch."
-				""
-				"Follow the marker to open that quest line."
-			]
-			icon: { count: 1, id: "cobblemon:gilded_chest" }
+			icon: {
+				id: "cobblemon:gilded_chest"
+			}
 			id: "112C6A2A5F5B44AF"
 			rewards: [
 				{
 					id: "1143270FB5942ED0"
-					item: { count: 1, id: "cobblemon:relic_coin_sack" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -975,15 +938,12 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "Branch marker"
 			tasks: [{
 				id: "1130964870FFC07D"
-				title: "Open the League branch"
 				type: "checkmark"
 			}]
 			x: 34.0d
 			y: -4.0d
 		}
 	]
-	title: "Steamon Journey"
 }

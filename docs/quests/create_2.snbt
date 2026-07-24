@@ -3,40 +3,27 @@
 	default_quest_shape: "square"
 	filename: "create_2"
 	group: "348AE7020234F2D4"
-	icon: { id: "create:cogwheel" }
+	icon: {
+		id: "create:cogwheel"
+	}
 	id: "7562E720C8A255F8"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"106FA347B5C829E2"
+				"20D1FD9D0ADDE063"
+			]
 			id: "20B15066AC9B97D2"
-			x: 0d
-			y: 0d
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "A mechanical hand"
-			description: [
-				"The &aDeployer&r uses items on the world just like a player: it plants, harvests, crafts in-world and applies tools."
-				""
-				"It needs a &aPrecision Mechanism&r. This is the first true automation block."
-				""
-				"&eThis milestone opens the Rotational Power branch.&r"
-			]
-			dependencies: ["106FA347B5C829E2", "20D1FD9D0ADDE063"]
-			tasks: [
-				{
-					id: "20CA5BD645E2C948"
-					type: "item"
-					item: "create:deployer"
-					count: 1
-				}
-			]
 			rewards: [
 				{
 					id: "2060574D29AC56AF"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
 					type: "item"
-					item: "create:deployer"
-					count: 1
 				}
 				{
 					id: "203607E96A6ABA0D"
@@ -44,35 +31,28 @@
 					xp: 80
 				}
 			]
-		},
-		{
-			id: "208376490BBB8C2B"
-			x: 0d
-			y: 2d
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Move items around"
-			description: [
-				"&aBelts&r are placed by right-clicking two shafts with the belt item. They carry items and even players across your factory."
-				""
-				"Combine with &aFunnels&r and &aChutes&r to load and unload machines automatically."
-				""
-			]
+			tasks: [{
+				id: "20CA5BD645E2C948"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
 			dependencies: ["20B15066AC9B97D2"]
-			tasks: [
-				{
-					id: "20834629AA1B297A"
-					type: "item"
-					item: "create:belt_connector"
-					count: 1
-				}
-			]
+			id: "208376490BBB8C2B"
 			rewards: [
 				{
-					id: "20D64389A7657F10"
-					type: "item"
-					item: "create:belt_connector"
 					count: 4
+					id: "20D64389A7657F10"
+					item: {
+						count: 1
+						id: "create:belt_connector"
+					}
+					type: "item"
 				}
 				{
 					id: "20F5985687EF6A96"
@@ -80,41 +60,35 @@
 					xp: 50
 				}
 			]
-		},
-		{
-			id: "205AE059EFBB160A"
-			x: 0d
-			y: 4d
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Air does the work"
-			description: [
-				"An &aEncased Fan&r pushes air through blocks to process items: fire smelts, water washes, lava smokes. Place a Blaze Burner in front to smelt for free."
-				""
-				"One fan replaces a whole row of furnaces. Washing gravel and ores is where it shines."
-				""
-			]
+			tasks: [{
+				id: "20834629AA1B297A"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
 			dependencies: ["208376490BBB8C2B"]
-			tasks: [
-				{
-					id: "20FA486B57FB318B"
-					type: "item"
-					item: "create:encased_fan"
-					count: 1
-				}
-			]
+			id: "205AE059EFBB160A"
 			rewards: [
 				{
 					id: "201EBB7591A90E0A"
+					item: {
+						count: 1
+						id: "create:encased_fan"
+					}
 					type: "item"
-					item: "create:encased_fan"
-					count: 1
 				}
 				{
 					id: "20F7A2776687EC4E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
-					item: "cobblemon:relic_coin_pouch"
-					count: 1
 				}
 				{
 					id: "20BD4E901A51C889"
@@ -122,35 +96,27 @@
 					xp: 70
 				}
 			]
-		},
-		{
-			id: "20E3EF17EDC036C8"
-			x: 0d
-			y: 6d
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Sort and distribute"
-			description: [
-				"The &aMechanical Arm&r picks items from inputs and drops them into outputs you assign. Perfect for feeding multiple machines from one belt."
-				""
-				"It needs a Precision Mechanism and a Brass Casing. Automation gets smart here."
-				""
-			]
+			tasks: [{
+				id: "20FA486B57FB318B"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
 			dependencies: ["205AE059EFBB160A"]
-			tasks: [
-				{
-					id: "2036838B5870E50E"
-					type: "item"
-					item: "create:mechanical_arm"
-					count: 1
-				}
-			]
+			id: "20E3EF17EDC036C8"
 			rewards: [
 				{
 					id: "20C1A99310F29EA9"
+					item: {
+						count: 1
+						id: "create:mechanical_arm"
+					}
 					type: "item"
-					item: "create:mechanical_arm"
-					count: 1
 				}
 				{
 					id: "203910B92AC6E60B"
@@ -158,35 +124,27 @@
 					xp: 80
 				}
 			]
-		},
-		{
-			id: "20CBCF7B1EED391C"
-			x: 0d
-			y: 8d
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Move whole builds"
-			description: [
-				"The &aMechanical Piston&r pushes and pulls entire structures as a moving contraption. Add &aLinear Chassis&r to hold blocks together."
-				""
-				"Doors, bridges, elevators and moving farms all start with this."
-				""
-			]
+			tasks: [{
+				id: "2036838B5870E50E"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
 			dependencies: ["20E3EF17EDC036C8"]
-			tasks: [
-				{
-					id: "20D15E2634B1DDD1"
-					type: "item"
-					item: "create:mechanical_piston"
-					count: 1
-				}
-			]
+			id: "20CBCF7B1EED391C"
 			rewards: [
 				{
 					id: "2008FDE958EFF78A"
+					item: {
+						count: 1
+						id: "create:mechanical_piston"
+					}
 					type: "item"
-					item: "create:mechanical_piston"
-					count: 1
 				}
 				{
 					id: "202E4BACBC5762C9"
@@ -194,40 +152,37 @@
 					xp: 80
 				}
 			]
-		},
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "20D15E2634B1DDD1"
+				item: { count: 1, id: "create:mechanical_piston" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
 		{
-			id: "20D998170F74A935"
-			x: 2d
-			y: 8d
-			subtitle: "Spin anything"
-			description: [
-				"The &aMechanical Bearing&r rotates an attached contraption. Windmills, rotating displays and rolling machines are built on it."
-				""
-				"Pair it with a chassis to spin large builds around a single axis."
-				""
-			]
 			dependencies: ["20CBCF7B1EED391C"]
+			id: "20D998170F74A935"
 			optional: true
-			tasks: [
-				{
-					id: "20BD2D831C21B186"
-					type: "item"
-					item: "create:mechanical_bearing"
-					count: 1
-				}
-			]
 			rewards: [
 				{
 					id: "200F1CFAC813183D"
+					item: {
+						count: 1
+						id: "create:mechanical_bearing"
+					}
 					type: "item"
-					item: "create:mechanical_bearing"
-					count: 1
 				}
 				{
-					id: "207CBAFC12D7D62C"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 8
+					id: "207CBAFC12D7D62C"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "20FFE1CAC42069D3"
@@ -235,35 +190,26 @@
 					xp: 70
 				}
 			]
-		},
+			tasks: [{
+				id: "20BD2D831C21B186"
+				item: { count: 1, id: "create:mechanical_bearing" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
 		{
-			id: "20438DB0F60F2253"
-			x: 0d
-			y: 10d
-			shape: "hexagon"
-			size: 1.5d
-			subtitle: "Pack it tighter"
-			description: [
-				"&aCreate Compressed&r adds compressed material blocks. Press or craft sheets into &aSheet Blocks&r for compact storage and new recipes."
-				""
-				"A neat way to store bulk metal output from your presses."
-				""
-			]
 			dependencies: ["20CBCF7B1EED391C"]
-			tasks: [
-				{
-					id: "20EFDE7CBD57786D"
-					type: "item"
-					item: "create_compressed:iron_sheet_block"
-					count: 1
-				}
-			]
+			id: "20438DB0F60F2253"
 			rewards: [
 				{
-					id: "2030F74459358C01"
-					type: "item"
-					item: "create_compressed:iron_sheet_block"
 					count: 2
+					id: "2030F74459358C01"
+					item: {
+						count: 1
+						id: "create_compressed:iron_sheet_block"
+					}
+					type: "item"
 				}
 				{
 					id: "20BC2EE762468879"
@@ -271,40 +217,37 @@
 					xp: 60
 				}
 			]
-		},
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "20EFDE7CBD57786D"
+				item: { count: 1, id: "create_compressed:iron_sheet_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
 		{
-			id: "20FB4CD6EA08FFD3"
-			x: -2d
-			y: 10d
-			subtitle: "Automate the farmyard"
-			description: [
-				"&aIntegrated Farming&r adds &aRoosts&r that raise chickens and other birds automatically, plus &aFishing Nets&r that fish while you work."
-				""
-				"Feed a roost and let it produce eggs, meat and feathers hands-free."
-				""
-			]
 			dependencies: ["20B15066AC9B97D2"]
+			id: "20FB4CD6EA08FFD3"
 			optional: true
-			tasks: [
-				{
-					id: "20AB1FAE3B4B0518"
-					type: "item"
-					item: "create_integrated_farming:chicken_roost"
-					count: 1
-				}
-			]
 			rewards: [
 				{
 					id: "20AA10DAE6A4DACB"
+					item: {
+						count: 1
+						id: "create_integrated_farming:chicken_roost"
+					}
 					type: "item"
-					item: "create_integrated_farming:chicken_roost"
-					count: 1
 				}
 				{
-					id: "20E34FB39CC351FE"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 8
+					id: "20E34FB39CC351FE"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "20E350568FE0A4AF"
@@ -312,34 +255,26 @@
 					xp: 60
 				}
 			]
-		},
+			tasks: [{
+				id: "20AB1FAE3B4B0518"
+				item: { count: 1, id: "create_integrated_farming:chicken_roost" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
 		{
-			id: "20DF52C01D4B1B82"
-			x: 2d
-			y: 10d
-			subtitle: "Cook at scale"
-			description: [
-				"&aCentral Kitchen&r links Create automation to Farmer Delight cooking, letting deployers and mechanical crafters prepare food in bulk."
-				""
-				"Craft a &aMechanical Crafter&r to start building automated cooking lines."
-				""
-			]
 			dependencies: ["20B15066AC9B97D2"]
+			id: "20DF52C01D4B1B82"
 			optional: true
-			tasks: [
-				{
-					id: "209713FF67777383"
-					type: "item"
-					item: "create:mechanical_crafter"
-					count: 1
-				}
-			]
 			rewards: [
 				{
 					id: "202FC320385FDC6F"
+					item: {
+						count: 1
+						id: "create:mechanical_crafter"
+					}
 					type: "item"
-					item: "create:mechanical_crafter"
-					count: 1
 				}
 				{
 					id: "2073CC3C314B3316"
@@ -347,216 +282,193 @@
 					xp: 70
 				}
 			]
-		},
+			tasks: [{
+				id: "209713FF67777383"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
 		{
-			id: "207F3791CA771C5C"
-			x: 3d
-			y: 4d
 			dependencies: ["205AE059EFBB160A"]
-			tasks: [
-				{
-					id: "20706CFE062EF491"
-					type: "item"
-					item: "create:andesite_funnel"
+			id: "207F3791CA771C5C"
+			rewards: [{
+				count: 2
+				id: "205362D7E6DFF32A"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "205362D7E6DFF32A"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "20706CFE062EF491"
+				item: { count: 1, id: "create:andesite_funnel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
 		{
+			dependencies: ["207F3791CA771C5C"]
 			id: "20D5C09A9567ABC5"
-			x: 4d
-			y: 4d
-			dependencies: ["207F3791CA771C5C"]
-			tasks: [
-				{
-					id: "20D45B31CADB4858"
-					type: "item"
-					item: "create:chute"
+			rewards: [{
+				count: 2
+				id: "2063855AC03E039C"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "2063855AC03E039C"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "20D45B31CADB4858"
+				item: { count: 1, id: "create:chute" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
 		{
-			id: "20471F8A88803EDB"
-			x: 5d
-			y: 4d
 			dependencies: ["20D5C09A9567ABC5"]
-			tasks: [
-				{
-					id: "20864C3E7E80087B"
-					type: "item"
-					item: "create:smart_chute"
+			id: "20471F8A88803EDB"
+			rewards: [{
+				count: 2
+				id: "20EF5D5355478A37"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20EF5D5355478A37"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "20864C3E7E80087B"
+				item: { count: 1, id: "create:smart_chute" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
 		{
-			id: "208CA81EDB95A02F"
-			x: 6d
-			y: 4d
 			dependencies: ["20471F8A88803EDB"]
-			tasks: [
-				{
-					id: "202570A82E663E99"
-					type: "item"
-					item: "create:item_vault"
+			id: "208CA81EDB95A02F"
+			rewards: [{
+				count: 2
+				id: "20FC477C35985A81"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20FC477C35985A81"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "202570A82E663E99"
+				item: { count: 1, id: "create:item_vault" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
 		{
-			id: "20D046807B678D47"
-			x: 3d
-			y: 6d
 			dependencies: ["207F3791CA771C5C"]
-			tasks: [
-				{
-					id: "2012B1D22863BF58"
-					type: "item"
-					item: "create:weighted_ejector"
+			id: "20D046807B678D47"
+			rewards: [{
+				count: 2
+				id: "2077FC301728AB55"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "2077FC301728AB55"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "2012B1D22863BF58"
+				item: { count: 1, id: "create:weighted_ejector" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
 		{
-			id: "20A563ABCAD6E9A2"
-			x: 4d
-			y: 6d
 			dependencies: ["20D046807B678D47"]
-			tasks: [
-				{
-					id: "2018CDFEF0163CFD"
-					type: "item"
-					item: "create:mechanical_arm"
+			id: "20A563ABCAD6E9A2"
+			rewards: [{
+				count: 2
+				id: "20F0430EED302076"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20F0430EED302076"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "2018CDFEF0163CFD"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
 		{
-			id: "203AABF0A0958EC1"
-			x: 5d
-			y: 6d
 			dependencies: ["20A563ABCAD6E9A2"]
-			tasks: [
-				{
-					id: "20CF233906A80A01"
-					type: "item"
-					item: "create:hose_pulley"
+			id: "203AABF0A0958EC1"
+			rewards: [{
+				count: 2
+				id: "20E8DA7385599C28"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20E8DA7385599C28"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "20CF233906A80A01"
+				item: { count: 1, id: "create:hose_pulley" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
 		{
-			id: "20215420DF604F8D"
-			x: 6d
-			y: 6d
 			dependencies: ["203AABF0A0958EC1"]
-			tasks: [
-				{
-					id: "200835D5194A93E8"
-					type: "item"
-					item: "create:fluid_tank"
+			id: "20215420DF604F8D"
+			rewards: [{
+				count: 2
+				id: "20D7A16AD95AB95A"
+				item: {
 					count: 1
+					id: "numismatics:spur"
 				}
-			]
-			rewards: [
-				{
-					id: "20D7A16AD95AB95A"
-					type: "item"
-					item: "cobblemon:relic_coin"
-					count: 2
-				}
-			]
-		},
+				type: "item"
+			}]
+			tasks: [{
+				id: "200835D5194A93E8"
+				item: { count: 1, id: "create:fluid_tank" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
 		{
+			dependencies: [
+				"20438DB0F60F2253"
+				"208CA81EDB95A02F"
+				"20215420DF604F8D"
+			]
 			id: "20D128D0BDB10CB3"
-			x: 0d
-			y: 12d
-			shape: "gear"
-			size: 2.0d
-			subtitle: "Master of Rotational Power"
-			description: [
-				"Your machines now move items, process materials and build themselves. This is a full Create factory."
-				""
-				"&eClaim your reward and advance to Sparks and Circuits&r, where rotation becomes electricity."
-				""
-			]
-			dependencies: ["20438DB0F60F2253", "208CA81EDB95A02F", "20215420DF604F8D"]
-			tasks: [
-				{
-					id: "200B6243B7743704"
-					type: "item"
-					item: "create:mechanical_arm"
-					count: 1
-				}
-			]
 			rewards: [
 				{
 					id: "2012D4601D6507C7"
 					type: "random"
-					table_id: "20AABBCC00000002"
 				}
 				{
 					id: "200B3982E4962652"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
-					item: "cobblemon:relic_coin_sack"
-					count: 1
 				}
 				{
 					id: "208B23BC3418F577"
@@ -564,7 +476,15 @@
 					xp: 200
 				}
 			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "200B6243B7743704"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
 		}
 	]
-	title: "Rotational Power"
 }

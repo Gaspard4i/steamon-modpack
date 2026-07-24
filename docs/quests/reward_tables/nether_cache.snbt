@@ -1,101 +1,21 @@
 {
-	hide_tooltip: false
-	icon: { id: "minecraft:netherite_scrap" }
+	icon: {
+		id: "minecraft:netherite_scrap"
+	}
 	id: "409B21D25C01D8EB"
 	loot_size: 1
-	order_index: 2
+	order_index: 14
 	rewards: [
-		{
-			reward: {
-				count: 16
-				id: "405735A3FFD0486E"
-				item: { count: 1, id: "cobblemon:relic_coin" }
-				type: "item"
-			}
-			weight: 40.0f
-		},
-		{
-			reward: {
-				count: 12
-				id: "4096D09DA939BEA2"
-				item: { count: 1, id: "minecraft:gold_ingot" }
-				type: "item"
-			}
-			weight: 30.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "40F93C2F10F84ED3"
-				item: { count: 1, id: "cobblemon:relic_coin_pouch" }
-				type: "item"
-			}
-			weight: 25.0f
-		},
-		{
-			reward: {
-				count: 6
-				id: "40870D974FF5C1C8"
-				item: { count: 1, id: "minecraft:blaze_rod" }
-				type: "item"
-			}
-			weight: 20.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "40DC98582F4A38CE"
-				item: { count: 1, id: "cobblemon:fire_stone" }
-				type: "item"
-			}
-			weight: 15.0f
-		},
-		{
-			reward: {
-				count: 6
-				id: "40CB62C1A5EFEE40"
-				item: { count: 1, id: "cobblemon:exp_candy_l" }
-				type: "item"
-			}
-			weight: 15.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "401DCF0AC468F2D7"
-				item: { count: 1, id: "minecraft:ancient_debris" }
-				type: "item"
-			}
-			weight: 8.0f
-		},
-		{
-			reward: {
-				count: 4
-				id: "40D198B0FBC2B764"
-				item: { count: 1, id: "cobblemon:ultra_ball" }
-				type: "item"
-			}
-			weight: 10.0f
-		},
-		{
-			reward: {
-				count: 2
-				id: "40E194D990BF19F8"
-				item: { count: 1, id: "cobblemon:rare_candy" }
-				type: "item"
-			}
-			weight: 6.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "4052447EB34CB6A8"
-				item: { count: 1, id: "cobblemon:master_ball" }
-				type: "item"
-			}
-			weight: 2.0f
-		}
+		{ id: "25C4145B66EBE7DE", weight: 40.0f }
+		{ id: "3CF5D8C87474E148", weight: 30.0f }
+		{ id: "1F343F8EF45992A1", weight: 25.0f }
+		{ id: "2652CDDF6B9E981B", weight: 20.0f }
+		{ id: "3E11B0F0C13BC005", weight: 15.0f }
+		{ id: "70B41798F2EF5A21", weight: 15.0f }
+		{ id: "5CB682BDB090F439", weight: 8.0f }
+		{ id: "5F363E9AF02A3DA5", weight: 10.0f }
+		{ id: "08FAC3B8CBBBCA9E", weight: 6.0f }
+		{ id: "7C545CD1BB1E515C", weight: 2.0f }
 	]
-	title: "Nether Cache"
 	use_title: true
 }

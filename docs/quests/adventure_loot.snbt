@@ -38,29 +38,29 @@
 		id: "artifacts:cross_necklace"
 	}
 	id: "5EFD32D15CC97C4F"
-	order_index: 14
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"With the Ender Dragon slain, the world opens up. Structures hide loot, rare balls and priceless relics."
-				""
-				"Seek out villages, mineshafts and the silent Ancient Cities of the Deep Dark."
-				""
-				"&eGated behind the Dragon Slayer milestone.&r"
-			]
+			dependencies: ["10FC1EB90F757C1B"]
 			id: "501DCF0AC468F2D7"
 			rewards: [
 				{
 					count: 8
 					id: "50273CCB1CF22852"
-					item: { count: 1, id: "cobblemon:poke_ball" }
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
 					type: "item"
 				}
 				{
 					count: 10
 					id: "50E202438D12298F"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -71,31 +71,26 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "The world is full of treasure"
-			tasks: [
-				{
-					id: "50F4E7B3E590B2DF"
-					title: "Ready to Explore"
-					type: "checkmark"
-				}
-			]
-			title: "Adventure Awaits"
-			x: 0d
-			y: 0d
-			dependencies: ["10FC1EB90F757C1B"]
-		},
+			tasks: [{
+				id: "50F4E7B3E590B2DF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
 		{
-			description: [
-				"Locate a &aVillage&r. Trade with villagers, raid the chests, and note it as a fast-travel anchor."
-				""
-				"Villages are the safest source of early loot and emeralds."
-			]
-			icon: { id: "minecraft:emerald" }
+			dependencies: ["501DCF0AC468F2D7"]
+			icon: {
+				id: "minecraft:emerald"
+			}
 			id: "50D198B0FBC2B764"
 			rewards: [
 				{
 					id: "507C03F1F41986EE"
-					item: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -104,31 +99,27 @@
 					xp: 60
 				}
 			]
-			subtitle: "Find a settlement"
-			tasks: [
-				{
-					id: "50C9179ADBDF8F79"
-					structure: "minecraft:village_plains"
-					type: "ftbquests:structure"
-				}
-			]
-			title: "Village Visitor"
+			tasks: [{
+				id: "50C9179ADBDF8F79"
+				structure: "minecraft:village_plains"
+				type: "structure"
+			}]
 			x: -2.0d
 			y: 2.0d
-			dependencies: ["501DCF0AC468F2D7"]
-		},
+		}
 		{
-			description: [
-				"Descend into an &aAbandoned Mineshaft&r. Follow the rails to chest minecarts loaded with rare drops."
-				""
-				"Watch for cave spiders in the cobwebs."
-			]
-			icon: { id: "minecraft:rail" }
+			dependencies: ["501DCF0AC468F2D7"]
+			icon: {
+				id: "minecraft:rail"
+			}
 			id: "50E194D990BF19F8"
 			rewards: [
 				{
 					id: "50F50B7F50BE2D35"
-					item: { count: 1, id: "cobblemon:relic_coin_pouch" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -139,31 +130,27 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Delve the old tunnels"
-			tasks: [
-				{
-					id: "502787CE1AFBE45F"
-					structure: "minecraft:mineshaft"
-					type: "ftbquests:structure"
-				}
-			]
-			title: "Abandoned Mineshaft"
+			tasks: [{
+				id: "502787CE1AFBE45F"
+				structure: "minecraft:mineshaft"
+				type: "structure"
+			}]
 			x: 0.0d
 			y: 2.0d
-			dependencies: ["501DCF0AC468F2D7"]
-		},
+		}
 		{
-			description: [
-				"Sneak into an &aAncient City&r beneath the Deep Dark. Avoid the Warden, loot the chests, and escape with an &aEcho Shard&r."
-				""
-				"The rarest overworld loot waits in the dark."
-			]
-			icon: { id: "minecraft:sculk_catalyst" }
+			dependencies: ["501DCF0AC468F2D7"]
+			icon: {
+				id: "minecraft:sculk_catalyst"
+			}
 			id: "5052447EB34CB6A8"
 			rewards: [
 				{
 					id: "50D231E4837240D4"
-					item: { count: 1, id: "cobblemon:relic_coin_sack" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -172,39 +159,35 @@
 					xp: 150
 				}
 			]
-			subtitle: "Brave the Deep Dark"
 			tasks: [
 				{
 					id: "505B11E5FA7832FD"
 					structure: "minecraft:ancient_city"
-					type: "ftbquests:structure"
+					type: "structure"
 				}
 				{
-					count: 1L
 					id: "50B2CC92B826C46D"
 					item: { count: 1, id: "minecraft:echo_shard" }
 					type: "item"
 				}
 			]
-			title: "Ancient City"
 			x: 2.0d
 			y: 2.0d
-			dependencies: ["501DCF0AC468F2D7"]
-		},
+		}
 		{
-			description: [
-				"A stronger catch than the standard Poke Ball."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:great_ball" }
-			id: "50E898FF65F0E742"
 			dependencies: ["501DCF0AC468F2D7"]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "50E898FF65F0E742"
 			rewards: [
 				{
 					count: 5
 					id: "504C47E088515F4E"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -213,33 +196,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "503BF6210736AB00"
-					item: { count: 1, id: "cobblemon:great_ball" }
-					type: "item"
-				}
-			]
-			title: "Great Ball"
+			tasks: [{
+				id: "503BF6210736AB00"
+				item: { count: 1, id: "cobblemon:great_ball" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
-		},
+		}
 		{
-			description: [
-				"A high-performance catch device."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:ultra_ball" }
-			id: "50DD0D2A2D442224"
 			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "50DD0D2A2D442224"
 			rewards: [
 				{
 					count: 5
 					id: "500E85D2D4750AEB"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -248,33 +226,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "50E9FB985B829791"
-					item: { count: 1, id: "cobblemon:ultra_ball" }
-					type: "item"
-				}
-			]
-			title: "Ultra Ball"
+			tasks: [{
+				id: "50E9FB985B829791"
+				item: { count: 1, id: "cobblemon:ultra_ball" }
+				type: "item"
+			}]
 			x: -4.0d
 			y: 5.5d
-		},
+		}
 		{
-			description: [
-				"Excels in the dark and in caves."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:dusk_ball" }
-			id: "5035665954F13AAF"
 			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				id: "cobblemon:dusk_ball"
+			}
+			id: "5035665954F13AAF"
 			rewards: [
 				{
 					count: 5
 					id: "5048D15AFB748FBB"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -283,33 +256,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "50FBCCA33F1852D3"
-					item: { count: 1, id: "cobblemon:dusk_ball" }
-					type: "item"
-				}
-			]
-			title: "Dusk Ball"
+			tasks: [{
+				id: "50FBCCA33F1852D3"
+				item: { count: 1, id: "cobblemon:dusk_ball" }
+				type: "item"
+			}]
 			x: -2.0d
 			y: 5.5d
-		},
+		}
 		{
-			description: [
-				"Best thrown at the start of a battle."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:quick_ball" }
-			id: "50D03A46E53F626F"
 			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				id: "cobblemon:quick_ball"
+			}
+			id: "50D03A46E53F626F"
 			rewards: [
 				{
 					count: 5
 					id: "504587448608FA65"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -318,33 +286,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "508AFE39BD80E363"
-					item: { count: 1, id: "cobblemon:quick_ball" }
-					type: "item"
-				}
-			]
-			title: "Quick Ball"
+			tasks: [{
+				id: "508AFE39BD80E363"
+				item: { count: 1, id: "cobblemon:quick_ball" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 5.5d
-		},
+		}
 		{
-			description: [
-				"Effective on Water and Bug types."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:net_ball" }
-			id: "50CF24B5D3BA83FB"
 			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				id: "cobblemon:net_ball"
+			}
+			id: "50CF24B5D3BA83FB"
 			rewards: [
 				{
 					count: 5
 					id: "50F3D408ED89ADF7"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -353,33 +316,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "5038433C64C806E8"
-					item: { count: 1, id: "cobblemon:net_ball" }
-					type: "item"
-				}
-			]
-			title: "Net Ball"
+			tasks: [{
+				id: "5038433C64C806E8"
+				item: { count: 1, id: "cobblemon:net_ball" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 5.5d
-		},
+		}
 		{
-			description: [
-				"Made for catching underwater."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:dive_ball" }
-			id: "50CAE62CFB0376EE"
 			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				id: "cobblemon:dive_ball"
+			}
+			id: "50CAE62CFB0376EE"
 			rewards: [
 				{
 					count: 5
 					id: "50C5DB71603046A6"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -388,33 +346,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "5015891625E0C274"
-					item: { count: 1, id: "cobblemon:dive_ball" }
-					type: "item"
-				}
-			]
-			title: "Dive Ball"
+			tasks: [{
+				id: "5015891625E0C274"
+				item: { count: 1, id: "cobblemon:dive_ball" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 5.5d
-		},
+		}
 		{
-			description: [
-				"Better against low-level Pokemon."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:nest_ball" }
-			id: "508490691423DA09"
 			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				id: "cobblemon:nest_ball"
+			}
+			id: "508490691423DA09"
 			rewards: [
 				{
 					count: 5
 					id: "50AC0B2437914968"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -423,33 +376,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "5001BB9933299769"
-					item: { count: 1, id: "cobblemon:nest_ball" }
-					type: "item"
-				}
-			]
-			title: "Nest Ball"
+			tasks: [{
+				id: "5001BB9933299769"
+				item: { count: 1, id: "cobblemon:nest_ball" }
+				type: "item"
+			}]
 			x: -3.0d
 			y: 7.0d
-		},
+		}
 		{
-			description: [
-				"Grows stronger the longer a battle lasts."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:timer_ball" }
-			id: "50B3C21E7CF5708D"
 			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				id: "cobblemon:timer_ball"
+			}
+			id: "50B3C21E7CF5708D"
 			rewards: [
 				{
 					count: 5
 					id: "50AD61AAADBA8286"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -458,33 +406,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "506B4914F054405E"
-					item: { count: 1, id: "cobblemon:timer_ball" }
-					type: "item"
-				}
-			]
-			title: "Timer Ball"
+			tasks: [{
+				id: "506B4914F054405E"
+				item: { count: 1, id: "cobblemon:timer_ball" }
+				type: "item"
+			}]
 			x: -1.0d
 			y: 7.0d
-		},
+		}
 		{
-			description: [
-				"Fully heals a caught Pokemon."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:heal_ball" }
-			id: "5072C373AAB7AF13"
 			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				id: "cobblemon:heal_ball"
+			}
+			id: "5072C373AAB7AF13"
 			rewards: [
 				{
 					count: 5
 					id: "50D86BB91C97E49A"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -493,33 +436,28 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "503FCBD7BBAAE5BB"
-					item: { count: 1, id: "cobblemon:heal_ball" }
-					type: "item"
-				}
-			]
-			title: "Heal Ball"
+			tasks: [{
+				id: "503FCBD7BBAAE5BB"
+				item: { count: 1, id: "cobblemon:heal_ball" }
+				type: "item"
+			}]
 			x: 1.0d
 			y: 7.0d
-		},
+		}
 		{
-			description: [
-				"A strange ball for the strangest catches."
-				""
-				"Obtain one to add it to your collection."
-			]
-			icon: { id: "cobblemon:beast_ball" }
-			id: "50B9E56C7B987302"
 			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				id: "cobblemon:beast_ball"
+			}
+			id: "50B9E56C7B987302"
 			rewards: [
 				{
 					count: 5
 					id: "509D4048283844CB"
-					item: { count: 1, id: "cobblemon:relic_coin" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -528,54 +466,15 @@
 					xp: 20
 				}
 			]
-			subtitle: "Special Ball"
-			tasks: [
-				{
-					count: 1L
-					id: "503DD0B7C7E0250C"
-					item: { count: 1, id: "cobblemon:beast_ball" }
-					type: "item"
-				}
-			]
-			title: "Beast Ball"
+			tasks: [{
+				id: "503DD0B7C7E0250C"
+				item: { count: 1, id: "cobblemon:beast_ball" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 7.0d
-		},
+		}
 		{
-			description: [
-				"The &aMaster Ball&r catches any Pokemon without fail. There is nothing rarer in a Trainer's bag."
-				""
-				"Obtain one to prove your collection is complete."
-				""
-				"It is not consumed by this quest."
-			]
-			icon: { id: "cobblemon:master_ball" }
-			id: "50294A5E15CF177A"
-			rewards: [
-				{
-					id: "509F3ADFB7065A3E"
-					item: { count: 1, id: "cobblemon:relic_coin_sack" }
-					type: "item"
-				}
-				{
-					id: "5070351200F62F4F"
-					type: "xp"
-					xp: 300
-				}
-			]
-			subtitle: "The ultimate catch"
-			tasks: [
-				{
-					consume_items: false
-					count: 1L
-					id: "5029B08CEBB1195F"
-					item: { count: 1, id: "cobblemon:master_ball" }
-					type: "item"
-				}
-			]
-			title: "The Master Ball"
-			x: 6.0d
-			y: 7.0d
 			dependencies: [
 				"50E898FF65F0E742"
 				"50DD0D2A2D442224"
@@ -588,25 +487,53 @@
 				"5072C373AAB7AF13"
 				"50B9E56C7B987302"
 			]
-		},
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "50294A5E15CF177A"
+			rewards: [
+				{
+					id: "509F3ADFB7065A3E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "5070351200F62F4F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5029B08CEBB1195F"
+				item: { count: 1, id: "cobblemon:master_ball" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
 		{
-			description: [
-				"Explore the great structures of the world and gather every special Poke Ball to become a true &aTreasure Hunter&r."
-				""
-				"Reward: one random pull from the Treasure Hunter table plus a sack of spurs."
-				""
-				"Complete the structure and ball objectives to unlock this."
+			dependencies: [
+				"50D198B0FBC2B764"
+				"50E194D990BF19F8"
+				"5052447EB34CB6A8"
+				"50294A5E15CF177A"
 			]
 			id: "50B36D079EF538B3"
 			rewards: [
 				{
 					id: "50D715508D635592"
-					table_id: "501CB7322A4BCDEE"
 					type: "random"
 				}
 				{
 					id: "50D209F16823B56B"
-					item: { count: 1, id: "cobblemon:relic_coin_sack" }
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 				{
@@ -616,25 +543,13 @@
 				}
 			]
 			shape: "gear"
-			size: 2d
-			subtitle: "Explore every structure and collect the balls"
-			tasks: [
-				{
-					id: "50372C8369095DA2"
-					title: "Treasure Hunter"
-					type: "checkmark"
-				}
-			]
-			title: "Treasure Hunter"
+			size: 2.0d
+			tasks: [{
+				id: "50372C8369095DA2"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 9.5d
-			dependencies: [
-				"50D198B0FBC2B764"
-				"50E194D990BF19F8"
-				"5052447EB34CB6A8"
-				"50294A5E15CF177A"
-			]
-		},
+		}
 	]
-	title: "Adventure & Loot"
 }

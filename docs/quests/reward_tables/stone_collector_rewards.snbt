@@ -1,23 +1,24 @@
 {
-	icon: { id: "cobblemon:leaf_stone" }
-	id: "C0362F1FA7AF2A2A"
+	icon: {
+		id: "cobblemon:leaf_stone"
+	}
+	id: "5EB21AE0CB9B32A8"
 	loot_size: 1
-	order_index: 0
+	order_index: 3
 	rewards: [
-		{ reward: { id: "C063E7B09AFD5BB1", type: "item", item: { id: "cobblemon:fire_stone", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C070FB1731050768", type: "item", item: { id: "cobblemon:water_stone", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C00473E55040604D", type: "item", item: { id: "cobblemon:thunder_stone", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C080E71B22061B62", type: "item", item: { id: "cobblemon:leaf_stone", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C0D1B24F4F055326", type: "item", item: { id: "cobblemon:moon_stone", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C03582D1B4CBDBB8", type: "item", item: { id: "cobblemon:sun_stone", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "C0CB709F829D0062", type: "item", item: { id: "cobblemon:dusk_stone", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "C0248BEC33515E97", type: "item", item: { id: "cobblemon:dawn_stone", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "C0C0A4B89D0D7ACC", type: "item", item: { id: "cobblemon:shiny_stone", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "C05BC9D7AB99D04B", type: "item", item: { id: "cobblemon:ice_stone", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "C0DA3D60543332F4", type: "item", item: { id: "cobblemon:link_cable", count: 1 } }, weight: 10.0f }
-		{ reward: { id: "C0AA54BCFA275C6C", type: "item", item: { id: "cobblemon:relic_coin_pouch", count: 1 } }, weight: 10.0f }
-		{ reward: { id: "C0BF9CF23A736CB9", type: "item", item: { id: "cobblemon:master_ball", count: 1 } }, weight: 1.0f }
+		{ id: "3360A4030E493CEC", weight: 20.0f }
+		{ id: "50163641DECA1EBB", weight: 20.0f }
+		{ id: "3CD187766F59AA41", weight: 20.0f }
+		{ id: "3E91A638C3E53069", weight: 20.0f }
+		{ id: "01D0A6A540C26CA0", weight: 20.0f }
+		{ id: "7A5439438529B7D9", weight: 20.0f }
+		{ id: "0074A04F4FB51EAB", weight: 15.0f }
+		{ id: "0E95464A1525362A", weight: 15.0f }
+		{ id: "0CE3C0467AF45DC9", weight: 15.0f }
+		{ id: "7DF4FA6734001F15", weight: 15.0f }
+		{ id: "0614DFBC58F30947", weight: 10.0f }
+		{ id: "166521F087B51EC2", weight: 10.0f }
+		{ id: "32B82C101319C51B" }
 	]
-	title: "Stone Collector Rewards"
 	use_title: true
 }

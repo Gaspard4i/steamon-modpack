@@ -7,39 +7,24 @@
 		id: "aether:aether_portal_frame"
 	}
 	id: "11428B5DCB284F18"
-	order_index: 11
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "40091CD67B4264AE"
-			x: 0.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.5d
-			icon: { id: "aether:aether_portal_frame" }
-			subtitle: "A gateway of glowstone"
-			description: [
-				"The &aAether&r portal is framed in &aGlowstone&r instead of obsidian. Build the frame, then pour a bucket of &awater&r inside to open it."
-				""
-				"Step through and rise into a paradise of floating islands, holy stone and divine creatures."
-				""
-				"&aFlying&r and &aFairy&r type Pokemon drift between the isles up here."
-			]
 			dependencies: ["100573543B0B18B8"]
-			tasks: [
-				{
-					id: "402D42E44A12B258"
-					type: "advancement"
-					advancement: "aether:enter_aether"
-					criterion: "enter_aether"
-				}
-			]
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "40091CD67B4264AE"
 			rewards: [
 				{
-					id: "402E866D96F01078"
-					type: "item"
-					item: "aether:skyroot_planks"
 					count: 16
+					id: "402E866D96F01078"
+					item: {
+						count: 1
+						id: "aether:skyroot_planks"
+					}
+					type: "item"
 				}
 				{
 					id: "40F6FF997FFD17A9"
@@ -47,32 +32,29 @@
 					xp: 200
 				}
 			]
-		},
-		{
-			id: "40D4379A448269BF"
-			x: 2.0d
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "aether:enter_aether"
+				criterion: "enter_aether"
+				id: "402D42E44A12B258"
+				type: "advancement"
+			}]
+			x: 0.0d
 			y: 0.0d
-			subtitle: "Stone of the heavens"
-			description: [
-				"The islands are built from &aHolystone&r. Mine it for the Aether's tools and building blocks."
-				""
-				"Collect a stack of Holystone. Its tools match iron and open the Aether tech tree."
-			]
+		}
+		{
 			dependencies: ["40091CD67B4264AE"]
-			tasks: [
-				{
-					id: "40FBE4F57BA8BB0B"
-					type: "item"
-					item: "aether:holystone"
-					count: 16
-				}
-			]
+			id: "40D4379A448269BF"
 			rewards: [
 				{
-					id: "407644D633E92AAF"
-					type: "item"
-					item: "aether:ambrosium_shard"
 					count: 8
+					id: "407644D633E92AAF"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
 				}
 				{
 					id: "40ECA1D5AB98CAAB"
@@ -80,32 +62,26 @@
 					xp: 150
 				}
 			]
-		},
-		{
-			id: "40842F992469C8BC"
-			x: 4.0d
+			tasks: [{
+				count: 16L
+				id: "40FBE4F57BA8BB0B"
+				item: { count: 1, id: "aether:holystone" }
+				type: "item"
+			}]
+			x: 2.0d
 			y: 0.0d
-			subtitle: "Gems of the sky"
-			description: [
-				"&aZanite&r is the Aether's own gemstone. Its tools grow stronger as they wear down."
-				""
-				"Mine &aZanite Gemstones&r from inside the islands. A fine step up from Holystone gear."
-			]
+		}
+		{
 			dependencies: ["40D4379A448269BF"]
-			tasks: [
-				{
-					id: "4043C7094615E401"
-					type: "advancement"
-					advancement: "aether:zanite"
-					criterion: "zanite"
-				}
-			]
+			id: "40842F992469C8BC"
 			rewards: [
 				{
 					id: "408FE9F04B57D26F"
+					item: {
+						count: 1
+						id: "aether:zanite_pendant"
+					}
 					type: "item"
-					item: "aether:zanite_pendant"
-					count: 1
 				}
 				{
 					id: "40FE7EEAD82A6DD9"
@@ -113,38 +89,34 @@
 					xp: 200
 				}
 			]
-		},
-		{
-			id: "40AACB4577F3D5EB"
-			x: 6.0d
+			tasks: [{
+				advancement: "aether:zanite"
+				criterion: "zanite"
+				id: "4043C7094615E401"
+				type: "advancement"
+			}]
+			x: 4.0d
 			y: 0.0d
-			subtitle: "The Bronze Dungeon"
-			description: [
-				"The &aBronze Dungeon&r is guarded by the Slider. Beat it to earn its loot and a &aBronze Dungeon Key&r."
-				""
-				"Defeat the Slider. The dungeons hold the Aether's finest treasures."
-			]
+		}
+		{
 			dependencies: ["40842F992469C8BC"]
-			tasks: [
-				{
-					id: "400EDEB471FF3F55"
-					type: "advancement"
-					advancement: "aether:bronze_dungeon"
-					criterion: "kill_slider"
-				}
-			]
+			id: "40AACB4577F3D5EB"
 			rewards: [
 				{
 					id: "40FD15BFA8A9C4D2"
+					item: {
+						count: 1
+						id: "aether:skyroot_bucket"
+					}
 					type: "item"
-					item: "aether:skyroot_bucket"
-					count: 1
 				}
 				{
 					id: "40C64477FDD615DC"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
 					type: "item"
-					item: "cobblemon:relic_coin_pouch"
-					count: 1
 				}
 				{
 					id: "4007D31B2FE437C0"
@@ -152,32 +124,27 @@
 					xp: 250
 				}
 			]
-		},
-		{
-			id: "40A3460330537B45"
-			x: 8.0d
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: "kill_slider"
+				id: "400EDEB471FF3F55"
+				type: "advancement"
+			}]
+			x: 6.0d
 			y: 0.0d
-			subtitle: "Defy gravity"
-			description: [
-				"&aGravitite&r is the rarest Aether ore, floating upward when disturbed. Its tools levitate blocks."
-				""
-				"Mine one &aGravitite Ore&r, the pinnacle of Aether mining."
-			]
+		}
+		{
 			dependencies: ["40AACB4577F3D5EB"]
-			tasks: [
-				{
-					id: "4094D1170A01C2CA"
-					type: "item"
-					item: "aether:gravitite_ore"
-					count: 1
-				}
-			]
+			id: "40A3460330537B45"
 			rewards: [
 				{
-					id: "40CC7EEB92CDB135"
-					type: "item"
-					item: "aether:enchanted_gravitite"
 					count: 2
+					id: "40CC7EEB92CDB135"
+					item: {
+						count: 1
+						id: "aether:enchanted_gravitite"
+					}
+					type: "item"
 				}
 				{
 					id: "4095578B35049804"
@@ -185,32 +152,26 @@
 					xp: 300
 				}
 			]
-		},
-		{
-			id: "401CF9AF56F01343"
-			x: 10.0d
+			tasks: [{
+				id: "4094D1170A01C2CA"
+				item: { count: 1, id: "aether:gravitite_ore" }
+				type: "item"
+			}]
+			x: 8.0d
 			y: 0.0d
-			subtitle: "The Silver Dungeon"
-			description: [
-				"The &aSilver Dungeon&r floats in the clouds, home to the Valkyries and their Queen."
-				""
-				"Defeat the Valkyrie Queen. Only a proven trainer survives her blades."
-			]
+		}
+		{
 			dependencies: ["40A3460330537B45"]
-			tasks: [
-				{
-					id: "406B76D432337E03"
-					type: "advancement"
-					advancement: "aether:silver_dungeon"
-					criterion: "kill_valkyrie_queen"
-				}
-			]
+			id: "401CF9AF56F01343"
 			rewards: [
 				{
-					id: "4055578AABFBC99D"
-					type: "item"
-					item: "aether:gravitite_ore"
 					count: 2
+					id: "4055578AABFBC99D"
+					item: {
+						count: 1
+						id: "aether:gravitite_ore"
+					}
+					type: "item"
 				}
 				{
 					id: "40289E30ECB74343"
@@ -218,44 +179,27 @@
 					xp: 300
 				}
 			]
-		},
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: "kill_valkyrie_queen"
+				id: "406B76D432337E03"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
 		{
-			id: "4045C5FE831B4402"
-			x: 2.0d
-			y: -2.5d
-			subtitle: "Wings among the clouds"
-			description: [
-				"The Aether teems with &aFlying type&r Pokemon drifting between islands. Catch 2 of them."
-				""
-				"Flying types rule these open skies. Watch your footing, the drop is a long one."
-			]
 			dependencies: ["40091CD67B4264AE"]
-			tasks: [
-				{
-					id: "4015F856286C0EE5"
-					title: "Catch 2 Flying type Pokemon in the Aether"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 2L
-					biome: ""
-					dimension: "aether:the_aether"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "flying"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			id: "4045C5FE831B4402"
 			rewards: [
 				{
-					id: "40363C824B74017A"
-					type: "item"
-					item: "cobblemon:great_ball"
 					count: 6
+					id: "40363C824B74017A"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
 				}
 				{
 					id: "4003D51EFE1765F6"
@@ -263,44 +207,50 @@
 					xp: 200
 				}
 			]
-		},
-		{
-			id: "4006743C0D1865AD"
-			x: 4.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 2L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "aether:the_aether"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4015F856286C0EE5"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "flying"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.0d
 			y: -2.5d
-			subtitle: "Divine little spirits"
-			description: [
-				"Among the clouds live &aFairy type&r Pokemon of pure and radiant nature. Catch 2 here."
-				""
-				"Fairy types shine in the Aether's holy light. Gentle to look at, fierce in battle."
-			]
+		}
+		{
 			dependencies: ["4045C5FE831B4402"]
-			tasks: [
-				{
-					id: "40A8E5BD84FCB027"
-					title: "Catch 2 Fairy type Pokemon in the Aether"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 2L
-					biome: ""
-					dimension: "aether:the_aether"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "fairy"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			id: "4006743C0D1865AD"
 			rewards: [
 				{
-					id: "404DB30CE35E3F3A"
-					type: "item"
-					item: "cobblemon:ultra_ball"
 					count: 4
+					id: "404DB30CE35E3F3A"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
 				}
 				{
 					id: "40258C488FF20895"
@@ -308,40 +258,53 @@
 					xp: 250
 				}
 			]
-		},
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 2L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "aether:the_aether"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "40A8E5BD84FCB027"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fairy"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
 		{
-			id: "405F38BF62A148A7"
-			x: 2.0d
-			y: 2.5d
-			icon: { id: "aether:aether_portal_frame" }
 			dependencies: ["40091CD67B4264AE"]
-			min_required_dependencies: 0
-			tasks: [
-				{
-					id: "409A12CBD1BBDEA0"
-					title: "Catch a Flying type"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: "aether:the_aether"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "flying"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "405F38BF62A148A7"
 			rewards: [
 				{
-					id: "40DFCB28DEB58B8B"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 5
+					id: "40DFCB28DEB58B8B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "40FCB3904FA220E4"
@@ -349,40 +312,53 @@
 					xp: 60
 				}
 			]
-		},
-		{
-			id: "40F718D2A904C1D2"
-			x: 4.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "aether:the_aether"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "409A12CBD1BBDEA0"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "flying"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.0d
 			y: 2.5d
-			icon: { id: "cobblemon:fairy_feather" }
+		}
+		{
 			dependencies: ["405F38BF62A148A7"]
-			min_required_dependencies: 0
-			tasks: [
-				{
-					id: "40E954F3B46B9EE2"
-					title: "Catch a Fairy type"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: "aether:the_aether"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "fairy"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			icon: {
+				id: "cobblemon:fairy_feather"
+			}
+			id: "40F718D2A904C1D2"
 			rewards: [
 				{
-					id: "4076CED6C9D4A07B"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 5
+					id: "4076CED6C9D4A07B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "40174A06ECA71279"
@@ -390,40 +366,53 @@
 					xp: 60
 				}
 			]
-		},
-		{
-			id: "40A6732E54F42423"
-			x: 6.0d
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "aether:the_aether"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "40E954F3B46B9EE2"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fairy"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.0d
 			y: 2.5d
-			icon: { id: "cobblemon:ice_stone" }
+		}
+		{
 			dependencies: ["40F718D2A904C1D2"]
-			min_required_dependencies: 0
-			tasks: [
-				{
-					id: "401AE71A6BE40156"
-					title: "Catch a Ice type"
-					type: "cobblemon_tasks:cobblemon_task"
-					action: "catch"
-					amount: 1L
-					biome: ""
-					dimension: "aether:the_aether"
-					form: ""
-					gender: ""
-					poke_ball_used: ""
-					pokemon: ""
-					pokemon_type: "ice"
-					region: ""
-					shiny: false
-					time_max: 24000L
-					time_min: 0L
-				}
-			]
+			icon: {
+				id: "cobblemon:ice_stone"
+			}
+			id: "40A6732E54F42423"
 			rewards: [
 				{
-					id: "405B4ED19288D80C"
-					type: "item"
-					item: "cobblemon:relic_coin"
 					count: 5
+					id: "405B4ED19288D80C"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
 				{
 					id: "40060BBE0494E56A"
@@ -431,43 +420,63 @@
 					xp: 60
 				}
 			]
-		},
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "aether:the_aether"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "401AE71A6BE40156"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ice"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
 		{
+			dependencies: [
+				"401CF9AF56F01343"
+				"4006743C0D1865AD"
+				"405F38BF62A148A7"
+				"40F718D2A904C1D2"
+				"40A6732E54F42423"
+			]
+			icon: {
+				id: "aether:gold_dungeon_key"
+			}
 			id: "40DEB2DB8508FE06"
-			x: 12.0d
-			y: 0.0d
-			shape: "gear"
-			size: 2.0d
-			icon: { id: "aether:gold_dungeon_key" }
-			subtitle: "Champion of the heavens"
-			description: [
-				"You have mined the isles, cleared the Bronze and Silver dungeons and tamed the divine."
-				""
-				"Enter the &aGold Dungeon&r and defeat the &aSun Spirit&r, the Aether's final trial, then claim a random pull from the &aAether Cache&r."
-				""
-				"Few trainers ever rule the sky."
-			]
-			dependencies: ["401CF9AF56F01343" "4006743C0D1865AD" "405F38BF62A148A7" "40F718D2A904C1D2" "40A6732E54F42423"]
 			min_required_dependencies: 1
-			tasks: [
-				{
-					id: "405A4A1320391178"
-					type: "advancement"
-					advancement: "aether:gold_dungeon"
-					criterion: "kill_sun_spirit"
-				}
-			]
 			rewards: [
 				{
 					id: "4014925DAC8B3B22"
 					type: "random"
-					table_id: "40486725E9E22FF9"
 				}
 				{
 					id: "404596FD3B99F1D1"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
 					type: "item"
-					item: "cobblemon:master_ball"
-					count: 1
 				}
 				{
 					id: "40C31C780CA3A6E1"
@@ -475,6 +484,16 @@
 					xp: 500
 				}
 			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: "kill_sun_spirit"
+				id: "405A4A1320391178"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
 		}
 	]
 }

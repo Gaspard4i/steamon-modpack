@@ -1,101 +1,21 @@
 {
-	hide_tooltip: false
-	icon: { id: "aether:gold_dungeon_key" }
+	icon: {
+		id: "aether:gold_dungeon_key"
+	}
 	id: "40486725E9E22FF9"
 	loot_size: 1
-	order_index: 2
+	order_index: 12
 	rewards: [
-		{
-			reward: {
-				count: 16
-				id: "40D231E4837240D4"
-				item: { count: 1, id: "cobblemon:relic_coin" }
-				type: "item"
-			}
-			weight: 40.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "40E75295AAAE78BC"
-				item: { count: 1, id: "cobblemon:relic_coin_sack" }
-				type: "item"
-			}
-			weight: 25.0f
-		},
-		{
-			reward: {
-				count: 12
-				id: "405B11E5FA7832FD"
-				item: { count: 1, id: "aether:ambrosium_shard" }
-				type: "item"
-			}
-			weight: 25.0f
-		},
-		{
-			reward: {
-				count: 6
-				id: "40B2CC92B826C46D"
-				item: { count: 1, id: "aether:zanite_gemstone" }
-				type: "item"
-			}
-			weight: 20.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "40E898FF65F0E742"
-				item: { count: 1, id: "cobblemon:fairy_feather" }
-				type: "item"
-			}
-			weight: 15.0f
-		},
-		{
-			reward: {
-				count: 8
-				id: "404C47E088515F4E"
-				item: { count: 1, id: "cobblemon:exp_candy_l" }
-				type: "item"
-			}
-			weight: 15.0f
-		},
-		{
-			reward: {
-				count: 2
-				id: "40AA0303DFF644EE"
-				item: { count: 1, id: "aether:enchanted_gravitite" }
-				type: "item"
-			}
-			weight: 10.0f
-		},
-		{
-			reward: {
-				count: 3
-				id: "403BF6210736AB00"
-				item: { count: 1, id: "cobblemon:rare_candy" }
-				type: "item"
-			}
-			weight: 8.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "40DD0D2A2D442224"
-				item: { count: 1, id: "cobblemon:shiny_stone" }
-				type: "item"
-			}
-			weight: 6.0f
-		},
-		{
-			reward: {
-				count: 1
-				id: "400E85D2D4750AEB"
-				item: { count: 1, id: "cobblemon:master_ball" }
-				type: "item"
-			}
-			weight: 3.0f
-		}
+		{ id: "7811F778D52F5E69", weight: 40.0f }
+		{ id: "5D5DA8CE554722FD", weight: 25.0f }
+		{ id: "10A251FEA42EAC40", weight: 25.0f }
+		{ id: "2541CF21AA43518B", weight: 20.0f }
+		{ id: "2F7A14136A433044", weight: 15.0f }
+		{ id: "1749FD06A5114A81", weight: 15.0f }
+		{ id: "4D73F8AFCC53E39B", weight: 10.0f }
+		{ id: "1CFD288C6A5D218D", weight: 8.0f }
+		{ id: "22DABFB40727679C", weight: 6.0f }
+		{ id: "7740BD259419F961", weight: 3.0f }
 	]
-	title: "Aether Cache"
 	use_title: true
 }
