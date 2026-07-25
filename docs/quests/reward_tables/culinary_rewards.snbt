@@ -6,17 +6,17 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ id: "6B36E644E48E6E83", weight: 40.0f }
-		{ id: "1173516F353615F3", weight: 25.0f }
-		{ id: "0B62A83467BA7D4D", weight: 30.0f }
-		{ id: "3111523632EE4A3B", weight: 30.0f }
-		{ id: "6DDB612B2F588791", weight: 20.0f }
-		{ id: "43B10660360EF7A2", weight: 20.0f }
-		{ id: "49EA6CF14368A1EB", weight: 20.0f }
-		{ id: "65F092B4A2CAAA24", weight: 8.0f }
-		{ id: "46707D307E224B36", weight: 6.0f }
-		{ id: "41A64E1285F3FEA4", weight: 6.0f }
-		{ id: "3058A051B67E730D" }
+		{ reward: { id: "6B36E644E48E6E83", type: "item", item: { id: "farmersdelight:cooking_pot", count: 1 } }, weight: 40.0f }
+		{ reward: { id: "1173516F353615F3", type: "item", item: { id: "farmersdelight:cutting_board", count: 1 } }, weight: 25.0f }
+		{ reward: { id: "0B62A83467BA7D4D", type: "item", item: { id: "farmersdelight:skillet", count: 1 } }, weight: 30.0f }
+		{ reward: { id: "3111523632EE4A3B", type: "item", item: { id: "farmersdelight:pie_crust", count: 4 } }, weight: 30.0f }
+		{ reward: { id: "6DDB612B2F588791", type: "item", item: { id: "farmersdelight:apple_pie", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "43B10660360EF7A2", type: "item", item: { id: "farmersdelight:beef_stew", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "49EA6CF14368A1EB", type: "item", item: { id: "numismatics:spur", count: 10 } }, weight: 20.0f }
+		{ reward: { id: "65F092B4A2CAAA24", type: "item", item: { id: "farmersdelight:fried_rice", count: 2 } }, weight: 8.0f }
+		{ reward: { id: "46707D307E224B36", type: "item", item: { id: "farmersdelight:knife", count: 1 } }, weight: 6.0f }
+		{ reward: { id: "41A64E1285F3FEA4", type: "item", item: { id: "farmersdelight:organic_compost", count: 8 } }, weight: 6.0f }
+		{ reward: { id: "3058A051B67E730D", type: "item", item: { id: "farmersdelight:golden_knife", count: 1 } }, weight: 3.0f }
 	]
 	use_title: true
 }

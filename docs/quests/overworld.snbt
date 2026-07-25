@@ -344,7 +344,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "10EF9DB906E0FDD4"
-				item: { components: { "ftbquests:missing_item": "" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "waystones:waystone" }
 				type: "item"
 			}]
 			x: 15.0d
@@ -419,7 +419,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["106A1449763D07CF"]
+			dependencies: ["105485D414441DF4"]
 			id: "1008C7F7965BD055"
 			rewards: [
 				{
@@ -456,7 +456,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1008C7F7965BD055"]
+			dependencies: ["105485D414441DF4"]
 			id: "100573543B0B18B8"
 			rewards: [
 				{
@@ -485,7 +485,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["100573543B0B18B8"]
+			dependencies: ["105485D414441DF4"]
 			id: "105FB4F860A68106"
 			rewards: [
 				{
@@ -523,11 +523,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["105FB4F860A68106"]
+			dependencies: [
+				"1008C7F7965BD055"
+				"100573543B0B18B8"
+				"105FB4F860A68106"
+			]
+			min_required_dependencies: 1
 			id: "10FC1EB90F757C1B"
 			rewards: [
 				{
 					id: "103B4BAB31F3C4D5"
+					table_id: 1166321876959840472L
 					type: "random"
 				}
 				{

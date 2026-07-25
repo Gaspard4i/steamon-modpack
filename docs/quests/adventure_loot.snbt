@@ -526,6 +526,7 @@
 			rewards: [
 				{
 					id: "50D715508D635592"
+					table_id: 5772690248467992046L
 					type: "random"
 				}
 				{

@@ -135,396 +135,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3036D09558224631"]
-			icon: {
-				id: "cobblemon:health_feather"
-			}
-			id: "30DD0695A18DB579"
-			rewards: [
-				{
-					count: 3
-					id: "305EC2CC28D36021"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "305ACF231DC750E9"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30A89A080EB3B017"
-				item: { count: 1, id: "cobblemon:health_feather" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["30DD0695A18DB579"]
-			icon: {
-				id: "cobblemon:muscle_feather"
-			}
-			id: "307BDA51206961FA"
-			rewards: [
-				{
-					count: 3
-					id: "30F7AF97AA37B50C"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3001D9546E69BA93"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3019A06A27175CEE"
-				item: { count: 1, id: "cobblemon:muscle_feather" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["307BDA51206961FA"]
-			icon: {
-				id: "cobblemon:resist_feather"
-			}
-			id: "30B2FF7FD02A503A"
-			rewards: [
-				{
-					count: 3
-					id: "3017DC2BCB6BC7D8"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30FC0B18081647DB"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30FDB87FA75BDFB4"
-				item: { count: 1, id: "cobblemon:resist_feather" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["30B2FF7FD02A503A"]
-			icon: {
-				id: "cobblemon:genius_feather"
-			}
-			id: "30A08256863E39E2"
-			rewards: [
-				{
-					count: 3
-					id: "309C23E07E760411"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30E02917E853E1C3"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30E869473B2D3536"
-				item: { count: 1, id: "cobblemon:genius_feather" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["30A08256863E39E2"]
-			icon: {
-				id: "cobblemon:clever_feather"
-			}
-			id: "303EE58454C0E91F"
-			rewards: [
-				{
-					count: 3
-					id: "30413527976BA075"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30F3C03740B673E1"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "307472FA29472E72"
-				item: { count: 1, id: "cobblemon:clever_feather" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["303EE58454C0E91F"]
-			icon: {
-				id: "cobblemon:swift_feather"
-			}
-			id: "30EF412CAA11F710"
-			rewards: [
-				{
-					count: 3
-					id: "30EC40120FB207C5"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3039A41BF6DE490B"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3095CCEF2F5AF9F5"
-				item: { count: 1, id: "cobblemon:swift_feather" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["30EF412CAA11F710"]
-			icon: {
-				id: "cobblemon:fairy_feather"
-			}
-			id: "308F400A7603278D"
-			rewards: [
-				{
-					count: 3
-					id: "30654ECF5D383981"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30C0AC7190B4923A"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30291E95C9710C7D"
-				item: { count: 1, id: "cobblemon:fairy_feather" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["3036D09558224631"]
-			icon: {
-				id: "cobblemon:power_weight"
-			}
-			id: "30DCCA286C7F2334"
-			rewards: [
-				{
-					count: 2
-					id: "30B2C51AFA09C59D"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "30B812F3765A2B8C"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3066DF553FB0C059"
-				item: { count: 1, id: "cobblemon:power_weight" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["30DCCA286C7F2334"]
-			icon: {
-				id: "cobblemon:power_bracer"
-			}
-			id: "3007BEC8B19AF460"
-			rewards: [
-				{
-					count: 2
-					id: "305AE254B3D053F9"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "304A1B6F8981D44D"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30A2FE99679A743B"
-				item: { count: 1, id: "cobblemon:power_bracer" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["3007BEC8B19AF460"]
-			icon: {
-				id: "cobblemon:power_belt"
-			}
-			id: "309849011DF1EFAB"
-			rewards: [
-				{
-					count: 2
-					id: "304AB84A2724203F"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "304CC0099291E9FC"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30EF3277E98D6AC7"
-				item: { count: 1, id: "cobblemon:power_belt" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["309849011DF1EFAB"]
-			icon: {
-				id: "cobblemon:power_lens"
-			}
-			id: "303B3D91EB54B5DC"
-			rewards: [
-				{
-					count: 2
-					id: "3067574423BE4182"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "3033DFE77E6FA1FE"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "300C4F5D5A40B18B"
-				item: { count: 1, id: "cobblemon:power_lens" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["303B3D91EB54B5DC"]
-			icon: {
-				id: "cobblemon:power_band"
-			}
-			id: "3062DE24E8F0E93E"
-			rewards: [
-				{
-					count: 2
-					id: "30EFD80F8C48EEC6"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "3063A957E5ED2BD7"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30CCF9B83F4FD94C"
-				item: { count: 1, id: "cobblemon:power_band" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["3062DE24E8F0E93E"]
-			icon: {
-				id: "cobblemon:power_anklet"
-			}
-			id: "308E93AEC837F9F7"
-			rewards: [
-				{
-					count: 2
-					id: "30EA45EB6533612C"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "30BC2D128666F987"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30B40D71D533A4E2"
-				item: { count: 1, id: "cobblemon:power_anklet" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 10.0d
-		}
-		{
 			dependencies: ["305663B330131573"]
 			icon: {
 				id: "cobblemon:protein"
@@ -572,6 +182,42 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["305663B330131573"]
+			icon: {
+				id: "mega_showdown:mega_bracelet"
+			}
+			id: "303E068A7A7CAFDB"
+			rewards: [
+				{
+					id: "308789715E51F1C0"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "3052724A762D6B44"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					id: "30F8272858C43667"
+					item: { count: 1, id: "mega_showdown:mega_bracelet" }
+					type: "item"
+				}
+				{
+					id: "301AFB6ABEB6C674"
+					item: { count: 1, id: "mega_showdown:charizardite_x" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
 			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:charizardite_x"
@@ -602,7 +248,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["30A7F926885FFE58"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:charizardite_y"
 			}
@@ -632,7 +278,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["30B2831F3F3E1691"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:blastoisinite"
 			}
@@ -662,7 +308,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["30F9A056985029E5"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:venusaurite"
 			}
@@ -692,7 +338,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["303903377B039520"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:blazikenite"
 			}
@@ -722,7 +368,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["30920B1130A55F98"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:gardevoirite"
 			}
@@ -752,7 +398,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["30975098DFDB64CE"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:garchompite"
 			}
@@ -782,7 +428,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["30EA13770C164BF9"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:lucarionite"
 			}
@@ -812,7 +458,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["30507FAF62CFCA7D"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:gengarite"
 			}
@@ -842,7 +488,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["30E1E6C45359037E"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:alakazite"
 			}
@@ -902,7 +548,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["301F28A6B93CAEC4"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:tyranitarite"
 			}
@@ -932,7 +578,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["30387EA9F30A81A7"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:salamencite"
 			}
@@ -962,7 +608,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["30AD7A9AF915B823"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:metagrossite"
 			}
@@ -992,7 +638,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["30B724BFF3E183A5"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:kangaskhanite"
 			}
@@ -1022,7 +668,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["30D207ACB8A419AD"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:mawilite"
 			}
@@ -1052,7 +698,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["300C908D6391CEBC"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:absolite"
 			}
@@ -1082,7 +728,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["302E91CD200B28A7"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:aerodactylite"
 			}
@@ -1112,7 +758,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["305933A5EC389AE1"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:banettite"
 			}
@@ -1142,7 +788,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["3029C7A980324F3B"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:houndoominite"
 			}
@@ -1202,7 +848,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["30035C7522983D36"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:scizorite"
 			}
@@ -1232,7 +878,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["30A253ECDAE7DBA3"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:pinsirite"
 			}
@@ -1262,7 +908,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["30809A1DE172436D"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:heracronite"
 			}
@@ -1292,7 +938,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["309BAA75D59D9EB9"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:gyaradosite"
 			}
@@ -1322,7 +968,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["30D32E1A322ED982"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:ampharosite"
 			}
@@ -1352,7 +998,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["30AE7647160187A5"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:abomasite"
 			}
@@ -1382,7 +1028,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["303F4261BA807B02"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:cameruptite"
 			}
@@ -1412,7 +1058,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["30ED72C36D4AE8F8"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:sharpedonite"
 			}
@@ -1442,7 +1088,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["30C9AE66C16352F4"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:slowbronite"
 			}
@@ -1502,7 +1148,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["30C1AE118F1266C1"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:sceptilite"
 			}
@@ -1532,7 +1178,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["30AE7467AD8E4319"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:swampertite"
 			}
@@ -1562,7 +1208,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["30CFE8E679E3CD04"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:altarianite"
 			}
@@ -1592,7 +1238,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["309495501E070FBA"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:audinite"
 			}
@@ -1622,7 +1268,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["303CC900F56FC852"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:beedrillite"
 			}
@@ -1652,7 +1298,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["30E669C5056C22E4"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:diancite"
 			}
@@ -1682,7 +1328,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["30F96BF47C50F57D"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:galladite"
 			}
@@ -1712,7 +1358,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["305A061A774F6C7D"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:glalitite"
 			}
@@ -1742,7 +1388,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["301304EB4448394D"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:lopunnite"
 			}
@@ -1802,7 +1448,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["30964C02E3D83290"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:pidgeotite"
 			}
@@ -1832,7 +1478,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["30D95857748D55CF"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:sablenite"
 			}
@@ -1862,7 +1508,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["30330A165CEECCFC"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:mewtwonite_x"
 			}
@@ -1892,7 +1538,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["30569E6D9D802D53"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:mewtwonite_y"
 			}
@@ -1922,7 +1568,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["30AC9ACF335F8208"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:latiasite"
 			}
@@ -1952,7 +1598,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["30458B00BE0EC80D"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "mega_showdown:latiosite"
 			}
@@ -1980,42 +1626,6 @@
 			}]
 			x: 6.0d
 			y: 17.0d
-		}
-		{
-			dependencies: ["305663B330131573"]
-			icon: {
-				id: "mega_showdown:mega_bracelet"
-			}
-			id: "303E068A7A7CAFDB"
-			rewards: [
-				{
-					id: "308789715E51F1C0"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3052724A762D6B44"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [
-				{
-					id: "30F8272858C43667"
-					item: { count: 1, id: "mega_showdown:mega_bracelet" }
-					type: "item"
-				}
-				{
-					id: "301AFB6ABEB6C674"
-					item: { count: 1, id: "mega_showdown:charizardite_x" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["303E068A7A7CAFDB"]
@@ -2048,7 +1658,7 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["30EC4CC72C582BA0"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:charizard_armor_chestplate"
 			}
@@ -2078,7 +1688,7 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["30A79CE5FD06BE9C"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:charizard_armor_leggings"
 			}
@@ -2108,7 +1718,7 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["30ECC1AD0AFEA1F4"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:charizard_armor_boots"
 			}
@@ -2138,7 +1748,7 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["3067D92512BB21C6"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:blaziken_armor_chestplate"
 			}
@@ -2168,7 +1778,7 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["301EB667E498C990"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:eevee_armor_chestplate"
 			}
@@ -2198,7 +1808,7 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["308C1E89468DC925"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:espeon_armor_chestplate"
 			}
@@ -2228,7 +1838,7 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["309D27FFA81E112D"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:umbreon_armor_chestplate"
 			}
@@ -2258,7 +1868,7 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["309396D086299DB6"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:vaporeon_armor_chestplate"
 			}
@@ -2288,7 +1898,7 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["30430B55B21CEEEA"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:jolteon_armor_chestplate"
 			}
@@ -2348,7 +1958,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["30B682A304B3AAAA"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:leafeon_armor_chestplate"
 			}
@@ -2378,7 +1988,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["30775BBDD0C5C5D2"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:glaceon_armor_chestplate"
 			}
@@ -2408,7 +2018,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["30857E0BD764C8B4"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:sylveon_armor_chestplate"
 			}
@@ -2438,7 +2048,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["303852599BDB2366"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:haxorus_armor_chestplate"
 			}
@@ -2468,7 +2078,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["30B143D090EB965F"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:metagross_armor_chestplate"
 			}
@@ -2498,7 +2108,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["309ACB20FC2CC942"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:corviknight_armor_chestplate"
 			}
@@ -2528,7 +2138,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["30DBC6E1B8EE18B9"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:torterra_armor_chestplate"
 			}
@@ -2558,7 +2168,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["305DDB92A9B075EB"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:rayquaza_armor_chestplate"
 			}
@@ -2588,7 +2198,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["30CCC05DACD64BE2"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:ceruledge_armor_chestplate"
 			}
@@ -2648,7 +2258,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["30E81C833F9213F8"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:mimikyu_armor_chestplate"
 			}
@@ -2678,7 +2288,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["3038BF2D2027B55C"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:zacian_sword"
 			}
@@ -2708,7 +2318,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["30BCC8985DBC5059"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:ceruledge_sword"
 			}
@@ -2738,7 +2348,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["301AF5A96EC2D535"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:starmie_sword"
 			}
@@ -2768,7 +2378,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["30E7C4775AA7B149"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:metagross_hammer"
 			}
@@ -2798,7 +2408,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["3000FC1FEAE11BE0"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:tinkaton_hammer"
 			}
@@ -2828,7 +2438,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["309516767636BD7F"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:sirfetchd_sword"
 			}
@@ -2858,7 +2468,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["30E880CBB29FC61E"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:bastiodon_shield"
 			}
@@ -2888,7 +2498,7 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["30828F7CC3DF63A6"]
+			dependencies: ["303E068A7A7CAFDB"]
 			icon: {
 				id: "cobblemonarmory:blastoise_shell"
 			}
@@ -2948,7 +2558,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["300508018D2FB093"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:dome_fossil"
 			}
@@ -2978,7 +2588,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["30A414FC75ABC6FB"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:old_amber_fossil"
 			}
@@ -3008,7 +2618,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["30013DFCCEDD2617"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:root_fossil"
 			}
@@ -3038,7 +2648,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["30BFBE0178A5C344"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:claw_fossil"
 			}
@@ -3068,7 +2678,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["30B9DE35DE3A1136"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:armor_fossil"
 			}
@@ -3098,7 +2708,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["30C50DE77012F3EB"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:skull_fossil"
 			}
@@ -3128,7 +2738,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["301260204F27DDD2"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:cover_fossil"
 			}
@@ -3188,7 +2798,7 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["30328FC514FB9ED5"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:jaw_fossil"
 			}
@@ -3218,7 +2828,7 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["30CD170B14CABA08"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:sail_fossil"
 			}
@@ -3248,7 +2858,7 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["30F2DDAAEA5F1138"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:fossilized_bird"
 			}
@@ -3278,7 +2888,7 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["3058C07D4EAB336D"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:fossilized_dino"
 			}
@@ -3308,7 +2918,7 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["309542AABA7AF34F"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:fossilized_drake"
 			}
@@ -3338,7 +2948,7 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["30534E14A079E03B"]
+			dependencies: ["30FF79947BBD7BF0"]
 			icon: {
 				id: "cobblemon:fossilized_fish"
 			}
@@ -3406,7 +3016,7 @@
 		{
 			dependencies: ["3052CD5F4DA81C08"]
 			icon: {
-				id: "numismatics:spur"
+				id: "cobblemon:pasture"
 			}
 			id: "302931B91D9BCD9F"
 			rewards: [
@@ -3426,17 +3036,41 @@
 				}
 			]
 			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
 				id: "304D125E9A5E9A1C"
-				item: { count: 1, id: "numismatics:spur" }
-				type: "item"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ground"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 0.0d
 			y: 27.0d
 		}
 		{
-			dependencies: ["302931B91D9BCD9F"]
+			dependencies: ["3052CD5F4DA81C08"]
 			icon: {
-				id: "numismatics:spur"
+				id: "cobblemon:pasture"
 			}
 			id: "301532F0F7332C31"
 			rewards: [
@@ -3456,17 +3090,41 @@
 				}
 			]
 			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
 				id: "300192A14AB2DE6C"
-				item: { count: 1, id: "numismatics:spur" }
-				type: "item"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "flying"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 1.0d
 			y: 27.0d
 		}
 		{
-			dependencies: ["301532F0F7332C31"]
+			dependencies: ["3052CD5F4DA81C08"]
 			icon: {
-				id: "numismatics:spur"
+				id: "cobblemon:aprijuice_blue"
 			}
 			id: "30D3EBC8E2F949AA"
 			rewards: [
@@ -3487,16 +3145,16 @@
 			]
 			tasks: [{
 				id: "3047F0D536D08E7B"
-				item: { count: 1, id: "numismatics:spur" }
+				item: { count: 1, id: "cobblemon:aprijuice_blue" }
 				type: "item"
 			}]
 			x: 2.0d
 			y: 27.0d
 		}
 		{
-			dependencies: ["30D3EBC8E2F949AA"]
+			dependencies: ["3052CD5F4DA81C08"]
 			icon: {
-				id: "numismatics:spur"
+				id: "cobblemon:aprijuice_white"
 			}
 			id: "301CE5FCC6FEA567"
 			rewards: [
@@ -3517,16 +3175,16 @@
 			]
 			tasks: [{
 				id: "30D62A1CD9468E04"
-				item: { count: 1, id: "numismatics:spur" }
+				item: { count: 1, id: "cobblemon:aprijuice_white" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: 27.0d
 		}
 		{
-			dependencies: ["301CE5FCC6FEA567"]
+			dependencies: ["3052CD5F4DA81C08"]
 			icon: {
-				id: "numismatics:spur"
+				id: "cobblemon:rare_candy"
 			}
 			id: "304398CEEFA0C0C5"
 			rewards: [
@@ -3547,16 +3205,16 @@
 			]
 			tasks: [{
 				id: "3035FCA05FE3BEA0"
-				item: { count: 1, id: "numismatics:spur" }
+				item: { count: 2, id: "cobblemon:rare_candy" }
 				type: "item"
 			}]
 			x: 4.0d
 			y: 27.0d
 		}
 		{
-			dependencies: ["304398CEEFA0C0C5"]
+			dependencies: ["3052CD5F4DA81C08"]
 			icon: {
-				id: "numismatics:spur"
+				id: "cobblemon:exp_candy_l"
 			}
 			id: "30AC9AD023DBDD21"
 			rewards: [
@@ -3577,7 +3235,7 @@
 			]
 			tasks: [{
 				id: "30409800B646A0AE"
-				item: { count: 1, id: "numismatics:spur" }
+				item: { count: 2, id: "cobblemon:exp_candy_l" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -3586,7 +3244,7 @@
 		{
 			dependencies: ["305663B330131573"]
 			icon: {
-				id: "numismatics:spur"
+				id: "cobblemon:pasture"
 			}
 			id: "3052CD5F4DA81C08"
 			rewards: [
@@ -3606,9 +3264,33 @@
 				}
 			]
 			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				held_items: ""
 				id: "3090C40A88B1C2D9"
-				item: { count: 1, id: "numismatics:spur" }
-				type: "item"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 6.0d
 			y: 2.0d
@@ -3643,917 +3325,14 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3009BF63BDA7534E"]
-			icon: {
-				id: "cobblemon:leftovers"
-			}
-			id: "30891DD5530DBDBA"
-			rewards: [
-				{
-					count: 3
-					id: "30BDCFEEF37F9EDA"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30327E71804D9D5E"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "300D0A8ED794061B"
-				item: { count: 1, id: "cobblemon:leftovers" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["30891DD5530DBDBA"]
-			icon: {
-				id: "cobblemon:life_orb"
-			}
-			id: "30A3F2C5EA2E1362"
-			rewards: [
-				{
-					count: 3
-					id: "30E2C4C97854A6D9"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "300AAEF561474D9D"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30773DCFB43134A2"
-				item: { count: 1, id: "cobblemon:life_orb" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["30A3F2C5EA2E1362"]
-			icon: {
-				id: "cobblemon:choice_band"
-			}
-			id: "30901E1DF299FC9E"
-			rewards: [
-				{
-					count: 3
-					id: "30B3C50B5ACBED20"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3047878FCF094D21"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3099B43E4FC402B1"
-				item: { count: 1, id: "cobblemon:choice_band" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["30901E1DF299FC9E"]
-			icon: {
-				id: "cobblemon:choice_specs"
-			}
-			id: "30C268AD63DFD860"
-			rewards: [
-				{
-					count: 3
-					id: "3021AD42DE849FAB"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3090626353C9BB57"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "309131986EBB884C"
-				item: { count: 1, id: "cobblemon:choice_specs" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["30C268AD63DFD860"]
-			icon: {
-				id: "cobblemon:choice_scarf"
-			}
-			id: "30F821B456516A2E"
-			rewards: [
-				{
-					count: 3
-					id: "3032798CEB374591"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30CC0029719219B6"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30A0D0AF691484B2"
-				item: { count: 1, id: "cobblemon:choice_scarf" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["30F821B456516A2E"]
-			icon: {
-				id: "cobblemon:focus_sash"
-			}
-			id: "309D050A0D237C4E"
-			rewards: [
-				{
-					count: 3
-					id: "30563EF30273C015"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "302DD15CE2D2A261"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3075F32DC5E95573"
-				item: { count: 1, id: "cobblemon:focus_sash" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["309D050A0D237C4E"]
-			icon: {
-				id: "cobblemon:assault_vest"
-			}
-			id: "30597E18EE7EB312"
-			rewards: [
-				{
-					count: 3
-					id: "307C6134DB35298F"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "300138374B49282F"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30B187983AF4B3D0"
-				item: { count: 1, id: "cobblemon:assault_vest" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["30597E18EE7EB312"]
-			icon: {
-				id: "cobblemon:eviolite"
-			}
-			id: "3081B070E7B44BBE"
-			rewards: [
-				{
-					count: 3
-					id: "309658435627783B"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30AA014112A83B18"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "305A5A21F02AC380"
-				item: { count: 1, id: "cobblemon:eviolite" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["3081B070E7B44BBE"]
-			icon: {
-				id: "cobblemon:rocky_helmet"
-			}
-			id: "3041343A3B9CF312"
-			rewards: [
-				{
-					count: 3
-					id: "306E75BAC2753C1E"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "303AC53E8381A4F4"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "301E915C5D0A6FE7"
-				item: { count: 1, id: "cobblemon:rocky_helmet" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["3041343A3B9CF312"]
-			icon: {
-				id: "cobblemon:black_sludge"
-			}
-			id: "30B159769B44FCF9"
-			rewards: [
-				{
-					count: 3
-					id: "30308418E4F8E0AC"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30D3ABA782686A68"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30F2F91A1FF5F07C"
-				item: { count: 1, id: "cobblemon:black_sludge" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["3009BF63BDA7534E"]
-			icon: {
-				id: "cobblemon:expert_belt"
-			}
-			id: "30F4D9D4776C3C91"
-			rewards: [
-				{
-					count: 3
-					id: "300FEC19BD529DD0"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30576BA3ACD58AB6"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30BA8E554DC55085"
-				item: { count: 1, id: "cobblemon:expert_belt" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["30F4D9D4776C3C91"]
-			icon: {
-				id: "cobblemon:muscle_band"
-			}
-			id: "30539120EDFC4865"
-			rewards: [
-				{
-					count: 3
-					id: "30834AE2905E0FCA"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "305D132E00DC2A15"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "304B0E66EF3DFB40"
-				item: { count: 1, id: "cobblemon:muscle_band" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["30539120EDFC4865"]
-			icon: {
-				id: "cobblemon:wise_glasses"
-			}
-			id: "305067D4DED4E35D"
-			rewards: [
-				{
-					count: 3
-					id: "30508B2572685C06"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30194C3B38B35526"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30977E8A786377CD"
-				item: { count: 1, id: "cobblemon:wise_glasses" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["305067D4DED4E35D"]
-			icon: {
-				id: "cobblemon:light_clay"
-			}
-			id: "30D87276D2061F6B"
-			rewards: [
-				{
-					count: 3
-					id: "3069B4F9B2F05D0E"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30D8AA9D8430627E"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3007D0768AFF6330"
-				item: { count: 1, id: "cobblemon:light_clay" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["30D87276D2061F6B"]
-			icon: {
-				id: "cobblemon:heavy_duty_boots"
-			}
-			id: "30CCDF070C288BFC"
-			rewards: [
-				{
-					count: 3
-					id: "30B19EAFC7EE2880"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30D768493BBC1FC5"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30FDB33300452D67"
-				item: { count: 1, id: "cobblemon:heavy_duty_boots" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["30CCDF070C288BFC"]
-			icon: {
-				id: "cobblemon:weakness_policy"
-			}
-			id: "30D82BE694F98E8D"
-			rewards: [
-				{
-					count: 3
-					id: "30045EF18744D5C8"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "306933AAB66CCC05"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30E1D9ED9C002225"
-				item: { count: 1, id: "cobblemon:weakness_policy" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["30D82BE694F98E8D"]
-			icon: {
-				id: "cobblemon:scope_lens"
-			}
-			id: "30617919FCBE6F58"
-			rewards: [
-				{
-					count: 3
-					id: "301C6C2C5B29428B"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30214E9F6F5EE04D"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3068E05A7B1D6AB6"
-				item: { count: 1, id: "cobblemon:scope_lens" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["30617919FCBE6F58"]
-			icon: {
-				id: "cobblemon:razor_claw"
-			}
-			id: "307244CB88C8FEE3"
-			rewards: [
-				{
-					count: 3
-					id: "308A6341F74CE0C9"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "303CDE5612FEE206"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30FCBE13BCAC0391"
-				item: { count: 1, id: "cobblemon:razor_claw" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["307244CB88C8FEE3"]
-			icon: {
-				id: "cobblemon:razor_fang"
-			}
-			id: "3091762BB9038285"
-			rewards: [
-				{
-					count: 3
-					id: "3074D2DD27CBEFDF"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3005C54F7A4BDB85"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "307C264B1655A651"
-				item: { count: 1, id: "cobblemon:razor_fang" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["3091762BB9038285"]
-			icon: {
-				id: "cobblemon:quick_claw"
-			}
-			id: "30AC3F1FACD6C791"
-			rewards: [
-				{
-					count: 3
-					id: "304C873F5CF7D6BF"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30D026E5B3F33A95"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30B66AD0389D564B"
-				item: { count: 1, id: "cobblemon:quick_claw" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 31.0d
-		}
-		{
-			dependencies: ["3009BF63BDA7534E"]
-			icon: {
-				id: "cobblemon:kings_rock"
-			}
-			id: "308F36EBE96B7372"
-			rewards: [
-				{
-					count: 3
-					id: "30CF04BCA3E32BEA"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30B790D1175458A9"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "307FCC4F4EFE202E"
-				item: { count: 1, id: "cobblemon:kings_rock" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["308F36EBE96B7372"]
-			icon: {
-				id: "cobblemon:safety_goggles"
-			}
-			id: "3023931BEAE14C4E"
-			rewards: [
-				{
-					count: 3
-					id: "30B5A6648D08C237"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "308A622FD1E02877"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "304D5728ABE5B2E9"
-				item: { count: 1, id: "cobblemon:safety_goggles" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["3023931BEAE14C4E"]
-			icon: {
-				id: "cobblemon:mental_herb"
-			}
-			id: "301B9619835E7BE6"
-			rewards: [
-				{
-					count: 3
-					id: "3034760D0920A4AB"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30BC4AB04BC2724B"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30F9A05A324D8BB6"
-				item: { count: 1, id: "cobblemon:mental_herb" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["3036D09558224631"]
-			icon: {
-				id: "cobblemon:power_herb"
-			}
-			id: "300846AE10C6C809"
-			rewards: [
-				{
-					count: 3
-					id: "305F79DA9209E16A"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30BF531FBEA84550"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30435768B62D390D"
-				item: { count: 1, id: "cobblemon:power_herb" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["301B9619835E7BE6"]
-			icon: {
-				id: "cobblemon:white_herb"
-			}
-			id: "30AF04FFD55CAC70"
-			rewards: [
-				{
-					count: 3
-					id: "303CF0D30942E687"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30B0D71689D45355"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "302C2CEA655C5156"
-				item: { count: 1, id: "cobblemon:white_herb" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["30AF04FFD55CAC70"]
-			icon: {
-				id: "cobblemon:toxic_orb"
-			}
-			id: "30A9ED8D94442420"
-			rewards: [
-				{
-					count: 3
-					id: "30F7B8B91E00A832"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "300AEC99CDB3C233"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3073C1A3FF0C175C"
-				item: { count: 1, id: "cobblemon:toxic_orb" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["30A9ED8D94442420"]
-			icon: {
-				id: "cobblemon:flame_orb"
-			}
-			id: "308F9BB6C221E067"
-			rewards: [
-				{
-					count: 3
-					id: "308F06205CAD7233"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "304C63F6849AE4BF"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "305F00BE00CD051D"
-				item: { count: 1, id: "cobblemon:flame_orb" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["308F9BB6C221E067"]
-			icon: {
-				id: "cobblemon:shell_bell"
-			}
-			id: "301FDCBBDB5619BB"
-			rewards: [
-				{
-					count: 3
-					id: "309968BE9B4A6AE5"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30408A957FB2FC69"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30702E8F1D58CB3C"
-				item: { count: 1, id: "cobblemon:shell_bell" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["301FDCBBDB5619BB"]
-			icon: {
-				id: "cobblemon:bright_powder"
-			}
-			id: "30CD0D4F37E375C3"
-			rewards: [
-				{
-					count: 3
-					id: "3075D2F43A133A96"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "302B9F6BE015C04C"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30CAA52C3FB9D8E1"
-				item: { count: 1, id: "cobblemon:bright_powder" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["30CD0D4F37E375C3"]
-			icon: {
-				id: "cobblemon:wide_lens"
-			}
-			id: "304E206A783FA152"
-			rewards: [
-				{
-					count: 3
-					id: "308D0BB4BAC95506"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30F077ABE363A7F0"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "304BE8700E84BD75"
-				item: { count: 1, id: "cobblemon:wide_lens" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 32.0d
-		}
-		{
 			dependencies: [
 				"303908B6866F41F7"
 				"30719A910D67E638"
-				"308F400A7603278D"
-				"300846AE10C6C809"
 				"304998CEF69F2B45"
 				"30D1CD6C0006E892"
 				"30E030577F71779F"
-				"30AC9AD023DBDD21"
-				"304E206A783FA152"
 			]
+			min_required_dependencies: 2
 			icon: {
 				id: "cobblemon:great_ball"
 			}
@@ -4561,6 +3340,7 @@
 			rewards: [
 				{
 					id: "30BAC2E46132D8CE"
+					table_id: 3487076217803587986L
 					type: "random"
 				}
 				{

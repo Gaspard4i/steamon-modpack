@@ -326,7 +326,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30366E5B0D5F3AD5"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:great_ball"
 			}
@@ -356,7 +356,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["306764718F0D4B73"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
@@ -386,7 +386,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3044B2E53BDC3DDB"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
@@ -416,7 +416,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["308F9BF0AA5BAE77"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:premier_ball"
 			}
@@ -446,7 +446,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30965F2DA00522B0"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:heal_ball"
 			}
@@ -476,7 +476,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["305050458505B0EE"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:net_ball"
 			}
@@ -536,7 +536,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["304FF923DC573B7B"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:dive_ball"
 			}
@@ -566,7 +566,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["30B583C67A81B4D5"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:dusk_ball"
 			}
@@ -596,7 +596,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["308442C5CD068A12"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:timer_ball"
 			}
@@ -626,7 +626,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["30C34F657CDEC2DC"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:quick_ball"
 			}
@@ -656,7 +656,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["30F578FF6C381F98"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:repeat_ball"
 			}
@@ -686,7 +686,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["3037FD5F4BEE7B26"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:luxury_ball"
 			}
@@ -746,7 +746,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["30F8B6D6B197632C"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:safari_ball"
 			}
@@ -776,7 +776,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3099D87810DAD259"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:sport_ball"
 			}
@@ -806,7 +806,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3006E91C5EDAF0F5"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:park_ball"
 			}
@@ -836,7 +836,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3086DB01CA70616B"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:fast_ball"
 			}
@@ -866,7 +866,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["30F145F4AA21F24F"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:level_ball"
 			}
@@ -896,7 +896,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["30E40E462281848B"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:lure_ball"
 			}
@@ -956,7 +956,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["308C941A4B8FF7C1"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:love_ball"
 			}
@@ -986,7 +986,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["30BF40EA787612AF"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:friend_ball"
 			}
@@ -1016,7 +1016,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["306946E495A6A21A"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:moon_ball"
 			}
@@ -1046,7 +1046,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["30732E5B1AF2B60B"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:dream_ball"
 			}
@@ -1076,7 +1076,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["301E524E28C2E8E3"]
+			dependencies: ["3011D0116C97D3B8"]
 			icon: {
 				id: "cobblemon:beast_ball"
 			}
@@ -1106,585 +1106,14 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["30DF64A78E3B293A"]
-			icon: {
-				id: "cobblemon:hp_up"
-			}
-			id: "301EF605522B28AE"
-			rewards: [
-				{
-					count: 3
-					id: "30B31B7FA780B5DA"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30A601FA513F6248"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [{
-				id: "309FB1CB38B50911"
-				item: { count: 1, id: "cobblemon:hp_up" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["301EF605522B28AE"]
-			icon: {
-				id: "cobblemon:protein"
-			}
-			id: "308A764999ABBE0D"
-			rewards: [
-				{
-					count: 3
-					id: "30BD8D38A39BB0D5"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "309F5CEDC80E89C6"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [{
-				id: "3004BE43EC62E1C7"
-				item: { count: 1, id: "cobblemon:protein" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["308A764999ABBE0D"]
-			icon: {
-				id: "cobblemon:iron"
-			}
-			id: "30D6798EA7B5B43D"
-			rewards: [
-				{
-					count: 3
-					id: "30969E2CA7EF03CC"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "309D78D5228395A5"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [{
-				id: "306D7C2A1EDE7D9C"
-				item: { count: 1, id: "cobblemon:iron" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["30D6798EA7B5B43D"]
-			icon: {
-				id: "cobblemon:calcium"
-			}
-			id: "30DBBD8928A8C075"
-			rewards: [
-				{
-					count: 3
-					id: "30C3908E9E99A2BB"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "309134AA1DAEC716"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [{
-				id: "305DFC40840C5ACE"
-				item: { count: 1, id: "cobblemon:calcium" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["30DBBD8928A8C075"]
-			icon: {
-				id: "cobblemon:zinc"
-			}
-			id: "300A5D27B141FAD6"
-			rewards: [
-				{
-					count: 3
-					id: "303FB9BBC84FEBDC"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30A1AF22FDF9C491"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [{
-				id: "30F55B36E0F8E4AD"
-				item: { count: 1, id: "cobblemon:zinc" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["300A5D27B141FAD6"]
-			icon: {
-				id: "cobblemon:carbos"
-			}
-			id: "30703B83D3653FC7"
-			rewards: [
-				{
-					count: 3
-					id: "30DD1DCDF8C9F9AD"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3071B5360022E707"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [{
-				id: "309FEEA015B2DA1F"
-				item: { count: 1, id: "cobblemon:carbos" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["30703B83D3653FC7"]
-			icon: {
-				id: "cobblemon:pp_up"
-			}
-			id: "309877128EECAE5E"
-			rewards: [
-				{
-					count: 3
-					id: "3031657CA155E657"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "308A54E224D2B0C6"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [{
-				id: "30BD416DCC510369"
-				item: { count: 1, id: "cobblemon:pp_up" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["309877128EECAE5E"]
-			icon: {
-				id: "cobblemon:pp_max"
-			}
-			id: "3023DEE8415DD107"
-			rewards: [
-				{
-					count: 3
-					id: "3005FB4DDB08339A"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30A5DD84860B30A0"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [{
-				id: "304088449AE40F54"
-				item: { count: 1, id: "cobblemon:pp_max" }
-				type: "item"
-			}]
-			x: 7.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["30D545F671BDE23C"]
-			icon: {
-				id: "cobblemon:fire_stone"
-			}
-			id: "309FF4E3E237AC33"
-			rewards: [
-				{
-					count: 2
-					id: "3084E71B19D076F3"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "30775C5536F86A08"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3070A228CCF7F95A"
-				item: { count: 1, id: "cobblemon:fire_stone" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["309FF4E3E237AC33"]
-			icon: {
-				id: "cobblemon:water_stone"
-			}
-			id: "308EE61EA84B7AFF"
-			rewards: [
-				{
-					count: 2
-					id: "30398B2703156964"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "3085CAF4B895B54B"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30A7879DDED20847"
-				item: { count: 1, id: "cobblemon:water_stone" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["308EE61EA84B7AFF"]
-			icon: {
-				id: "cobblemon:thunder_stone"
-			}
-			id: "30F4F02C58D75124"
-			rewards: [
-				{
-					count: 2
-					id: "30D5797FA23E941F"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "30AD96B083417525"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "301E1D7F4E1ED795"
-				item: { count: 1, id: "cobblemon:thunder_stone" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["30F4F02C58D75124"]
-			icon: {
-				id: "cobblemon:leaf_stone"
-			}
-			id: "303FE653BF518D2C"
-			rewards: [
-				{
-					count: 2
-					id: "309E28F989E02B09"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "305E265C4A59AD0F"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30B6F4003F67C63A"
-				item: { count: 1, id: "cobblemon:leaf_stone" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["303FE653BF518D2C"]
-			icon: {
-				id: "cobblemon:ice_stone"
-			}
-			id: "3096B879B50861DF"
-			rewards: [
-				{
-					count: 2
-					id: "3047C64101574992"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "30815A9C143169D8"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "305181DE7A170CCB"
-				item: { count: 1, id: "cobblemon:ice_stone" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["3096B879B50861DF"]
-			icon: {
-				id: "cobblemon:sun_stone"
-			}
-			id: "3005444C9EE69FD3"
-			rewards: [
-				{
-					count: 2
-					id: "3047CB86D1982A4E"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "306EEA9F66E02F9E"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3083607DA8B76C9D"
-				item: { count: 1, id: "cobblemon:sun_stone" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["30D545F671BDE23C"]
-			icon: {
-				id: "cobblemon:moon_stone"
-			}
-			id: "30D50B9871F3B3FE"
-			rewards: [
-				{
-					count: 2
-					id: "30D49808B94E53C1"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "307F2DF9E17B6FF5"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30513C73DBC761EB"
-				item: { count: 1, id: "cobblemon:moon_stone" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["30D50B9871F3B3FE"]
-			icon: {
-				id: "cobblemon:shiny_stone"
-			}
-			id: "30B7103F462424E7"
-			rewards: [
-				{
-					count: 2
-					id: "30B40F8069F7AF90"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "30A100C970508F24"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "3004B7745B207DB1"
-				item: { count: 1, id: "cobblemon:shiny_stone" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["30B7103F462424E7"]
-			icon: {
-				id: "cobblemon:dusk_stone"
-			}
-			id: "30492BCC3C40851E"
-			rewards: [
-				{
-					count: 2
-					id: "30921874FDB0F412"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "30EE49530CDD13A1"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "304B5EF9E1F2EB0F"
-				item: { count: 1, id: "cobblemon:dusk_stone" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["30492BCC3C40851E"]
-			icon: {
-				id: "cobblemon:dawn_stone"
-			}
-			id: "3026B63E52CC2F89"
-			rewards: [
-				{
-					count: 2
-					id: "305F146EF86225C2"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "307170274553BB63"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "30E6B97041F62B5C"
-				item: { count: 1, id: "cobblemon:dawn_stone" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["3026B63E52CC2F89"]
-			icon: {
-				id: "cobblemon:link_cable"
-			}
-			id: "301A25F17045F42C"
-			rewards: [
-				{
-					count: 2
-					id: "301D284B1E565E22"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "30E1EA32D1FFE112"
-					type: "xp"
-					xp: 40
-				}
-			]
-			tasks: [{
-				id: "303207D51E63AFD5"
-				item: { count: 1, id: "cobblemon:link_cable" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 14.0d
-		}
-		{
 			dependencies: [
 				"30A01E1B7FF3061E"
 				"30A94C8C925E9C8A"
 				"30DF64A78E3B293A"
 				"30D545F671BDE23C"
 				"3055F83ABD1898C9"
-				"3023DEE8415DD107"
-				"301A25F17045F42C"
 			]
+			min_required_dependencies: 3
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
@@ -1692,6 +1121,7 @@
 			rewards: [
 				{
 					id: "30E8CB554F052A77"
+					table_id: 3462194471772572137L
 					type: "random"
 				}
 				{

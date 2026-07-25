@@ -6,18 +6,18 @@
 	loot_size: 1
 	order_index: 7
 	rewards: [
-		{ id: "55CB1CDF73E5D683", weight: 40.0f }
-		{ id: "7E5DABB4273C151E", weight: 40.0f }
-		{ id: "58D65E7CAA8746C9", weight: 40.0f }
-		{ id: "5E4986DEBCA72095", weight: 20.0f }
-		{ id: "63893FE27B10DBB5", weight: 20.0f }
-		{ id: "6DF73E3035CB4337", weight: 20.0f }
-		{ id: "7773C3F98795D6EB", weight: 10.0f }
-		{ id: "0A0DCBE4F1A903DC", weight: 10.0f }
-		{ id: "5B1A4B18BE55E0A4", weight: 10.0f }
-		{ id: "5BFC57F2ADF55BF2", weight: 6.0f }
-		{ id: "5B4703ACCF72E494", weight: 3.0f }
-		{ id: "66032DCC01E40936", weight: 3.0f }
+		{ reward: { id: "55CB1CDF73E5D683", type: "item", item: { id: "cobblemon:protein", count: 3 } }, weight: 40.0f }
+		{ reward: { id: "7E5DABB4273C151E", type: "item", item: { id: "cobblemon:calcium", count: 3 } }, weight: 40.0f }
+		{ reward: { id: "58D65E7CAA8746C9", type: "item", item: { id: "cobblemon:carbos", count: 3 } }, weight: 40.0f }
+		{ reward: { id: "5E4986DEBCA72095", type: "item", item: { id: "cobblemon:health_mochi", count: 4 } }, weight: 20.0f }
+		{ reward: { id: "63893FE27B10DBB5", type: "item", item: { id: "cobblemon:tasty_mint", count: 4 } }, weight: 20.0f }
+		{ reward: { id: "6DF73E3035CB4337", type: "item", item: { id: "cobblemon:rare_candy", count: 4 } }, weight: 20.0f }
+		{ reward: { id: "7773C3F98795D6EB", type: "item", item: { id: "cobblemon_utility:poketreat", count: 4 } }, weight: 10.0f }
+		{ reward: { id: "0A0DCBE4F1A903DC", type: "item", item: { id: "numismatics:spur", count: 8 } }, weight: 10.0f }
+		{ reward: { id: "5B1A4B18BE55E0A4", type: "item", item: { id: "cobblemon:sweet_heart_mochi", count: 2 } }, weight: 10.0f }
+		{ reward: { id: "5BFC57F2ADF55BF2", type: "item", item: { id: "cobblemon:full_restore", count: 2 } }, weight: 6.0f }
+		{ reward: { id: "5B4703ACCF72E494", type: "item", item: { id: "cobblemon_utility:mastercandy", count: 1 } }, weight: 3.0f }
+		{ reward: { id: "66032DCC01E40936", type: "item", item: { id: "cobblemon:pp_max", count: 2 } }, weight: 3.0f }
 	]
 	use_title: true
 }

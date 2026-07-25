@@ -148,6 +148,22 @@
           "weight": 4
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1e-07
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythsandlegends:lunar_feather"
+        }
+      ]
     }
   ],
   "random_sequence": "deep_aether:chests/dungeon/altar_camp"

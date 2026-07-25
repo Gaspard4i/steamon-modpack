@@ -6,16 +6,16 @@
 	loot_size: 1
 	order_index: 12
 	rewards: [
-		{ id: "7811F778D52F5E69", weight: 40.0f }
-		{ id: "5D5DA8CE554722FD", weight: 25.0f }
-		{ id: "10A251FEA42EAC40", weight: 25.0f }
-		{ id: "2541CF21AA43518B", weight: 20.0f }
-		{ id: "2F7A14136A433044", weight: 15.0f }
-		{ id: "1749FD06A5114A81", weight: 15.0f }
-		{ id: "4D73F8AFCC53E39B", weight: 10.0f }
-		{ id: "1CFD288C6A5D218D", weight: 8.0f }
-		{ id: "22DABFB40727679C", weight: 6.0f }
-		{ id: "7740BD259419F961", weight: 3.0f }
+		{ reward: { id: "7811F778D52F5E69", type: "item", item: { id: "aether:ambrosium_shard", count: 8 } }, weight: 40.0f }
+		{ reward: { id: "5D5DA8CE554722FD", type: "item", item: { id: "aether:zanite_gemstone", count: 4 } }, weight: 25.0f }
+		{ reward: { id: "10A251FEA42EAC40", type: "item", item: { id: "aether:gravitite_ore_block", count: 2 } }, weight: 25.0f }
+		{ reward: { id: "2541CF21AA43518B", type: "item", item: { id: "aether:victory_medal", count: 4 } }, weight: 20.0f }
+		{ reward: { id: "2F7A14136A433044", type: "item", item: { id: "aether:holystone", count: 12 } }, weight: 15.0f }
+		{ reward: { id: "1749FD06A5114A81", type: "item", item: { id: "numismatics:spur", count: 15 } }, weight: 15.0f }
+		{ reward: { id: "4D73F8AFCC53E39B", type: "item", item: { id: "aether:icestone", count: 4 } }, weight: 10.0f }
+		{ reward: { id: "1CFD288C6A5D218D", type: "item", item: { id: "cobblemon:ultra_ball", count: 4 } }, weight: 8.0f }
+		{ reward: { id: "22DABFB40727679C", type: "item", item: { id: "aether:neptune_boots", count: 1 } }, weight: 6.0f }
+		{ reward: { id: "7740BD259419F961", type: "item", item: { id: "aether:phoenix_helmet", count: 1 } }, weight: 3.0f }
 	]
 	use_title: true
 }

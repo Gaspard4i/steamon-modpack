@@ -6,16 +6,16 @@
 	loot_size: 1
 	order_index: 14
 	rewards: [
-		{ id: "25C4145B66EBE7DE", weight: 40.0f }
-		{ id: "3CF5D8C87474E148", weight: 30.0f }
-		{ id: "1F343F8EF45992A1", weight: 25.0f }
-		{ id: "2652CDDF6B9E981B", weight: 20.0f }
-		{ id: "3E11B0F0C13BC005", weight: 15.0f }
-		{ id: "70B41798F2EF5A21", weight: 15.0f }
-		{ id: "5CB682BDB090F439", weight: 8.0f }
-		{ id: "5F363E9AF02A3DA5", weight: 10.0f }
-		{ id: "08FAC3B8CBBBCA9E", weight: 6.0f }
-		{ id: "7C545CD1BB1E515C", weight: 2.0f }
+		{ reward: { id: "25C4145B66EBE7DE", type: "item", item: { id: "minecraft:ancient_debris", count: 2 } }, weight: 40.0f }
+		{ reward: { id: "3CF5D8C87474E148", type: "item", item: { id: "minecraft:blaze_rod", count: 6 } }, weight: 30.0f }
+		{ reward: { id: "1F343F8EF45992A1", type: "item", item: { id: "minecraft:glowstone", count: 12 } }, weight: 25.0f }
+		{ reward: { id: "2652CDDF6B9E981B", type: "item", item: { id: "minecraft:quartz", count: 16 } }, weight: 20.0f }
+		{ reward: { id: "3E11B0F0C13BC005", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }, weight: 15.0f }
+		{ reward: { id: "70B41798F2EF5A21", type: "item", item: { id: "numismatics:spur", count: 15 } }, weight: 15.0f }
+		{ reward: { id: "5CB682BDB090F439", type: "item", item: { id: "cobblemon:dusk_ball", count: 4 } }, weight: 8.0f }
+		{ reward: { id: "5F363E9AF02A3DA5", type: "item", item: { id: "cobblemon:fire_stone", count: 2 } }, weight: 10.0f }
+		{ reward: { id: "08FAC3B8CBBBCA9E", type: "item", item: { id: "minecraft:netherite_scrap", count: 1 } }, weight: 6.0f }
+		{ reward: { id: "7C545CD1BB1E515C", type: "item", item: { id: "create:blaze_burner", count: 1 } }, weight: 2.0f }
 	]
 	use_title: true
 }

@@ -432,6 +432,140 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["20A4F79E5ACF677F"]
+			id: "20446249E22B29B0"
+			rewards: [
+				{
+					id: "20CB645D577867CB"
+					item: {
+						count: 1
+						id: "createendertransmission:energy_transmitter"
+					}
+					type: "item"
+				}
+				{
+					id: "204DC427B7C7AB1E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "20957B052FA79574"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2097C822F8C10EAC"
+				item: { count: 1, id: "createendertransmission:energy_transmitter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20446249E22B29B0"]
+			id: "20FE34F6B18DB45D"
+			optional: true
+			rewards: [
+				{
+					id: "2073A09DC356B23E"
+					item: {
+						count: 1
+						id: "createendertransmission:chunk_loader"
+					}
+					type: "item"
+				}
+				{
+					id: "20C914FE0A97DD21"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				id: "20649CABE08B1C3D"
+				item: { count: 1, id: "createendertransmission:chunk_loader" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20A4F79E5ACF677F"]
+			id: "206E8BE76893FB18"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "20AD1BF75EE28FBF"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					id: "20BB749585A1ABA1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "20DE01F079A81331"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["206E8BE76893FB18"]
+			id: "20C8F98628C8F832"
+			optional: true
+			rewards: [
+				{
+					id: "201E3765841C0D42"
+					item: {
+						count: 1
+						id: "create:track_station"
+					}
+					type: "item"
+				}
+				{
+					id: "20A55F9B47695A52"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "20E5335EB4161332"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "208543D53E556160"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "20F7E14B0281E8D0"
+					item: { count: 1, id: "create:railway_casing" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
 			dependencies: [
 				"204115B912BAFEEF"
 				"202BE63206C547AC"
@@ -439,10 +573,12 @@
 				"20A92FE5E11A07D2"
 				"208F1E9FE12EF993"
 			]
+			min_required_dependencies: 3
 			id: "20E7F625CC2F6BF3"
 			rewards: [
 				{
 					id: "20352A817F43C827"
+					table_id: 2353900240102227972L
 					type: "random"
 				}
 				{

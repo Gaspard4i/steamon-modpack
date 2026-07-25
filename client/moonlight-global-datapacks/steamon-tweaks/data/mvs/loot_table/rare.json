@@ -12,7 +12,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 5,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,7 +27,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
-          "weight": 7,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -42,7 +42,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "weight": 7,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -57,7 +57,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 7,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -86,8 +86,33 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
-          "weight": 6,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -113,21 +138,12 @@
               }
             }
           ]
-        },
+        }
+      ],
+      "conditions": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
+          "condition": "minecraft:random_chance",
+          "chance": 0.45
         }
       ]
     },
@@ -135,7 +151,7 @@
       "rolls": {
         "type": "minecraft:uniform",
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "bonus_rolls": 0,
       "entries": [
@@ -183,7 +199,17 @@
               }
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_sword",
@@ -202,7 +228,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:saddle",
-          "weight": 4,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -213,6 +239,12 @@
               }
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
         }
       ]
     },
@@ -227,7 +259,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:ultra_ball",
-          "weight": 8,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -242,7 +274,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:great_ball",
-          "weight": 8,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -256,23 +288,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:timer_ball",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "cobblemon:heal_ball",
-          "weight": 6,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -286,8 +303,48 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:muscle_feather",
+          "name": "cobblemon:exp_candy_xs",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:timer_ball",
           "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:muscle_feather",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -302,21 +359,6 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:protein",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:rare_candy",
           "weight": 3,
           "functions": [
             {
@@ -331,18 +373,24 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:exp_candy_xs",
-          "weight": 7,
+          "name": "cobblemon:rare_candy",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 4,
-                "max": 10
+                "min": 1,
+                "max": 2
               }
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
         }
       ]
     },

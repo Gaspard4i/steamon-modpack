@@ -12,7 +12,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
-          "weight": 8,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,22 +27,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:amethyst_block",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 4,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -57,7 +42,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 6,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -65,21 +50,6 @@
                 "type": "minecraft:uniform",
                 "min": 3,
                 "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
               }
             }
           ]
@@ -87,7 +57,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:quartz",
-          "weight": 6,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -101,23 +71,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:glowstone_dust",
-          "weight": 5,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -142,7 +97,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:ultra_ball",
-          "weight": 7,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -157,7 +112,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:dusk_ball",
-          "weight": 6,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -172,7 +127,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:heal_ball",
-          "weight": 6,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -186,23 +141,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:shiny_stone",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "cobblemon:moon_stone",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -210,36 +150,6 @@
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:calcium",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:zinc",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
               }
             }
           ]
@@ -247,7 +157,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:exp_candy_xs",
-          "weight": 7,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1590,74 +1500,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon:master_ball"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 1e-06
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "createnuclear:reactor_controller",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "createnuclear:reactor_core",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "createnuclear:reactor_casing",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "createnuclear:reactor_frame",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "createnuclear:reactor_cooler",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "createnuclear:reactor_input",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "createnuclear:reactor_output",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "createnuclear:reactor_blueprint_item",
-          "weight": 1
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 1e-06
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "cobblemon:exp_candy_s",
           "functions": [
             {
@@ -1790,7 +1632,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mythsandlegends:diancies_crown"
+          "name": "mythsandlegends:jade_orb"
         }
       ],
       "conditions": [

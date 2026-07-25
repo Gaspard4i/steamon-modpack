@@ -397,77 +397,6 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["20CAAB71BA55C41D"]
-			id: "206E8BE76893FB18"
-			optional: true
-			rewards: [
-				{
-					count: 32
-					id: "20AD1BF75EE28FBF"
-					item: {
-						count: 1
-						id: "create:track"
-					}
-					type: "item"
-				}
-				{
-					id: "20BB749585A1ABA1"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [{
-				count: 16L
-				id: "20DE01F079A81331"
-				item: { count: 1, id: "create:track" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["206E8BE76893FB18"]
-			id: "20C8F98628C8F832"
-			optional: true
-			rewards: [
-				{
-					id: "201E3765841C0D42"
-					item: {
-						count: 1
-						id: "create:track_station"
-					}
-					type: "item"
-				}
-				{
-					id: "20A55F9B47695A52"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20E5335EB4161332"
-					type: "xp"
-					xp: 80
-				}
-			]
-			tasks: [
-				{
-					id: "208543D53E556160"
-					item: { count: 1, id: "create:track_station" }
-					type: "item"
-				}
-				{
-					id: "20F7E14B0281E8D0"
-					item: { count: 1, id: "create:railway_casing" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 14.0d
-		}
-		{
 			dependencies: ["2012AD441F050A12"]
 			id: "200C2CB7FAEF3E2D"
 			rewards: [{
@@ -628,6 +557,42 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["208FB0F149A17EDF"]
+			id: "20FB4CD6EA08FFD3"
+			optional: true
+			rewards: [
+				{
+					id: "20AA10DAE6A4DACB"
+					item: {
+						count: 1
+						id: "create_integrated_farming:chicken_roost"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "20E34FB39CC351FE"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "20E350568FE0A4AF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "20AB1FAE3B4B0518"
+				item: { count: 1, id: "create_integrated_farming:chicken_roost" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
 			dependencies: [
 				"206989E928EDBBA1"
 				"20F8F67BF8440AE7"
@@ -637,6 +602,7 @@
 			rewards: [
 				{
 					id: "200201F4333A89D2"
+					table_id: 2353900240102227969L
 					type: "random"
 				}
 				{

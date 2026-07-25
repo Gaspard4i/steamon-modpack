@@ -805,28 +805,6 @@
 		}
 		{
 			icon: {
-				id: "cobblemon_utility:shinycard"
-			}
-			id: "3FED7EC956C69B35"
-			rewards: [{
-				count: 8
-				id: "5381A76FE4761B00"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "64EB3A9C0B0728E2"
-				item: { count: 1, id: "cobblemon_utility:shinycard" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			icon: {
 				id: "cobblemon_utility:shininghpsilvercap"
 			}
 			id: "5DD25C45606ACFF7"
@@ -1222,6 +1200,17 @@
 			y: 8.0d
 		}
 		{
+			dependencies: [
+				"6A2390556B6867E8"
+				"6D97B387BFE4207F"
+				"6CEAD16A9F31722E"
+				"188AE9C67B19D68A"
+				"0810A531D8798861"
+				"2506D45CAAB9A0E9"
+				"2E1887D3388210DD"
+				"67859B9298078500"
+			]
+			min_required_dependencies: 4
 			icon: {
 				id: "cobblemon:choice_band"
 			}
@@ -1229,6 +1218,7 @@
 			rewards: [
 				{
 					id: "3385C9ABC00C8BEA"
+					table_id: 7496482881432646114L
 					type: "random"
 				}
 				{

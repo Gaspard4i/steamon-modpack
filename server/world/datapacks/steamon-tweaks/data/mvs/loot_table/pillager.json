@@ -56,36 +56,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:tripwire_hook",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 4,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:emerald",
           "weight": 5,
           "functions": [
@@ -95,36 +65,6 @@
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dark_oak_log",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:shield",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
               }
             }
           ]
@@ -141,8 +81,38 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crossbow",
-          "weight": 6,
+          "name": "minecraft:iron_nugget",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tripwire_hook",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -153,11 +123,27 @@
               }
             }
           ]
-        },
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.45
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:goat_horn",
-          "weight": 2,
+          "name": "minecraft:crossbow",
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -197,7 +183,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:great_ball",
-          "weight": 8,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -211,23 +197,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:ultra_ball",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "cobblemon:timer_ball",
-          "weight": 6,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -242,7 +213,47 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:muscle_feather",
-          "weight": 6,
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xs",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ultra_ball",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -257,7 +268,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:resist_feather",
-          "weight": 6,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -272,7 +283,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:x_attack",
-          "weight": 5,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -287,7 +298,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:brave_mint",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -298,21 +309,12 @@
               }
             }
           ]
-        },
+        }
+      ],
+      "conditions": [
         {
-          "type": "minecraft:item",
-          "name": "cobblemon:exp_candy_xs",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 8
-              }
-            }
-          ]
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
         }
       ]
     },
@@ -424,80 +426,6 @@
         {
           "condition": "minecraft:random_chance",
           "chance": 0.0001
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "create:precision_mechanism"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.0001
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "create:electron_tube"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.001
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "create:brass_ingot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.003
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "create:brass_sheet"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.002
         }
       ]
     },

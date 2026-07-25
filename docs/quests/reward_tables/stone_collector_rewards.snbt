@@ -6,19 +6,19 @@
 	loot_size: 1
 	order_index: 3
 	rewards: [
-		{ id: "3360A4030E493CEC", weight: 20.0f }
-		{ id: "50163641DECA1EBB", weight: 20.0f }
-		{ id: "3CD187766F59AA41", weight: 20.0f }
-		{ id: "3E91A638C3E53069", weight: 20.0f }
-		{ id: "01D0A6A540C26CA0", weight: 20.0f }
-		{ id: "7A5439438529B7D9", weight: 20.0f }
-		{ id: "0074A04F4FB51EAB", weight: 15.0f }
-		{ id: "0E95464A1525362A", weight: 15.0f }
-		{ id: "0CE3C0467AF45DC9", weight: 15.0f }
-		{ id: "7DF4FA6734001F15", weight: 15.0f }
-		{ id: "0614DFBC58F30947", weight: 10.0f }
-		{ id: "166521F087B51EC2", weight: 10.0f }
-		{ id: "32B82C101319C51B" }
+		{ reward: { id: "3360A4030E493CEC", type: "item", item: { id: "cobblemon:fire_stone", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "50163641DECA1EBB", type: "item", item: { id: "cobblemon:water_stone", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "3CD187766F59AA41", type: "item", item: { id: "cobblemon:thunder_stone", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "3E91A638C3E53069", type: "item", item: { id: "cobblemon:leaf_stone", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "01D0A6A540C26CA0", type: "item", item: { id: "cobblemon:moon_stone", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "7A5439438529B7D9", type: "item", item: { id: "cobblemon:sun_stone", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "0074A04F4FB51EAB", type: "item", item: { id: "cobblemon:dusk_stone", count: 1 } }, weight: 15.0f }
+		{ reward: { id: "0E95464A1525362A", type: "item", item: { id: "cobblemon:dawn_stone", count: 1 } }, weight: 15.0f }
+		{ reward: { id: "0CE3C0467AF45DC9", type: "item", item: { id: "cobblemon:shiny_stone", count: 1 } }, weight: 15.0f }
+		{ reward: { id: "7DF4FA6734001F15", type: "item", item: { id: "cobblemon:ice_stone", count: 1 } }, weight: 15.0f }
+		{ reward: { id: "0614DFBC58F30947", type: "item", item: { id: "cobblemon:link_cable", count: 1 } }, weight: 10.0f }
+		{ reward: { id: "166521F087B51EC2", type: "item", item: { id: "cobblemon:metal_coat", count: 1 } }, weight: 10.0f }
+		{ reward: { id: "32B82C101319C51B", type: "item", item: { id: "cobblemon:kings_rock", count: 1 } }, weight: 6.0f }
 	]
 	use_title: true
 }

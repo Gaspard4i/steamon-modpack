@@ -153,69 +153,6 @@
 		}
 		{
 			dependencies: ["202DEA1408818B44"]
-			id: "20446249E22B29B0"
-			rewards: [
-				{
-					id: "20CB645D577867CB"
-					item: {
-						count: 1
-						id: "createendertransmission:energy_transmitter"
-					}
-					type: "item"
-				}
-				{
-					id: "204DC427B7C7AB1E"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20957B052FA79574"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "2097C822F8C10EAC"
-				item: { count: 1, id: "createendertransmission:energy_transmitter" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["20446249E22B29B0"]
-			id: "20FE34F6B18DB45D"
-			optional: true
-			rewards: [
-				{
-					id: "2073A09DC356B23E"
-					item: {
-						count: 1
-						id: "createendertransmission:chunk_loader"
-					}
-					type: "item"
-				}
-				{
-					id: "20C914FE0A97DD21"
-					type: "xp"
-					xp: 80
-				}
-			]
-			tasks: [{
-				id: "20649CABE08B1C3D"
-				item: { count: 1, id: "createendertransmission:chunk_loader" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["20446249E22B29B0"]
 			id: "204D78A5D6475BBF"
 			rewards: [
 				{
@@ -447,15 +384,121 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["202DEA1408818B44"]
+			id: "20B1A2C1F97A4E0D"
+			rewards: [
+				{
+					id: "20C4A1F87E9B3D2A"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "20D2B7E4F6A9C1B3"
+					type: "xp"
+					xp: 90
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "20E5C3A9B7D4F102"
+				item: { count: 1, id: "create_klinks_n_klangs:blank_ball" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20B1A2C1F97A4E0D"]
+			id: "20F3D6B8A5C2E109"
+			rewards: [
+				{
+					id: "20A8C5D3B7E4F602"
+					item: {
+						count: 1
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "20B7E4A9C3D5F108"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "20C9D6E5A8B4F203"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "20D4E7B6A9C5F304"
+				item: { count: 1, id: "create_klinks_n_klangs:great_ball_stencil" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20F3D6B8A5C2E109"]
+			id: "20E8A5C7B9D6F405"
+			rewards: [
+				{
+					count: 4
+					id: "20F5B8C6A7D9E306"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "20A6C9D8B7E5F407"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "20B7D6E9C8A5F508"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "20C8E7D6A9B5F609"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
 			dependencies: [
 				"204D78A5D6475BBF"
 				"2050ECFABF39515D"
 				"208E7F469308A0AD"
+				"20E8A5C7B9D6F405"
 			]
+			min_required_dependencies: 2
 			id: "20FC1F519A9040EF"
 			rewards: [
 				{
 					id: "20F98DFFA81464B6"
+					table_id: 2353900240102227971L
 					type: "random"
 				}
 				{

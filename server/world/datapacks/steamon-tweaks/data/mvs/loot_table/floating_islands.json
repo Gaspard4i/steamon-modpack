@@ -11,23 +11,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:amethyst_shard",
-          "weight": 6,
+          "name": "minecraft:glow_berries",
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
+                "min": 3,
+                "max": 6
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:glow_berries",
-          "weight": 7,
+          "name": "minecraft:feather",
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -42,6 +42,21 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:moss_block",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hanging_roots",
           "weight": 6,
           "functions": [
             {
@@ -56,23 +71,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:feather",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:phantom_membrane",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -80,51 +80,6 @@
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:hanging_roots",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:glowstone_dust",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:poppy",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
               }
             }
           ]
@@ -142,7 +97,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:quick_ball",
-          "weight": 7,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -157,7 +112,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:timer_ball",
-          "weight": 6,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -172,7 +127,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:heal_ball",
-          "weight": 6,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -187,7 +142,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:swift_feather",
-          "weight": 6,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -201,38 +156,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:sharp_beak",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:hasty_mint",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "cobblemon:float_stone",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -247,7 +172,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:exp_candy_xs",
-          "weight": 7,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -1722,7 +1647,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mythsandlegends:jade_orb"
+          "name": "mythsandlegends:oaks_letter"
         }
       ],
       "conditions": [

@@ -164,6 +164,22 @@
           "name": "create:precision_mechanism"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1e-07
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythsandlegends:ancient_tablet"
+        }
+      ]
     }
   ],
   "random_sequence": "create_ltab:normal/rare_loot"

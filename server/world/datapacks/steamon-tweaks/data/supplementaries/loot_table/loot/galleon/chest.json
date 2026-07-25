@@ -2,7 +2,11 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": { "type": "minecraft:uniform", "min": 2, "max": 3 },
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
       "bonus_rolls": 0,
       "entries": [
         {
@@ -10,7 +14,14 @@
           "weight": 12,
           "name": "cobblemon:dive_ball",
           "functions": [
-            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
           ]
         },
         {
@@ -18,7 +29,14 @@
           "weight": 8,
           "name": "cobblemon:lure_ball",
           "functions": [
-            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
           ]
         },
         {
@@ -26,13 +44,24 @@
           "weight": 8,
           "name": "cobblemon:net_ball",
           "functions": [
-            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
           ]
         }
       ]
     },
     {
-      "rolls": { "type": "minecraft:uniform", "min": 1, "max": 2 },
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
       "bonus_rolls": 0,
       "entries": [
         {
@@ -40,7 +69,14 @@
           "weight": 8,
           "name": "cobblemon:poke_bait",
           "functions": [
-            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
           ]
         },
         {
@@ -48,16 +84,34 @@
           "weight": 6,
           "name": "cobblemon:belue_berry",
           "functions": [
-            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
           ]
         },
-        { "type": "minecraft:item", "weight": 5, "name": "cobblemon:water_stone" },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "cobblemon:water_stone"
+        },
         {
           "type": "minecraft:item",
           "weight": 8,
           "name": "minecraft:emerald",
           "functions": [
-            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
           ]
         },
         {
@@ -65,7 +119,14 @@
           "weight": 6,
           "name": "minecraft:gold_ingot",
           "functions": [
-            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
           ]
         }
       ]
@@ -73,25 +134,65 @@
     {
       "rolls": 1,
       "bonus_rolls": 0,
-      "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.2 } ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
       "entries": [
-        { "type": "minecraft:item", "name": "cobblemon:poke_rod" }
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:poke_rod"
+        }
       ]
     },
     {
       "rolls": 1,
       "bonus_rolls": 0,
-      "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.05 } ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
       "entries": [
-        { "type": "minecraft:item", "name": "cobblemon:pokerod_smithing_template" }
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:pokerod_smithing_template"
+        }
       ]
     },
     {
       "rolls": 1,
       "bonus_rolls": 0,
-      "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.003 } ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.003
+        }
+      ],
       "entries": [
-        { "type": "minecraft:item", "name": "cobblemon:leftovers" }
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:leftovers"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1e-07
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythsandlegends:blue_orb"
+        }
       ]
     }
   ]

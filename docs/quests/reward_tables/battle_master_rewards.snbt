@@ -6,19 +6,19 @@
 	loot_size: 1
 	order_index: 5
 	rewards: [
-		{ id: "52F3AA4B4BA95381", weight: 30.0f }
-		{ id: "23ACB5DD55F58F6C", weight: 25.0f }
-		{ id: "10BB1BDD7C63DE95", weight: 20.0f }
-		{ id: "447F7C44B114A216", weight: 20.0f }
-		{ id: "293EAAA04F9586AE", weight: 20.0f }
-		{ id: "47FEA683B351848D", weight: 20.0f }
-		{ id: "269023A998381D0D", weight: 15.0f }
-		{ id: "4E013B62131FAD22", weight: 15.0f }
-		{ id: "71AD580B50DCB116", weight: 15.0f }
-		{ id: "49FCA0EC0E1D992D", weight: 8.0f }
-		{ id: "40F467B4C9ABF154", weight: 5.0f }
-		{ id: "7929B2C2083BC8FD", weight: 20.0f }
-		{ id: "068025F7C1E50CA9" }
+		{ reward: { id: "52F3AA4B4BA95381", type: "item", item: { id: "cobblemon:leftovers", count: 2 } }, weight: 30.0f }
+		{ reward: { id: "23ACB5DD55F58F6C", type: "item", item: { id: "cobblemon:life_orb", count: 1 } }, weight: 25.0f }
+		{ reward: { id: "10BB1BDD7C63DE95", type: "item", item: { id: "cobblemon:choice_band", count: 1 } }, weight: 20.0f }
+		{ reward: { id: "447F7C44B114A216", type: "item", item: { id: "cobblemon:choice_specs", count: 1 } }, weight: 20.0f }
+		{ reward: { id: "293EAAA04F9586AE", type: "item", item: { id: "cobblemon:choice_scarf", count: 1 } }, weight: 20.0f }
+		{ reward: { id: "47FEA683B351848D", type: "item", item: { id: "cobblemon:focus_sash", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "269023A998381D0D", type: "item", item: { id: "cobblemon:assault_vest", count: 1 } }, weight: 15.0f }
+		{ reward: { id: "4E013B62131FAD22", type: "item", item: { id: "cobblemon:eviolite", count: 1 } }, weight: 15.0f }
+		{ reward: { id: "71AD580B50DCB116", type: "item", item: { id: "cobblemon:rocky_helmet", count: 1 } }, weight: 15.0f }
+		{ reward: { id: "49FCA0EC0E1D992D", type: "item", item: { id: "numismatics:spur", count: 15 } }, weight: 8.0f }
+		{ reward: { id: "40F467B4C9ABF154", type: "item", item: { id: "cobblemon:ability_capsule", count: 1 } }, weight: 5.0f }
+		{ reward: { id: "7929B2C2083BC8FD", type: "item", item: { id: "cobblemon:heavy_duty_boots", count: 1 } }, weight: 20.0f }
+		{ reward: { id: "068025F7C1E50CA9", type: "item", item: { id: "cobblemon:golden_bottle_cap", count: 1 } }, weight: 3.0f }
 	]
 	use_title: true
 }

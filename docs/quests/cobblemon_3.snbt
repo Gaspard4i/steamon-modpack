@@ -210,7 +210,7 @@
 		{
 			dependencies: ["30E0E43F6CBBE3F0"]
 			icon: {
-				id: "cobblemon_utility:cobblemax"
+				id: "cobblemon:beast_ball"
 			}
 			id: "30E8147CBFAFB5F1"
 			rewards: [
@@ -350,7 +350,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["305140D9631883D0"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:lustrous_orb"
 			}
@@ -380,7 +380,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["308C91D9CD8BA997"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:griseous_orb"
 			}
@@ -410,7 +410,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3061510F6BAAF5EE"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:red_orb"
 			}
@@ -440,7 +440,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["30FB46D32F47C5EE"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:blue_orb"
 			}
@@ -470,7 +470,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["30162A23606849B3"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:jade_orb"
 			}
@@ -500,7 +500,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3009058AC9D5DE63"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:reveal_glass"
 			}
@@ -530,7 +530,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["307D5E185C5791B5"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:dna_splicer"
 			}
@@ -560,7 +560,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["305CF08E5A9ED6EF"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:rusted_sword"
 			}
@@ -590,7 +590,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["30881AB91088C3F2"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:rusted_shield"
 			}
@@ -620,7 +620,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3075D796982A8449"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:dark_stone"
 			}
@@ -680,7 +680,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30B20B63B55AE315"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:prison_bottle"
 			}
@@ -710,7 +710,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30A1EB6155E5F080"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:azure_flute"
 			}
@@ -740,7 +740,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["307B87401FD5299E"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:clear_bell"
 			}
@@ -770,7 +770,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30523287E3978701"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:tidal_bell"
 			}
@@ -800,7 +800,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30D887C36BA56DFE"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:rainbow_wing"
 			}
@@ -830,7 +830,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30E98EAF893DC706"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:silver_wing"
 			}
@@ -860,7 +860,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30259E9749F02BCD"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:lunar_feather"
 			}
@@ -890,7 +890,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30877B2EDC12921B"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:member_card"
 			}
@@ -920,7 +920,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30139A17CC5CE0F0"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:oaks_letter"
 			}
@@ -950,7 +950,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["30ABA79FADDEBB8D"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:gs_ball"
 			}
@@ -1010,7 +1010,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["300BAD206EAAB5E7"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:magma_stone"
 			}
@@ -1040,7 +1040,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["309DF2B77C0691FC"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:reins_of_unity"
 			}
@@ -1070,7 +1070,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["30147029E3B1AF2E"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:iceroot_carrot"
 			}
@@ -1100,7 +1100,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["30B696B86E52B5B8"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:shaderoot_carrot"
 			}
@@ -1130,7 +1130,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["3083269D3AF53A1E"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:zygarde_cube"
 			}
@@ -1160,7 +1160,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["301D2F6967AAB589"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:soul_heart"
 			}
@@ -1190,7 +1190,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["3065A496884D73BE"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:meloetta_headset"
 			}
@@ -1220,7 +1220,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["30B4D6C6B3C49E7A"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:genesect_drive"
 			}
@@ -1250,7 +1250,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["30295C39072B70ED"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:teal_mask"
 			}
@@ -1280,7 +1280,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["305AAEF06DADAEBD"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:wellspring_mask"
 			}
@@ -1340,7 +1340,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3095A7DAB4CE3FE0"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:cornerstone_mask"
 			}
@@ -1370,7 +1370,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["303BB4BC58A4A626"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:necro_prism"
 			}
@@ -1400,7 +1400,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3095165647FADE29"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:sun_flute"
 			}
@@ -1430,7 +1430,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["304C8A2A557EFF6F"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:moon_flute"
 			}
@@ -1460,7 +1460,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["30472FF72B68A62F"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:eternatus_core"
 			}
@@ -1490,7 +1490,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["30538B1C6E88FEA6"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:sapling_of_life"
 			}
@@ -1520,7 +1520,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["305F3C0DBBE72985"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:cocoon_of_destruction"
 			}
@@ -1550,7 +1550,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["30ECF3E8309D26D9"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:scroll_of_darkness"
 			}
@@ -1580,7 +1580,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["3033173515754E5C"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:scroll_of_water"
 			}
@@ -1610,7 +1610,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["300E9F00A1DE35AB"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:ancient_tablet"
 			}
@@ -1670,7 +1670,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["30DF8B8754AD3A6A"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:ice_tablet"
 			}
@@ -1700,7 +1700,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["30DD3FBFAB33C582"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:steel_tablet"
 			}
@@ -1730,7 +1730,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["308C965A1C07839A"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:scaly_tablet"
 			}
@@ -1760,7 +1760,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["30133CDFB7E5DB55"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:plasma_tablet"
 			}
@@ -1790,7 +1790,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["30CAE14F71E34CC6"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:binding_mochi"
 			}
@@ -1820,7 +1820,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["306C5F3621CE1C12"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:mythical_pecha_berry"
 			}
@@ -1850,7 +1850,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["30F9A8A591CF0C5B"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:prismatic_shell"
 			}
@@ -1880,7 +1880,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3086ED0EFAA4F9E4"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:diancies_crown"
 			}
@@ -1910,7 +1910,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3011B0B8BCE24539"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:hoopa_ring"
 			}
@@ -1940,7 +1940,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["30271D1B1F6EBD43"]
+			dependencies: ["3047F188A089450E"]
 			icon: {
 				id: "mythsandlegends:zeraoras_thunderclaw"
 			}
@@ -1971,9 +1971,12 @@
 		}
 		{
 			dependencies: [
-				"3047F188A089450E"
-				"3022AC8C2FC299E8"
+				"305140D9631883D0"
+				"30B20B63B55AE315"
+				"300BAD206EAAB5E7"
+				"30DF8B8754AD3A6A"
 			]
+			min_required_dependencies: 2
 			icon: {
 				id: "cobblemon:master_ball"
 			}
@@ -1981,6 +1984,7 @@
 			rewards: [
 				{
 					id: "303D49677E59EC86"
+					table_id: 3468789012281550202L
 					type: "random"
 				}
 				{

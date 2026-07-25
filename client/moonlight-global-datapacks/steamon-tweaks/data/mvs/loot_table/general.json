@@ -11,23 +11,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_nugget",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 4,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:bread",
-          "weight": 7,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -35,36 +20,6 @@
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wheat_seeds",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
               }
             }
           ]
@@ -72,7 +27,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:coal",
-          "weight": 6,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -87,7 +42,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stick",
-          "weight": 5,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -102,7 +57,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:torch",
-          "weight": 5,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -117,7 +72,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 5,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -125,6 +80,21 @@
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
               }
             }
           ]

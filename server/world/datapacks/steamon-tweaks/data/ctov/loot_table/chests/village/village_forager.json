@@ -30,13 +30,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
+                "min": 2.0,
+                "max": 4.0
               },
               "add": false
             }
           ],
-          "weight": 6
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -52,23 +52,7 @@
               "add": false
             }
           ],
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:pecha_berry",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "weight": 5
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -78,13 +62,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
+                "min": 2.0,
+                "max": 4.0
               },
               "add": false
             }
           ],
-          "weight": 5
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -94,29 +78,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
+                "min": 2.0,
+                "max": 4.0
               },
               "add": false
             }
           ],
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:rawst_berry",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
-              },
-              "add": false
-            }
-          ],
-          "weight": 5
+          "weight": 8
         }
       ]
     },
@@ -145,6 +113,22 @@
             }
           ],
           "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1e-07
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythsandlegends:oaks_letter"
         }
       ]
     }

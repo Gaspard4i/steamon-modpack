@@ -1431,19 +1431,19 @@ hash = "7dd2474b173fd4c3873c3ec41341522f56e63b5c7001d8427dd9c799ae7fb1cc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/aether/loot_table/chests/dungeon/bronze/bronze_dungeon_reward.json"
-hash = "6d114b107423c0d8dbb826daeddb1ca7246c6f0c26cfef82d9ebe37a493c3509"
+hash = "e819b9f77b0baa021a2864a76aa3d2b349304563e363be1b32d75c72129e559d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/aether/loot_table/chests/dungeon/gold/gold_dungeon_reward.json"
-hash = "e7f0d131ff020802e5c665256c789214046ec2c58059cdab1d23d18a141373c9"
+hash = "8278f46b89488d6847cbae3bff8c0a0868185f1127d845dc41f33623c71a2235"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/aether/loot_table/chests/dungeon/silver/silver_dungeon_reward.json"
-hash = "784653c8eb06c6e74057c6200efa3883ba1fd555ce533a6172b25adbd6616f50"
+hash = "f8641d6a10a6c883d12a3151221fcea739c22467e999d3bc1f2b1758284f5a21"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/aether/loot_table/chests/dungeon/silver/silver_dungeon_treasure.json"
-hash = "f1a650510d2bc36c9ab98b883bdfb0eff97c7c87bae358d6754db741bb0010da"
+hash = "47b85efcf05feea9b408a76afa4f4de759abffdb92d88345f85cdc6195d572ef"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/aethersdelight/recipe/holystone_stove.json"
@@ -1451,31 +1451,107 @@ hash = "7012d35b99fe7b7b6369aeb291269ca9a9f9d53f14c5a3442d76bc91e4660f2b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/beautify/loot_table/chests/botanist/botanist_chest.json"
-hash = "6990b439504956587204e834b17c9c15767d5f16ddd6c556c303aeea6608b1d9"
+hash = "b7db413d23e7d03e548775d3d6c6774bb47bc4dc9c131fb58b676426353e85cd"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterdungeons/loot_table/skeleton_dungeon/chests/common.json"
+hash = "2f6ed7936052d910d8a9211c227f42b09bc7c9ab4cf5e4cbf8d0f80f75236fa5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterdungeons/loot_table/skeleton_dungeon/chests/middle.json"
+hash = "11d2ba5400ca145a7e7c606ff9aa33787df6c0af1c7e8dde3008a97af59166d4"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterdungeons/loot_table/small_dungeon/chests/loot_piles.json"
+hash = "0cfeeff7b6e361e51cca87477c54924d655b99e793815b373e5e873697eb72ec"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterdungeons/loot_table/small_nether_dungeon/chests/common.json"
+hash = "345238f5d33eb5c87483bca9f4e4ac9d6d9da90ee7a93f55ba3c6affe76baacd"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterdungeons/loot_table/spider_dungeon/chests/egg_room.json"
+hash = "c1dfae5a3caa8abdfe7cb8ba85027a62b7e6985326f74ce4f61bea356ce6faf8"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterdungeons/loot_table/zombie_dungeon/chests/common.json"
+hash = "425b66f8546517427513fff8772c4c23c0a5432952366c1fc635c25409056105"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterdungeons/loot_table/zombie_dungeon/chests/special.json"
+hash = "a5c424e184f72dabee541074ee0fc89547c34db924db0aca9704da88f04b82d3"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterdungeons/loot_table/zombie_dungeon/chests/tombstone.json"
+hash = "deaa4087ed3940f6bc051eb0fbc969d183bb33951e32ff21fa5859563c005dcb"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/armoury.json"
+hash = "b1d1d5fbe2f2fb9fa5a620a789d4c7abe2d7b277b0f30fcd1893630e1a31e8e2"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/cmd_yung.json"
+hash = "94b9eb2950d232c83c659ab12632233496d29b60d960dbe675b8c0412aa036b3"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/common.json"
+hash = "915492d7dc4ff8938ed9428cd6ab363dd94daf4a49d2ef619c3a34c96811cab0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/crypt.json"
+hash = "0ed2265b9958caf3447615b2673805bb4718bec500bfcc55cc681bbcbb19c7fe"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/grand_library.json"
+hash = "74e2209f8b15388a66377025e13143ad8b92e540b19256e9a3e6ed8d46edfce8"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/library_md.json"
+hash = "f37c1e499de79177d367b34d8a4c50e59f93c2c662b76bea6d82d7d863d2368e"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/mess.json"
+hash = "96bda62e26e3c7ce50901fe8481818214f3e32767be816378d6669e77c5b8ea1"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/prison_lg.json"
+hash = "4fd1de011d170fb893915e45bb4bd9463297a4966db2146d719963c626a804cc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/trap.json"
+hash = "32254584ddb836b1e1b01b26abddc357480ea141299a753cba09a35c273dc4f0"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/betterstrongholds/loot_table/chests/treasure.json"
+hash = "0045abc98ae7942b2648d53d6fe9587cc510667e6a98dd537d66c75eaa9f5d0a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/biomeswevegone/loot_table/chests/village/forgotten/cartographer.json"
-hash = "4a9c4afb80615527a6f0f6f083dbdd7854b883359555b16ea261699a07d889ea"
+hash = "99475c5a45a9e842ac52157c670a8cb94e3de3ab129c8f36efa24c96826fbf40"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/biomeswevegone/loot_table/chests/village/pumpkin_patch/house.json"
-hash = "acb04b0ea6ff09581c2721a090032963a146e308dd9d6389d43f81a213576b6f"
+hash = "f3b8a817e8e520e6a618f48840a4d9fe200616edc97ab7c8eb33ccca1d598093"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/biomeswevegone/loot_table/chests/village/salem/house.json"
-hash = "917ecad1d6f34f7556c6a9a0b087e7f0501eb42f0ff51850299bf167926ddac6"
+hash = "d4180dc0ed99b4e233922db3003c182e4300fc51c895f2762ff251382b3906ff"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/biomeswevegone/loot_table/chests/village/salem/temple.json"
-hash = "f08b6f08bc8af670fd4347fb8ad11760b61158163c00a72ea18c690b6ac1c099"
+hash = "d605a06116981264d0b6263e0605ddbdb4fb1202bcf8b51e25f250588f9b1341"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/biomeswevegone/loot_table/chests/village/skyris/library.json"
-hash = "4bd5ed02b9b33de699105cfb5a3eaf06d521979bfaa78cce08e026a86c5a12b7"
+hash = "fe806bbae3e04e3d807fcb27daef327ec0bd92c93aa3c347f7b2210bd995fefd"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/c/tags/item/foods/milk.json"
 hash = "9defc0c49973b639320a3e01ae44858f62b93128b7b584a9c49cef5fbbd18a6a"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/chefsdelight/loot_table/chests/cooker.json"
+hash = "ec27d9ec3c9ac6eb1dbf30caef73976be746b5cafeabc3ab879d081443875d0e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon/spawn_pool_world/0144_articuno.json"
@@ -2186,6 +2262,10 @@ file = "world/datapacks/steamon-tweaks/data/computercraft/recipe/turtle_upgrade.
 hash = "62cbc72c5fb811f250d0bffa607220b33fadcfe934bf2389ba65f057299fa859"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/continents/worldgen/density_function/continent_bias.json"
+hash = "5964c218b8e18330119b85828883cefc8e9fe53cce996c901e3cb9da982dd352"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/warp_stone_from_dormant_shard.json"
 hash = "554a5b8b1eed13d8eb8b179cd5546d82eb538d70ab437bf832e05dc163c1f212"
 
@@ -2443,59 +2523,59 @@ hash = "eb3865823bbace3eab0bc78dcab031c3cb26dcc1fb319f7d847df9c41efafbd8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/core/basic_loot.json"
-hash = "47c215bacdc20626322e929b87d74558b2658e9c75aefd7f5e962380bb89fdfb"
+hash = "35b942875cdd416ea357bc13869940435546d975e84e480fa5431d8b9508d907"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/core/legend_loot.json"
-hash = "3386dc265a52852b4246ffe11451fd17fa36e395e5796760950283b8dec97ff1"
+hash = "6e6b987be1ec6cbd348464c8c2eee61638ce5690c07d77bc4222d680b409e4c5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/core/rare_loot.json"
-hash = "93c51ea0f79461c4e38f10f1381d079b7f58fbfc39f5e62f2b23c54719688820"
+hash = "713693882bbaea9819d5ecfe40eb3ee3aa154a8c6a94ee97d9f1031a2e0ab93c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/desert/basic_loot.json"
-hash = "76eb3679d881f91325da6b1a303e5a5bdd8150e5eb20c1a869deddccd314ad46"
+hash = "536a2b39f1928963c4dfae98df86134a32766c3dde021a7ce21b401043fd15d0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/nether/basic_loot.json"
-hash = "021539a2ff8fd2db826f89adda9e90df8c8c00bf22ef3407997ace94c7cbc97b"
+hash = "c5d02354a683e610bb2a6c3fe741db79d819038be8b37a5ca579902f562d18c0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/basic2_loot.json"
-hash = "82ed9757ed3a1f89f6ef342616a0b49078ed41fc835809cead4782306f759d54"
+hash = "5d21201e03d2a3f54645a6548288954face22c63e026855b2a63e9cf73eb3ae1"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/basic3_loot.json"
-hash = "b10e6507b6d2a4b1bbf113119bb8758af294f7a77ee03b3a56b07003fabe3f26"
+hash = "3ade86f8299497e44205d95e7ca1a4422f4ba4c7fc7f6a9c4260c72ace5df7c0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/basic4_loot.json"
-hash = "496d24dc72a11e7918dc719e73d3c87433f39be6e85066fc2827efbec8b9ce34"
+hash = "1f16ea56f0006c90dc01cbbe5a3d28fdf193ddcc2836b7c1d33f16d04f37cdcb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/basic_loot.json"
-hash = "71078608de0da27f5217e72f01e365ee7eeb80c067fbd39129d7086aea06eb8c"
+hash = "351cfc0a732efe4b41fb9dc2f2da06512ee126561a8208bb4c4ddd5cf744f85f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/legend_loot.json"
-hash = "169e8f9091e83ea47eabc1e46d6ca627e302933b97a16ac371f28c08dd343a16"
+hash = "0feba77fa1d56097c6d7d15261ae094b4a63e5a32776a2e2c56754acfa92f6e6"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/rare_loot.json"
-hash = "f2e5cd4f33374155cf5ca15387d9e88246105761ed701d70b98930477565d4dd"
+hash = "0cbe9c5e775beab1fd7a04e0f896c811692a552d960424b649e3ee861e32d9ad"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/trash_loot.json"
-hash = "d6a4a2c28d0997193a95ce0d33733dc67927cb644270d4aa3d17daa016a3e66e"
+hash = "15e576b3bde2acee7d51bed06e31471e555c5ed55af3585e2bdbc03e35010205"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/snow/basic_loot.json"
-hash = "3849d2084e0619ad38f9221f32865997a44598c77bf803db82038091bb0897d5"
+hash = "6b65da5dde259aa9357b9a426b60ce8821cf5c58b1b1b9a85a4b12740b2f508d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/water/basic_loot.json"
-hash = "bd399dff4524a7cf97f7e387294bb8cb2e42966510d72ff4d8322d44ef0707e6"
+hash = "a89300795fb37bebc95d0469deea5dcd96d0a427e239f1cd9972d82504ea451d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
@@ -2603,23 +2683,23 @@ hash = "52cb5ea7ec83c22f2f4199aca6f6def07301aad4fc313e37ad90b69e51fc51f4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/ctov/loot_table/chests/village/village_bakery.json"
-hash = "b9f44dd0f0c81018ca4e6f0a4f8274a3288bfa84ded7d7477145d4c0f3a30516"
+hash = "7a43471ddf9ff59aa9d78a63dc032b24e98ca07932df3db7f5320d5fd3b61f9d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/ctov/loot_table/chests/village/village_farm.json"
-hash = "1c2db318f0daa4fc3cdcda4510973bb846dea4a0c08272d32f0112181144a53a"
+hash = "48c3ec1d4346a36404aaf21a32ee136304878e3a9b4564ed09722a6f00618abc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/ctov/loot_table/chests/village/village_forager.json"
-hash = "1c2db318f0daa4fc3cdcda4510973bb846dea4a0c08272d32f0112181144a53a"
+hash = "8a4ec3a5ee5ab0b4e0589e997aaf3b7954ee8b94b7737a6f86ea16d33e2541cd"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/ctov/loot_table/chests/village/village_library.json"
-hash = "da37feca6d0f4ecb5f79b7016de626fc2057160b374bc841e7138910c2db192c"
+hash = "23ae97d230ab436ddc3d55eab2e00cb222380306ada8b489714243d44661aea3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/ctov/loot_table/chests/village/village_smith.json"
-hash = "aa3e10daf25f5101ba4c6d289ae154c3b149a48b02dbbdaf35e298f8a6de3da3"
+hash = "79207785d272dc56aabd464f379575b1138d01644f06881ae531a4c3b2872eb4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/badge.json"
@@ -2639,19 +2719,19 @@ hash = "952a8be4c0d2c449c86fd79de39829a0e8ea19d0d4e456d11816c8de6ec7447e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deep_aether/loot_table/chests/dungeon/altar_camp.json"
-hash = "4c316ce02d8d6b1c7e54a21e2b85effef6ca6e21b3f3d9c955cc81f35e5c63df"
+hash = "e745f7861e52c612aea953d6c9fffaaebbd63ca1e89299bf0ed91951f384af55"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deep_aether/loot_table/chests/dungeon/brass/brass_dungeon_reward.json"
-hash = "a0a879d6abb9596db609c38ab59b7fabdc9ee8fdf003bc484f0017bc6351ba3d"
+hash = "54bddc1745bad6bb46e08c4d756bc1924096ba38ad8aac5464f12aafa7781773"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/chests/ancient_temple_apex.json"
-hash = "9a28f688a9e8a5b43c9179e04c66dafe93af2ba7d5084ef656fdd139f5d8c2e8"
+hash = "ab1ff75b8805bde87cd7891c57b855e2abcaddbcc794dc5ea4993cedcf169527"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/deeperdarker/loot_table/chests/ancient_temple_secret.json"
-hash = "0b435861a3a8257b8ae8de47bd2c2112f1190c6b5879d910ce4987f5346212b9"
+hash = "26082b88b2494ddeab940dc69a19eb927551cc298b2e84692c4031c47de6ebbc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/dndesires/recipe/crafting/handheld_drill.json"
@@ -2659,35 +2739,35 @@ hash = "f404f5977b9dff7d5a84ae80db7b216af48c0343c19e2eb09292e4eb0dd65bb0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/explorify/loot_table/chest/dark_forest_settlement.json"
-hash = "51b8d1830677cb60fe78bd0861553d650ab192407814de83449f04f8e6ae21f6"
+hash = "e483878a6011f93fe1c23b53fd8094c62093a0d6ee600ad2afa0511757e4981b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/explorify/loot_table/chest/mausoleum_pot.json"
-hash = "3a49f0820d25f1be72e267cde4e52b1e24e2bf90b897582f4ca18665ceec7aae"
+hash = "b60255ae7de3b9c4d65670f85c2c89accf71982681a3b494044ac25746befe9b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/explorify/loot_table/chest/supply_cache.json"
-hash = "9110cec26151aa38689d2c045355c8fe7a855e23d50002d4ea216f4afdd467ef"
+hash = "0e91d2365ace8818e155dcfd8d01781943a2c389200c218c2df73309f02775d4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/kaisyn/loot_table/outpost/common/armory.json"
-hash = "efe49e223c3cc1c366016d41af705f852090625614afe366ca516df13a65d769"
+hash = "b7663021226806e69f1d7d0d31986bf5f4e08e844f6af10577ebd19c2521d367"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/kaisyn/loot_table/outpost/common/food.json"
-hash = "5a7c1e005ac04263af3873212df65e1f318f74856173ad6569898d64d9c1af89"
+hash = "58e538a681d94d84074cfa89f7822774fbd580a9e7e5247e49d278ef6b52db59"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/kaisyn/loot_table/village/exclusives/village_classic_blacksmith.json"
-hash = "ca0a24bcc83c22db5280e54af82488e01ca97a74235f378b140cddcc10508d4e"
+hash = "b0f38c3605ba7d50f3dfe7ba593bde1488dc9b5d679aaaa085f9ee416426abc1"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/kaisyn/loot_table/village/exclusives/village_wandering_trader_hut.json"
-hash = "085402eab772f194444de6370f7d7aa59f92da50fb5955e89a3617e723a38a0f"
+hash = "bdbaf3ab2a1ca0476a64bb7a5c35840c6d54d1819d4f0b728831b425d8aa6013"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/kaisyn/loot_table/village/village_jungle_house.json"
-hash = "825c5cfe2f7dbbf8da074f44440f859b953c4ef33c66b6ecab6d4a763368568a"
+hash = "385c8a758c61f5b043ca94dde4662b38399d733eccdac4f8511d7a6afd0f1915"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_world/arceus.json"
@@ -2986,6 +3066,26 @@ file = "world/datapacks/steamon-tweaks/data/legendary_spawns_atm/spawn_pool_worl
 hash = "42182334fec896fe22842b42a0101601b476624d16a4e494964d69bfc9de51af"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/mega_showdown/loot_table/chests/observatory_barrel.json"
+hash = "07bab651627f3696997a6658842ff952b048017fe07719d24562e7e800060e7d"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/mega_showdown/loot_table/chests/observatory_barrel_2.json"
+hash = "159579e440ad20ae4386d8a865b32f1c2bb2e4da2a841ba399f55b4db90cebf3"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/mega_showdown/loot_table/chests/observatory_barrel_3.json"
+hash = "5d01381b1c3a213e6705a77c9d935f7a3681a9930332fc71dd318ba05781110b"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/mega_showdown/loot_table/chests/observatory_chest.json"
+hash = "65391130c538b14d13623155ddd600fc9b3ed1da4f7bcf137e83a3c99f26ec2f"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/mega_showdown/loot_table/chests/observatory_dome_chest.json"
+hash = "e523df2cbc289deabace5af8118eb85d5a7061881c976db567d2139580f2b849"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/mega_showdown/recipe/zygarde_cell_create.json"
 hash = "06ef45cd9583f9325dbbc3d15216c36f08dd0bd4563cdb254d9bc3f0b9bd029e"
 
@@ -3190,6 +3290,14 @@ file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
 hash = "f74498097708215ee46031db7467ce3abed880ed8188eff156e81993d9787e31"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/minecraft/worldgen/noise_settings/overworld.json"
+hash = "cd2130245f2ffdccc456ec08bcd0ee54d719f0a0d57fadc671ebf9614e749e3c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/minersdelight/loot_table/chests/md_abandoned_mineshaft.json"
+hash = "f7ceace6e3976e0e42b54eec17f2e8177710db344b9be3edb5d9cd343c90801f"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/molten_vents/worldgen/placed_feature/aquatic_asurine_vent.json"
 hash = "304f6a3c5397e3f39a17057cf55854d9e80c2dea47b98645f6d86ac77cd99b2f"
 
@@ -3239,103 +3347,111 @@ hash = "96b0e4e67c3b78a6d2e9f1e0879906648cf34a7cabb0aab7c39e51af2dafc383"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/abandoned.json"
-hash = "7350c23005ef5f2ea1e909fdcc839101c86913b117e33cb8ae4ed70f20cb416e"
+hash = "6f349b8203f711a08b6706fca3efbb87a069cdba8cc3edaefdf82230dffebf31"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cart.json"
-hash = "d687c251d535e110f7d40b2ed1a3b9826c08f289884155d6c9f7c79a10f364fd"
+hash = "fa0103b1080e994e684c5eaa7205b6bea30278069e5de64916dc7018ded8aa79"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cartographer_tower.json"
-hash = "f79926159ed471df4492dbd9a084079425c413a35ce58a27d1747c2ff0a4fa01"
+hash = "2896f11e88167a6a9807bc44873f127d1e0b1288a68af197e958d8f17b173749"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_base.json"
-hash = "3cd032d775b6785851426ae0d81d76090e2b03ed368829c728911e6a40fd45e0"
+hash = "ba9a36c374b6eb31e695aacd25915b7c60ae436b4ea198ada31af87c3e617e8a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_common.json"
-hash = "8e45e48ace7c865819b5e3ab45b2ceb9264460b1ccf12e06afa5dd6d95c8162e"
+hash = "88eefaf49c978da5fa412d47d1afb6bb6d60ab2768d8e858fdb31c0a201fddf5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/cathedral_rare.json"
-hash = "07417279b3cf2edef80efb2c3be48b26cfc6abeea9b5572551275d399cfb69dc"
+hash = "5e04c691b2ec86f19601d66c1286b820c917ac9dc794fdb03bdd18455df733bc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/crystal.json"
-hash = "d1336a9230e574e8a2370ea9d6da93e9f9e56556ba7064a48d2689f1dad3cabf"
+hash = "33c0f83f25bbeb8caf3ab9b3ed47aacd1e51b04eef9d87e5ba708d3fc503471c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/floating_islands.json"
-hash = "3e59e6f6b37591600cd23248470e846a2c4801ff725686b555921d9a2941e5f2"
+hash = "3e3ecdc8772ee848907647cb1e1e39152d2704502352b902311802ecada82809"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/general.json"
-hash = "b4b92e0e684a92a83bd3e02a23004fb8b53632e8df888dd0276cfa601930e3f4"
+hash = "6524586a056b6eda9081020f3ad00094f0a486812ed49856d92d3ce645043dbd"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_books.json"
-hash = "5613738d890527f8e181d7d62ed70cf241c87928cdaaafee968230666b236555"
+hash = "3a95d54a49968f3221b614ecafe71c5d6c0e1126e11819cdace18cec2294bdf7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_brewing.json"
-hash = "0d8575a53605c86417d47a9fdbe82636f44aa835de1f1fe0b52eaa10bc486cf0"
+hash = "265402fb34e340789bbc4b9f459f6913c73d410d75ecca6c2fdc5ee4970bf2a6"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_common.json"
-hash = "ce279c33efd978297d3aebdcd5d52433b9a417bcdf342964dff75d64ce52e791"
+hash = "8346998beff58c335db6abe9c5a915723c1b52f686c5137dda5158f5eccffff5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_desert.json"
-hash = "4edb67d1e598b370caa0aa5d8bd897ca113e69a93347fbe889d693ace5eb5ffc"
+hash = "a340d463f6569127da518626c8f7216b4a9b638d540ab6de6dfc8c6b10cd04de"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_flower.json"
-hash = "03729388f56cc3a728757d53328ccb7665f821c4d14ba1be50eea1272cc2013c"
+hash = "92551787c3084a8600d3d431643542355621c7b5835847b93b98c6dd3bf3499e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_rare.json"
-hash = "78e5f218c7631a36388b574dd5e69376f975d8ec15591e0e2e126c3ae64e893f"
+hash = "d846fa1908696c76d15848ba287e402589baed96c837a0adfa6bd67bc704f85a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/houses_uncommon.json"
-hash = "4068e387b1ec0e695b86e725498b551bc82bd078dcd5186e1fb2116901eb66df"
+hash = "73e97ba7c709804ff59f3a8ff0c7b60cb86b73d69bc194d9eb1c9b347c9aea4d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/jungle_tower.json"
-hash = "6a203ec9c790db8e5463dcf26c4f99d712fbad609ec8ce0733ec31f40c207898"
+hash = "0fb22c7a0f1bdc0429929b46a150cfc852e3e28b29aa6f31cfcbd4329971eb80"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/large_carts.json"
-hash = "754d001045b2a972956bed28e3d8c26cb0d9dd0b08dec9fd7599b2e103dcdb00"
+hash = "145750af36f8f465b27e5c27b3ffc9657fcbf62f1243af9a1db17c87f5cd93ac"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/large_carts_2.json"
-hash = "0df21c1ace19afd54c0b1d95a7416c8ce8886109f8d0e412f52d7cdb640a6032"
+hash = "bb84cff0e171015dfbaca580e2afbf0b9de97618786bddc208022eb4a4060011"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/mushroom_pond.json"
-hash = "7e9b3ee1d79808be72392a18d98e3742ad21e14d94f4c80f88b00e02909351f7"
+hash = "826af0b5be047d5e3d4935f43916634478999bf69cf9be1b6bb148f46b2b6b4b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/pillager.json"
-hash = "223602d1fadc9c04b4f45eebb9ba37050a5d5ead711ffdd3b368e74b6dd7b6db"
+hash = "29dc418d3f6d9768cea5091f10d982d773cc4ef3e7efdd28ea8bce4e0137cebc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/pond.json"
-hash = "b5a8fa1c0955afc049ffad4c1f70be6585ae30a7b61e253a11cd0fcb9fe54d70"
+hash = "77f97335e818b94eceaa63b50ab2adebf4b0340271780690548d92f72d855265"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/rare.json"
-hash = "49d19d64d945b8a49c5c1c7d300323c25be399963e7ea6a27a8ee7c16d74035b"
+hash = "2e447837bdf99a4d93264d231ba8cf215e17e52c5b16f78e10d4ac9a5fd5de12"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/stable.json"
-hash = "afc8d62fa049e361ddd57d3d6b8faa798586dde6df3a0f4faceb843603647a8b"
+hash = "cd955ead7d69a87d25c246487691c81bdd139cf95f466b392156fcbcf5cfe85f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mvs/loot_table/swamps.json"
-hash = "3507a4a6b18452f0ff587e7745ddd07403b5a2112b074a91f595a7bf9be97709"
+hash = "364dbbbd3cb46b2ff8b183f0a0972b8dfa0cccefedba55925cc4827261e85d69"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/mynethersdelight/loot_table/chests/mnd_bastion_hoglin_stable.json"
+hash = "ab8966658ff8539a7c8752fce0e59f08f85ce2b9e52e5c142a108c155fff8c27"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/mynethersdelight/loot_table/chests/mnd_bastion_treasure.json"
+hash = "cd7fb0815e5b640f9c3814d318666021ef4e3566c9f0680d3b8db2e6961bb679"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/paradox_spawns_atm/spawn_pool_world/brutebonnet.json"
@@ -3420,6 +3536,54 @@ hash = "5e94c98d1aa6ff4af242bbe3dac99dcc13d0bd55763fcc42a75142bd7c7643af"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_soap.json"
 hash = "825aef5e513bbf4daa21e8eb2e641f891b6ac448f25fe66d79f860b9c15d46e2"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_armorer.json"
+hash = "0c4ed1573f963caffdec4c0d2911231207df54cc58ba1004872ef6c06fdd4ad9"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_butcher.json"
+hash = "45e76b55f761acae8dc9ad4cbfd432b3b80b0a3d8d5576fe8683ff80783cc0e9"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_cartographer.json"
+hash = "1b869248ecd7ae3c3d93bcdfe530402d744eeef3358593bdc3a0e8e0fc5865d6"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_fisher.json"
+hash = "ceaebbe7b308d0acf0ae95fc6ead28b8cc4e5184bfe78c7f4863b1e92c4023cc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_fletcher.json"
+hash = "9c1a3d4d25ce57a7141f877e3f9a605a1e1c983a44d135303c78f175c9f97c0c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_mason.json"
+hash = "ef4c871225836762735e554036e57fafbf620db50de397b57bf9ecf8aa458bf5"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_normal_house.json"
+hash = "74c2cd1902b7125fb7924615d43f7c4560534acf1763334c49e542e3ef641743"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_shepherd.json"
+hash = "e7979f44dfe4d99fb8bafaaa2061a283d489865c8d3255cc45ed6b1c88c3c1dc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_supplementaries_urn.json"
+hash = "f56b61ae8011216928b5666eb1f4f8e8a6d1651e43af5944929752bb348a129c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_temple.json"
+hash = "c29f152133eef953573f058b7ef81f3fd6fbe363e4f94c53ac9caa279ca2288c"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_toolsmith.json"
+hash = "db5049b5055402dab65090460e73f03f51913ca3de03952f515390e0826bd6f9"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/skyvillages/loot_table/chests/sky_village_weaponsmith.json"
+hash = "45d78d58d5690c13c4cef671ca536d69c18841d338851442a2af2c7bc81b7524"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/curios/entities/player_badge.json"
@@ -4151,7 +4315,7 @@ hash = "678ab0023c05dc78ffb447546ebc6e8b7e10492e2fcbffe4e6d88bf487135f2b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/supplementaries/loot_table/loot/galleon/chest.json"
-hash = "78b08c6c3faeb74bd77a18b6ea002a2b5595f10303a62ed4a18374528ab912bb"
+hash = "ba212932cf3df390594f82990564bebcf310120d7f2ff4d82008424e211a3ce0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/ultra_beast_spawns_atm/spawn_pool_world/blacephalon.json"

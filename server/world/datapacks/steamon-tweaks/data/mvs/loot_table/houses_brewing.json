@@ -12,7 +12,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:glass_bottle",
-          "weight": 8,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -27,7 +27,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
-          "weight": 7,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -35,6 +35,36 @@
                 "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -56,53 +86,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:glowstone_dust",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sugar",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:spider_eye",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:fermented_spider_eye",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -110,21 +95,6 @@
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:redstone",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 4
               }
             }
           ]
@@ -142,7 +112,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:heal_ball",
-          "weight": 8,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -157,7 +127,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:potion",
-          "weight": 7,
+          "weight": 9,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -172,7 +142,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:super_potion",
-          "weight": 5,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -187,7 +157,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:antidote",
-          "weight": 6,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -201,53 +171,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:burn_heal",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:paralyze_heal",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:revive",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "cobblemon:cheri_berry",
-          "weight": 6,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -262,7 +187,7 @@
         {
           "type": "minecraft:item",
           "name": "cobblemon:exp_candy_xs",
-          "weight": 6,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",

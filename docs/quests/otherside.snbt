@@ -4,7 +4,7 @@
 	filename: "otherside"
 	group: "1AF20BFA15DC3940"
 	icon: {
-		id: "deeperdarker:cobbled_gloomslate"
+		id: "deeperdarker:heart_of_the_deep"
 	}
 	id: "3D0322088ABD7480"
 	order_index: 3
@@ -12,510 +12,784 @@
 	quests: [
 		{
 			dependencies: ["1008C7F7965BD055"]
+			description: [
+				"Locate an Ancient City in the Deep Dark of the Overworld."
+				"Its Reinforced Deepslate frame is a dormant Otherside portal."
+				"Come prepared: the Warden lurks here."
+			]
 			icon: {
-				id: "minecraft:echo_shard"
+				id: "minecraft:reinforced_deepslate"
 			}
-			id: "40C4EA2C73849FF0"
+			id: "0D8409E8541916F7"
 			rewards: [
 				{
-					id: "40F491A2BFDA7546"
-					item: {
-						count: 1
-						id: "minecraft:sculk_catalyst"
-					}
+					id: "0D19C6E900C5DFBE"
+					item: { count: 3, id: "numismatics:spur" }
 					type: "item"
 				}
 				{
-					id: "40DD1928846DFB30"
+					id: "0D522E5163C3B82A"
 					type: "xp"
 					xp: 200
 				}
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				count: 2L
-				id: "40C99ACE29D2E2C6"
-				item: { count: 1, id: "minecraft:echo_shard" }
-				type: "item"
-			}]
+			tasks: [
+				{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: "ancient_city"
+				id: "0DDDD508953E0E4B"
+				type: "advancement"
+			}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["40C4EA2C73849FF0"]
-			id: "40A7467B5D2CE20D"
+			dependencies: ["0D8409E8541916F7"]
+			description: [
+				"Defeat a Warden. It always drops the Heart of the Deep"
+				"and 1 to 3 Warden Carapace. The Heart is the portal key;"
+				"the Carapace is the base of Warden armor."
+			]
+			icon: {
+				id: "deeperdarker:warden_carapace"
+			}
+			id: "0DC288DA0D480DD9"
 			rewards: [
 				{
-					count: 8
-					id: "40BB563ABABFC072"
-					item: {
-						count: 1
-						id: "deeperdarker:echo_log"
-					}
+					id: "0D57051C6220AB26"
+					item: { count: 2, id: "deeperdarker:warden_carapace" }
 					type: "item"
 				}
 				{
-					id: "40AAAB18D455CBE9"
+					id: "0D66FC4268F4CD4C"
 					type: "xp"
-					xp: 250
+					xp: 400
 				}
 			]
-			tasks: [{
-				advancement: "deeperdarker:main/enter_otherside"
-				criterion: "otherside"
-				id: "40019331EDEA6045"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+				advancement: "deeperdarker:main/kill_warden"
+				criterion: "warden"
+				id: "0DB04434E2FA8F4D"
 				type: "advancement"
-			}]
+			}
+			]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["40A7467B5D2CE20D"]
-			id: "4066741F39AE17E5"
-			rewards: [
-				{
-					count: 8
-					id: "40D447A8EE6213D2"
-					item: {
-						count: 1
-						id: "deeperdarker:gloomslate"
-					}
-					type: "item"
-				}
-				{
-					id: "4034D82AEC30B10A"
-					type: "xp"
-					xp: 200
-				}
+			dependencies: ["0DC288DA0D480DD9"]
+			description: [
+				"Hold the Heart of the Deep, the guaranteed Warden drop."
+				"Clear the sculk, veins and catalysts off the portal frame,"
+				"then right-click the frame with the Heart to ignite it."
 			]
-			tasks: [{
-				count: 16L
-				id: "405DFAACB2B5B41B"
-				item: { count: 1, id: "deeperdarker:cobbled_gloomslate" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4066741F39AE17E5"]
-			id: "400B70B15CA981EA"
-			rewards: [
-				{
-					count: 2
-					id: "4021B66350669FC7"
-					item: {
-						count: 1
-						id: "deeperdarker:resonarium"
-					}
-					type: "item"
-				}
-				{
-					id: "4030A5695075FEED"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				advancement: "deeperdarker:main/obtain_reinforced_echo_shard"
-				criterion: ""
-				id: "40C32A7DAC16B572"
-				type: "advancement"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["400B70B15CA981EA"]
-			id: "4043768E77603466"
-			rewards: [
-				{
-					id: "40B90A0EE0284991"
-					item: {
-						count: 1
-						id: "deeperdarker:resonarium_helmet"
-					}
-					type: "item"
-				}
-				{
-					id: "40BDCF8ECBEEA1C3"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "402A267939B37A10"
-					type: "xp"
-					xp: 350
-				}
-			]
-			tasks: [{
-				id: "4038370F09396856"
-				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["40A7467B5D2CE20D"]
-			id: "40E836AE008BD782"
-			rewards: [
-				{
-					count: 6
-					id: "40BCD40A1F20C789"
-					item: {
-						count: 1
-						id: "cobblemon:dusk_ball"
-					}
-					type: "item"
-				}
-				{
-					id: "40F7839E18B48DB2"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 2L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "deeperdarker:otherside"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "40230BB08D0CA62B"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "ghost"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["40E836AE008BD782"]
-			id: "4000684EADA90E4E"
-			rewards: [
-				{
-					count: 4
-					id: "40D61EED2F5653E8"
-					item: {
-						count: 1
-						id: "cobblemon:ultra_ball"
-					}
-					type: "item"
-				}
-				{
-					id: "400C6F5AB73D0A27"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 2L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "deeperdarker:otherside"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "40E63FE828612DD1"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "dark"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4000684EADA90E4E"]
-			id: "40B0202CA677F4CD"
-			rewards: [
-				{
-					count: 3
-					id: "405F7F5458FC8852"
-					item: {
-						count: 1
-						id: "cobblemon:beast_ball"
-					}
-					type: "item"
-				}
-				{
-					id: "40C55BE6FD062F72"
-					type: "xp"
-					xp: 350
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "deeperdarker:otherside"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "40B480BECC77AEAC"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "dragon"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["40A7467B5D2CE20D"]
 			icon: {
 				id: "deeperdarker:heart_of_the_deep"
 			}
-			id: "40CDEB41E5A18660"
+			id: "0D424E0479541DE2"
 			rewards: [
 				{
-					count: 5
-					id: "40A93BF1976A5AFC"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
+					id: "0D44A4983EF3CA4B"
+					item: { count: 2, id: "numismatics:spur" }
 					type: "item"
 				}
 				{
-					id: "40116F99FDA23D12"
+					id: "0D885801EA4825F2"
 					type: "xp"
-					xp: 60
+					xp: 250
 				}
 			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "deeperdarker:otherside"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "4046F7C28D3F1916"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "ghost"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["40CDEB41E5A18660"]
-			icon: {
-				id: "cobblemon:dusk_ball"
+			tasks: [
+				{
+				count: 1L
+				id: "0D36DBE15F25FE78"
+				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
+				type: "item"
 			}
-			id: "403420D65C5F13B8"
-			rewards: [
-				{
-					count: 5
-					id: "402D3430D7F21654"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "40B161A3934CA9A3"
-					type: "xp"
-					xp: 60
-				}
 			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "deeperdarker:otherside"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "406860FAA952CF40"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "dark"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
 			x: 4.0d
-			y: 2.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["403420D65C5F13B8"]
+			dependencies: ["0D424E0479541DE2"]
+			description: [
+				"Enter the Otherside dimension through the ignited portal."
+				"Beware: darkness is permanent here. Save near the portal"
+				"and watch your footing over the void."
+			]
 			icon: {
-				id: "cobblemon:beast_ball"
+				id: "minecraft:reinforced_deepslate"
 			}
-			id: "4017A30D1D6290F2"
+			id: "0D704EF54A8692D2"
 			rewards: [
 				{
-					count: 5
-					id: "40ADC81315EA628B"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
+					id: "0DFF9C324E815E7E"
+					item: { count: 8, id: "deeperdarker:echo_log" }
 					type: "item"
 				}
 				{
-					id: "40288DFCD49A4A2B"
+					id: "0D032CC37D195AF8"
 					type: "xp"
-					xp: 60
+					xp: 300
 				}
 			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "deeperdarker:otherside"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "40375736D69B146F"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "dragon"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+				advancement: "deeperdarker:main/enter_otherside"
+				criterion: "otherside"
+				id: "0DB81ACA8FCC1CB7"
+				type: "advancement"
+			}
+			]
 			x: 6.0d
-			y: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D704EF54A8692D2"]
+			description: [
+				"Smith a Warden Helmet: Netherite Helmet + Reinforced Echo"
+				"Shard + Warden Upgrade Template. Worn in the Otherside it"
+				"cancels the permanent darkness effect."
+			]
+			icon: {
+				id: "deeperdarker:warden_helmet"
+			}
+			id: "0DFA5A299C8FE1E3"
+			rewards: [
+				{
+					id: "0DDE560425AAD75E"
+					item: { count: 3, id: "numismatics:spur" }
+					type: "item"
+				}
+				{
+					id: "0D76E3D3280E2F45"
+					type: "xp"
+					xp: 350
+				}
+			]
+			tasks: [
+				{
+				count: 1L
+				id: "0D75EC576C48A9A5"
+				item: { count: 1, id: "deeperdarker:warden_helmet" }
+				type: "item"
+			}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D704EF54A8692D2"]
+			description: [
+				"Visit all four Otherside biomes: the dangerous Deeplands,"
+				"the calm Echoing Forest, the Overcast Columns and the"
+				"Blooming Caverns."
+			]
+			icon: {
+				id: "deeperdarker:blooming_moss_block"
+			}
+			id: "0DEADDEFF1333A3E"
+			rewards: [
+				{
+					id: "0DA5830A7FCCF78E"
+					item: { count: 8, id: "cobblemon:dusk_ball" }
+					type: "item"
+				}
+				{
+					id: "0D936316A3F91BD5"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+				advancement: "deeperdarker:main/explore_otherside"
+				criterion: ""
+				id: "0D540F9D3A366AC0"
+				type: "advancement"
+			}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DEADDEFF1333A3E"]
+			description: [
+				"Find an Ancient Temple, buried in the Deeplands biome."
+				"It has three levels. An Ancient Compass points the way"
+				"if you have crafted one."
+			]
+			icon: {
+				id: "deeperdarker:ancient_compass"
+			}
+			id: "0D56EF90278D9F98"
+			rewards: [
+				{
+					id: "0DD25B74A9867441"
+					item: { count: 3, id: "numismatics:spur" }
+					type: "item"
+				}
+				{
+					id: "0D7507A2D4F0DF67"
+					type: "xp"
+					xp: 350
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: "ancient_temple"
+				id: "0DF436A0DAD35804"
+				type: "advancement"
+			}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D56EF90278D9F98"]
+			description: [
+				"Break the 2x2 water on the temple entrance level to reach"
+				"the hidden floor. Recover a Sculk Transmitter: place two"
+				"and shift right-click to link them for wireless redstone."
+			]
+			icon: {
+				id: "deeperdarker:sculk_transmitter"
+			}
+			id: "0D853FFF03AF874A"
+			rewards: [
+				{
+					id: "0D459ED6F73A88BB"
+					item: { count: 2, id: "numismatics:spur" }
+					type: "item"
+				}
+				{
+					id: "0D7346021C508477"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+				count: 1L
+				id: "0D7EED01B7EB9C05"
+				item: { count: 1, id: "deeperdarker:sculk_transmitter" }
+				type: "item"
+			}
+			]
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
-				"4043768E77603466"
-				"40B0202CA677F4CD"
-				"40CDEB41E5A18660"
-				"403420D65C5F13B8"
-				"4017A30D1D6290F2"
+				"0D8409E8541916F7"
+				"0D56EF90278D9F98"
+			]
+			description: [
+				"Loot the Warden Upgrade Smithing Template from Ancient City"
+				"chests (about a 45% chance) or deep in the Ancient Temple."
+				"You need it for every piece of Warden gear."
 			]
 			icon: {
-				id: "deeperdarker:resonarium_chestplate"
+				id: "deeperdarker:warden_upgrade_smithing_template"
 			}
-			id: "4029EBE8C49167AB"
+			id: "0D69C613943D8FB1"
 			min_required_dependencies: 1
 			rewards: [
 				{
-					id: "404ADBB0E1B0DD58"
-					type: "random"
-				}
-				{
-					id: "4083DD823017E1C4"
-					item: {
-						count: 1
-						id: "cobblemon:master_ball"
-					}
+					id: "0DD1F9C6A728F9F8"
+					item: { count: 3, id: "numismatics:spur" }
 					type: "item"
 				}
 				{
-					id: "40F85C00E6608BF6"
+					id: "0D008D93A9CFBB33"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [
+				{
+				count: 1L
+				id: "0D4377D76C7D93C3"
+				item: { count: 1, id: "deeperdarker:warden_upgrade_smithing_template" }
+				type: "item"
+			}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0DC288DA0D480DD9"
+				"0D69C613943D8FB1"
+			]
+			description: [
+				"Craft the Reinforced Echo Shard: 4 Warden Carapace,"
+				"4 Phantom Membrane and 1 Echo Shard in a crafting grid."
+				"It is the addition for all Warden gear."
+			]
+			icon: {
+				id: "deeperdarker:reinforced_echo_shard"
+			}
+			id: "0D802B541D5177D2"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "0D4FF339FD1C35F0"
+					item: { count: 3, id: "numismatics:spur" }
+					type: "item"
+				}
+				{
+					id: "0D3DE77458CC7E67"
+					type: "xp"
+					xp: 450
+				}
+			]
+			tasks: [
+				{
+				count: 1L
+				id: "0D3315E7509E481C"
+				item: { count: 1, id: "deeperdarker:reinforced_echo_shard" }
+				type: "item"
+			}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0DFA5A299C8FE1E3"
+				"0D802B541D5177D2"
+			]
+			description: [
+				"The true endgame. Smith a full set of Warden armor from"
+				"Netherite pieces, Reinforced Echo Shards and the Warden"
+				"Upgrade Template. Sculk-forged protection for the deepest dark."
+			]
+			icon: {
+				id: "deeperdarker:warden_chestplate"
+			}
+			id: "0DEB68547CDDD594"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "0DE9511D61D2CDEF"
+					table_id: 4619768743861145070L
+					type: "random"
+				}
+				{
+					id: "0DE33D103D687E6F"
+					item: { count: 1, id: "cobblemon:master_ball" }
+					type: "item"
+				}
+				{
+					id: "0DAC965DC4A05B3D"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+				advancement: "deeperdarker:main/warden_armor"
+				criterion: "warden_armor"
+				id: "0DBA0856D7C929B9"
+				type: "advancement"
+			}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0DFA5A299C8FE1E3"
+				"0D802B541D5177D2"
+			]
+			description: [
+				"Craft the Sonorous Staff from a Heart of the Deep, Sculk"
+				"Bones and a Soul Crystal. It fires the Warden's sonic boom"
+				"on demand, the ultimate Otherside weapon."
+			]
+			icon: {
+				id: "deeperdarker:sonorous_staff"
+			}
+			id: "0D3B3DF1CC03C676"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "0D476B654EBABE0B"
+					item: { count: 3, id: "numismatics:spur" }
+					type: "item"
+				}
+				{
+					id: "0D06FFF4540DFA9C"
 					type: "xp"
 					xp: 600
 				}
 			]
 			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "405924FE5B81C46C"
+			size: 1.5d
+			tasks: [
+				{
+				count: 1L
+				id: "0D6719044DA97181"
+				item: { count: 1, id: "deeperdarker:sonorous_staff" }
+				type: "item"
+			}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DEADDEFF1333A3E"]
+			description: [
+				"Hunt the small Sludges in the Blooming Caverns. They drop"
+				"Resonarium, the raw material for a lightweight sculk armor"
+				"set that sits between iron and diamond."
+			]
+			icon: {
+				id: "deeperdarker:resonarium"
+			}
+			id: "0DF27C813E62ED08"
+			rewards: [
+				{
+					id: "0D48C39E542376AF"
+					item: { count: 2, id: "numismatics:spur" }
+					type: "item"
+				}
+				{
+					id: "0DE7940092447D3B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+				count: 8L
+				id: "0D78A632751CD950"
+				item: { count: 1, id: "deeperdarker:resonarium" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DF27C813E62ED08"]
+			description: [
+				"Combine 4 Resonarium with 4 Scutes to press a Resonarium"
+				"Plate. This is the smithing addition for the whole set."
+			]
+			icon: {
+				id: "deeperdarker:resonarium_plate"
+			}
+			id: "0DD84E0B3DC7A88B"
+			rewards: [
+				{
+					id: "0D88459E66F55477"
+					item: { count: 2, id: "numismatics:spur" }
+					type: "item"
+				}
+				{
+					id: "0DC098789C013E85"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+				count: 1L
+				id: "0D5BB708346F2951"
+				item: { count: 1, id: "deeperdarker:resonarium_plate" }
+				type: "item"
+			}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DD84E0B3DC7A88B"]
+			description: [
+				"Smith a Resonarium Chestplate: Diamond Chestplate +"
+				"Resonarium Plate + Resonarium Upgrade Template. A solid"
+				"mid-game set, not the final goal of this dimension."
+			]
+			icon: {
+				id: "deeperdarker:resonarium_chestplate"
+			}
+			id: "0D910C4F83092A51"
+			rewards: [
+				{
+					id: "0D96B770500F578D"
+					item: { count: 1, id: "deeperdarker:resonarium_upgrade_smithing_template" }
+					type: "item"
+				}
+				{
+					id: "0DE73B25986ABF3B"
+					item: { count: 3, id: "numismatics:spur" }
+					type: "item"
+				}
+				{
+					id: "0DC0EE8243C52A9C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [
+				{
+				count: 1L
+				id: "0D11B306A2894580"
 				item: { count: 1, id: "deeperdarker:resonarium_chestplate" }
 				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
+			}
+			]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D704EF54A8692D2"]
+			description: [
+				"The Otherside is haunted. Catch 3 Ghost-type Pokemon here,"
+				"from Gastly and Duskull to Golett and Spiritomb."
+			]
+			icon: {
+				id: "cobblemon:dusk_ball"
+			}
+			id: "0D573A3D893F8FE4"
+			rewards: [
+				{
+					id: "0D1B9CDCD681EEB8"
+					item: { count: 6, id: "cobblemon:dusk_ball" }
+					type: "item"
+				}
+				{
+					id: "0D2BF342F1C1D405"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+				abilities: ""
+				action: "catch"
+				amount: 3L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "0D4CEE22AF792344"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}
+			]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D573A3D893F8FE4"]
+			description: [
+				"Perpetual night breeds Dark-types. Catch 3 Dark-type"
+				"Pokemon in the Otherside, such as Deino, Scraggy and Malamar."
+			]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "0DE2D2ABD01B6240"
+			rewards: [
+				{
+					id: "0DADEBB8C4060B72"
+					item: { count: 6, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+				{
+					id: "0D132EF12930F75F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+				abilities: ""
+				action: "catch"
+				amount: 3L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "0DB5AE162D62EE00"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}
+			]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DE2D2ABD01B6240"]
+			description: [
+				"The deepest reaches hide Dragon-types. Catch 3 Dragon-type"
+				"Pokemon here, from Goomy and Gible to Noibat and Deino."
+			]
+			icon: {
+				id: "cobblemon:beast_ball"
+			}
+			id: "0D75C87DFD66CFEA"
+			rewards: [
+				{
+					id: "0D99B9154CD0D2B9"
+					item: { count: 3, id: "cobblemon:beast_ball" }
+					type: "item"
+				}
+				{
+					id: "0D8C36F6B7BEA7AA"
+					type: "xp"
+					xp: 350
+				}
+			]
+			tasks: [
+				{
+				abilities: ""
+				action: "catch"
+				amount: 3L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "0DAE6F69FBCEC4A0"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dragon"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}
+			]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D75C87DFD66CFEA"]
+			description: [
+				"Paradox Pokemon roam the Otherside. Catch one more rare"
+				"Dragon-type such as Roaring Moon or Raging Bolt to round"
+				"out your Otherside dex."
+			]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "0DA011BA1F60AA1B"
+			rewards: [
+				{
+					id: "0D61E6FD15971892"
+					table_id: 4619768743861145070L
+					type: "random"
+				}
+				{
+					id: "0D29672FB47BBF70"
+					item: { count: 3, id: "numismatics:spur" }
+					type: "item"
+				}
+				{
+					id: "0DF645E848B1D355"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: "deeperdarker:otherside"
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "0D51EFF98446E81A"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dragon"
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}
+			]
+			x: 8.0d
+			y: -2.5d
 		}
 	]
 }

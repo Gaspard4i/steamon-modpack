@@ -6,15 +6,15 @@
 	loot_size: 1
 	order_index: 2
 	rewards: [
-		{ id: "582C900686374AF8", weight: 40.0f }
-		{ id: "5C9947B299D37B79", weight: 30.0f }
-		{ id: "44D737126B1C8F74", weight: 25.0f }
-		{ id: "03C6BF7A48FBB70C", weight: 20.0f }
-		{ id: "4068CC75AD453008", weight: 12.0f }
-		{ id: "20B535272780A8D2", weight: 10.0f }
-		{ id: "3449EAFA6D5EE3E5", weight: 8.0f }
-		{ id: "2E8E7C9BF0C8EA83", weight: 5.0f }
-		{ id: "1E8B446ED90ED560", weight: 3.0f }
+		{ reward: { id: "582C900686374AF8", type: "item", item: { id: "cobblemon:ultra_ball", count: 6 } }, weight: 40.0f }
+		{ reward: { id: "5C9947B299D37B79", type: "item", item: { id: "cobblemon:rare_candy", count: 4 } }, weight: 30.0f }
+		{ reward: { id: "44D737126B1C8F74", type: "item", item: { id: "cobblemon:exp_candy_m", count: 5 } }, weight: 25.0f }
+		{ reward: { id: "03C6BF7A48FBB70C", type: "item", item: { id: "cobblemon:destiny_knot", count: 1 } }, weight: 20.0f }
+		{ reward: { id: "4068CC75AD453008", type: "item", item: { id: "cobblemon:everstone", count: 2 } }, weight: 12.0f }
+		{ reward: { id: "20B535272780A8D2", type: "item", item: { id: "numismatics:spur", count: 12 } }, weight: 10.0f }
+		{ reward: { id: "3449EAFA6D5EE3E5", type: "item", item: { id: "cobblemon:mega_bracelet", count: 1 } }, weight: 8.0f }
+		{ reward: { id: "2E8E7C9BF0C8EA83", type: "item", item: { id: "cobblemon:ability_capsule", count: 1 } }, weight: 5.0f }
+		{ reward: { id: "1E8B446ED90ED560", type: "item", item: { id: "cobblemon:gold_bottle_cap", count: 1 } }, weight: 3.0f }
 	]
 	use_title: true
 }

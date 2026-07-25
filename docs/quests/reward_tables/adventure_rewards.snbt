@@ -1,52 +1,21 @@
 {
 	icon: {
-		components: {
-			"relics:data": {
-				abilities: {
-					abilities: {
-						protection: {
-							lock: {
-								breaks: 5
-							}
-							points: 0
-							stats: {
-								fire_duration: {
-									initialQuality: 5
-								}
-								invulnerability: {
-									initialQuality: 8
-								}
-								survival_chance: {
-									initialQuality: 5
-								}
-								undead_damage: {
-									initialQuality: 3
-								}
-							}
-						}
-					}
-					synergies: { }
-				}
-				leveling: { }
-				statistic: { }
-			}
-		}
-		id: "artifacts:cross_necklace"
+		id: "cobblemon:beast_ball"
 	}
 	id: "501CB7322A4BCDEE"
 	loot_size: 1
 	order_index: 6
 	rewards: [
-		{ id: "3A61C91A2179EF45", weight: 40.0f }
-		{ id: "3840233271E659A8", weight: 30.0f }
-		{ id: "7D17C466D3827944", weight: 20.0f }
-		{ id: "29442F521FAC00A2", weight: 20.0f }
-		{ id: "15E9F06B82CAD65D", weight: 18.0f }
-		{ id: "5345C33A7071FFF6", weight: 15.0f }
-		{ id: "73380FF376272FD9", weight: 15.0f }
-		{ id: "77CFB4869361238E", weight: 8.0f }
-		{ id: "41EE6805D80E2F49", weight: 8.0f }
-		{ id: "4CD7B875F3BB0184", weight: 2.0f }
+		{ reward: { id: "3A61C91A2179EF45", type: "item", item: { id: "cobblemon:ultra_ball", count: 6 } }, weight: 40.0f }
+		{ reward: { id: "3840233271E659A8", type: "item", item: { id: "cobblemon:quick_ball", count: 4 } }, weight: 30.0f }
+		{ reward: { id: "7D17C466D3827944", type: "item", item: { id: "cobblemon:dive_ball", count: 4 } }, weight: 20.0f }
+		{ reward: { id: "29442F521FAC00A2", type: "item", item: { id: "cobblemon:nest_ball", count: 4 } }, weight: 20.0f }
+		{ reward: { id: "15E9F06B82CAD65D", type: "item", item: { id: "numismatics:spur", count: 12 } }, weight: 18.0f }
+		{ reward: { id: "5345C33A7071FFF6", type: "item", item: { id: "cobblemon:rare_candy", count: 3 } }, weight: 15.0f }
+		{ reward: { id: "73380FF376272FD9", type: "item", item: { id: "minecraft:golden_apple", count: 3 } }, weight: 15.0f }
+		{ reward: { id: "77CFB4869361238E", type: "item", item: { id: "cobblemon:timer_ball", count: 4 } }, weight: 8.0f }
+		{ reward: { id: "41EE6805D80E2F49", type: "item", item: { id: "cobblemon:heal_ball", count: 4 } }, weight: 8.0f }
+		{ reward: { id: "4CD7B875F3BB0184", type: "item", item: { id: "cobblemon:beast_ball", count: 1 } }, weight: 2.0f }
 	]
 	use_title: true
 }

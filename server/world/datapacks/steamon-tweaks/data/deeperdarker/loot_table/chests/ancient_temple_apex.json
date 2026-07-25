@@ -18,7 +18,7 @@
             }
           ],
           "name": "minecraft:sculk",
-          "weight": 41
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -34,7 +34,7 @@
             }
           ],
           "name": "deeperdarker:sculk_bone",
-          "weight": 40
+          "weight": 18
         },
         {
           "type": "minecraft:item",
@@ -50,7 +50,7 @@
             }
           ],
           "name": "minecraft:echo_shard",
-          "weight": 40
+          "weight": 18
         },
         {
           "type": "minecraft:item",
@@ -66,7 +66,7 @@
             }
           ],
           "name": "deeperdarker:grime_brick",
-          "weight": 37
+          "weight": 16
         },
         {
           "type": "minecraft:item",
@@ -82,39 +82,7 @@
             }
           ],
           "name": "deeperdarker:grime_ball",
-          "weight": 34
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 9.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:tnt",
-          "weight": 30
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:flint",
-          "weight": 30
+          "weight": 14
         },
         {
           "type": "minecraft:item",
@@ -130,23 +98,7 @@
             }
           ],
           "name": "minecraft:iron_ingot",
-          "weight": 27
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 13.0,
-                "min": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:quartz",
-          "weight": 22
+          "weight": 14
         },
         {
           "type": "minecraft:item",
@@ -162,39 +114,7 @@
             }
           ],
           "name": "minecraft:redstone",
-          "weight": 18
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:disc_fragment_5",
-          "weight": 17
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 19.0,
-                "min": 7.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:lapis_lazuli",
-          "weight": 17
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -210,7 +130,7 @@
             }
           ],
           "name": "minecraft:diamond",
-          "weight": 17
+          "weight": 8
         },
         {
           "type": "minecraft:item",
@@ -226,7 +146,7 @@
             }
           ],
           "name": "minecraft:emerald",
-          "weight": 15
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -242,7 +162,7 @@
             }
           ],
           "name": "deeperdarker:crystallized_amber",
-          "weight": 15
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -258,78 +178,12 @@
             }
           ],
           "name": "minecraft:sculk_sensor",
-          "weight": 12
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:sculk_catalyst",
-          "weight": 12
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "name": "deeperdarker:resonarium_upgrade_smithing_template",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 40.0,
-                "min": 30.0
-              },
-              "options": "#minecraft:on_random_loot"
-            },
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.5
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:iron_helmet",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 40.0,
-                "min": 30.0
-              },
-              "options": "#minecraft:on_random_loot"
-            },
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.6,
-                "min": 0.3
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:iron_sword",
-          "weight": 5
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -354,32 +208,7 @@
             }
           ],
           "name": "minecraft:diamond_boots",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 50.0,
-                "min": 30.0
-              },
-              "options": "#minecraft:on_random_loot"
-            },
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.8
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:diamond_helmet",
-          "weight": 4
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -409,7 +238,7 @@
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 50.0,
-                "min": 40.0
+                "min": 30.0
               },
               "options": "#minecraft:on_random_loot"
             },
@@ -418,38 +247,13 @@
               "damage": {
                 "type": "minecraft:uniform",
                 "max": 0.9,
-                "min": 0.6
+                "min": 0.5
               },
               "function": "minecraft:set_damage"
             }
           ],
-          "name": "minecraft:diamond_chestplate",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 50.0,
-                "min": 40.0
-              },
-              "options": "#minecraft:on_random_loot"
-            },
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.8,
-                "min": 0.6
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:diamond_leggings",
-          "weight": 2
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -473,31 +277,8 @@
               "function": "minecraft:set_damage"
             }
           ],
-          "name": "minecraft:enchanted_golden_apple"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 50.0,
-                "min": 30.0
-              },
-              "options": "#minecraft:on_random_loot"
-            },
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.9,
-                "min": 0.5
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "deeperdarker:warden_carapace"
+          "name": "deeperdarker:warden_carapace",
+          "weight": 1
         }
       ],
       "rolls": {
@@ -632,6 +413,22 @@
           "type": "minecraft:item",
           "name": "cobblemon:eviolite",
           "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1e-07
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythsandlegends:griseous_orb"
         }
       ]
     }

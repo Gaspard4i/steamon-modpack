@@ -6,19 +6,19 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ id: "1E47FA30F5BFBA21", weight: 40.0f }
-		{ id: "31474E973F2EB662", weight: 40.0f }
-		{ id: "0B34D3AEF3C3097C", weight: 40.0f }
-		{ id: "1E2888131BB0AE7F", weight: 20.0f }
-		{ id: "45C4B2012B21D6AC", weight: 20.0f }
-		{ id: "49204C89940FF7B1", weight: 20.0f }
-		{ id: "51AB088F3775B2F7", weight: 8.0f }
-		{ id: "4FB3E840E73D4192", weight: 8.0f }
-		{ id: "1AD3000CC9CDFDB4", weight: 8.0f }
-		{ id: "2A53E9FA3A25B4FB", weight: 8.0f }
-		{ id: "27F7F0D6150E4121", weight: 3.0f }
-		{ id: "6D1175C44A4CE721", weight: 3.0f }
-		{ id: "2E00750C9F7F6FB0" }
+		{ reward: { id: "1E47FA30F5BFBA21", type: "item", item: { id: "cobblemon:sitrus_berry", count: 4 } }, weight: 40.0f }
+		{ reward: { id: "31474E973F2EB662", type: "item", item: { id: "cobblemon:oran_berry", count: 6 } }, weight: 40.0f }
+		{ reward: { id: "0B34D3AEF3C3097C", type: "item", item: { id: "cobblemon:pecha_berry", count: 4 } }, weight: 40.0f }
+		{ reward: { id: "1E2888131BB0AE7F", type: "item", item: { id: "cobblemon:lum_berry", count: 3 } }, weight: 20.0f }
+		{ reward: { id: "45C4B2012B21D6AC", type: "item", item: { id: "cobblemon:liechi_berry", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "49204C89940FF7B1", type: "item", item: { id: "cobblemon:salac_berry", count: 2 } }, weight: 20.0f }
+		{ reward: { id: "51AB088F3775B2F7", type: "item", item: { id: "cobblemon:petaya_berry", count: 2 } }, weight: 8.0f }
+		{ reward: { id: "4FB3E840E73D4192", type: "item", item: { id: "cobblemon:apicot_berry", count: 2 } }, weight: 8.0f }
+		{ reward: { id: "1AD3000CC9CDFDB4", type: "item", item: { id: "cobblemon:custap_berry", count: 2 } }, weight: 8.0f }
+		{ reward: { id: "2A53E9FA3A25B4FB", type: "item", item: { id: "numismatics:spur", count: 6 } }, weight: 8.0f }
+		{ reward: { id: "27F7F0D6150E4121", type: "item", item: { id: "cobblemon:ganlon_berry", count: 1 } }, weight: 3.0f }
+		{ reward: { id: "6D1175C44A4CE721", type: "item", item: { id: "cobblemon:starf_berry", count: 1 } }, weight: 3.0f }
+		{ reward: { id: "2E00750C9F7F6FB0", type: "item", item: { id: "cobblemon:enigma_berry", count: 1 } }, weight: 2.0f }
 	]
 	use_title: true
 }

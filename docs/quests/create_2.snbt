@@ -229,42 +229,6 @@
 		}
 		{
 			dependencies: ["20B15066AC9B97D2"]
-			id: "20FB4CD6EA08FFD3"
-			optional: true
-			rewards: [
-				{
-					id: "20AA10DAE6A4DACB"
-					item: {
-						count: 1
-						id: "create_integrated_farming:chicken_roost"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "20E34FB39CC351FE"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20E350568FE0A4AF"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [{
-				id: "20AB1FAE3B4B0518"
-				item: { count: 1, id: "create_integrated_farming:chicken_roost" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["20B15066AC9B97D2"]
 			id: "20DF52C01D4B1B82"
 			optional: true
 			rewards: [
@@ -460,6 +424,7 @@
 			rewards: [
 				{
 					id: "2012D4601D6507C7"
+					table_id: 2353900240102227970L
 					type: "random"
 				}
 				{

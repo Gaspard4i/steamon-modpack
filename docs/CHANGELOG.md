@@ -6,7 +6,53 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [2.0.0] - Unreleased (Season 2)
 
-### 2026-07-24 — Structure loot rethemed + linked legendaries, 2 charm slots
+### 2026-07-25 — Quest tree rebalance: reward tables fixed, dependencies loosened, dedup
+
+**Bugs fixed**
+- 18 of 19 reward tables were using an invalid entry format (`{id, weight}` with no
+  `reward` block) — every random reward on the quest tree was silently broken.
+  Rebuilt all of them with real, thematic items in the correct
+  `{reward:{id,type,item},weight}` format.
+- 17 chapter capstone quests had a `type:"random"` reward with no `table_id` —
+  fixed by pointing each at its matching reward table (as a signed Long).
+- Fixed an `ftbquests:missing_item` on the Overworld Waystone quest and on the
+  Otherside portal quest icon (cosmetic, wrong item id).
+- Removed the Feathers grid from Cobblemon Cooking and Cobblemon 2 — Feathers
+  have not been obtainable since Cobblemon 1.6.1; replaced with the X Item
+  line (X Attack/Defense/Sp. Atk/Sp. Def/Speed/Accuracy, Dire Hit).
+
+**Deduplication — one home per item family**
+- Vitamins, evolution stones/Link Cable, Power Items and PvP held items were
+  duplicated across Cobblemon 1/2 and their dedicated chapters. Removed from
+  Cobblemon 1/2, kept only in Cobblemon Cooking / Evolution Items / PvP Items.
+- Removed a duplicate Shiny Card quest from PvP Items (kept in Cobblemon 3,
+  next to the Shiny Hunter quest).
+
+**Dependency rebalance — less rigid, more parallel**
+- Cobblemon 1 (Poke Balls), Cobblemon 2 (Mega Stones, Armory, Fossils) and
+  Cobblemon 3 (Myths & Legends key items) had long strict A→B→C→D chains.
+  Converted to flat grids: every item now depends directly on its branch's
+  head quest, so missing one item no longer blocks a dozen others.
+  `min_required_dependencies` added on capstones so players don't need every
+  single collectible to finish a category.
+- Berries: same fix across all 8 sub-branches.
+- Evolution Items / PvP Items / Cobblemon Cooking capstones previously had
+  zero dependencies (completable instantly); added a soft dependency on a
+  handful of early items instead of the whole grid.
+- Overworld trunk: Nether, Aether, Otherside and End were gated in a strict
+  cascade (Nether → Nether Mastery → Ancient City → Glowstone → End Portal).
+  All three side dimensions now unlock in parallel directly from "Into the
+  Nether"; Dragon Slayer requires only one of the three dimension milestones
+  instead of the full chain.
+- Create: moved Trains/Track Station from Create 1 to Create 4 (endgame),
+  Chicken Roost from Create 2 to Create 1 (base kinetics), Ender Transmission
+  from Create 3 to Create 4 (post-nuclear). Added the missing
+  create-klinks-n-klangs branch (Poke Ball crafting, the Create↔Cobblemon
+  bridge) to Create 3.
+
+Net result: 734 → 642 quests (removed pure duplicates), same 21 chapters,
+19 reward tables all valid, 0 registry errors on reload, 0 dependency
+collisions across ~2400 quest/task/reward ids.
 
 **Loot — MVS structures rethemed per ambiance**
 - Rebuilt all 25 MVS structure loot tables so the loot actually matches the

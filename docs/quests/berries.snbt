@@ -79,7 +79,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["338F6A3444EB747E"]
+			dependencies: ["0F46F990084649AE"]
 			icon: {
 				id: "cobblemon:babiri_berry"
 			}
@@ -102,7 +102,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1FB03D40A5F26F5E"]
+			dependencies: ["0F46F990084649AE"]
 			icon: {
 				id: "cobblemon:belue_berry"
 			}
@@ -125,7 +125,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6DA4719DA9D3C18B"]
+			dependencies: ["0F46F990084649AE"]
 			icon: {
 				id: "cobblemon:bluk_berry"
 			}
@@ -148,7 +148,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1D1EE056126AAA28"]
+			dependencies: ["0F46F990084649AE"]
 			icon: {
 				id: "cobblemon:charti_berry"
 			}
@@ -171,7 +171,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3156ED3D702729A3"]
+			dependencies: ["0F46F990084649AE"]
 			icon: {
 				id: "cobblemon:cheri_berry"
 			}
@@ -194,7 +194,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7D6E430C26EDE06C"]
+			dependencies: ["0F46F990084649AE"]
 			icon: {
 				id: "cobblemon:chesto_berry"
 			}
@@ -217,7 +217,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7B390BAE8ED58355"]
+			dependencies: ["0F46F990084649AE"]
 			icon: {
 				id: "cobblemon:chilan_berry"
 			}
@@ -286,7 +286,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["33DFC5D1B2C45880"]
+			dependencies: ["7107C7BDAB487C21"]
 			icon: {
 				id: "cobblemon:colbur_berry"
 			}
@@ -309,7 +309,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["4BCA5AE6E024A7AF"]
+			dependencies: ["33DFC5D1B2C45880"]
 			icon: {
 				id: "cobblemon:cornn_berry"
 			}
@@ -332,7 +332,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["160AD5DDFCD12842"]
+			dependencies: ["33DFC5D1B2C45880"]
 			icon: {
 				id: "cobblemon:custap_berry"
 			}
@@ -355,7 +355,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["2DE76DFC1086F69F"]
+			dependencies: ["33DFC5D1B2C45880"]
 			icon: {
 				id: "cobblemon:durin_berry"
 			}
@@ -378,7 +378,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["212D7476B4076095"]
+			dependencies: ["33DFC5D1B2C45880"]
 			icon: {
 				id: "cobblemon:eggant_berry"
 			}
@@ -401,7 +401,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["09EA7E2A62D56CB6"]
+			dependencies: ["33DFC5D1B2C45880"]
 			icon: {
 				id: "cobblemon:enigma_berry"
 			}
@@ -423,7 +423,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1C0F43010C872618"]
+			dependencies: ["33DFC5D1B2C45880"]
 			icon: {
 				id: "cobblemon:figy_berry"
 			}
@@ -446,7 +446,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["5C4F8C7C2625DA6B"]
+			dependencies: ["33DFC5D1B2C45880"]
 			icon: {
 				id: "cobblemon:ganlon_berry"
 			}
@@ -515,7 +515,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["23417F87E6CFA339"]
+			dependencies: ["7E453D568132465C"]
 			icon: {
 				id: "cobblemon:hondew_berry"
 			}
@@ -538,7 +538,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["103C9803731EF929"]
+			dependencies: ["23417F87E6CFA339"]
 			icon: {
 				id: "cobblemon:hopo_berry"
 			}
@@ -561,7 +561,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["74057901CB46C6FC"]
+			dependencies: ["23417F87E6CFA339"]
 			icon: {
 				id: "cobblemon:iapapa_berry"
 			}
@@ -584,7 +584,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2514160C77268B55"]
+			dependencies: ["23417F87E6CFA339"]
 			icon: {
 				id: "cobblemon:jaboca_berry"
 			}
@@ -607,7 +607,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["163F89F9BD994CEA"]
+			dependencies: ["23417F87E6CFA339"]
 			icon: {
 				id: "cobblemon:kasib_berry"
 			}
@@ -630,7 +630,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["76530D0122392A08"]
+			dependencies: ["23417F87E6CFA339"]
 			icon: {
 				id: "cobblemon:kebia_berry"
 			}
@@ -653,7 +653,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["35E796275277CA87"]
+			dependencies: ["23417F87E6CFA339"]
 			icon: {
 				id: "cobblemon:kee_berry"
 			}
@@ -676,7 +676,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7808D45744C35AEE"]
+			dependencies: ["23417F87E6CFA339"]
 			icon: {
 				id: "cobblemon:kelpsy_berry"
 			}
@@ -744,7 +744,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["79A3BC35DD7F0C88"]
+			dependencies: ["7B63BDBF02CC4CA0"]
 			icon: {
 				id: "cobblemon:liechi_berry"
 			}
@@ -767,7 +767,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7FEA374D63883FC9"]
+			dependencies: ["79A3BC35DD7F0C88"]
 			icon: {
 				id: "cobblemon:lum_berry"
 			}
@@ -790,7 +790,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7CB5661D486CF43B"]
+			dependencies: ["79A3BC35DD7F0C88"]
 			icon: {
 				id: "cobblemon:mago_berry"
 			}
@@ -813,7 +813,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["17CFE63D9CCD4A62"]
+			dependencies: ["79A3BC35DD7F0C88"]
 			icon: {
 				id: "cobblemon:magost_berry"
 			}
@@ -836,7 +836,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1625B3BD9C78D8C4"]
+			dependencies: ["79A3BC35DD7F0C88"]
 			icon: {
 				id: "cobblemon:maranga_berry"
 			}
@@ -859,7 +859,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["61AA8829A6838596"]
+			dependencies: ["79A3BC35DD7F0C88"]
 			icon: {
 				id: "cobblemon:micle_berry"
 			}
@@ -882,7 +882,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["31A8811F6306EC1C"]
+			dependencies: ["79A3BC35DD7F0C88"]
 			icon: {
 				id: "cobblemon:nanab_berry"
 			}
@@ -905,7 +905,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["73A90838A9F8B990"]
+			dependencies: ["79A3BC35DD7F0C88"]
 			icon: {
 				id: "cobblemon:nomel_berry"
 			}
@@ -951,7 +951,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["43C55E1C1051E955"]
+			dependencies: ["7B63BDBF02CC4CA0"]
 			icon: {
 				id: "cobblemon:oran_berry"
 			}
@@ -974,7 +974,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1015F00E0936A20C"]
+			dependencies: ["43C55E1C1051E955"]
 			icon: {
 				id: "cobblemon:pamtre_berry"
 			}
@@ -997,7 +997,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["73512D315FA8BF3F"]
+			dependencies: ["43C55E1C1051E955"]
 			icon: {
 				id: "cobblemon:passho_berry"
 			}
@@ -1020,7 +1020,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1999C22F426BB20D"]
+			dependencies: ["43C55E1C1051E955"]
 			icon: {
 				id: "cobblemon:payapa_berry"
 			}
@@ -1043,7 +1043,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6E7DCFD62C81A8FC"]
+			dependencies: ["43C55E1C1051E955"]
 			icon: {
 				id: "cobblemon:pecha_berry"
 			}
@@ -1066,7 +1066,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["58D5E7FD62AAB638"]
+			dependencies: ["43C55E1C1051E955"]
 			icon: {
 				id: "cobblemon:persim_berry"
 			}
@@ -1089,7 +1089,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3AB4439C155914C0"]
+			dependencies: ["43C55E1C1051E955"]
 			icon: {
 				id: "cobblemon:petaya_berry"
 			}
@@ -1112,7 +1112,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["25FF5F49346F0351"]
+			dependencies: ["43C55E1C1051E955"]
 			icon: {
 				id: "cobblemon:pinap_berry"
 			}
@@ -1135,7 +1135,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["21B58E36233A376E"]
+			dependencies: ["43C55E1C1051E955"]
 			icon: {
 				id: "cobblemon:pomeg_berry"
 			}
@@ -1227,7 +1227,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["44943D9F41393F60"]
+			dependencies: ["2AA86FA3605C966D"]
 			icon: {
 				id: "cobblemon:razz_berry"
 			}
@@ -1250,7 +1250,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["183BDF232B778A6E"]
+			dependencies: ["2AA86FA3605C966D"]
 			icon: {
 				id: "cobblemon:rindo_berry"
 			}
@@ -1273,7 +1273,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["1BFA2B372F6E2B48"]
+			dependencies: ["2AA86FA3605C966D"]
 			icon: {
 				id: "cobblemon:roseli_berry"
 			}
@@ -1296,7 +1296,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["5D380D157C097D1B"]
+			dependencies: ["2AA86FA3605C966D"]
 			icon: {
 				id: "cobblemon:rowap_berry"
 			}
@@ -1319,7 +1319,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["07B41EF5E9FD3A17"]
+			dependencies: ["2AA86FA3605C966D"]
 			icon: {
 				id: "cobblemon:salac_berry"
 			}
@@ -1342,7 +1342,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7A6122D4891EE43B"]
+			dependencies: ["2AA86FA3605C966D"]
 			icon: {
 				id: "cobblemon:shuca_berry"
 			}
@@ -1365,7 +1365,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["24EDE1EB4FBADB4C"]
+			dependencies: ["2AA86FA3605C966D"]
 			icon: {
 				id: "cobblemon:sitrus_berry"
 			}
@@ -1433,7 +1433,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["030706C9972D89C0"]
+			dependencies: ["3A21272C12F3782D"]
 			icon: {
 				id: "cobblemon:tamato_berry"
 			}
@@ -1456,7 +1456,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3E7681AB12026F3F"]
+			dependencies: ["3A21272C12F3782D"]
 			icon: {
 				id: "cobblemon:tanga_berry"
 			}
@@ -1479,7 +1479,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["44D4B1C50A9377B4"]
+			dependencies: ["3A21272C12F3782D"]
 			icon: {
 				id: "cobblemon:touga_berry"
 			}
@@ -1502,7 +1502,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["06BA82A06BF7842E"]
+			dependencies: ["3A21272C12F3782D"]
 			icon: {
 				id: "cobblemon:wacan_berry"
 			}
@@ -1525,7 +1525,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["374870F324D9E89A"]
+			dependencies: ["3A21272C12F3782D"]
 			icon: {
 				id: "cobblemon:watmel_berry"
 			}
@@ -1548,7 +1548,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["18625E0A72A07F84"]
+			dependencies: ["3A21272C12F3782D"]
 			icon: {
 				id: "cobblemon:wepear_berry"
 			}
@@ -1571,7 +1571,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["7DABE28A86480F2F"]
+			dependencies: ["3A21272C12F3782D"]
 			icon: {
 				id: "cobblemon:wiki_berry"
 			}
@@ -1594,7 +1594,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1490B18DC7964605"]
+			dependencies: ["3A21272C12F3782D"]
 			icon: {
 				id: "cobblemon:yache_berry"
 			}
@@ -1627,6 +1627,7 @@
 				"3A21272C12F3782D"
 				"56065A80390AF05A"
 			]
+			min_required_dependencies: 6
 			icon: {
 				id: "cobblemon:enigma_berry"
 			}
@@ -1634,6 +1635,7 @@
 			rewards: [
 				{
 					id: "624E3C4EF65E04D5"
+					table_id: 2603717197295007141L
 					type: "random"
 				}
 				{

@@ -6,16 +6,16 @@
 	loot_size: 1
 	order_index: 18
 	rewards: [
-		{ id: "12EEACA664D2AD2A", weight: 40.0f }
-		{ id: "6FA82AC5253D04D8", weight: 25.0f }
-		{ id: "2640024D610D225B", weight: 20.0f }
-		{ id: "61419F0F23EFA5A5", weight: 20.0f }
-		{ id: "202A37AA33035106", weight: 12.0f }
-		{ id: "58BBF282EFC4B06B", weight: 10.0f }
-		{ id: "64B6FC94C03254CA", weight: 12.0f }
-		{ id: "2719F7DEC8DDD1C9", weight: 10.0f }
-		{ id: "62DEB2DB80428702", weight: 4.0f }
-		{ id: "24E508CED60ACC50", weight: 2.0f }
+		{ reward: { id: "12EEACA664D2AD2A", type: "item", item: { id: "createnuclear:raw_uranium", count: 8 } }, weight: 40.0f }
+		{ reward: { id: "6FA82AC5253D04D8", type: "item", item: { id: "createnuclear:yellowcake", count: 4 } }, weight: 25.0f }
+		{ reward: { id: "2640024D610D225B", type: "item", item: { id: "create:track", count: 32 } }, weight: 20.0f }
+		{ reward: { id: "61419F0F23EFA5A5", type: "item", item: { id: "createendertransmission:energy_transmitter", count: 1 } }, weight: 20.0f }
+		{ reward: { id: "202A37AA33035106", type: "item", item: { id: "create_sa:brass_jetpack_chestplate", count: 1 } }, weight: 12.0f }
+		{ reward: { id: "58BBF282EFC4B06B", type: "item", item: { id: "numismatics:spur", count: 25 } }, weight: 10.0f }
+		{ reward: { id: "64B6FC94C03254CA", type: "item", item: { id: "createnuclear:reinforced_glass", count: 8 } }, weight: 12.0f }
+		{ reward: { id: "2719F7DEC8DDD1C9", type: "item", item: { id: "create:chunk_loader", count: 1 } }, weight: 10.0f }
+		{ reward: { id: "62DEB2DB80428702", type: "item", item: { id: "createnuclear:reactor_casing", count: 4 } }, weight: 4.0f }
+		{ reward: { id: "24E508CED60ACC50", type: "item", item: { id: "create_sa:netherite_jetpack_chestplate", count: 1 } }, weight: 2.0f }
 	]
 	use_title: true
 }

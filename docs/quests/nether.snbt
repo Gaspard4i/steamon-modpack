@@ -467,6 +467,7 @@
 			rewards: [
 				{
 					id: "40310BFF0E81DA44"
+					table_id: 4655351827188013291L
 					type: "random"
 				}
 				{

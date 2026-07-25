@@ -189,7 +189,7 @@
 		}
 		{
 			icon: {
-				id: "cobblemon:health_feather"
+				id: "cobblemon:x_attack"
 			}
 			id: "325E291E2A1ACC80"
 			rewards: [{
@@ -203,7 +203,7 @@
 			}]
 			tasks: [{
 				id: "51D9B1689E76092D"
-				item: { count: 1, id: "cobblemon:health_feather" }
+				item: { count: 1, id: "cobblemon:x_attack" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -211,7 +211,7 @@
 		}
 		{
 			icon: {
-				id: "cobblemon:muscle_feather"
+				id: "cobblemon:x_defence"
 			}
 			id: "542A34A7665C3651"
 			rewards: [{
@@ -225,7 +225,7 @@
 			}]
 			tasks: [{
 				id: "2FBEFAF3E93B9615"
-				item: { count: 1, id: "cobblemon:muscle_feather" }
+				item: { count: 1, id: "cobblemon:x_defence" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -233,7 +233,7 @@
 		}
 		{
 			icon: {
-				id: "cobblemon:resist_feather"
+				id: "cobblemon:x_special_attack"
 			}
 			id: "2D0DD5D06EE5C01E"
 			rewards: [{
@@ -247,7 +247,7 @@
 			}]
 			tasks: [{
 				id: "195BF44B08B9D5C5"
-				item: { count: 1, id: "cobblemon:resist_feather" }
+				item: { count: 1, id: "cobblemon:x_special_attack" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -255,7 +255,7 @@
 		}
 		{
 			icon: {
-				id: "cobblemon:genius_feather"
+				id: "cobblemon:x_special_defence"
 			}
 			id: "0E433EF0B0919A69"
 			rewards: [{
@@ -269,7 +269,7 @@
 			}]
 			tasks: [{
 				id: "05FE68D3F8076403"
-				item: { count: 1, id: "cobblemon:genius_feather" }
+				item: { count: 1, id: "cobblemon:x_special_defence" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -277,7 +277,7 @@
 		}
 		{
 			icon: {
-				id: "cobblemon:clever_feather"
+				id: "cobblemon:x_speed"
 			}
 			id: "68ACE7575F81183E"
 			rewards: [{
@@ -291,7 +291,7 @@
 			}]
 			tasks: [{
 				id: "307AE3387ECC9A45"
-				item: { count: 1, id: "cobblemon:clever_feather" }
+				item: { count: 1, id: "cobblemon:x_speed" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -299,7 +299,7 @@
 		}
 		{
 			icon: {
-				id: "cobblemon:swift_feather"
+				id: "cobblemon:x_accuracy"
 			}
 			id: "17E6A8EE94843D92"
 			rewards: [{
@@ -313,7 +313,7 @@
 			}]
 			tasks: [{
 				id: "27477363F4D64E06"
-				item: { count: 1, id: "cobblemon:swift_feather" }
+				item: { count: 1, id: "cobblemon:x_accuracy" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -321,7 +321,7 @@
 		}
 		{
 			icon: {
-				id: "cobblemon:fairy_feather"
+				id: "cobblemon:dire_hit"
 			}
 			id: "6DBA9B5876B3E382"
 			rewards: [{
@@ -335,7 +335,7 @@
 			}]
 			tasks: [{
 				id: "7EE6945B38CBFD37"
-				item: { count: 1, id: "cobblemon:fairy_feather" }
+				item: { count: 1, id: "cobblemon:dire_hit" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -1948,6 +1948,13 @@
 			y: 13.0d
 		}
 		{
+			dependencies: [
+				"39A88117C609668C"
+				"2A27EACB10DB3932"
+				"18D3CED4A6ED20C3"
+				"20AACBD489D285A7"
+			]
+			min_required_dependencies: 2
 			icon: {
 				id: "cobblemon:rare_candy"
 			}
@@ -1955,6 +1962,7 @@
 			rewards: [
 				{
 					id: "1E972E58EFB1976C"
+					table_id: 8957920879204790475L
 					type: "random"
 				}
 				{
