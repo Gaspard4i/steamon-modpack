@@ -157,6 +157,14 @@ file = "config/mmode.json"
 hash = "a8ddb25bd837937e965acddfa195a0803698353fbbaa485262fc2ac7a412f0b2"
 
 [[files]]
+file = "config/mythsandlegends/config.toml"
+hash = "b8f742c2d529ab2d885151d6f004e4c971207817527c292ae73f8ce4f766393e"
+
+[[files]]
+file = "config/mythsandlegends/loot_tables_config.json"
+hash = "56ac68716acd76deb6f1bc742d5ba30da5a30c03955e0ec32548ce02bf34cfe9"
+
+[[files]]
 file = "config/openpartiesandclaims-server.toml"
 hash = "dcdd4ebb514906722ab36a9e34ee434f40e7ee610d887f5e666bdb45bdaa0a1b"
 
@@ -2576,6 +2584,18 @@ hash = "6b65da5dde259aa9357b9a426b60ce8821cf5c58b1b1b9a85a4b12740b2f508d"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/water/basic_loot.json"
 hash = "a89300795fb37bebc95d0469deea5dcd96d0a427e239f1cd9972d82504ea451d"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_ltab/structures/testlww.nbt"
+hash = "b7a2de8aff76a6f08948c39a30da0da6410dac1093361565e2067a8ec6785921"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_ltab/structures/testwm.nbt"
+hash = "7d573685ce20000546a367eb70c245aa8b94dca03cb34e5d5d5f87909a17a01d"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_ltab/structures/testww.nbt"
+hash = "e277c0ddec9e389bcc4296def2c153d3c257a20d8160d631906e87d7df8e2dc5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/heat_engine_recipe.json"
