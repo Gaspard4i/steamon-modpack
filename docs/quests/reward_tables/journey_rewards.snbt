@@ -6,12 +6,12 @@
 	loot_size: 1
 	order_index: 10
 	rewards: [
-		{ reward: { id: "7E1A040FA2D7FE81", type: "item", item: { id: "minecraft:netherite_ingot", count: 1 } }, weight: 40.0f }
-		{ reward: { id: "5DE373FA4C081B26", type: "item", item: { id: "numismatics:spur", count: 20 } }, weight: 30.0f }
-		{ reward: { id: "3F356D4AD2128C12", type: "item", item: { id: "cobblemon:master_ball", count: 2 } }, weight: 25.0f }
-		{ reward: { id: "7FDC97CE9D0E4F5A", type: "item", item: { id: "minecraft:elytra", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "630C9EF5F6D44F51", type: "item", item: { id: "cobblemon:exp_candy_xl", count: 4 } }, weight: 15.0f }
-		{ reward: { id: "62799E0568E59CE6", type: "item", item: { id: "minecraft:dragon_egg", count: 1 } }, weight: 3.0f }
+		{ id: "5E87702CB3396846", weight: 40.0f }
+		{ id: "24A17832921116BC", weight: 30.0f }
+		{ id: "25122451E5EB9CBF", weight: 25.0f }
+		{ id: "2719A9F59CD4D2CC", weight: 15.0f }
+		{ id: "2BCD1737E2078531", weight: 15.0f }
+		{ id: "2AF33DD0AA393D49", weight: 3.0f }
 	]
 	use_title: true
 }

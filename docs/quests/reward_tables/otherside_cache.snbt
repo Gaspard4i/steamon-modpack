@@ -6,16 +6,16 @@
 	loot_size: 1
 	order_index: 11
 	rewards: [
-		{ reward: { id: "0D555B51B00D6AB6", type: "item", item: { id: "deeperdarker:sculk_bone", count: 4 } }, weight: 40.0f }
-		{ reward: { id: "0D8DA899686A99E9", type: "item", item: { id: "deeperdarker:echo_log", count: 6 } }, weight: 25.0f }
-		{ reward: { id: "0D2C3AF9C03426DC", type: "item", item: { id: "deeperdarker:gloomslate", count: 8 } }, weight: 25.0f }
-		{ reward: { id: "0D68A44A60CCAEA0", type: "item", item: { id: "deeperdarker:resonarium", count: 3 } }, weight: 20.0f }
-		{ reward: { id: "0DCB3AB451022442", type: "item", item: { id: "minecraft:echo_shard", count: 3 } }, weight: 15.0f }
-		{ reward: { id: "0DF085BB30D7AC5C", type: "item", item: { id: "deeperdarker:soul_dust", count: 4 } }, weight: 15.0f }
-		{ reward: { id: "0DDE39ED79F9D1B0", type: "item", item: { id: "deeperdarker:soul_crystal", count: 1 } }, weight: 10.0f }
-		{ reward: { id: "0DB8F4C7CC6AB4F5", type: "item", item: { id: "deeperdarker:warden_carapace", count: 1 } }, weight: 8.0f }
-		{ reward: { id: "0DBEED2B52D50AAE", type: "item", item: { id: "cobblemon:dusk_ball", count: 4 } }, weight: 6.0f }
-		{ reward: { id: "0D8FC9F6CEAAED13", type: "item", item: { id: "deeperdarker:reinforced_echo_shard", count: 1 } }, weight: 3.0f }
+		{ id: "67E573F27C78AD41", weight: 40.0f }
+		{ id: "4F6052AE0E2F923C", weight: 25.0f }
+		{ id: "5E9996E0E8F5557A", weight: 25.0f }
+		{ id: "22A341886549535E", weight: 20.0f }
+		{ id: "38845E9D8D84AF35", weight: 15.0f }
+		{ id: "40041894E07B62E9", weight: 15.0f }
+		{ id: "099C19FE44B89E5C", weight: 10.0f }
+		{ id: "4B224225FFBAE36A", weight: 8.0f }
+		{ id: "4D2E30290D56AADE", weight: 6.0f }
+		{ id: "6C17D365EAC639CD", weight: 3.0f }
 	]
 	use_title: true
 }

@@ -6,17 +6,17 @@
 	loot_size: 1
 	order_index: 16
 	rewards: [
-		{ reward: { id: "1B3D06B1C403C9BB", type: "item", item: { id: "create:brass_ingot", count: 16 } }, weight: 40.0f }
-		{ reward: { id: "75E5DBDBB97364BD", type: "item", item: { id: "create:andesite_funnel", count: 6 } }, weight: 25.0f }
-		{ reward: { id: "5ED30BA9AB0BCFA9", type: "item", item: { id: "create:mechanical_arm", count: 1 } }, weight: 25.0f }
-		{ reward: { id: "6805678F5076F9F2", type: "item", item: { id: "create:deployer", count: 1 } }, weight: 30.0f }
-		{ reward: { id: "6CCFAC11DC9CF890", type: "item", item: { id: "create:mechanical_piston", count: 4 } }, weight: 20.0f }
-		{ reward: { id: "5D6FD2E03A75E62D", type: "item", item: { id: "create:fluid_tank", count: 4 } }, weight: 20.0f }
-		{ reward: { id: "7007A1C4B25E092E", type: "item", item: { id: "numismatics:spur", count: 12 } }, weight: 15.0f }
-		{ reward: { id: "45A0AA894FB8C79B", type: "item", item: { id: "create:mechanical_crafter", count: 1 } }, weight: 12.0f }
-		{ reward: { id: "14DF1B535777E266", type: "item", item: { id: "create_compressed:iron_sheet_block", count: 1 } }, weight: 10.0f }
-		{ reward: { id: "1153BED5F8347CED", type: "item", item: { id: "create_integrated_farming:chicken_roost", count: 1 } }, weight: 8.0f }
-		{ reward: { id: "37FA30F4A537194F", type: "item", item: { id: "create:hose_pulley", count: 1 } }, weight: 5.0f }
+		{ id: "45E5D36D19C4503B", weight: 40.0f }
+		{ id: "76376C3C5F95EB9B", weight: 25.0f }
+		{ id: "2E57445E71E8902D", weight: 25.0f }
+		{ id: "126E23E852E3747E", weight: 30.0f }
+		{ id: "1A5CD18CFC0EF446", weight: 20.0f }
+		{ id: "726666509FCB5421", weight: 20.0f }
+		{ id: "12261CF4E928F086", weight: 15.0f }
+		{ id: "7BE54BD5B49155E4", weight: 12.0f }
+		{ id: "10FB6F1EC3D917D5", weight: 10.0f }
+		{ id: "17374CB8E7272638", weight: 8.0f }
+		{ id: "561467D589A2FCFE", weight: 5.0f }
 	]
 	use_title: true
 }

@@ -6,19 +6,19 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ reward: { id: "1E47FA30F5BFBA21", type: "item", item: { id: "cobblemon:sitrus_berry", count: 4 } }, weight: 40.0f }
-		{ reward: { id: "31474E973F2EB662", type: "item", item: { id: "cobblemon:oran_berry", count: 6 } }, weight: 40.0f }
-		{ reward: { id: "0B34D3AEF3C3097C", type: "item", item: { id: "cobblemon:pecha_berry", count: 4 } }, weight: 40.0f }
-		{ reward: { id: "1E2888131BB0AE7F", type: "item", item: { id: "cobblemon:lum_berry", count: 3 } }, weight: 20.0f }
-		{ reward: { id: "45C4B2012B21D6AC", type: "item", item: { id: "cobblemon:liechi_berry", count: 2 } }, weight: 20.0f }
-		{ reward: { id: "49204C89940FF7B1", type: "item", item: { id: "cobblemon:salac_berry", count: 2 } }, weight: 20.0f }
-		{ reward: { id: "51AB088F3775B2F7", type: "item", item: { id: "cobblemon:petaya_berry", count: 2 } }, weight: 8.0f }
-		{ reward: { id: "4FB3E840E73D4192", type: "item", item: { id: "cobblemon:apicot_berry", count: 2 } }, weight: 8.0f }
-		{ reward: { id: "1AD3000CC9CDFDB4", type: "item", item: { id: "cobblemon:custap_berry", count: 2 } }, weight: 8.0f }
-		{ reward: { id: "2A53E9FA3A25B4FB", type: "item", item: { id: "numismatics:spur", count: 6 } }, weight: 8.0f }
-		{ reward: { id: "27F7F0D6150E4121", type: "item", item: { id: "cobblemon:ganlon_berry", count: 1 } }, weight: 3.0f }
-		{ reward: { id: "6D1175C44A4CE721", type: "item", item: { id: "cobblemon:starf_berry", count: 1 } }, weight: 3.0f }
-		{ reward: { id: "2E00750C9F7F6FB0", type: "item", item: { id: "cobblemon:enigma_berry", count: 1 } }, weight: 2.0f }
+		{ id: "4614E22319F3CEE6", weight: 40.0f }
+		{ id: "5562A69C2C7FDB59", weight: 40.0f }
+		{ id: "1AC69907169500A7", weight: 40.0f }
+		{ id: "405169DA3B37CBAF", weight: 20.0f }
+		{ id: "4D809707B955BCA9", weight: 20.0f }
+		{ id: "7E46690E5BB93A0E", weight: 20.0f }
+		{ id: "549F51A847179546", weight: 8.0f }
+		{ id: "4D1E6026E95AB9FF", weight: 8.0f }
+		{ id: "7091032301F619EC", weight: 8.0f }
+		{ id: "3C111083E6F078F1", weight: 8.0f }
+		{ id: "4D8C17CB822CFE98", weight: 3.0f }
+		{ id: "4D46939A45B09E5A", weight: 3.0f }
+		{ id: "69848D411FE13D2B", weight: 2.0f }
 	]
 	use_title: true
 }

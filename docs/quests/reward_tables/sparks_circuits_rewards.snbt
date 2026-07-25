@@ -6,17 +6,17 @@
 	loot_size: 1
 	order_index: 17
 	rewards: [
-		{ reward: { id: "78A47ACAE720FFFD", type: "item", item: { id: "createaddition:copper_wire", count: 12 } }, weight: 40.0f }
-		{ reward: { id: "120CA5A50A027E87", type: "item", item: { id: "createaddition:capacitor", count: 2 } }, weight: 25.0f }
-		{ reward: { id: "74D6948308707FED", type: "item", item: { id: "createaddition:electric_motor", count: 1 } }, weight: 25.0f }
-		{ reward: { id: "4EB05F7792437567", type: "item", item: { id: "createaddition:alternator", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "6B6F49A39FEE5424", type: "item", item: { id: "create_enchantment_industry:printer", count: 1 } }, weight: 30.0f }
-		{ reward: { id: "13C3E81DA9E319B2", type: "item", item: { id: "create_enchantment_industry:blaze_enchanter", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "5E86B14C0C45ECF8", type: "item", item: { id: "numismatics:spur", count: 15 } }, weight: 15.0f }
-		{ reward: { id: "445D168D02C80D9C", type: "item", item: { id: "createaddition:gold_wire", count: 8 } }, weight: 12.0f }
-		{ reward: { id: "6A977501A228D729", type: "item", item: { id: "cobblemon:poke_ball", count: 6 } }, weight: 10.0f }
-		{ reward: { id: "75E046295FEF097D", type: "item", item: { id: "createaddition:electrum_ingot", count: 4 } }, weight: 8.0f }
-		{ reward: { id: "66BA2BA0E6DFE021", type: "item", item: { id: "createaddition:tesla_coil", count: 1 } }, weight: 5.0f }
+		{ id: "7F777FF7862ABCD8", weight: 40.0f }
+		{ id: "3BCEE242238A4E0A", weight: 25.0f }
+		{ id: "173FEF21AB09FA5F", weight: 25.0f }
+		{ id: "4FA894E2563ABAF5", weight: 20.0f }
+		{ id: "16C120C101E38C53", weight: 30.0f }
+		{ id: "1B9E6C63A654AEE1", weight: 20.0f }
+		{ id: "64688E247A5DC37C", weight: 15.0f }
+		{ id: "5D93BEC223DCCEC4", weight: 12.0f }
+		{ id: "718AC7F0AFEE7EE3", weight: 10.0f }
+		{ id: "6CB45C3FB1168F04", weight: 8.0f }
+		{ id: "1D0A5755B10B34EB", weight: 5.0f }
 	]
 	use_title: true
 }

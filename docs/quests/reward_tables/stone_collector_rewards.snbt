@@ -6,19 +6,19 @@
 	loot_size: 1
 	order_index: 3
 	rewards: [
-		{ reward: { id: "3360A4030E493CEC", type: "item", item: { id: "cobblemon:fire_stone", count: 2 } }, weight: 20.0f }
-		{ reward: { id: "50163641DECA1EBB", type: "item", item: { id: "cobblemon:water_stone", count: 2 } }, weight: 20.0f }
-		{ reward: { id: "3CD187766F59AA41", type: "item", item: { id: "cobblemon:thunder_stone", count: 2 } }, weight: 20.0f }
-		{ reward: { id: "3E91A638C3E53069", type: "item", item: { id: "cobblemon:leaf_stone", count: 2 } }, weight: 20.0f }
-		{ reward: { id: "01D0A6A540C26CA0", type: "item", item: { id: "cobblemon:moon_stone", count: 2 } }, weight: 20.0f }
-		{ reward: { id: "7A5439438529B7D9", type: "item", item: { id: "cobblemon:sun_stone", count: 2 } }, weight: 20.0f }
-		{ reward: { id: "0074A04F4FB51EAB", type: "item", item: { id: "cobblemon:dusk_stone", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "0E95464A1525362A", type: "item", item: { id: "cobblemon:dawn_stone", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "0CE3C0467AF45DC9", type: "item", item: { id: "cobblemon:shiny_stone", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "7DF4FA6734001F15", type: "item", item: { id: "cobblemon:ice_stone", count: 1 } }, weight: 15.0f }
-		{ reward: { id: "0614DFBC58F30947", type: "item", item: { id: "cobblemon:link_cable", count: 1 } }, weight: 10.0f }
-		{ reward: { id: "166521F087B51EC2", type: "item", item: { id: "cobblemon:metal_coat", count: 1 } }, weight: 10.0f }
-		{ reward: { id: "32B82C101319C51B", type: "item", item: { id: "cobblemon:kings_rock", count: 1 } }, weight: 6.0f }
+		{ id: "15D526C3F6AA00AB", weight: 20.0f }
+		{ id: "3FC146E85E1A2BC5", weight: 20.0f }
+		{ id: "136C5EDF7DB173ED", weight: 20.0f }
+		{ id: "7C0B9B4F2BE4399C", weight: 20.0f }
+		{ id: "7375FEA8DFEF9F56", weight: 20.0f }
+		{ id: "741BC1FC13031604", weight: 20.0f }
+		{ id: "66CB02CFC6B3F08A", weight: 15.0f }
+		{ id: "244CAEE3A8E96FD3", weight: 15.0f }
+		{ id: "2FEA441BCA12BB8E", weight: 15.0f }
+		{ id: "5E1DF5C492B8846D", weight: 15.0f }
+		{ id: "6EF8731BFC28B79A", weight: 10.0f }
+		{ id: "455C47DF5A3A09C7", weight: 10.0f }
+		{ id: "57AE55FECBA70ACE", weight: 6.0f }
 	]
 	use_title: true
 }

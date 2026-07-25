@@ -1,18 +1,21 @@
 {
+	chapter.2A69463259A2529A.title: "PvP Battle Items"
+	chapter.74F26D82D9CE04F2.title: "Evolution Items"
+	chapter.5A5AC189BB6CF2ED.title: "Cobblemon Cooking"
 	chapter.11428B5DCB284F18.title: "The Aether"
-	chapter.13E19555881008B6.title: "Cogs & Crates"
+	chapter.13E19555881008B6.title: "Cogs \& Crates"
 	chapter.2139644C7994A01B.title: "The End"
 	chapter.217E2268CE450D1B.title: "First Steps"
 	chapter.2BC90E55E57FA3C2.title: "Daily Quests"
 	chapter.320A946A705510B3.title: "Beyond the Machine"
-	chapter.388F59E226EBC45B.title: "Myths & Legends"
+	chapter.388F59E226EBC45B.title: "Myths \& Legends"
 	chapter.3D0322088ABD7480.title: "Otherside"
 	chapter.3EF16F7A003E45D5.title: "Nether"
 	chapter.46B599A838F27B8A.title: "Culinary"
-	chapter.4AC9C2A03CC7FEF4.title: "Sparks & Circuits"
+	chapter.4AC9C2A03CC7FEF4.title: "Sparks \& Circuits"
 	chapter.4B491D83F2C81B36.title: "Steamon League"
 	chapter.509B21D25C01D8EB.title: "Welcome"
-	chapter.5EFD32D15CC97C4F.title: "Adventure & Loot"
+	chapter.5EFD32D15CC97C4F.title: "Adventure \& Loot"
 	chapter.612937DFCAE1B256.title: "Steamon Journey"
 	chapter.612C81EB79BF4D14.title: "Berries"
 	chapter.680467472FCE4635.title: "Trainer's Path"
@@ -131,7 +134,117 @@
 	quest.0CE52A5881BE9369.quest_desc: ["Boosts HP potential further; part of the IV candy set."]
 	quest.0D22B07789AE6D40.quest_desc: ["A fluffy Poke Puff treat used to raise a Pokemon's friendship."]
 	quest.0D383980B566BC0D.quest_desc: ["A sweet cream puff snack, a tasty friendship treat."]
+	quest.0D3B3DF1CC03C676.quest_desc: [
+		"Craft the Sonorous Staff from a Heart of the Deep, Sculk"
+		"Bones and a Soul Crystal. It fires the Warden's sonic boom"
+		"on demand, the ultimate Otherside weapon."
+	]
+	quest.0D3B3DF1CC03C676.title: "The Sonorous Staff"
+	quest.0D424E0479541DE2.quest_desc: [
+		"Hold the Heart of the Deep, the guaranteed Warden drop."
+		"Clear the sculk, veins and catalysts off the portal frame,"
+		"then right-click the frame with the Heart to ignite it."
+	]
+	quest.0D424E0479541DE2.title: "Heart of the Deep"
+	quest.0D56EF90278D9F98.quest_desc: [
+		"Find an Ancient Temple, buried in the Deeplands biome."
+		"It has three levels. An Ancient Compass points the way"
+		"if you have crafted one."
+	]
+	quest.0D56EF90278D9F98.title: "The Ancient Temple"
+	quest.0D573A3D893F8FE4.quest_desc: [
+		"The Otherside is haunted. Catch 3 Ghost-type Pokemon here,"
+		"from Gastly and Duskull to Golett and Spiritomb."
+	]
+	quest.0D573A3D893F8FE4.title: "Ghosts of the Otherside"
+	quest.0D69C613943D8FB1.quest_desc: [
+		"Loot the Warden Upgrade Smithing Template from Ancient City"
+		"chests (about a 45% chance) or deep in the Ancient Temple."
+		"You need it for every piece of Warden gear."
+	]
+	quest.0D69C613943D8FB1.title: "Warden Upgrade Template"
+	quest.0D704EF54A8692D2.quest_desc: [
+		"Enter the Otherside dimension through the ignited portal."
+		"Beware: darkness is permanent here. Save near the portal"
+		"and watch your footing over the void."
+	]
+	quest.0D704EF54A8692D2.title: "Step Into the Otherside"
+	quest.0D75C87DFD66CFEA.quest_desc: [
+		"The deepest reaches hide Dragon-types. Catch 3 Dragon-type"
+		"Pokemon here, from Goomy and Gible to Noibat and Deino."
+	]
+	quest.0D75C87DFD66CFEA.title: "Dragons in the Deep"
+	quest.0D802B541D5177D2.quest_desc: [
+		"Craft the Reinforced Echo Shard: 4 Warden Carapace,"
+		"4 Phantom Membrane and 1 Echo Shard in a crafting grid."
+		"It is the addition for all Warden gear."
+	]
+	quest.0D802B541D5177D2.title: "Reinforced Echo Shard"
+	quest.0D8409E8541916F7.quest_desc: [
+		"Locate an Ancient City in the Deep Dark of the Overworld."
+		"Its Reinforced Deepslate frame is a dormant Otherside portal."
+		"Come prepared: the Warden lurks here."
+	]
+	quest.0D8409E8541916F7.title: "The Prebuilt Gate"
+	quest.0D853FFF03AF874A.quest_desc: [
+		"Break the 2x2 water on the temple entrance level to reach"
+		"the hidden floor. Recover a Sculk Transmitter: place two"
+		"and shift right-click to link them for wireless redstone."
+	]
+	quest.0D853FFF03AF874A.title: "The Linker"
+	quest.0D910C4F83092A51.quest_desc: [
+		"Smith a Resonarium Chestplate: Diamond Chestplate +"
+		"Resonarium Plate + Resonarium Upgrade Template. A solid"
+		"mid-game set, not the final goal of this dimension."
+	]
+	quest.0D910C4F83092A51.title: "Resonarium Armor"
 	quest.0D994F3743783D4C.quest_desc: ["A magma-heated device that evolves Magmar into Magmortar."]
+	quest.0DA011BA1F60AA1B.quest_desc: [
+		"Paradox Pokemon roam the Otherside. Catch one more rare"
+		"Dragon-type such as Roaring Moon or Raging Bolt to round"
+		"out your Otherside dex."
+	]
+	quest.0DA011BA1F60AA1B.title: "Echoes of Another Time"
+	quest.0DC288DA0D480DD9.quest_desc: [
+		"Defeat a Warden. It always drops the Heart of the Deep"
+		"and 1 to 3 Warden Carapace. The Heart is the portal key;"
+		"the Carapace is the base of Warden armor."
+	]
+	quest.0DC288DA0D480DD9.title: "Slay the Warden"
+	quest.0DD84E0B3DC7A88B.quest_desc: [
+		"Combine 4 Resonarium with 4 Scutes to press a Resonarium"
+		"Plate. This is the smithing addition for the whole set."
+	]
+	quest.0DD84E0B3DC7A88B.title: "Resonarium Plate"
+	quest.0DE2D2ABD01B6240.quest_desc: [
+		"Perpetual night breeds Dark-types. Catch 3 Dark-type"
+		"Pokemon in the Otherside, such as Deino, Scraggy and Malamar."
+	]
+	quest.0DE2D2ABD01B6240.title: "Creatures of Darkness"
+	quest.0DEADDEFF1333A3E.quest_desc: [
+		"Visit all four Otherside biomes: the dangerous Deeplands,"
+		"the calm Echoing Forest, the Overcast Columns and the"
+		"Blooming Caverns."
+	]
+	quest.0DEADDEFF1333A3E.title: "A World to Explore"
+	quest.0DEB68547CDDD594.quest_desc: [
+		"The true endgame. Smith a full set of Warden armor from"
+		"Netherite pieces, Reinforced Echo Shards and the Warden"
+		"Upgrade Template. Sculk-forged protection for the deepest dark."
+	]
+	quest.0DEB68547CDDD594.title: "Warden Armor"
+	quest.0DF27C813E62ED08.quest_desc: [
+		"Hunt the small Sludges in the Blooming Caverns. They drop"
+		"Resonarium, the raw material for a lightweight sculk armor"
+		"set that sits between iron and diamond."
+	]
+	quest.0DF27C813E62ED08.title: "Resonarium Ore"
+	quest.0DFA5A299C8FE1E3.quest_desc: [
+		"Smith a Warden Helmet: Netherite Helmet + Reinforced Echo"
+		"Shard + Warden Upgrade Template. Worn in the Otherside it"
+		"cancels the permanent darkness effect."
+	]
+	quest.0DFA5A299C8FE1E3.title: "See in the Dark"
 	quest.0E433EF0B0919A69.quest_desc: ["Adds a single Special Attack EV."]
 	quest.0E5235A7B474672B.quest_desc: [
 		"Never run out of Poke Balls again. Plant Apricorns and build a farm."
@@ -208,7 +321,7 @@
 		""
 		"Iron is the backbone of both Create and Cobblemon. Machines, Poke Balls and better gear all demand it."
 		""
-		"&eUnlocks the Create branch: Cogs & Crates&r. Time to start building machines."
+		"&eUnlocks the Create branch: Cogs \& Crates&r. Time to start building machines."
 	]
 	quest.102BA726C9F17223.quest_subtitle: "The metal that runs everything"
 	quest.102BA726C9F17223.title: "Iron Age"
@@ -244,7 +357,7 @@
 		""
 		"Step through into a world of fire, ash and rare Pokemon. Bring gold. The Nether respects those who wear it."
 		""
-		"&eUnlocks the Nether dimension branch and the Create branch: Sparks & Circuits&r."
+		"&eUnlocks the Nether dimension branch and the Create branch: Sparks \& Circuits&r."
 	]
 	quest.105485D414441DF4.quest_subtitle: "Light your first portal"
 	quest.105485D414441DF4.title: "Into the Nether"
@@ -296,7 +409,7 @@
 		""
 		"This is the peak of the main line. Beyond it lies the true endgame content of Steamon."
 		""
-		"&eUnlocks the Create branch: Beyond the Machine, the Cobblemon branch: Myths & Legends, and the Adventure & League content&r. You are ready for it all."
+		"&eUnlocks the Create branch: Beyond the Machine, the Cobblemon branch: Myths \& Legends, and the Adventure \& League content&r. You are ready for it all."
 	]
 	quest.10FC1EB90F757C1B.quest_subtitle: "Slay the Ender Dragon"
 	quest.10FC1EB90F757C1B.title: "Dragon Slayer"
@@ -343,12 +456,12 @@
 	quest.1168BD4586502127.quest_subtitle: "Branch marker"
 	quest.1168BD4586502127.title: "Path: The End"
 	quest.11B9E97BEC38C56B.quest_desc: [
-		"This path leads to the &eMyths & Legends&r branch."
+		"This path leads to the &eMyths \& Legends&r branch."
 		""
 		"Follow the marker to open that quest line."
 	]
 	quest.11B9E97BEC38C56B.quest_subtitle: "Branch marker"
-	quest.11B9E97BEC38C56B.title: "Path: Myths & Legends"
+	quest.11B9E97BEC38C56B.title: "Path: Myths \& Legends"
 	quest.11D05E3CE2B7E750.quest_desc: [
 		"This path leads to the &eCulinary&r branch."
 		""
@@ -357,12 +470,12 @@
 	quest.11D05E3CE2B7E750.quest_subtitle: "Branch marker"
 	quest.11D05E3CE2B7E750.title: "Path: Culinary"
 	quest.11D0ACCB0E10BB07.quest_desc: [
-		"This path leads to the &eCreate: Cogs & Crates&r branch."
+		"This path leads to the &eCreate: Cogs \& Crates&r branch."
 		""
 		"Follow the marker to open that quest line."
 	]
 	quest.11D0ACCB0E10BB07.quest_subtitle: "Branch marker"
-	quest.11D0ACCB0E10BB07.title: "Path: Cogs & Crates"
+	quest.11D0ACCB0E10BB07.title: "Path: Cogs \& Crates"
 	quest.11E9CC6C443AC051.quest_desc: [
 		"This path leads to the &eAdventure&r branch."
 		""
@@ -378,12 +491,12 @@
 	quest.11F2E207DC27FDC7.quest_subtitle: "Branch marker"
 	quest.11F2E207DC27FDC7.title: "Path: Rotational Power"
 	quest.11F3534AE5D06169.quest_desc: [
-		"This path leads to the &eCreate: Sparks & Circuits&r branch."
+		"This path leads to the &eCreate: Sparks \& Circuits&r branch."
 		""
 		"Follow the marker to open that quest line."
 	]
 	quest.11F3534AE5D06169.quest_subtitle: "Branch marker"
-	quest.11F3534AE5D06169.title: "Path: Sparks & Circuits"
+	quest.11F3534AE5D06169.title: "Path: Sparks \& Circuits"
 	quest.11F862B29B31518C.quest_desc: [
 		"This path leads to the &eOtherside&r branch."
 		""
@@ -1110,7 +1223,7 @@
 	quest.3090960AFB219897.quest_desc: [
 		"You breed for stats, train EVs, wield Mega Stones, ride mounts and raid dens. Few Trainers reach this far."
 		""
-		"&eUnlocks Myths & Legends&r once the Ender Dragon falls. Claim the Trainer's Path cache."
+		"&eUnlocks Myths \& Legends&r once the Ender Dragon falls. Claim the Trainer's Path cache."
 		""
 		"Reward: one pull from the Trainer's Path loot table, plus a bonus."
 	]
@@ -1128,7 +1241,7 @@
 		""
 		"Claim the ultimate cache. There is no higher Trainer rank in Steamon."
 		""
-		"Reward: one pull from the Myths & Legends loot table, plus a bonus."
+		"Reward: one pull from the Myths \& Legends loot table, plus a bonus."
 	]
 	quest.30A36CD67E88494F.quest_subtitle: "The peak of the journey"
 	quest.30A36CD67E88494F.title: "Champion of Steamon"
@@ -1699,7 +1812,7 @@
 	quest.4C51E3BC23133857.quest_desc: [
 		"You have automation, control and trains. Now you build the &afull factory&r: superheated boilers, scheduled rail networks, package logistics, and the flying machines this pack adds on top of Create."
 		""
-		"This chapter uses the pack's Create addons: &aCreate Stuff & Additions&r jetpacks, &aCreate Nuclear&r reactors and &aCreate Dragons Plus&r."
+		"This chapter uses the pack's Create addons: &aCreate Stuff \& Additions&r jetpacks, &aCreate Nuclear&r reactors and &aCreate Dragons Plus&r."
 		""
 		"Everything you make here runs on its own."
 	]
@@ -1805,7 +1918,7 @@
 	quest.501CF9AF56F01343.quest_subtitle: "Grass Gym: battle"
 	quest.501CF9AF56F01343.title: "Grass Gym Battle"
 	quest.501DCF0AC468F2D7.quest_desc: [
-		"With the Ender Dragon slain, the world opens up. Structures hide loot, rare balls and priceless relics."
+		"With the Ender Dragon slain, the world opens up. This opens the Adventure \& Loot quest line: structures hide priceless artifacts and relics."
 		""
 		"Seek out villages, mineshafts and the silent Ancient Cities of the Deep Dark."
 		""
@@ -1827,15 +1940,6 @@
 	]
 	quest.502684F98BF0F945.quest_subtitle: "Rock Gym: battle"
 	quest.502684F98BF0F945.title: "Rock Gym Battle"
-	quest.50294A5E15CF177A.quest_desc: [
-		"The &aMaster Ball&r catches any Pokemon without fail. There is nothing rarer in a Trainer's bag."
-		""
-		"Obtain one to prove your collection is complete."
-		""
-		"It is not consumed by this quest."
-	]
-	quest.50294A5E15CF177A.quest_subtitle: "The ultimate catch"
-	quest.50294A5E15CF177A.title: "The Master Ball"
 	quest.502A267939B37A10.quest_desc: [
 		"Raise a &aDragon-type&r Pokemon to at least &alevel 60&r."
 		""
@@ -1857,13 +1961,6 @@
 	]
 	quest.503420D65C5F13B8.quest_subtitle: "Earn the Dark Badge"
 	quest.503420D65C5F13B8.title: "Dark Badge"
-	quest.5035665954F13AAF.quest_desc: [
-		"Excels in the dark and in caves."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.5035665954F13AAF.quest_subtitle: "Special Ball"
-	quest.5035665954F13AAF.title: "Dusk Ball"
 	quest.503EA98C0D6DA092.quest_desc: [
 		"Complete the catch, battle and training tasks of the Rock Gym to earn the &aRock Badge&r."
 		""
@@ -1939,13 +2036,6 @@
 	]
 	quest.506B9A6F6EC1D24C.quest_subtitle: "Water Gym: catch"
 	quest.506B9A6F6EC1D24C.title: "Catch a Water-type"
-	quest.5072C373AAB7AF13.quest_desc: [
-		"Fully heals a caught Pokemon."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.5072C373AAB7AF13.quest_subtitle: "Special Ball"
-	quest.5072C373AAB7AF13.title: "Heal Ball"
 	quest.507644D633E92AAF.quest_desc: [
 		"Raise a &aElectric-type&r Pokemon to at least &alevel 29&r."
 		""
@@ -1974,13 +2064,6 @@
 	]
 	quest.507CEC039B55736C.quest_subtitle: "Water Gym: battle"
 	quest.507CEC039B55736C.title: "Water Gym Battle"
-	quest.508490691423DA09.quest_desc: [
-		"Better against low-level Pokemon."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.508490691423DA09.quest_subtitle: "Special Ball"
-	quest.508490691423DA09.title: "Nest Ball"
 	quest.50888E190728D8D6.quest_desc: [
 		"Useful commands for getting around Steamon:"
 		""
@@ -2108,21 +2191,14 @@
 	quest.50AD2FD698288044.quest_subtitle: "Repeatable daily"
 	quest.50AD2FD698288044.title: "Daily Battle"
 	quest.50B36D079EF538B3.quest_desc: [
-		"Explore the great structures of the world and gather every special Poke Ball to become a true &aTreasure Hunter&r."
+		"Explore the great structures of the world and gather the rare relics and artifacts hidden within to become a true &aTreasure Hunter&r."
 		""
-		"Reward: one random pull from the Treasure Hunter table plus a sack of spurs."
+		"Reward: one random pull from the Treasure Hunter table plus experience."
 		""
-		"Complete the structure and ball objectives to unlock this."
+		"Complete the artifact and relic collections to unlock this."
 	]
-	quest.50B36D079EF538B3.quest_subtitle: "Explore every structure and collect the balls"
+	quest.50B36D079EF538B3.quest_subtitle: "Explore every structure and collect the relics"
 	quest.50B36D079EF538B3.title: "Treasure Hunter"
-	quest.50B3C21E7CF5708D.quest_desc: [
-		"Grows stronger the longer a battle lasts."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.50B3C21E7CF5708D.quest_subtitle: "Special Ball"
-	quest.50B3C21E7CF5708D.title: "Timer Ball"
 	quest.50B541D3892BB328.quest_desc: [
 		"Mine and turn in &a16 raw iron&r today."
 		""
@@ -2144,13 +2220,6 @@
 	]
 	quest.50B90A0EE0284991.quest_subtitle: "Dragon Gym: catch"
 	quest.50B90A0EE0284991.title: "Catch a Dragon-type"
-	quest.50B9E56C7B987302.quest_desc: [
-		"A strange ball for the strangest catches."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.50B9E56C7B987302.quest_subtitle: "Special Ball"
-	quest.50B9E56C7B987302.title: "Beast Ball"
 	quest.50BDCF8ECBEEA1C3.quest_desc: [
 		"Defeat &a9 Dragon-type&r Pokemon in battle to earn your way through the Dragon Gym."
 		""
@@ -2172,27 +2241,6 @@
 	]
 	quest.50C8746684D36B5F.quest_subtitle: "Earn the Water Badge"
 	quest.50C8746684D36B5F.title: "Water Badge"
-	quest.50CAE62CFB0376EE.quest_desc: [
-		"Made for catching underwater."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.50CAE62CFB0376EE.quest_subtitle: "Special Ball"
-	quest.50CAE62CFB0376EE.title: "Dive Ball"
-	quest.50CF24B5D3BA83FB.quest_desc: [
-		"Effective on Water and Bug types."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.50CF24B5D3BA83FB.quest_subtitle: "Special Ball"
-	quest.50CF24B5D3BA83FB.title: "Net Ball"
-	quest.50D03A46E53F626F.quest_desc: [
-		"Best thrown at the start of a battle."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.50D03A46E53F626F.quest_subtitle: "Special Ball"
-	quest.50D03A46E53F626F.title: "Quick Ball"
 	quest.50D198B0FBC2B764.quest_desc: [
 		"Locate a &aVillage&r. Trade with villagers, raid the chests, and note it as a fast-travel anchor."
 		""
@@ -2207,13 +2255,6 @@
 	]
 	quest.50D4379A448269BF.quest_subtitle: "Electric Gym: catch"
 	quest.50D4379A448269BF.title: "Catch a Electric-type"
-	quest.50DD0D2A2D442224.quest_desc: [
-		"A high-performance catch device."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.50DD0D2A2D442224.quest_subtitle: "Special Ball"
-	quest.50DD0D2A2D442224.title: "Ultra Ball"
 	quest.50DD1928846DFB30.quest_desc: [
 		"Defeat &a8 Psychic-type&r Pokemon in battle to earn your way through the Psychic Gym."
 		""
@@ -2235,13 +2276,6 @@
 	]
 	quest.50E836AE008BD782.quest_subtitle: "Earn the Dragon Badge"
 	quest.50E836AE008BD782.title: "Dragon Badge"
-	quest.50E898FF65F0E742.quest_desc: [
-		"A stronger catch than the standard Poke Ball."
-		""
-		"Obtain one to add it to your collection."
-	]
-	quest.50E898FF65F0E742.quest_subtitle: "Special Ball"
-	quest.50E898FF65F0E742.title: "Great Ball"
 	quest.50E954F3B46B9EE2.quest_desc: [
 		"Raise a &aFire-type&r Pokemon to at least &alevel 43&r."
 		""
@@ -2577,7 +2611,7 @@
 	]
 	quest.6A8523589EA2B1C2.quest_subtitle: "Premium stat boosters"
 	quest.6B3669A195FB80AE.quest_desc: [
-		"This pack adds &ajetpacks&r through Create Stuff & Additions. The &aAndesite Jetpack&r is your first taste of flight, powered by a Copper Backtank."
+		"This pack adds &ajetpacks&r through Create Stuff \& Additions. The &aAndesite Jetpack&r is your first taste of flight, powered by a Copper Backtank."
 		""
 		"Fill a Backtank with air using a rotating machine, equip the jetpack, and take off."
 		""
@@ -2811,12 +2845,12 @@
 	task.1130964870FFC07D.title: "Open the League branch"
 	task.113EC65E5862F8C3.title: "Open the Beyond the Machine branch"
 	task.1153027299E6144A.title: "Open the Otherside branch"
-	task.11591721E1EE3A6F.title: "Open the Myths & Legends branch"
-	task.115C179A0EA2FF4A.title: "Open the Create: Cogs & Crates branch"
+	task.11591721E1EE3A6F.title: "Open the Myths \& Legends branch"
+	task.115C179A0EA2FF4A.title: "Open the Create: Cogs \& Crates branch"
 	task.116F6872E7DF1D56.title: "Open the Aether branch"
 	task.11804A03DDE526BA.title: "Open the Create: Rotational Power branch"
 	task.118FFA559CCBB31A.title: "Open the Nether branch"
-	task.11D082D0A300EE28.title: "Open the Create: Sparks & Circuits branch"
+	task.11D082D0A300EE28.title: "Open the Create: Sparks \& Circuits branch"
 	task.11E4D451ED94121A.title: "Open the Cobblemon: First Steps branch"
 	task.11EA4E5DE0F0F981.title: "Open the Culinary branch"
 	task.196A601AE88BD806.title: "Berry Master"
@@ -2866,23 +2900,183 @@
 	task.50F4E7B3E590B2DF.title: "Ready to Explore"
 	task.50F6FF997FFD17A9.title: "Water Badge"
 	task.50F85C00E6608BF6.title: "Dark Badge"
-	quest.0D3B3DF1CC03C676.title: "The Sonorous Staff"
-	quest.0D424E0479541DE2.title: "Heart of the Deep"
-	quest.0D56EF90278D9F98.title: "The Ancient Temple"
-	quest.0D573A3D893F8FE4.title: "Ghosts of the Otherside"
-	quest.0D69C613943D8FB1.title: "Warden Upgrade Template"
-	quest.0D704EF54A8692D2.title: "Step Into the Otherside"
-	quest.0D75C87DFD66CFEA.title: "Dragons in the Deep"
-	quest.0D802B541D5177D2.title: "Reinforced Echo Shard"
-	quest.0D8409E8541916F7.title: "The Prebuilt Gate"
-	quest.0D853FFF03AF874A.title: "The Linker"
-	quest.0D910C4F83092A51.title: "Resonarium Armor"
-	quest.0DA011BA1F60AA1B.title: "Echoes of Another Time"
-	quest.0DC288DA0D480DD9.title: "Slay the Warden"
-	quest.0DD84E0B3DC7A88B.title: "Resonarium Plate"
-	quest.0DE2D2ABD01B6240.title: "Creatures of Darkness"
-	quest.0DEADDEFF1333A3E.title: "A World to Explore"
-	quest.0DEB68547CDDD594.title: "Warden Armor"
-	quest.0DF27C813E62ED08.title: "Resonarium Ore"
-	quest.0DFA5A299C8FE1E3.title: "See in the Dark"
+	quest.6200000000000001.title: "Welcome to Berries"
+	quest.6200000000000001.quest_desc: ["This opens the Berries quest line. Cobblemon berries grow on bushes and provide healing, status cures, and competitive held-item effects."]
+	quest.3900000000000001.title: "Welcome to Cobblemon Cooking"
+	quest.3900000000000001.quest_desc: ["This opens the Cobblemon Cooking quest line. Vitamins, mints, mochi, candy, and healing items for training and caring for your team."]
+	quest.6A00000000000001.title: "Welcome to Battle Items"
+	quest.6A00000000000001.quest_desc: ["This opens the PvP Battle Items quest line. Held items, power items, and ability tools for competitive Cobblemon battles."]
+	quest.7D00000000000001.title: "Welcome to Evolution Items"
+	quest.7D00000000000001.quest_desc: ["This opens the Evolution Items quest line. Stones, trade items, and held items required to evolve specific Cobblemon."]
+	quest.50E898FF65F0E742.quest_desc: [
+		"Boots that grant a permanent speed boost while worn."
+		""
+		"The first artifact of many waiting in the wild."
+	]
+	quest.50E898FF65F0E742.quest_subtitle: "Faster than your own two feet"
+	quest.50E898FF65F0E742.title: "Running Shoes"
+	quest.50DD0D2A2D442224.quest_desc: [
+		"Gauntlets that let you mine straight through blocks by punching them."
+		""
+		"Handy for quick tunnels and ancient city shortcuts."
+	]
+	quest.50DD0D2A2D442224.quest_subtitle: "Dig through stone with ease"
+	quest.50DD0D2A2D442224.title: "Digging Claws"
+	quest.5035665954F13AAF.quest_desc: [
+		"Boots that grant fast underwater swimming speed."
+		""
+		"Pairs well with exploring flooded ruins and ocean structures."
+	]
+	quest.5035665954F13AAF.quest_subtitle: "Swim like a fish"
+	quest.5035665954F13AAF.title: "Flippers"
+	quest.50D03A46E53F626F.quest_desc: [
+		"A gauntlet that greatly increases melee attack damage."
+		""
+		"A steady early upgrade for taking on tougher fights."
+	]
+	quest.50D03A46E53F626F.quest_subtitle: "Punch through anything"
+	quest.50D03A46E53F626F.title: "Power Glove"
+	quest.50CF24B5D3BA83FB.quest_desc: [
+		"Heals you for a portion of the damage you deal in melee combat."
+		""
+		"A strong sustain option for extended fights."
+	]
+	quest.50CF24B5D3BA83FB.quest_subtitle: "Drain life on every hit"
+	quest.50CF24B5D3BA83FB.title: "Vampiric Glove"
+	quest.50CAE62CFB0376EE.quest_desc: [
+		"Worn as an accessory, it permanently grants an additional heart of health."
+		""
+		"One of the most valuable artifacts to track down."
+	]
+	quest.50CAE62CFB0376EE.quest_subtitle: "An extra heart, permanently"
+	quest.50CAE62CFB0376EE.title: "Crystal Heart"
+	quest.508490691423DA09.quest_desc: [
+		"Grants full immunity to fire and lava damage while worn."
+		""
+		"Essential for anyone spending time in the Nether."
+	]
+	quest.508490691423DA09.quest_subtitle: "Immune to fire and lava"
+	quest.508490691423DA09.title: "Obsidian Skull"
+	quest.50B3C21E7CF5708D.quest_desc: [
+		"Right-click to launch yourself upward, softening any fall."
+		""
+		"Useful for reaching high ledges or escaping danger."
+	]
+	quest.50B3C21E7CF5708D.quest_subtitle: "A gust of air on demand"
+	quest.50B3C21E7CF5708D.title: "Cloud in a Bottle"
+	quest.5072C373AAB7AF13.quest_desc: [
+		"Pulls nearby dropped items and experience orbs toward you."
+		""
+		"Makes farming and mob grinding far more efficient."
+	]
+	quest.5072C373AAB7AF13.quest_subtitle: "Items come to you"
+	quest.5072C373AAB7AF13.title: "Universal Attractor"
+	quest.50B9E56C7B987302.quest_desc: [
+		"Right-click to set a waypoint, then teleport back to it later."
+		""
+		"One of the rarest and most useful artifacts in the game."
+	]
+	quest.50B9E56C7B987302.quest_subtitle: "Instant travel across the map"
+	quest.50B9E56C7B987302.title: "Warp Drive"
+	quest.50294A5E15CF177A.quest_desc: [
+		"Boots that reflect a portion of melee damage back at your attacker."
+		""
+		"A defensive artifact for surviving tough encounters."
+	]
+	quest.50294A5E15CF177A.quest_subtitle: "Deal damage back to attackers"
+	quest.50294A5E15CF177A.title: "Steadfast Spikes"
+	quest.6100000000000001.quest_desc: [
+		"Relics add a second layer of wearable trinkets on top of Artifacts."
+		""
+		"Collect them here after finding a handful of Artifacts."
+	]
+	quest.6100000000000001.quest_subtitle: "This opens the Relics sub-collection"
+	quest.6100000000000001.title: "Welcome to Relics"
+	quest.6100000000000002.quest_desc: [
+		"A belt that grants extra speed while sprinting."
+		""
+		"A simple, reliable mobility relic."
+	]
+	quest.6100000000000002.quest_subtitle: "Move faster while sprinting"
+	quest.6100000000000002.title: "Kinetic Belt"
+	quest.6100000000000003.quest_desc: [
+		"Increases damage dealt to hostile mobs."
+		""
+		"A solid pick for anyone fighting through dungeons."
+	]
+	quest.6100000000000003.quest_subtitle: "Bonus damage against beasts"
+	quest.6100000000000003.title: "Hunting Belt"
+	quest.6100000000000004.quest_desc: [
+		"Grants water breathing while worn."
+		""
+		"No more surfacing for air mid-exploration."
+	]
+	quest.6100000000000004.quest_subtitle: "Breathe easy underwater"
+	quest.6100000000000004.title: "Jellyfish Necklace"
+	quest.6100000000000005.quest_desc: [
+		"Reflects certain negative status effects back at their source."
+		""
+		"A defensive trinket worth tracking down."
+	]
+	quest.6100000000000005.quest_subtitle: "Deflect harmful effects"
+	quest.6100000000000005.title: "Reflective Necklace"
+	quest.6100000000000006.quest_desc: [
+		"A cloak that grants a chance to avoid mob aggro in foliage."
+		""
+		"Useful for slipping past hostile crowds."
+	]
+	quest.6100000000000006.quest_subtitle: "Blend into nature"
+	quest.6100000000000006.title: "Leafy Mantle"
+	quest.6100000000000007.quest_desc: [
+		"Improves vision and stealth during nighttime."
+		""
+		"One of the rarer capes in the Relics collection."
+	]
+	quest.6100000000000007.quest_subtitle: "Master of the night"
+	quest.6100000000000007.title: "Midnight Mantle"
+	quest.6100000000000008.quest_desc: [
+		"A curious relic said to bring luck to its wearer."
+		""
+		"Collect it to round out your relic set."
+	]
+	quest.6100000000000008.quest_subtitle: "A taste for treasure"
+	quest.6100000000000008.title: "Golden Tooth"
+	quest.6100000000000009.quest_desc: [
+		"Right-click to summon your last ridden mount to your side."
+		""
+		"Never walk back to your Pokemon mount again."
+	]
+	quest.6100000000000009.quest_subtitle: "Call your mount from anywhere"
+	quest.6100000000000009.title: "Rider Flute"
+	quest.610000000000000A.quest_desc: [
+		"Boots with a sharp edge, useful in a pinch."
+		""
+		"The final relic in this collection."
+	]
+	quest.610000000000000A.quest_subtitle: "Sharp footwork"
+	quest.610000000000000A.title: "Cut Glass Boot"
+	quest.2000000000000A01.quest_desc: ["This opens the Cogs \& Crates quest line. Learn the basics of Create rotational contraptions."]
+	quest.2000000000000A01.title: "Welcome to Cogs \& Crates"
+	quest.2000000000000B01.quest_desc: ["This opens the Rotational Power quest line. Scale up your Create contraptions with real drive trains."]
+	quest.2000000000000B01.title: "Welcome to Rotational Power"
+	quest.2000000000000C01.quest_desc: ["This opens the Sparks \& Circuits quest line. Automate logic and long-distance signals with Create electronics."]
+	quest.2000000000000C01.title: "Welcome to Sparks \& Circuits"
+	quest.2000000000000D01.quest_desc: ["This opens the Beyond the Machine quest line. Endgame Create automation and cross-mod contraptions."]
+	quest.2000000000000D01.title: "Welcome to Beyond the Machine"
+	quest.5000000000000A01.quest_desc: ["This opens the Culinary quest line. Farmer's Delight cooking, farming, and hearty meals."]
+	quest.5000000000000A01.title: "Welcome to Culinary"
+	quest.4000000000000A01.quest_desc: ["This opens the Nether quest line. Fortresses, bastions, and the road to netherite."]
+	quest.4000000000000A01.title: "Welcome to the Nether"
+	quest.4000000000000B01.quest_desc: ["This opens the End quest line. Ender eyes, the stronghold portal, and the dragon fight."]
+	quest.4000000000000B01.title: "Welcome to the End"
+	quest.0D00000000000A01.quest_desc: ["This opens the Otherside quest line. The Deeper \& Darker dimension beyond the Ancient City portal."]
+	quest.0D00000000000A01.title: "Welcome to the Otherside"
+	quest.4000000000000C01.quest_desc: ["This opens the Aether quest line. A bright skyward dimension reached through a special portal."]
+	quest.4000000000000C01.title: "Welcome to the Aether"
+	quest.3000000000000A01.quest_desc: ["This opens the First Steps quest line. Choose your starter and begin your Cobblemon journey."]
+	quest.3000000000000A01.title: "Welcome to First Steps"
+	quest.3000000000000C01.quest_desc: ["This opens the Myths \& Legends quest line. Track down rare and legendary Cobblemon across the world."]
+	quest.3000000000000C01.title: "Welcome to Myths \& Legends"
+	quest.3000000000000B01.quest_desc: ["This opens the Trainer's Path quest line. Deepen your Cobblemon skills after finishing First Steps."]
+	quest.3000000000000B01.title: "Welcome to Trainer's Path"
 }

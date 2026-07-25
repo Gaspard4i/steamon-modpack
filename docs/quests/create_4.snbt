@@ -12,14 +12,41 @@
 	quests: [
 		{
 			dependencies: ["10FC1EB90F757C1B"]
+			id: "2000000000000D01"
+			rewards: [
+				{
+					count: 3
+					id: "20000000000D0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "20000000000D0002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "20000000000D0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000000D01"]
 			id: "20A4F79E5ACF677F"
 			rewards: [
 				{
-					count: 8
 					id: "207E2F4A130DFBE8"
 					item: {
 						count: 1
-						id: "createnuclear:steel_ingot"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -275,7 +302,6 @@
 			dependencies: ["20A4F79E5ACF677F"]
 			id: "20F48D09B2A69B4B"
 			rewards: [{
-				count: 3
 				id: "2016473FF4C39E7E"
 				item: {
 					count: 1
@@ -354,15 +380,21 @@
 		{
 			dependencies: ["20F48D09B2A69B4B"]
 			id: "203841C110280ECA"
-			rewards: [{
-				count: 3
-				id: "20F2D41AA587F245"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "244D6D804BB87951"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3D49CE0B0CC87E26"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "20ACFA5376039B48"
 				item: { count: 1, id: "createnuclear:reinforced_glass" }
@@ -468,43 +500,15 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["20446249E22B29B0"]
-			id: "20FE34F6B18DB45D"
-			optional: true
-			rewards: [
-				{
-					id: "2073A09DC356B23E"
-					item: {
-						count: 1
-						id: "createendertransmission:chunk_loader"
-					}
-					type: "item"
-				}
-				{
-					id: "20C914FE0A97DD21"
-					type: "xp"
-					xp: 80
-				}
-			]
-			tasks: [{
-				id: "20649CABE08B1C3D"
-				item: { count: 1, id: "createendertransmission:chunk_loader" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["20A4F79E5ACF677F"]
 			id: "206E8BE76893FB18"
 			optional: true
 			rewards: [
 				{
-					count: 32
 					id: "20AD1BF75EE28FBF"
 					item: {
 						count: 1
-						id: "create:track"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -573,8 +577,8 @@
 				"20A92FE5E11A07D2"
 				"208F1E9FE12EF993"
 			]
-			min_required_dependencies: 3
 			id: "20E7F625CC2F6BF3"
+			min_required_dependencies: 3
 			rewards: [
 				{
 					id: "20352A817F43C827"

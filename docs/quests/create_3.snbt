@@ -11,10 +11,35 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"105485D414441DF4"
-				"20D128D0BDB10CB3"
+			dependencies: ["105485D414441DF4"]
+			id: "2000000000000C01"
+			rewards: [
+				{
+					count: 3
+					id: "20000000000C0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "20000000000C0002"
+					type: "xp"
+					xp: 20
+				}
 			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "20000000000C0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000000C01"]
 			id: "20D321EEC05603E1"
 			rewards: [
 				{
@@ -127,11 +152,11 @@
 					type: "item"
 				}
 				{
-					count: 10
+					count: 2
 					id: "20C0D0A9F02B22EA"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "numismatics:bevel"
 					}
 					type: "item"
 				}
@@ -201,11 +226,11 @@
 					type: "item"
 				}
 				{
-					count: 10
+					count: 2
 					id: "202017A0381F877A"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "numismatics:bevel"
 					}
 					type: "item"
 				}
@@ -306,15 +331,21 @@
 		{
 			dependencies: ["205FD3E5819062F3"]
 			id: "2054F3196E527301"
-			rewards: [{
-				count: 2
-				id: "20F249AFE1293C81"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "2787ED3AE37C757D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0A37206FC3251CD6"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "20FCD852B2A588C4"
 				item: { count: 1, id: "createaddition:capacitor" }
@@ -331,7 +362,7 @@
 				id: "201F6C7B5FBC42B5"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "createaddition:electrum_ingot"
 				}
 				type: "item"
 			}]
@@ -346,15 +377,21 @@
 		{
 			dependencies: ["208A47FEC33055B8"]
 			id: "205C5B77675AD95D"
-			rewards: [{
-				count: 2
-				id: "20433DCC644914AA"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "0DE813064135E60D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6882E9E0D702CFF9"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "202B001B7327196D"
 				item: { count: 1, id: "createaddition:tesla_coil" }
@@ -493,8 +530,8 @@
 				"208E7F469308A0AD"
 				"20E8A5C7B9D6F405"
 			]
-			min_required_dependencies: 2
 			id: "20FC1F519A9040EF"
+			min_required_dependencies: 2
 			rewards: [
 				{
 					id: "20F98DFFA81464B6"

@@ -12,6 +12,34 @@
 	quests: [
 		{
 			dependencies: ["102BA726C9F17223"]
+			id: "2000000000000A01"
+			rewards: [
+				{
+					count: 3
+					id: "20000000000A0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "20000000000A0002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "20000000000A0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000000A01"]
 			id: "207A81A64CBCE64F"
 			rewards: [
 				{
@@ -362,11 +390,10 @@
 			id: "206989E928EDBBA1"
 			rewards: [
 				{
-					count: 2
 					id: "204667F9FCE9367E"
 					item: {
 						count: 1
-						id: "create:precision_mechanism"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -399,15 +426,21 @@
 		{
 			dependencies: ["2012AD441F050A12"]
 			id: "200C2CB7FAEF3E2D"
-			rewards: [{
-				count: 2
-				id: "20D729646EE8EFDD"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "1EC434BFECF63A69"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4D987675E5C8F9CD"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "20BA5DF43FD66E49"
 				item: { count: 1, id: "create:andesite_casing" }
@@ -444,7 +477,7 @@
 				id: "20A200A91ED9D55F"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "create:copper_casing"
 				}
 				type: "item"
 			}]
@@ -479,15 +512,21 @@
 		{
 			dependencies: ["200C2CB7FAEF3E2D"]
 			id: "20E392CE37577E72"
-			rewards: [{
-				count: 2
-				id: "206936ECE98CF2FB"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "188DB8F0EB59425A"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "167BCFADCF35A06B"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "20F5D25EE448472B"
 				item: { count: 1, id: "createdeco:brass_sheet_metal" }
@@ -504,7 +543,7 @@
 				id: "205AC4EB67DDB683"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "createdeco:iron_sheet_metal"
 				}
 				type: "item"
 			}]

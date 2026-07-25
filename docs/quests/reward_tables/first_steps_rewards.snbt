@@ -6,15 +6,15 @@
 	loot_size: 1
 	order_index: 9
 	rewards: [
-		{ reward: { id: "062273B8D3B6E626", type: "item", item: { id: "cobblemon:poke_ball", count: 8 } }, weight: 40.0f }
-		{ reward: { id: "39CCDCD3CF96D0F5", type: "item", item: { id: "cobblemon:great_ball", count: 5 } }, weight: 35.0f }
-		{ reward: { id: "4CE1BE09F6E8AA63", type: "item", item: { id: "cobblemon:heal_ball", count: 4 } }, weight: 25.0f }
-		{ reward: { id: "727511B71862DAB9", type: "item", item: { id: "cobblemon:rare_candy", count: 3 } }, weight: 25.0f }
-		{ reward: { id: "6A7F66E11909EFBA", type: "item", item: { id: "cobblemon:exp_candy_s", count: 6 } }, weight: 15.0f }
-		{ reward: { id: "77B4F2273A4FEDB0", type: "item", item: { id: "numismatics:spur", count: 10 } }, weight: 15.0f }
-		{ reward: { id: "4E974960002E50E2", type: "item", item: { id: "cobblemon:potion", count: 4 } }, weight: 10.0f }
-		{ reward: { id: "2856136A14732CDC", type: "item", item: { id: "cobblemon:ultra_ball", count: 3 } }, weight: 5.0f }
-		{ reward: { id: "53B749F647FD9343", type: "item", item: { id: "cobblemon:destiny_knot", count: 1 } }, weight: 2.0f }
+		{ id: "47546A1D92EC3789", weight: 40.0f }
+		{ id: "4B98C646A9A99FE0", weight: 35.0f }
+		{ id: "04F6035F92E034C9", weight: 25.0f }
+		{ id: "64CED58076811A06", weight: 25.0f }
+		{ id: "7602AA35A3442745", weight: 15.0f }
+		{ id: "732DF5734C99EDF2", weight: 15.0f }
+		{ id: "379488AEE8420B67", weight: 10.0f }
+		{ id: "7884C56638ABF341", weight: 5.0f }
+		{ id: "395EF4A6E1DA3200", weight: 2.0f }
 	]
 	use_title: true
 }

@@ -3634,6 +3634,10 @@ file = "world/datapacks/steamon-tweaks/data/steamon/curios/slots/badge.json"
 hash = "cfe316f4c1ac8b7252efb9c9e629ea1fd6d6ec614404b11b1860ac71d9ce1b6a"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/dimension/exploration.json"
+hash = "84c346da4e7bebe6a62aad5896bd4dbc585c9fb393c48c123091ad9e0c528074"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/function/disable_end_tick.mcfunction"
 hash = "01785ded93410f601df3d27f76ac6cfd792266b1930c07abe7de0964b27ddccb"
 
@@ -4352,6 +4356,14 @@ hash = "6f1eab0bbfebed8afbbc84a78603d4787c391b081370756803508fd22e433328"
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/smartphones.json"
 hash = "678ab0023c05dc78ffb447546ebc6e8b7e10492e2fcbffe4e6d88bf487135f2b"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/worldgen/density_function/overworld/continents.json"
+hash = "87216a768e59134147b6fb73dca230b79240077a5e361cde5cb620db2aaa7e37"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/worldgen/noise_settings/overworld_vanilla.json"
+hash = "dc7db8ee1510df03b28c71dd387cb1280ab8bf9124f372fd6faa5d27eb9b17b1"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/supplementaries/loot_table/loot/galleon/chest.json"

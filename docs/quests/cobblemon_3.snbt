@@ -11,10 +11,35 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"10FC1EB90F757C1B"
-				"3090960AFB219897"
+			dependencies: ["10FC1EB90F757C1B"]
+			id: "3000000000000C01"
+			rewards: [
+				{
+					count: 3
+					id: "30000000000C0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "30000000000C0002"
+					type: "xp"
+					xp: 20
+				}
 			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "30000000000C0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3000000000000C01"]
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
@@ -68,36 +93,6 @@
 			}]
 			x: 0.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["30E0E43F6CBBE3F0"]
-			icon: {
-				id: "cobblemon_utility:shinycard"
-			}
-			id: "302DD22E9EACED58"
-			rewards: [
-				{
-					count: 3
-					id: "30423DF671391DCF"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_xl"
-					}
-					type: "item"
-				}
-				{
-					id: "300C59FA1F781446"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				id: "304A02921AB5B36B"
-				item: { count: 1, id: "cobblemon_utility:shinycard" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["30E0E43F6CBBE3F0"]
@@ -262,7 +257,6 @@
 		}
 		{
 			dependencies: [
-				"302DD22E9EACED58"
 				"300F18E5A7C1E9C1"
 				"3030E5100B772F76"
 				"30E8147CBFAFB5F1"
@@ -327,7 +321,6 @@
 			id: "305140D9631883D0"
 			rewards: [
 				{
-					count: 4
 					id: "30ED0D120E8A2461"
 					item: {
 						count: 1
@@ -355,22 +348,11 @@
 				id: "mythsandlegends:lustrous_orb"
 			}
 			id: "308C91D9CD8BA997"
-			rewards: [
-				{
-					count: 4
-					id: "303E5CB01E9FDF2B"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30FE21FAFE104DB1"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "30FE21FAFE104DB1"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "30E67868457D5F8B"
 				item: { count: 1, id: "mythsandlegends:lustrous_orb" }
@@ -415,22 +397,11 @@
 				id: "mythsandlegends:red_orb"
 			}
 			id: "30FB46D32F47C5EE"
-			rewards: [
-				{
-					count: 4
-					id: "30DBADB4D536FD6B"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30EB7A0AE0DA81B8"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "30EB7A0AE0DA81B8"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "303DEE853623C7BA"
 				item: { count: 1, id: "mythsandlegends:red_orb" }
@@ -445,22 +416,11 @@
 				id: "mythsandlegends:blue_orb"
 			}
 			id: "30162A23606849B3"
-			rewards: [
-				{
-					count: 4
-					id: "30B7C92BE8F9F054"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3080EBB3BDEF271F"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "3080EBB3BDEF271F"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "30214DE2750F3042"
 				item: { count: 1, id: "mythsandlegends:blue_orb" }
@@ -477,7 +437,6 @@
 			id: "3009058AC9D5DE63"
 			rewards: [
 				{
-					count: 4
 					id: "30F5DD38437C2EB4"
 					item: {
 						count: 1
@@ -567,7 +526,6 @@
 			id: "30881AB91088C3F2"
 			rewards: [
 				{
-					count: 4
 					id: "30AAE11C66504885"
 					item: {
 						count: 1
@@ -627,7 +585,6 @@
 			id: "30ED3DBBB4CC5EEC"
 			rewards: [
 				{
-					count: 4
 					id: "3094AC6D52C29D94"
 					item: {
 						count: 1
@@ -715,22 +672,11 @@
 				id: "mythsandlegends:azure_flute"
 			}
 			id: "307B87401FD5299E"
-			rewards: [
-				{
-					count: 4
-					id: "3075B296DEE15FEB"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3065B137C05907BC"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "3065B137C05907BC"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "30408B09777C4F9B"
 				item: { count: 1, id: "mythsandlegends:azure_flute" }
@@ -777,7 +723,6 @@
 			id: "30D887C36BA56DFE"
 			rewards: [
 				{
-					count: 4
 					id: "308938F8AACA5D1B"
 					item: {
 						count: 1
@@ -927,7 +872,6 @@
 			id: "30ABA79FADDEBB8D"
 			rewards: [
 				{
-					count: 4
 					id: "307BD55817887182"
 					item: {
 						count: 1
@@ -957,7 +901,6 @@
 			id: "30E1ECE10DEA9084"
 			rewards: [
 				{
-					count: 4
 					id: "30BBADB0D9710351"
 					item: {
 						count: 1
@@ -1017,7 +960,6 @@
 			id: "309DF2B77C0691FC"
 			rewards: [
 				{
-					count: 4
 					id: "304B6F7178CCA7B7"
 					item: {
 						count: 1
@@ -1077,7 +1019,6 @@
 			id: "30B696B86E52B5B8"
 			rewards: [
 				{
-					count: 4
 					id: "303D5BB82BD72986"
 					item: {
 						count: 1
@@ -1127,36 +1068,6 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["3047F188A089450E"]
-			icon: {
-				id: "mythsandlegends:zygarde_cube"
-			}
-			id: "301D2F6967AAB589"
-			rewards: [
-				{
-					count: 4
-					id: "30077BDB5C158F1C"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3079E98F0EBFA090"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [{
-				id: "30429EEEA8DF28C8"
-				item: { count: 1, id: "mythsandlegends:zygarde_cube" }
-				type: "item"
-			}]
-			x: 5.0d
 			y: 7.0d
 		}
 		{
@@ -1225,22 +1136,11 @@
 				id: "mythsandlegends:genesect_drive"
 			}
 			id: "30295C39072B70ED"
-			rewards: [
-				{
-					count: 4
-					id: "30004017A63EFE6C"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "302DC3F9042B8FE3"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "302DC3F9042B8FE3"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "30906EBEB50410E7"
 				item: { count: 1, id: "mythsandlegends:genesect_drive" }
@@ -1255,22 +1155,11 @@
 				id: "mythsandlegends:teal_mask"
 			}
 			id: "305AAEF06DADAEBD"
-			rewards: [
-				{
-					count: 4
-					id: "3072F80BF2183127"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30944DBF599285B8"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "30944DBF599285B8"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "304D96367F96E242"
 				item: { count: 1, id: "mythsandlegends:teal_mask" }
@@ -1467,7 +1356,6 @@
 			id: "30538B1C6E88FEA6"
 			rewards: [
 				{
-					count: 4
 					id: "305297A2D271FAEC"
 					item: {
 						count: 1
@@ -1497,7 +1385,6 @@
 			id: "305F3C0DBBE72985"
 			rewards: [
 				{
-					count: 4
 					id: "306039987FDA582D"
 					item: {
 						count: 1
@@ -1617,7 +1504,6 @@
 			id: "30AA1BDD26A7BEDC"
 			rewards: [
 				{
-					count: 4
 					id: "30DED6E738166698"
 					item: {
 						count: 1
@@ -1705,22 +1591,11 @@
 				id: "mythsandlegends:steel_tablet"
 			}
 			id: "308C965A1C07839A"
-			rewards: [
-				{
-					count: 4
-					id: "301BA7A5397748DC"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3084C47AC8C5F021"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "3084C47AC8C5F021"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "3017DBDABA23CBD2"
 				item: { count: 1, id: "mythsandlegends:steel_tablet" }
@@ -1765,22 +1640,11 @@
 				id: "mythsandlegends:plasma_tablet"
 			}
 			id: "30CAE14F71E34CC6"
-			rewards: [
-				{
-					count: 4
-					id: "3024116E837F3788"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "308F5512FA445902"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "308F5512FA445902"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "30A38182F49CD6AA"
 				item: { count: 1, id: "mythsandlegends:plasma_tablet" }
@@ -1827,7 +1691,6 @@
 			id: "30F9A8A591CF0C5B"
 			rewards: [
 				{
-					count: 4
 					id: "309955A9F13AA431"
 					item: {
 						count: 1
@@ -1917,7 +1780,6 @@
 			id: "30271D1B1F6EBD43"
 			rewards: [
 				{
-					count: 4
 					id: "30E856708D4A5C4B"
 					item: {
 						count: 1
@@ -1976,11 +1838,11 @@
 				"300BAD206EAAB5E7"
 				"30DF8B8754AD3A6A"
 			]
-			min_required_dependencies: 2
 			icon: {
 				id: "cobblemon:master_ball"
 			}
 			id: "30A36CD67E88494F"
+			min_required_dependencies: 2
 			rewards: [
 				{
 					id: "303D49677E59EC86"

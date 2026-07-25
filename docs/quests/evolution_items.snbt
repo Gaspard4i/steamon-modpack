@@ -12,6 +12,34 @@
 	quests: [
 		{
 			dependencies: ["30E9681CB438878A"]
+			id: "7D00000000000001"
+			rewards: [
+				{
+					count: 3
+					id: "7D000000A0000001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "7D000000A0000002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "7D000000A0000003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D00000000000001"]
 			icon: {
 				id: "cobblemon:fire_stone"
 			}
@@ -34,6 +62,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DCE0F34B0E1360E"]
 			icon: {
 				id: "cobblemon:water_stone"
 			}
@@ -56,6 +85,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DCE0F34B0E1360E"]
 			icon: {
 				id: "cobblemon:thunder_stone"
 			}
@@ -78,19 +108,26 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DCE0F34B0E1360E"]
 			icon: {
 				id: "cobblemon:leaf_stone"
 			}
 			id: "2E7F2F734F9ABE0B"
-			rewards: [{
-				count: 4
-				id: "5959A26738378D64"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "4BE0793DCCA05EFF"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "237DE3B432139168"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "57B8DFA830EB6AE7"
 				item: { count: 1, id: "cobblemon:leaf_stone" }
@@ -100,16 +137,17 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DCE0F34B0E1360E"]
 			icon: {
 				id: "cobblemon:moon_stone"
 			}
 			id: "0F99E51F573AE76E"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "3BC3C94C57755BDF"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:moon_stone"
 				}
 				type: "item"
 			}]
@@ -122,19 +160,26 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DCE0F34B0E1360E"]
 			icon: {
 				id: "cobblemon:sun_stone"
 			}
 			id: "715241A394E6B043"
-			rewards: [{
-				count: 4
-				id: "141AF60383FFE1AB"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "39753193E551817D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "429DF1247C3D3134"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "420647CE108114E5"
 				item: { count: 1, id: "cobblemon:sun_stone" }
@@ -144,6 +189,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DCE0F34B0E1360E"]
 			icon: {
 				id: "cobblemon:dusk_stone"
 			}
@@ -166,6 +212,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DCE0F34B0E1360E"]
 			icon: {
 				id: "cobblemon:dawn_stone"
 			}
@@ -188,6 +235,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DCE0F34B0E1360E"]
 			icon: {
 				id: "cobblemon:shiny_stone"
 			}
@@ -210,19 +258,26 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DCE0F34B0E1360E"]
 			icon: {
 				id: "cobblemon:ice_stone"
 			}
 			id: "10477055F5BA0E4B"
-			rewards: [{
-				count: 5
-				id: "12F787DC9AFA478B"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "08BFB1784083125E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "202659FA3F245B33"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "478D562C3963D2E1"
 				item: { count: 1, id: "cobblemon:ice_stone" }
@@ -232,16 +287,17 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7D00000000000001"]
 			icon: {
 				id: "cobblemon:link_cable"
 			}
 			id: "28C66D72E795C3F9"
 			rewards: [{
-				count: 6
+				count: 2
 				id: "46784D6D74B4F84A"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "numismatics:bevel"
 				}
 				type: "item"
 			}]
@@ -254,16 +310,17 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["28C66D72E795C3F9"]
 			icon: {
 				id: "cobblemon:metal_coat"
 			}
 			id: "04126E3C1AB76169"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "7ED9A82F93098F5E"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:metal_coat"
 				}
 				type: "item"
 			}]
@@ -276,6 +333,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["28C66D72E795C3F9"]
 			icon: {
 				id: "cobblemon:kings_rock"
 			}
@@ -298,6 +356,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["28C66D72E795C3F9"]
 			icon: {
 				id: "cobblemon:dragon_scale"
 			}
@@ -320,6 +379,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["28C66D72E795C3F9"]
 			icon: {
 				id: "cobblemon:deep_sea_scale"
 			}
@@ -342,6 +402,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["28C66D72E795C3F9"]
 			icon: {
 				id: "cobblemon:deep_sea_tooth"
 			}
@@ -364,6 +425,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["28C66D72E795C3F9"]
 			icon: {
 				id: "cobblemon:prism_scale"
 			}
@@ -386,16 +448,17 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["7D00000000000001"]
 			icon: {
 				id: "cobblemon:razor_claw"
 			}
 			id: "35B939FA61281403"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "6AD5C1A28A0DD413"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:razor_claw"
 				}
 				type: "item"
 			}]
@@ -408,6 +471,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["35B939FA61281403"]
 			icon: {
 				id: "cobblemon:razor_fang"
 			}
@@ -430,6 +494,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["35B939FA61281403"]
 			icon: {
 				id: "cobblemon:protector"
 			}
@@ -452,6 +517,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["35B939FA61281403"]
 			icon: {
 				id: "cobblemon:reaper_cloth"
 			}
@@ -474,6 +540,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["35B939FA61281403"]
 			icon: {
 				id: "cobblemon:electirizer"
 			}
@@ -496,6 +563,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["35B939FA61281403"]
 			icon: {
 				id: "cobblemon:magmarizer"
 			}
@@ -518,6 +586,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["35B939FA61281403"]
 			icon: {
 				id: "cobblemon:dubious_disc"
 			}
@@ -540,6 +609,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7D00000000000001"]
 			icon: {
 				id: "cobblemon:sachet"
 			}
@@ -562,6 +632,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["67D1D991292C338C"]
 			icon: {
 				id: "cobblemon:whipped_dream"
 			}
@@ -584,6 +655,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["67D1D991292C338C"]
 			icon: {
 				id: "cobblemon:oval_stone"
 			}
@@ -606,6 +678,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["67D1D991292C338C"]
 			icon: {
 				id: "cobblemon:float_stone"
 			}
@@ -628,6 +701,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["67D1D991292C338C"]
 			icon: {
 				id: "cobblemon:hard_stone"
 			}
@@ -650,28 +724,6 @@
 			y: 3.0d
 		}
 		{
-			icon: {
-				id: "cobblemon_utility:devolutionrelic"
-			}
-			id: "7A65BD80A9CC734B"
-			rewards: [{
-				count: 7
-				id: "54EDC86DEAF8E83E"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6E7D4251141B589A"
-				item: { count: 1, id: "cobblemon_utility:devolutionrelic" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 3.0d
-		}
-		{
 			dependencies: [
 				"7DCE0F34B0E1360E"
 				"6C255FF72F2B333E"
@@ -682,11 +734,11 @@
 				"5B18937EED45C725"
 				"3557D562DF4C7F99"
 			]
-			min_required_dependencies: 4
 			icon: {
 				id: "cobblemon:leaf_stone"
 			}
 			id: "10F0A6A7E1E23DFF"
+			min_required_dependencies: 4
 			rewards: [
 				{
 					id: "2A8C66D56214F74A"

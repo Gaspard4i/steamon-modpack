@@ -12,6 +12,34 @@
 	quests: [
 		{
 			dependencies: ["100F316559785DED"]
+			id: "3000000000000A01"
+			rewards: [
+				{
+					count: 3
+					id: "30000000000A0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "30000000000A0002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "30000000000A0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3000000000000A01"]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
@@ -261,62 +289,14 @@
 		{
 			dependencies: ["3011D0116C97D3B8"]
 			icon: {
-				id: "cobblemon_utility:woodencap"
-			}
-			id: "30D545F671BDE23C"
-			rewards: [
-				{
-					count: 2
-					id: "30AE9A961797EE3B"
-					item: {
-						count: 1
-						id: "cobblemon:exp_candy_m"
-					}
-					type: "item"
-				}
-				{
-					id: "3030A06065EB67D5"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "30A6A5ED2D5E25BE"
-					item: { count: 1, id: "cobblemon_utility:woodencap" }
-					type: "item"
-				}
-				{
-					id: "303680F387065D54"
-					item: { count: 1, id: "cobblemon_utility:commoncandy" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3011D0116C97D3B8"]
-			icon: {
 				id: "cobblemon:poke_ball"
 			}
 			id: "30366E5B0D5F3AD5"
-			rewards: [
-				{
-					count: 2
-					id: "30C0873EEF0B3E3E"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "303832EA70CD9F66"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "303832EA70CD9F66"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "30DE1B28C68B8209"
 				item: { count: 1, id: "cobblemon:poke_ball" }
@@ -337,7 +317,7 @@
 					id: "3076DA2E21C3D5D4"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "cobblemon:great_ball"
 					}
 					type: "item"
 				}
@@ -393,7 +373,6 @@
 			id: "308F9BF0AA5BAE77"
 			rewards: [
 				{
-					count: 6
 					id: "30A6293259706F24"
 					item: {
 						count: 1
@@ -457,7 +436,7 @@
 					id: "307C22BDF3035786"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "cobblemon:heal_ball"
 					}
 					type: "item"
 				}
@@ -517,7 +496,7 @@
 					id: "3036A1E80F6DDD50"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "cobblemon:nest_ball"
 					}
 					type: "item"
 				}
@@ -541,22 +520,11 @@
 				id: "cobblemon:dive_ball"
 			}
 			id: "30B583C67A81B4D5"
-			rewards: [
-				{
-					count: 2
-					id: "309781120369B197"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30500FE349C7D69F"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "30500FE349C7D69F"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "30E7DC2D289C0AAC"
 				item: { count: 1, id: "cobblemon:dive_ball" }
@@ -691,22 +659,11 @@
 				id: "cobblemon:luxury_ball"
 			}
 			id: "30221631656ADEF6"
-			rewards: [
-				{
-					count: 2
-					id: "306CEC385D180E6C"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "302777657ADBB997"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "302777657ADBB997"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "30828EEA29D234F6"
 				item: { count: 1, id: "cobblemon:luxury_ball" }
@@ -781,22 +738,11 @@
 				id: "cobblemon:sport_ball"
 			}
 			id: "3006E91C5EDAF0F5"
-			rewards: [
-				{
-					count: 2
-					id: "30763A53DEDF0F78"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30CA64D650D86A6E"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "30CA64D650D86A6E"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "30F039B811A5FE41"
 				item: { count: 1, id: "cobblemon:sport_ball" }
@@ -817,7 +763,7 @@
 					id: "309107439D442831"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "cobblemon:park_ball"
 					}
 					type: "item"
 				}
@@ -871,22 +817,11 @@
 				id: "cobblemon:level_ball"
 			}
 			id: "30E40E462281848B"
-			rewards: [
-				{
-					count: 2
-					id: "30E606150C03551C"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30FAEC87AA81EFD8"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "30FAEC87AA81EFD8"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "300C73AFE5261A56"
 				item: { count: 1, id: "cobblemon:level_ball" }
@@ -907,7 +842,7 @@
 					id: "30AD69D6C9088441"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "cobblemon:lure_ball"
 					}
 					type: "item"
 				}
@@ -997,7 +932,7 @@
 					id: "305940C59BC09BFC"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "cobblemon:friend_ball"
 					}
 					type: "item"
 				}
@@ -1110,14 +1045,13 @@
 				"30A01E1B7FF3061E"
 				"30A94C8C925E9C8A"
 				"30DF64A78E3B293A"
-				"30D545F671BDE23C"
 				"3055F83ABD1898C9"
 			]
-			min_required_dependencies: 3
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
 			id: "30AFAC41F3B73B72"
+			min_required_dependencies: 3
 			rewards: [
 				{
 					id: "30E8CB554F052A77"

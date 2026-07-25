@@ -12,6 +12,34 @@
 	quests: [
 		{
 			dependencies: ["30AFAC41F3B73B72"]
+			id: "3000000000000B01"
+			rewards: [
+				{
+					count: 3
+					id: "30000000000B0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "30000000000B0002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "30000000000B0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3000000000000B01"]
 			icon: {
 				id: "cobblemon:destiny_knot"
 			}
@@ -345,7 +373,6 @@
 			id: "30920B1130A55F98"
 			rewards: [
 				{
-					count: 4
 					id: "3087967B8925CC0A"
 					item: {
 						count: 1
@@ -375,7 +402,6 @@
 			id: "30975098DFDB64CE"
 			rewards: [
 				{
-					count: 4
 					id: "30B91BFC6F501BEB"
 					item: {
 						count: 1
@@ -405,7 +431,6 @@
 			id: "30EA13770C164BF9"
 			rewards: [
 				{
-					count: 4
 					id: "3020F004D6839CA2"
 					item: {
 						count: 1
@@ -433,22 +458,11 @@
 				id: "mega_showdown:lucarionite"
 			}
 			id: "30507FAF62CFCA7D"
-			rewards: [
-				{
-					count: 4
-					id: "30E9BA210BFB49CC"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30F5A8F4C304B49B"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "30F5A8F4C304B49B"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "3027293AE69161B3"
 				item: { count: 1, id: "mega_showdown:lucarionite" }
@@ -613,22 +627,11 @@
 				id: "mega_showdown:metagrossite"
 			}
 			id: "30B724BFF3E183A5"
-			rewards: [
-				{
-					count: 4
-					id: "30AAF303155644A2"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30B8B781B926D849"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "30B8B781B926D849"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "305E2C107BB15436"
 				item: { count: 1, id: "mega_showdown:metagrossite" }
@@ -645,7 +648,6 @@
 			id: "30D207ACB8A419AD"
 			rewards: [
 				{
-					count: 4
 					id: "30DEC75697EC281B"
 					item: {
 						count: 1
@@ -703,22 +705,11 @@
 				id: "mega_showdown:absolite"
 			}
 			id: "302E91CD200B28A7"
-			rewards: [
-				{
-					count: 4
-					id: "305DC4C46786846E"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30531E550ED8D6E2"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "30531E550ED8D6E2"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "30CB41BF56B91BE8"
 				item: { count: 1, id: "mega_showdown:absolite" }
@@ -855,7 +846,6 @@
 			id: "30A253ECDAE7DBA3"
 			rewards: [
 				{
-					count: 4
 					id: "30E477E42BC19F8B"
 					item: {
 						count: 1
@@ -915,7 +905,6 @@
 			id: "309BAA75D59D9EB9"
 			rewards: [
 				{
-					count: 4
 					id: "300CBC3DC04D8E59"
 					item: {
 						count: 1
@@ -945,7 +934,6 @@
 			id: "30D32E1A322ED982"
 			rewards: [
 				{
-					count: 4
 					id: "30C66A15109DDF53"
 					item: {
 						count: 1
@@ -1003,22 +991,11 @@
 				id: "mega_showdown:abomasite"
 			}
 			id: "303F4261BA807B02"
-			rewards: [
-				{
-					count: 4
-					id: "30493DCCB294ADA3"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "308E727387CBE4A3"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "308E727387CBE4A3"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "306716789EE216E0"
 				item: { count: 1, id: "mega_showdown:abomasite" }
@@ -1035,7 +1012,6 @@
 			id: "30ED72C36D4AE8F8"
 			rewards: [
 				{
-					count: 4
 					id: "30BE7788985C8B85"
 					item: {
 						count: 1
@@ -1125,7 +1101,6 @@
 			id: "30C1AE118F1266C1"
 			rewards: [
 				{
-					count: 4
 					id: "30E649BF96DCA0DE"
 					item: {
 						count: 1
@@ -1155,7 +1130,6 @@
 			id: "30AE7467AD8E4319"
 			rewards: [
 				{
-					count: 4
 					id: "307E4B82E0F62F1B"
 					item: {
 						count: 1
@@ -1213,22 +1187,11 @@
 				id: "mega_showdown:altarianite"
 			}
 			id: "309495501E070FBA"
-			rewards: [
-				{
-					count: 4
-					id: "30CF240040F5F6E4"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3038FCB0A9445560"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "3038FCB0A9445560"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "30CC306C8D21171D"
 				item: { count: 1, id: "mega_showdown:altarianite" }
@@ -1303,22 +1266,11 @@
 				id: "mega_showdown:diancite"
 			}
 			id: "30F96BF47C50F57D"
-			rewards: [
-				{
-					count: 4
-					id: "308F339C8933A012"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "309D5B49D58EAEE3"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "309D5B49D58EAEE3"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "30337FFBB383FCA7"
 				item: { count: 1, id: "mega_showdown:diancite" }
@@ -1453,22 +1405,11 @@
 				id: "mega_showdown:pidgeotite"
 			}
 			id: "30D95857748D55CF"
-			rewards: [
-				{
-					count: 4
-					id: "30D8772A20C4C104"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "308CE5A0B635BD2A"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "308CE5A0B635BD2A"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "30B22FC6D2920D54"
 				item: { count: 1, id: "mega_showdown:pidgeotite" }
@@ -1485,7 +1426,6 @@
 			id: "30330A165CEECCFC"
 			rewards: [
 				{
-					count: 4
 					id: "306BE7A41347006D"
 					item: {
 						count: 1
@@ -1513,22 +1453,11 @@
 				id: "mega_showdown:mewtwonite_x"
 			}
 			id: "30569E6D9D802D53"
-			rewards: [
-				{
-					count: 4
-					id: "3099C3A318560BB1"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30B90209F14D8733"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "30B90209F14D8733"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "302A4EA807D04BF8"
 				item: { count: 1, id: "mega_showdown:mewtwonite_x" }
@@ -1575,7 +1504,6 @@
 			id: "30458B00BE0EC80D"
 			rewards: [
 				{
-					count: 4
 					id: "307A16C60AAC9CA6"
 					item: {
 						count: 1
@@ -1875,7 +1803,6 @@
 			id: "30430B55B21CEEEA"
 			rewards: [
 				{
-					count: 2
 					id: "3039FAEE4B3BE895"
 					item: {
 						count: 1
@@ -1965,7 +1892,6 @@
 			id: "30775BBDD0C5C5D2"
 			rewards: [
 				{
-					count: 2
 					id: "3073A25969DEDD11"
 					item: {
 						count: 1
@@ -2053,22 +1979,11 @@
 				id: "cobblemonarmory:haxorus_armor_chestplate"
 			}
 			id: "30B143D090EB965F"
-			rewards: [
-				{
-					count: 2
-					id: "30B594DA06666471"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30B1D988B9C11910"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "30B1D988B9C11910"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3071C50696ABC018"
 				item: { count: 1, id: "cobblemonarmory:haxorus_armor_chestplate" }
@@ -2175,7 +2090,6 @@
 			id: "30CCC05DACD64BE2"
 			rewards: [
 				{
-					count: 2
 					id: "30268BF0296436AC"
 					item: {
 						count: 1
@@ -2295,7 +2209,6 @@
 			id: "30BCC8985DBC5059"
 			rewards: [
 				{
-					count: 2
 					id: "3057E34E96B608D3"
 					item: {
 						count: 1
@@ -2325,7 +2238,6 @@
 			id: "301AF5A96EC2D535"
 			rewards: [
 				{
-					count: 2
 					id: "30F7428525A09518"
 					item: {
 						count: 1
@@ -2385,7 +2297,6 @@
 			id: "3000FC1FEAE11BE0"
 			rewards: [
 				{
-					count: 2
 					id: "3055355FD9C5DF6C"
 					item: {
 						count: 1
@@ -2415,7 +2326,6 @@
 			id: "309516767636BD7F"
 			rewards: [
 				{
-					count: 2
 					id: "307ED7AFB252300B"
 					item: {
 						count: 1
@@ -2473,22 +2383,11 @@
 				id: "cobblemonarmory:bastiodon_shield"
 			}
 			id: "30828F7CC3DF63A6"
-			rewards: [
-				{
-					count: 2
-					id: "30DA3476CA554C77"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "3019BFE310DB730B"
-					type: "xp"
-					xp: 30
-				}
-			]
+			rewards: [{
+				id: "3019BFE310DB730B"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "30F4DCE32A5B644C"
 				item: { count: 1, id: "cobblemonarmory:bastiodon_shield" }
@@ -2505,7 +2404,6 @@
 			id: "30D1CD6C0006E892"
 			rewards: [
 				{
-					count: 2
 					id: "300C10129EE125FF"
 					item: {
 						count: 1
@@ -2595,7 +2493,6 @@
 			id: "30013DFCCEDD2617"
 			rewards: [
 				{
-					count: 3
 					id: "306EC7D469F8EF1A"
 					item: {
 						count: 1
@@ -2655,7 +2552,6 @@
 			id: "30B9DE35DE3A1136"
 			rewards: [
 				{
-					count: 3
 					id: "303607E9D1FDA5C5"
 					item: {
 						count: 1
@@ -2713,22 +2609,11 @@
 				id: "cobblemon:skull_fossil"
 			}
 			id: "301260204F27DDD2"
-			rewards: [
-				{
-					count: 3
-					id: "30901F5695A047D2"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30ECAF5CF63BC2A9"
-					type: "xp"
-					xp: 40
-				}
-			]
+			rewards: [{
+				id: "30ECAF5CF63BC2A9"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				id: "3010EEFD3A755684"
 				item: { count: 1, id: "cobblemon:skull_fossil" }
@@ -2743,22 +2628,11 @@
 				id: "cobblemon:cover_fossil"
 			}
 			id: "3048E975BD5CA4EE"
-			rewards: [
-				{
-					count: 3
-					id: "30FF2937795A7FC3"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "30B726D6F9CE67C8"
-					type: "xp"
-					xp: 40
-				}
-			]
+			rewards: [{
+				id: "30B726D6F9CE67C8"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				id: "30280BA9E7E69306"
 				item: { count: 1, id: "cobblemon:cover_fossil" }
@@ -2863,22 +2737,11 @@
 				id: "cobblemon:fossilized_bird"
 			}
 			id: "3058C07D4EAB336D"
-			rewards: [
-				{
-					count: 3
-					id: "30382D84E8462DFF"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "301CB41F1EB0B65F"
-					type: "xp"
-					xp: 40
-				}
-			]
+			rewards: [{
+				id: "301CB41F1EB0B65F"
+				type: "xp"
+				xp: 40
+			}]
 			tasks: [{
 				id: "307B67055322CDD9"
 				item: { count: 1, id: "cobblemon:fossilized_bird" }
@@ -2955,7 +2818,6 @@
 			id: "30E030577F71779F"
 			rewards: [
 				{
-					count: 3
 					id: "309839F65EF8A0E8"
 					item: {
 						count: 1
@@ -3205,7 +3067,7 @@
 			]
 			tasks: [{
 				id: "3035FCA05FE3BEA0"
-				item: { count: 2, id: "cobblemon:rare_candy" }
+				item: { count: 1, id: "cobblemon:rare_candy" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -3235,7 +3097,7 @@
 			]
 			tasks: [{
 				id: "30409800B646A0AE"
-				item: { count: 2, id: "cobblemon:exp_candy_l" }
+				item: { count: 1, id: "cobblemon:exp_candy_l" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -3249,11 +3111,11 @@
 			id: "3052CD5F4DA81C08"
 			rewards: [
 				{
-					count: 6
+					count: 2
 					id: "30AA6EC6313F3531"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "numismatics:bevel"
 					}
 					type: "item"
 				}
@@ -3332,11 +3194,11 @@
 				"30D1CD6C0006E892"
 				"30E030577F71779F"
 			]
-			min_required_dependencies: 2
 			icon: {
 				id: "cobblemon:great_ball"
 			}
 			id: "3090960AFB219897"
+			min_required_dependencies: 2
 			rewards: [
 				{
 					id: "30BAC2E46132D8CE"

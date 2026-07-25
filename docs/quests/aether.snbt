@@ -12,6 +12,34 @@
 	quests: [
 		{
 			dependencies: ["100573543B0B18B8"]
+			id: "4000000000000C01"
+			rewards: [
+				{
+					count: 3
+					id: "40000000000C0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000C0002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "40000000000C0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000C01"]
 			icon: {
 				id: "aether:aether_portal_frame"
 			}
@@ -347,7 +375,7 @@
 		{
 			dependencies: ["405F38BF62A148A7"]
 			icon: {
-				id: "cobblemon:fairy_feather"
+				id: "cobblemon:fairy_gem"
 			}
 			id: "40F718D2A904C1D2"
 			rewards: [

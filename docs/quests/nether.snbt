@@ -12,6 +12,34 @@
 	quests: [
 		{
 			dependencies: ["105485D414441DF4"]
+			id: "4000000000000A01"
+			rewards: [
+				{
+					count: 3
+					id: "40000000000A0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "40000000000A0002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "40000000000A0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4000000000000A01"]
 			icon: {
 				id: "minecraft:flint_and_steel"
 			}
@@ -106,11 +134,12 @@
 					id: "40DA3C1B7C9029BE"
 					item: {
 						count: 1
-						id: "minecraft:enchanted_golden_apple"
+						id: "minecraft:golden_apple"
 					}
 					type: "item"
 				}
 				{
+					count: 2
 					id: "40DDD5EC26207EC9"
 					item: {
 						count: 1
@@ -138,10 +167,11 @@
 			id: "401CF50145120356"
 			rewards: [
 				{
+					count: 4
 					id: "40BB36ED23A96BF9"
 					item: {
 						count: 1
-						id: "minecraft:netherite_ingot"
+						id: "minecraft:gold_ingot"
 					}
 					type: "item"
 				}
@@ -149,6 +179,15 @@
 					id: "400E5235A7B47467"
 					type: "xp"
 					xp: 250
+				}
+				{
+					count: 2
+					id: "40A1C4B2E9F03D57"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
 				}
 			]
 			tasks: [{

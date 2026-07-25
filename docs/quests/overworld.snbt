@@ -52,13 +52,6 @@
 			y: -3.5d
 		}
 		{
-			id: "11052AEA38E628A7"
-			linked_quest: "40C4EA2C73849FF0"
-			shape: "circle"
-			x: 24.0d
-			y: 3.5d
-		}
-		{
 			id: "113FAC4583ECDFCD"
 			linked_quest: "40091CD67B4264AE"
 			shape: "circle"
@@ -92,13 +85,6 @@
 			shape: "circle"
 			x: 32.0d
 			y: 5.5d
-		}
-		{
-			id: "11243D5606646AAA"
-			linked_quest: "5040629EF17E4552"
-			shape: "circle"
-			x: 34.0d
-			y: -5.5d
 		}
 	]
 	quests: [
@@ -528,8 +514,8 @@
 				"100573543B0B18B8"
 				"105FB4F860A68106"
 			]
-			min_required_dependencies: 1
 			id: "10FC1EB90F757C1B"
+			min_required_dependencies: 1
 			rewards: [
 				{
 					id: "103B4BAB31F3C4D5"

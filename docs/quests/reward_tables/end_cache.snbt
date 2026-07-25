@@ -6,16 +6,16 @@
 	loot_size: 1
 	order_index: 13
 	rewards: [
-		{ reward: { id: "642AF7868ADD6033", type: "item", item: { id: "minecraft:shulker_shell", count: 2 } }, weight: 40.0f }
-		{ reward: { id: "0C9E52B88057A0C3", type: "item", item: { id: "minecraft:ender_pearl", count: 8 } }, weight: 25.0f }
-		{ reward: { id: "5E135AC66B108EC3", type: "item", item: { id: "minecraft:elytra", count: 1 } }, weight: 25.0f }
-		{ reward: { id: "7519510E39B4FA9D", type: "item", item: { id: "minecraft:chorus_fruit", count: 12 } }, weight: 20.0f }
-		{ reward: { id: "150AB02E91C73773", type: "item", item: { id: "cobblemon:beast_ball", count: 3 } }, weight: 15.0f }
-		{ reward: { id: "3D5DB88CC96DB8EE", type: "item", item: { id: "numismatics:spur", count: 20 } }, weight: 12.0f }
-		{ reward: { id: "1A520B9F919D6512", type: "item", item: { id: "cobblemon:dusk_stone", count: 2 } }, weight: 10.0f }
-		{ reward: { id: "6D4872A07C3DFFD8", type: "item", item: { id: "minecraft:dragon_breath", count: 4 } }, weight: 8.0f }
-		{ reward: { id: "1D0254A0B619440D", type: "item", item: { id: "minecraft:dragon_egg", count: 1 } }, weight: 4.0f }
-		{ reward: { id: "1949BB997C3D76AC", type: "item", item: { id: "cobblemon:master_ball", count: 1 } }, weight: 3.0f }
+		{ id: "6CC3F45D63E34453", weight: 40.0f }
+		{ id: "4887B8C8A42BA177", weight: 25.0f }
+		{ id: "6E6E712B716CAB6A", weight: 25.0f }
+		{ id: "18B68F9F03052ABA", weight: 20.0f }
+		{ id: "660FE23F2D8A1ABC", weight: 15.0f }
+		{ id: "10CA6B8081529A51", weight: 12.0f }
+		{ id: "0BA34BF73B0EB4D2", weight: 10.0f }
+		{ id: "40E9A923604137AE", weight: 8.0f }
+		{ id: "078A8CC52FE99580", weight: 4.0f }
+		{ id: "2E119DED821B3754", weight: 3.0f }
 	]
 	use_title: true
 }

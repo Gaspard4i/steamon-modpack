@@ -6,14 +6,14 @@
 	loot_size: 1
 	order_index: 8
 	rewards: [
-		{ reward: { id: "2672A1923235C13F", type: "item", item: { id: "cobblemon:master_ball", count: 2 } }, weight: 40.0f }
-		{ reward: { id: "46547950184AFBF8", type: "item", item: { id: "cobblemon:rare_candy", count: 8 } }, weight: 30.0f }
-		{ reward: { id: "5AA5E89A9652322E", type: "item", item: { id: "cobblemon:exp_candy_xl", count: 4 } }, weight: 20.0f }
-		{ reward: { id: "2EE58D932F44028B", type: "item", item: { id: "cobblemon:ability_patch", count: 1 } }, weight: 20.0f }
-		{ reward: { id: "557FBCB9A2D921E6", type: "item", item: { id: "cobblemon:shiny_charm", count: 1 } }, weight: 12.0f }
-		{ reward: { id: "00C70898A8494DC6", type: "item", item: { id: "numismatics:spur", count: 25 } }, weight: 10.0f }
-		{ reward: { id: "017767D945915474", type: "item", item: { id: "cobblemon:gold_bottle_cap", count: 2 } }, weight: 10.0f }
-		{ reward: { id: "6A7F299A3424D802", type: "item", item: { id: "cobblemon:beast_ball", count: 2 } }, weight: 4.0f }
+		{ id: "67EBF758D93DFAF4", weight: 40.0f }
+		{ id: "06B3B5EDE5833F87", weight: 30.0f }
+		{ id: "5AE07B844D17CA26", weight: 20.0f }
+		{ id: "1BB2A709A804FA66", weight: 20.0f }
+		{ id: "6366B677C563E832", weight: 12.0f }
+		{ id: "0708BEFB0E17878C", weight: 10.0f }
+		{ id: "4A5D62E6D6714FE7", weight: 10.0f }
+		{ id: "36B1401B42A1035A", weight: 4.0f }
 	]
 	use_title: true
 }

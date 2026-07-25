@@ -46,20 +46,20 @@
 			id: "501DCF0AC468F2D7"
 			rewards: [
 				{
-					count: 8
+					count: 3
 					id: "50273CCB1CF22852"
 					item: {
 						count: 1
-						id: "cobblemon:poke_ball"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
 				{
-					count: 10
+					count: 2
 					id: "50E202438D12298F"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "numismatics:bevel"
 					}
 					type: "item"
 				}
@@ -146,10 +146,11 @@
 			id: "5052447EB34CB6A8"
 			rewards: [
 				{
+					count: 2
 					id: "50D231E4837240D4"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "minecraft:echo_shard"
 					}
 					type: "item"
 				}
@@ -177,12 +178,40 @@
 		{
 			dependencies: ["501DCF0AC468F2D7"]
 			icon: {
-				id: "cobblemon:great_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								runner: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										jump_charge_bonus: {
+											initialQuality: 2
+										}
+										max_speed_bonus: {
+											initialQuality: 8
+										}
+										max_step_bonus: {
+											initialQuality: 4
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:running_shoes"
 			}
 			id: "50E898FF65F0E742"
 			rewards: [
 				{
-					count: 5
+					count: 4
 					id: "504C47E088515F4E"
 					item: {
 						count: 1
@@ -193,12 +222,12 @@
 				{
 					id: "50AA0303DFF644EE"
 					type: "xp"
-					xp: 20
+					xp: 40
 				}
 			]
 			tasks: [{
 				id: "503BF6210736AB00"
-				item: { count: 1, id: "cobblemon:great_ball" }
+				item: { components: { "relics:data": { abilities: { abilities: { runner: { lock: { breaks: 5 }, points: 0, stats: { jump_charge_bonus: { initialQuality: 4 }, max_speed_bonus: { initialQuality: 3 }, max_step_bonus: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:running_shoes" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -207,12 +236,43 @@
 		{
 			dependencies: ["50E898FF65F0E742"]
 			icon: {
-				id: "cobblemon:ultra_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								digging: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bare_hands_speed: {
+											initialQuality: 8
+										}
+										momentum_per_block: {
+											initialQuality: 9
+										}
+										momentum_window: {
+											initialQuality: 4
+										}
+										speed: {
+											initialQuality: 10
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:digging_claws"
 			}
 			id: "50DD0D2A2D442224"
 			rewards: [
 				{
-					count: 5
+					count: 4
 					id: "500E85D2D4750AEB"
 					item: {
 						count: 1
@@ -223,12 +283,12 @@
 				{
 					id: "506CA58BDA6296E0"
 					type: "xp"
-					xp: 20
+					xp: 40
 				}
 			]
 			tasks: [{
 				id: "50E9FB985B829791"
-				item: { count: 1, id: "cobblemon:ultra_ball" }
+				item: { components: { "relics:data": { abilities: { abilities: { digging: { lock: { breaks: 5 }, points: 0, stats: { bare_hands_speed: { initialQuality: 4 }, momentum_per_block: { }, momentum_window: { }, speed: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:digging_claws" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -237,12 +297,40 @@
 		{
 			dependencies: ["50E898FF65F0E742"]
 			icon: {
-				id: "cobblemon:dusk_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								swim: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										air_loss_reduction: {
+											initialQuality: 1
+										}
+										evasion: {
+											initialQuality: 3
+										}
+										speed: {
+											initialQuality: 4
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:flippers"
 			}
 			id: "5035665954F13AAF"
 			rewards: [
 				{
-					count: 5
+					count: 4
 					id: "5048D15AFB748FBB"
 					item: {
 						count: 1
@@ -253,12 +341,12 @@
 				{
 					id: "50492F81A4EB1B4A"
 					type: "xp"
-					xp: 20
+					xp: 40
 				}
 			]
 			tasks: [{
 				id: "50FBCCA33F1852D3"
-				item: { count: 1, id: "cobblemon:dusk_ball" }
+				item: { components: { "relics:data": { abilities: { abilities: { swim: { lock: { breaks: 5 }, points: 0, stats: { air_loss_reduction: { initialQuality: 2 }, evasion: { }, speed: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:flippers" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -267,12 +355,40 @@
 		{
 			dependencies: ["50E898FF65F0E742"]
 			icon: {
-				id: "cobblemon:quick_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								power: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										armor_ignore: {
+											initialQuality: 1
+										}
+										hits_required: {
+											initialQuality: 1
+										}
+										power_damage_bonus: {
+											initialQuality: 5
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:power_glove"
 			}
 			id: "50D03A46E53F626F"
 			rewards: [
 				{
-					count: 5
+					count: 4
 					id: "504587448608FA65"
 					item: {
 						count: 1
@@ -283,12 +399,12 @@
 				{
 					id: "50C813F26B2759F2"
 					type: "xp"
-					xp: 20
+					xp: 40
 				}
 			]
 			tasks: [{
 				id: "508AFE39BD80E363"
-				item: { count: 1, id: "cobblemon:quick_ball" }
+				item: { components: { "relics:data": { abilities: { abilities: { power: { lock: { breaks: 5 }, points: 0, stats: { armor_ignore: { initialQuality: 5 }, hits_required: { initialQuality: 3 }, power_damage_bonus: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:power_glove" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -297,7 +413,42 @@
 		{
 			dependencies: ["50E898FF65F0E742"]
 			icon: {
-				id: "cobblemon:net_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								vampire: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										kill_heal: {
+											initialQuality: 4
+										}
+										lifesteal: {
+											initialQuality: 2
+										}
+										max_streak_bonuses: {
+											initialQuality: 2
+										}
+										overheal_absorption_cap: { }
+										streak_heal_bonus: {
+											initialQuality: 3
+										}
+										streak_window: {
+											initialQuality: 2
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:vampiric_glove"
 			}
 			id: "50CF24B5D3BA83FB"
 			rewards: [
@@ -313,12 +464,12 @@
 				{
 					id: "50A2A42245B282BB"
 					type: "xp"
-					xp: 20
+					xp: 60
 				}
 			]
 			tasks: [{
 				id: "5038433C64C806E8"
-				item: { count: 1, id: "cobblemon:net_ball" }
+				item: { components: { "relics:data": { abilities: { abilities: { vampire: { lock: { breaks: 5 }, points: 0, stats: { kill_heal: { }, lifesteal: { }, max_streak_bonuses: { initialQuality: 6 }, overheal_absorption_cap: { initialQuality: 10 }, streak_heal_bonus: { initialQuality: 10 }, streak_window: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:vampiric_glove" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -327,28 +478,62 @@
 		{
 			dependencies: ["50E898FF65F0E742"]
 			icon: {
-				id: "cobblemon:dive_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								heart: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bonus_health: {
+											initialQuality: 6
+										}
+										cooldown: {
+											initialQuality: 10
+										}
+										full_health_resistance: {
+											initialQuality: 8
+										}
+										heavy_hit_threshold: {
+											initialQuality: 1
+										}
+										immortality_duration: { }
+										low_health_heal_bonus: {
+											initialQuality: 3
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:crystal_heart"
 			}
 			id: "50CAE62CFB0376EE"
 			rewards: [
 				{
-					count: 5
 					id: "50C5DB71603046A6"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "numismatics:bevel"
 					}
 					type: "item"
 				}
 				{
 					id: "5088132A0A9AAF7E"
 					type: "xp"
-					xp: 20
+					xp: 100
 				}
 			]
 			tasks: [{
 				id: "5015891625E0C274"
-				item: { count: 1, id: "cobblemon:dive_ball" }
+				item: { components: { "relics:data": { abilities: { abilities: { heart: { lock: { breaks: 5 }, points: 0, stats: { bonus_health: { initialQuality: 1 }, cooldown: { initialQuality: 6 }, full_health_resistance: { initialQuality: 7 }, heavy_hit_threshold: { initialQuality: 8 }, immortality_duration: { initialQuality: 10 }, low_health_heal_bonus: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:crystal_heart" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -357,12 +542,39 @@
 		{
 			dependencies: ["50E898FF65F0E742"]
 			icon: {
-				id: "cobblemon:nest_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								lava: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage_reduction: {
+											initialQuality: 7
+										}
+										duration: {
+											initialQuality: 3
+										}
+										low_reserve_speed_bonus: {
+											initialQuality: 9
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:obsidian_skull"
 			}
 			id: "508490691423DA09"
 			rewards: [
 				{
-					count: 5
 					id: "50AC0B2437914968"
 					item: {
 						count: 1
@@ -373,12 +585,12 @@
 				{
 					id: "50EF5C6AD940A0C6"
 					type: "xp"
-					xp: 20
+					xp: 40
 				}
 			]
 			tasks: [{
 				id: "5001BB9933299769"
-				item: { count: 1, id: "cobblemon:nest_ball" }
+				item: { components: { "relics:data": { abilities: { abilities: { lava: { lock: { breaks: 5 }, points: 0, stats: { damage_reduction: { initialQuality: 1 }, duration: { initialQuality: 9 }, low_reserve_speed_bonus: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:obsidian_skull" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -387,12 +599,38 @@
 		{
 			dependencies: ["50E898FF65F0E742"]
 			icon: {
-				id: "cobblemon:timer_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								jump: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										count: { }
+										slow_fall_duration: {
+											initialQuality: 3
+										}
+										updraft_bonus: {
+											initialQuality: 2
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:cloud_in_a_bottle"
 			}
 			id: "50B3C21E7CF5708D"
 			rewards: [
 				{
-					count: 5
+					count: 4
 					id: "50AD61AAADBA8286"
 					item: {
 						count: 1
@@ -403,12 +641,12 @@
 				{
 					id: "502CABB5899B3A68"
 					type: "xp"
-					xp: 20
+					xp: 40
 				}
 			]
 			tasks: [{
 				id: "506B4914F054405E"
-				item: { count: 1, id: "cobblemon:timer_ball" }
+				item: { components: { "relics:data": { abilities: { abilities: { jump: { lock: { breaks: 5 }, points: 0, stats: { count: { initialQuality: 1 }, slow_fall_duration: { initialQuality: 8 }, updraft_bonus: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:cloud_in_a_bottle" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -417,13 +655,33 @@
 		{
 			dependencies: ["50E898FF65F0E742"]
 			icon: {
-				id: "cobblemon:heal_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								magnetism: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										radius: { }
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:universal_attractor"
 			}
 			id: "5072C373AAB7AF13"
 			rewards: [
 				{
-					count: 5
-					id: "50D86BB91C97E49A"
+					count: 4
+					id: "50C4E2CBAE1AAD07"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -431,14 +689,14 @@
 					type: "item"
 				}
 				{
-					id: "50B3FDD6ED3837CF"
+					id: "5057D6C7A8AA9C56"
 					type: "xp"
-					xp: 20
+					xp: 40
 				}
 			]
 			tasks: [{
-				id: "503FCBD7BBAAE5BB"
-				item: { count: 1, id: "cobblemon:heal_ball" }
+				id: "50DEA84E11E82C77"
+				item: { components: { "relics:data": { abilities: { abilities: { magnetism: { lock: { breaks: 5 }, points: 0, stats: { radius: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:universal_attractor" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -447,28 +705,56 @@
 		{
 			dependencies: ["50E898FF65F0E742"]
 			icon: {
-				id: "cobblemon:beast_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								warp: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										blind_duration: {
+											initialQuality: 4
+										}
+										blind_radius: {
+											initialQuality: 8
+										}
+										cooldown: {
+											initialQuality: 1
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:warp_drive"
 			}
 			id: "50B9E56C7B987302"
 			rewards: [
 				{
-					count: 5
-					id: "509D4048283844CB"
+					count: 2
+					id: "50D0E9F6DE22CB05"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "numismatics:bevel"
 					}
 					type: "item"
 				}
 				{
-					id: "5041809DACEE8B12"
+					id: "50F13DF83CC50FE0"
 					type: "xp"
-					xp: 20
+					xp: 100
 				}
 			]
 			tasks: [{
-				id: "503DD0B7C7E0250C"
-				item: { count: 1, id: "cobblemon:beast_ball" }
+				id: "500BB6E5DF39AD30"
+				item: { components: { "relics:data": { abilities: { abilities: { warp: { lock: { breaks: 5 }, points: 0, stats: { blind_duration: { initialQuality: 2 }, blind_radius: { initialQuality: 8 }, cooldown: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:warp_drive" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -476,7 +762,6 @@
 		}
 		{
 			dependencies: [
-				"50E898FF65F0E742"
 				"50DD0D2A2D442224"
 				"5035665954F13AAF"
 				"50D03A46E53F626F"
@@ -488,12 +773,53 @@
 				"50B9E56C7B987302"
 			]
 			icon: {
-				id: "cobblemon:master_ball"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								gliding: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage: {
+											initialQuality: 9
+										}
+										efficiency: {
+											initialQuality: 9
+										}
+										resistance: {
+											initialQuality: 3
+										}
+									}
+								}
+								slots: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										amount: {
+											initialQuality: 3
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:kinetic_belt"
 			}
-			id: "50294A5E15CF177A"
+			id: "6100000000000001"
+			min_required_dependencies: 5
 			rewards: [
 				{
-					id: "509F3ADFB7065A3E"
+					count: 4
+					id: "61000000A0000001"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -501,28 +827,679 @@
 					type: "item"
 				}
 				{
-					id: "5070351200F62F4F"
+					id: "61000000A0000002"
 					type: "xp"
-					xp: 300
+					xp: 40
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "61000000A0000003"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								gliding: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage: {
+											initialQuality: 3
+										}
+										efficiency: {
+											initialQuality: 5
+										}
+										resistance: {
+											initialQuality: 4
+										}
+									}
+								}
+								slots: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										amount: {
+											initialQuality: 2
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:kinetic_belt"
+			}
+			id: "6100000000000002"
+			rewards: [
+				{
+					id: "61000000A0000004"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "61000000A0000005"
+					type: "xp"
+					xp: 40
 				}
 			]
 			tasks: [{
-				consume_items: false
-				id: "5029B08CEBB1195F"
-				item: { count: 1, id: "cobblemon:master_ball" }
+				id: "61000000A0000006"
+				item: { components: { "relics:data": { abilities: { abilities: { gliding: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 3 }, efficiency: { }, resistance: { initialQuality: 8 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:kinetic_belt" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.0d
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								pack: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage_modifier: {
+											initialQuality: 1
+										}
+										pet_radius: {
+											initialQuality: 7
+										}
+										resistance_per_pet: { }
+										revival_cost: {
+											initialQuality: 8
+										}
+									}
+								}
+								slots: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										amount: { }
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:hunting_belt"
+			}
+			id: "6100000000000003"
+			rewards: [
+				{
+					id: "61000000A0000007"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "61000000A0000008"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "61000000A0000009"
+				item: { components: { "relics:data": { abilities: { abilities: { pack: { lock: { breaks: 5 }, points: 0, stats: { damage_modifier: { initialQuality: 1 }, pet_radius: { initialQuality: 1 }, resistance_per_pet: { initialQuality: 4 }, revival_cost: { initialQuality: 6 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:hunting_belt" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								regeneration: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										max_health: {
+											initialQuality: 7
+										}
+										regeneration: {
+											initialQuality: 7
+										}
+									}
+								}
+								shock: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bounces: { }
+										cooldown: {
+											initialQuality: 5
+										}
+										damage: {
+											initialQuality: 9
+										}
+										damage_modifier: { }
+										distance: {
+											initialQuality: 5
+										}
+										duration: {
+											initialQuality: 5
+										}
+										knockback: {
+											initialQuality: 8
+										}
+										paralysis: { }
+										radius: {
+											initialQuality: 2
+										}
+										rings: {
+											initialQuality: 9
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:jellyfish_necklace"
+			}
+			id: "6100000000000004"
+			rewards: [
+				{
+					id: "6100000A00000001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "6100000A00000002"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "6100000A00000003"
+				item: { components: { "relics:data": { abilities: { abilities: { regeneration: { lock: { breaks: 5 }, points: 0, stats: { max_health: { initialQuality: 1 }, regeneration: { initialQuality: 8 } } }, shock: { lock: { breaks: 5 }, points: 0, stats: { bounces: { initialQuality: 1 }, cooldown: { initialQuality: 3 }, damage: { initialQuality: 4 }, damage_modifier: { initialQuality: 7 }, distance: { initialQuality: 4 }, duration: { initialQuality: 1 }, knockback: { initialQuality: 7 }, paralysis: { initialQuality: 8 }, radius: { }, rings: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:jellyfish_necklace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								reflection: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bounces: {
+											initialQuality: 5
+										}
+										chance: { }
+										damage: {
+											initialQuality: 3
+										}
+										lifetime: {
+											initialQuality: 10
+										}
+										piercings: {
+											initialQuality: 3
+										}
+										stun: {
+											initialQuality: 8
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:reflective_necklace"
+			}
+			id: "6100000000000005"
+			rewards: [{
+				id: "6100000A00000005"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "6100000A00000006"
+				item: { components: { "relics:data": { abilities: { abilities: { reflection: { lock: { breaks: 5 }, points: 0, stats: { bounces: { initialQuality: 8 }, chance: { initialQuality: 7 }, damage: { initialQuality: 8 }, lifetime: { initialQuality: 9 }, piercings: { initialQuality: 9 }, stun: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:reflective_necklace" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								camouflage: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										absorption: {
+											initialQuality: 6
+										}
+										cooldown: { }
+										heal: {
+											initialQuality: 8
+										}
+									}
+								}
+								revival: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										damage: { }
+										heal: { }
+										paralysis: {
+											initialQuality: 7
+										}
+										radius: { }
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:leafy_mantle"
+			}
+			id: "6100000000000006"
+			rewards: [{
+				id: "6100000A00000008"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "6100000A00000009"
+				item: { components: { "relics:data": { abilities: { abilities: { camouflage: { lock: { breaks: 5 }, points: 0, stats: { absorption: { initialQuality: 7 }, cooldown: { }, heal: { initialQuality: 10 } } }, revival: { lock: { breaks: 0 }, points: 0, stats: { damage: { initialQuality: 8 }, heal: { }, paralysis: { initialQuality: 10 }, radius: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:leafy_mantle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								constellation: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										constellation_radius: {
+											initialQuality: 1
+										}
+										explosion_damage: {
+											initialQuality: 3
+										}
+										explosion_radius: {
+											initialQuality: 3
+										}
+										star_chance: {
+											initialQuality: 4
+										}
+										star_lifetime: {
+											initialQuality: 3
+										}
+										stun_duration: {
+											initialQuality: 10
+										}
+										tremor_duration: {
+											initialQuality: 2
+										}
+									}
+								}
+								invisibility: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										brightness: { }
+										cooldown: {
+											initialQuality: 5
+										}
+										damage: {
+											initialQuality: 2
+										}
+									}
+								}
+								phase: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										attack_damage: {
+											initialQuality: 6
+										}
+										attack_speed: { }
+										duration: {
+											initialQuality: 2
+										}
+										health_regeneration: {
+											initialQuality: 1
+										}
+										max_health: {
+											initialQuality: 8
+										}
+										modifier: {
+											initialQuality: 3
+										}
+									}
+								}
+								starfall: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										bounce_chance: {
+											initialQuality: 5
+										}
+										chance: {
+											initialQuality: 1
+										}
+										damage: {
+											initialQuality: 8
+										}
+										radius: {
+											initialQuality: 10
+										}
+										stun: {
+											initialQuality: 2
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:midnight_mantle"
+			}
+			id: "6100000000000007"
+			rewards: [
+				{
+					count: 2
+					id: "6100000B00000001"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6100000B00000002"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				id: "6100000B00000003"
+				item: { components: { "relics:data": { abilities: { abilities: { constellation: { lock: { breaks: 0 }, points: 0, stats: { constellation_radius: { initialQuality: 9 }, explosion_damage: { initialQuality: 4 }, explosion_radius: { initialQuality: 1 }, star_chance: { initialQuality: 10 }, star_lifetime: { initialQuality: 6 }, stun_duration: { initialQuality: 8 }, tremor_duration: { initialQuality: 8 } } }, invisibility: { lock: { breaks: 0 }, points: 0, stats: { brightness: { initialQuality: 7 }, cooldown: { initialQuality: 10 }, damage: { initialQuality: 1 } } }, phase: { lock: { breaks: 5 }, points: 0, stats: { attack_damage: { initialQuality: 6 }, attack_speed: { initialQuality: 1 }, duration: { initialQuality: 8 }, health_regeneration: { initialQuality: 9 }, max_health: { initialQuality: 3 }, modifier: { } } }, starfall: { lock: { breaks: 0 }, points: 0, stats: { bounce_chance: { initialQuality: 4 }, chance: { initialQuality: 9 }, damage: { initialQuality: 3 }, radius: { initialQuality: 1 }, stun: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:midnight_mantle" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			icon: {
+				id: "relics:golden_tooth"
+			}
+			id: "6100000000000008"
+			rewards: [
+				{
+					count: 4
+					id: "6100000B00000004"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "6100000B00000005"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "6100000B00000006"
+				item: { count: 1, id: "relics:golden_tooth" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								stable: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										heal: {
+											initialQuality: 8
+										}
+										max_slots: { }
+										resistance: {
+											initialQuality: 1
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:rider_flute"
+			}
+			id: "6100000000000009"
+			rewards: [
+				{
+					count: 4
+					id: "6100000B00000007"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "6100000B00000008"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "6100000B00000009"
+				item: { components: { "relics:data": { abilities: { abilities: { stable: { lock: { breaks: 5 }, points: 0, stats: { heal: { initialQuality: 8 }, max_slots: { initialQuality: 1 }, resistance: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:rider_flute" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6100000000000001"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								glass: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										capacity: {
+											initialQuality: 7
+										}
+										max_fluids: {
+											initialQuality: 4
+										}
+										speed: {
+											initialQuality: 5
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:cut_glass_boot"
+			}
+			id: "610000000000000A"
+			rewards: [
+				{
+					count: 4
+					id: "6100000C00000001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "6100000C00000002"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				id: "6100000C00000003"
+				item: { components: { "relics:data": { abilities: { abilities: { glass: { lock: { breaks: 5 }, points: 0, stats: { capacity: { initialQuality: 4 }, max_fluids: { }, speed: { initialQuality: 8 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:cut_glass_boot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
-				"50D198B0FBC2B764"
-				"50E194D990BF19F8"
-				"5052447EB34CB6A8"
+				"6100000000000002"
+				"6100000000000003"
+				"6100000000000004"
+				"6100000000000005"
+				"6100000000000006"
+				"6100000000000007"
+				"6100000000000008"
+				"6100000000000009"
+				"610000000000000A"
 				"50294A5E15CF177A"
 			]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								protection: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										fire_duration: {
+											initialQuality: 6
+										}
+										invulnerability: {
+											initialQuality: 1
+										}
+										survival_chance: {
+											initialQuality: 7
+										}
+										undead_damage: {
+											initialQuality: 3
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:cross_necklace"
+			}
 			id: "50B36D079EF538B3"
+			min_required_dependencies: 6
 			rewards: [
 				{
 					id: "50D715508D635592"
@@ -530,27 +1507,82 @@
 					type: "random"
 				}
 				{
-					id: "50D209F16823B56B"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "50A03613C7BA5FB4"
+					id: "50D209F000000001"
 					type: "xp"
-					xp: 400
+					xp: 250
 				}
 			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "50372C8369095DA2"
+				id: "50D209F100000001"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["50E898FF65F0E742"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								resistance: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										modifier: {
+											initialQuality: 10
+										}
+									}
+								}
+								wall_slide: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										damage_resistance: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:steadfast_spikes"
+			}
+			id: "50294A5E15CF177A"
+			rewards: [
+				{
+					count: 2
+					id: "50E9E4F900000001"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "50E9E4F900000002"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				id: "50E9E4F900000003"
+				item: { components: { "relics:data": { abilities: { abilities: { resistance: { lock: { breaks: 5 }, points: 0, stats: { modifier: { initialQuality: 8 } } }, wall_slide: { lock: { breaks: 0 }, points: 0, stats: { damage_resistance: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "artifacts:steadfast_spikes" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
 		}
 	]
 }

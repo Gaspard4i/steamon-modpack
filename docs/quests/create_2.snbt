@@ -11,10 +11,35 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"106FA347B5C829E2"
-				"20D1FD9D0ADDE063"
+			dependencies: ["106FA347B5C829E2"]
+			id: "2000000000000B01"
+			rewards: [
+				{
+					count: 3
+					id: "20000000000B0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "20000000000B0002"
+					type: "xp"
+					xp: 20
+				}
 			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "20000000000B0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000000B01"]
 			id: "20B15066AC9B97D2"
 			rewards: [
 				{
@@ -176,11 +201,11 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 2
 					id: "207CBAFC12D7D62C"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "numismatics:bevel"
 					}
 					type: "item"
 				}
@@ -318,7 +343,6 @@
 			dependencies: ["20471F8A88803EDB"]
 			id: "208CA81EDB95A02F"
 			rewards: [{
-				count: 2
 				id: "20FC477C35985A81"
 				item: {
 					count: 1
@@ -357,15 +381,21 @@
 		{
 			dependencies: ["20D046807B678D47"]
 			id: "20A563ABCAD6E9A2"
-			rewards: [{
-				count: 2
-				id: "20F0430EED302076"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "5ACDB1C7B08C0E1E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3212811D38A51740"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "2018CDFEF0163CFD"
 				item: { count: 1, id: "create:mechanical_arm" }

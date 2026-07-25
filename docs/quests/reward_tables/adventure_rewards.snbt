@@ -1,21 +1,54 @@
 {
 	icon: {
-		id: "cobblemon:beast_ball"
+		components: {
+			"relics:data": {
+				abilities: {
+					abilities: {
+						heart: {
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							stats: {
+								bonus_health: {
+									initialQuality: 10
+								}
+								cooldown: { }
+								full_health_resistance: {
+									initialQuality: 6
+								}
+								heavy_hit_threshold: { }
+								immortality_duration: {
+									initialQuality: 4
+								}
+								low_health_heal_bonus: {
+									initialQuality: 4
+								}
+							}
+						}
+					}
+					synergies: { }
+				}
+				leveling: { }
+				statistic: { }
+			}
+		}
+		id: "artifacts:crystal_heart"
 	}
 	id: "501CB7322A4BCDEE"
 	loot_size: 1
 	order_index: 6
 	rewards: [
-		{ reward: { id: "3A61C91A2179EF45", type: "item", item: { id: "cobblemon:ultra_ball", count: 6 } }, weight: 40.0f }
-		{ reward: { id: "3840233271E659A8", type: "item", item: { id: "cobblemon:quick_ball", count: 4 } }, weight: 30.0f }
-		{ reward: { id: "7D17C466D3827944", type: "item", item: { id: "cobblemon:dive_ball", count: 4 } }, weight: 20.0f }
-		{ reward: { id: "29442F521FAC00A2", type: "item", item: { id: "cobblemon:nest_ball", count: 4 } }, weight: 20.0f }
-		{ reward: { id: "15E9F06B82CAD65D", type: "item", item: { id: "numismatics:spur", count: 12 } }, weight: 18.0f }
-		{ reward: { id: "5345C33A7071FFF6", type: "item", item: { id: "cobblemon:rare_candy", count: 3 } }, weight: 15.0f }
-		{ reward: { id: "73380FF376272FD9", type: "item", item: { id: "minecraft:golden_apple", count: 3 } }, weight: 15.0f }
-		{ reward: { id: "77CFB4869361238E", type: "item", item: { id: "cobblemon:timer_ball", count: 4 } }, weight: 8.0f }
-		{ reward: { id: "41EE6805D80E2F49", type: "item", item: { id: "cobblemon:heal_ball", count: 4 } }, weight: 8.0f }
-		{ reward: { id: "4CD7B875F3BB0184", type: "item", item: { id: "cobblemon:beast_ball", count: 1 } }, weight: 2.0f }
+		{ id: "0A6F2E887F6F6954", weight: 40.0f }
+		{ id: "703BCAA9D2B32807", weight: 30.0f }
+		{ id: "33DC1F35973E7DC8", weight: 20.0f }
+		{ id: "544F9DD5B734FCD1", weight: 20.0f }
+		{ id: "6169D72280ADBF19", weight: 18.0f }
+		{ id: "56059B9ABCAD4738", weight: 15.0f }
+		{ id: "457D1A8CC4DCB218", weight: 15.0f }
+		{ id: "1C537F162C36C9B2", weight: 8.0f }
+		{ id: "2BB0325366F56307", weight: 8.0f }
+		{ id: "1D1B22B342D877D5", weight: 2.0f }
 	]
 	use_title: true
 }

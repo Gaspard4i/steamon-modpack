@@ -12,6 +12,34 @@
 	quests: [
 		{
 			dependencies: ["102D9356B8648743"]
+			id: "5000000000000A01"
+			rewards: [
+				{
+					count: 3
+					id: "50000000000A0001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "50000000000A0002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "50000000000A0003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5000000000000A01"]
 			id: "50996153FB959512"
 			rewards: [
 				{
@@ -79,22 +107,11 @@
 		{
 			dependencies: ["5096E4411BC2AEE2"]
 			id: "502277C522EB9532"
-			rewards: [
-				{
-					count: 6
-					id: "50DDD5EC26207EC9"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "5092C01174F3D78B"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "5092C01174F3D78B"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "501CF50145120356"
 				item: { count: 1, id: "farmersdelight:cutting_board" }
@@ -173,10 +190,11 @@
 			id: "507AE2D0C47CC928"
 			rewards: [
 				{
+					count: 2
 					id: "508268A0E9C639C1"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "farmersdelight:stove"
 					}
 					type: "item"
 				}
@@ -258,11 +276,11 @@
 			id: "50F676F9AEE5BB6A"
 			rewards: [
 				{
-					count: 6
+					count: 2
 					id: "5070F15B96B563B3"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "farmersdelight:roast_chicken"
 					}
 					type: "item"
 				}
@@ -376,22 +394,11 @@
 				id: "mynethersdelight:hoglin_sausage"
 			}
 			id: "5007E20DAC235BE9"
-			rewards: [
-				{
-					count: 6
-					id: "504625016F33D48C"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "507E62BDDF9A2140"
-					type: "xp"
-					xp: 20
-				}
-			]
+			rewards: [{
+				id: "507E62BDDF9A2140"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "502EE0E9A75FF339"
 				item: { count: 1, id: "mynethersdelight:hoglin_sausage" }

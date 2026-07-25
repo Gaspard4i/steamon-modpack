@@ -11,6 +11,35 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["30E9681CB438878A"]
+			id: "6200000000000001"
+			rewards: [
+				{
+					count: 3
+					id: "62000000A0000001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "62000000A0000002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "62000000A0000003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6200000000000001"]
 			icon: {
 				id: "cobblemon:aguav_berry"
 			}
@@ -38,15 +67,21 @@
 				id: "cobblemon:apicot_berry"
 			}
 			id: "0F46F990084649AE"
-			rewards: [{
-				count: 7
-				id: "4AFDA4786178ED7A"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "55F530D46BE57E43"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4D1C6C61FA392D03"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "79D8D0D096C2004C"
 				item: { count: 1, id: "cobblemon:apicot_berry" }
@@ -56,7 +91,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0F46F990084649AE"]
+			dependencies: ["0786B6A084D59A9A"]
 			icon: {
 				id: "cobblemon:aspear_berry"
 			}
@@ -79,17 +114,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0F46F990084649AE"]
+			dependencies: ["0786B6A084D59A9A"]
 			icon: {
 				id: "cobblemon:babiri_berry"
 			}
 			id: "1FB03D40A5F26F5E"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "4081EF7820D9EB2B"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:babiri_berry"
 				}
 				type: "item"
 			}]
@@ -102,7 +137,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0F46F990084649AE"]
+			dependencies: ["0786B6A084D59A9A"]
 			icon: {
 				id: "cobblemon:belue_berry"
 			}
@@ -125,7 +160,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0F46F990084649AE"]
+			dependencies: ["0786B6A084D59A9A"]
 			icon: {
 				id: "cobblemon:bluk_berry"
 			}
@@ -148,7 +183,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0F46F990084649AE"]
+			dependencies: ["0786B6A084D59A9A"]
 			icon: {
 				id: "cobblemon:charti_berry"
 			}
@@ -171,7 +206,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0F46F990084649AE"]
+			dependencies: ["0786B6A084D59A9A"]
 			icon: {
 				id: "cobblemon:cheri_berry"
 			}
@@ -194,7 +229,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0F46F990084649AE"]
+			dependencies: ["0786B6A084D59A9A"]
 			icon: {
 				id: "cobblemon:chesto_berry"
 			}
@@ -217,17 +252,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0F46F990084649AE"]
+			dependencies: ["0786B6A084D59A9A"]
 			icon: {
 				id: "cobblemon:chilan_berry"
 			}
 			id: "5C583CAA8FE451DD"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "5223D7F16F6B1D58"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:chilan_berry"
 				}
 				type: "item"
 			}]
@@ -240,17 +275,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0786B6A084D59A9A"]
+			dependencies: ["6200000000000001"]
 			icon: {
 				id: "cobblemon:chople_berry"
 			}
 			id: "7107C7BDAB487C21"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "5522FDA6855698F2"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:chople_berry"
 				}
 				type: "item"
 			}]
@@ -291,15 +326,21 @@
 				id: "cobblemon:colbur_berry"
 			}
 			id: "4BCA5AE6E024A7AF"
-			rewards: [{
-				count: 5
-				id: "2D08D51C19321572"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "1183A3EE39B35D78"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7DE8F2691536D391"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "55134CCA9B7299D9"
 				item: { count: 1, id: "cobblemon:colbur_berry" }
@@ -309,7 +350,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["33DFC5D1B2C45880"]
+			dependencies: ["7107C7BDAB487C21"]
 			icon: {
 				id: "cobblemon:cornn_berry"
 			}
@@ -332,7 +373,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["33DFC5D1B2C45880"]
+			dependencies: ["7107C7BDAB487C21"]
 			icon: {
 				id: "cobblemon:custap_berry"
 			}
@@ -355,7 +396,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["33DFC5D1B2C45880"]
+			dependencies: ["7107C7BDAB487C21"]
 			icon: {
 				id: "cobblemon:durin_berry"
 			}
@@ -378,7 +419,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["33DFC5D1B2C45880"]
+			dependencies: ["7107C7BDAB487C21"]
 			icon: {
 				id: "cobblemon:eggant_berry"
 			}
@@ -401,7 +442,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["33DFC5D1B2C45880"]
+			dependencies: ["7107C7BDAB487C21"]
 			icon: {
 				id: "cobblemon:enigma_berry"
 			}
@@ -423,7 +464,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["33DFC5D1B2C45880"]
+			dependencies: ["7107C7BDAB487C21"]
 			icon: {
 				id: "cobblemon:figy_berry"
 			}
@@ -446,7 +487,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["33DFC5D1B2C45880"]
+			dependencies: ["7107C7BDAB487C21"]
 			icon: {
 				id: "cobblemon:ganlon_berry"
 			}
@@ -469,7 +510,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7107C7BDAB487C21"]
+			dependencies: ["6200000000000001"]
 			icon: {
 				id: "cobblemon:grepa_berry"
 			}
@@ -538,17 +579,17 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["23417F87E6CFA339"]
+			dependencies: ["7E453D568132465C"]
 			icon: {
 				id: "cobblemon:hopo_berry"
 			}
 			id: "74057901CB46C6FC"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "49B430E490F0DFDE"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:hopo_berry"
 				}
 				type: "item"
 			}]
@@ -561,7 +602,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["23417F87E6CFA339"]
+			dependencies: ["7E453D568132465C"]
 			icon: {
 				id: "cobblemon:iapapa_berry"
 			}
@@ -584,20 +625,26 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["23417F87E6CFA339"]
+			dependencies: ["7E453D568132465C"]
 			icon: {
 				id: "cobblemon:jaboca_berry"
 			}
 			id: "163F89F9BD994CEA"
-			rewards: [{
-				count: 5
-				id: "736CD7BBE7FB6C9C"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "5C9F2D785C35EEAB"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "517EBF8D1DA1F474"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "4C85D533534673B0"
 				item: { count: 1, id: "cobblemon:jaboca_berry" }
@@ -607,17 +654,17 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["23417F87E6CFA339"]
+			dependencies: ["7E453D568132465C"]
 			icon: {
 				id: "cobblemon:kasib_berry"
 			}
 			id: "76530D0122392A08"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "2ED14A1B678C0357"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:kasib_berry"
 				}
 				type: "item"
 			}]
@@ -630,7 +677,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["23417F87E6CFA339"]
+			dependencies: ["7E453D568132465C"]
 			icon: {
 				id: "cobblemon:kebia_berry"
 			}
@@ -653,20 +700,26 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["23417F87E6CFA339"]
+			dependencies: ["7E453D568132465C"]
 			icon: {
 				id: "cobblemon:kee_berry"
 			}
 			id: "7808D45744C35AEE"
-			rewards: [{
-				count: 5
-				id: "4E1B163CE38FC09E"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "6987453654B0B217"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7FF3AAD768FE9E0C"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "3781AD2ADAB1868A"
 				item: { count: 1, id: "cobblemon:kee_berry" }
@@ -676,7 +729,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["23417F87E6CFA339"]
+			dependencies: ["7E453D568132465C"]
 			icon: {
 				id: "cobblemon:kelpsy_berry"
 			}
@@ -699,7 +752,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7E453D568132465C"]
+			dependencies: ["6200000000000001"]
 			icon: {
 				id: "cobblemon:lansat_berry"
 			}
@@ -749,15 +802,21 @@
 				id: "cobblemon:liechi_berry"
 			}
 			id: "7FEA374D63883FC9"
-			rewards: [{
-				count: 7
-				id: "789FD4672C20DD0F"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "34C2706326BBCBD3"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6B2A531A74FE4AB3"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "6F4128D917B5A0CB"
 				item: { count: 1, id: "cobblemon:liechi_berry" }
@@ -767,20 +826,26 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["79A3BC35DD7F0C88"]
+			dependencies: ["7B63BDBF02CC4CA0"]
 			icon: {
 				id: "cobblemon:lum_berry"
 			}
 			id: "7CB5661D486CF43B"
-			rewards: [{
-				count: 8
-				id: "4BCC4312988B0FB7"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "7EE6D9AC411DBECA"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "005775814D3B2BE5"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "07D29F898A500902"
 				item: { count: 1, id: "cobblemon:lum_berry" }
@@ -790,7 +855,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["79A3BC35DD7F0C88"]
+			dependencies: ["7B63BDBF02CC4CA0"]
 			icon: {
 				id: "cobblemon:mago_berry"
 			}
@@ -813,7 +878,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["79A3BC35DD7F0C88"]
+			dependencies: ["7B63BDBF02CC4CA0"]
 			icon: {
 				id: "cobblemon:magost_berry"
 			}
@@ -836,17 +901,17 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["79A3BC35DD7F0C88"]
+			dependencies: ["7B63BDBF02CC4CA0"]
 			icon: {
 				id: "cobblemon:maranga_berry"
 			}
 			id: "61AA8829A6838596"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "1AFC027F3426A5A1"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:maranga_berry"
 				}
 				type: "item"
 			}]
@@ -859,17 +924,17 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["79A3BC35DD7F0C88"]
+			dependencies: ["7B63BDBF02CC4CA0"]
 			icon: {
 				id: "cobblemon:micle_berry"
 			}
 			id: "31A8811F6306EC1C"
 			rewards: [{
-				count: 7
+				count: 2
 				id: "1E6067E71F56C072"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:micle_berry"
 				}
 				type: "item"
 			}]
@@ -882,7 +947,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["79A3BC35DD7F0C88"]
+			dependencies: ["7B63BDBF02CC4CA0"]
 			icon: {
 				id: "cobblemon:nanab_berry"
 			}
@@ -905,7 +970,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["79A3BC35DD7F0C88"]
+			dependencies: ["7B63BDBF02CC4CA0"]
 			icon: {
 				id: "cobblemon:nomel_berry"
 			}
@@ -928,7 +993,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7B63BDBF02CC4CA0"]
+			dependencies: ["6200000000000001"]
 			icon: {
 				id: "cobblemon:occa_berry"
 			}
@@ -951,7 +1016,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["7B63BDBF02CC4CA0"]
+			dependencies: ["43C55E1C1051E955"]
 			icon: {
 				id: "cobblemon:oran_berry"
 			}
@@ -1003,11 +1068,11 @@
 			}
 			id: "1999C22F426BB20D"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "00C943065A76390F"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:passho_berry"
 				}
 				type: "item"
 			}]
@@ -1094,15 +1159,21 @@
 				id: "cobblemon:petaya_berry"
 			}
 			id: "25FF5F49346F0351"
-			rewards: [{
-				count: 7
-				id: "3907EE26182B9B69"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "0A19409AB38C5F2C"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3A50EF705B0557F9"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "7DE6D749D2B8F936"
 				item: { count: 1, id: "cobblemon:petaya_berry" }
@@ -1141,11 +1212,11 @@
 			}
 			id: "6B45A4029B04DFFC"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "3A0A00DEA5FC5238"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:pomeg_berry"
 				}
 				type: "item"
 			}]
@@ -1158,7 +1229,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["43C55E1C1051E955"]
+			dependencies: ["6200000000000001"]
 			icon: {
 				id: "cobblemon:qualot_berry"
 			}
@@ -1204,7 +1275,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2AA86FA3605C966D"]
+			dependencies: ["28506AD088DC6827"]
 			icon: {
 				id: "cobblemon:rawst_berry"
 			}
@@ -1227,7 +1298,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2AA86FA3605C966D"]
+			dependencies: ["28506AD088DC6827"]
 			icon: {
 				id: "cobblemon:razz_berry"
 			}
@@ -1250,17 +1321,17 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2AA86FA3605C966D"]
+			dependencies: ["28506AD088DC6827"]
 			icon: {
 				id: "cobblemon:rindo_berry"
 			}
 			id: "1BFA2B372F6E2B48"
 			rewards: [{
-				count: 5
+				count: 2
 				id: "7E45043DC48BEEB9"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:rindo_berry"
 				}
 				type: "item"
 			}]
@@ -1273,7 +1344,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2AA86FA3605C966D"]
+			dependencies: ["28506AD088DC6827"]
 			icon: {
 				id: "cobblemon:roseli_berry"
 			}
@@ -1296,20 +1367,26 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2AA86FA3605C966D"]
+			dependencies: ["28506AD088DC6827"]
 			icon: {
 				id: "cobblemon:rowap_berry"
 			}
 			id: "07B41EF5E9FD3A17"
-			rewards: [{
-				count: 5
-				id: "7BF10BE2283F5B9A"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "6067CBA822C324A9"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "20FBA8934E627214"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "16C20C7DCDA487EA"
 				item: { count: 1, id: "cobblemon:rowap_berry" }
@@ -1319,20 +1396,26 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2AA86FA3605C966D"]
+			dependencies: ["28506AD088DC6827"]
 			icon: {
 				id: "cobblemon:salac_berry"
 			}
 			id: "7A6122D4891EE43B"
-			rewards: [{
-				count: 8
-				id: "2D087676C4A1DA77"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "2B128F744B9E8E82"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "50CF52A496EE42EB"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "6E775C3F3527C358"
 				item: { count: 1, id: "cobblemon:salac_berry" }
@@ -1342,7 +1425,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2AA86FA3605C966D"]
+			dependencies: ["28506AD088DC6827"]
 			icon: {
 				id: "cobblemon:shuca_berry"
 			}
@@ -1365,20 +1448,26 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2AA86FA3605C966D"]
+			dependencies: ["28506AD088DC6827"]
 			icon: {
 				id: "cobblemon:sitrus_berry"
 			}
 			id: "4863CD6DE6F03905"
-			rewards: [{
-				count: 6
-				id: "2725C8A78924361C"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "248263BEFF8C0C57"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4C93651B0A5A7B46"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "0EE624BAA65375E2"
 				item: { count: 1, id: "cobblemon:sitrus_berry" }
@@ -1388,7 +1477,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["28506AD088DC6827"]
+			dependencies: ["6200000000000001"]
 			icon: {
 				id: "cobblemon:spelon_berry"
 			}
@@ -1417,10 +1506,11 @@
 			}
 			id: "030706C9972D89C0"
 			rewards: [{
+				count: 2
 				id: "2A746C3C5D4E9143"
 				item: {
 					count: 1
-					id: "numismatics:spur"
+					id: "cobblemon:starf_berry"
 				}
 				type: "item"
 			}]
@@ -1438,15 +1528,21 @@
 				id: "cobblemon:tamato_berry"
 			}
 			id: "3E7681AB12026F3F"
-			rewards: [{
-				count: 4
-				id: "2421D0A000109757"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			rewards: [
+				{
+					id: "65A34F8F6DD5C163"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "06C3929047D00F55"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "5619AF9DC9F7367A"
 				item: { count: 1, id: "cobblemon:tamato_berry" }
@@ -1617,21 +1713,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"0786B6A084D59A9A"
-				"7107C7BDAB487C21"
-				"7E453D568132465C"
-				"7B63BDBF02CC4CA0"
-				"43C55E1C1051E955"
-				"28506AD088DC6827"
-				"3A21272C12F3782D"
-				"56065A80390AF05A"
-			]
-			min_required_dependencies: 6
+			dependencies: ["6200000000000001"]
 			icon: {
 				id: "cobblemon:enigma_berry"
 			}
 			id: "2E4B37499D05A742"
+			min_required_dependencies: 6
 			rewards: [
 				{
 					id: "624E3C4EF65E04D5"
