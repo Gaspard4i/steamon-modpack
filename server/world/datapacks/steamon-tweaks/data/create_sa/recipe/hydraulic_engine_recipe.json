@@ -1,0 +1,102 @@
+{
+ "type": "create:sequenced_assembly",
+ "ingredient": {
+  "tag": "c:plates/copper"
+ },
+ "loops": 4,
+ "results": [
+  {
+   "chance": 84.0,
+   "item": {
+    "id": "create_sa:hydraulic_engine"
+   }
+  },
+  {
+   "chance": 12.0,
+   "item": {
+    "id": "create:copper_sheet"
+   }
+  },
+  {
+   "chance": 8.0,
+   "item": {
+    "id": "create:andesite_alloy"
+   }
+  }
+ ],
+ "sequence": [
+  {
+   "type": "create:filling",
+   "ingredients": [
+    {
+     "item": "create_sa:incomplete_hydraulic_engine"
+    },
+    {
+     "type": "fluid_stack",
+     "amount": 500,
+     "fluid": "minecraft:water"
+    }
+   ],
+   "results": [
+    {
+     "item": {
+      "id": "create_sa:incomplete_hydraulic_engine"
+     }
+    }
+   ]
+  },
+  {
+   "type": "create:pressing",
+   "ingredients": [
+    {
+     "item": "create_sa:incomplete_hydraulic_engine"
+    }
+   ],
+   "results": [
+    {
+     "item": {
+      "id": "create_sa:incomplete_hydraulic_engine"
+     }
+    }
+   ]
+  },
+  {
+   "type": "create:pressing",
+   "ingredients": [
+    {
+     "item": "create_sa:incomplete_hydraulic_engine"
+    }
+   ],
+   "results": [
+    {
+     "item": {
+      "id": "create_sa:incomplete_hydraulic_engine"
+     }
+    }
+   ]
+  },
+  {
+   "type": "create:deploying",
+   "ingredients": [
+    {
+     "item": "create_sa:incomplete_hydraulic_engine"
+    },
+    {
+     "item": "create:fluid_pipe"
+    }
+   ],
+   "results": [
+    {
+     "item": {
+      "id": "create_sa:incomplete_hydraulic_engine"
+     }
+    }
+   ]
+  }
+ ],
+ "transitional_item": {
+  "item": {
+   "id": "create_sa:incomplete_hydraulic_engine"
+  }
+ }
+}

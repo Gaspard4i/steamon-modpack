@@ -2578,8 +2578,20 @@ file = "world/datapacks/steamon-tweaks/data/create_ltab/loot_table/water/basic_l
 hash = "a89300795fb37bebc95d0469deea5dcd96d0a427e239f1cd9972d82504ea451d"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/heat_engine_recipe.json"
+hash = "d070169786548f8074f8d0c8827c3ef76b7d86c94756a811eda1d1c946eb9ada"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/hydraulic_engine_recipe.json"
+hash = "6b9cb9093f862ddfdbbe438b8109811a85bf9cf9522b216f14824fd465aea045"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
 hash = "fa42271f92f727bbee7bdcdc2267771b8bd209c35fda4ba8ffdb48e6155abebc"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/steam_engine_recipe.json"
+hash = "6ce9522fe84fb5c7d26651f8caccc236dc0487fd51cd01d5fb5d329d961da20f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/crushing_netherite.json"
