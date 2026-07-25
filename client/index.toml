@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/accessories.json5"
+hash = "9ca14293603e6665aaa4605ec208e63f5ea139340495f8e793aa04cad8417df8"
+
+[[files]]
 file = "config/almostunified/unify.json"
 hash = "aa1ea7adc7a233452ad8239bb83facedbff63adf7873091d55e886991b7d5352"
 

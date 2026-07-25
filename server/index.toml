@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/accessories.json5"
+hash = "9ca14293603e6665aaa4605ec208e63f5ea139340495f8e793aa04cad8417df8"
+
+[[files]]
 file = "config/almostunified/unify.json"
 hash = "aa1ea7adc7a233452ad8239bb83facedbff63adf7873091d55e886991b7d5352"
 
@@ -307,6 +311,10 @@ hash = "ab6224c2150f5fce0d9686724f3f7562513485f29f2ce95ef617d4539ad4a827"
 [[files]]
 file = "kubejs/server_scripts/steamon_compensation.js"
 hash = "870695ca55945e34a5c04bf4757b393a429b31479ae40902571e86b1eccda281"
+
+[[files]]
+file = "kubejs/server_scripts/steamon_starter_kit.js"
+hash = "c62e2996f2e175005ff5cce06f52959941fb12632319198842bc5647337458a0"
 
 [[files]]
 file = "kubejs/startup_scripts/steamon_badges.js"
