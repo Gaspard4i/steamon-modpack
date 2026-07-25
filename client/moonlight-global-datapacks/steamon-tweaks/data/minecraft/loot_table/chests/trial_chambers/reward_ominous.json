@@ -219,6 +219,22 @@
      "name": "cobblemon:master_ball"
     }
    ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 1e-07
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "mythsandlegends:azure_flute"
+    }
+   ]
   }
  ],
  "random_sequence": "minecraft:chests/trial_chambers/reward_ominous"

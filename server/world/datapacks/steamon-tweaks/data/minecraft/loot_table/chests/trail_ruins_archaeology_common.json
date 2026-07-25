@@ -97,6 +97,22 @@
      "weight": 2
     }
    ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 1e-07
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "mythsandlegends:ancient_tablet"
+    }
+   ]
   }
  ],
  "random_sequence": "minecraft:chests/trail_ruins_archaeology_common"

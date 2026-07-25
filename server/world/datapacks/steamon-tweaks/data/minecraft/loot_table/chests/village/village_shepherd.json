@@ -176,6 +176,22 @@
      "name": "cobblemon:iron"
     }
    ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 1e-07
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "mythsandlegends:iceroot_carrot"
+    }
+   ]
   }
  ],
  "random_sequence": "minecraft:chests/village/village_shepherd"

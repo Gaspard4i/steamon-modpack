@@ -193,6 +193,22 @@
      "name": "cobblemon:water_stone"
     }
    ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 1e-07
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "mythsandlegends:blue_orb"
+    }
+   ]
   }
  ],
  "random_sequence": "minecraft:chests/buried_treasure"

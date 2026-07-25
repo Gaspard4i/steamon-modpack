@@ -180,6 +180,22 @@
      "name": "cobblemon:leaf_stone"
     }
    ]
+  },
+  {
+   "rolls": 1,
+   "bonus_rolls": 0,
+   "conditions": [
+    {
+     "condition": "minecraft:random_chance",
+     "chance": 1e-07
+    }
+   ],
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "mythsandlegends:grassland_blade"
+    }
+   ]
   }
  ],
  "random_sequence": "minecraft:chests/village/village_savanna_house"
