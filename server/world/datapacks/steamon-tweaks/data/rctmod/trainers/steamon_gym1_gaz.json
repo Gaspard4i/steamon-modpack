@@ -1,0 +1,105 @@
+{
+  "name": "Gym Leader Gaz",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 1
+  },
+  "bag": [
+    {
+      "item": "cobblemon:potion",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "mimejr",
+      "nickname": "Juggler",
+      "gender": "MALE",
+      "level": 13,
+      "nature": "timid",
+      "ability": "soundproof",
+      "moveset": [
+        "confusion",
+        "mimic",
+        "batonpass",
+        "protect"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 40,
+        "spa": 100,
+        "spe": 100
+      },
+      "shiny": true
+    },
+    {
+      "species": "brionne",
+      "nickname": "Encore",
+      "gender": "FEMALE",
+      "level": 13,
+      "nature": "modest",
+      "ability": "torrent",
+      "moveset": [
+        "watergun",
+        "disarmingvoice",
+        "aquajet",
+        "icywind"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 40,
+        "spa": 100,
+        "spe": 100
+      }
+    },
+    {
+      "species": "litleo",
+      "nickname": "Ringmaster",
+      "gender": "MALE",
+      "level": 14,
+      "nature": "adamant",
+      "ability": "rivalry",
+      "moveset": [
+        "headbutt",
+        "noble_roar",
+        "flamecharge",
+        "echoedvoice"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 60,
+        "atk": 100,
+        "spe": 100
+      },
+      "heldItem": [
+        "occa_berry"
+      ]
+    }
+  ]
+}
