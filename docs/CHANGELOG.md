@@ -4,6 +4,17 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.2] - 2026-07-26 (alpha)
+
+### Fix CurseForge build: CC: Tweaked resolved to an invalid unofficial reupload
+
+- The CurseForge export fingerprinted **CC: Tweaked** to an unofficial
+  reupload (CF project 1579830, file id 8273779 — invalid/removed) instead of
+  the official project, so the CF manifest referenced a dead file id.
+- CC: Tweaked is now kept out of `packwiz curseforge detect` (like Aether's
+  Delight) and ships as an allowlisted override jar, so the CurseForge zip no
+  longer references the bad file id. No change to the Modrinth build.
+
 ## [2.0.1] - 2026-07-26 (alpha)
 
 ### Fix Modrinth boot crash: Cobblemon Quests Reloaded moved to manual install

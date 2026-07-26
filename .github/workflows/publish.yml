@@ -131,6 +131,10 @@ jobs:
           # project whose file is still UnderReview (which poisons the manifest).
           # Aether's Delight port (CF project 1541187) has no approved file.
           rm -f mods/aethersdelight-*.jar || true
+          # CC: Tweaked fingerprints to an UNOFFICIAL reupload (CF project
+          # 1579830) whose file id 8273779 is invalid, poisoning the manifest.
+          # Keep it out of detect; it ships as an allowlisted override jar.
+          rm -f mods/cc-tweaked-*.jar || true
 
           # Pass 2: fingerprint detect — matches jars to CF project/file IDs by
           # hash (no API key required). Resolves most mods that have CF pages.
@@ -142,6 +146,8 @@ jobs:
           # Safety net: drop any .pw.toml that ended up referencing the blocked
           # Aether's Delight CF project, in case detect created a duplicate.
           grep -rl "project-id = 1541187" mods/ 2>/dev/null | xargs -r rm -f || true
+          # Same for the unofficial CC: Tweaked reupload (invalid file id).
+          grep -rl "project-id = 1579830" mods/ 2>/dev/null | xargs -r rm -f || true
 
           # Pass 3: Core API resolve — for mods still missing a [update.curseforge]
           # block, query the CF Core API by slug/name to find the project+file ID.
