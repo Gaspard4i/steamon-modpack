@@ -208,6 +208,10 @@ jobs:
           # (printf used instead of heredoc to avoid YAML parser conflicts with <<)
           printf '%s\n' \
             'Cobbreeding-neoforge-2.2.2.jar' \
+            'Cobblemon-Utility+-neoforge-1.7.4.jar' \
+            'TMTCF-NF-1.21.1-2.0.3.jar' \
+            'cc-tweaked-1.21.1-forge-1.120.0.jar' \
+            'ftbchecker-neoforge-1.21.1-1.3.0.jar' \
             'aethersdelight-0.1.4.2-1.21.1.jar' \
             'berryharvester-1.21.1-1.0.jar' \
             'cobblemon_paleontologist-0.6.0-Beta-Neo.jar' \
@@ -400,6 +404,13 @@ jobs:
                           continue
                       dep_id = d.get('modId')
                       if dep_id in ('forge', 'java', 'minecraft', 'neoforge'):
+                          continue
+                      # FTB mods (Quests/Library/Teams/Essentials/Ranks) are
+                      # CurseForge-only and are installed manually on the server,
+                      # never in the packwiz repo — so they legitimately never
+                      # appear in the mrpack. Don't flag deps on them as missing.
+                      if dep_id in ('ftbquests', 'ftblibrary', 'ftbteams',
+                                    'ftbessentials', 'ftbranks'):
                           continue
                       if dep_id not in installed:
                           problems.append(f"{path_}: MISSING required '{dep_id}' {d.get('versionRange','')}")
