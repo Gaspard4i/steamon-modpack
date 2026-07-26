@@ -206,7 +206,7 @@ hash = "9d517b6ccdb67af77d8ad79b0463d27311f169e7cda7e44dee071f36d8b1e148"
 
 [[files]]
 file = "config/ftbchecker.toml"
-hash = "fc73a490c30a727aae13cc4d2dd5d51a901b8f01f65a14585a2655687b94ae08"
+hash = "d36a6fb10e3332ff794e5ba0c80e896095639f8455dfef903f0c9d9d461e6f10"
 
 [[files]]
 file = "config/gravestone-server.toml"
@@ -585,11 +585,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
 hash = "6dc0747f249a105ef38d1a75a74736ec276bbf791a5bafd87a47a93a23b25b43"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-quest-reloaded.pw.toml"
-hash = "6239c0058abfef1bd5b29e62334d0a6ef2fec50def4c3353e2b85249c5caa36e"
 metafile = true
 
 [[files]]

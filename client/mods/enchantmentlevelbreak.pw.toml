@@ -1,0 +1,13 @@
+name = "EnchantmentLevelBreak"
+filename = "EnchantmentLevelBreak-1.21-1.21.1-NeoForge-1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HZEbpmoE/versions/RHxorOQi/EnchantmentLevelBreak-1.21-1.21.1-NeoForge-1.6.jar"
+hash-format = "sha512"
+hash = "0c50601811cbc32f5866f8f554e459c8af9ae1133698c4938a0c1af1136306a026f0028ad5039f248505479ee6217c88db997a516808233ae9fc874d8bc0a0bd"
+
+[update]
+[update.modrinth]
+mod-id = "HZEbpmoE"
+version = "RHxorOQi"

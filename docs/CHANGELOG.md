@@ -4,7 +4,207 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.1] - 2026-07-26 (alpha)
+
+### Fix Modrinth boot crash: Cobblemon Quests Reloaded moved to manual install
+
+- Removed **Cobblemon Quests Reloaded** from the Modrinth client build. It
+  hard-depends on FTB Quests (`mandatory ftbquests`), and FTB is All Rights
+  Reserved so it cannot ship on Modrinth — the missing dependency crashed the
+  game on boot before FTBChecker could even show its screen.
+- It stays in the server pack (the server installs the FTB stack manually).
+- FTBChecker now also lists Cobblemon Quests Reloaded (with its Modrinth link)
+  alongside FTB Library / Quests / Teams / Essentials, so Modrinth players get
+  a startup screen telling them exactly which mods to install to enable the
+  quest book and its Cobblemon catch/level/starter tasks.
+- Confirmed no other mod in the client pack hard-depends on any FTB mod, so
+  this was the only boot blocker.
+
 ## [2.0.0] - Unreleased (Season 2)
+
+### 2026-07-26 — Steamon League, legendary rarity rework, Create loot, enchant unlock
+
+**Steamon League (custom RCTMod trainer story)**
+- Full 13-trainer league added as the `steamon` RCTMod series: 8 gyms, an
+  Elite Four and a Champion, chained in strict order via `requiredDefeats`.
+- Themed teams (carnival, aether, frostfae, pirate, archaeology, grass,
+  dark/chaos, steampunk/steel, ghost, circus, sandstorm, bug, champion),
+  level curve 13 -> 72, competitive movesets, 31 IVs, per-role EVs,
+  nicknames, single/double formats per leader.
+- `initialSeries = "steamon"` forces every new player into the league on
+  spawn. 13 trainer skins bundled (client resource).
+- FTB Quests `steamon_league` chapter filled: one quest per trainer on the
+  RCTMod defeat advancement, graduated rewards, Champion pays shiny card +
+  master candy + master ball.
+- Non-existent forms substituted after checking Cobblemon 1.7.3 + Mega
+  Showdown + Nava's ZA Megas: Mega Golurk/Scovillain/Golisopod/Greninja are
+  not real -> normal (or Ash) forms used instead.
+
+**Legendary key item rarity rework**
+- Removed a parasite pool of 83 random Myths & Legends key items (0.0001%,
+  no theme) from 6 MVS tables (houses_rare, crystal, rare, cathedral_rare,
+  cathedral_common, floating_islands) that let unrelated legendaries drop.
+- Each structure now keeps a single themed linked legendary, rate raised to
+  0.05% (~1 per 2000 chests) across all 149 tables.
+- Myths & Legends chest injection (config.toml + loot_tables_config.json)
+  flattened from 0.4%-160% per chest down to a uniform 0.05%.
+
+**Create loot + enchant**
+- Added a giga random Create component pool (155 mechanical items:
+  cogwheels, shafts, casings, mechanisms, andesite/brass/copper, kinetic
+  parts...) to the 14 create_ltab loot tables, on top of the existing pools.
+- Added EnchantmentLevelBreak (unlocks `/enchant` beyond the vanilla cap).
+
+**Worldgen + resource packs + spawns**
+- Densified 14 vanilla structure sets (spacing ~/3) to counter the
+  ultra-spaced structures caused by the 4x larger biomes; big biomes kept.
+- Resource Pack Overrides config so all 15 bundled resource packs stay
+  enabled by default; updated ATM x MSD (3.6.1) and Low On Fire (26.2).
+- In Control: no phantom natural spawns; hostile natural spawns only for
+  silverfish, warden and spawner/trial-spawner sources (Aether, Otherside,
+  Deep Dark keep their hostiles).
+
+### 2026-07-26 — Culinary chapter overhaul: one branch per Delight addon
+
+- Culinary went from 17 mostly-flat item tasks to 78 quests, one branch per
+  cooking mod instead of a single mixed grid.
+- Farmer's Delight trunk kept (crops, knife, cutting board, cooking pot,
+  skillet, stove) and extended with two real mod advancements (Rich Soil,
+  Cut Some Straw) plus an 11-dish collection grid (soups, stews, burger,
+  dumplings, feast blocks) capped by the mod's own `master_chef`
+  advancement (reward: free Netherite Knife + Cog coin).
+- New branch: **Brewin' and Chewin'** — Keg placement, temperature control,
+  fermenting a drink, aging cheese, cooking Fiery Fondue, a 3-drink
+  collection row, Pizza Slice, capped by the mod's `chef_of_the_ages`
+  advancement. All tasks use the mod's real advancement IDs
+  (`brewinandchewin:root`, `place_keg`, `brew_drink`, `ferment_cheese`,
+  `cook_fiery_fondue`, `chef_of_the_ages`).
+- New branch: **Create: Central Kitchen** — gated behind the Stove and
+  Create's Rotational Power (reuses `create:mechanical_arm`,
+  `create:deployer`, `create:andesite_funnel`, `create:mechanical_mixer`,
+  all already introduced in the Create chapters), ends on an "Automated
+  Kitchen" gear rewarding brass. Central Kitchen adds no items of its own
+  (verified: pure mixin/ponder compatibility layer over Farmer's Delight,
+  Brewin' and Chewin' and Miner's Delight), so its quests use Create items
+  instead of inventing fake ids.
+- New small branch: **Display Delight** (`displaydelight:food_plate`,
+  purely decorative, off the Stove).
+- Existing single-item branches (Cultural Delights, End's Delight, Miner's
+  Delight, My Nether's Delight, Aether's Delight, Youkai's Feasts) each
+  expanded into a 4-dish collection row plus a gear capstone with a themed
+  reward (corn kernels, shulker shell, copper carrot, bullet peppers,
+  ginger, tea seeds).
+- Master Chef final gear now depends on every branch capstone (10
+  dependencies) instead of the old 7-dish flat grid; still pays out the
+  existing `master_chef_rewards` table.
+- All added items verified against the actual mod jars on the test server
+  (`assets/<modid>/lang/en_us.json` extraction, not just display names):
+  farmersdelight, culturaldelights, ends_delight, minersdelight,
+  mynethersdelight, aethersdelight, youkaisfeasts, brewinandchewin,
+  displaydelight, create. Chef's Delight confirmed to add no items or
+  advancements of its own (villager professions + village loot table only)
+  and was intentionally left out of the quest tree.
+- Deployed and reloaded on the test server: `Loaded 7 chapter groups, 21
+  chapters, 707 quests, 19 reward tables`, 0 parse errors, 0 invalid item
+  warnings, 0 quest coordinate overlaps.
+
+### 2026-07-25 — Quest entry gates, non-obtainable item cleanup, reward table repair, reward rebalance
+
+**Entry gates per category (one clear starting point per quest line)**
+- Added a checkmark "Welcome to X" gate quest to every category chapter:
+  Cogs & Crates, Rotational Power, Sparks & Circuits, Beyond the Machine,
+  Culinary, Nether, The End, Otherside, The Aether, First Steps, Trainer's
+  Path, Myths & Legends, Berries, Cobblemon Cooking, Evolution Items, PvP
+  Battle Items. Each gate depends on the correct Steamon Journey trunk
+  milestone (or the previous category's completion marker); every other
+  quest in the category now depends on its gate, directly or through a
+  row-head, instead of several quests pointing at the trunk independently.
+- Berries, Cobblemon Cooking, Evolution Items and PvP Battle Items were flat
+  grids (dozens of root quests with no dependency at all). Restructured into
+  a real tree: gate -> one head quest per row -> the rest of that row.
+- Adventure & Loot's existing "Adventure Awaits" checkmark already matched
+  the pattern; left as-is, description updated for the new theme (see below).
+
+**Adventure & Loot rework: Poke Ball grid replaced with Relics/Artifacts**
+- The chapter was a Poke Ball collection grid, which duplicated First Steps.
+  Rebuilt around the Artifacts and Relics mods: running shoes, digging
+  claws, flippers, power/vampiric glove, crystal heart, obsidian skull,
+  cloud in a bottle, universal attractor, warp drive, steadfast spikes
+  (Artifacts), then a "Welcome to Relics" sub-gate leading into kinetic
+  belt, hunting belt, jellyfish/reflective necklace, leafy/midnight mantle,
+  golden tooth, rider flute, cut glass boot (Relics). Structure exploration
+  quests (village/mineshaft/ancient city) kept as-is. `adventure_rewards`
+  reward table re-themed to match (icon, added a Relics item).
+
+**Non-obtainable items removed from quests (verified against the live jars
+and `item_obliterator.json5` / datapack recipe stubs)**
+- `createendertransmission:chunk_loader` (Beyond the Machine) — real recipe
+  but disabled via `neoforge:conditions:false`, no loot/shop source. Quest
+  removed entirely.
+- All `cobblemon_utility` caps/candy/treat/relic/orb items still present in
+  quests — `woodencap`, `commoncandy`, `mastercandy`, `shinycard`,
+  `poketreat`, `transmutationorb` (Cobblemon Cooking, First Steps, Myths &
+  Legends) and the full Silver/Golden/Obsidian/Void cap rows in PvP Battle
+  Items (26 quests, y=5..8) — all disabled via stub recipes resolving to
+  `minecraft:air`, none obtainable any other way. Quests removed; PvP Battle
+  Items regated afterward (fewer rows to reconnect).
+- `mythsandlegends:zygarde_cube` (Myths & Legends) — blacklisted in
+  `item_obliterator.json5` alongside `zygarde_core`/`zygarde_cell`. Quest
+  removed (no duplicate-free replacement item available in that grid).
+- `cobblemon:fairy_feather` — used only as a quest icon (Aether), not as a
+  task/reward item, but the item itself is unobtainable since Cobblemon
+  1.6.1. Icon swapped to `cobblemon:fairy_gem` (has an active datapack
+  recipe).
+- Verified obtainable and left untouched: `cobblemon:rare_candy` (lootable
+  in a dozen structures despite two disabled alt-recipes),
+  `createendertransmission:energy_transmitter` (real active recipe, distinct
+  from chunk_loader), all Create/Aether/DeeperDarker/Relics/Artifacts items
+  referenced in the rebuilt reward tables (checked item-by-item against the
+  mod jars' `lang/en_us.json`).
+
+**Reward tables: fixed a pack-wide "gives air" bug**
+- 18 of 19 reward tables used a bare `{id, weight}` entry with no `reward`
+  block at all — every table in the pack was silently handing out nothing.
+  Rebuilt all of them with real `{reward:{id,type,item},weight}` entries,
+  themed per category, weighted common-to-rare, including a Numismatics
+  currency tier on the rarer slots (bevel/sprocket/cog/crown).
+- 5 dimension capstones (Adventure & Loot, The Aether, Culinary, The End,
+  Nether) had a `type:"random"` reward with no `table_id` at all — pointed
+  each at its matching table (converted hex chapter id to the signed Long
+  FTB Quests expects for `table_id`).
+- Fixed two items renamed incorrectly during the table rebuild: Aether
+  `zanite_ingot`/`gravitite_ingot`/`enchanted_gravitite_ingot` don't exist —
+  corrected to `zanite_gemstone`/`gravitite_ore`/`enchanted_gravitite`;
+  DeeperDarker `resonarium_ingot`/`hollow_gem`/`bloom_ingot` don't exist —
+  corrected to `resonarium`/`soul_crystal`/`crystallized_amber`;
+  `simpletms:tm_normal` doesn't exist — corrected to `tm_blank`;
+  `create:copper_ingot`/`create:crushed_iron_ore` don't exist — corrected to
+  `minecraft:copper_ingot`/`create:crushed_raw_iron`.
+
+**Reward rebalance — anti-cheat and variety**
+- Fixed a reward exploit: a Nether quest asked for 4 Netherite Scrap and
+  handed back a full Netherite Ingot for free (worth 4 scrap + 4 gold ingot
+  to craft normally) — reward changed to 4 Gold Ingot + spur (gives the
+  player what they're missing to craft it themselves, not the finished
+  product). A second Nether quest handed an Enchanted Golden Apple for 2
+  Gold Blocks (cheaper than the real recipe); changed to a plain Golden
+  Apple. An Otherside quest handing the same big loot table as the branch's
+  final gear for a single catch task had its reward pool cut down to size
+  (XP 500 -> 150, table swapped for a single Echo Shard).
+- Diversified currency: quests now graduate between `numismatics:spur`
+  (default), `bevel` (chapters classified "mid" difficulty, spur count >=6)
+  and `bevel`/`sprocket` (chapters classified "hard"/endgame, spur count
+  >=5 or >=9) instead of stacking ever-larger spur counts.
+- Diversified reward variety on ~15% of single-item collection quests
+  across the pack (replaced the flat spur reward with extra XP only, no
+  item) to break up the repetition — reverted everywhere the swap would
+  have handed out a free extra copy of a rare/unique item (Artifacts,
+  Relics, Myths & Legends key items, Mega Stones, Cobblemon Armory pieces,
+  Create Nuclear reactor parts, Create Stuff Additions jetpacks, DeeperDarker
+  armor) instead of a common consumable.
+- All ~2600 quest/task/reward ids re-verified unique pack-wide after every
+  edit; reload tested clean (21 chapters, 633 quests, 19 reward tables,
+  0 errors) on steamon-test.
 
 ### 2026-07-25 — Quest tree rebalance: reward tables fixed, dependencies loosened, dedup
 

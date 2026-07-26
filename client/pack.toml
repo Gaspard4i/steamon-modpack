@@ -1,12 +1,12 @@
 name = "Steamon Client"
 author = "Gaspard4i"
-version = "2.0.0-alpha"
+version = "2.0.1-alpha"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "18186cf6ee40e5696deb20e5600b00402b51120ac749191238e0a34ce98f170c"
+hash = "a102e93da92140b5449a2b4207a6e89a6add7a67906fda3aef3e7dc5a0135ed8"
 
 [versions]
 minecraft = "1.21.1"

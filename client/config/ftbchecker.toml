@@ -14,7 +14,12 @@ backups = false
 
 # Extra mods to require, format "modId|Display Name|Download URL".
 # FTB Essentials is the extra FTB quest-stack mod that is CurseForge only.
+# Cobblemon Quests Reloaded hard-depends on FTB Quests, so it cannot ship in
+# the Modrinth build (it would crash on boot before this screen could show).
+# It is listed here so players install it manually alongside the FTB stack;
+# without it the FTB quest book has no Cobblemon catch/level/starter tasks.
 [customMods]
 mods = [
     "ftbessentials|FTB Essentials|https://www.curseforge.com/minecraft/mc-mods/ftb-essentials",
+    "cobblemon_quests|Cobblemon Quests Reloaded|https://modrinth.com/mod/cobblemon-quest-reloaded",
 ]
