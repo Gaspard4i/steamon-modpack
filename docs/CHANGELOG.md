@@ -4,6 +4,19 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.3] - 2026-07-26 (alpha)
+
+### Fix client boot crash: Almanac was server-only but Let Me Despawn needs it client-side
+
+- The client crashed on boot with `ClassNotFoundException:
+  com.frikinjay.almanac.Almanac` — Let Me Despawn (side=both) has a mixin that
+  references Almanac, but Almanac was marked `side = "server"`, so it never
+  shipped to the client and the mixin failed to attach.
+- Almanac is now `side = "both"` (client + server), satisfying the rule that
+  any required dependency of a both/client mod must itself be both/client.
+- Audited every other required dependency: Almanac was the only mis-sided one,
+  no other client boot crash of this kind remains.
+
 ## [2.0.2] - 2026-07-26 (alpha)
 
 ### Fix CurseForge build: CC: Tweaked resolved to an invalid unofficial reupload
