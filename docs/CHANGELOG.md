@@ -20,6 +20,25 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   hard-but-cheap Sequenced Assembly (a single prismarine shard run through
   deploying soul sand / prismarine crystals / phantom membrane + pressing).
 
+## [2.0.5] - 2026-07-27 (alpha)
+
+### Ship the actual season-2 datapack content (was missing from earlier alphas)
+
+- Earlier alpha builds (2.0.0-2.0.4) shipped the config changes but the
+  `steamon-tweaks` datapack edits themselves were never committed, so the
+  packs did not actually contain them. This build includes it all:
+- **Steamon League**: full `data/rctmod/` (13 chained trainers, series, mobs,
+  dialogs, defeat advancements) plus 13 trainer skins.
+- **Legendary rarity rework** now actually present in 326 loot tables: linked
+  legendary per structure at 0.05% (~1 per 2000 chests), the parasite
+  83-legendary random pool removed from the 6 MVS tables, and the Create giga
+  component pool on create_ltab tables.
+- 28 densified vanilla structure sets, `resourcepackoverrides.json`, the
+  Myths & Legends injection nerf, the In Control spawn rules and the default
+  options are all committed and shipped.
+- Also includes the two Ghast Tear Create recipes (easy/compacting,
+  hard/sequenced-assembly) added earlier.
+
 ## [2.0.3] - 2026-07-26 (alpha)
 
 ### Fix client boot crash: Almanac was server-only but Let Me Despawn needs it client-side
