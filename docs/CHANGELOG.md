@@ -4,6 +4,22 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.4] - 2026-07-27 (alpha)
+
+### FTBChecker: direct version-pinned links + Ghast Tear Create recipes
+
+- Players kept downloading the wrong FTB builds (2100.x / MC 1.20) from the
+  generic mod pages, which crashed with "requires ftbquests 2101.0.0 or above".
+  FTBChecker now disables the native page links and lists every required mod
+  with a DIRECT CurseForge file link pinned to the exact 1.21.1 version that
+  matches the pack: FTB Library 2101.1.33, FTB Quests 2101.1.27, FTB Teams
+  2101.1.10, FTB Essentials 2101.1.10, Cobblemon Quests Reloaded 1.3.5.
+- Added two Create recipes to craft **Ghast Tears** in the steamon-tweaks
+  datapack: an easy-but-expensive Compacting recipe (soul sand/soil +
+  prismarine crystals + phantom membrane + heated water) and a
+  hard-but-cheap Sequenced Assembly (a single prismarine shard run through
+  deploying soul sand / prismarine crystals / phantom membrane + pressing).
+
 ## [2.0.3] - 2026-07-26 (alpha)
 
 ### Fix client boot crash: Almanac was server-only but Let Me Despawn needs it client-side

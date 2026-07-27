@@ -1,25 +1,28 @@
 # Steamon - lists the CurseForge-only quest mods that the Modrinth build cannot
 # ship (FTB is "All Rights Reserved"). At startup FTBChecker shows a screen with
-# these mods and their CurseForge download links so the player installs them
-# manually. On the CurseForge build FTB is bundled and FTBChecker is removed, so
-# the screen never appears.
+# these mods and their download links so the player installs them manually.
+# On the CurseForge build FTB is bundled and FTBChecker is removed, so the
+# screen never appears.
 #
-# Native FTB checks (built-in download links):
+# IMPORTANT: the native checks (base/quests/teams) link to the GENERIC mod page
+# where players kept downloading the wrong (1.20 / 2100.x) build. We disable
+# them and list every mod under [customMods] with a DIRECT file link pinned to
+# the exact 1.21.1 (2101.x) version that matches the pack, so there is no way to
+# grab an incompatible version.
 chunks = false
-base = true
-quests = true
-teams = true
+base = false
+quests = false
+teams = false
 ultimine = false
 backups = false
 
-# Extra mods to require, format "modId|Display Name|Download URL".
-# FTB Essentials is the extra FTB quest-stack mod that is CurseForge only.
-# Cobblemon Quests Reloaded hard-depends on FTB Quests, so it cannot ship in
-# the Modrinth build (it would crash on boot before this screen could show).
-# It is listed here so players install it manually alongside the FTB stack;
-# without it the FTB quest book has no Cobblemon catch/level/starter tasks.
+# Direct file links pinned to the exact compatible versions (MC 1.21.1 NeoForge).
+# Format: "modId|Display Name|Download URL".
 [customMods]
 mods = [
-    "ftbessentials|FTB Essentials|https://www.curseforge.com/minecraft/mc-mods/ftb-essentials",
-    "cobblemon_quests|Cobblemon Quests Reloaded|https://modrinth.com/mod/cobblemon-quest-reloaded",
+    "ftblibrary|FTB Library (2101.1.33)|https://www.curseforge.com/minecraft/mc-mods/ftb-library/files/8438216",
+    "ftbquests|FTB Quests (2101.1.27)|https://www.curseforge.com/minecraft/mc-mods/ftb-quests/files/8253474",
+    "ftbteams|FTB Teams (2101.1.10)|https://www.curseforge.com/minecraft/mc-mods/ftb-teams/files/7878281",
+    "ftbessentials|FTB Essentials (2101.1.10)|https://www.curseforge.com/minecraft/mc-mods/ftb-essentials/files/8442866",
+    "cobblemon_quests|Cobblemon Quests Reloaded (1.3.5)|https://modrinth.com/mod/cobblemon-quest-reloaded/version/iGSukRPM",
 ]

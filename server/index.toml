@@ -4491,6 +4491,14 @@ file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_water_from_shards
 hash = "e464a8fb6515b09812cd48252c77ba1064be482b4a605a74321f05681a8b059b"
 
 [[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ghast_tear_easy.json"
+hash = "b5d0e180c7b5552b892b336d6db115b558269d468c313b2ea585d034eb68b711"
+
+[[files]]
+file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ghast_tear_hard.json"
+hash = "d13d6ea8d4c6af3e77f45d574dd203f6c31e9e54e9b178b4145c88816c372545"
+
+[[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone.json"
 hash = "d2b7a77c8bc72b937c0f4b30d87b2aa1dea688270eaeca3cf63b465b23f77d56"
 

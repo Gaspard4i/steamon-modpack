@@ -1,0 +1,43 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:prismarine_shard" },
+  "transitional_item": { "id": "create:incomplete_precision_mechanism" },
+  "loops": 4,
+  "results": [
+    { "chance": 100.0, "id": "minecraft:ghast_tear" },
+    { "chance": 8.0, "id": "create:experience_nugget" }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "create:incomplete_precision_mechanism" },
+        { "item": "minecraft:soul_sand" }
+      ],
+      "results": [ { "id": "create:incomplete_precision_mechanism" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "create:incomplete_precision_mechanism" },
+        { "item": "minecraft:prismarine_crystals" }
+      ],
+      "results": [ { "id": "create:incomplete_precision_mechanism" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "create:incomplete_precision_mechanism" },
+        { "item": "minecraft:phantom_membrane" }
+      ],
+      "results": [ { "id": "create:incomplete_precision_mechanism" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        { "item": "create:incomplete_precision_mechanism" }
+      ],
+      "results": [ { "id": "create:incomplete_precision_mechanism" } ]
+    }
+  ]
+}
