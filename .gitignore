@@ -64,3 +64,9 @@ docs/cobblemon_recheck.jar
 server-mods-list.md
 docs/quests/_ref/
 *.mrpack
+docs/.hex2/
+docs/*.jar
+docs/rcon_restart.py
+docs/ITEM-RARITY-TABLE.md
+docs/LOOT-STRUCTURES-DECISION.md
+docs/LOOT-THEMES-PLAN.md
