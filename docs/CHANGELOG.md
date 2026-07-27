@@ -20,6 +20,16 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   hard-but-cheap Sequenced Assembly (a single prismarine shard run through
   deploying soul sand / prismarine crystals / phantom membrane + pressing).
 
+## [2.0.8] - 2026-07-27 (alpha)
+
+### Fix CI: CurseForge override guard is now non-blocking
+
+- The CF fingerprint detect is non-deterministic (a different set of mods
+  fails to resolve to a CF file each run), so the override allowlist guard
+  kept hard-failing the client build and blocking the Modrinth publish for a
+  CurseForge-only quirk. It now only warns; unresolved mods ship as CF
+  overrides. Modrinth publish is no longer blocked by CF resolution.
+
 ## [2.0.7] - 2026-07-27 (alpha)
 
 ### Fix CI flakiness: smoke test now retries CDN timeouts
