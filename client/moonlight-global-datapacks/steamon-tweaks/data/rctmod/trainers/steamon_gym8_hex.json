@@ -1,0 +1,104 @@
+{
+  "name": "Gym Leader Professor Hex",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "battleFormat": "GEN_9_DOUBLES",
+  "bag": [
+    {
+      "item": "cobblemon:max_potion",
+      "quantity": 3
+    },
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 1
+    }
+  ],
+  "team": [
+    {
+      "species": "archaludon",
+      "nickname": "Suspension Bridge",
+      "gender": "MALE",
+      "level": 54,
+      "nature": "calm",
+      "ability": "stamina",
+      "moveset": ["bodypress", "roar", "stealthrock", "flashcannon"],
+      "ivs": {"hp": 31, "def": 31, "spa": 0, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "def": 182, "spa": 4, "spd": 70},
+      "gimmicks": {"tera": "steel"},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "gholdengo",
+      "nickname": "Cogwork Ghost",
+      "gender": "GENDERLESS",
+      "level": 55,
+      "shiny": true,
+      "nature": "timid",
+      "ability": "goodasgold",
+      "moveset": ["shadowball", "thunderbolt", "makeitrain", "powergem"],
+      "ivs": {"hp": 31, "atk": 0, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"spa": 252, "spd": 4, "spe": 252},
+      "heldItem": ["choice_scarf"]
+    },
+    {
+      "species": "empoleon",
+      "nickname": "Boiler Plate",
+      "gender": "MALE",
+      "level": 55,
+      "nature": "sassy",
+      "ability": "competitive",
+      "moveset": ["surf", "flipturn", "knockoff", "haze"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "def": 96, "spd": 160},
+      "gimmicks": {"tera": "fairy"},
+      "heldItem": ["rocky_helmet"]
+    },
+    {
+      "species": "goodra",
+      "nickname": "Gear Tread",
+      "gender": "MALE",
+      "level": 56,
+      "shiny": true,
+      "nature": "sassy",
+      "ability": "gooey",
+      "aspects": ["hisui"],
+      "moveset": ["dragonpulse", "heavyslam", "icebeam", "flamethrower"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 232, "def": 192, "spa": 20, "spd": 64},
+      "gimmicks": {"tera": "fairy"},
+      "heldItem": ["assault_vest"]
+    },
+    {
+      "species": "golisopod",
+      "nickname": "Steam Pincer",
+      "gender": "MALE",
+      "level": 57,
+      "shiny": true,
+      "nature": "adamant",
+      "ability": "emergencyexit",
+      "moveset": ["firstimpression", "leechlife", "liquidation", "swordsdance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 136, "atk": 252, "spd": 120}
+    },
+    {
+      "species": "bisharp",
+      "nickname": "Iron Cog",
+      "gender": "MALE",
+      "level": 58,
+      "nature": "adamant",
+      "ability": "defiant",
+      "moveset": ["brickbreak", "suckerpunch", "ironhead", "throatchop"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 236, "atk": 240, "spd": 32},
+      "gimmicks": {"tera": "dark"},
+      "heldItem": ["choice_band"]
+    }
+  ]
+}

@@ -1,208 +1,208 @@
 {
- "type": "minecraft:chest",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "rolls": {
-    "type": "minecraft:uniform",
-    "min": 2.0,
-    "max": 3.0
-   },
-   "entries": [
+  "type": "minecraft:chest",
+  "pools": [
     {
-     "type": "minecraft:item",
-     "name": "cobblemon:heavy_ball",
-     "weight": 15,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
+      "bonus_rolls": 0.0,
+      "rolls": {
         "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:fast_ball",
-     "weight": 15,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:great_ball",
-     "weight": 12,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:exp_candy_m",
-     "weight": 6,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-       },
-       "add": false
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "bonus_rolls": 0.0,
-   "rolls": {
-    "type": "minecraft:uniform",
-    "min": 1.0,
-    "max": 2.0
-   },
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:emerald",
-     "weight": 6,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
+        "min": 2.0,
         "max": 3.0
-       },
-       "add": false
-      }
-     ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:heavy_ball",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fast_ball",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:great_ball",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_m",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "minecraft:diamond",
-     "weight": 3,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
+      "bonus_rolls": 0.0,
+      "rolls": {
         "type": "minecraft:uniform",
         "min": 1.0,
         "max": 2.0
-       },
-       "add": false
-      }
-     ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "minecraft:gold_ingot",
-     "weight": 6,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 4.0
-       },
-       "add": false
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "rolls": 1,
-   "bonus_rolls": 0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance",
-     "chance": 0.1
-    }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:fire_stone",
-     "weight": 3
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:fire_stone",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:sun_stone",
+          "weight": 3
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "cobblemon:sun_stone",
-     "weight": 3
-    }
-   ]
-  },
-  {
-   "rolls": 1,
-   "bonus_rolls": 0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance",
-     "chance": 0.05
-    }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:helix_fossil",
-     "weight": 2
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:helix_fossil",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:dome_fossil",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:old_amber_fossil",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:root_fossil",
+          "weight": 2
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "cobblemon:dome_fossil",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:old_amber_fossil",
-     "weight": 2
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:root_fossil",
-     "weight": 2
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythsandlegends:stone_tablet"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "rolls": 1,
-   "bonus_rolls": 0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance",
-     "chance": 1e-07
-    }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "mythsandlegends:stone_tablet"
-    }
-   ]
-  }
- ],
- "random_sequence": "minecraft:chests/trail_ruins_rare"
+  ],
+  "random_sequence": "minecraft:chests/trail_ruins_rare"
 }

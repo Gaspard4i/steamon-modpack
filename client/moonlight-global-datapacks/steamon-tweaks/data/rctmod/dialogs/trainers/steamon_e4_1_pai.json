@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "The spirits whisper of your arrival. I am Pai, the first of the Elite Four.",
+    "Death is not the end here. Let the ghosts show you true fear."
+  ],
+  "on_battle_won": [
+    "Your spirit fades before mine. Come back once you've grown stronger.",
+    "The Elite Four is no place for the faint of heart."
+  ],
+  "on_battle_lost": [
+    "Even in defeat, the spirits respect your courage. Proceed, challenger.",
+    "You've bested the first trial. The Elite Four awaits your next step."
+  ]
+}

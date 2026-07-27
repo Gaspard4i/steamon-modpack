@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "Ahoy! Ready to walk the plank, landlubber?",
+    "The tides are turning. Let's see if you can weather this storm."
+  ],
+  "on_battle_won": [
+    "Ha! Back to the docks with ye. Come back when you've got sea legs.",
+    "The sea shows no mercy, and neither do I."
+  ],
+  "on_battle_lost": [
+    "Shiver me timbers, you got me! Take the badge, captain.",
+    "Well sailed, trainer. The tides favor you today."
+  ]
+}

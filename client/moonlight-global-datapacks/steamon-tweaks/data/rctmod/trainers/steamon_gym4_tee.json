@@ -1,0 +1,70 @@
+{
+  "name": "Gym Leader Tee",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "blastoise",
+      "nickname": "Ironshell",
+      "gender": "MALE",
+      "level": 31,
+      "nature": "bold",
+      "ability": "torrent",
+      "moveset": ["hydropump", "icebeam", "flashcannon", "rapidspin"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "def": 252, "spa": 4},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "shuckle",
+      "nickname": "Old Barnacle",
+      "gender": "MALE",
+      "level": 31,
+      "nature": "impish",
+      "ability": "sturdy",
+      "moveset": ["toxic", "rest", "sleeptalk", "gyroball"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "def": 128, "spd": 128},
+      "heldItem": ["mental_herb"]
+    },
+    {
+      "species": "torterra",
+      "nickname": "Driftwood",
+      "gender": "MALE",
+      "level": 32,
+      "shiny": true,
+      "nature": "adamant",
+      "ability": "shellarmor",
+      "moveset": ["woodhammer", "earthquake", "stoneedge", "synthesis"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "atk": 252, "spd": 4},
+      "heldItem": ["miracle_seed"]
+    },
+    {
+      "species": "terapagos",
+      "nickname": "Old Nautilus",
+      "gender": "MALE",
+      "level": 33,
+      "nature": "modest",
+      "ability": "teraformzero",
+      "aspects": ["stellar"],
+      "moveset": ["terastarstorm", "earthpower", "calmmind", "bodypress"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "spa": 252, "spd": 4},
+      "heldItem": ["leftovers"]
+    }
+  ]
+}

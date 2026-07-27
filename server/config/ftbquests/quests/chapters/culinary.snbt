@@ -1,12 +1,2493 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	filename: "culinary"
-	group: "D387644DAE3E9886"
-	icon: { id: "farmersdelight:cooking_pot" }
-	id: "D9847AA9464955ED"
+	group: "2C0FD201CD572F12"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "46B599A838F27B8A"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	title: "Culinary"
+	quests: [
+		{
+			dependencies: ["102D9356B8648743"]
+			id: "5000000000000A01"
+			rewards: [
+				{
+					count: 3
+					id: "C96D7E805DA846A3"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C2C3BB81E3C29B62"
+					xp: 20
+					type: "xp"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [
+				{
+					id: "C20877432D102670"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5000000000000A01"]
+			id: "50996153FB959512"
+			rewards: [
+				{
+					count: 4
+					id: "C2575EC87A171AC8"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "C26A6FCE48478DCB"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "C44F21345D2CCE80"
+					xp: 15
+					type: "xp"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "C179273C8EB5BB68"
+					item: { count: 1, id: "farmersdelight:cabbage" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50996153FB959512"]
+			id: "5096E4411BC2AEE2"
+			rewards: [
+				{
+					id: "C650AF03B971722F"
+					item: {
+						count: 1
+						id: "farmersdelight:iron_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "C244F58D669CBEE3"
+					xp: 20
+					type: "xp"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "C28A39D5E0853964"
+					item: { count: 1, id: "farmersdelight:flint_knife" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5096E4411BC2AEE2"]
+			id: "502277C522EB9532"
+			rewards: [
+				{
+					id: "C978F64F7FD633DB"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C472A077021721A2"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5096E4411BC2AEE2"]
+			id: "50F806FE920299D4"
+			rewards: [
+				{
+					id: "C38E72E310275DFF"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "C4C15C0C8E9DF469"
+					xp: 30
+					type: "xp"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "C7DE131CA3766E4D"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5096E4411BC2AEE2"]
+			id: "505B885C41DDE9FE"
+			rewards: [
+				{
+					count: 4
+					id: "C2712DA86A78C49E"
+					item: {
+						count: 1
+						id: "farmersdelight:fried_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "C620E32684B27B95"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C8909348334896A6"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C411A11F5125227C"
+					item: { count: 1, id: "farmersdelight:skillet" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50F806FE920299D4"]
+			id: "507AE2D0C47CC928"
+			rewards: [
+				{
+					count: 2
+					id: "C903241B4D419B1B"
+					item: {
+						count: 1
+						id: "farmersdelight:stove"
+					}
+					type: "item"
+				}
+				{
+					id: "C473BD4755D05AD7"
+					xp: 40
+					type: "xp"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "C5F812D810A485ED"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["50F806FE920299D4"]
+			id: "C6A399DAC946DC59"
+			rewards: [
+				{
+					count: 4
+					id: "C7A828BCA0385813"
+					item: {
+						count: 1
+						id: "farmersdelight:organic_compost"
+					}
+					type: "item"
+				}
+				{
+					id: "C7BAD3C681D06BD2"
+					xp: 15
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C553C1F76EB97706"
+					advancement: "farmersdelight:main/get_rich_soil"
+					criterion: "get_rich_soil"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["505B885C41DDE9FE"]
+			id: "C84EAEDE5FE878F7"
+			rewards: [
+				{
+					count: 8
+					id: "C9A279764017F2ED"
+					item: {
+						count: 1
+						id: "farmersdelight:straw"
+					}
+					type: "item"
+				}
+				{
+					id: "C4CFC7403D75E173"
+					xp: 15
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C70996DAEEE6F529"
+					advancement: "farmersdelight:main/harvest_straw"
+					criterion: "harvest_straw"
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["507AE2D0C47CC928"]
+			id: "50A9589DACA12E23"
+			rewards: [
+				{
+					count: 8
+					id: "C2DDAED16DC0CF0B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C5CD7F78DF0CAC5E"
+					xp: 100
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C5E2978AA2447C46"
+					item: { count: 1, id: "farmersdelight:cooked_rice" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["507AE2D0C47CC928"]
+			id: "5030D07D822D290C"
+			rewards: [
+				{
+					count: 8
+					id: "C6AC8D82F01B7210"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C460474F36E8B535"
+					xp: 25
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C30C02D4E518CA6E"
+					item: { count: 1, id: "farmersdelight:apple_pie" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C3F6B8A880627DF7"
+			rewards: [
+				{
+					count: 4
+					id: "C62A0DF3DBE4D58F"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C8D8A728E7ECA0FA"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C5309CC6273931BD"
+					item: { count: 1, id: "farmersdelight:vegetable_soup" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C3F309FFEA518F32"
+			rewards: [
+				{
+					count: 4
+					id: "C6E898736A3566F8"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C993697B59048119"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C8FE0297C79BFBDA"
+					item: { count: 1, id: "farmersdelight:beef_stew" }
+					type: "item"
+				}
+			]
+			x: -5.2d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C9748421599E3E9C"
+			rewards: [
+				{
+					count: 4
+					id: "C5D9136682575250"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C7EF91799E2786D3"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C7F21449273D7CEE"
+					item: { count: 1, id: "farmersdelight:chicken_soup" }
+					type: "item"
+				}
+			]
+			x: -3.9d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C16BFE16849EF307"
+			rewards: [
+				{
+					count: 4
+					id: "C8E85DF2FBDAA35A"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C7F9C1E2A8A3C0ED"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C5FE21DA80270815"
+					item: { count: 1, id: "farmersdelight:noodle_soup" }
+					type: "item"
+				}
+			]
+			x: -2.6d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C6FCC4F14A3E3E04"
+			rewards: [
+				{
+					count: 4
+					id: "C87E4C6428DA8099"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C84EFBACEA67C7D1"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C390D273E34F98DF"
+					item: { count: 1, id: "farmersdelight:fish_stew" }
+					type: "item"
+				}
+			]
+			x: -1.3d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C5E80E952EB9D8E9"
+			rewards: [
+				{
+					count: 4
+					id: "C572D33E5901A19B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C6D47D5552C7F47E"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C742F8AC2ACAF127"
+					item: { count: 1, id: "farmersdelight:ratatouille" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C247CB2C083EB8CB"
+			rewards: [
+				{
+					count: 4
+					id: "C57B7684319E1B42"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C5AD564B858F9A3E"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C4CF37CB990C801F"
+					item: { count: 1, id: "farmersdelight:hamburger" }
+					type: "item"
+				}
+			]
+			x: 1.3d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C82601A7462667A4"
+			rewards: [
+				{
+					count: 4
+					id: "C83374CEBD4D3FD8"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C1B6EE7B3BB1C863"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C27F0A72E9D34119"
+					item: { count: 1, id: "farmersdelight:dumplings" }
+					type: "item"
+				}
+			]
+			x: 2.6d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C9AC9ED336DE7DAE"
+			rewards: [
+				{
+					count: 4
+					id: "C514D32FEB3E719E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C11FCD3FE22A4248"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C1844853040B7A05"
+					item: { count: 1, id: "farmersdelight:shepherds_pie" }
+					type: "item"
+				}
+			]
+			x: 3.9d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C5AB054C24026CDE"
+			rewards: [
+				{
+					count: 4
+					id: "C2B41A3DBD199B36"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C3F73BB387D08058"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C7D3ADA8B4F2222D"
+					item: { count: 1, id: "farmersdelight:stuffed_pumpkin" }
+					type: "item"
+				}
+			]
+			x: 5.2d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50A9589DACA12E23"
+				"5030D07D822D290C"
+			]
+			id: "C97B2C1D0E2ADCD9"
+			rewards: [
+				{
+					count: 4
+					id: "C8D863BD39F917C1"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C1696489A30FD54C"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C65B9A2145128EDF"
+					item: { count: 1, id: "farmersdelight:honey_glazed_ham" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"C3F6B8A880627DF7"
+				"C3F309FFEA518F32"
+				"C9748421599E3E9C"
+				"C16BFE16849EF307"
+				"C6FCC4F14A3E3E04"
+				"C5E80E952EB9D8E9"
+				"C247CB2C083EB8CB"
+				"C82601A7462667A4"
+				"C9AC9ED336DE7DAE"
+				"C5AB054C24026CDE"
+				"C97B2C1D0E2ADCD9"
+			]
+			id: "C81E6AF41E3A2517"
+			rewards: [
+				{
+					id: "C5A7A5236BB47348"
+					item: {
+						count: 1
+						id: "farmersdelight:netherite_knife"
+					}
+					type: "item"
+				}
+				{
+					id: "C45425FEEAA4E2FE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "C581B29EE11B922C"
+					xp: 150
+					type: "xp"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "C2C0A5EB2D37DC2C"
+					advancement: "farmersdelight:main/master_chef"
+					criterion: "master_chef"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5096E4411BC2AEE2"]
+			id: "C2931A4C4555E1DB"
+			rewards: [
+				{
+					count: 3
+					id: "C584A24B9C429CA4"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C92DB0B956AF6744"
+					xp: 15
+					type: "xp"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [
+				{
+					id: "C8E5BB9CDA1A2A3C"
+					advancement: "brewinandchewin:root"
+					criterion: ""
+					type: "advancement"
+				}
+			]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C2931A4C4555E1DB"]
+			id: "C1A3A4419F4FE020"
+			rewards: [
+				{
+					id: "C36481FB339258E4"
+					item: {
+						count: 1
+						id: "brewinandchewin:tankard"
+					}
+					type: "item"
+				}
+				{
+					id: "C727EB0D1CB7C2B7"
+					xp: 15
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C4E9E779F6BEE9CD"
+					advancement: "brewinandchewin:place_keg"
+					criterion: ""
+					type: "advancement"
+				}
+			]
+			x: -9.5d
+			y: 1.6d
+		}
+		{
+			dependencies: ["C1A3A4419F4FE020"]
+			id: "C6A5EF542E196161"
+			rewards: [
+				{
+					count: 4
+					id: "C80749D0B7D52B20"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C7F1CB80B2B73A41"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C564D3979317DE23"
+					advancement: "brewinandchewin:place_temperature_block_near_keg"
+					criterion: ""
+					type: "advancement"
+				}
+			]
+			x: -11.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["C1A3A4419F4FE020"]
+			id: "C512CB504E1427BB"
+			rewards: [
+				{
+					id: "C7ECA5FFB82D2D59"
+					item: {
+						count: 1
+						id: "brewinandchewin:mead"
+					}
+					type: "item"
+				}
+				{
+					id: "C632A99ED5EBE1BD"
+					xp: 25
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C69CF8169B1A83BD"
+					advancement: "brewinandchewin:brew_drink"
+					criterion: ""
+					type: "advancement"
+				}
+			]
+			x: -9.5d
+			y: 3.2d
+		}
+		{
+			dependencies: ["C1A3A4419F4FE020"]
+			id: "C37F0BBE4229CFDD"
+			rewards: [
+				{
+					count: 2
+					id: "C15FC388E69F6342"
+					item: {
+						count: 1
+						id: "brewinandchewin:flaxen_cheese_wedge"
+					}
+					type: "item"
+				}
+				{
+					id: "C85E2AB29955B736"
+					xp: 25
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C714EBBE24BCA873"
+					advancement: "brewinandchewin:ferment_cheese"
+					criterion: ""
+					type: "advancement"
+				}
+			]
+			x: -8.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["C512CB504E1427BB"]
+			id: "C79E215EDFE6A4AA"
+			rewards: [
+				{
+					count: 4
+					id: "C35A7B9286849254"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C3A102186D0F99F7"
+					xp: 15
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C24A2EEB454D1349"
+					item: { count: 1, id: "brewinandchewin:beer" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 4.8d
+		}
+		{
+			dependencies: ["C512CB504E1427BB"]
+			id: "C38BCB1C16B92CE8"
+			rewards: [
+				{
+					count: 4
+					id: "C5CD75AA65FEF9F0"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C2CE76B119FF903D"
+					xp: 15
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C6C4B3A7E38E7431"
+					item: { count: 1, id: "brewinandchewin:rice_wine" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["C512CB504E1427BB"]
+			id: "C260EAD4D6DF146A"
+			rewards: [
+				{
+					count: 4
+					id: "C8E44AA5C9AF9F0B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C63D90F871F5C471"
+					xp: 15
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C243CBAB46C1114A"
+					item: { count: 1, id: "brewinandchewin:strongroot_ale" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 4.8d
+		}
+		{
+			dependencies: ["C37F0BBE4229CFDD"]
+			id: "C97713DAF3405DFF"
+			rewards: [
+				{
+					id: "C56FAFB893CCB491"
+					item: {
+						count: 1
+						id: "brewinandchewin:fiery_fondue"
+					}
+					type: "item"
+				}
+				{
+					id: "C52BE8F668843771"
+					xp: 30
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C8CA5EAB8F678979"
+					advancement: "brewinandchewin:cook_fiery_fondue"
+					criterion: ""
+					type: "advancement"
+				}
+			]
+			x: -8.0d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"C79E215EDFE6A4AA"
+				"C38BCB1C16B92CE8"
+				"C260EAD4D6DF146A"
+				"C97713DAF3405DFF"
+			]
+			id: "C34FA708C7E8A908"
+			rewards: [
+				{
+					count: 6
+					id: "C51093A9EF4E863A"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C3E850A965CDA2C3"
+					xp: 25
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C49A912715D51CF5"
+					item: { count: 1, id: "brewinandchewin:pizza_slice" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 6.4d
+		}
+		{
+			dependencies: [
+				"C6A5EF542E196161"
+				"C34FA708C7E8A908"
+			]
+			id: "C819D54DBCECC24B"
+			rewards: [
+				{
+					id: "C84EBDF672EB2316"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "C945AE36F2E1E4DE"
+					item: {
+						count: 1
+						id: "brewinandchewin:tankard"
+					}
+					type: "item"
+				}
+				{
+					id: "C1E90C80621DB212"
+					xp: 80
+					type: "xp"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "C6713E95C939B774"
+					advancement: "brewinandchewin:chef_of_the_ages"
+					criterion: ""
+					type: "advancement"
+				}
+			]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["507AE2D0C47CC928"]
+			id: "C79815DF1BCADD49"
+			rewards: [
+				{
+					count: 3
+					id: "C38631D076231E17"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C1CE761497AA7947"
+					xp: 20
+					type: "xp"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [
+				{
+					id: "C25C47009EDC77EB"
+					type: "checkmark"
+				}
+			]
+			x: -9.5d
+			y: 10.4d
+		}
+		{
+			dependencies: ["C79815DF1BCADD49"]
+			id: "C8B98BFE3FA6BAD1"
+			rewards: [
+				{
+					count: 6
+					id: "C4A2EB2618C1266F"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C4A90663F76C7A9C"
+					xp: 30
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C75F7794E1DD4C78"
+					item: { count: 1, id: "create:mechanical_arm" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["C79815DF1BCADD49"]
+			id: "C1890D5334768B8C"
+			rewards: [
+				{
+					count: 6
+					id: "C8FE5B54F511210D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C372406EB1FF00D0"
+					xp: 30
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C4408D946A7C7FA8"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"C8B98BFE3FA6BAD1"
+				"C1890D5334768B8C"
+			]
+			id: "C32B13D72ACA08EF"
+			rewards: [
+				{
+					count: 6
+					id: "C152FDA3176F8128"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C915A064C2957CAC"
+					xp: 25
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C2BCE779212CCCF1"
+					item: { count: 1, id: "create:andesite_funnel" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 13.6d
+		}
+		{
+			dependencies: ["C32B13D72ACA08EF"]
+			id: "C95C54898F425D8D"
+			rewards: [
+				{
+					count: 6
+					id: "C7AB3209EB83425D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C8D302B2AC09DC27"
+					xp: 30
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C4BCD5C2972284C4"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 15.2d
+		}
+		{
+			dependencies: ["C95C54898F425D8D"]
+			id: "C91B237B51CAD303"
+			rewards: [
+				{
+					id: "C7AEAD49A6FA5CA9"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "C87AC8CB3650E6E9"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "C2DF49784DC2EFCD"
+					xp: 70
+					type: "xp"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "C5F2B87F6E3490CA"
+					type: "checkmark"
+				}
+			]
+			x: -9.5d
+			y: 16.8d
+		}
+		{
+			dependencies: ["50F676F9AEE5BB6A"]
+			icon: {
+				id: "culturaldelights:beef_burrito"
+			}
+			id: "50ABBAF318B8522D"
+			rewards: [
+				{
+					count: 6
+					id: "C24B9AE6FBF3EEA2"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C5130A35755ADE7C"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C577EBCE4B0F39D2"
+					item: { count: 1, id: "culturaldelights:beef_burrito" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50ABBAF318B8522D"]
+			id: "C3CD5F55F945AE1B"
+			rewards: [
+				{
+					count: 6
+					id: "C95BA6E38FACC3BB"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C85924A37935B4CD"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C35DC06EDC066823"
+					item: { count: 1, id: "culturaldelights:chicken_taco" }
+					type: "item"
+				}
+			]
+			x: 6.3d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50ABBAF318B8522D"]
+			id: "C34661B85A99834D"
+			rewards: [
+				{
+					count: 6
+					id: "C518795EF338B1E6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C73791E8B2E376BD"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C1F46CFDFDEF5207"
+					item: { count: 1, id: "culturaldelights:spicy_curry" }
+					type: "item"
+				}
+			]
+			x: 7.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50ABBAF318B8522D"]
+			id: "C25EE0D649582B82"
+			rewards: [
+				{
+					count: 6
+					id: "C22C8BEFA02EB2C6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C76F8A9A4FA113E0"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C184474A7CF48DCE"
+					item: { count: 1, id: "culturaldelights:tropical_roll" }
+					type: "item"
+				}
+			]
+			x: 6.3d
+			y: 1.6d
+		}
+		{
+			dependencies: ["50ABBAF318B8522D"]
+			id: "C862343CBDA47827"
+			rewards: [
+				{
+					count: 8
+					id: "C9E00A3D4F27C233"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C6B94C44205EB64D"
+					xp: 30
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C651C97D2306F247"
+					item: { count: 1, id: "culturaldelights:eggplant_parmesan" }
+					type: "item"
+				}
+			]
+			x: 7.6d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"C3CD5F55F945AE1B"
+				"C34661B85A99834D"
+				"C25EE0D649582B82"
+				"C862343CBDA47827"
+			]
+			id: "C330405FB85B4830"
+			rewards: [
+				{
+					count: 6
+					id: "C20BA4CDB5F20208"
+					item: {
+						count: 1
+						id: "culturaldelights:corn_kernels"
+					}
+					type: "item"
+				}
+				{
+					id: "C411C9DDC2482926"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "C3AC29D7172D3E19"
+					xp: 60
+					type: "xp"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "C990966C917FC37F"
+					type: "checkmark"
+				}
+			]
+			x: 6.95d
+			y: 3.2d
+		}
+		{
+			dependencies: ["50F676F9AEE5BB6A"]
+			icon: {
+				id: "ends_delight:chorus_fruit_pie"
+			}
+			id: "50C20E9E7D1C89A5"
+			rewards: [
+				{
+					count: 6
+					id: "C23701071FBC451D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C4A7DA82B31571C2"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C6D8282FEB1F5B58"
+					item: { count: 1, id: "ends_delight:chorus_fruit_pie" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50C20E9E7D1C89A5"]
+			id: "C94C21D4798ACAAE"
+			rewards: [
+				{
+					count: 6
+					id: "C4740D07B0A0C936"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C97DF148217DBE23"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C899A2E0B6997EBF"
+					item: { count: 1, id: "ends_delight:grilled_shulker" }
+					type: "item"
+				}
+			]
+			x: 11.3d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50C20E9E7D1C89A5"]
+			id: "C11746CB282026E4"
+			rewards: [
+				{
+					count: 8
+					id: "C4E9E8325916A427"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C6C19850CE73E343"
+					xp: 30
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C572643435EEAD3B"
+					item: { count: 1, id: "ends_delight:dragon_leg_with_sauce" }
+					type: "item"
+				}
+			]
+			x: 12.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50C20E9E7D1C89A5"]
+			id: "C1A7081FB7537781"
+			rewards: [
+				{
+					count: 6
+					id: "C4588E4179FDF128"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C74D670CBFFBAC85"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C2A31E15DCF0CD5B"
+					item: { count: 1, id: "ends_delight:shulker_soup" }
+					type: "item"
+				}
+			]
+			x: 11.3d
+			y: 1.6d
+		}
+		{
+			dependencies: ["50C20E9E7D1C89A5"]
+			id: "C7FA5B75C99450C1"
+			rewards: [
+				{
+					count: 4
+					id: "C8121770F0A64A5A"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C10443B2BC3A9A45"
+					xp: 15
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C4CB557AB0B46F95"
+					item: { count: 1, id: "ends_delight:bubble_tea" }
+					type: "item"
+				}
+			]
+			x: 12.6d
+			y: 1.6d
+		}
+		{
+			dependencies: [
+				"C94C21D4798ACAAE"
+				"C11746CB282026E4"
+				"C1A7081FB7537781"
+				"C7FA5B75C99450C1"
+			]
+			id: "C13A66D899731CF4"
+			rewards: [
+				{
+					id: "C18672B8301CED5D"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "C8CBC3F75E2190A8"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "C22A5C522AF0D5D5"
+					xp: 60
+					type: "xp"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "C3A73F4A27BA52AE"
+					type: "checkmark"
+				}
+			]
+			x: 11.95d
+			y: 3.2d
+		}
+		{
+			dependencies: ["50F676F9AEE5BB6A"]
+			icon: {
+				id: "minersdelight:cave_soup"
+			}
+			id: "5013D9EABAFACD6D"
+			rewards: [
+				{
+					count: 6
+					id: "C29CFF82C5BCB5E1"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C5EE8781432BD71C"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C1B0D29F6306592F"
+					item: { count: 1, id: "minersdelight:cave_soup" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5013D9EABAFACD6D"]
+			id: "C7FF158C4C1CA71F"
+			rewards: [
+				{
+					count: 6
+					id: "C441D2D648A22CCA"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C5E0D3D443339BD8"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C9DF7F92C143E556"
+					item: { count: 1, id: "minersdelight:cave_hamburger" }
+					type: "item"
+				}
+			]
+			x: 6.3d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5013D9EABAFACD6D"]
+			id: "C17BFE5FBB58290C"
+			rewards: [
+				{
+					count: 6
+					id: "C726E6DFB1529C40"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C366171E1B68BEC3"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C5B0A998F3749EA8"
+					item: { count: 1, id: "minersdelight:insect_stew" }
+					type: "item"
+				}
+			]
+			x: 7.6d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5013D9EABAFACD6D"]
+			id: "C1CA40F98DCC16A7"
+			rewards: [
+				{
+					count: 6
+					id: "C598DCBE86E9C30B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C9993F2A8A889647"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C1567768D00F4507"
+					item: { count: 1, id: "minersdelight:takoyaki" }
+					type: "item"
+				}
+			]
+			x: 6.3d
+			y: 7.6d
+		}
+		{
+			dependencies: ["5013D9EABAFACD6D"]
+			id: "C6C64E5A22FAC180"
+			rewards: [
+				{
+					count: 6
+					id: "C679DAB89E3F12F6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C7C6577428C2F6D6"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C9FB95593F485A27"
+					item: { count: 1, id: "minersdelight:golden_nutritional_bar" }
+					type: "item"
+				}
+			]
+			x: 7.6d
+			y: 7.6d
+		}
+		{
+			dependencies: [
+				"C7FF158C4C1CA71F"
+				"C17BFE5FBB58290C"
+				"C1CA40F98DCC16A7"
+				"C6C64E5A22FAC180"
+			]
+			id: "C652901A6CCACCDB"
+			rewards: [
+				{
+					id: "C1305FD2D2490CA4"
+					item: {
+						count: 1
+						id: "minersdelight:copper_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "C9C616E8C4BF144D"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "C2334955D46AF783"
+					xp: 60
+					type: "xp"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "C76B2E6E1B465E55"
+					type: "checkmark"
+				}
+			]
+			x: 6.95d
+			y: 9.2d
+		}
+		{
+			dependencies: ["50F676F9AEE5BB6A"]
+			icon: {
+				id: "mynethersdelight:hoglin_sausage"
+			}
+			id: "5007E20DAC235BE9"
+			rewards: [
+				{
+					id: "C79E2ED829AF48D9"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C9251BCE79793A67"
+					item: { count: 1, id: "mynethersdelight:hoglin_sausage" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5007E20DAC235BE9"]
+			id: "C2CC58EA44ECD5B8"
+			rewards: [
+				{
+					count: 6
+					id: "C5D7DBC036095E68"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C7E96039211D9B96"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C759CE6CA6B0B965"
+					item: { count: 1, id: "mynethersdelight:hotdog" }
+					type: "item"
+				}
+			]
+			x: 11.3d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5007E20DAC235BE9"]
+			id: "C265B2344421C5B7"
+			rewards: [
+				{
+					count: 6
+					id: "C2A080AD8541C11A"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C9795E1D763F588B"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C48EC5FF527E03AF"
+					item: { count: 1, id: "mynethersdelight:nether_burger" }
+					type: "item"
+				}
+			]
+			x: 12.6d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5007E20DAC235BE9"]
+			id: "C787409CD75D1678"
+			rewards: [
+				{
+					count: 6
+					id: "C4E255EB8A1C0954"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C19993FD21B5AAA1"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C3A1AD69534F07C3"
+					item: { count: 1, id: "mynethersdelight:spicy_curry" }
+					type: "item"
+				}
+			]
+			x: 11.3d
+			y: 7.6d
+		}
+		{
+			dependencies: ["5007E20DAC235BE9"]
+			id: "C7C278AAF6301D1A"
+			rewards: [
+				{
+					count: 6
+					id: "C1CE257AD4F2B57F"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C43D654F75852777"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C33D006459185D40"
+					item: { count: 1, id: "mynethersdelight:strider_stew" }
+					type: "item"
+				}
+			]
+			x: 12.6d
+			y: 7.6d
+		}
+		{
+			dependencies: [
+				"C2CC58EA44ECD5B8"
+				"C265B2344421C5B7"
+				"C787409CD75D1678"
+				"C7C278AAF6301D1A"
+			]
+			id: "C638976EE082C309"
+			rewards: [
+				{
+					count: 4
+					id: "C586E10B742C0BAC"
+					item: {
+						count: 1
+						id: "mynethersdelight:bullet_pepper"
+					}
+					type: "item"
+				}
+				{
+					id: "C44200567A820D3D"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "C2BFDC8AB3872178"
+					xp: 60
+					type: "xp"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "C419588096B35BC4"
+					type: "checkmark"
+				}
+			]
+			x: 11.95d
+			y: 9.2d
+		}
+		{
+			dependencies: ["50F676F9AEE5BB6A"]
+			icon: {
+				id: "aethersdelight:roast_moa"
+			}
+			id: "5089CCC850C250F5"
+			rewards: [
+				{
+					count: 6
+					id: "C1124D6D003A6630"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C795495D395DC328"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C8EDA739C628EFA2"
+					item: { count: 1, id: "aethersdelight:roast_moa" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5089CCC850C250F5"]
+			id: "C4279634895623A0"
+			rewards: [
+				{
+					count: 6
+					id: "C99E885E946A47B2"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C4D40AC20D2DE320"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C998583128FC49F6"
+					item: { count: 1, id: "aethersdelight:gingerbread" }
+					type: "item"
+				}
+			]
+			x: 6.3d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5089CCC850C250F5"]
+			id: "C2FCDCBC836B4283"
+			rewards: [
+				{
+					count: 6
+					id: "C4DF5B5900B44D12"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C9A9B5A391AD6515"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C49CA1E8FB6B41A7"
+					item: { count: 1, id: "aethersdelight:blue_berry_muffin" }
+					type: "item"
+				}
+			]
+			x: 7.6d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5089CCC850C250F5"]
+			id: "C86EF06174D54E90"
+			rewards: [
+				{
+					count: 6
+					id: "C37D489DC2B0F7F2"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C89714E2B4B12060"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C1BCA7398D444908"
+					item: { count: 1, id: "aethersdelight:moa_stew" }
+					type: "item"
+				}
+			]
+			x: 6.3d
+			y: 13.6d
+		}
+		{
+			dependencies: ["5089CCC850C250F5"]
+			id: "C6504EE8FA5A41C4"
+			rewards: [
+				{
+					count: 6
+					id: "C96D858F2CD89F05"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C187505798ACBC58"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C19117CBF49B41AB"
+					item: { count: 1, id: "aethersdelight:aechor_ice_cream" }
+					type: "item"
+				}
+			]
+			x: 7.6d
+			y: 13.6d
+		}
+		{
+			dependencies: [
+				"C4279634895623A0"
+				"C2FCDCBC836B4283"
+				"C86EF06174D54E90"
+				"C6504EE8FA5A41C4"
+			]
+			id: "C7DA1643D0346478"
+			rewards: [
+				{
+					count: 4
+					id: "C4D7A25112FC68EA"
+					item: {
+						count: 1
+						id: "aethersdelight:ginger"
+					}
+					type: "item"
+				}
+				{
+					id: "C905DDA854FB4FEE"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "C3EF9EE3F1E63BF0"
+					xp: 60
+					type: "xp"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "C863CADAA62277C5"
+					type: "checkmark"
+				}
+			]
+			x: 6.95d
+			y: 15.2d
+		}
+		{
+			dependencies: ["50F676F9AEE5BB6A"]
+			icon: {
+				id: "youkaisfeasts:tsukimi_dango"
+			}
+			id: "509E53EBB16ED918"
+			rewards: [
+				{
+					count: 6
+					id: "C6BBA790E3516C9B"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C65FA9FF0F082A30"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C1B1161676605E8F"
+					item: { count: 1, id: "youkaisfeasts:tsukimi_dango" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["509E53EBB16ED918"]
+			id: "C319BF4149B87A71"
+			rewards: [
+				{
+					count: 6
+					id: "C922F2263BCA7714"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C98C50AA6C8F5501"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C7B05BBBA8A8C579"
+					item: { count: 1, id: "youkaisfeasts:california_roll" }
+					type: "item"
+				}
+			]
+			x: 11.3d
+			y: 12.0d
+		}
+		{
+			dependencies: ["509E53EBB16ED918"]
+			id: "C208BB5EC1D5F6EA"
+			rewards: [
+				{
+					count: 4
+					id: "C7E8D6E7916AE631"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C3168D0225072322"
+					xp: 15
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C48D32506AFCB476"
+					item: { count: 1, id: "youkaisfeasts:green_tea" }
+					type: "item"
+				}
+			]
+			x: 12.6d
+			y: 12.0d
+		}
+		{
+			dependencies: ["509E53EBB16ED918"]
+			id: "C2574D909C5B1268"
+			rewards: [
+				{
+					count: 8
+					id: "C4315F35645D2827"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C40EE88E4EBF7342"
+					xp: 30
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C2B5991661A7E38D"
+					item: { count: 1, id: "youkaisfeasts:hokkaido_salmon_hotpot" }
+					type: "item"
+				}
+			]
+			x: 11.3d
+			y: 13.6d
+		}
+		{
+			dependencies: ["509E53EBB16ED918"]
+			id: "C5CF02EB7BA30357"
+			rewards: [
+				{
+					count: 6
+					id: "C84F88E5690E80B0"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C74824C5B6403F3D"
+					xp: 20
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C644FBE5AB768873"
+					item: { count: 1, id: "youkaisfeasts:red_wine" }
+					type: "item"
+				}
+			]
+			x: 12.6d
+			y: 13.6d
+		}
+		{
+			dependencies: [
+				"C319BF4149B87A71"
+				"C208BB5EC1D5F6EA"
+				"C2574D909C5B1268"
+				"C5CF02EB7BA30357"
+			]
+			id: "C2EDF06727C547AC"
+			rewards: [
+				{
+					count: 4
+					id: "C75D46D9322AF472"
+					item: {
+						count: 1
+						id: "youkaisfeasts:tea_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "C2C79F6ADA5E474D"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "C8F8BCB216F0ED16"
+					xp: 60
+					type: "xp"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "C567F196CE815622"
+					type: "checkmark"
+				}
+			]
+			x: 11.95d
+			y: 15.2d
+		}
+		{
+			dependencies: ["507AE2D0C47CC928"]
+			id: "C9465FA3F3E414C7"
+			rewards: [
+				{
+					count: 4
+					id: "C4F9EBC5021A9E11"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C8559CA168FC162F"
+					xp: 15
+					type: "xp"
+				}
+			]
+			tasks: [
+				{
+					id: "C62F16DC40AA68B3"
+					item: { count: 1, id: "displaydelight:food_plate" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"C81E6AF41E3A2517"
+				"C819D54DBCECC24B"
+				"C91B237B51CAD303"
+				"C330405FB85B4830"
+				"C13A66D899731CF4"
+				"C652901A6CCACCDB"
+				"C638976EE082C309"
+				"C7DA1643D0346478"
+				"C2EDF06727C547AC"
+				"C9465FA3F3E414C7"
+			]
+			id: "509FE4309F7387C6"
+			rewards: [
+				{
+					id: "C1B74A004D0ADCB7"
+					table_id: 5815705628125276443L
+					type: "random"
+				}
+				{
+					id: "C2B5431BC1A98427"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "C1932D393E744B3A"
+					xp: 300
+					type: "xp"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "C4844088BF6CE93F"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 18.0d
+		}
+	]
 }

@@ -1,0 +1,24 @@
+{
+  "schema_version": "2",
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "file/Gazai-Utility-RP-1.0.1.zip",
+    "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+    "file/RCT Trainer Animation_0.2.1beta.zip",
+    "file/FreshAnimations_v1.10.4.zip",
+    "file/fresh_waystones.zip",
+    "file/RCT Trainers+ [1.6] v2.1.zip",
+    "file/E19 Cobblemon Minimap Icons.zip",
+    "file/Emissive-Cobblemon-Ores-1.7.zip",
+    "file/Fully Hisuian Starters 1.1.1.zip",
+    "file/CreateSophBackpacks.zip",
+    "file/Comforts Modernized - V1.1.zip",
+    "file/Simple Grass Flowers v1.9.6.zip",
+    "file/LowOnFire v26.2§8.zip",
+    "file/Low Shield.zip",
+    "file/ATM x MSD [v3.6.1].zip"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  }
+}

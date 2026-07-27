@@ -1,0 +1,15 @@
+{
+  "type": "leader",
+  "series": ["steamon"],
+  "requiredDefeats": [
+    [
+      "steamon_gym4_tee"
+    ]
+  ],
+  "optional": false,
+  "spawnWeightFactor": 0.3,
+  "biomeTagWhitelist": ["is_overworld"],
+  "signatureItem": "minecraft:brush",
+  "maxTrainerDefeats": 1,
+  "battleCooldownTicks": 240
+}

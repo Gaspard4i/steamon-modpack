@@ -1,0 +1,15 @@
+{
+  "type": "leader",
+  "series": ["steamon"],
+  "requiredDefeats": [
+    [
+      "steamon_gym3_miguel"
+    ]
+  ],
+  "optional": false,
+  "spawnWeightFactor": 0.3,
+  "biomeTagWhitelist": ["is_overworld"],
+  "signatureItem": "minecraft:nautilus_shell",
+  "maxTrainerDefeats": 1,
+  "battleCooldownTicks": 240
+}

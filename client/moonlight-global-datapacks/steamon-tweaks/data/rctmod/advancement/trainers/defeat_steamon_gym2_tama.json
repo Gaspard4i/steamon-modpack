@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_steamon_gym2_tama": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "steamon_gym2_tama"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Gym Leader Tama."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Wings of Aether"
+    }
+  },
+  "requirements": [
+    [
+      "defeat_steamon_gym2_tama"
+    ]
+  ],
+  "parent": "rctmod:trainers/defeat_steamon_gym1_gaz"
+}

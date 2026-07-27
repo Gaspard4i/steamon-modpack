@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_steamon_e4_4_bee": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "steamon_e4_4_bee"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Elite Four Professor Bee."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Fourth of the Elite Four"
+    }
+  },
+  "requirements": [
+    [
+      "defeat_steamon_e4_4_bee"
+    ]
+  ],
+  "parent": "rctmod:trainers/defeat_steamon_e4_3_tama"
+}

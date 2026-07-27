@@ -196,8 +196,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon_utility:voidfeather",
-          "weight": 2,
+          "name": "cobblemon_utility:shinycard",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -207,11 +207,36 @@
                 "max": 1
               }
             }
-          ],
-          "conditions": [
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1e-05
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:goldencap",
+          "weight": 1,
+          "functions": [
             {
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         }
@@ -219,7 +244,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.3
+          "chance": 1e-05
         }
       ]
     },
@@ -229,13 +254,65 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon_utility:poketreat"
+          "name": "cobblemon:master_ball"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.0001
+          "chance": 1e-06
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "createnuclear:reactor_controller",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "createnuclear:reactor_core",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "createnuclear:reactor_casing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "createnuclear:reactor_frame",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "createnuclear:reactor_cooler",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "createnuclear:reactor_input",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "createnuclear:reactor_output",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "createnuclear:reactor_blueprint_item",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1e-06
         }
       ]
     },
@@ -377,13 +454,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mythsandlegends:clear_bell"
+          "name": "mythsandlegends:azure_flute"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 1e-07
+          "chance": 0.0005
         }
       ]
     }

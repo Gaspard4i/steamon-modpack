@@ -1,0 +1,92 @@
+{
+  "name": "Elite Four Professor Bee",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.1
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "vespiquen",
+      "nickname": "Hive Queen",
+      "gender": "FEMALE",
+      "level": 64,
+      "nature": "bold",
+      "ability": "pressure",
+      "moveset": ["attackorder", "defendorder", "healorder", "toxicspikes"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "def": 200, "spd": 56},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "ribombee",
+      "nickname": "Pollen Dust",
+      "gender": "FEMALE",
+      "level": 64,
+      "nature": "timid",
+      "ability": "shielddust",
+      "moveset": ["moonblast", "stunspore", "quiverdance", "bugbuzz"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["focus_sash"]
+    },
+    {
+      "species": "kleavor",
+      "nickname": "Stone Mandible",
+      "gender": "MALE",
+      "level": 65,
+      "nature": "adamant",
+      "ability": "sheerforce",
+      "moveset": ["stoneaxe", "xscissor", "closecombat", "swordsdance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["life_orb"]
+    },
+    {
+      "species": "centiskorch",
+      "nickname": "Ember Crawler",
+      "gender": "MALE",
+      "level": 65,
+      "nature": "adamant",
+      "ability": "flashfire",
+      "moveset": ["flareblitz", "firelash", "leechlife", "coil"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "atk": 252, "spe": 4},
+      "heldItem": ["heat_rock"]
+    },
+    {
+      "species": "frosmoth",
+      "nickname": "Winter Moth",
+      "gender": "FEMALE",
+      "level": 66,
+      "nature": "modest",
+      "ability": "icescales",
+      "moveset": ["bugbuzz", "icebeam", "quiverdance", "gigadrain"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["sitrus_berry"]
+    },
+    {
+      "species": "volcarona",
+      "nickname": "Sunfire Wing",
+      "gender": "FEMALE",
+      "level": 66,
+      "nature": "timid",
+      "ability": "flamebody",
+      "moveset": ["quiverdance", "fierydance", "bugbuzz", "gigadrain"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["heat_rock"]
+    }
+  ]
+}

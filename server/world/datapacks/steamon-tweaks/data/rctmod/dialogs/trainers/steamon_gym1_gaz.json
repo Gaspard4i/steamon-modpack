@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "Step right up! The show is about to begin!",
+    "You want a piece of the Big Top? Let's clown around!"
+  ],
+  "on_battle_won": [
+    "Ta-da! The crowd goes wild! Come back when you've practiced your act.",
+    "Another act for the show. Better luck next time, kid."
+  ],
+  "on_battle_lost": [
+    "Hah! You actually beat the ringmaster. Take a bow!",
+    "The tent is yours today. On to the next act, huh?"
+  ]
+}

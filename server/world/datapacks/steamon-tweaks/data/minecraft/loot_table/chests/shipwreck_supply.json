@@ -1,186 +1,186 @@
 {
- "type": "minecraft:chest",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "rolls": {
-    "type": "minecraft:uniform",
-    "min": 3.0,
-    "max": 4.0
-   },
-   "entries": [
+  "type": "minecraft:chest",
+  "pools": [
     {
-     "type": "minecraft:item",
-     "name": "cobblemon:net_ball",
-     "weight": 18,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
+      "bonus_rolls": 0.0,
+      "rolls": {
         "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 3.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:dive_ball",
-     "weight": 15,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 3.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:poke_ball",
-     "weight": 18,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
+        "min": 3.0,
         "max": 4.0
-       },
-       "add": false
-      }
-     ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:net_ball",
+          "weight": 18,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:dive_ball",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:poke_ball",
+          "weight": 18,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:oran_berry",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:leppa_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "cobblemon:oran_berry",
-     "weight": 12,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
+      "bonus_rolls": 0.0,
+      "rolls": {
         "type": "minecraft:uniform",
         "min": 2.0,
-        "max": 4.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:leppa_berry",
-     "weight": 8,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
         "max": 3.0
-       },
-       "add": false
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "bonus_rolls": 0.0,
-   "rolls": {
-    "type": "minecraft:uniform",
-    "min": 2.0,
-    "max": 3.0
-   },
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:wheat",
-     "weight": 10,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 8.0,
-        "max": 21.0
-       },
-       "add": false
-      }
-     ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 21.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 8.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 6.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "minecraft:carrot",
-     "weight": 8,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 4.0,
-        "max": 8.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:potato",
-     "weight": 8,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 6.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:tnt",
-     "weight": 3,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-       },
-       "add": false
-      }
-     ]
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythsandlegends:tidal_bell"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "rolls": 1,
-   "bonus_rolls": 0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance",
-     "chance": 1e-07
-    }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "mythsandlegends:tidal_bell"
-    }
-   ]
-  }
- ],
- "random_sequence": "minecraft:chests/shipwreck_supply"
+  ],
+  "random_sequence": "minecraft:chests/shipwreck_supply"
 }

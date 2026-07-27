@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_steamon_gym6_drhuman": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "steamon_gym6_drhuman"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Gym Leader Dr. Human."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Greenhouse Keeper"
+    }
+  },
+  "requirements": [
+    [
+      "defeat_steamon_gym6_drhuman"
+    ]
+  ],
+  "parent": "rctmod:trainers/defeat_steamon_gym5_tom"
+}

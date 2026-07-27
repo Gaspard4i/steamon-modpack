@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "The winds of the Valkyrie Dungeon favor the bold. Do you dare challenge me?",
+    "Feel the silver skies descend. This is Aether's trial."
+  ],
+  "on_battle_won": [
+    "The winds do not carry the unworthy. Train harder and return.",
+    "Silence falls over the dungeon. You are not ready yet."
+  ],
+  "on_battle_lost": [
+    "The sky bows to you, challenger. Take this badge and soar.",
+    "Impressive. Few have matched the Aether's fury."
+  ]
+}

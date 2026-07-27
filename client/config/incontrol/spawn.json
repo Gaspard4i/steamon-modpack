@@ -66,6 +66,13 @@
     "result": "allow"
   },
   {
+    "mob": [
+      "minecraft:silverfish",
+      "minecraft:warden"
+    ],
+    "result": "allow"
+  },
+  {
     "hostile": true,
     "spawntype": [
       "natural",

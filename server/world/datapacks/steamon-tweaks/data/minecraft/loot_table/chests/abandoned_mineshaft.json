@@ -1,256 +1,256 @@
 {
- "type": "minecraft:chest",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "rolls": {
-    "type": "minecraft:uniform",
-    "min": 3.0,
-    "max": 5.0
-   },
-   "entries": [
+  "type": "minecraft:chest",
+  "pools": [
     {
-     "type": "minecraft:item",
-     "name": "cobblemon:poke_ball",
-     "weight": 25,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
+      "bonus_rolls": 0.0,
+      "rolls": {
         "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 4.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:great_ball",
-     "weight": 15,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 3.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:quick_ball",
-     "weight": 10,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:oran_berry",
-     "weight": 12,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 4.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:leppa_berry",
-     "weight": 10,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 3.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:rawst_berry",
-     "weight": 8,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:tag",
-     "name": "simpletms:tm_items",
-     "expand": true,
-     "weight": 6
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:exp_candy_s",
-     "weight": 6,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-       },
-       "add": false
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "bonus_rolls": 0.0,
-   "rolls": {
-    "type": "minecraft:uniform",
-    "min": 2.0,
-    "max": 3.0
-   },
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:rail",
-     "weight": 10,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 4.0,
-        "max": 8.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:iron_ingot",
-     "weight": 8,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
+        "min": 3.0,
         "max": 5.0
-       },
-       "add": false
-      }
-     ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:poke_ball",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:great_ball",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:quick_ball",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:oran_berry",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:leppa_berry",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rawst_berry",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "simpletms:tm_items",
+          "expand": true,
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_s",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "minecraft:redstone",
-     "weight": 6,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
+      "bonus_rolls": 0.0,
+      "rolls": {
         "type": "minecraft:uniform",
-        "min": 4.0,
-        "max": 9.0
-       },
-       "add": false
-      }
-     ]
+        "min": 2.0,
+        "max": 3.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rail",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 8.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 9.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 9.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "minecraft:lapis_lazuli",
-     "weight": 5,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 4.0,
-        "max": 9.0
-       },
-       "add": false
-      }
-     ]
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag"
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "minecraft:diamond",
-     "weight": 1,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-       },
-       "add": false
-      }
-     ]
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythsandlegends:griseous_orb"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "rolls": 1,
-   "bonus_rolls": 0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance",
-     "chance": 0.05
-    }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:name_tag"
-    }
-   ]
-  },
-  {
-   "rolls": 1,
-   "bonus_rolls": 0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance",
-     "chance": 1e-07
-    }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "mythsandlegends:griseous_orb"
-    }
-   ]
-  }
- ],
- "random_sequence": "minecraft:chests/abandoned_mineshaft"
+  ],
+  "random_sequence": "minecraft:chests/abandoned_mineshaft"
 }

@@ -1,0 +1,11 @@
+{
+  "type": "leader",
+  "series": ["steamon"],
+  "requiredDefeats": [],
+  "optional": false,
+  "spawnWeightFactor": 0.3,
+  "biomeTagWhitelist": ["is_overworld"],
+  "signatureItem": "cobblemon:big_bamboo",
+  "maxTrainerDefeats": 1,
+  "battleCooldownTicks": 240
+}

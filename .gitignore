@@ -58,3 +58,9 @@ playwright-report/
 test-results/
 .cache/
 .tools/
+
+# Session work artifacts (not part of the pack)
+docs/cobblemon_recheck.jar
+server-mods-list.md
+docs/quests/_ref/
+*.mrpack

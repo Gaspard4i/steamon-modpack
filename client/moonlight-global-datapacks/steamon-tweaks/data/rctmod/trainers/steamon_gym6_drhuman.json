@@ -1,0 +1,83 @@
+{
+  "name": "Gym Leader Dr. Human",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "battleFormat": "GEN_9_DOUBLES",
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 3
+    }
+  ],
+  "team": [
+    {
+      "species": "ludicolo",
+      "nickname": "Splashleaf",
+      "gender": "MALE",
+      "level": 43,
+      "nature": "modest",
+      "ability": "swiftswim",
+      "moveset": ["surf", "gigadrain", "icebeam", "raindance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["life_orb"]
+    },
+    {
+      "species": "roserade",
+      "nickname": "Thornlash",
+      "gender": "FEMALE",
+      "level": 43,
+      "shiny": true,
+      "nature": "timid",
+      "ability": "naturalcure",
+      "moveset": ["sludgebomb", "gigadrain", "sleeppowder", "toxicspikes"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["black_sludge"]
+    },
+    {
+      "species": "meowscarada",
+      "nickname": "Greenweed",
+      "gender": "MALE",
+      "level": 44,
+      "nature": "jolly",
+      "ability": "overgrow",
+      "moveset": ["flowertrick", "knockoff", "uturn", "suckerpunch"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["miracle_seed"]
+    },
+    {
+      "species": "lilligant",
+      "nickname": "Fragilady",
+      "gender": "FEMALE",
+      "level": 44,
+      "nature": "modest",
+      "ability": "chlorophyll",
+      "moveset": ["quiverdance", "gigadrain", "petaldance", "sleeppowder"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["focus_sash"]
+    },
+    {
+      "species": "scovillain",
+      "nickname": "Blazing Chili",
+      "gender": "MALE",
+      "level": 45,
+      "shiny": true,
+      "nature": "modest",
+      "ability": "chlorophyll",
+      "moveset": ["solarbeam", "overheat", "sunnyday", "gigadrain"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["occa_berry"]
+    }
+  ]
+}

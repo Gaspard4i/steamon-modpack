@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_steamon_champion_gazai": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "steamon_champion_gazai"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Champion Gazai and complete the Steamon League."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Steamon League Champion"
+    }
+  },
+  "requirements": [
+    [
+      "defeat_steamon_champion_gazai"
+    ]
+  ],
+  "parent": "rctmod:trainers/defeat_steamon_e4_4_bee"
+}

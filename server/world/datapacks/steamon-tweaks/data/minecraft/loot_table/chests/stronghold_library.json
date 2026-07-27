@@ -1,192 +1,192 @@
 {
- "type": "minecraft:chest",
- "pools": [
-  {
-   "bonus_rolls": 0.0,
-   "rolls": {
-    "type": "minecraft:uniform",
-    "min": 3.0,
-    "max": 4.0
-   },
-   "entries": [
+  "type": "minecraft:chest",
+  "pools": [
     {
-     "type": "minecraft:item",
-     "name": "cobblemon:ultra_ball",
-     "weight": 15,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
+      "bonus_rolls": 0.0,
+      "rolls": {
         "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 3.0
-       },
-       "add": false
-      }
-     ]
+        "min": 3.0,
+        "max": 4.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ultra_ball",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "simpletms:tm_items",
+          "expand": true,
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:link_cable",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_share",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0,
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0,
+              "add": false
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "minecraft:tag",
-     "name": "simpletms:tm_items",
-     "expand": true,
-     "weight": 14
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:link_cable",
-     "weight": 8,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": 1.0,
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:exp_share",
-     "weight": 5,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": 1.0,
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon:rare_candy",
-     "weight": 6,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": 1.0,
-       "add": false
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "bonus_rolls": 0.0,
-   "rolls": {
-    "type": "minecraft:uniform",
-    "min": 2.0,
-    "max": 3.0
-   },
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:book",
-     "weight": 12,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 5.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:paper",
-     "weight": 10,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
+      "bonus_rolls": 0.0,
+      "rolls": {
         "type": "minecraft:uniform",
         "min": 2.0,
-        "max": 7.0
-       },
-       "add": false
-      }
-     ]
-    },
-    {
-     "type": "minecraft:item",
-     "name": "minecraft:experience_bottle",
-     "weight": 6,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
         "max": 3.0
-       },
-       "add": false
-      }
-     ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 7.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0,
+              "add": false
+            }
+          ]
+        }
+      ]
     },
     {
-     "type": "minecraft:item",
-     "name": "minecraft:enchanted_book",
-     "weight": 3,
-     "functions": [
-      {
-       "function": "minecraft:set_count",
-       "count": 1.0,
-       "add": false
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "rolls": 1,
-   "bonus_rolls": 0,
-   "conditions": [
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:ability_capsule"
+        }
+      ]
+    },
     {
-     "condition": "minecraft:random_chance",
-     "chance": 0.05
-    }
-   ],
-   "entries": [
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1e-05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shinycard"
+        }
+      ]
+    },
     {
-     "type": "minecraft:item",
-     "name": "cobblemon:ability_capsule"
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.0005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mythsandlegends:dr_fujis_diary"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "rolls": 1,
-   "bonus_rolls": 0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance",
-     "chance": 1e-05
-    }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "cobblemon_utility:shinycard"
-    }
-   ]
-  },
-  {
-   "rolls": 1,
-   "bonus_rolls": 0,
-   "conditions": [
-    {
-     "condition": "minecraft:random_chance",
-     "chance": 1e-07
-    }
-   ],
-   "entries": [
-    {
-     "type": "minecraft:item",
-     "name": "mythsandlegends:dr_fujis_diary"
-    }
-   ]
-  }
- ],
- "random_sequence": "minecraft:chests/stronghold_library"
+  ],
+  "random_sequence": "minecraft:chests/stronghold_library"
 }

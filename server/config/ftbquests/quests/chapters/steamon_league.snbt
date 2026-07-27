@@ -1,12 +1,509 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "square"
 	filename: "steamon_league"
-	group: "D8738BA0B5C2847A"
-	icon: { id: "cobblemon:relic_coin" }
+	group: "175FA950F5B31EAB"
+	icon: {
+		id: "numismatics:spur"
+	}
 	id: "4B491D83F2C81B36"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	title: "Steamon League"
+	quests: [
+		{
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "16E7989751D62820"
+			title: "Gym Leader Gaz"
+			rewards: [
+				{
+					count: 5
+					id: "D5506C84F4204E5D"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "86B4BCFE7A08FD5D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_gym1_gaz"
+				criterion: ""
+				id: "2F1E621F7B5F8015"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16E7989751D62820"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "B02B8D63AFEE1760"
+			title: "Gym Leader Tama"
+			rewards: [
+				{
+					count: 5
+					id: "C6CD9DF48D469998"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "F418DD4E459CB35B"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_gym2_tama"
+				criterion: ""
+				id: "ADFB0C699EAE205C"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B02B8D63AFEE1760"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "00D9F829709642AA"
+			title: "Gym Leader Miguel"
+			rewards: [
+				{
+					count: 8
+					id: "7A8B5ADB412E97CE"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "BA077B6400ED313F"
+					type: "xp"
+					xp: 55
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_gym3_miguel"
+				criterion: ""
+				id: "1BC4D0B3F0A09473"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00D9F829709642AA"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "0E0D01F9864B2458"
+			title: "Gym Leader Tee"
+			rewards: [
+				{
+					count: 5
+					id: "7FC5DBF2A4688CCE"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "00578476DCBF3326"
+					type: "xp"
+					xp: 70
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_gym4_tee"
+				criterion: ""
+				id: "FAD67944A331E591"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E0D01F9864B2458"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "276E1F7F0129B6A6"
+			title: "Gym Leader Tom"
+			rewards: [
+				{
+					count: 8
+					id: "664ED3B427CFE852"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "EE0EA378877E3F5F"
+					type: "xp"
+					xp: 90
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_gym5_tom"
+				criterion: ""
+				id: "CEFE3DB4274463E8"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["276E1F7F0129B6A6"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "96EA8FB7A64DE795"
+			title: "Gym Leader Dr. Human"
+			rewards: [
+				{
+					count: 3
+					id: "B52288FEE23518A7"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					id: "0615BEA0C53ACBE3"
+					type: "xp"
+					xp: 110
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_gym6_drhuman"
+				criterion: ""
+				id: "4B934B942664D057"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["96EA8FB7A64DE795"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "1970EE1ABE3DD38F"
+			title: "Gym Leader Blade"
+			rewards: [
+				{
+					count: 5
+					id: "BD80B9B8237F0364"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					id: "BA7DAD9E70C263B7"
+					type: "xp"
+					xp: 135
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_gym7_blade"
+				criterion: ""
+				id: "07FBAE61EE531B8A"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1970EE1ABE3DD38F"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "CBDC942891453801"
+			title: "Gym Leader Professor Hex"
+			rewards: [
+				{
+					count: 3
+					id: "88F29933FCD33E0D"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "E295E497DA655E41"
+					item: {
+						count: 1
+						id: "cobblemon:full_restore"
+					}
+					type: "item"
+				}
+				{
+					id: "A3FFFC5C784DD444"
+					type: "xp"
+					xp: 160
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_gym8_hex"
+				criterion: ""
+				id: "A8937789B8EB9E1E"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CBDC942891453801"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "6423205B2BC60390"
+			title: "Elite Four Pai"
+			rewards: [
+				{
+					count: 3
+					id: "CC79B3FD26B0FC2A"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					id: "38D762CB97FEC1AC"
+					type: "xp"
+					xp: 190
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_e4_1_pai"
+				criterion: ""
+				id: "6AFAEAF9D5A6AB57"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6423205B2BC60390"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "6BC7D53EBCF6F89F"
+			title: "Elite Four Gaz"
+			rewards: [
+				{
+					count: 3
+					id: "EBCF7EF4373F85A0"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "BBA788862E46032A"
+					item: {
+						count: 1
+						id: "cobblemon:ability_patch"
+					}
+					type: "item"
+				}
+				{
+					id: "909F0A6A808AEB55"
+					type: "xp"
+					xp: 210
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_e4_2_gaz"
+				criterion: ""
+				id: "DC04B4B2A3F4CA44"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BC7D53EBCF6F89F"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "2BB67258A1BADA4F"
+			title: "Elite Four Tama"
+			rewards: [
+				{
+					count: 4
+					id: "228DDE5D429E7CC4"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "A879034319BB7D49"
+					item: {
+						count: 1
+						id: "cobblemon:ability_patch"
+					}
+					type: "item"
+				}
+				{
+					id: "3C478EE70AC6384B"
+					type: "xp"
+					xp: 230
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_e4_3_tama"
+				criterion: ""
+				id: "16217819E6C49647"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BB67258A1BADA4F"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "4D023215BB17440E"
+			title: "Elite Four Professor Bee"
+			rewards: [
+				{
+					count: 4
+					id: "3A0C0594B05062FF"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "C492587091A2FD4E"
+					item: {
+						count: 1
+						id: "cobblemon:ability_patch"
+					}
+					type: "item"
+				}
+				{
+					id: "269739E1632FDEBD"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_e4_4_bee"
+				criterion: ""
+				id: "E93126E2E97452D5"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D023215BB17440E"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "29AD13E12B02EE5A"
+			title: "Champion Gazai"
+			rewards: [
+				{
+					count: 1
+					id: "A1FD3988348C41C0"
+					item: {
+						count: 1
+						id: "cobblemon_utility:shinycard"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "EDEE7E1CB3245F7E"
+					item: {
+						count: 1
+						id: "cobblemon_utility:mastercandy"
+					}
+					type: "item"
+				}
+				{
+					count: 1
+					id: "E929323350895C78"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "CC4022BBED40150B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_steamon_champion_gazai"
+				criterion: ""
+				id: "4E5E6AE630282744"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
 }

@@ -1,0 +1,98 @@
+{
+  "name": "Champion Gazai",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.05
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 3
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 4
+    }
+  ],
+  "team": [
+    {
+      "species": "infernape",
+      "nickname": "Simiabraz",
+      "gender": "MALE",
+      "level": 68,
+      "nature": "jolly",
+      "ability": "ironfist",
+      "moveset": ["closecombat", "machpunch", "flareblitz", "gunkshot"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["life_orb"]
+    },
+    {
+      "species": "empoleon",
+      "nickname": "Empoleon",
+      "gender": "MALE",
+      "level": 69,
+      "nature": "modest",
+      "ability": "competitive",
+      "moveset": ["hydropump", "flashcannon", "icebeam", "roar"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "spa": 252, "spd": 4},
+      "heldItem": ["assault_vest"]
+    },
+    {
+      "species": "torterra",
+      "nickname": "Torterra",
+      "gender": "MALE",
+      "level": 69,
+      "shiny": true,
+      "nature": "adamant",
+      "ability": "overgrow",
+      "moveset": ["woodhammer", "earthquake", "stoneedge", "swordsdance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "atk": 252, "spd": 4},
+      "heldItem": ["miracle_seed"]
+    },
+    {
+      "species": "gholdengo",
+      "nickname": "Full Netherite",
+      "gender": "GENDERLESS",
+      "level": 70,
+      "shiny": true,
+      "nature": "modest",
+      "ability": "goodasgold",
+      "moveset": ["makeitrain", "shadowball", "nastyplot", "recover"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["air_balloon"]
+    },
+    {
+      "species": "golurk",
+      "nickname": "Golurk",
+      "gender": "GENDERLESS",
+      "level": 71,
+      "nature": "adamant",
+      "ability": "noguard",
+      "moveset": ["dynamicpunch", "earthquake", "poltergeist", "icepunch"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "atk": 252, "spe": 4},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "golett",
+      "nickname": "GOLETT.EXE",
+      "gender": "GENDERLESS",
+      "level": 72,
+      "shiny": true,
+      "nature": "adamant",
+      "ability": "noguard",
+      "moveset": ["dynamicpunch", "poltergeist", "shadowpunch", "firepunch"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "gimmicks": {
+        "tera": "ghost"
+      },
+      "heldItem": ["life_orb"]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_steamon_gym8_hex": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "steamon_gym8_hex"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Gym Leader Professor Hex."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Iron Will"
+    }
+  },
+  "requirements": [
+    [
+      "defeat_steamon_gym8_hex"
+    ]
+  ],
+  "parent": "rctmod:trainers/defeat_steamon_gym7_blade"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Gym Leader Blade",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "battleFormat": "GEN_9_DOUBLES",
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 3
+    }
+  ],
+  "team": [
+    {
+      "species": "greninja",
+      "nickname": "Kunaigeist",
+      "gender": "MALE",
+      "level": 49,
+      "shiny": true,
+      "nature": "timid",
+      "ability": "battlebond",
+      "aspects": ["ash"],
+      "moveset": ["hydropump", "darkpulse", "icebeam", "gunkshot"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["choice_specs"]
+    },
+    {
+      "species": "weavile",
+      "nickname": "Frostclaw",
+      "gender": "FEMALE",
+      "level": 50,
+      "nature": "jolly",
+      "ability": "pressure",
+      "moveset": ["iceshard", "knockoff", "icepunch", "swordsdance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["life_orb"]
+    },
+    {
+      "species": "urshifu",
+      "nickname": "Onyx Fist",
+      "gender": "MALE",
+      "level": 50,
+      "nature": "adamant",
+      "ability": "unseenfist",
+      "moveset": ["wickedblow", "closecombat", "suckerpunch", "ironhead"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["focus_sash"]
+    },
+    {
+      "species": "brutebonnet",
+      "nickname": "Rotcap",
+      "gender": "GENDERLESS",
+      "level": 51,
+      "nature": "adamant",
+      "ability": "protosynthesis",
+      "moveset": ["seedbomb", "suckerpunch", "spore", "crunch"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "atk": 252, "spe": 4},
+      "heldItem": ["expert_belt"]
+    },
+    {
+      "species": "darkrai",
+      "nickname": "Nightmare Veil",
+      "gender": "GENDERLESS",
+      "level": 51,
+      "nature": "timid",
+      "ability": "baddreams",
+      "moveset": ["darkpulse", "nastyplot", "icebeam", "sludgebomb"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["life_orb"]
+    },
+    {
+      "species": "kingambit",
+      "nickname": "Chaos Blade",
+      "gender": "MALE",
+      "level": 52,
+      "shiny": true,
+      "nature": "adamant",
+      "ability": "supremeoverlord",
+      "moveset": ["kowtowcleave", "suckerpunch", "ironhead", "swordsdance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "atk": 252, "spe": 4},
+      "heldItem": ["leftovers"]
+    }
+  ]
+}

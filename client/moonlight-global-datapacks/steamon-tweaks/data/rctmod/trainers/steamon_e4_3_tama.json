@@ -1,0 +1,93 @@
+{
+  "name": "Elite Four Tama",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.1
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "battleFormat": "GEN_9_DOUBLES",
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "tyranitar",
+      "nickname": "Sandstorm",
+      "gender": "MALE",
+      "level": 63,
+      "nature": "adamant",
+      "ability": "sandstream",
+      "moveset": ["stoneedge", "crunch", "earthquake", "dragondance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["assault_vest"]
+    },
+    {
+      "species": "hippowdon",
+      "nickname": "Dune Wall",
+      "gender": "FEMALE",
+      "level": 63,
+      "nature": "impish",
+      "ability": "sandstream",
+      "moveset": ["earthquake", "stealthrock", "slackoff", "whirlwind"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "def": 252, "spd": 4},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "excadrill",
+      "nickname": "Drill Sergeant",
+      "gender": "MALE",
+      "level": 64,
+      "nature": "jolly",
+      "ability": "sandrush",
+      "moveset": ["earthquake", "ironhead", "rockslide", "swordsdance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["life_orb"]
+    },
+    {
+      "species": "garchomp",
+      "nickname": "Sandveil Fang",
+      "gender": "FEMALE",
+      "level": 64,
+      "nature": "jolly",
+      "ability": "roughskin",
+      "moveset": ["earthquake", "dragonclaw", "stoneedge", "swordsdance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["rocky_helmet"]
+    },
+    {
+      "species": "glimmora",
+      "nickname": "Crystal Bloom",
+      "gender": "FEMALE",
+      "level": 65,
+      "nature": "timid",
+      "ability": "toxicdebris",
+      "moveset": ["powergem", "earthpower", "stealthrock", "sludgewave"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["focus_sash"]
+    },
+    {
+      "species": "mamoswine",
+      "nickname": "Sandwalker",
+      "gender": "MALE",
+      "level": 65,
+      "nature": "adamant",
+      "ability": "thickfat",
+      "moveset": ["iceshard", "earthquake", "iciclecrash", "superpower"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["never_melt_ice"]
+    }
+  ]
+}

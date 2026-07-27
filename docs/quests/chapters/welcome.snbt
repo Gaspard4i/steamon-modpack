@@ -1,0 +1,144 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "welcome"
+	group: "3DBCC9E2D8397D4A"
+	icon: {
+		id: "cobblemon:poke_ball"
+	}
+	id: "509B21D25C01D8EB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:oak_sign"
+			}
+			id: "5000F94AD8C2D624"
+			rewards: [
+				{
+					count: 10
+					id: "50558105597454EE"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "509D293713A77B13"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "50F1DB7E8273237B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5000F94AD8C2D624"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "5088AC64E84B2AB0"
+			rewards: [
+				{
+					count: 10
+					id: "50D9D8CA388F7E2C"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "5075251C261A8A5E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "505BE61B6B196AE8"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5000F94AD8C2D624"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "50888E190728D8D6"
+			rewards: [
+				{
+					count: 10
+					id: "50288D2894E9D6F1"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "50A21A60B5F9CE64"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "50144905BE2B04A9"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5088AC64E84B2AB0"
+				"50888E190728D8D6"
+			]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "50902A5B0B8A2813"
+			rewards: [
+				{
+					count: 5
+					id: "502B90F3A163DB4A"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "50CFC35ABC31D068"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "50809FC529A2B26A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5034B00F647F47D8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+}

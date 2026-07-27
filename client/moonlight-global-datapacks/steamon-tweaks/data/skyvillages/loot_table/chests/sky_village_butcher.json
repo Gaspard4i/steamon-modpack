@@ -124,7 +124,7 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 1e-07
+          "chance": 0.0005
         }
       ],
       "entries": [
