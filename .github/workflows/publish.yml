@@ -282,20 +282,30 @@ jobs:
           from concurrent.futures import ThreadPoolExecutor, as_completed
           files = idx.get('files', [])
           print(f"[smoke] Checking {len(files)} mod download URLs (parallel)...")
+          import time as _t
           def check(f):
               urls = f.get('downloads', [])
               if not urls:
                   return f"{f.get('path','?')}: no download URL"
-              try:
-                  req = urllib.request.Request(urls[0], method='HEAD', headers={'User-Agent': 'steamon-smoke/1.0'})
-                  with urllib.request.urlopen(req, timeout=15) as r:
-                      if r.status >= 400:
-                          return f"{f['path']}: HTTP {r.status}"
-              except urllib.error.HTTPError as e:
-                  return f"{f['path']}: HTTP {e.code}"
-              except Exception as e:
-                  return f"{f['path']}: {e}"
-              return None
+              # Retry with backoff: the Modrinth CDN occasionally times out under
+              # load, which is a transient network issue, not a broken mod. Only
+              # a real HTTP >=400 (missing file) or exhausted retries should fail.
+              last = None
+              for attempt in range(4):
+                  try:
+                      req = urllib.request.Request(urls[0], method='HEAD', headers={'User-Agent': 'steamon-smoke/1.0'})
+                      with urllib.request.urlopen(req, timeout=30) as r:
+                          if r.status >= 400:
+                              return f"{f['path']}: HTTP {r.status}"
+                          return None
+                  except urllib.error.HTTPError as e:
+                      if e.code == 405:  # some CDNs reject HEAD; treat as reachable
+                          return None
+                      return f"{f['path']}: HTTP {e.code}"
+                  except Exception as e:
+                      last = f"{f['path']}: {e}"
+                      _t.sleep(2 * (attempt + 1))
+              return last
           fails = []
           with ThreadPoolExecutor(max_workers=24) as pool:
               for r in as_completed(pool.submit(check, f) for f in files):

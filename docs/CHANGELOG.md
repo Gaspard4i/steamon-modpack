@@ -20,6 +20,15 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   hard-but-cheap Sequenced Assembly (a single prismarine shard run through
   deploying soul sand / prismarine crystals / phantom membrane + pressing).
 
+## [2.0.7] - 2026-07-27 (alpha)
+
+### Fix CI flakiness: smoke test now retries CDN timeouts
+
+- The download smoke test failed intermittently when the Modrinth CDN timed
+  out (a transient network issue, not a broken mod). It now retries 4x with
+  backoff and a 30s timeout, so only real HTTP errors fail the build. Same
+  pack content as 2.0.5/2.0.6.
+
 ## [2.0.6] - 2026-07-27 (alpha)
 
 ### Fix CurseForge build: allowlist 3 more Modrinth-only override mods
