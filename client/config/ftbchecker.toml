@@ -20,9 +20,9 @@ backups = false
 # Format: "modId|Display Name|Download URL".
 [customMods]
 mods = [
-    "ftblibrary|FTB Library (2101.1.33)|https://www.curseforge.com/minecraft/mc-mods/ftb-library/files/8438216",
-    "ftbquests|FTB Quests (2101.1.27)|https://www.curseforge.com/minecraft/mc-mods/ftb-quests/files/8253474",
-    "ftbteams|FTB Teams (2101.1.10)|https://www.curseforge.com/minecraft/mc-mods/ftb-teams/files/7878281",
-    "ftbessentials|FTB Essentials (2101.1.10)|https://www.curseforge.com/minecraft/mc-mods/ftb-essentials/files/8442866",
-    "cobblemon_quests|Cobblemon Quests Reloaded (1.3.5)|https://modrinth.com/mod/cobblemon-quest-reloaded/version/iGSukRPM",
+    "ftblibrary|FTB Library (2101.1.34)|https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/download/8519365",
+    "ftbquests|FTB Quests (2101.1.28)|https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/download/8520042",
+    "ftbteams|FTB Teams (2101.1.10)|https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/download/7878281",
+    "ftbessentials|FTB Essentials (2101.1.10)|https://www.curseforge.com/minecraft/mc-mods/ftb-essentials-forge/download/8442866",
+    "cobblemon_quests|Cobblemon Quests Reloaded (1.3.5)|https://www.curseforge.com/minecraft/mc-mods/cobblemon-quest-reloaded/download/7849696",
 ]

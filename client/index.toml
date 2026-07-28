@@ -206,7 +206,7 @@ hash = "9d517b6ccdb67af77d8ad79b0463d27311f169e7cda7e44dee071f36d8b1e148"
 
 [[files]]
 file = "config/ftbchecker.toml"
-hash = "813e8566fd074dfa14091f95b74f7853fc7788b711f4e5422a1cf061a9bdf2fe"
+hash = "75b7b1d32f8474d3567c0096c90008f4dceaafd45f7e5a9e4f3fc7b567ebb24a"
 
 [[files]]
 file = "config/gravestone-server.toml"
