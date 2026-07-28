@@ -4,6 +4,19 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.9] - 2026-07-27 (alpha)
+
+### Correct FTB download links + 10 GB RAM notice
+
+- FTBChecker links now use the correct -forge CurseForge slugs and the
+  /download/<id> format, all five tested and working (FTB Library 2101.1.34,
+  FTB Quests 2101.1.28, FTB Teams 2101.1.10, FTB Essentials 2101.1.10,
+  Cobblemon Quests Reloaded 1.3.5).
+- Modrinth description now states the pack needs at least 10 GB of RAM.
+- Consolidates everything from the 2.0.x alpha iterations (full season-2
+  datapack: Steamon League, legendary rework, Create loot, Ghast Tears,
+  enchant unlock, structure density, crash fixes) into a single clean build.
+
 ## [2.0.4] - 2026-07-27 (alpha)
 
 ### FTBChecker: direct version-pinned links + Ghast Tear Create recipes
