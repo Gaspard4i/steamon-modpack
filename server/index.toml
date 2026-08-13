@@ -265,10 +265,6 @@ file = "config/incontrol/spawn.json"
 hash = "2ec62fcec7582a102ed22e5ecfbc6489cc25332071e31d9d4ee6b37f7b7fa9d8"
 
 [[files]]
-file = "config/item_obliterator.json5"
-hash = "c2d276b4c7e077de505e608950dacf377474eea86377d93bbcda0273d5006e09"
-
-[[files]]
 file = "config/letmedespawn.json"
 hash = "481591b23de6ff60c406a450488b4b6e6d7b76f4251b0dcab2566c3a8b5afdf1"
 
@@ -435,6 +431,10 @@ hash = "22e86b77faa71556fc89be8b538cacb9d82cdcd110338ab75c10398777369d5d"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "3d10420414fc82871c355988cabd7577df6bf7efd5f4e6f4393ee723d2c6471b"
+
+[[files]]
+file = "kubejs/server_scripts/disable_recipes.js"
+hash = "60a4957db3f6be73099ef7310a0f1110773cefc239946caf4718d03558ecf1e2"
 
 [[files]]
 file = "kubejs/server_scripts/steamon_badge_equip.js"
@@ -693,8 +693,8 @@ hash = "266a6c2186b0cfeb68e71db89a1b1c813168693102376e407f61b95b9aef320a"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-utility+.pw.toml"
-hash = "35baa60916121091494fff944843ca2a3881ad3fbe911ac8fed9bf1bc65ff83d"
+file = "mods/cobblemon-utility-ivs-evs-more-no-recipes.pw.toml"
+hash = "e33cecf01d68755bee0476f63fc4796c0881ee35a8aad05be61452c01a2d1689"
 metafile = true
 
 [[files]]
@@ -1065,11 +1065,6 @@ metafile = true
 [[files]]
 file = "mods/in-control.pw.toml"
 hash = "6402d23ba23b18fc4c3531ba03f8d044bea2f4521e1504216efc73a4d08461ce"
-metafile = true
-
-[[files]]
-file = "mods/item-obliterator.pw.toml"
-hash = "256fab66e85e9947aa2cad572fb5fb1d94086306ac328dba43be064f495034dc"
 metafile = true
 
 [[files]]
