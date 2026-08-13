@@ -426,33 +426,149 @@
       ]
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 1
-      },
+      "rolls": 1,
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "cobblemon_utility:goldencap",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:atkobsidiancap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:spatkobsidiancap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:defobsidiancap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:spdefobsidiancap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:speedobsidiancap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:hpobsidiancap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:atkvoidcap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:spatkvoidcap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:defvoidcap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:spdefvoidcap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:speedvoidcap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:hpvoidcap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningatksilvercap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningspatksilvercap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningdefsilvercap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningspdefsilvercap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shiningspeedsilvercap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:shininghpsilvercap",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:mastercandy",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:transmutationorb",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:devolutionrelic",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:ridersrelic",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:voidfeather",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:cobblemax",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:cobblemin",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon_utility:ballsynchronizer",
+          "weight": 3
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 1e-05
+          "chance": 0.05
         }
       ]
     },

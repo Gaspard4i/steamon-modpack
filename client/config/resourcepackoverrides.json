@@ -2,6 +2,7 @@
   "schema_version": "2",
   "failed_reloads_per_session": 5,
   "default_packs": [
+    "file/steamon-trainers",
     "file/Gazai-Utility-RP-1.0.1.zip",
     "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
     "file/RCT Trainer Animation_0.2.1beta.zip",
@@ -14,7 +15,7 @@
     "file/CreateSophBackpacks.zip",
     "file/Comforts Modernized - V1.1.zip",
     "file/Simple Grass Flowers v1.9.6.zip",
-    "file/LowOnFire v26.2§8.zip",
+    "file/LowOnFire v26.2\u00a78.zip",
     "file/Low Shield.zip",
     "file/ATM x MSD [v3.6.1].zip"
   ],

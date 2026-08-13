@@ -827,21 +827,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "create:creative_blaze_cake",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "create:crushed_raw_copper",
           "weight": 1,
           "functions": [
