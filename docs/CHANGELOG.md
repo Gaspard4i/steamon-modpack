@@ -4,11 +4,16 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
-## [Unreleased]
+## [1.2.1] - Unreleased
 
 ### Added
 - **Cultural Delights** — Farmer's Delight expansion adding regional dishes and
   cooking ingredients (client + server).
+
+### Removed
+- **Carry On config dropped** (`config/carryon-common.toml`, client + server).
+  The pack no longer ships a custom Carry On configuration — the mod falls back
+  to its own defaults.
 
 ## [1.2.0] - 2026-06-04
 

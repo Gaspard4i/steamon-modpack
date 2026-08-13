@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/carryon-common.toml"
-hash = "8b642784318a655e8d75c39021d74b6e620b06e146e7698d600d3f94153a2e33"
-
-[[files]]
 file = "config/cobblemon/main.json"
 hash = "79eb88fd1d4c784a5c8caf78cc996a60612ac121eb655518652eff13d5de33f1"
 
