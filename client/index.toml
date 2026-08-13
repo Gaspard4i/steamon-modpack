@@ -126,7 +126,7 @@ hash = "fcb8d3ebf0f78c841b1b6e8981ae155de102fa8c05aa4867cae9ea99c507edc9"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "dba61a7333c2725ffe3b4111d12ddecf142d593633a8665b1cc7c1a0d7595885"
+hash = "4a7dddc78dc54797382d6e83022c56fe73c967e5324fc93729ecc1bfb998ea70"
 
 [[files]]
 file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
@@ -206,7 +206,7 @@ hash = "9d517b6ccdb67af77d8ad79b0463d27311f169e7cda7e44dee071f36d8b1e148"
 
 [[files]]
 file = "config/ftbchecker.toml"
-hash = "75b7b1d32f8474d3567c0096c90008f4dceaafd45f7e5a9e4f3fc7b567ebb24a"
+hash = "1001528165e436c0454000b675e63a8c7359cddbe8277b0b192aeffc604b4daa"
 
 [[files]]
 file = "config/gravestone-server.toml"
@@ -261,16 +261,24 @@ file = "config/relics.yaml"
 hash = "e8484e4ae68716569c8428d82325c08f87a2e0daff38def75af8d3585cf61ad3"
 
 [[files]]
+file = "config/relics/midnight_mantle.yaml"
+hash = "2eadf5e226beba9450456ea6eda8a109332872b23b5423834a90cb41065fdcb1"
+
+[[files]]
 file = "config/reliquified_artifacts/relics/eternal_steak.yaml"
-hash = "403770530c9327f2c4a79d71132ed10cbf0e44ee064395a1f2ad4a00dc5a35ae"
+hash = "0b88cdb6986fb20d6bdd9a30be7979073c1a376dc50e8de1cc18d5b96212d9b5"
 
 [[files]]
 file = "config/reliquified_artifacts/relics/everlasting_beef.yaml"
-hash = "94624c3276d85a7b3714b2345b119ea68918ad06556c465a66022bd2488ea3ae"
+hash = "25074a812e04a5dbce43b3bcf05ba2dc0aba7d6f16e06bb3af701460524aeff0"
+
+[[files]]
+file = "config/reliquified_artifacts/relics/scarf_of_invisibility.yaml"
+hash = "2eadf5e226beba9450456ea6eda8a109332872b23b5423834a90cb41065fdcb1"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "b462193fb5d025a50653e14418a3672a21d3a38ea9922ca134ce21f3b020839e"
+hash = "cbc875bae08de40281ab899f182575c0fa36e871ae788c30546f98e2bd0d252c"
 
 [[files]]
 file = "config/simplebackups-common.toml"
@@ -368,6 +376,11 @@ hash = "0259a357dcf61f32358ae69426104492eb903efd14318819e645f1f7365742b9"
 metafile = true
 
 [[files]]
+file = "mods/ae2.pw.toml"
+hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
@@ -450,6 +463,11 @@ metafile = true
 [[files]]
 file = "mods/berryharvester.pw.toml"
 hash = "cd8450115156e357c9eccaabda05cc83f23780e88be02c810762ec5fc015050a"
+metafile = true
+
+[[files]]
+file = "mods/better-third-person.pw.toml"
+hash = "e1f1588b18947699ddc9b4f7c5b5406c5559155b8cb52dcd0f203c07c31cd0b8"
 metafile = true
 
 [[files]]
@@ -708,6 +726,11 @@ hash = "ba0b3dd9c3c1089c7d22f7394c4d3b1de5d67dbccb2c2a2e6a264f2e20619684"
 metafile = true
 
 [[files]]
+file = "mods/create-ae2-recipes.pw.toml"
+hash = "9ed42a12c86c8cc153625d690bc475d0e7f9ab341667dc8aa401d0e68881a1d4"
+metafile = true
+
+[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "125fa69ac8e6e85c9d27a0ec13e575c09312c6e5fd2f97613fbcc85a19775a13"
 metafile = true
@@ -824,7 +847,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
 
 [[files]]
@@ -1000,6 +1023,11 @@ metafile = true
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
 hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "9163b1128300a4a9e8a021276fb16544d7e0e7e85f776dc3f59c1a54ec22e598"
 metafile = true
 
 [[files]]
@@ -1243,6 +1271,11 @@ hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
 metafile = true
 
 [[files]]
+file = "mods/parcool.pw.toml"
+hash = "c1bb2b2c278638945373172f712d504441c4b4a97dc3ad4a76dc5f8a36e4c868"
+metafile = true
+
+[[files]]
 file = "mods/particle-core.pw.toml"
 hash = "7333c29c224d843384e26b2c7d9af1d31dada870d776fb1ad8f3d8c3040b313d"
 metafile = true
@@ -1355,11 +1388,6 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "c150b2a60128cad4bd32ea0d3106502241ad234f1ad355ad3b98d0ac82324589"
-metafile = true
-
-[[files]]
-file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "caa98db1cf41144698fa8d075d574d30a62c973dc0ce5be37e9251c4b1b90f0f"
 metafile = true
 
 [[files]]
@@ -1705,11 +1733,11 @@ hash = "b78f32cfcdd2c56713876e542e22ea149074b4a55cd5806d70dc38c32263c36c"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/betterdungeons/loot_table/skeleton_dungeon/chests/common.json"
-hash = "3b161991d5d8216158a5bbae8c9480bffd5a2be227e5f2709fc56ac2cc6d0ed7"
+hash = "426b430ba6b25a302a3382c8d9454fef77e19bf3ec0242eb6209a484c6b8590d"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/betterdungeons/loot_table/skeleton_dungeon/chests/middle.json"
-hash = "8129501629f1d5e32fa3ce062ea55717bc3558a9cec3c07d2e97830c36169fbf"
+hash = "390fec17f9d068049798f34cb3c56fc7641ffb5e64aeb7ae3b1856ef7f83642e"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/betterdungeons/loot_table/small_dungeon/chests/loot_piles.json"
@@ -2773,59 +2801,59 @@ hash = "eb3865823bbace3eab0bc78dcab031c3cb26dcc1fb319f7d847df9c41efafbd8"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/core/basic_loot.json"
-hash = "add806c4c90b55f4d9aa5f26299f79ed2089679183b55e4e1a84be9a05d5bcd2"
+hash = "56b29811a3b47d6216df5b58923945829ade9ac86d972f2ab992f37da0e7e4ab"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/core/legend_loot.json"
-hash = "0673422f6490c27a7789ce1d040b0b7c51f09225278619e59b8fc52f479791bf"
+hash = "dae12278f2907cab8e102bc8910a40e47b107428ffc7335519c6850554594eb4"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/core/rare_loot.json"
-hash = "5ef7cc5894c158eec8d0057118f3515554466c314f3982573d9a56692c2ad255"
+hash = "ac1a828a509ba23c48d6bfd64b85008e7e75dd882c038ed417e34a83766844e8"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/desert/basic_loot.json"
-hash = "a6a95094cbcbb27465742c86053a2e66e1b2a41ddfb81b2242f6c4a442fac208"
+hash = "167b3a9a49b37dc233f09ae8eccca6b4995ea1b0e7ce56050052d2be011ffdb2"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/nether/basic_loot.json"
-hash = "261bb4b7f8fc34f0c20e290c19752102ee7930b027bea7a6560f0bc507eab94b"
+hash = "8c3fda3ead17332aaeed619f2fe9e6ddb3e25990e96a27ae6fbf6ef22f27bef1"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/basic2_loot.json"
-hash = "436dc3ecb85ffca867fc3539ce43e9330f0736c9f736200b4d318e5ae0823ac7"
+hash = "8bdd7734ea4c7e727195396225e4d5063a9ff9461a00b0c43491ccbd9b902565"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/basic3_loot.json"
-hash = "186e8e0de7fd61fc4bf2c9dcf0a125797efbcfdb9f12c88cb5536c6d420d28ad"
+hash = "02c409601350b4c6272f07048495c4713241d2298c24f0ef3c3de08d955d032c"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/basic4_loot.json"
-hash = "19e0b4b84e7d5497f1a1cf67e14a2917d3cbcd862d2ed8dd17e4603b67d9566a"
+hash = "3c6f8dc3cab71dffaf05cd5bdfec4fb1574f0211f889bdae404deb5edc482e41"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/basic_loot.json"
-hash = "a47746e6518fe806fc9d1f233d7bc3b7b1a4465495f36e666037335304898ea5"
+hash = "fb61b412552b0e43a70ae8e3b2de114eb3ce4df922b50727e96052cbc5f02a66"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/legend_loot.json"
-hash = "316fb1c1af48323581ec1f3f5279ccb3aadc0c2f97c72a2d474d9450ac7a3d50"
+hash = "fb7a380df915e9b3b8f223df4deb990d5214eafae9ec71f21c137baaf6d9c9f8"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/rare_loot.json"
-hash = "38a4e8fbe43694b18ebe741d1757bf346d2a0896bc3c97c9289432f2190b2afb"
+hash = "4948a1ea67d0499b0c4ef280f341ccc6cf54755307e2f4295e8c9bd7ea9ecd2c"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/normal/trash_loot.json"
-hash = "bd79fd3a5c3eade50c1374032024b6e89cce9eb76c136f12f0b89d1a554c755b"
+hash = "11d323a818b8c64994f3ad1dca9797d81b022a69298f27814540f4327b946a68"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/snow/basic_loot.json"
-hash = "d26080a281b0a2dbf553fc64ba7b3213a9a01fb3dea8d1b55dcb8a1a468e5f57"
+hash = "26fbb5ead91bb1a9a2fb26a109456cf207a55102a7dab508fe377f0414e33df9"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/loot_table/water/basic_loot.json"
-hash = "ea001a90485f2fdbb98acf55e25821519a75a017263a629bb5bf05b0b84b4291"
+hash = "86f21008cd90cedb39c8988b7afcaaa259974f86d812480fc7d14b8693efc386"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ltab/structures/testlww.nbt"
@@ -3709,7 +3737,7 @@ hash = "dca09234dbfd3a0915fc49cf47d02f142440fd383a9db32b03de1a2bd4b8c498"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/general.json"
-hash = "e08f6697007cfea877882b243fd48d4434aa16703c2758f9bb0ad20e6c4ff72c"
+hash = "0763fd36d375b89a6a07f1bd689e36ecb863f7737d68b547fbf4d14f03a67038"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_books.json"
@@ -3721,7 +3749,7 @@ hash = "5b1488dce4d962f98440163422fca6860933453c818d5d39f8ec90001a92e3d6"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_common.json"
-hash = "38c7fd4fa6af657a48155d916f54e41742b3d127c7528d2a13fe53e69a04b5d9"
+hash = "93a8c9f59a2b8b3aa9638c090ffb0fb5b4031b4e22ed4b7ab4c5566e2c4cb62e"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_desert.json"
@@ -3737,7 +3765,7 @@ hash = "9a717dcf290c855af84774511e1b88c204eb13d54bc5eb71fd9d895d4217c82c"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/houses_uncommon.json"
-hash = "6280410c484ae286420e87cfcd1df70f1ae35d8641de8cd8fc73d38afeb23e04"
+hash = "dd73a3d9a8077c8e831ccf8731e8e63d6e27d27e801e6f4a0f00d2811475e414"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/jungle_tower.json"
@@ -3765,15 +3793,15 @@ hash = "d63774f59cc77de5085a14dee8fd565607828b63a92ce8e74b032dd292ab5acb"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/rare.json"
-hash = "6ee4804fc67b9d2acfa19ec3ac016c0720da3a9fb9612b5a73dabea727372d47"
+hash = "7c9059213cdb8c8aa84edddf905a9d90ed30275d3f0bfbac1b6a70bf0c7d571b"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/stable.json"
-hash = "80ecf618b505d1820f3310d72f3d29da61499280204067f4385632e18d92b6ba"
+hash = "f049d332ae37eefc74e03ab7ea28f7c86635444fd0b3cdee96582a23aa48cb33"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mvs/loot_table/swamps.json"
-hash = "c5c7fb9290ece723caa776420a805c8a05b8d330ecd9bbcf7e6cf9de371b63de"
+hash = "3d234a2fbda767ee0f12fcf4fc30825cfe7c836b81d898cc02894aeecb94e6a5"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/mynethersdelight/loot_table/chests/mnd_bastion_hoglin_stable.json"
@@ -4983,6 +5011,11 @@ hash = "385d74d9bbe10278d86d09f4cc4bfe206da1d91bf53744260bba37d8cd8a20c8"
 metafile = true
 
 [[files]]
+file = "resourcepacks/create-energistics.pw.toml"
+hash = "efdabbe479082038ff594282e61a11f247192e82acd18abd0927a7df3f4fd554"
+metafile = true
+
+[[files]]
 file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
 hash = "4a1765568ea97948d6e8a1871896bff7e980c1b63593866b4cdb330152b713d3"
 metafile = true
@@ -5036,6 +5069,66 @@ metafile = true
 file = "resourcepacks/steamon-cobblemon-utility-plus.pw.toml"
 hash = "302c21deba4b24314d99ced7570c08b9c5fde1867935fe5a8cfcda59a4ac2245"
 metafile = true
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_champion_gazai.png"
+hash = "dab3b2d27799db78f0775da2f32eef8a635dcf119e9b3c91b6054fc297632243"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_e4_1_pai.png"
+hash = "046d39b2f9b0b7f98b3fba8d409e8286629d54e3d4614b3762c20fb5844dc623"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_e4_2_gaz.png"
+hash = "dc69bff848f795768ece5a3f4287bbadbda325c57de11d37a9a64add458059a3"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_e4_3_tama.png"
+hash = "3577b1fbb9830c5679ed6d84342a0726ac0f45555657ae79ccbc445f0b81e94b"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_e4_4_bee.png"
+hash = "38b9b1686e9fcb6db87ab4dc98df0a7578ecf3ada7bd84d2cba7ff44c3f63874"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym1_gaz.png"
+hash = "dc69bff848f795768ece5a3f4287bbadbda325c57de11d37a9a64add458059a3"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym2_tama.png"
+hash = "3577b1fbb9830c5679ed6d84342a0726ac0f45555657ae79ccbc445f0b81e94b"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym3_miguel.png"
+hash = "17f5cc9a3f02b5ab9ff53b02e968fa15f9bfd10388c9835d4c4bc9a300c1d1bc"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym4_tee.png"
+hash = "59e1e2b82bd30dc2fbbcb0c3dfef36fae54d96c146eba22ea264eb32b5da8002"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym5_tom.png"
+hash = "0950eaea1bc1036b4c20b662caa1d0bcf651bf59afc124af36f1553c280673f2"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym6_drhuman.png"
+hash = "5644e65ad20fa1383c0ac42181d72a977d119a84265a2b3e6e92a7dff49eb91a"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym7_blade.png"
+hash = "a3a4d87e696a0ef38e24370e403323a8902f4d2b33cd5c09e76fa82ce76a3fba"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym8_hex.png"
+hash = "88f57ce49c28725e9fbbe1c25ebf0a5aa6ac4bc4b560980d36cbbc4eb7cf4b9a"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/pack.mcmeta"
+hash = "9e18e2e282cd163994b1a80d565c061060c24c030f5f812613a8fee0da901736"
+
+[[files]]
+file = "resourcepacks/steamon-trainers/pack.png"
+hash = "dab3b2d27799db78f0775da2f32eef8a635dcf119e9b3c91b6054fc297632243"
 
 [[files]]
 file = "resourcepacks/tras-fresh-player.pw.toml"
