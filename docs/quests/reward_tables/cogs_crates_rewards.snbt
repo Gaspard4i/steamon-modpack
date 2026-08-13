@@ -1,101 +1,66 @@
 {
+	exclude_from_claim_all: true
 	icon: {
-		id: "create:precision_mechanism"
+		id: "create:andesite_alloy"
 	}
-	id: "20AABBCC00000001"
+	id: "4967800000000001"
 	loot_size: 1
 	order_index: 15
 	rewards: [
 		{
-			id: "65FA156BC70A5996"
-			item: {
-				count: 1
-				id: "numismatics:spur"
-			}
-			weight: 40.0f
+			count: 16
+			id: "CE40000000000001"
+			item: { count: 1, id: "create:andesite_alloy" }
+			weight: 35.0f
 		}
 		{
 			count: 8
-			id: "67A35E015BBB711C"
-			item: {
-				count: 1
-				id: "create:andesite_alloy"
-			}
-			weight: 30.0f
+			id: "CE40000000000002"
+			item: { count: 1, id: "create:andesite_alloy" }
+			weight: 25.0f
+		}
+		{
+			id: "CE40000000000003"
+			item: { count: 1, id: "minecraft:iron_block" }
+			weight: 20.0f
 		}
 		{
 			count: 4
-			id: "47F832C3D63480C3"
-			item: {
-				count: 1
-				id: "create:brass_ingot"
-			}
-			weight: 30.0f
-		}
-		{
-			id: "7F091A5802A37AEC"
-			item: {
-				count: 1
-				id: "create:cogwheel"
-			}
-			weight: 30.0f
-		}
-		{
-			id: "0DC03920504D7D66"
-			item: {
-				count: 1
-				id: "create:large_cogwheel"
-			}
+			id: "CE40000000000004"
+			item: { count: 1, id: "create:copper_sheet" }
 			weight: 20.0f
 		}
 		{
-			id: "0E2FD830E0C69411"
-			item: {
-				count: 1
-				id: "create:wrench"
-			}
-			weight: 20.0f
+			id: "CE40000000000005"
+			item: { count: 1, id: "minecraft:copper_block" }
+			weight: 18.0f
 		}
 		{
-			id: "443EF7A1711EA475"
-			item: {
-				count: 1
-				id: "create:goggles"
-			}
+			id: "CE40000000000006"
+			item: { count: 1, id: "create:cogwheel" }
+			weight: 15.0f
+		}
+		{
+			id: "CE40000000000007"
+			item: { count: 1, id: "create:large_cogwheel" }
+			weight: 12.0f
+		}
+		{
+			id: "CE40000000000008"
+			type: "xp"
+			xp: 100
 			weight: 15.0f
 		}
 		{
 			count: 4
-			id: "1B698E9FD4EEE39E"
-			item: {
-				count: 1
-				id: "create:crushed_raw_zinc"
-			}
-			weight: 12.0f
-		}
-		{
-			id: "4D4511C3C0DEAD66"
-			item: {
-				count: 1
-				id: "numismatics:bevel"
-			}
+			id: "CE40000000000009"
+			item: { count: 1, id: "numismatics:spur" }
 			weight: 10.0f
 		}
 		{
-			id: "55C724081506176C"
-			item: {
-				count: 1
-				id: "create:precision_mechanism"
-			}
-			weight: 8.0f
-		}
-		{
-			id: "75671FDF8665C2BF"
-			item: {
-				count: 1
-				id: "create:wand_of_symmetry"
-			}
-			weight: 3.0f
+			id: "CE4000000000000A"
+			item: { count: 1, id: "minecraft:diamond" }
+			weight: 4.0f
 		}
 	]
 	use_title: true

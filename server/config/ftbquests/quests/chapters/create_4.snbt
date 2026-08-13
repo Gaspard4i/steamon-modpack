@@ -1,22 +1,22 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "square"
+	default_quest_shape: "hexagon"
 	filename: "create_4"
 	group: "348AE7020234F2D4"
 	icon: {
-		id: "create:precision_mechanism"
+		id: "create:track_station"
 	}
 	id: "320A946A705510B3"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["10FC1EB90F757C1B"]
-			id: "2000000000000D01"
+			id: "212068CDC4844341"
 			rewards: [
 				{
 					count: 3
-					id: "20000000000D0001"
+					id: "21B3F0404B49563F"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -24,26 +24,272 @@
 					type: "item"
 				}
 				{
-					id: "20000000000D0002"
+					id: "200476802D509CEC"
 					type: "xp"
 					xp: 20
 				}
 			]
-			shape: "diamond"
-			size: 1.2d
+			shape: "gear"
+			size: 2.5d
 			tasks: [{
-				id: "20000000000D0003"
+				id: "208EDA1F7C712EDF"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -6.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["2000000000000D01"]
-			id: "20A4F79E5ACF677F"
+			dependencies: ["212068CDC4844341"]
+			id: "211D6BE7E4510D77"
 			rewards: [
 				{
-					id: "207E2F4A130DFBE8"
+					count: 2
+					id: "216A224992284CA4"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "203AB4EE8FB4C613"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				id: "20D06FF273CABE42"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["211D6BE7E4510D77"]
+			id: "2153FF31C75B2388"
+			rewards: [
+				{
+					id: "21C6029045B338DB"
+					item: {
+						count: 1
+						id: "railways:semaphore"
+					}
+					type: "item"
+				}
+				{
+					id: "200874720737D2FB"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "202D8D0FCA6A1861"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+				{
+					id: "217820E90A80C15F"
+					item: { count: 1, id: "create:railway_casing" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2153FF31C75B2388"]
+			id: "20BB261D93BD450F"
+			rewards: [
+				{
+					count: 8
+					id: "216CF279A0BB1043"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					id: "20A8DA88428F3263"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "21A52A19F5D3D776"
+				item: { count: 1, id: "create:schedule" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["20BB261D93BD450F"]
+			id: "20CFB6821978F660"
+			rewards: [
+				{
+					id: "21AB20B9DC26F99F"
+					item: {
+						count: 1
+						id: "railways:handcar"
+					}
+					type: "item"
+				}
+				{
+					id: "20A447157D9233A9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "21FF41E4E21D3829"
+				item: { count: 1, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["20CFB6821978F660"]
+			id: "20716E011753F0B8"
+			optional: true
+			rewards: [
+				{
+					id: "211A5155A9E9B2D8"
+					item: {
+						count: 1
+						id: "railways:remote_lens"
+					}
+					type: "item"
+				}
+				{
+					id: "2010F115CEA86A25"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "21683F954753E4ED"
+				item: { count: 1, id: "railways:conductor_whistle" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["212068CDC4844341"]
+			id: "20421F7525DCD444"
+			rewards: [
+				{
+					id: "219C787FC7F09223"
+					item: {
+						count: 1
+						id: "create_vibrant_vaults:white_stock_link"
+					}
+					type: "item"
+				}
+				{
+					id: "2050F0253BA08C5F"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "214F3F47F1EFEC74"
+				item: { count: 1, id: "create_vibrant_vaults:vertical_item_vault" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20421F7525DCD444"]
+			id: "20AB89B70AF263E2"
+			rewards: [
+				{
+					id: "214DF5B8F41028FD"
+					item: {
+						count: 1
+						id: "create_vibrant_vaults:white_redstone_requester"
+					}
+					type: "item"
+				}
+				{
+					id: "2063EB1E77C5B49D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "21280B78358DA5BA"
+					item: { count: 1, id: "create_vibrant_vaults:shipping_container" }
+					type: "item"
+				}
+				{
+					id: "208050E62E9D8AAE"
+					item: { count: 1, id: "create_vibrant_vaults:white_packager" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20AB89B70AF263E2"]
+			id: "21F2F8F25B1BA588"
+			optional: true
+			rewards: [
+				{
+					id: "214BDE97B8FFFBE2"
+					item: {
+						count: 1
+						id: "create_connected:brass_chute"
+					}
+					type: "item"
+				}
+				{
+					id: "2058BEED6B729BCD"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "20630CBC55E2852C"
+				item: { count: 1, id: "create_connected:sequenced_pulse_generator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["21F2F8F25B1BA588"]
+			id: "21D9808509537439"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "21EE82049989CFD0"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -51,160 +297,98 @@
 					type: "item"
 				}
 				{
-					id: "20CA28D9DD2A4E9F"
+					id: "2046F388EF739838"
 					type: "xp"
-					xp: 150
+					xp: 50
 				}
 			]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "20FE0F9E4E3300F5"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["212068CDC4844341"]
+			id: "21AD64735C54E189"
+			optional: true
+			rewards: [
+				{
+					id: "214F6F9A85B1D34D"
+					item: {
+						count: 1
+						id: "createnuclear:steel_block"
+					}
+					type: "item"
+				}
+				{
+					id: "208628EBBF38C37A"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "gear"
+			size: 1.0d
 			tasks: [{
 				count: 8L
-				id: "208A267C706BCDB6"
+				id: "20F495BA65503E45"
 				item: { count: 1, id: "createnuclear:steel_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["20A4F79E5ACF677F"]
-			id: "2065E15A157AB684"
+			dependencies: ["21AD64735C54E189"]
+			dependency_requirement: "one_completed"
+			id: "219524A14AA49B8B"
+			optional: true
 			rewards: [
 				{
 					count: 4
-					id: "20B6D142475A867A"
+					id: "215FDDD188C83C62"
 					item: {
 						count: 1
-						id: "createnuclear:raw_uranium"
+						id: "createnuclear:lead_ingot"
 					}
 					type: "item"
 				}
 				{
-					id: "2004742A0610D347"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20F05A762B6103F4"
+					id: "20427BB2DAEFBEB5"
 					type: "xp"
 					xp: 150
 				}
 			]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "gear"
+			size: 1.0d
 			tasks: [
 				{
 					count: 4L
-					id: "20B83E21F6BCA0AE"
+					id: "2066B44C4271618A"
 					item: { count: 1, id: "createnuclear:raw_uranium" }
 					type: "item"
 				}
 				{
 					count: 2L
-					id: "206EC281226C181C"
+					id: "21AC65D5D00E486D"
 					item: { count: 1, id: "createnuclear:yellowcake" }
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["2065E15A157AB684"]
-			id: "204115B912BAFEEF"
-			rewards: [
-				{
-					id: "20A9BEAD1BEEA9E9"
-					item: {
-						count: 1
-						id: "createnuclear:reactor_controller"
-					}
-					type: "item"
-				}
-				{
-					id: "20BE59393E9AA99B"
-					item: {
-						count: 1
-						id: "createnuclear:reactor_core"
-					}
-					type: "item"
-				}
-				{
-					id: "20B300FCF96688D1"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20B2B419C1BA014D"
-					type: "xp"
-					xp: 300
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [
-				{
-					id: "2024841DBF75AA0A"
-					item: { count: 1, id: "createnuclear:reactor_controller" }
-					type: "item"
-				}
-				{
-					id: "20ED0D5D6054A940"
-					item: { count: 1, id: "createnuclear:reactor_core" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["20A4F79E5ACF677F"]
-			id: "20E148ACB00080FA"
+			dependencies: ["219524A14AA49B8B"]
+			id: "200C58CB09E67968"
 			optional: true
 			rewards: [
 				{
-					id: "20E171B949117A10"
-					item: {
-						count: 1
-						id: "createnuclear:white_anti_radiation_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "20021B35CCFA6B03"
-					type: "xp"
-					xp: 120
-				}
-			]
-			tasks: [{
-				id: "20329FBF7DD58403"
-				item: { count: 1, id: "createnuclear:white_anti_radiation_chestplate" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["20A4F79E5ACF677F"]
-			id: "202BE63206C547AC"
-			rewards: [
-				{
-					id: "20680BFA27F80B6D"
-					item: {
-						count: 1
-						id: "create_sa:copper_jetpack_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "2094B83F520544A9"
+					count: 2
+					id: "216B4503563B9B6E"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -212,177 +396,29 @@
 					type: "item"
 				}
 				{
-					id: "206E81BA4E2ACAC1"
+					id: "208DEEF37AAC2233"
 					type: "xp"
-					xp: 100
+					xp: 30
 				}
 			]
-			shape: "hexagon"
-			size: 1.5d
+			shape: "square"
+			size: 1.0d
 			tasks: [{
-				id: "2034B10CF3CB80A0"
-				item: { count: 1, id: "create_sa:copper_jetpack_chestplate" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["202BE63206C547AC"]
-			id: "20EE532E0003B22D"
-			optional: true
-			rewards: [
-				{
-					id: "20F317750E8175A9"
-					item: {
-						count: 1
-						id: "create_sa:netherite_jetpack_chestplate"
-					}
-					type: "item"
-				}
-				{
-					id: "203D63A778604389"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "2027487D08FEE6B5"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				id: "20686F952B2BE7CE"
-				item: { count: 1, id: "create_sa:netherite_jetpack_chestplate" }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["204115B912BAFEEF"]
-			id: "203EA3D6CDF9263E"
-			rewards: [
-				{
-					id: "2028397307FC159B"
-					item: {
-						count: 1
-						id: "create_dragons_plus:blaze_upgrade_smithing_template"
-					}
-					type: "item"
-				}
-				{
-					id: "2039AB1A0BCE771C"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					id: "20EFC7DEE7840C2A"
-					type: "xp"
-					xp: 250
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "2034930703BAA7A3"
-				item: { }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["20A4F79E5ACF677F"]
-			id: "20F48D09B2A69B4B"
-			rewards: [{
-				id: "2016473FF4C39E7E"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2040020EC3B80C2F"
-				item: { count: 1, id: "createnuclear:steel_ingot" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["20F48D09B2A69B4B"]
-			id: "207CE0E2845E57B1"
-			rewards: [{
-				count: 3
-				id: "20DE8B57D8A1E784"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2031A0475F431A86"
-				item: { count: 1, id: "createnuclear:steel_block" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["207CE0E2845E57B1"]
-			id: "20837F344C6CF688"
-			rewards: [{
-				count: 3
-				id: "20E6F088E021AF1F"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "208AEDB18F1146B4"
-				item: { count: 1, id: "createnuclear:raw_uranium" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["20837F344C6CF688"]
-			id: "20A92FE5E11A07D2"
-			rewards: [{
-				count: 3
-				id: "209F33CC05280EB7"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "20E7708261248E2C"
+				id: "21BBE7501E715819"
 				item: { count: 1, id: "createnuclear:reactor_casing" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 3.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["20F48D09B2A69B4B"]
-			id: "203841C110280ECA"
+			dependencies: ["200C58CB09E67968"]
+			id: "205B83E93301A030"
+			optional: true
 			rewards: [
 				{
-					id: "244D6D804BB87951"
+					count: 2
+					id: "21282438D07CCAEB"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -390,225 +426,249 @@
 					type: "item"
 				}
 				{
-					id: "3D49CE0B0CC87E26"
+					id: "20BB50D5BA28EE60"
 					type: "xp"
-					xp: 15
+					xp: 30
 				}
 			]
+			shape: "square"
+			size: 1.0d
 			tasks: [{
-				id: "20ACFA5376039B48"
+				id: "21FF5C48E26F352D"
 				item: { count: 1, id: "createnuclear:reinforced_glass" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["203841C110280ECA"]
-			id: "204B7949A09F0823"
-			rewards: [{
-				count: 3
-				id: "20C778DF27B47606"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			dependencies: ["205B83E93301A030"]
+			id: "2006D4AE6FFD274B"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2193387A6494A20A"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2077B74B9BD6BE77"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "square"
+			size: 1.0d
 			tasks: [{
-				id: "20F015142F1D9346"
+				id: "21D70A4FC0689C38"
 				item: { count: 1, id: "createnuclear:graphite_rod" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["204B7949A09F0823"]
-			id: "20BBDB522BA1A12E"
-			rewards: [{
-				count: 3
-				id: "20B23C370D3E897F"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+			dependencies: ["2006D4AE6FFD274B"]
+			id: "2005A84512DC2C78"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "21142EA53CB87CDF"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "20B78CAA0432FAA1"
-				item: { count: 1, id: "createaddition:electrum_ingot" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["20BBDB522BA1A12E"]
-			id: "208F1E9FE12EF993"
-			rewards: [{
-				count: 3
-				id: "2003A6664001F5ED"
-				item: {
-					count: 1
-					id: "numismatics:spur"
+				{
+					id: "20A889AC20C1697D"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+			]
+			shape: "square"
+			size: 1.0d
 			tasks: [{
-				id: "20438BD66E76AD9C"
+				id: "21711AE2C667C2F3"
 				item: { count: 1, id: "createnuclear:lead_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["20A4F79E5ACF677F"]
-			id: "20446249E22B29B0"
-			rewards: [
-				{
-					id: "20CB645D577867CB"
-					item: {
-						count: 1
-						id: "createendertransmission:energy_transmitter"
-					}
-					type: "item"
-				}
-				{
-					id: "204DC427B7C7AB1E"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20957B052FA79574"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "2097C822F8C10EAC"
-				item: { }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["20A4F79E5ACF677F"]
-			id: "206E8BE76893FB18"
-			optional: true
-			rewards: [
-				{
-					id: "20AD1BF75EE28FBF"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20BB749585A1ABA1"
-					type: "xp"
-					xp: 50
-				}
-			]
-			tasks: [{
-				count: 16L
-				id: "20DE01F079A81331"
-				item: { count: 1, id: "create:track" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["206E8BE76893FB18"]
-			id: "20C8F98628C8F832"
-			optional: true
-			rewards: [
-				{
-					id: "201E3765841C0D42"
-					item: {
-						count: 1
-						id: "create:track_station"
-					}
-					type: "item"
-				}
-				{
-					id: "20A55F9B47695A52"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20E5335EB4161332"
-					type: "xp"
-					xp: 80
-				}
-			]
-			tasks: [
-				{
-					id: "208543D53E556160"
-					item: { count: 1, id: "create:track_station" }
-					type: "item"
-				}
-				{
-					id: "20F7E14B0281E8D0"
-					item: { count: 1, id: "create:railway_casing" }
-					type: "item"
-				}
-			]
-			x: 4.0d
-			y: 8.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
-				"204115B912BAFEEF"
-				"202BE63206C547AC"
-				"203EA3D6CDF9263E"
-				"20A92FE5E11A07D2"
-				"208F1E9FE12EF993"
+				"219524A14AA49B8B"
+				"2005A84512DC2C78"
 			]
-			id: "20E7F625CC2F6BF3"
-			min_required_dependencies: 3
+			id: "20A321388A129773"
+			optional: true
 			rewards: [
 				{
-					id: "20352A817F43C827"
+					count: 6
+					id: "21F74F839E5E6AB3"
+					item: {
+						count: 1
+						id: "createnuclear:lead_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2083F2D58C820935"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			tasks: [
+				{
+					id: "21743F201666754A"
+					item: { count: 1, id: "createnuclear:reactor_core" }
+					type: "item"
+				}
+				{
+					id: "20549F217118EE59"
+					item: { count: 1, id: "createnuclear:reactor_controller" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["20A321388A129773"]
+			id: "21B6E74294D9919E"
+			optional: true
+			rewards: [
+				{
+					id: "21C2BAFB7C8563BB"
 					table_id: 2353900240102227972L
 					type: "random"
 				}
 				{
 					count: 2
-					id: "20129BD7B530C504"
+					id: "200BDDBB929DD90B"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "numismatics:sprocket"
 					}
 					type: "item"
 				}
 				{
-					id: "200C8F8676E24837"
+					id: "2148B677C855D04D"
 					type: "xp"
 					xp: 500
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 1.8d
 			tasks: [{
-				id: "2096E045E827BCD4"
+				id: "2072EEFA43B71F85"
 				item: { count: 1, id: "createnuclear:reactor_core" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["21AD64735C54E189"]
+			dependency_requirement: "one_completed"
+			id: "21577C5F53523680"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "20171449081E7A72"
+					item: {
+						count: 1
+						id: "createnuclear:lead_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "21E7B0A6602B2F88"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "200D4F1A91D7B3DB"
+					type: "xp"
+					xp: 120
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "20CBFE75E47BF99F"
+					item: { count: 1, id: "createnuclear:anti_radiation_boots" }
+					type: "item"
+				}
+				{
+					id: "21CA68EC97999D8E"
+					item: { count: 1, id: "createnuclear:white_anti_radiation_helmet" }
+					type: "item"
+				}
+				{
+					id: "2019B77D0189E1AE"
+					item: { count: 1, id: "createnuclear:white_anti_radiation_chestplate" }
+					type: "item"
+				}
+				{
+					id: "21A3A53D6AB8D6A9"
+					item: { count: 1, id: "createnuclear:white_anti_radiation_leggings" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"20CFB6821978F660"
+				"20AB89B70AF263E2"
+				"21B6E74294D9919E"
+			]
+			hide_dependency_lines: true
+			id: "20E7F625CC2F6BF3"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "2199D5F0101BFFEA"
+					table_id: 2353900240102227972L
+					type: "random"
+				}
+				{
+					id: "20D674AB40494902"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "21896EE3C8AD6B6C"
+					type: "xp"
+					xp: 600
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "206F9C857FC20BF5"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 13.0d
 		}
 	]
 }

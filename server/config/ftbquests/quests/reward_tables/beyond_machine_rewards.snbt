@@ -1,89 +1,81 @@
 {
 	icon: {
-		id: "create:precision_mechanism"
+		id: "create:track_station"
 	}
 	id: "20AABBCC00000004"
 	loot_size: 1
 	order_index: 18
 	rewards: [
 		{
-			id: "74BEAD996463D6F6"
+			count: 16
+			id: "2014CEA2060C6846"
+			item: {
+				count: 1
+				id: "create:track"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 2
+			id: "2153A75B47456CC3"
+			item: {
+				count: 1
+				id: "create:railway_casing"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "2088A4D094942EE6"
+			item: {
+				count: 1
+				id: "create_vibrant_vaults:vertical_item_vault"
+			}
+			weight: 12.0f
+		}
+		{
+			id: "21D25C7205662762"
+			item: {
+				count: 1
+				id: "createnuclear:steel_block"
+			}
+			weight: 12.0f
+		}
+		{
+			count: 4
+			id: "20147ACD472D408E"
+			item: {
+				count: 1
+				id: "createnuclear:graphite_rod"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "2101EB98BD29C868"
+			item: {
+				count: 1
+				id: "railways:conductor_whistle"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "208362A5CF37A8EF"
 			item: {
 				count: 1
 				id: "numismatics:sprocket"
 			}
-			weight: 40.0f
-		}
-		{
-			count: 8
-			id: "1272C6A720EC0806"
-			item: {
-				count: 1
-				id: "create:electron_tube"
-			}
-			weight: 25.0f
-		}
-		{
-			count: 4
-			id: "6B51E31917190B1B"
-			item: {
-				count: 1
-				id: "createaddition:electrum_ingot"
-			}
-			weight: 20.0f
-		}
-		{
-			count: 8
-			id: "3B52025AC8F7B356"
-			item: {
-				count: 1
-				id: "createaddition:copper_wire"
-			}
-			weight: 20.0f
-		}
-		{
-			id: "13BCFC20729B69F5"
-			item: {
-				count: 1
-				id: "createaddition:capacitor"
-			}
-			weight: 12.0f
-		}
-		{
-			id: "538E3DC744140641"
-			item: {
-				count: 1
-				id: "createaddition:electric_motor"
-			}
 			weight: 10.0f
 		}
 		{
-			count: 2
-			id: "3D45BFC7FD2B45F7"
-			item: {
-				count: 1
-				id: "create:precision_mechanism"
-			}
-			weight: 12.0f
-		}
-		{
-			id: "62B2F2452F85541C"
+			id: "21F368273C59C7AB"
 			item: {
 				count: 1
 				id: "numismatics:cog"
 			}
-			weight: 10.0f
+			weight: 5.0f
 		}
 		{
-			id: "594C2CAE689E80F2"
-			item: {
-				count: 1
-				id: "createaddition:electrum_amulet"
-			}
-			weight: 4.0f
-		}
-		{
-			id: "2C9CA5D86DF1B3B7"
+			id: "206C6E3CF6219566"
 			item: {
 				count: 1
 				id: "numismatics:crown"

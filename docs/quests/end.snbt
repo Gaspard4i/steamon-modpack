@@ -7,11 +7,11 @@
 		id: "minecraft:end_stone"
 	}
 	id: "2139644C7994A01B"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["105FB4F860A68106"]
 			id: "4000000000000B01"
 			rewards: [
 				{
@@ -90,6 +90,8 @@
 					xp: 200
 				}
 			]
+			shape: "square"
+			size: 1.0d
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "40FD34C520A3CD10"
@@ -125,6 +127,8 @@
 					xp: 400
 				}
 			]
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
 				advancement: "minecraft:end/kill_dragon"
 				criterion: ""
@@ -139,11 +143,11 @@
 			id: "405357394611F7F4"
 			rewards: [
 				{
-					count: 16
-					id: "408662979448C049"
+					count: 8
+					id: "40862979448C0491"
 					item: {
 						count: 1
-						id: "minecraft:chorus_fruit"
+						id: "minecraft:ender_pearl"
 					}
 					type: "item"
 				}
@@ -153,17 +157,48 @@
 					xp: 250
 				}
 			]
+			shape: "octagon"
+			size: 1.0d
 			tasks: [{
-				count: 2L
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
 				id: "401E6EFD4D468E11"
-				item: { count: 1, id: "minecraft:shulker_shell" }
-				type: "item"
+				type: "advancement"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["405357394611F7F4"]
+			id: "4054629EF17E4552"
+			rewards: [
+				{
+					id: "405462001EF17E01"
+					item: {
+						count: 1
+						id: "minecraft:shulker_box"
+					}
+					type: "item"
+				}
+				{
+					id: "405462001EF17E02"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "405462001EF17E03"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4054629EF17E4552"]
 			id: "4040629EF17E4552"
 			rewards: [
 				{
@@ -181,24 +216,28 @@
 					xp: 300
 				}
 			]
+			shape: "hexagon"
+			size: 1.2d
 			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
 				id: "40C9EDFE44CD6B5C"
-				item: { count: 1, id: "minecraft:elytra" }
-				type: "item"
+				type: "advancement"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 10.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4040629EF17E4552"]
 			id: "401C56BC12A6160F"
+			optional: true
 			rewards: [
 				{
-					count: 5
+					count: 16
 					id: "402684F98BF0F945"
 					item: {
 						count: 1
-						id: "cobblemon:beast_ball"
+						id: "minecraft:firework_rocket"
 					}
 					type: "item"
 				}
@@ -208,14 +247,134 @@
 					xp: 250
 				}
 			]
+			shape: "pentagon"
+			size: 1.0d
 			tasks: [{
-				count: 3L
+				advancement: "minecraft:end/levitate"
+				criterion: ""
 				id: "40B7F45AAB16D272"
-				item: { count: 1, id: "cobblemon:beast_ball" }
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["409E53EBB16ED918"]
+			id: "4059CC3CE24C1001"
+			rewards: [
+				{
+					count: 8
+					id: "405900CC3CE24C02"
+					item: {
+						count: 1
+						id: "minecraft:end_rod"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "405900CC3CE24C03"
+					item: {
+						count: 1
+						id: "minecraft:purpur_block"
+					}
+					type: "item"
+				}
+				{
+					id: "405900CC3CE24C04"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "405900CC3CE24C05"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4059CC3CE24C1001"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "4064C3F139A34C8D"
+			rewards: [
+				{
+					id: "407CEC039B55736C"
+					item: {
+						count: 1
+						id: "minecraft:dragon_head"
+					}
+					type: "item"
+				}
+				{
+					id: "40F3C205CBB5BF7C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [
+				{
+					advancement: "minecraft:end/dragon_egg"
+					criterion: ""
+					id: "406B9A6F6EC1D24C"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:end/dragon_breath"
+					criterion: ""
+					id: "406B9A6F6EC1D24D"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4064C3F139A34C8D"]
+			id: "4066CC3CE24C1002"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "406600CC3CE24C03"
+					item: {
+						count: 1
+						id: "minecraft:end_rod"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "406600CC3CE24C04"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "406600CC3CE24C05"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				count: 16L
+				id: "406600CC3CE24C06"
+				item: { count: 1, id: "minecraft:end_stone_bricks" }
 				type: "item"
 			}]
 			x: 10.0d
-			y: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["409E53EBB16ED918"]
@@ -236,6 +395,8 @@
 					xp: 250
 				}
 			]
+			shape: "octagon"
+			size: 1.2d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -266,7 +427,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 6.0d
-			y: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["403EA98C0D6DA092"]
@@ -277,7 +438,7 @@
 					id: "40A2B21B8AA09831"
 					item: {
 						count: 1
-						id: "cobblemon:beast_ball"
+						id: "cobblemon:dusk_ball"
 					}
 					type: "item"
 				}
@@ -287,6 +448,8 @@
 					xp: 300
 				}
 			]
+			shape: "octagon"
+			size: 1.0d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -306,7 +469,7 @@
 				natures: ""
 				poke_ball_used: ""
 				pokemon: ""
-				pokemon_type: "dragon"
+				pokemon_type: "psychic"
 				raid_tiers: ""
 				region: ""
 				shiny: false
@@ -317,29 +480,29 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 8.0d
-			y: -2.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["409E53EBB16ED918"]
-			icon: {
-				id: "cobblemon:twisted_spoon"
-			}
+			dependencies: ["40D62523710408DC"]
 			id: "4044E086A32B8BAB"
 			rewards: [
 				{
+					count: 3
 					id: "409B51CE9DE23414"
 					item: {
 						count: 1
-						id: "numismatics:bevel"
+						id: "cobblemon:dusk_ball"
 					}
 					type: "item"
 				}
 				{
 					id: "405B36F47C7108B8"
 					type: "xp"
-					xp: 60
+					xp: 300
 				}
 			]
+			shape: "octagon"
+			size: 1.0d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -369,122 +532,35 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 6.0d
-			y: 2.5d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4044E086A32B8BAB"]
 			icon: {
-				id: "cobblemon:dragon_fang"
-			}
-			id: "4064C3F139A34C8D"
-			rewards: [
-				{
-					id: "407CEC039B55736C"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-				{
-					id: "40F3C205CBB5BF7C"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "minecraft:the_end"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "406B9A6F6EC1D24C"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "dragon"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 8.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4064C3F139A34C8D"]
-			icon: {
 				id: "cobblemon:dusk_ball"
 			}
 			id: "40C8746684D36B5F"
-			rewards: [
-				{
-					id: "40CEA00FB19DE5B6"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-				{
-					id: "40AFABB0672FF981"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "minecraft:the_end"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "403D33EFA38EA9BD"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "ghost"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
+			optional: true
+			rewards: [{
+				id: "40CEA00FB19DE5B6"
+				table_id: 3468789012281550202L
+				type: "random"
 			}]
-			x: 10.0d
-			y: 2.5d
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "403D33EFA38EA9BD"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"401C56BC12A6160F"
-				"40D62523710408DC"
-				"4044E086A32B8BAB"
 				"4064C3F139A34C8D"
-				"40C8746684D36B5F"
+				"4044E086A32B8BAB"
 			]
 			icon: {
 				id: "minecraft:dragon_egg"
@@ -498,10 +574,11 @@
 					type: "random"
 				}
 				{
+					count: 4
 					id: "400D74290F430E2A"
 					item: {
 						count: 1
-						id: "minecraft:dragon_head"
+						id: "minecraft:end_crystal"
 					}
 					type: "item"
 				}
@@ -514,35 +591,10 @@
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 4L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "minecraft:the_end"
-				form: ""
-				gender: ""
-				held_items: ""
 				id: "404A72FF4479269D"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: ""
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
+				type: "checkmark"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 0.0d
 		}
 	]

@@ -7,69 +7,92 @@
 	order_index: 8
 	rewards: [
 		{
-			id: "0A02841A682349BF"
+			id: "item"
 			item: {
-				count: 1
-				id: "numismatics:cog"
+				count: 3
+				id: "numismatics:crown"
 			}
-			weight: 40.0f
+			weight: 25.0f
 		}
 		{
-			id: "5589489387B161E8"
+			id: "item"
 			item: {
 				count: 1
 				id: "cobblemon:master_ball"
 			}
-			weight: 30.0f
+			weight: 22.0f
 		}
 		{
-			count: 3
-			id: "3B3E3E27D3B9D0B8"
+			id: "item"
 			item: {
-				count: 1
+				count: 4
 				id: "cobblemon:rare_candy"
 			}
-			weight: 20.0f
+			weight: 18.0f
 		}
 		{
-			id: "17E9F291EE103430"
+			id: "item"
 			item: {
 				count: 1
-				id: "mythsandlegends:rainbow_wing"
+				id: "cobblemon:exp_candy_xl"
 			}
-			weight: 20.0f
+			weight: 14.0f
 		}
 		{
-			id: "5F7FFF6C8B5A14E2"
+			id: "item"
 			item: {
-				count: 1
-				id: "mythsandlegends:old_sea_map"
+				count: 2
+				id: "cobblemon:cherish_ball"
 			}
 			weight: 12.0f
 		}
 		{
-			id: "6D799D95CA2F6231"
+			id: "item"
 			item: {
 				count: 1
-				id: "cobblemon:cherish_ball"
+				id: "mythsandlegends:rainbow_wing"
 			}
 			weight: 10.0f
 		}
 		{
-			id: "60243AF95004863A"
+			id: "item"
+			item: {
+				count: 1
+				id: "mythsandlegends:old_sea_map"
+			}
+			weight: 9.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 1
+				id: "cobblemon_utility:shinycard"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "item"
 			item: {
 				count: 1
 				id: "mythsandlegends:azure_flute"
 			}
-			weight: 10.0f
+			weight: 6.0f
 		}
 		{
-			id: "142453DE866FEFC0"
+			id: "item"
 			item: {
 				count: 1
-				id: "numismatics:sun"
+				id: "cobblemon_utility:mastercandy"
 			}
 			weight: 4.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 2
+				id: "numismatics:sun"
+			}
+			weight: 2.0f
 		}
 	]
 	use_title: true

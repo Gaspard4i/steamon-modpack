@@ -1,58 +1,191 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: "square"
+	default_quest_shape: "hexagon"
 	filename: "create_3"
 	group: "348AE7020234F2D4"
 	icon: {
-		id: "create:brass_ingot"
+		id: "createaddition:electric_motor"
 	}
 	id: "4AC9C2A03CC7FEF4"
+	images: [ ]
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "7C09E3A107576AF5"
+		linked_quest: "4EFD1A480A12986D"
+		shape: "gear"
+		x: 0.0d
+		y: 22.0d
+	}]
 	quests: [
 		{
-			dependencies: ["105485D414441DF4"]
-			id: "2000000000000C01"
+			id: "7FD87542D311BA8A"
 			rewards: [
 				{
-					count: 3
-					id: "20000000000C0001"
+					count: 2
+					id: "7C410B9173DBD685"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "create:electron_tube"
 					}
 					type: "item"
 				}
 				{
-					id: "20000000000C0002"
+					id: "7CB4D3925A5422E1"
 					type: "xp"
 					xp: 20
 				}
 			]
-			shape: "diamond"
-			size: 1.2d
+			shape: "gear"
+			size: 3.0d
 			tasks: [{
-				id: "20000000000C0003"
+				id: "7C8F60B05FE2A0D6"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2000000000000C01"]
-			id: "20D321EEC05603E1"
+			dependencies: ["7FD87542D311BA8A"]
+			id: "7C843786B025E59B"
 			rewards: [
 				{
 					count: 8
-					id: "20A0212BF610ABC4"
+					id: "7CD3D43FBFFAC4CE"
 					item: {
 						count: 1
-						id: "createaddition:copper_wire"
+						id: "create:andesite_alloy"
 					}
 					type: "item"
 				}
 				{
-					id: "201A7C3DDEE821FF"
+					id: "7CF2F74C819D8A01"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.7d
+			tasks: [{
+				id: "7CB031B86EB96DE0"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C843786B025E59B"]
+			id: "7C7742A771DC152F"
+			rewards: [
+				{
+					count: 8
+					id: "7C7B0FB0D5DEAC1A"
+					item: {
+						count: 1
+						id: "create:experience_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "7C8DBE86F84097C8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "7CC689F332CCFCDD"
+				item: { count: 1, id: "createaddition:copper_wire" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C7742A771DC152F"]
+			id: "7C80BFCD93CF15BF"
+			rewards: [
+				{
+					count: 4
+					id: "7CF996222BE74548"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+				{
+					id: "7C57437A91173910"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7CAE64D60D75477C"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+				{
+					id: "7C901430A9A70275"
+					item: { count: 1, id: "createaddition:large_connector" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C80BFCD93CF15BF"]
+			id: "7C72143865DB0A59"
+			rewards: [
+				{
+					id: "7CD5D3DA85A727F0"
+					table_id: 2353900240102227971L
+					type: "random"
+				}
+				{
+					id: "7C247EB6C5FCD4CB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7C1922D824E1567B"
+					item: { count: 1, id: "createaddition:alternator" }
+					type: "item"
+				}
+				{
+					id: "7C6055CD5B7CB919"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7C72143865DB0A59"]
+			id: "7C9DE7FB54FCB456"
+			rewards: [
+				{
+					count: 8
+					id: "7C52BA69C2F677FB"
+					item: {
+						count: 1
+						id: "create:electron_tube"
+					}
+					type: "item"
+				}
+				{
+					id: "7C598821FDD08775"
 					type: "xp"
 					xp: 80
 				}
@@ -61,437 +194,345 @@
 			size: 1.5d
 			tasks: [
 				{
-					count: 4L
-					id: "20AA36E223777756"
-					item: { count: 1, id: "createaddition:copper_wire" }
+					id: "7C246B9416C3A788"
+					item: { count: 1, id: "createaddition:capacitor" }
 					type: "item"
 				}
 				{
-					id: "202403185CA97E4B"
-					item: { count: 1, id: "createaddition:connector" }
+					id: "7CC0336EDF55A687"
+					item: { count: 1, id: "createaddition:modular_accumulator" }
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["20D321EEC05603E1"]
-			id: "202A9BD1C81F243A"
-			rewards: [
-				{
-					id: "2092B950AB349DE2"
-					item: {
-						count: 1
-						id: "createaddition:alternator"
-					}
-					type: "item"
-				}
-				{
-					id: "20F3FBA202D01105"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20D6B48B9C6E55D1"
-					type: "xp"
-					xp: 90
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "206EF305736EEFA5"
-				item: { count: 1, id: "createaddition:alternator" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["202A9BD1C81F243A"]
-			id: "20194D83090E4E55"
-			rewards: [
-				{
-					id: "206764571B022C27"
-					item: {
-						count: 1
-						id: "createaddition:electric_motor"
-					}
-					type: "item"
-				}
-				{
-					id: "20DF9C3C2562DC92"
-					type: "xp"
-					xp: 90
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "209E78EE80134AF1"
-				item: { count: 1, id: "createaddition:electric_motor" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["20194D83090E4E55"]
-			id: "202DEA1408818B44"
-			rewards: [
-				{
-					id: "20CEE82BD668B167"
-					item: {
-						count: 1
-						id: "createaddition:capacitor"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "20C0D0A9F02B22EA"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-				{
-					id: "201D6F7AD5743E11"
-					type: "xp"
-					xp: 90
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "2092D1D05F6A73BB"
-				item: { count: 1, id: "createaddition:capacitor" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["202DEA1408818B44"]
-			id: "204D78A5D6475BBF"
-			rewards: [
-				{
-					id: "2018C4ACBB4F0788"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:blaze_enchanter"
-					}
-					type: "item"
-				}
-				{
-					id: "2026A37D6C0E7D31"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "2048B4BC38965E90"
-					type: "xp"
-					xp: 120
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "20038FE87EE8F2CA"
-				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
-				type: "item"
-			}]
 			x: 0.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["204D78A5D6475BBF"]
-			id: "20015467B3A63340"
+			dependencies: ["7C9DE7FB54FCB456"]
+			id: "7CD4722C08CC064B"
 			optional: true
 			rewards: [
 				{
-					id: "20BCC237C0F8D1CC"
-					item: {
-						count: 1
-						id: "create_enchantment_industry:printer"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "202017A0381F877A"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-				{
-					id: "20DA1C7B467A9ADD"
-					type: "xp"
-					xp: 90
-				}
-			]
-			tasks: [{
-				id: "20CDD023B1D41A4D"
-				item: { }
-				type: "item"
-			}]
-			x: 2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["20D321EEC05603E1"]
-			id: "205FD3E5819062F3"
-			rewards: [{
-				count: 2
-				id: "204B3BCB679C390A"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "20802C93ABAFEBC4"
-				item: { count: 1, id: "createaddition:copper_wire" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["205FD3E5819062F3"]
-			id: "20889B13282F2365"
-			rewards: [{
-				count: 2
-				id: "20FE22095C3CB8FB"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "20C677409DFFB990"
-				item: { count: 1, id: "createaddition:gold_wire" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["20889B13282F2365"]
-			id: "2003BF12AD31051A"
-			rewards: [{
-				count: 2
-				id: "20AF42B9219FB60C"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "204CA6AE813544A6"
-				item: { count: 1, id: "createaddition:connector" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2003BF12AD31051A"]
-			id: "2050ECFABF39515D"
-			rewards: [{
-				count: 2
-				id: "2086315BED4F2BA7"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "20F85EDFB2DEB9AD"
-				item: { count: 1, id: "createaddition:large_connector" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["205FD3E5819062F3"]
-			id: "2054F3196E527301"
-			rewards: [
-				{
-					id: "2787ED3AE37C757D"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "0A37206FC3251CD6"
-					type: "xp"
-					xp: 15
-				}
-			]
-			tasks: [{
-				id: "20FCD852B2A588C4"
-				item: { count: 1, id: "createaddition:capacitor" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2054F3196E527301"]
-			id: "208A47FEC33055B8"
-			rewards: [{
-				count: 2
-				id: "201F6C7B5FBC42B5"
-				item: {
-					count: 1
-					id: "createaddition:electrum_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "20DA56EDD33A48AF"
-				item: { count: 1, id: "createaddition:electrum_ingot" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["208A47FEC33055B8"]
-			id: "205C5B77675AD95D"
-			rewards: [
-				{
-					id: "0DE813064135E60D"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "6882E9E0D702CFF9"
-					type: "xp"
-					xp: 15
-				}
-			]
-			tasks: [{
-				id: "202B001B7327196D"
-				item: { count: 1, id: "createaddition:tesla_coil" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["205C5B77675AD95D"]
-			id: "208E7F469308A0AD"
-			rewards: [{
-				count: 2
-				id: "20DD7DA32184B35A"
-				item: {
-					count: 1
-					id: "numismatics:spur"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "203D9510B7B5DDAE"
-				item: { count: 1, id: "createaddition:rolling_mill" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["202DEA1408818B44"]
-			id: "20B1A2C1F97A4E0D"
-			rewards: [
-				{
-					id: "20C4A1F87E9B3D2A"
-					item: {
-						count: 1
-						id: "cobblemon:poke_ball"
-					}
-					type: "item"
-				}
-				{
-					id: "20D2B7E4F6A9C1B3"
-					type: "xp"
-					xp: 90
-				}
-			]
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "20E5C3A9B7D4F102"
-				item: { count: 1, id: "create_klinks_n_klangs:blank_ball" }
-				type: "item"
-			}]
-			x: 8.25d
-			y: 0.75d
-		}
-		{
-			dependencies: ["20B1A2C1F97A4E0D"]
-			id: "20F3D6B8A5C2E109"
-			rewards: [
-				{
-					id: "20A8C5D3B7E4F602"
-					item: {
-						count: 1
-						id: "create:deployer"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "20B7E4A9C3D5F108"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20C9D6E5A8B4F203"
+					id: "7C03DC0D49F813CF"
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "7CC2BC5EBB2B10E1"
+					table_id: 2353900240102227971L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				id: "7C31912032781A1A"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C9DE7FB54FCB456"]
+			id: "7C9685EEAD33FCDB"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "7C78408018564A78"
+					item: {
+						count: 1
+						id: "createaddition:copper_wire"
+					}
+					type: "item"
+				}
+				{
+					id: "7C90C32FE49B48C5"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				id: "7C93B202CE0E1991"
+				item: { count: 1, id: "createaddition:portable_energy_interface" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7C80BFCD93CF15BF"]
+			id: "7CDFF5177298BBDF"
+			rewards: [
+				{
+					id: "7C91F201D4B4D50F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "7C2C9EC424901099"
+					item: {
+						count: 1
+						id: "minecraft:experience_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "7CBE47876F52E385"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7CDFF5177298BBDF"]
+			id: "7CC751AED6F79984"
+			rewards: [
+				{
+					id: "7C390769530AF987"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:experience_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "7CF69BBF46FEB88E"
+					type: "xp"
+					xp: 80
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "20D4E7B6A9C5F304"
-				item: { count: 1, id: "create_klinks_n_klangs:great_ball_stencil" }
+				id: "7CF967EF329C9CCA"
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
 				type: "item"
 			}]
-			x: 8.25d
-			y: 3.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["20F3D6B8A5C2E109"]
-			id: "20E8A5C7B9D6F405"
+			dependencies: ["7CC751AED6F79984"]
+			id: "7CBC4B4E2E4F181D"
+			rewards: [
+				{
+					count: 8
+					id: "7C9B3CE6BA83CFA2"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "7CB4C6B741A9E5FF"
+					type: "xp"
+					xp: 70
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "7CC7169B3D903D24"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7CBC4B4E2E4F181D"]
+			id: "7CAFAE556E1AD980"
+			optional: true
+			rewards: [
+				{
+					id: "7CE3B2C34A8DCBC2"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "7CD209DA0EC00309"
+					table_id: 2353900240102227971L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				id: "7C4A90B8588750F9"
+				item: { count: 1, id: "create_enchantment_industry:super_experience_nugget" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7CBC4B4E2E4F181D"]
+			id: "7C91C963BE42B881"
+			optional: true
+			rewards: [
+				{
+					id: "7C01844B900D010D"
+					item: {
+						count: 1
+						id: "minecraft:anvil"
+					}
+					type: "item"
+				}
+				{
+					id: "7C29F2EFCA6474AF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				id: "7CF91C66352EA8D4"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7C80BFCD93CF15BF"]
+			id: "7C117C23BB9CCBD8"
+			optional: true
 			rewards: [
 				{
 					count: 4
-					id: "20F5B8C6A7D9E306"
+					id: "7C55D290637487A2"
+					item: {
+						count: 1
+						id: "createaddition:copper_wire"
+					}
+					type: "item"
+				}
+				{
+					id: "7C7F573729C17A59"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				id: "7C3C4A54022FC9F2"
+				item: { count: 1, id: "createendertransmission:energy_transmitter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C117C23BB9CCBD8"]
+			id: "7C6C4030BA83E2D2"
+			optional: true
+			rewards: [
+				{
+					id: "7C1A0E6498CC43EB"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "7CCBE81674613F54"
+					table_id: 2353900240102227971L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			size: 1.2d
+			tasks: [{
+				id: "7C14C7E35A38A0D1"
+				item: { count: 1, id: "createendertransmission:chunk_loader" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7C72143865DB0A59"
+				"7CC751AED6F79984"
+				"7C117C23BB9CCBD8"
+			]
+			hide_dependency_lines: true
+			id: "7C39882DA16ECA63"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "7C968F79037833F0"
+					table_id: 2353900240102227971L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "7CDAA7BB4BBE1705"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "7CD91282773EA709"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7C09F391FC09F277"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7C39882DA16ECA63"]
+			id: "7C9EAA50BE7B7E3E"
+			rewards: [
+				{
+					count: 16
+					id: "7C1FBFA302CACA0B"
+					item: {
+						count: 1
+						id: "cobblemon:red_apricorn"
+					}
+					type: "item"
+				}
+				{
+					id: "7C54FAD00C21856B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "7C4B89B64FE3717B"
+				item: { count: 1, id: "create_klinks_n_klangs:blank_ball" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7C9EAA50BE7B7E3E"]
+			id: "7C0A9D56716EA09A"
+			rewards: [
+				{
+					count: 2
+					id: "7C9B93D519EE93DF"
 					item: {
 						count: 1
 						id: "cobblemon:great_ball"
@@ -499,47 +540,125 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "20A6C9D8B7E5F407"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "20B7D6E9C8A5F508"
+					id: "7C40DC32BF0A35D2"
 					type: "xp"
-					xp: 120
+					xp: 80
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 1.3d
 			tasks: [{
-				id: "20C8E7D6A9B5F609"
-				item: { count: 1, id: "create:mechanical_mixer" }
+				id: "7C95CC361167CD8F"
+				item: { count: 1, id: "cobblemon:poke_ball" }
 				type: "item"
 			}]
-			x: 8.25d
-			y: 5.25d
+			x: -2.5d
+			y: 18.0d
 		}
 		{
-			dependencies: [
-				"204D78A5D6475BBF"
-				"2050ECFABF39515D"
-				"208E7F469308A0AD"
-				"20E8A5C7B9D6F405"
-			]
-			id: "20FC1F519A9040EF"
-			min_required_dependencies: 2
+			dependencies: ["7C0A9D56716EA09A"]
+			id: "7C2F001D63D3BEBB"
 			rewards: [
 				{
-					id: "20F98DFFA81464B6"
+					id: "7C8BD6B6FBE898E0"
 					table_id: 2353900240102227971L
 					type: "random"
 				}
 				{
-					id: "209B7F2696799D03"
+					id: "7C17EAFCF8D9F0E0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [
+				{
+					id: "7CC6FEAEF9166E30"
+					item: { count: 1, id: "cobblemon:great_ball" }
+					type: "item"
+				}
+				{
+					id: "7CBCB4B020262912"
+					item: { count: 1, id: "cobblemon:ultra_ball" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7C2F001D63D3BEBB"]
+			id: "7C8AD03F796DC586"
+			optional: true
+			rewards: [
+				{
+					id: "7C63C66082348B9A"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "7C5B5B53CA35D237"
+					table_id: 2353900240102227971L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			size: 1.3d
+			tasks: [{
+				id: "7C69978246652C98"
+				item: { count: 1, id: "cobblemon:cherish_ball" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7C39882DA16ECA63"]
+			id: "7C1D505ED91FDAB9"
+			rewards: [
+				{
+					count: 8
+					id: "7C9293062292C033"
+					item: {
+						count: 1
+						id: "cobblemon:red_apricorn"
+					}
+					type: "item"
+				}
+				{
+					id: "7CE1D20161E956FD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "7C31054D7587BD16"
+				item: { count: 1, id: "cobblemon_smartphone:black_smartphone" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"7C2F001D63D3BEBB"
+				"7C1D505ED91FDAB9"
+			]
+			hide_dependency_lines: true
+			id: "7C117CF367A45F77"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "7CCECFE5B3E636E1"
+					table_id: 2353900240102227971L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "7C7DE7B649FCBC26"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -547,20 +666,19 @@
 					type: "item"
 				}
 				{
-					id: "2059DC63C8DF0C59"
+					id: "7CFEB54F5BF4AA30"
 					type: "xp"
-					xp: 250
+					xp: 150
 				}
 			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "202D874414A410E0"
-				item: { count: 1, id: "createaddition:capacitor" }
-				type: "item"
+				id: "7CC3CA9CE1F5E7AC"
+				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 20.0d
 		}
 	]
 }

@@ -1,10 +1,11 @@
 {
 	chapter_groups: [
-		{ id: "3DBCC9E2D8397D4A" }
-		{ id: "1AF20BFA15DC3940" }
-		{ id: "348AE7020234F2D4" }
-		{ id: "2A4A6BF9FB018712" }
-		{ id: "2C0FD201CD572F12" }
-		{ id: "175FA950F5B31EAB" }
+		{ id: "3DBCC9E2D8397D4A", title: "&eGetting Started" }
+		{ id: "348AE7020234F2D4", title: "&6Create" }
+		{ id: "2A4A6BF9FB018712", title: "&cCobblemon" }
+		{ id: "1AF20BFA15DC3940", title: "&bDimensions" }
+		{ id: "2C0FD201CD572F12", title: "&2Culinary" }
+		{ id: "9F0C4E7A1B6D8352", title: "&dLife \& Style" }
+		{ id: "175FA950F5B31EAB", title: "&5Adventure" }
 	]
 }

@@ -1,144 +1,232 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: "square"
+	default_hide_dependency_lines: true
+	default_quest_shape: "circle"
 	filename: "welcome"
 	group: "3DBCC9E2D8397D4A"
 	icon: {
 		id: "cobblemon:poke_ball"
 	}
-	id: "509B21D25C01D8EB"
+	id: "290C02C15C8843CE"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			icon: {
-				id: "minecraft:oak_sign"
+				id: "cobblemon:poke_ball"
 			}
-			id: "5000F94AD8C2D624"
+			id: "1B6DD754A1659453"
 			rewards: [
 				{
-					count: 10
-					id: "50558105597454EE"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "509D293713A77B13"
+					id: "3E0F7901C6090662"
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "5540F2802D0C22F6"
+					table_id: 3462194471772572137L
+					type: "random"
+				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 3.0d
 			tasks: [{
-				id: "50F1DB7E8273237B"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				id: "52388B291D4DF9B1"
+				type: "dimension"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5000F94AD8C2D624"]
 			icon: {
 				id: "minecraft:writable_book"
 			}
-			id: "5088AC64E84B2AB0"
+			id: "63248C846CF59B64"
+			optional: true
+			rewards: [{
+				id: "6300000000000001"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "63F0000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "567E86E514462ED3"
+			optional: true
 			rewards: [
 				{
-					count: 10
-					id: "50D9D8CA388F7E2C"
+					count: 6
+					id: "5600000000000001"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "minecraft:string"
 					}
 					type: "item"
 				}
 				{
-					id: "5075251C261A8A5E"
+					count: 2
+					id: "5600000000000002"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					id: "5600000000000003"
 					type: "xp"
 					xp: 10
 				}
 			]
 			tasks: [{
-				id: "505BE61B6B196AE8"
+				id: "56F0000000000001"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["5000F94AD8C2D624"]
 			icon: {
-				id: "minecraft:compass"
+				id: "waystones:waystone"
 			}
-			id: "50888E190728D8D6"
+			id: "6C7E421CADAC0FE5"
+			optional: true
 			rewards: [
 				{
-					count: 10
-					id: "50288D2894E9D6F1"
+					count: 3
+					id: "6C00000000000001"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "waystones:return_scroll"
 					}
 					type: "item"
 				}
 				{
-					id: "50A21A60B5F9CE64"
+					id: "6C00000000000002"
 					type: "xp"
-					xp: 100
+					xp: 10
 				}
 			]
 			tasks: [{
-				id: "50144905BE2B04A9"
+				id: "6CF0000000000001"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"5088AC64E84B2AB0"
-				"50888E190728D8D6"
-			]
 			icon: {
-				id: "cobblemon:poke_ball"
+				id: "naturescompass:naturescompass"
 			}
-			id: "50902A5B0B8A2813"
+			id: "58EDB0CCF666DD0C"
+			optional: true
 			rewards: [
 				{
-					count: 5
-					id: "502B90F3A163DB4A"
+					count: 8
+					id: "5800000000000001"
 					item: {
 						count: 1
-						id: "cobblemon:poke_ball"
+						id: "minecraft:redstone"
 					}
 					type: "item"
 				}
 				{
-					id: "50CFC35ABC31D068"
+					count: 2
+					id: "5800000000000002"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "minecraft:iron_ingot"
 					}
 					type: "item"
 				}
 				{
-					id: "50809FC529A2B26A"
+					id: "5800000000000003"
 					type: "xp"
-					xp: 25
+					xp: 10
 				}
 			]
-			shape: "hexagon"
-			size: 1.5d
 			tasks: [{
-				id: "5034B00F647F47D8"
+				consume_items: false
+				id: "58F0000000000001"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "0F2F4FBA5607AE59"
+			optional: true
+			rewards: [{
+				id: "7839BF14EAD25872"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "57BE18670DFAAC5D"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:torch"
+			}
+			id: "38700AB387BF8F4B"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "195DF166CCED799C"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "632861F7A6ADEFF1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "744EC390A271A5AA"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 2.6d
+		}
+		{
+			dependencies: [
+				"567E86E514462ED3"
+				"6C7E421CADAC0FE5"
+				"58EDB0CCF666DD0C"
+			]
+			id: "62975073AC885D99"
+			invisible: true
+			min_required_dependencies: 1
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "62F0000000000001"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 }

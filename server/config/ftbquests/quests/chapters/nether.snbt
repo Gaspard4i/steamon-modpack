@@ -7,43 +7,15 @@
 		id: "minecraft:netherrack"
 	}
 	id: "3EF16F7A003E45D5"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["105485D414441DF4"]
-			id: "4000000000000A01"
-			rewards: [
-				{
-					count: 3
-					id: "40000000000A0001"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "40000000000A0002"
-					type: "xp"
-					xp: 20
-				}
-			]
-			shape: "diamond"
-			size: 1.2d
-			tasks: [{
-				id: "40000000000A0003"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4000000000000A01"]
 			icon: {
 				id: "minecraft:flint_and_steel"
 			}
-			id: "40996153FB959512"
+			id: "36F75F3A69E5E07F"
 			rewards: [
 				{
 					count: 8
@@ -72,7 +44,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["40996153FB959512"]
+			dependencies: ["36F75F3A69E5E07F"]
 			id: "405B885C41DDE9FE"
 			rewards: [
 				{
@@ -164,6 +136,9 @@
 		}
 		{
 			dependencies: ["400288EDEEB9E085"]
+			icon: {
+				id: "minecraft:ancient_debris"
+			}
 			id: "401CF50145120356"
 			rewards: [
 				{
@@ -191,15 +166,16 @@
 				}
 			]
 			tasks: [{
+				count: 2L
 				id: "40DFA1D35F83AAEC"
-				item: { }
+				item: { count: 1, id: "minecraft:ancient_debris" }
 				type: "item"
 			}]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["40996153FB959512"]
+			dependencies: ["36F75F3A69E5E07F"]
 			id: "402B24236BC528BD"
 			rewards: [
 				{
@@ -226,7 +202,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["40996153FB959512"]
+			dependencies: ["36F75F3A69E5E07F"]
+			icon: {
+				id: "cobblemon:fire_stone"
+			}
 			id: "408268A0E9C639C1"
 			rewards: [
 				{
@@ -244,6 +223,8 @@
 					xp: 150
 				}
 			]
+			shape: "pentagon"
+			size: 1.2d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -274,69 +255,26 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			x: 2.0d
-			y: -2.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["40996153FB959512"]
-			id: "407DE90E67F64A06"
-			rewards: [
-				{
-					count: 4
-					id: "40E356C7BEA3483A"
-					item: {
-						count: 1
-						id: "cobblemon:ultra_ball"
-					}
-					type: "item"
-				}
-				{
-					id: "40F44B8614E8F00D"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 2L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "minecraft:the_nether"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "4025EA76537AAE47"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "dark"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["40996153FB959512"]
+			dependencies: ["408268A0E9C639C1"]
 			icon: {
 				id: "cobblemon:fire_stone"
 			}
 			id: "40CE4F3B89953E7A"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "4070F15B96B563B3"
+					item: {
+						count: 1
+						id: "cobblemon:fire_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "40B13B319F4B0CF3"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -349,6 +287,8 @@
 					xp: 60
 				}
 			]
+			shape: "pentagon"
+			size: 1.0d
 			tasks: [{
 				abilities: ""
 				action: "catch"
@@ -378,73 +318,27 @@
 				trainers: ""
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["40CE4F3B89953E7A"]
+			dependencies: ["36F75F3A69E5E07F"]
 			icon: {
-				id: "cobblemon:dusk_ball"
+				id: "minecraft:ghast_tear"
 			}
 			id: "40EF3BD366314373"
 			rewards: [
 				{
-					count: 5
-					id: "40B13B319F4B0CF3"
+					count: 8
+					id: "40B13B319F4B0CF4"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "minecraft:glowstone_dust"
 					}
 					type: "item"
 				}
 				{
 					id: "40CF168657BD98F4"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "minecraft:the_nether"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "40ABBAF318B8522D"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "dark"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["40EF3BD366314373"]
-			icon: {
-				id: "cobblemon:soft_sand"
-			}
-			id: "40FF75F82B92A6B7"
-			rewards: [
-				{
-					count: 5
-					id: "40E839C2452960D7"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -452,48 +346,61 @@
 					type: "item"
 				}
 				{
-					id: "40820B6BF7B0F021"
+					id: "40CF168657BD98F5"
 					type: "xp"
-					xp: 60
+					xp: 150
 				}
 			]
 			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "minecraft:the_nether"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "40C20E9E7D1C89A5"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "ground"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
+				id: "40ABBAF318B8522D"
+				item: { count: 1, id: "minecraft:ghast_tear" }
+				type: "item"
 			}]
-			x: 6.0d
-			y: 2.5d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36F75F3A69E5E07F"]
+			icon: {
+				id: "minecraft:magma_cream"
+			}
+			id: "40FF75F82B92A6B7"
+			rewards: [
+				{
+					count: 6
+					id: "40E839C2452960D7"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "40820B6BF7B0F021"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "40820B6BF7B0F022"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "40C20E9E7D1C89A5"
+				item: { count: 1, id: "minecraft:magma_cream" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"402B24236BC528BD"
-				"407DE90E67F64A06"
-				"40CE4F3B89953E7A"
 				"40EF3BD366314373"
 				"40FF75F82B92A6B7"
 			]
@@ -501,7 +408,7 @@
 				id: "minecraft:netherite_block"
 			}
 			id: "408EF2591FC945BB"
-			min_required_dependencies: 1
+			min_required_dependencies: 2
 			rewards: [
 				{
 					id: "40310BFF0E81DA44"

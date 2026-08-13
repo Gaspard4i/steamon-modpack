@@ -1,0 +1,91 @@
+{
+	icon: {
+		id: "naturescompass:naturescompass"
+	}
+	id: "6E100A336A1DACE9"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{
+			id: "6E1007F03DD1B603"
+			item: {
+				count: 1
+				id: "minecraft:map"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "6E101091E82BACAA"
+			item: {
+				count: 3
+				id: "minecraft:emerald"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "6E10FCBB5855963A"
+			item: {
+				count: 4
+				id: "numismatics:spur"
+			}
+			weight: 12.0f
+		}
+		{
+			id: "6E103B0C33EA71AC"
+			item: {
+				count: 4
+				id: "minecraft:experience_bottle"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6E104733088AE50E"
+			item: {
+				count: 2
+				id: "waystones:warp_scroll"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6E10D8FAFCED3D5A"
+			item: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "6E1073B9FD0C61C5"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "6E1050D0C7A78E4E"
+			item: {
+				count: 2
+				id: "minecraft:book"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "6E1066D9A97C6451"
+			item: {
+				count: 1
+				id: "waystones:warp_stone"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "6E10959767EB6946"
+			item: {
+				count: 1
+				id: "numismatics:sun"
+			}
+			weight: 2.0f
+		}
+	]
+	use_title: true
+}

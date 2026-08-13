@@ -7,6 +7,7 @@
 		id: "aether:aether_portal_frame"
 	}
 	id: "11428B5DCB284F18"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -61,7 +62,7 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.5d
 			tasks: [{
 				advancement: "aether:enter_aether"
 				criterion: "enter_aether"
@@ -73,6 +74,36 @@
 		}
 		{
 			dependencies: ["40091CD67B4264AE"]
+			id: "40380154C8DB6FC8"
+			rewards: [
+				{
+					id: "4001D80E6A8EAFC2"
+					item: {
+						count: 1
+						id: "aether:skyroot_pickaxe"
+					}
+					type: "item"
+				}
+				{
+					id: "402A9A45EAFF86F2"
+					item: {
+						count: 1
+						id: "aether:skyroot_axe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "401112F20D77D252"
+				item: { count: 1, id: "aether:skyroot_log" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40380154C8DB6FC8"]
 			id: "40D4379A448269BF"
 			rewards: [
 				{
@@ -96,7 +127,7 @@
 				item: { count: 1, id: "aether:holystone" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -107,7 +138,7 @@
 					id: "408FE9F04B57D26F"
 					item: {
 						count: 1
-						id: "aether:zanite_pendant"
+						id: "aether:zanite_pickaxe"
 					}
 					type: "item"
 				}
@@ -123,8 +154,108 @@
 				id: "4043C7094615E401"
 				type: "advancement"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["40D4379A448269BF"]
+			hide_dependency_lines: true
+			icon: {
+				id: "aether:aerogel"
+			}
+			id: "40AE8503084F9449"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "407C872AA8C1C076"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "40DA34A1D5676EB8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [{
+				count: 8L
+				id: "406BDE4738D2ACE9"
+				item: { count: 1, id: "aether:aerogel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40091CD67B4264AE"]
+			icon: {
+				id: "aether:blue_moa_egg"
+			}
+			id: "403252BA15BC35FB"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "407312284D4E525D"
+					item: {
+						count: 1
+						id: "aether:ambrosium_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "40B0F83EED170135"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "40494F7DD3E26161"
+				item: { count: 1, id: "aether:blue_moa_egg" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40842F992469C8BC"]
+			hide_dependency_lines: true
+			icon: {
+				id: "aether:zanite_pendant"
+			}
+			id: "4033EB6690E842EC"
+			optional: true
+			rewards: [
+				{
+					id: "400910FB7F5E57B9"
+					item: {
+						count: 1
+						id: "aether:golden_gloves"
+					}
+					type: "item"
+				}
+				{
+					id: "40D3C59FC1AC1958"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [{
+				id: "406ED26D182E908D"
+				item: { count: 1, id: "aether:zanite_pendant" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["40842F992469C8BC"]
@@ -134,7 +265,7 @@
 					id: "40FD15BFA8A9C4D2"
 					item: {
 						count: 1
-						id: "aether:skyroot_bucket"
+						id: "aether:bronze_dungeon_key"
 					}
 					type: "item"
 				}
@@ -142,7 +273,7 @@
 					id: "40C64477FDD615DC"
 					item: {
 						count: 1
-						id: "numismatics:spur"
+						id: "aether:skyroot_bucket"
 					}
 					type: "item"
 				}
@@ -152,61 +283,46 @@
 					xp: 250
 				}
 			]
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				advancement: "aether:bronze_dungeon"
 				criterion: "kill_slider"
 				id: "400EDEB471FF3F55"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["40AACB4577F3D5EB"]
-			id: "40A3460330537B45"
-			rewards: [
-				{
-					count: 2
-					id: "40CC7EEB92CDB135"
-					item: {
-						count: 1
-						id: "aether:enchanted_gravitite"
-					}
-					type: "item"
-				}
-				{
-					id: "4095578B35049804"
-					type: "xp"
-					xp: 300
-				}
-			]
-			tasks: [{
-				id: "4094D1170A01C2CA"
-				item: { count: 1, id: "aether:gravitite_ore" }
-				type: "item"
-			}]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["40A3460330537B45"]
+			dependencies: ["40AACB4577F3D5EB"]
 			id: "401CF9AF56F01343"
 			rewards: [
 				{
-					count: 2
-					id: "4055578AABFBC99D"
+					id: "407BA0570EE34F90"
 					item: {
 						count: 1
-						id: "aether:gravitite_ore"
+						id: "aether:silver_dungeon_key"
 					}
 					type: "item"
 				}
 				{
-					id: "40289E30ECB74343"
+					count: 4
+					id: "40605997E9C543AC"
+					item: {
+						count: 1
+						id: "aether:victory_medal"
+					}
+					type: "item"
+				}
+				{
+					id: "40548784DD5D6051"
 					type: "xp"
 					xp: 300
 				}
 			]
+			shape: "octagon"
+			size: 1.5d
 			tasks: [{
 				advancement: "aether:silver_dungeon"
 				criterion: "kill_valkyrie_queen"
@@ -217,282 +333,43 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["40091CD67B4264AE"]
-			id: "4045C5FE831B4402"
+			dependencies: ["40AACB4577F3D5EB"]
+			id: "40A3460330537B45"
 			rewards: [
 				{
-					count: 6
-					id: "40363C824B74017A"
+					id: "40F9B675925A1378"
 					item: {
 						count: 1
-						id: "cobblemon:great_ball"
+						id: "aether:gravitite_pickaxe"
 					}
 					type: "item"
 				}
 				{
-					id: "4003D51EFE1765F6"
+					id: "404922BAE830CE12"
 					type: "xp"
-					xp: 200
+					xp: 300
 				}
 			]
+			shape: "square"
+			size: 1.2d
 			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 2L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "aether:the_aether"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "4015F856286C0EE5"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "flying"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
+				count: 4L
+				id: "40EEB4529B6B48D4"
+				item: { count: 1, id: "aether:enchanted_gravitite" }
+				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4045C5FE831B4402"]
-			id: "4006743C0D1865AD"
-			rewards: [
-				{
-					count: 4
-					id: "404DB30CE35E3F3A"
-					item: {
-						count: 1
-						id: "cobblemon:ultra_ball"
-					}
-					type: "item"
-				}
-				{
-					id: "40258C488FF20895"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 2L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "aether:the_aether"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "40A8E5BD84FCB027"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "fairy"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["40091CD67B4264AE"]
-			icon: {
-				id: "aether:aether_portal_frame"
-			}
-			id: "405F38BF62A148A7"
-			rewards: [
-				{
-					count: 5
-					id: "40DFCB28DEB58B8B"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "40FCB3904FA220E4"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "aether:the_aether"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "409A12CBD1BBDEA0"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "flying"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["405F38BF62A148A7"]
-			icon: {
-				id: "cobblemon:fairy_gem"
-			}
-			id: "40F718D2A904C1D2"
-			rewards: [
-				{
-					count: 5
-					id: "4076CED6C9D4A07B"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "40174A06ECA71279"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "aether:the_aether"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "40E954F3B46B9EE2"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "fairy"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["40F718D2A904C1D2"]
-			icon: {
-				id: "cobblemon:ice_stone"
-			}
-			id: "40A6732E54F42423"
-			rewards: [
-				{
-					count: 5
-					id: "405B4ED19288D80C"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-				{
-					id: "40060BBE0494E56A"
-					type: "xp"
-					xp: 60
-				}
-			]
-			tasks: [{
-				abilities: ""
-				action: "catch"
-				amount: 1L
-				aspects: ""
-				biome: ""
-				dex_progress: "seen"
-				dimension: "aether:the_aether"
-				form: ""
-				gender: ""
-				held_items: ""
-				id: "401AE71A6BE40156"
-				max_level: 0
-				max_turns: 0
-				min_level: 0
-				moves: ""
-				natures: ""
-				poke_ball_used: ""
-				pokemon: ""
-				pokemon_type: "ice"
-				raid_tiers: ""
-				region: ""
-				shiny: false
-				targetPlayer: ""
-				time_max: 24000L
-				time_min: 0L
-				trainers: ""
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			x: 6.0d
-			y: 2.5d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"401CF9AF56F01343"
-				"4006743C0D1865AD"
-				"405F38BF62A148A7"
-				"40F718D2A904C1D2"
-				"40A6732E54F42423"
+				"40A3460330537B45"
 			]
 			icon: {
 				id: "aether:gold_dungeon_key"
 			}
 			id: "40DEB2DB8508FE06"
-			min_required_dependencies: 1
 			rewards: [
 				{
 					id: "4014925DAC8B3B22"
@@ -500,20 +377,20 @@
 					type: "random"
 				}
 				{
-					id: "404596FD3B99F1D1"
+					id: "403408532C1793A3"
 					item: {
 						count: 1
-						id: "cobblemon:master_ball"
+						id: "aether:sun_altar"
 					}
 					type: "item"
 				}
 				{
-					id: "40C31C780CA3A6E1"
+					id: "4096B23BF80355BC"
 					type: "xp"
 					xp: 500
 				}
 			]
-			shape: "gear"
+			shape: "octagon"
 			size: 2.0d
 			tasks: [{
 				advancement: "aether:gold_dungeon"
@@ -521,8 +398,247 @@
 				id: "405A4A1320391178"
 				type: "advancement"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"40AACB4577F3D5EB"
+				"401CF9AF56F01343"
+				"40A3460330537B45"
+				"40DEB2DB8508FE06"
+			]
+			hide_dependency_lines: true
+			id: "401A19590E99D474"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "40B5D1C5740B75D2"
+					table_id: 4632065629285920761L
+					type: "random"
+				}
+				{
+					type: "choice"
+					id: "405D2E09D6537168"
+					choices: [
+						{ item: { count: 1, id: "aether:gravitite_axe" } }
+						{ item: { count: 1, id: "aether:gravitite_shovel" } }
+						{ item: { count: 1, id: "aether:gravitite_gloves" } }
+					]
+				}
+				{
+					count: 24
+					id: "40CD69DDE9952B7E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "405F62B398DA435F"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "40E46F0323EFD238"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40091CD67B4264AE"]
+			hide_dependency_lines: true
+			icon: {
+				id: "immersive_aircraft:airship"
+			}
+			id: "40DD79ECF93094F5"
+			optional: true
+			rewards: [
+				{
+					id: "402F20C44044673E"
+					item: {
+						count: 1
+						id: "immersive_aircraft:engine"
+					}
+					type: "item"
+				}
+				{
+					id: "4089524207C48E44"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "40CB2B1AB39CB7BC"
+				item: { count: 1, id: "immersive_aircraft:airship" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["40380154C8DB6FC8"]
+			hide_dependency_lines: true
+			icon: {
+				id: "aethersdelight:gingerbread"
+			}
+			id: "40233088EF9031F7"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "40DFAB1175CD9014"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "40F3B03AA67191E0"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "square"
+			size: 0.9d
+			tasks: [{
+				id: "40D098C396BA166B"
+				item: { count: 1, id: "aethersdelight:gingerbread" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40DEB2DB8508FE06"]
+			hide_dependency_lines: true
+			icon: {
+				id: "deep_aether:skyjade"
+			}
+			id: "4016A57E0B32D7DF"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "401C7ED277279E88"
+					item: {
+						count: 1
+						id: "deep_aether:stratus_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "40383F9898EA4FD0"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				count: 4L
+				id: "40201D6A9C12EB2A"
+				item: { count: 1, id: "deep_aether:skyjade" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4016A57E0B32D7DF"]
+			hide_dependency_lines: true
+			id: "40F7F648E4C62FF4"
+			optional: true
+			rewards: [
+				{
+					id: "40E7DC447F63E320"
+					item: {
+						count: 1
+						id: "deep_aether:brass_dungeon_key"
+					}
+					type: "item"
+				}
+				{
+					id: "400AF1B809EA1BDD"
+					item: {
+						count: 1
+						id: "deep_aether:stratus_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "40AA5467C84F902C"
+					type: "xp"
+					xp: 350
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "deep_aether:brass_dungeon"
+				criterion: "kill_eots"
+				id: "40E45981C2104E3B"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"40AACB4577F3D5EB"
+				"401CF9AF56F01343"
+				"40DEB2DB8508FE06"
+				"40F7F648E4C62FF4"
+			]
+			hide_dependency_lines: true
+			id: "40CF7DEF743EEA58"
+			min_required_dependencies: 4
+			optional: true
+			rewards: [
+				{
+					id: "40631DED75BA2225"
+					table_id: 4632065629285920761L
+					type: "random"
+				}
+				{
+					id: "40ABF0AC719D8332"
+					item: {
+						count: 1
+						id: "deep_aether:medal_of_honor"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "402A733DDBD7317D"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "40BE9803D1F05F26"
+					type: "xp"
+					xp: 800
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "40154F9D57DF9F8C"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 2.5d
 		}
 	]
 }
