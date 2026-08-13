@@ -42,7 +42,7 @@ hash = "833b5fdb1d0c6558643c582731e9aaab0bacc8cb1250fa79ef7bb0b1c400cfb3"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "9537336bbec9e5316ea143756294d6c546ed405f40f2df9fb2f0de9661da5d32"
+hash = "2561652df4d08dfc405bec1363ab2b6ae49a4b3fa79815ee154b328e3b0ae9e9"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -54,7 +54,7 @@ hash = "517861ad26cd6096982477a0fedcac11cc850ca06a543ed6f8b928a5440576a2"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "236894d4eeb943d37633dff03e907b3f33c90bd64ee1acb5a3c7c814a9f9976b"
+hash = "27950d63c983e54cbc0c8b808a27d4f80dd828ef6378c11d526913d8c0aff2d9"
 
 [[files]]
 file = "config/rctmod-server.toml"
@@ -94,11 +94,11 @@ hash = "44208874f05c57d50a389fb36036a3aa89cf45c5de4597cdb898f36e1ea3ed0c"
 
 [[files]]
 file = "config/starterkit.json5"
-hash = "59f438a6e1982085656b80f626c075e68278f56e98582b2daa8bdb4ed4bd6f9d"
+hash = "d6ddbc045fc70f50bb289f94a4ae6271a47eada03ac216d9d9bcbada67571b52"
 
 [[files]]
 file = "config/starterkit/kits/Default.txt"
-hash = "d302928bcb81dc2ba371580b1de7a588a60d7f9dc1c316df5010d42c98e786fe"
+hash = "99262fdbcce3d39d1bc8737505b3fb9f5601dec36e9a528af699fba1557f3862"
 
 [[files]]
 file = "config/supplementaries-common.toml"
@@ -222,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/almanac.pw.toml"
-hash = "19d6b20763edf0247e395db37d6e7e5b012ca063f5820c81a6330baff2218c4e"
+hash = "2ac186452593104500b1dc2d37c391106cf6c5b24353285e297ccdc4b71a2c17"
 metafile = true
 
 [[files]]
@@ -342,12 +342,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-counter.pw.toml"
-hash = "63a3ec5e1ac2cb333f12a5210b67b2a7e9fd616ce1168253299bfa6a0cbdb203"
+hash = "5298e216aa91dc3463ddd92d31b3b9fd43ee47d2b1ffce486ae4c725bfeec9ce"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-create-industries.pw.toml"
-hash = "f920f707995d836b8d0629910557b08520d07d38bf16076098c90a99ac714d24"
+hash = "99c910a53728391fed5f3c910d4c83259a217ef52c2ba3e834ce4edc1d2ea92a"
 metafile = true
 
 [[files]]
@@ -392,7 +392,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "10dd1726e2a62d3f47012c34ca273ecae0f49ffae09eaba380604c4f8f503074"
+hash = "4211dd9eed65d9599cb1df61f5db373772ed090aa837a17f2fb7dc9c46a8aa2b"
 metafile = true
 
 [[files]]
@@ -407,7 +407,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemore-library.pw.toml"
-hash = "b65f2b09d07b8db21de571c3353a8a2d3386aa0ee8b3f5abb00d736c3286910b"
+hash = "a8de1be5299864f8c593ec1f3fbb2f293d64e752b0efc929daef0e439792c267"
 metafile = true
 
 [[files]]
@@ -452,7 +452,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "baad81133f5263fb4a8f88a052847766308a5ce1a0bc3cc26db429564e3d5274"
+hash = "7eef521e8bf19da3a70e8a987c020257bbcf83c1a3b5b4477fac92541d334ec2"
 metafile = true
 
 [[files]]
@@ -572,7 +572,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+hash = "e66c8649557c5df5d660e64b635576f8aa836c05b14e915b8f4ae119c704d7bf"
 metafile = true
 
 [[files]]
@@ -637,7 +637,7 @@ metafile = true
 
 [[files]]
 file = "mods/easyafk.pw.toml"
-hash = "c71f8fe0b5f6a3306b340065e23b558089e5a2261fb00f89d953280495088dbc"
+hash = "c0f8e83fb97a5d7686ad2553ca64d404ff60dcd293f998c24019869b133ed888"
 metafile = true
 
 [[files]]
@@ -662,7 +662,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure-polaroid.pw.toml"
-hash = "b40cc00f088d863533439e8c16b6b9faa01b5b25ccd6fef7ff255fc3aafbc3a9"
+hash = "07e057413d349b3c4f1493ba79a9c41748a1b02b48fc0231944233f02c486506"
 metafile = true
 
 [[files]]
@@ -747,7 +747,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-obliterator.pw.toml"
-hash = "7cea606e8bf0406c38b43117653a2a0a10ca433b7a292f27798e7d7801d04c6c"
+hash = "7fa54e7e8dc7490eeb958d029971d7d96e84b2cc21098b67122083a9df09e27b"
 metafile = true
 
 [[files]]
@@ -817,7 +817,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmd.pw.toml"
-hash = "edc75ace846ae34c1cb4cf4a44106e1fb035b1eee0432765a716098c9a4b5823"
+hash = "4656b6a7e50d6590335c3d009994485da8619449a3c78d61bf53965c1ef57ddb"
 metafile = true
 
 [[files]]
@@ -877,7 +877,7 @@ metafile = true
 
 [[files]]
 file = "mods/necronomicon.pw.toml"
-hash = "8a47f450836326fbab861a04677dee883bd01f7a34990b7a50336cb93cf64f3a"
+hash = "01d5228165cb9cfc44720d60927854569e0b55f925b395adc0230b310ee4b519"
 metafile = true
 
 [[files]]
@@ -897,7 +897,7 @@ metafile = true
 
 [[files]]
 file = "mods/only-hammers-and-excavators.pw.toml"
-hash = "f2b7a9fc939bf99d26008ef2299888b47c455d12179c8ecafaafcd5d89d14bb0"
+hash = "59bf81073f159d7175b9fb92b4037c2e649af0d1a48a61d592458e7d4e733f34"
 metafile = true
 
 [[files]]
@@ -1077,7 +1077,7 @@ metafile = true
 
 [[files]]
 file = "mods/starter-kit.pw.toml"
-hash = "e2dcaa6ddb7112eed2cd97fa1e7084108d7095fe2fea04fa45d9ff305312c655"
+hash = "afe1935ad353cf8fe41d4baab75c29247451d79a2398cc412d98b033edb48f24"
 metafile = true
 
 [[files]]
@@ -1102,7 +1102,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "fef2f8085bbdf6d398b02c87225ad9ccf9cc5d71edde13cd18e12a154764c84e"
+hash = "6f23a06a8501ac28110f8270c4b6a56eb6439ba16cfd1755b0a8b741c24ff36c"
 metafile = true
 
 [[files]]
@@ -1112,7 +1112,7 @@ metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-hash = "81c5c05f9ed4c07b9f027ff6c421939bb04e476075091f135d34aaa05af1f950"
+hash = "1dbfba98ff37a2664c26107ad5e8c0f4bfbc972d3d0be95352abb48d8a9991b3"
 metafile = true
 
 [[files]]
@@ -1152,7 +1152,7 @@ metafile = true
 
 [[files]]
 file = "mods/visible-traders.pw.toml"
-hash = "bbcb54d5fbdd84fbd3ff55557c754c820b07d97ca33fa3dfc632d954d602ee46"
+hash = "28aaf9876d584a8c921bdba6f73e2aa3f7437677059fd606af10ea30958d3d4b"
 metafile = true
 
 [[files]]
@@ -1172,7 +1172,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "08d4775f8546564ad812b09062633ffc48f44b76328efe3832c021651af86b14"
+hash = "f1670113ba6c7687790c33c13521505caf0fb59a50a253e9533e9f6ebe3cf8c9"
 metafile = true
 
 [[files]]
@@ -1255,15 +1255,15 @@ hash = "9f36eb59897f07952619c1e72017551d383f5dc037f1b7924d0647934e6d47df"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone.json"
-hash = "a67febb27f217d827c1183b4c043e4c73081170157cdc6311e01f93c92a8f7e4"
+hash = "0f97b114470b762acc70331d947a296dc8758e1a9cb5712867c2d087f4ef65cf"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone_create.json"
-hash = "f49366bd2504854ea3fb4e6c9d96b36b62035722c3ed1ebb5f6bf80f0bb6df50"
+hash = "21b17c9ed2db1fd58bb6f3481704bff4accb89f0f69208c985a5555ba932c9ea"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone.json"
-hash = "ce81277f50e899df9ac46fd8e15f228952474ec7ece8126aa7d071e2f6bb6021"
+hash = "53454c6cdd635691e4b81393e47d3d2df3232413887f1c2121bc5d1c411b0396"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone_create.json"
@@ -1271,19 +1271,19 @@ hash = "ed7b2a8e3dce21c69023fadd036d862b8093988cced0c6564f5ba7c017e3d7d0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/brown_smartphone.json"
-hash = "485b9d21bcdde712c845b332011590787cec86cfd7c7e7b57108ba9e4fe93c67"
+hash = "2cf8a53b27fbe2057d1127dd13051948f9efac328e6b0138d4d36edf0070c429"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/cyan_smartphone.json"
-hash = "c6667f69e15c5213d9f53d0408301dc1b331ff3e298b0b308ff7e095d1affe4d"
+hash = "5e0b43877b78cf27eb3d1e970133a165240d0b8e5c4b6e8a90ece889452cbb50"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/gray_smartphone.json"
-hash = "34502fb18792f8296d98ec26c3e6493497304425220f963ee7c5fac356a3fdc4"
+hash = "b0ce374a59d3afa82d282d058f6d9f3a167d15487212d39ab3d5717c7f1a20ba"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone.json"
-hash = "22ad8f3ec85a1d8f3775870853e19bfb57376f07e6a7d93f91dbe6b947082833"
+hash = "78cd013c77693a5a0a8b21304d6e737ad01dbade13d03101fc93fd3d17f8aaf3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone_create.json"
@@ -1291,27 +1291,27 @@ hash = "a8bbc689df0f06ed4f9b30b1e00dee62e14ceff8566873f26f911b7b9db02680"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_blue_smartphone.json"
-hash = "e538c78e7706ec2f202e370a3ebc4bda5b3b9d8d1bf5c0164082a13def4858a4"
+hash = "30d061778d9828647e18911ec2e44a48e8481b0012cc839f26dfa124d5a48cbe"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_gray_smartphone.json"
-hash = "c54e79a62ebdda70b3f58cd452485420fbe8140db662c609155ad30c83b8a6d5"
+hash = "cb5a059a926e03d3805390c6600f5336b26dabd7cfe3105dee3dcd4d28fd9b2e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/lime_smartphone.json"
-hash = "1fbfd69c217b8c051d689590a7c74bb7864b04848d5e8faa87bf86e0cbaef7f0"
+hash = "fdf16a4e9a313aa609414c84f2989e500d0034220f9a06f83002c30da7a1f2bf"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/magenta_smartphone.json"
-hash = "2b077d3e03030d9fe85c8ef961f311576f4fa3a25a7d127bc77b0e3c9fb31757"
+hash = "7b416be3c09a44c5b634da3f2e991e8905bb1f87c346e11073c445e8b5e50093"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/orange_smartphone.json"
-hash = "97cbc430bd1be711ab60b29146d454dfede1b2365addf5b6a863b5cd721d6653"
+hash = "24b5f8d751f49391964f0966c51d313367f88568522b30be98b843cfbcb32bdf"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone.json"
-hash = "8c0c2531d5c6770be2dd7c2c1ee641848cdc11e95fd00f461ff63d890b00592a"
+hash = "7b172f4aacd06530d7ff2f1c6558823bad3a917076d48b44d8c8e10d3a8b6e20"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone_create.json"
@@ -1319,11 +1319,11 @@ hash = "829f4c4774649c56d925338176f06e8cdb9b9f4e5bd3bb9bf1f9922cbcd6b17a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/purple_smartphone.json"
-hash = "c9233600181400d1e9a4a1fbc60889cc620fc95ba5027244a0b034bf8b3762e7"
+hash = "d2caf06a119570527aae2e6492f213556f931912284025dc803b605a95b3e9ee"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone.json"
-hash = "57c4fcef4f1368cd4fb0b6f9de6ec8bccb280d0429b9591106cdde2a7835c68f"
+hash = "cbf308116e61d416b2d338484b35f62b1b78d29a4aa030cd466bf8b798222b65"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone_create.json"
@@ -1331,7 +1331,7 @@ hash = "56d9b74dd0a2db8f9327c96fcc18038e89ead1ed795b08ac0c6f2a3d2a0e3bab"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone.json"
-hash = "048ac6d0bbbc3e5d977004f85663f3f87d2ca55083c0d064e46050861b2a6895"
+hash = "33546658f9a10a67904ca84a6e47837cfdcdfd478501e97d9eca800a26091449"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone_create.json"
@@ -1339,7 +1339,7 @@ hash = "0e569b7e05adc043a3c58ce34d8476f32b10f15726ff0c6c520c4e9d2696b45a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone.json"
-hash = "147499684d3a0e03747dea1a57e9330b7f1d1593f4b922bd5b6d2d0555093cc0"
+hash = "7c8a2fef532fb8a0d998f7e7b74064ae4d547e467878bba176706efc59b6812f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone_create.json"
@@ -1347,19 +1347,19 @@ hash = "22fc5b0a056e397d87fcc6430ed66dbed5a1f1584dd9749a31f9ef639995e939"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/compacting/aether_ambrosium_block.json"
-hash = "59811909a42772364ed17814a26f5bc58a2b2ba9ecd9f7f8fa2bda05abd4d57a"
+hash = "168fb860f0f006bff37f5a83f42d8c0a41a4e96930697d52d36d6fcb2c3cfcf0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/compacting/aether_zanite_block.json"
-hash = "06cedccd52b2d6bd728e86cbf3b4f0bf5855fa76d3dfd61e3e72a96b3b454a7f"
+hash = "7ad79deb27f8a0bb8cf8618f5911c5b3ec74c960e31a4dc5110b6091b544af5b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_ambrosium_ore.json"
-hash = "63ea4d210d6dcb6d453347155f2eea8df6203c9dd95b74ad6457a1313ab813df"
+hash = "e1ab4b3a86110242d28bd1ae8a9fa45cc4c07ada4ff344b97a558803c858411b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/crushing/aether_holystone.json"
-hash = "5c974b0a69bdb198b425bfc392c80ee38f80c83ef40aaba8855cea3a64f9df07"
+hash = "37186a499528869a0ed0035da2506a4af0e866f9a87ee798b34ae0675c818027"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/blueberry_from_poison.json"
@@ -1415,7 +1415,7 @@ hash = "82b5f581f6557ad8bb2988f6dabf8131785c0d2a743d51b9305c576d49c75983"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_from_water_bucket_freezing.json"
-hash = "755e75ef8173c47b844a076f6801b39ddad54d77e91062f9013c5ce6c2e0db3b"
+hash = "7d0bc1afdc01b6db4ac163f229d3b1259d0724993b56d45535ff6bd3290b7932"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_pendant_from_freezing.json"
@@ -1427,7 +1427,7 @@ hash = "4090578970049b156ce15abbd2245887f70d8cd446d0981655f031244a513d8b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/obsidian_from_lava_bucket_freezing.json"
-hash = "1f7e5c5cb0088729bc4a8eb8daa446d6c44c859ae941770c9880a03c2941dadf"
+hash = "9df6aa4c98ffb90ac60b907644e92f672f6fa72c5be5c6e423048193c744216c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
@@ -1443,7 +1443,7 @@ hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/asurine.json"
-hash = "afab7dcd25f62e164a183e3700e681345f643c83cf8f417a26b2ac54c74782dd"
+hash = "d40fe74a53ff977d788654c74d6f389c1b4e072e1ef0d90fae98142ef9b36ecd"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/clorite.json"
@@ -1451,15 +1451,15 @@ hash = "21fe1422ac0b04d091c63c5f4ade76d28bdfdcfcccb4e0eb1c6e187fded6515e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/crimsite.json"
-hash = "4f00c149695115d95c9ee76f7e30dfbc05f18970df20b76e77cff7945d6e35eb"
+hash = "e94ed2947e14a9730264c7ea44f163d2fdbf5d4a0a665539417c1f9821d617a3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/dripstone.json"
-hash = "93d126d3f95f1abc9527ed32268878a3cf8af74fe4fea01e455763d01b97eead"
+hash = "246500977bc6fb02018a2328ba1636b5b619b7945569ab0ac5c0ffc73703d38d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/granite.json"
-hash = "a4f6e1c02fda011a447cd46e8117c42a6bd3ca55807ec8441b8de75ff9074421"
+hash = "bc5df60f2e90e333535872daba496f987a37b8ae6eace051e20ada2bb108f21d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/highstone.json"
@@ -1475,27 +1475,27 @@ hash = "f18ff4973d0e9bc64edd3fac8b364671a13cf8db17226f9b4fffc55dfd14823b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/limestone.json"
-hash = "4be95e5c0d0068e0ff6f2f2d4d6b63983894bf4cdea63cf97992c4e067ef2f28"
+hash = "1cb6c364eac090e02eb73d42794f07eb85e164d85bbbf58b4b5dd7a47dc5083e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/ochrum.json"
-hash = "01c96c3b98d94bfe1c621fcb444a2474c86c97b5c864ea19c23f06aa684b05f2"
+hash = "10bbe6c3a46e1ad953080a882e497fa6a12a489110c09380802d41a401b09bc4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/scorchia.json"
-hash = "2b391b3fa4819fe40c66674a39de462c1d34d5706b8672ddd4db700fe9dbf480"
+hash = "ff09df8f7347e8337639557a83dcf3abc7a3d549a8be49459b820b7c7609d781"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/scoria.json"
-hash = "5c5713d96ce9d8bc57a29498060e405cdcf72f2a1b950408259db468e5979cbe"
+hash = "0f0cc8fca4b0981d3649fd105b3a46ab2dbb516ed2596e5ffcd0ace6650a4861"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/tuff.json"
-hash = "781c402011f64a8d0ee66f776aef4a75b187ae2f563293ca55cb31f99574fa0c"
+hash = "3d5add794be465fba9197abd8b7406f3a781614224ae56bafe8c8b8012d6c4ee"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/veridium.json"
-hash = "bdfe4430f89d00ca75f01bb54a94c5e165ff07b7c7ceebd20a94a0f4a7bb2118"
+hash = "d431ed9d251641786f2ff7b232546225b51a951a84bec2018d8146073a309e25"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/crafting/chunk_loader.json"
@@ -1523,7 +1523,7 @@ hash = "a5fc728789095f8b2c97ca3b9c9cdac08dd9baf60a49bf3783f89c241625d16c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/charm.json"
-hash = "1201b849ab68dd3bddb5cea8bed5c0e7c46b2f2cb59d824df7f7acaba92cd66e"
+hash = "79a88c7cd27c0a36cb9a994afe2bb89d6c84248b8a8f8ae2179cb8a87c1cc7ce"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/head.json"
@@ -1539,7 +1539,7 @@ hash = "690b105c8ec3214f3fed404d31fd37157cd74c3cb20972681694f99d9b83e0de"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/enchanted_golden_apple_create.json"
-hash = "88b59a2a31eae78b015575a39dbbdbe9e03f0916ca6e5e812c89bb580464abde"
+hash = "860a7ba9340285e78c03297627bdb1898a02bf7aa8390e0eae9a100055385204"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
@@ -1643,67 +1643,67 @@ hash = "c9689abf3cb4cc3677489f7b6592eaa6163bc28998a426d1ce0f9d39ce3ec05a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_black_smartphone.json"
-hash = "4816c992bc42ee99dd3deba8605b2c0755cbcd64afea1423907bf7c3fda89428"
+hash = "e389eb047444fb668f2b9eeb06ba9918694f650527ce8c97bd2f2ac5d165f083"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_blue_smartphone.json"
-hash = "02e2b2a8ac680bc5ee98fb431b734e732f140d5b7769e964f57e785a7bd44c5d"
+hash = "e3cc4c7e3f27a10e96e29b9c39a3bb415658cca615c864e85234068955997981"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_brown_smartphone.json"
-hash = "f6bfdbf4110910a915e5056b79aac704ca179f3ed8c6e4110c5cb7e5b8161128"
+hash = "1712a64f5c494e5f40219d1f0939c50207f4aaf5699d5fbf353341c8f3978f99"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_cyan_smartphone.json"
-hash = "aec319016abd389e8440df930844cc9727d03612146d648d8253b038e98d27a8"
+hash = "e28381242223cf62bee9f282c6cf18075c857ca47469070e86bbf5c5ba9fc252"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_gray_smartphone.json"
-hash = "c5949e25f1be845600d8bfe4bf12534e557b90a8a79af066dc1bb06c5c6948ef"
+hash = "649f838712d711a8789363593563f738dd4eefa08237a870b99c856ceb74c414"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_green_smartphone.json"
-hash = "fb65266f8851e9190fce6f6b84565fdcb17f645afad6b83162d887a2bb6e510d"
+hash = "dc44704a49fb874ccef6b8992b57e1e90977cfe7260a1ced8ff0655e8765b802"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_light_blue_smartphone.json"
-hash = "b9000d4c58d019ae71fd5dd71ed5b41b134418b0040e480fcadd4e5d1ac5cda8"
+hash = "521df3ecab58d8ac1d7baae81919c8f4a52ff35d568f35a4fccd253b474b10da"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_light_gray_smartphone.json"
-hash = "a3834ae9b56c9edcb508a2b2880a3932234cc998e901c20264877fa3bd90c0d6"
+hash = "bdb58dc6d3fe463522e651cdeed9b1516db895a8d89385a0927c45a226c48080"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_lime_smartphone.json"
-hash = "c2bca3eb17236b651ef5511915a60bedb5716981d5e2b1bc857423c56e36559a"
+hash = "f66e15710c8bb54612d3c71d847ee835c1a1d3f44bb320c0fafc853935adf179"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_magenta_smartphone.json"
-hash = "d209bc8f4fe023a34198b520001036df9cd5c1d4b7ca0c7dc85991d65da6fd8a"
+hash = "5edf6276c57dded48b7dfe911b1405edef5c88019f9fde9cd296a543c0c46af7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_orange_smartphone.json"
-hash = "15e037bb372cdf831f4127b9566541df7e5b9912f24458f0dc7e9bc10c3af8f0"
+hash = "10a5034f2242a32c90020dfa6596c3a80c3dc61c6ce5208a3051109e0cfb33b2"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_pink_smartphone.json"
-hash = "fae6f2d076f53f43f580bc425feb124efb816906c635b734a0d7ea695ea7807d"
+hash = "ae9e47d796a9d55dae5ef5fb7d2e0783891bb199644218833faa7cbb39f2adac"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_purple_smartphone.json"
-hash = "052f1fee32529bb3a49484baf0e719af0fbebf64510f359558ba7605b333a82b"
+hash = "1e87048097f055e5704a5f23029cd201dc1541fbeefb2da3c3e25c6d1e588b9a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_red_smartphone.json"
-hash = "81580018be2431f20c21c587a9fd8fa9fda64c7b89d2615375e2a376a5410df4"
+hash = "9f3231bdca16f4e36bb18d403d44bd6b7fd448e79af2488c496519f58cb399ec"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_white_smartphone.json"
-hash = "369a36a14e0ed427a889766d61fc82a9a34e6b761e0ef58f528c14df824f1cb8"
+hash = "f65206e6a8cc803d88ae25a2cfdfcf5e691366352814f65853f97a1f4c5dccd4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_yellow_smartphone.json"
-hash = "202af94bc5d28b39eafe0e133d18a3dd678d3b951d92eae03357beb9f5b22e40"
+hash = "05941104959b7791e42a89b46d2a98d3fe83bd6d19c363b9bb2fb6f888446782"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_crafting.json"
@@ -1899,7 +1899,7 @@ hash = "a26151838846864431106fe250d73d936a99b48e488d74ebdfb199b04ad41a23"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/rare_candy.json"
-hash = "591b1ee8e3addb41fc48ec43975523d9359e9ca9ae13cae86ee531b3a84e15a3"
+hash = "e923cd3e081158fd0ad4623163c3740d68cc27ee1562132b0f3846aa4d9c98f0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/shulker_shell_crafting.json"

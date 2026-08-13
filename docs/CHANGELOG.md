@@ -4,6 +4,16 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.9.1] - 2026-08-13
+
+### Fixed
+- **Server crash loop (StackOverflowError on container close)** — Item
+  Obliterator's `blacklisted_items` mode removed items from chests, which
+  recursed with Lootr's per-player container handling and crashed the server
+  tick loop whenever a player closed a loot container. Moved the blacklisted
+  items to `only_disable_recipes` so crafting stays disabled while containers
+  are no longer touched. Server only.
+
 ## [1.9.0] - 2026-07-17
 
 ### Added
