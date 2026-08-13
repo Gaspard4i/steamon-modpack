@@ -4,6 +4,10 @@
 
 <p align="center"><em>Tame Pokémon. Bake bread. Run a small farm. Build a railway. All in the same world.</em></p>
 
+<p align="center"><a href="https://ko-fi.com/gazai"><img src="https://img.shields.io/badge/Support%20Steamon-on%20Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Support Steamon on Ko-fi" /></a></p>
+
+<p align="center"><em>Season 2 and modpack 2.0 are in the works. If you would like to help, you can support the project on Ko-fi. No in-game advantages, ever.</em></p>
+
 ---
 
 <img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball01.png" alt="Poké Ball" width="72" />

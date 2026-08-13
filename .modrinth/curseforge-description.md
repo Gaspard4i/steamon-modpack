@@ -6,6 +6,8 @@
 
 *Tame Pokémon. Bake bread. Run a small farm. Build a railway. All in the same world.*
 
+**[Support Steamon on Ko-fi](https://ko-fi.com/gazai)** — Season 2 and modpack 2.0 are in the works. If you would like to help, you can support the project on Ko-fi. No in-game advantages, ever.
+
 ## About this modpack
 
 Steamon is a cozy Create × Cobblemon pack, made for calm and unhurried play.
