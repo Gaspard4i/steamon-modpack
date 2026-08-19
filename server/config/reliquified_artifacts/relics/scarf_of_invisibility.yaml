@@ -1,6 +1,0 @@
-abilitiesData:
-    abilities:
-        invisibility:
-            maxLevel: 0
-            requiredLevel: 999999
-            requiredPoints: 1
