@@ -9,6 +9,10 @@ file = "config/almostunified/unify.json"
 hash = "e12ddcc0bf6d091527b97a1ad42effe4d2cf9ad40112c94c0dc9cb9acf525686"
 
 [[files]]
+file = "config/artifacts/items.toml"
+hash = "31a205635a38df41639994dd9c54d8c302f81f5d128e10cfdf1e32fcfeb03dea"
+
+[[files]]
 file = "config/c2me.toml"
 hash = "9d91504fd66f3eed5dfb1e1a421b4ccd5ee4f72f0eeebaf01115217116dc4835"
 
@@ -299,22 +303,6 @@ hash = "1acb23280534def421d69c3da1c5e7b765ce2e1587ea1887b56c32f8c92aa802"
 [[files]]
 file = "config/relics.yaml"
 hash = "e8484e4ae68716569c8428d82325c08f87a2e0daff38def75af8d3585cf61ad3"
-
-[[files]]
-file = "config/relics/midnight_mantle.yaml"
-hash = "776be2e7162521c3fff5d9bcdd411e00f34ee0fe523273bb6f1d106dddaba528"
-
-[[files]]
-file = "config/reliquified_artifacts/relics/eternal_steak.yaml"
-hash = "0b88cdb6986fb20d6bdd9a30be7979073c1a376dc50e8de1cc18d5b96212d9b5"
-
-[[files]]
-file = "config/reliquified_artifacts/relics/everlasting_beef.yaml"
-hash = "25074a812e04a5dbce43b3bcf05ba2dc0aba7d6f16e06bb3af701460524aeff0"
-
-[[files]]
-file = "config/reliquified_artifacts/relics/scarf_of_invisibility.yaml"
-hash = "776be2e7162521c3fff5d9bcdd411e00f34ee0fe523273bb6f1d106dddaba528"
 
 [[files]]
 file = "config/server.properties"
@@ -610,6 +598,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
 hash = "6507c6d3cf3218f90d7753f8e3d8233a540f63cb381a00024f1d0e79bdc16531"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-cards.pw.toml"
+hash = "e21324469b76de636727d4a254379c86230ba9d05a2202e135233da1800ef1f5"
 metafile = true
 
 [[files]]
@@ -1140,6 +1133,11 @@ metafile = true
 [[files]]
 file = "mods/maintenancemode.pw.toml"
 hash = "e6518e53d3f55ba3f10cd68d9334a9b58fee3228da6ab00d408c4f44fe0423bb"
+metafile = true
+
+[[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "73aba17132f267dd76ff682aa84abfb7c09d25a93b9220ee261a1e25337bebc7"
 metafile = true
 
 [[files]]

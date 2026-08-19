@@ -1,0 +1,13 @@
+name = "Cobblemon Cards"
+filename = "cobblemon-cards-neoforge-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9asBGJMf/versions/O1OunsSQ/cobblemon-cards-neoforge-1.0.4.jar"
+hash-format = "sha512"
+hash = "b4af9b5758b3ec167bb9e4754d52219fd7cf3685e4353e42a860ee497842ebfe3f9d302d0afc8cb17ba480dcadeb7a18beee7b50846d397694007872a6d2f3f1"
+
+[update]
+[update.modrinth]
+mod-id = "9asBGJMf"
+version = "O1OunsSQ"
