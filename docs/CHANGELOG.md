@@ -4,15 +4,19 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
-## [1.9.1] - 2026-08-13
+## [1.9.1] - 2026-08-23
 
-### Fixed
-- **Server crash loop (StackOverflowError on container close)** — Item
-  Obliterator's `blacklisted_items` mode removed items from chests, which
-  recursed with Lootr's per-player container handling and crashed the server
-  tick loop whenever a player closed a loot container. Moved the blacklisted
-  items to `only_disable_recipes` so crafting stays disabled while containers
-  are no longer touched. Server only.
+### Added
+- **Two new gym badges** — Ghost Badge (Gym 3, The Ghost Castle) and Dragon's
+  Den Badge (Gym 5, The Dragon's Den), matching the new gym leaders. Wearable
+  in the badge slot like the other badges.
+
+### Removed
+- **Item Obliterator** — removed entirely. Its container hook recursed with
+  Lootr and crash-looped the server (StackOverflowError on container close).
+  Everlasting Beef and Eternal Steak are now disabled natively through the
+  Artifacts config (`items.toml`, `enabled = false`) instead, which does not
+  touch containers. Server only.
 
 ## [1.9.0] - 2026-07-17
 
