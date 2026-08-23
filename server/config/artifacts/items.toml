@@ -1,0 +1,9 @@
+[everlasting_beef]
+	enabled = false
+	generateAsLoot = false
+	dropRate = 0.0
+
+[eternal_steak]
+	enabled = false
+	generateAsLoot = false
+	dropRate = 0.0

@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/artifacts/items.toml"
+hash = "813f436ea32b909cf467e5ba2f5b673a36b2c8dd73c3b6775542a6d96e242ea3"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "79eb88fd1d4c784a5c8caf78cc996a60612ac121eb655518652eff13d5de33f1"
 
@@ -10,11 +14,11 @@ hash = "459679c29149e80dbf5113002b4a506c67083a4167468a7231115e86b9605ba0"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "b3a75deed8723b8bf3dbbd59d65bedd21dfa841ef1035d157abfee2b84c077e9"
+hash = "ebacaf6b9c9b11ba41b092ed8b6b4638f57ab59bddc17328fbcfb5d7e081f196"
 
 [[files]]
 file = "config/createnuclear-common.toml"
-hash = "25ee5f0182c77b9710f8f2a63440c42af73dfc3a9ad87bf537a49d90557dc795"
+hash = "6bea31e9e6a252960b0e1a5b63372183bd870101e69f644fc62c34e9643025ef"
 
 [[files]]
 file = "config/fightorflight.json5"
@@ -34,15 +38,11 @@ hash = "427bdf6725b448f596e78da5108e5ae06777e4b7a24732f2e1b63621d62b1322"
 
 [[files]]
 file = "config/incontrol/spawn.README.txt"
-hash = "623cdb8a59a1d77cabadaa5dbad53d0b6ae764be3941c229f988a418bd4706ef"
+hash = "c365690e087ee0f013b3258e291a6c7e566f1abb4881cda22e8d91a165500339"
 
 [[files]]
 file = "config/incontrol/spawn.json"
 hash = "833b5fdb1d0c6558643c582731e9aaab0bacc8cb1250fa79ef7bb0b1c400cfb3"
-
-[[files]]
-file = "config/item_obliterator.json5"
-hash = "2561652df4d08dfc405bec1363ab2b6ae49a4b3fa79815ee154b328e3b0ae9e9"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
@@ -74,15 +74,15 @@ hash = "94624c3276d85a7b3714b2345b119ea68918ad06556c465a66022bd2488ea3ae"
 
 [[files]]
 file = "config/server.properties"
-hash = "5f8ebee13e8a01995fbba11c8bef558c86ef3d7d63821a422611e8129d850281"
+hash = "f52930f098645c18fdfac554d20ee256e4686008af6cbfdb5c208510004e0c52"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "75ebc2e0f0ddce2a77b896015fc36954a67528db8219941c428408e6c78dfd77"
+hash = "2260580f9fe25aa5cde7f039ebbf2deaba688e4667584950594541ce4cc22992"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
-hash = "90a3da935e89208bedba12ffcd243951e1894fd0ba316d37ce80b853949de4d6"
+hash = "6d5d7985f17aa39d844c5ebcc9bee088c26c32045d83d118578143d914cb2ea2"
 
 [[files]]
 file = "config/simplebackups-common.toml"
@@ -90,7 +90,7 @@ hash = "6c37368cdba3b5297d8315f7d894b60a49b8569b638924b124fe9062f622b2bf"
 
 [[files]]
 file = "config/sophisticatedbackpacks-server.toml"
-hash = "44208874f05c57d50a389fb36036a3aa89cf45c5de4597cdb898f36e1ea3ed0c"
+hash = "c77ae0c3be4876cd5b693d8d80e413e8d6fb3027695a3b672c2ace31605f9b55"
 
 [[files]]
 file = "config/starterkit.json5"
@@ -110,79 +110,79 @@ hash = "b56d72022fdc49d98ad55fdfe0650af2e0808404af1baf25397363d5af9c00b4"
 
 [[files]]
 file = "config/unchained.json"
-hash = "9881b80b2fd6a1adb0bce8b5ff25c1aa5b9f63ad1831c81e0a388c184109ec8f"
+hash = "f9aecab21113e4a4f04f793ad4aaba705210d0002dc2bcdc82aea248b65332d7"
 
 [[files]]
 file = "config/unchained/capture/hiddenCaptureBooster.json"
-hash = "977bd7ed875750422f301c0f6d8b4cb627dab1812cc2ffb302e93522f4d1284d"
+hash = "e718514c58c276d7d5b1733108e55211ea906ca3cd6436bc0c30bdfe140263ec"
 
 [[files]]
 file = "config/unchained/capture/ivCaptureBooster.json"
-hash = "02384e4c055a825ec3a33212363ce1e86ffd12e34c11a2b48595ee451c6ab60a"
+hash = "eaeabfaa1eca697b023d30291f6b2d369c0e8d0c955fd28992a826dad77b2145"
 
 [[files]]
 file = "config/unchained/capture/shinyCaptureBooster.json"
-hash = "e0b13804246a8a391eedd419b96fb37c161d7e629e650f6b84994a083e181afa"
+hash = "c939ad048d3c516c7793b7e636bfe97ed08576033e05a6d312464134b45cde08"
 
 [[files]]
 file = "config/unchained/egg/hiddenEggBooster.json"
-hash = "3367fbe4e40e95f15d3d43a2c3b24f9d97a2d4405fe0f39f4d01a7b4407d4395"
+hash = "5edd027b547ee6f67e8ac5422805e19146076b652bfed47339194a7459f31520"
 
 [[files]]
 file = "config/unchained/egg/ivEggBooster.json"
-hash = "aa10cb87e463f41826332bf8e3bab949fdcb8967de1fe7086738555b24b4e153"
+hash = "51851a316160ce0241ab25f29b6df78feda5e4d369751f061d73f2b6c9663d2f"
 
 [[files]]
 file = "config/unchained/egg/shinyEggBooster.json"
-hash = "878a3f4b0aa3ac287877a0b6cf3728c4dd6659735a2287181471c31a354832d9"
+hash = "5bb5b53d7894588a3ec432b9f4a0f906d857324cf883ed4d3a12b88dcbaa224c"
 
 [[files]]
 file = "config/unchained/fish/hiddenFishBooster.json"
-hash = "4b14a090e0013457cd6c757193a9253a42bfdb72ed2ee6668e1149b241c5928f"
+hash = "8146cee4db681c2e3082cbed6a3d9ef188f25a5c923749babb96ff8233a5c7fd"
 
 [[files]]
 file = "config/unchained/fish/ivFishBooster.json"
-hash = "80c6ad90617277678b98a1d9cf237b4ac4b752c79f72f63dc8dc07fd9edfa398"
+hash = "22345fb67b2ba0378fe8fa28c8a9e31d1fec3babfb5c44f1d9025ee7df43e0ea"
 
 [[files]]
 file = "config/unchained/fish/shinyFishBooster.json"
-hash = "d34fafa509b65a2a8d484f9fc6681efa8c84254bba8f6120361732aca0443e50"
+hash = "dcde75ee51d86dcd8efc17e1c9dd1eede37f4a80ebabcc7d5a7d297c569df4e5"
 
 [[files]]
 file = "config/unchained/resurrection/hiddenRezBooster.json"
-hash = "5f8cafa4102800c5dc9676af0ac7d134df39ad9df34c6ae5647150034b119859"
+hash = "8ef987a5a3c99475439e118ddb17eaf12b4f6d7b1169aa1191d9230b5e9868a0"
 
 [[files]]
 file = "config/unchained/resurrection/ivRezBooster.json"
-hash = "34615c6cb166f682a17562c09ab4f7c15c9643554886f38de64a7124c2972c31"
+hash = "b5a9f1570cc232d55e53ae5c255bb1c35a80a66f54bb1698404559925df1ae62"
 
 [[files]]
 file = "config/unchained/resurrection/shinyRezBooster.json"
-hash = "e83e1c0d17f667608db33360ea3f1062bb511ec22fac273b8ba8c40b4c61b668"
+hash = "0aa733b0c3c31b0cb83e222f3f10896b4bee71bb7a2bb803d5252f5ba6e60a1a"
 
 [[files]]
 file = "config/unchained/snack/hiddenSnackBooster.json"
-hash = "4b14a090e0013457cd6c757193a9253a42bfdb72ed2ee6668e1149b241c5928f"
+hash = "8146cee4db681c2e3082cbed6a3d9ef188f25a5c923749babb96ff8233a5c7fd"
 
 [[files]]
 file = "config/unchained/snack/ivSnackBooster.json"
-hash = "80c6ad90617277678b98a1d9cf237b4ac4b752c79f72f63dc8dc07fd9edfa398"
+hash = "22345fb67b2ba0378fe8fa28c8a9e31d1fec3babfb5c44f1d9025ee7df43e0ea"
 
 [[files]]
 file = "config/unchained/snack/shinySnackBooster.json"
-hash = "9c632edb5e8b6f0438ae2cf3fff1fd8988e7355eca3ceab70a5880ca3882113a"
+hash = "ac621552eabf8b3aa030a776377d64ec9479ec7592b220025802b3d173ad9b33"
 
 [[files]]
 file = "config/unchained/spawn/hiddenSpawnBooster.json"
-hash = "4b14a090e0013457cd6c757193a9253a42bfdb72ed2ee6668e1149b241c5928f"
+hash = "8146cee4db681c2e3082cbed6a3d9ef188f25a5c923749babb96ff8233a5c7fd"
 
 [[files]]
 file = "config/unchained/spawn/ivSpawnBooster.json"
-hash = "80c6ad90617277678b98a1d9cf237b4ac4b752c79f72f63dc8dc07fd9edfa398"
+hash = "22345fb67b2ba0378fe8fa28c8a9e31d1fec3babfb5c44f1d9025ee7df43e0ea"
 
 [[files]]
 file = "config/unchained/spawn/shinySpawnBooster.json"
-hash = "9c632edb5e8b6f0438ae2cf3fff1fd8988e7355eca3ceab70a5880ca3882113a"
+hash = "ac621552eabf8b3aa030a776377d64ec9479ec7592b220025802b3d173ad9b33"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -194,15 +194,15 @@ hash = "3d10420414fc82871c355988cabd7577df6bf7efd5f4e6f4393ee723d2c6471b"
 
 [[files]]
 file = "kubejs/server_scripts/steamon_badge_equip.js"
-hash = "ab6224c2150f5fce0d9686724f3f7562513485f29f2ce95ef617d4539ad4a827"
+hash = "d25ccf320b0cfb9d26a7ca2bd484c2a6d6702e31124ecee543ad8c41d3d3e4de"
 
 [[files]]
 file = "kubejs/startup_scripts/steamon_badges.js"
-hash = "9c6af5662bc4eb393679da0e58adfd10787189d3714a41b522110b3b182643af"
+hash = "1f9a14c501f661e80d61e27b5ec93e30428ea5f4f5f1c8e5452f38196522e1bb"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
-hash = "c255cf4cd29718e3ab0a4c18df8bb7b626e0092c5aad7b4e67f34fc1ad4492f8"
+hash = "6ba88636519086742125d081931339f0da0ddb36802dbaeed365ab2a6d9018df"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether.pw.toml"
-hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
+hash = "79d3ade74466d9928ba01efbb31a9d953bbe4ddcf80b296895cd3126e3c84112"
 metafile = true
 
 [[files]]
@@ -227,7 +227,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "793e70a07961b1670ba13dcdfe2c1cfb1379df52485adc2d3ba5db128e9536a6"
+hash = "c3a75fb1c63d738ea680832592e156e27d7399861cf2363c3c9154961f661b67"
 metafile = true
 
 [[files]]
@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+hash = "6a9ca5c65d6ba60d1a9e5c8c3d9607fd70a6912dabe8f99cc74de4233d68108f"
 metafile = true
 
 [[files]]
@@ -252,17 +252,17 @@ metafile = true
 
 [[files]]
 file = "mods/athena-ctm.pw.toml"
-hash = "3434f9ec77694349b7b83e79ef179be25c8eeae83049a75d154098edb5a19889"
+hash = "bca42f8791521bdd560c33de6a75d7efec318f2334c74894ef6daa4fb17c73ea"
 metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "5906ab9415bb5d894dc41bc4b0035d3c22e261877cf8578c2c4c45af8b4bb159"
+hash = "e46e7896fbdedff148bf06a722b49989020917a63603bb27d9e20436bef31829"
 metafile = true
 
 [[files]]
 file = "mods/beautify.pw.toml"
-hash = "5e3421b58c8c905e686ed7b63d2fe086fe3265009347ca01aba99f13cb8edca3"
+hash = "12d9da5369e396109b363cca4b3b3c84bf59789a0e867c7e2ea7d7ca38528722"
 metafile = true
 
 [[files]]
@@ -272,37 +272,37 @@ metafile = true
 
 [[files]]
 file = "mods/berry-pouch.pw.toml"
-hash = "bb728d408e8be5bb10410622c34ed2fc0681b2d9f9dbe5dacee3d30b9369d95b"
+hash = "ae62db97b374f6dea3a0883374a3b28c5b68c29c138cd83a13dc2c59abdb776d"
 metafile = true
 
 [[files]]
 file = "mods/berryharvester.pw.toml"
-hash = "cd8450115156e357c9eccaabda05cc83f23780e88be02c810762ec5fc015050a"
+hash = "49ddca2dc50f9168d01214efae597873df40b099c3e692efc5730594cee1eb96"
 metafile = true
 
 [[files]]
 file = "mods/blocks-bogies.pw.toml"
-hash = "feb4efaaeaa4ee270d04de7f06e377ada25e3977649c7d6de227ea6338396634"
+hash = "2af32e76aaae426704855f2333d3c1937184d06c1aa8ceffb2d936535aa34791"
 metafile = true
 
 [[files]]
 file = "mods/bookshelf-lib.pw.toml"
-hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
+hash = "a6c72ca60e522692dae4cef8d5617b8104459daab8317c608d44c6412f708f75"
 metafile = true
 
 [[files]]
 file = "mods/brewin-and-chewin.pw.toml"
-hash = "0236c16fae038f834245ad6c9b05f385f75db2e82630bdbf71a4b1a2e6def57d"
+hash = "3c83bf841886ebf4b7d1787f11975af2bbaab25837992af06b6527fe6dd970e2"
 metafile = true
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "17cf45aaab6d4964d4d851cfcbe4b5e6db539a2329216392bec4aea1c90b83a7"
+hash = "e6b1bb5ed831dbc7136e0375d8fc4bd63f4b9de8af5ccfac0a5b2c7af7ad5300"
 metafile = true
 
 [[files]]
 file = "mods/chefs-delight.pw.toml"
-hash = "4c05ea60d85212e4737d23a4b5ee74659a37c7cb9d6ab54c71b2eca56ed1f58c"
+hash = "f97debbd4677f18328be093d0bc2a3e907a1b3c4a52fd3c314b9712f8a7a0f97"
 metafile = true
 
 [[files]]
@@ -312,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
-hash = "1575c645b68ae61e6848cc26ededa351235dd4bb5e58aef19b78c02c79afd447"
+hash = "e2694ba4f1e163a7a2755c7723d412fb8307a5b21c2281be4e165ea474268a93"
 metafile = true
 
 [[files]]
@@ -327,7 +327,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblefurnies.pw.toml"
-hash = "6beb1d27bf94f370291a868c5c5470eb6aaab5f9990ce5d66f3eba0ea4a3fec8"
+hash = "dc6536f2d75e469f28d40d8490601456f1663c8122c6ddf20147a2668e3e8da7"
 metafile = true
 
 [[files]]
@@ -342,7 +342,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-counter.pw.toml"
-hash = "5298e216aa91dc3463ddd92d31b3b9fd43ee47d2b1ffce486ae4c725bfeec9ce"
+hash = "63a3ec5e1ac2cb333f12a5210b67b2a7e9fd616ce1168253299bfa6a0cbdb203"
 metafile = true
 
 [[files]]
@@ -352,7 +352,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
-hash = "32ef82eeccc3950a9e83a811a593f8c4015c8cb9698b847da9ada7eed41bf92f"
+hash = "5092fc153c7cd268cd603736a6874ca14d159a2ae9ddbbd35a0ae6fcaef20a03"
 metafile = true
 
 [[files]]
@@ -367,32 +367,32 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-paleontology.pw.toml"
-hash = "253b37a03350bd94d8ce73ca366b4a5e537868b10f04a3fce9f8b0c2f56ec843"
+hash = "93bc92ccdbd1260cd63123b32d97680cbbe27c3ed42123fd4c5b49722c021700"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-pokenav.pw.toml"
-hash = "6dc0747f249a105ef38d1a75a74736ec276bbf791a5bafd87a47a93a23b25b43"
+hash = "9e4aaf381f3cf48370a385e9ef5c0482a6fd62326ba9a1226e9724cd691130a8"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-release-rewards.pw.toml"
-hash = "05142dd47018bfba35cb2345c85e1cbc442ed197145e5124e20ad6ba4d9fe354"
+hash = "42743647ad845a7c068fa3734f6ca220829abefe1d094486ec58c8086a575e39"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-safepastures.pw.toml"
-hash = "c9276959e9375f398c974b348a670447092647e206e100b681c14bc36faef738"
+hash = "9110d7f405b12f86f85de802e5dd7f92f9e29f3480b6542fed33274697068626"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-smartphone.pw.toml"
-hash = "615286e8ce0aa0a47b967d18534475cdd7239ca8e47adddac00843cd9054ed86"
+hash = "72534805b27c37ca0b0746f2726f203ee50031059ae46d39171306dfbc9e6633"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "4211dd9eed65d9599cb1df61f5db373772ed090aa837a17f2fb7dc9c46a8aa2b"
+hash = "10dd1726e2a62d3f47012c34ca273ecae0f49ffae09eaba380604c4f8f503074"
 metafile = true
 
 [[files]]
@@ -402,7 +402,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
+hash = "748f9d8851fd34947a3451579aed7f1ec026e4de62ae28227e5d226cc386f178"
 metafile = true
 
 [[files]]
@@ -412,7 +412,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbreeding.pw.toml"
-hash = "51eaca16f5120b750d8a67d42245e0599753d3874839267a4816387a4ae1ae24"
+hash = "3f92a2a02a8238273a6719e4a5a6d25c72ba0a7e521f7b507a361b1d1a08234a"
 metafile = true
 
 [[files]]
@@ -422,7 +422,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "e37aafe5cd58c8289c3b8929393cba2a5c7f2cdd5bbe01e9c6ada1f3f5b86436"
+hash = "b9f090265d23023e1aa37e52b96017d4d83546a7453b5cd561fd450d84e0dc36"
 metafile = true
 
 [[files]]
@@ -432,7 +432,7 @@ metafile = true
 
 [[files]]
 file = "mods/construction-sticks.pw.toml"
-hash = "2ba745596551b094106347e9a5898545c11eed25dd28099afd8b28a1c0b87a91"
+hash = "c2c3186ebff966b0d0530eae388b560cc707a721312782023694571522b53409"
 metafile = true
 
 [[files]]
@@ -462,22 +462,22 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "125fa69ac8e6e85c9d27a0ec13e575c09312c6e5fd2f97613fbcc85a19775a13"
+hash = "ac6365d8ec1f7980c03b8416313719c5d158474850fd8cf73ddff8a0b439ac01"
 metafile = true
 
 [[files]]
 file = "mods/create-cobblestone.pw.toml"
-hash = "42c1a422e697288fa65a78fd1aa3c88f9c5246fb61f95ba219fadb600ab18a9e"
+hash = "0a418c08d0058d3800c9d426845ed0566c26d8d2d2f5c1ce55e986640a016e1e"
 metafile = true
 
 [[files]]
 file = "mods/create-compressed.pw.toml"
-hash = "a946542ae4970e35a3f721b16872d2c66e62235778eb640c4102c1faaa008b3e"
+hash = "dd4fc2e22a522ae3b780b7fc997e25f65de2de07d773a483f0f2fdbd175b293a"
 metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
+hash = "ec2c12e2161e49513a78103d19d5a60cf618324557ee44f93d8c4dbae7fee80b"
 metafile = true
 
 [[files]]
@@ -492,17 +492,17 @@ metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "cab6f316cb4ef454bbfa18b32263c3fb7c246a0405a505611c1e36b5eabd48f0"
+hash = "be907681f0690825470dce93d6bf60ea522d357601bd9873f33023a169eee927"
 metafile = true
 
 [[files]]
 file = "mods/create-dreams-and-desires.pw.toml"
-hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
+hash = "a5e02bf9df4867b6bed019fcb015e9d2e7d15b60f8eb51691f4f8b6845a34bc5"
 metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "d6caec9fa4c1fdb3b27d6f68ff4197760fef9ae87eaa8bd57cd08e011af3b06e"
+hash = "6891900ea953806ffc65a6c70c476eaba27a5422e55740c4e05609565bd74143"
 metafile = true
 
 [[files]]
@@ -522,12 +522,12 @@ metafile = true
 
 [[files]]
 file = "mods/create-integrated-farming.pw.toml"
-hash = "a9b61f02176f8e0e1da5354fba2e17228b4f2d622d0f23faf195785af3fda018"
+hash = "c8cf457a3d70f54737b9aaa051595397c930537603647a3b177fdf891a2b189a"
 metafile = true
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "125550f754e447392aab3688e11652157296f53eac160bb62d1fbdca6c5af359"
+hash = "66a9feaf8af8d80b135a6cac85e47dce3f40f00ba24a2e74797ad572741b7104"
 metafile = true
 
 [[files]]
@@ -537,7 +537,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ochrum-recipe.pw.toml"
-hash = "99e263541b4f4b001c887839bf057d42e272f17770ed9794e6bb9514a567b1b4"
+hash = "899ec168dbe01dc0dd76a7b29b723a4146c4e6ef1f4a424c1f72e67f9c24044b"
 metafile = true
 
 [[files]]
@@ -547,17 +547,17 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
-hash = "7c9a7c6b0ba555d29cdff0c2874dfee7d1cd7807f084fcf08b3820b382dc3cb8"
+hash = "7bbffc2ec75a5e83fab07fa97d9bf444b66e8ebd117905376d6714936864a745"
 metafile = true
 
 [[files]]
 file = "mods/create-stuff-additions.pw.toml"
-hash = "17a87ed421639310e22a1e1d2b693dbe04c69282f2a083e030ee24f969e4b08b"
+hash = "e87e41d3be4c38040301135583fbb57e4097125f3411c74d3dd337ae2b244ac0"
 metafile = true
 
 [[files]]
 file = "mods/create-threaded-trains.pw.toml"
-hash = "cc05bcaec0e857c6a6f7de4bd09a22ad195b5b77a25e4adfe737915ac3be68db"
+hash = "648e315d8dbe96394032e1fb133bf640e9cc28d123664cbcb39cb0a550372afb"
 metafile = true
 
 [[files]]
@@ -577,7 +577,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "350357b34feae2f0971d114ba856e4915e508efec110eea5ebdeac419d515e08"
+hash = "9913aa296e079ffcb8bb549a72fb7eb2139093eee86475b2febfdc03b464ff6a"
 metafile = true
 
 [[files]]
@@ -587,7 +587,7 @@ metafile = true
 
 [[files]]
 file = "mods/cristel-lib.pw.toml"
-hash = "08a334ae5565e122d26b819cba16ce784776a10fe100ab2b22de72a5a2bac653"
+hash = "ce022dca0479fccb6402ea41edc1d202ae3d415458f4485358a71dd009f57e6b"
 metafile = true
 
 [[files]]
@@ -597,12 +597,12 @@ metafile = true
 
 [[files]]
 file = "mods/ct-overhaul-village.pw.toml"
-hash = "f86855a3645203b1d477cdb6a55b7b1e0bed7cc744207b37bb5d59bc5891af56"
+hash = "9a7a7eb75d9ec8bb74f20c5361cbe4ab0d0ca6be3e73deb31a7a208f142b8e1b"
 metafile = true
 
 [[files]]
 file = "mods/cultural-delights.pw.toml"
-hash = "7dc4daef7f7fbd4f89aa502f54ec24049a60c016e47d2b37776f3905623e3578"
+hash = "e5f853af68ef1eb8a94a19d537013f994586a075906018c568767107914c5a1b"
 metafile = true
 
 [[files]]
@@ -617,17 +617,17 @@ metafile = true
 
 [[files]]
 file = "mods/deep-aether.pw.toml"
-hash = "e3211d7d54a7203a183ed3b453be5dd52d27f389dbef26dd7e769f20e1dea81f"
+hash = "5fa92564b068cd89d36d50ad09942a35ebcc96955392854a129e5bfb6e0f31be"
 metafile = true
 
 [[files]]
 file = "mods/deeperdarker.pw.toml"
-hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
+hash = "9441292a2b26dd79357e5c2b8736860804c94bd68ff3a2fd7c4bc5f80d2bf1d4"
 metafile = true
 
 [[files]]
 file = "mods/discord-integration-(di).pw.toml"
-hash = "af8b8c64714dc0ef3fd4ffb12462edabbe7a62295b9a574bb8968b4e62cec28a"
+hash = "4a2b53a5dcc1419d49983c837a1e46338a8ae241bce057da2a8f3d0a4c7929d7"
 metafile = true
 
 [[files]]
@@ -642,7 +642,7 @@ metafile = true
 
 [[files]]
 file = "mods/embers-text-api.pw.toml"
-hash = "31202567429d091274357d1a4d5c3a4cf739a497066fad79feb6f8a1c0e2d31d"
+hash = "383143ec429b65bc0eeace52fef05e6bc53aa0b765a94ebae59baa004b9d3914"
 metafile = true
 
 [[files]]
@@ -652,12 +652,12 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "d7995c6f45528e8769205ce7cd66156fab94e3f41d0a3aa699cdacbba94c3c93"
+hash = "8c5241e73743d0b12c5b10d0fed2cabc7ce5f3f1165cc47039d2a99343361884"
 metafile = true
 
 [[files]]
 file = "mods/explorify.pw.toml"
-hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
+hash = "8a06cf439a8ae1ccf6dda49bc70a8ff958c3796ebbd019008bc706cd46a854fa"
 metafile = true
 
 [[files]]
@@ -667,47 +667,47 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "28c29922378fa19f4edf1d16fffb48287a87be159a3378647073bbdebd2a2196"
+hash = "d60c27ac7e5ede6e4edcbd2581f758f2f31506539970e3a0838039d847a6ebbe"
 metafile = true
 
 [[files]]
 file = "mods/extreme_sound_muffler.pw.toml"
-hash = "00ec91db9928c4da54bb3843eb8eba7c918aa65ffdc90b69f93bd52e41387eb1"
+hash = "2cea465702be2d5128427feb5698f164b250dc9f1ee68574e7cec19051007715"
 metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
+hash = "fb00546284ecd779286968f4d90802cf45c587860a856964ad8a8bb827f328d4"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+hash = "67f7b4ff6681b028e1a95917cfba7ae9e41d5fc53359b84e88168a83800469f7"
 metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "1b3a8b643c73f1bf49739d9c509880d1cb3ba9c2e15a3f64056906cec622181d"
+hash = "da9686fc92926d991199257a7d81253ec833e654b0e316eabf80c24670bb8a56"
 metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "f9c118b7a66238a7f9e052705e82402e57c7a5b753d62d679b94701ede479752"
+hash = "1aa70effe08b00be46d4461301e327ddfa635cb09a9cd79d802522ec979464ad"
 metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
+hash = "26604747bda543ced392e7a8afe3bcd666b8b3816fe14a6b383df5eb4a6f1a8b"
 metafile = true
 
 [[files]]
 file = "mods/glitchcore.pw.toml"
-hash = "e53646f88aeb6bd54c38db50da972abdac91e83c145a8f974107b0ca103b15bc"
+hash = "7fdf7904e35c10ae120cd815204007de560da46eba0bb15227fdc0ff53d15aea"
 metafile = true
 
 [[files]]
 file = "mods/gravestone-mod.pw.toml"
-hash = "e88253c3633274c212b2c4628a26ba03ceba6afff561eb6f9488689fad4cad06"
+hash = "4a809cf9258a831ac367cf9eae832700c5753f080d51fa84a8ddb7a65248e407"
 metafile = true
 
 [[files]]
@@ -717,17 +717,17 @@ metafile = true
 
 [[files]]
 file = "mods/im-fast.pw.toml"
-hash = "474d64dba26d80c32a84ccdefc66d06dbf18503c17fe48927040fdf9026c5860"
+hash = "69c1dc947112332cb8b2cf8cdbb7450733aa4a57b96854b977845740e7b2bd67"
 metafile = true
 
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
-hash = "306c6a05c47046994a065bd8a461bd1ba1a7a8187f267c35ddf81c0a3041ed98"
+hash = "98d61d8b08fe7861b525101beadc46f0262848057a516292e3d9e9e11b1d26cb"
 metafile = true
 
 [[files]]
 file = "mods/immersive-furniture.pw.toml"
-hash = "e6dee59bb58bffe74e503c5b37fe0623c11a761022f3ee77cb9a6fc1b71cf2b2"
+hash = "56c2efa80b6af66cf79ce4d22982b75c68d7e3328882f2b5d26bf12ec8433482"
 metafile = true
 
 [[files]]
@@ -737,17 +737,12 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-paintings.pw.toml"
-hash = "75b43f1a86593360f10703b7625da4e0a3c435bf13bf8b5b75fa383a0338dade"
+hash = "366ffde01d233c2c3b07d50e562198f2c19984a8d75bea6bcd2467ab9258c34f"
 metafile = true
 
 [[files]]
 file = "mods/in-control.pw.toml"
-hash = "6402d23ba23b18fc4c3531ba03f8d044bea2f4521e1504216efc73a4d08461ce"
-metafile = true
-
-[[files]]
-file = "mods/item-obliterator.pw.toml"
-hash = "7fa54e7e8dc7490eeb958d029971d7d96e84b2cc21098b67122083a9df09e27b"
+hash = "3d33dbbcf209c7542f422e093bd1d6f80ae8e407d87ad2145c5439152154e385"
 metafile = true
 
 [[files]]
@@ -762,27 +757,27 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "636d90c851ff6f3d8668140cec978a05b9078d1b8a0b85f300bb795ed0a55572"
+hash = "da920151d3a4a23852fd61640e3ebe1d4ed502eac6533d70227de28a1e8733ca"
 metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
-hash = "84f4b09b7ef3ef75478cfa6d126951958444d612375c99b1c4e7e6bdbef28c1c"
+hash = "559d34eefc09d73f9c5e4da281f173ecfd3340f50dc13fed67b325822e2f9725"
 metafile = true
 
 [[files]]
 file = "mods/klinksnklangs.pw.toml"
-hash = "d4e73044ef837c0e5c4cb06b35bec04d14acd3deca2b241a8718bcca21a9c3c3"
+hash = "9e40fedf139ff2ed0c3cfa1224d011ddd87e799fae970fddb46424cc4fe6802a"
 metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
+hash = "a947afda264a2eaaef57dc74999741da0433968a0e639730b063c3f3b676c41b"
 metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "99bea71046529d65463fc12acb505ab363c91133ebbcc1d976e49a5d33150702"
+hash = "5554dc0e228bb51557313dd1b0c9493c9e575390a6713a8f6415d3aede09cce0"
 metafile = true
 
 [[files]]
@@ -807,12 +802,12 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "8fcf9b022a79aeabcd6b22dce076f9523f5d030e425a085902482201de3d2f0e"
+hash = "0a37762a0e94ce17af0685d9c95ce6402ff0b7fe4af59a51b878523bd156f3b3"
 metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "e06a9a886181277591baeb9e82b484bd6204fe3aec0ffc8781bb05bb11b4d1a9"
+hash = "7b5282adc25ce13fd0fbf38b7e8e88bafc8e6f8f8e25ff28b25322a4900e5fe0"
 metafile = true
 
 [[files]]
@@ -822,12 +817,12 @@ metafile = true
 
 [[files]]
 file = "mods/lodestonelib.pw.toml"
-hash = "f5d0701055478e980b50849f199f266e6ab1940277a17ad2e5060df0d978be83"
+hash = "71458223fdb4446ae5555ec0cc3189471736e6a696626a7de1bee77ae39d6b3e"
 metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "a0a2036a901c1d61589768d62bc92d0cd630a40e9dfe92f45aefdc835c0c808d"
+hash = "058c0400390f5004eb3c8a448488968eacb907b496e4938c408969831998277e"
 metafile = true
 
 [[files]]
@@ -842,22 +837,22 @@ metafile = true
 
 [[files]]
 file = "mods/maintenancemode.pw.toml"
-hash = "e6518e53d3f55ba3f10cd68d9334a9b58fee3228da6ab00d408c4f44fe0423bb"
+hash = "894cf9d686faa16cd2480f0d06b4a846186fe9c679031935d836253494cad255"
 metafile = true
 
 [[files]]
 file = "mods/miners-delight.pw.toml"
-hash = "13481133d139f134bd3407983e29f86df835ff66bacb013d9d43e14f155241f4"
+hash = "02f0357345d936bac764c09fcf74a1f69211eb0d2178af6544119b4e5b0f1083"
 metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "25fc0896358f8f3e642d1a335085e2aa39ebb4f4f56e28a84546fbd526837e64"
+hash = "ecfbfe203d66a2e158fd726fd93ff4f4eeaccf74fe44d6a389c924318738c2f8"
 metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "b6d7448e14c747318b083d7903baa4801ad524853f34205aa19f0cfa18ec0a92"
+hash = "3beb3ebe34c7a6cf5bc83b471019647601ce806dd04f4abe909b48ae8334c6fe"
 metafile = true
 
 [[files]]
@@ -872,7 +867,7 @@ metafile = true
 
 [[files]]
 file = "mods/navas-zamega.pw.toml"
-hash = "c26813c0d001083592dd7f12a1bde79972c8d24a7ea2e9dbf59f84b52cae4da9"
+hash = "ebb0e09ed5e297e8b5339da7e00cefe5353cb9d4082fbda78e2e6192f6d011e3"
 metafile = true
 
 [[files]]
@@ -882,12 +877,12 @@ metafile = true
 
 [[files]]
 file = "mods/numismatics.pw.toml"
-hash = "f0a5a2604c8d733222a25e9c19dcf443d853864ed76a388b26982be97fdea71f"
+hash = "6abed33806e1fb6beb41b77413cb8a2b056e3a45e6567bd84ea525ed55bef8e3"
 metafile = true
 
 [[files]]
 file = "mods/octo-lib.pw.toml"
-hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
+hash = "18dae8eb1bdb5c8c7f858b1569dfe1cd2a48812b5db18f05ed04e7ba9d4599ef"
 metafile = true
 
 [[files]]
@@ -902,7 +897,7 @@ metafile = true
 
 [[files]]
 file = "mods/opac-bettercommands.pw.toml"
-hash = "f56081427335f96ac7e83f479cd57f57ca2d7a28b43187599c60cd3b104d4c54"
+hash = "53cc86efe461dcc455a3da72a95960efeae1155dcc1828888b758362fe6446fc"
 metafile = true
 
 [[files]]
@@ -927,7 +922,7 @@ metafile = true
 
 [[files]]
 file = "mods/pet-your-cobblemon.pw.toml"
-hash = "d70c3774cf1b087f19cf57a7489ec80471d47ae1d57a9dc231cb34f15d1b5677"
+hash = "c12b0bae68dd43c904f33f53e14bfc02420689c3d3098099acf5b51012ad0037"
 metafile = true
 
 [[files]]
@@ -942,12 +937,12 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "6be463e57622036302e6555834d4b915e9d0407ce646a20edc770901111eca0d"
+hash = "a37557f40aa73e99c2861abd6906286a1c6151d4bcd400bd4aa628b068ff42dc"
 metafile = true
 
 [[files]]
 file = "mods/rctapi.pw.toml"
-hash = "885c44754598d945b8fb26f0e509d3ba34560a560687550cdd4750919b43deab"
+hash = "3dfe26688792e73a7a2a881633d9b1e16a1ebbef5ad1c772e02701164756f879"
 metafile = true
 
 [[files]]
@@ -957,12 +952,12 @@ metafile = true
 
 [[files]]
 file = "mods/rechiseled-cobblemon.pw.toml"
-hash = "8d6d9aa91e800de6ffe2841a523c48c1a0ad1848d19b8f3fdab8591c838ecddd"
+hash = "ff262e0c4e92eb00c670df4ae6a989dbfb2f60404d79c87de9b54bedb7d922e9"
 metafile = true
 
 [[files]]
 file = "mods/rechiseled.pw.toml"
-hash = "55fcb8b7508262d7e384f81dc86c0cf0c28ec98194d2dd842208b96291931c0c"
+hash = "f5c73975f82eb083e1ce7fb1ecd038e067224f84013f9f4c1bfcb7da287cf5eb"
 metafile = true
 
 [[files]]
@@ -987,7 +982,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
+hash = "c34d6e1f4e846e64cc52ac2667b0d07d85c73bf3c671435a7d30156329e75d22"
 metafile = true
 
 [[files]]
@@ -1002,7 +997,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "33454564d216f62d011ac78fc0aa2a49977ac1161f10f4accb1d33a9934969df"
+hash = "e6bfb33055c9c6e32034c2c2ac03768a8978d3f7200a266b00849ff76b9e6816"
 metafile = true
 
 [[files]]
@@ -1012,52 +1007,52 @@ metafile = true
 
 [[files]]
 file = "mods/simple-hats.pw.toml"
-hash = "e49e5bbd1acba6a50c445e3d087552bc134e3559eae8a29da2332b4d11588228"
+hash = "cb8f0c403935b915911bed1b549bfc5aee1af95d31dd38480456287b3170e156"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "369617869e9c8224e9c5e875d70677c491bc4282919b32705d096d253e2ffecd"
+hash = "c50bb04c20e707e7c4a719b2435a860f38b1e2a973654e322ad89725e1f2d165"
 metafile = true
 
 [[files]]
 file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
-hash = "307a39080394cbe930be57e67fb8dae37601e8f0842da10da10977d261dac07d"
+hash = "7f583e3f967bcb361445a257487550ec62d81e0af491b6cf3fc4f3bfc0bd21b2"
 metafile = true
 
 [[files]]
 file = "mods/sky-villages.pw.toml"
-hash = "65ae5274b963d5b15e22cd3680b2ac6851f3fa5669b3914c496b45148a18a5a7"
+hash = "6d78af4e7699b4182218af5ef884938798cd332d486059b1d58bb49d5c8bfb93"
 metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "47f7a98662dff8dae871424d210f1f8144617140a9d84b9f502a6d620c124883"
+hash = "7268eecdf7a9557fbd1125c047925099cfab166a89401942acdf33d168aa1bee"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "34e176e86ed149907baf37eb0dc0346f11455ee0b0581e9f6e9fd99d11c43cf6"
+hash = "e9f94369bad0c2863ac2598ac5c630e3145b61306fd44c846b7eb0166b175aa0"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "5a5f28fbfd2574cf35d06c8be9d81ff02596fd19c39f2844ddc99b76812b3e40"
+hash = "79072de09d898fa9348afefe48edd1dc55d4e463c67b337fc23fb90c320bc803"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "29752a1045c52d76a648b15f77ff68ab57e3791d6c84816792a9f709e24812c6"
+hash = "8320acebb925dd573bc6cdac1c7d05d39222cc37e08b72f2271338631de1b6b5"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "bbaf23d24ec73180cead89d49e5c51f1e757829f1b63f74a2c4077c0c1f2323a"
+hash = "45e377a0780a834edba0748251fb5c2dcd6cf9a19d6f6ecef9950a8ad5c6187d"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "0ff245c56546725b9d34797f701c701ba37071bceee980442a08a99fad05f099"
+hash = "74936f8ddfe067e095764d6c65bfc0af7f4c01587f8fd2a20da8c5720bfa96fc"
 metafile = true
 
 [[files]]
@@ -1067,12 +1062,12 @@ metafile = true
 
 [[files]]
 file = "mods/sparsestructures.pw.toml"
-hash = "8c71edbbb86e5d3e1c14ea6629382539d44e75b1061725df9c3abceb889a8591"
+hash = "86f941c44eaf1488828926c81e6ec831045695020d96aecd0dc425a1e5145f2d"
 metafile = true
 
 [[files]]
 file = "mods/spuds-shops.pw.toml"
-hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
+hash = "238cc6f594a19da0418d58f7fa17ac3161ff6c7b946fd7e6231c52b6fe9e341a"
 metafile = true
 
 [[files]]
@@ -1092,12 +1087,12 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries-squared.pw.toml"
-hash = "46280c9487633e3bd1dd7bb24ccc4076058b2602d7dc2906f96509527346cf24"
+hash = "f02dc2d6e2fa0336be82e38a3e8043eb5d47e3bee045e987a5225ae8bf94c63a"
 metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "084ba00d5d41d76f4975935f3ada0fb1fce41bce59dd3901f54684c3588cb9f6"
+hash = "bd20e07f4a5b2cec6709fad364f0ade143da4fa274a012028be6993952f67ac7"
 metafile = true
 
 [[files]]
@@ -1107,7 +1102,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+hash = "f114030e6984e30307fc43e37ec812c915aed7f64717d7b364dd84008e045fe4"
 metafile = true
 
 [[files]]
@@ -1117,17 +1112,17 @@ metafile = true
 
 [[files]]
 file = "mods/the-aethers-delight.pw.toml"
-hash = "055283aa7790b335df36917fd72eb9f35f4d5cbe3a1e66d53efba4fe79ec1266"
+hash = "95677518373e53a30d3265d23478c50000716877459867037875f35218460ad1"
 metafile = true
 
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
-hash = "5518dd2f6a5d88e4affb9df628604737893025206d7149579e4c24f909b130a3"
+hash = "a85c76d60249f590c33328edf165c055b7e338d1868cf5d6021af3ad966b8096"
 metafile = true
 
 [[files]]
 file = "mods/trash-cans.pw.toml"
-hash = "a43bccc1cdad8e0ce5167f379c98935f7ea8117ac0bda2218b372defbc9fc985"
+hash = "1a7de8012c39a6848df70623a9b4ecaaf7dbde7d516b470efe0e29fe252342ca"
 metafile = true
 
 [[files]]
@@ -1137,7 +1132,7 @@ metafile = true
 
 [[files]]
 file = "mods/txnilib.pw.toml"
-hash = "bbf8f2ba1e4bba18c1f61b2f003063052f56dd9951ceae3e227b6cbf9affd29f"
+hash = "4b43714366871c3b822e8b708c9887edf0e0bf390d7a1ae3650a6936c2e3746b"
 metafile = true
 
 [[files]]
@@ -1162,7 +1157,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "2282d643312815eac969dc7df9904d80f190a476ec487ec7d501adda9ba60a39"
+hash = "452a45fa282a18100bba456aedf23e077e378e6d44901a871c3595f527a8f276"
 metafile = true
 
 [[files]]
@@ -1177,7 +1172,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
-hash = "637bc567eb5260d55ce89e6471c31e4369d454607f3d6f40139f7f7bdef90af9"
+hash = "8a506711655ff223d6e1cc0079ee1a7dfa84067d6eca64e91d25e20794b62af8"
 metafile = true
 
 [[files]]
@@ -1197,7 +1192,7 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-better-mineshafts.pw.toml"
-hash = "e839608ebc974e9e7819adc7bf29132ea86fc41b46af540fe0fa39b2007b2439"
+hash = "2ba93afbf831ffa45b248122c7170a6be6e5275fef0f9050521fc6fe6bbf8733"
 metafile = true
 
 [[files]]
@@ -1207,22 +1202,22 @@ metafile = true
 
 [[files]]
 file = "world/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
-hash = "a7552a82a8b8ec3148bccd029b054ecc74b2e4d94adddc08184177e89bb34917"
+hash = "a585a53500ec575caab096f3e80cf5e8391dbf65983765c0290203753abe77e8"
 metafile = true
 
 [[files]]
 file = "world/datapacks/cobblemon-radiants.pw.toml"
-hash = "f0df512bc9b5bb8fd0fa86cd8e3776c35c2134ac33187963fcbab9c91ca74bce"
+hash = "9eb6806de9c286618d4bff60043e7bc8e388b0a2015a32071bcd563c53b51867"
 metafile = true
 
 [[files]]
 file = "world/datapacks/cobblemon-shoulder-mounts.pw.toml"
-hash = "5ee36f7171dd6339ed48dcb4f8fe2c5a5342b180b804456117cad9993a239730"
+hash = "58cef26426ddcbf978168f271f2fc422a914cf07793b20a6aa0272f0e69562d9"
 metafile = true
 
 [[files]]
 file = "world/datapacks/no-creeper-grief.pw.toml"
-hash = "60435af7e2a3e876327b0de2abfa623546990a39b0f4fb0890991e9030cb6809"
+hash = "c637b141e741a0cdf65b1d87e1416e816a501ae749703d9b387dc6d59746edcf"
 metafile = true
 
 [[files]]
@@ -1231,31 +1226,31 @@ hash = "e7254264aa21b0c25623cdd2d0145fe040a03222854645a0fbc5e45f711b7250"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/cape.json"
-hash = "a5fc728789095f8b2c97ca3b9c9cdac08dd9baf60a49bf3783f89c241625d16c"
+hash = "1901f35cf812106472a8e746a8c59376099d782fe84f1dfed9a84c8a6d7f26be"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/charm.json"
-hash = "1201b849ab68dd3bddb5cea8bed5c0e7c46b2f2cb59d824df7f7acaba92cd66e"
+hash = "79a88c7cd27c0a36cb9a994afe2bb89d6c84248b8a8f8ae2179cb8a87c1cc7ce"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/accessories/tags/item/face.json"
-hash = "25a01c627f09c16e5316ba5407136db1931de720d75d3a6de5fc66c5efd6e3a0"
+hash = "803da8fcaccea40b14720767d5f8943dd63fc88e6ac6ee98fda4bc034f3190db"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/c/tags/item/foods/milk.json"
-hash = "9defc0c49973b639320a3e01ae44858f62b93128b7b584a9c49cef5fbbd18a6a"
+hash = "45152489d632f85769c2c55bfffe63a64365c111a58af5786cdcea8f4548647f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon/species_additions/generation1/sandshrew_alola.json"
-hash = "a20ba88cc056758c282c38d21e07721dabaaf332c9663f68925c26b5783daed4"
+hash = "4663203375f15373a0ff0ea3d261e59f1ed5a322a4c44dce3d9b886ab2c7598d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_industries/recipe/mixing/candy/rare_candy_rec.json"
-hash = "9f36eb59897f07952619c1e72017551d383f5dc037f1b7924d0647934e6d47df"
+hash = "4617c8e5cdcbf9e554c9b7f788128ac5dfcefe291a8cc171b800ccc7e36bd24d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone.json"
-hash = "0f97b114470b762acc70331d947a296dc8758e1a9cb5712867c2d087f4ef65cf"
+hash = "a67febb27f217d827c1183b4c043e4c73081170157cdc6311e01f93c92a8f7e4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/black_smartphone_create.json"
@@ -1263,7 +1258,7 @@ hash = "21b17c9ed2db1fd58bb6f3481704bff4accb89f0f69208c985a5555ba932c9ea"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone.json"
-hash = "53454c6cdd635691e4b81393e47d3d2df3232413887f1c2121bc5d1c411b0396"
+hash = "ce81277f50e899df9ac46fd8e15f228952474ec7ece8126aa7d071e2f6bb6021"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/blue_smartphone_create.json"
@@ -1271,19 +1266,19 @@ hash = "ed7b2a8e3dce21c69023fadd036d862b8093988cced0c6564f5ba7c017e3d7d0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/brown_smartphone.json"
-hash = "2cf8a53b27fbe2057d1127dd13051948f9efac328e6b0138d4d36edf0070c429"
+hash = "485b9d21bcdde712c845b332011590787cec86cfd7c7e7b57108ba9e4fe93c67"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/cyan_smartphone.json"
-hash = "5e0b43877b78cf27eb3d1e970133a165240d0b8e5c4b6e8a90ece889452cbb50"
+hash = "c6667f69e15c5213d9f53d0408301dc1b331ff3e298b0b308ff7e095d1affe4d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/gray_smartphone.json"
-hash = "b0ce374a59d3afa82d282d058f6d9f3a167d15487212d39ab3d5717c7f1a20ba"
+hash = "34502fb18792f8296d98ec26c3e6493497304425220f963ee7c5fac356a3fdc4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone.json"
-hash = "78cd013c77693a5a0a8b21304d6e737ad01dbade13d03101fc93fd3d17f8aaf3"
+hash = "22ad8f3ec85a1d8f3775870853e19bfb57376f07e6a7d93f91dbe6b947082833"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/green_smartphone_create.json"
@@ -1291,27 +1286,27 @@ hash = "a8bbc689df0f06ed4f9b30b1e00dee62e14ceff8566873f26f911b7b9db02680"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_blue_smartphone.json"
-hash = "30d061778d9828647e18911ec2e44a48e8481b0012cc839f26dfa124d5a48cbe"
+hash = "e538c78e7706ec2f202e370a3ebc4bda5b3b9d8d1bf5c0164082a13def4858a4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/light_gray_smartphone.json"
-hash = "cb5a059a926e03d3805390c6600f5336b26dabd7cfe3105dee3dcd4d28fd9b2e"
+hash = "c54e79a62ebdda70b3f58cd452485420fbe8140db662c609155ad30c83b8a6d5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/lime_smartphone.json"
-hash = "fdf16a4e9a313aa609414c84f2989e500d0034220f9a06f83002c30da7a1f2bf"
+hash = "1fbfd69c217b8c051d689590a7c74bb7864b04848d5e8faa87bf86e0cbaef7f0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/magenta_smartphone.json"
-hash = "7b416be3c09a44c5b634da3f2e991e8905bb1f87c346e11073c445e8b5e50093"
+hash = "2b077d3e03030d9fe85c8ef961f311576f4fa3a25a7d127bc77b0e3c9fb31757"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/orange_smartphone.json"
-hash = "24b5f8d751f49391964f0966c51d313367f88568522b30be98b843cfbcb32bdf"
+hash = "97cbc430bd1be711ab60b29146d454dfede1b2365addf5b6a863b5cd721d6653"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone.json"
-hash = "7b172f4aacd06530d7ff2f1c6558823bad3a917076d48b44d8c8e10d3a8b6e20"
+hash = "8c0c2531d5c6770be2dd7c2c1ee641848cdc11e95fd00f461ff63d890b00592a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/pink_smartphone_create.json"
@@ -1319,11 +1314,11 @@ hash = "829f4c4774649c56d925338176f06e8cdb9b9f4e5bd3bb9bf1f9922cbcd6b17a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/purple_smartphone.json"
-hash = "d2caf06a119570527aae2e6492f213556f931912284025dc803b605a95b3e9ee"
+hash = "c9233600181400d1e9a4a1fbc60889cc620fc95ba5027244a0b034bf8b3762e7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone.json"
-hash = "cbf308116e61d416b2d338484b35f62b1b78d29a4aa030cd466bf8b798222b65"
+hash = "57c4fcef4f1368cd4fb0b6f9de6ec8bccb280d0429b9591106cdde2a7835c68f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/red_smartphone_create.json"
@@ -1331,7 +1326,7 @@ hash = "56d9b74dd0a2db8f9327c96fcc18038e89ead1ed795b08ac0c6f2a3d2a0e3bab"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone.json"
-hash = "33546658f9a10a67904ca84a6e47837cfdcdfd478501e97d9eca800a26091449"
+hash = "048ac6d0bbbc3e5d977004f85663f3f87d2ca55083c0d064e46050861b2a6895"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/white_smartphone_create.json"
@@ -1339,7 +1334,7 @@ hash = "0e569b7e05adc043a3c58ce34d8476f32b10f15726ff0c6c520c4e9d2696b45a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone.json"
-hash = "7c8a2fef532fb8a0d998f7e7b74064ae4d547e467878bba176706efc59b6812f"
+hash = "147499684d3a0e03747dea1a57e9330b7f1d1593f4b922bd5b6d2d0555093cc0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/cobblemon_smartphone/recipe/yellow_smartphone_create.json"
@@ -1403,7 +1398,7 @@ hash = "9749d2e5e2bed0881a613f7018c1608c1f88b03b20f7e419508e614d0f22e4e1"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create/recipe/filling/warp_stone_from_dormant_shard.json"
-hash = "554a5b8b1eed13d8eb8b179cd5546d82eb538d70ab437bf832e05dc163c1f212"
+hash = "7a59c5edff549e7760848f1fc968465e10bf9b2575ba39b3ccb9eddb64767107"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/blue_aercloud_from_freezing.json"
@@ -1415,7 +1410,7 @@ hash = "82b5f581f6557ad8bb2988f6dabf8131785c0d2a743d51b9305c576d49c75983"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_from_water_bucket_freezing.json"
-hash = "7d0bc1afdc01b6db4ac163f229d3b1259d0724993b56d45535ff6bd3290b7932"
+hash = "755e75ef8173c47b844a076f6801b39ddad54d77e91062f9013c5ce6c2e0db3b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/ice_pendant_from_freezing.json"
@@ -1427,19 +1422,19 @@ hash = "4090578970049b156ce15abbd2245887f70d8cd446d0981655f031244a513d8b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_dragons_plus/recipe/freezing/obsidian_from_lava_bucket_freezing.json"
-hash = "9df6aa4c98ffb90ac60b907644e92f672f6fa72c5be5c6e423048193c744216c"
+hash = "1f7e5c5cb0088729bc4a8eb8daa446d6c44c859ae941770c9880a03c2941dadf"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_sa/recipe/obsidian_haunting.json"
-hash = "fa42271f92f727bbee7bdcdc2267771b8bd209c35fda4ba8ffdb48e6155abebc"
+hash = "bf80ec1eafc2364df7020774647ac70965709161fe8a314384f46d097e2ab44d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_obsidian.json"
-hash = "01ef910c73f922e03c28508e973591909290eb23fc84f500231ceb22c6cf48bc"
+hash = "ebe66a666fa9e9aff0f4b881b529b28abc18cdcdb6d46f293c52e59d05d0efed"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_witherrose.json"
-hash = "cc62654ff48d917af8be3f65d8f6ce18ec384cd82d41c800a205122adb7fb7bc"
+hash = "899e23384fb5bf5342dac6b83be1605a621dcc7055ee7c31bf70724f7924e634"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createcobblestone/generator_types/asurine.json"
@@ -1499,27 +1494,27 @@ hash = "d431ed9d251641786f2ff7b232546225b51a951a84bec2018d8146073a309e25"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/crafting/chunk_loader.json"
-hash = "525014a56647a80c8933577991ae6ddb396c14525c4db5d0f2c3629a7427f4c3"
+hash = "d0961947f90b4dc0a070e948a1073fcbbf69edba4adeba72146f9714a1c148e9"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/energy_transmitter.json"
-hash = "aeda5a695bf774b2b90601afdcf999d99bc62fbeb36c9a17f5882ea828f1a392"
+hash = "305c8085979791d49fa6ee39aa100667aa5ea360176fcd8a88dfebb8cbe6020e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/fluid_transmitter.json"
-hash = "85b5b4eb28f352b0f268cd5c26ac84c0bbcb97df833b6e03dbe5d68219e0f1a2"
+hash = "3b7b36395d3385be25221c4221bef911fecda3b08bd2859df482626e3990b72b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/createendertransmission/recipe/mechanical_crafting/item_transmitter.json"
-hash = "52cb5ea7ec83c22f2f4199aca6f6def07301aad4fc313e37ad90b69e51fc51f4"
+hash = "7825083c3c9ffdb244c1e65666658a82fc03773a2ec6c626edc736a6f4e63813"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/badge.json"
-hash = "38c4a07f6606d74470a96fac5b048b305de73b34f52b6180061ece342f2771cd"
+hash = "453abbf77cff0e3bfcc83d3c980a7053aeb52afcd0884c04542dabd41d8acdc7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/cape.json"
-hash = "a5fc728789095f8b2c97ca3b9c9cdac08dd9baf60a49bf3783f89c241625d16c"
+hash = "1901f35cf812106472a8e746a8c59376099d782fe84f1dfed9a84c8a6d7f26be"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/charm.json"
@@ -1527,15 +1522,15 @@ hash = "79a88c7cd27c0a36cb9a994afe2bb89d6c84248b8a8f8ae2179cb8a87c1cc7ce"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/head.json"
-hash = "952a8be4c0d2c449c86fd79de39829a0e8ea19d0d4e456d11816c8de6ec7447e"
+hash = "b9eaf930838f2f1c5716c51eafdb218b9e3ef93f93b84d25946b30c04c27b39f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/mega_showdown/recipe/zygarde_cell_create.json"
-hash = "06ef45cd9583f9325dbbc3d15216c36f08dd0bd4563cdb254d9bc3f0b9bd029e"
+hash = "9fb4b5194180dcd7d622efc0b6dd3f05a40a3bd0e1ed6d394ed1af6f0bb9a0b3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/disc_fragment_5_create.json"
-hash = "690b105c8ec3214f3fed404d31fd37157cd74c3cb20972681694f99d9b83e0de"
+hash = "c70394b641980df43eee7923f1b04d732c571f0b639fe68dd23bd01fe3bfa07a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/recipe/enchanted_golden_apple_create.json"
@@ -1543,359 +1538,359 @@ hash = "860a7ba9340285e78c03297627bdb1898a02bf7aa8390e0eae9a100055385204"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/minecraft/tags/function/tick.json"
-hash = "f74498097708215ee46031db7467ce3abed880ed8188eff156e81993d9787e31"
+hash = "1d95e1652674eb210a83e0106ba9f91c5578e29b0ef8ef879cc57ea452073bfa"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tm_blank_create.json"
-hash = "a041903a99873e9b975b47e49ef29c4b2f3a3abbd2310f3e83d55d1f0eaba44e"
+hash = "c9d88b82c9349433ed26cda09b52a3e8eaeac3b666525944df3a498e791c4b0c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tm_blank_soap.json"
-hash = "1e06246c860cde23f26e5e852aab1cd99eb1f113374a25bc04de2c2fdac446af"
+hash = "1e270f4f9d2dfc3faef843cdda1d21c7e18edb473d66462c90208c62bf565c25"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_create.json"
-hash = "5e94c98d1aa6ff4af242bbe3dac99dcc13d0bd55763fcc42a75142bd7c7643af"
+hash = "969b7d0fd2c8ac3fcf3c2fe71a2fdd51818a0c8b035b69e3d00d1ee592f0743f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/simpletms/recipe/tr_blank_soap.json"
-hash = "825aef5e513bbf4daa21e8eb2e641f891b6ac448f25fe66d79f860b9c15d46e2"
+hash = "8688740f9a3029306cd9e26022b132f37ad125bd46577a84dc8f5c375a32bef0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/curios/entities/player_badge.json"
-hash = "44fbfb2953afdffa1b2784d595fc0c66c8bf8893f746877bf4a64b3d066677e9"
+hash = "887eb0cb57b9c43c997b64a3dfbb049195bea941c98373525674425849cc1172"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/curios/slots/badge.json"
-hash = "cfe316f4c1ac8b7252efb9c9e629ea1fd6d6ec614404b11b1860ac71d9ce1b6a"
+hash = "e2a9bded1b8fcb25feeb953ece2da75ba8d4a548becca301fdf0e96cf85651ed"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/function/disable_end_tick.mcfunction"
-hash = "01785ded93410f601df3d27f76ac6cfd792266b1930c07abe7de0964b27ddccb"
+hash = "ca4a49d2215bfd5b777ccef73395296c6a8c94ffd633ea82beaf7bb8cf025bfb"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_crops.json"
-hash = "1bc6b34ee18a50b180591289113f40c24cddc889fdf5223967e282461238ec27"
+hash = "294e2fb4e814158c27f6c8d350c5772d8999083d3e2a20dc8ac2186496cac37b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_flowers.json"
-hash = "2da4a6914822dac3fdee6a98bcd157b7146d2a886919a8b8e614a1e2687df8e9"
+hash = "ec5e7300e62ea7615734a5c759d4cb48b12ce298d8c398d2055058b37593b59d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_leaves.json"
-hash = "2e83ffada64f8e2195dbd95606c87fedb34e829968002f81b4025f17c2f61921"
+hash = "f395f232245af3c7f323fbb5ccae28f81003668eda03cc77405295578f4f9e4a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_logs.json"
-hash = "a82f526983d3dbc6ff38f66a1fa4d5e1e91dc238c48bdbf8722c1b9e3b8e24d1"
+hash = "3eedbe058823079ffccd4afbeaf9c8c83f1427261f18d0bb16a13d82af4a08af"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_from_saplings.json"
-hash = "165d400df67b67c83b03d00a899cf34f3800b1e7082f03a76da0f819b00cb194"
+hash = "1e01f7451165a480a6d666a016598821379495f67617abc7a77513a04a492625"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_crops.json"
-hash = "02c046ed123c9dccaed94987e1111dc0b12eeed30a4e8a60fa6a970e0a47a7a4"
+hash = "5b7534baad1de2f004e397b70b289b876ea20d1c2d79e0e8b282077ba9725789"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_flowers.json"
-hash = "b39fb95ef693ccbc58c159bd0d4def8054b957f246cacde33aa60f13ce769b35"
+hash = "f15aed7f02cde3c5e9dd694a0cf10179d0d3236554916987fe421ed74edd0518"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_leaves.json"
-hash = "80e81d2cecdca409b3b991d6819338bf918c3172b7b1e375e4e653e20af4e818"
+hash = "5d0536688f0d4b44781557656616d7cca5800bd42158b0c41da8acd675f6bb11"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_logs.json"
-hash = "af433c6192aeb28198f078184cc8215fc4be3216aca51e0c82e5860a151ac7e4"
+hash = "0ac57c9c37df7aac4235aaa77ba5a60600e6d79d1af6fba65e1f6f138c691bca"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/ash_haunting_saplings.json"
-hash = "45147de1701d26ae5bb1c5f032e8d1229ae976b2831be31acc506fe3f268c977"
+hash = "955a7ec780ec1ab2a159018f2ac7392cb03efae65f9183dac49ed817bdcfd022"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/badge_case.json"
-hash = "482db6a664b8c7331b2f5a0d8ab253215d9083b9119ae70fe9a97e0efad3d67d"
+hash = "ccd3265ac37a07469ed6ff118898d28f1c28155f004427a191d602f893b13c42"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/blank_z.json"
-hash = "bdb3be849e6abb8ac9b311ada03fbfd1a190a350c8a7834c6b9d32b9c55cb3bb"
+hash = "6307a5c41624ae6f12ca5de1211a48d354858eca68f17db2d8b5d4844dc04eb8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/blank_z_deploying.json"
-hash = "fa67e48de6423fe8478679fedcedaa330846268db14c2cf36e1bf9a53b025f6e"
+hash = "755dc750136c78b0077c3b209daabf2ce1e148c304fef9939af9f0f1894d76f5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_crushing_nautilus.json"
-hash = "6a5b21e1cff7dd6e3be7c2257ce3f677661e6430ad3abed015936c6c6d2994d6"
+hash = "cd35fba6b9b61581002a2321472edd3433359895403146525093ba78d503e700"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_crushing_seashell.json"
-hash = "44c8d3913d207b38e0373ca7045939d15c205959c72620e336b5f402c55d66ed"
+hash = "c7a5d52bb6291bb3db23981a8becb99d568a0ca075cae446b9a959e4b7e7816f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_milling_nautilus.json"
-hash = "b144ec55c83d9263596e3e0970a1607e28b504d34a9431b4e80906b917c93e22"
+hash = "7b189b701f7dd350c591b4a33109e1598a8e6859230f5933fa63273ae1246760"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/bonemeal_milling_seashell.json"
-hash = "c9689abf3cb4cc3677489f7b6592eaa6163bc28998a426d1ce0f9d39ce3ec05a"
+hash = "b3a9e20f29bdfeede419e71cf9e99a9bcab709722fc01716425fdd54cc1260b3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_black_smartphone.json"
-hash = "e389eb047444fb668f2b9eeb06ba9918694f650527ce8c97bd2f2ac5d165f083"
+hash = "4816c992bc42ee99dd3deba8605b2c0755cbcd64afea1423907bf7c3fda89428"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_blue_smartphone.json"
-hash = "e3cc4c7e3f27a10e96e29b9c39a3bb415658cca615c864e85234068955997981"
+hash = "02e2b2a8ac680bc5ee98fb431b734e732f140d5b7769e964f57e785a7bd44c5d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_brown_smartphone.json"
-hash = "1712a64f5c494e5f40219d1f0939c50207f4aaf5699d5fbf353341c8f3978f99"
+hash = "f6bfdbf4110910a915e5056b79aac704ca179f3ed8c6e4110c5cb7e5b8161128"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_cyan_smartphone.json"
-hash = "e28381242223cf62bee9f282c6cf18075c857ca47469070e86bbf5c5ba9fc252"
+hash = "aec319016abd389e8440df930844cc9727d03612146d648d8253b038e98d27a8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_gray_smartphone.json"
-hash = "649f838712d711a8789363593563f738dd4eefa08237a870b99c856ceb74c414"
+hash = "c5949e25f1be845600d8bfe4bf12534e557b90a8a79af066dc1bb06c5c6948ef"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_green_smartphone.json"
-hash = "dc44704a49fb874ccef6b8992b57e1e90977cfe7260a1ced8ff0655e8765b802"
+hash = "fb65266f8851e9190fce6f6b84565fdcb17f645afad6b83162d887a2bb6e510d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_light_blue_smartphone.json"
-hash = "521df3ecab58d8ac1d7baae81919c8f4a52ff35d568f35a4fccd253b474b10da"
+hash = "b9000d4c58d019ae71fd5dd71ed5b41b134418b0040e480fcadd4e5d1ac5cda8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_light_gray_smartphone.json"
-hash = "bdb58dc6d3fe463522e651cdeed9b1516db895a8d89385a0927c45a226c48080"
+hash = "a3834ae9b56c9edcb508a2b2880a3932234cc998e901c20264877fa3bd90c0d6"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_lime_smartphone.json"
-hash = "f66e15710c8bb54612d3c71d847ee835c1a1d3f44bb320c0fafc853935adf179"
+hash = "c2bca3eb17236b651ef5511915a60bedb5716981d5e2b1bc857423c56e36559a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_magenta_smartphone.json"
-hash = "5edf6276c57dded48b7dfe911b1405edef5c88019f9fde9cd296a543c0c46af7"
+hash = "d209bc8f4fe023a34198b520001036df9cd5c1d4b7ca0c7dc85991d65da6fd8a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_orange_smartphone.json"
-hash = "10a5034f2242a32c90020dfa6596c3a80c3dc61c6ce5208a3051109e0cfb33b2"
+hash = "15e037bb372cdf831f4127b9566541df7e5b9912f24458f0dc7e9bc10c3af8f0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_pink_smartphone.json"
-hash = "ae9e47d796a9d55dae5ef5fb7d2e0783891bb199644218833faa7cbb39f2adac"
+hash = "fae6f2d076f53f43f580bc425feb124efb816906c635b734a0d7ea695ea7807d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_purple_smartphone.json"
-hash = "1e87048097f055e5704a5f23029cd201dc1541fbeefb2da3c3e25c6d1e588b9a"
+hash = "052f1fee32529bb3a49484baf0e719af0fbebf64510f359558ba7605b333a82b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_red_smartphone.json"
-hash = "9f3231bdca16f4e36bb18d403d44bd6b7fd448e79af2488c496519f58cb399ec"
+hash = "81580018be2431f20c21c587a9fd8fa9fda64c7b89d2615375e2a376a5410df4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_white_smartphone.json"
-hash = "f65206e6a8cc803d88ae25a2cfdfcf5e691366352814f65853f97a1f4c5dccd4"
+hash = "369a36a14e0ed427a889766d61fc82a9a34e6b761e0ef58f528c14df824f1cb8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/dye_yellow_smartphone.json"
-hash = "05941104959b7791e42a89b46d2a98d3fe83bd6d19c363b9bb2fb6f888446782"
+hash = "202af94bc5d28b39eafe0e133d18a3dd678d3b951d92eae03357beb9f5b22e40"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_crafting.json"
-hash = "da539c5200bfdf490bf5f514ff1b9390b85b0eb9967ba3dcf7e56cf4cd2ff62f"
+hash = "01d1ebd26a16bedfd67532c878949fbf72d91c56a46b3423f64b2ec9793b0549"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_deploying.json"
-hash = "22f502c2e47e2260d11252bc5c624dcdded7a3bb85fcd203a455f68e333f25dd"
+hash = "ffa4fc8b778e575c0af68890fc0d2aa6968f549d1ecf47ea7f4342a27e41a32c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/echo_shard_from_heart_cutting.json"
-hash = "1aa0042f8bdfed4c33aa0524cd822ca1b63386ae32293ed33ed5ca6836c9c6af"
+hash = "f4d05c61aadeb544c4f5847b3e32d7592d99cd41ddbdde666cd58f1658422401"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/everstone.json"
-hash = "3493a82dffbfe3aa84721e31ffa584a01679204d630f5e1ee2cab76c88e9b2c1"
+hash = "ed508be0f749a1d5f4623a638261895b3a10ff675b29bba3d83f2cf4af3f2237"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_bug.json"
-hash = "c45320072637167cf150e4a5e10cbb09c44b26d4a102a22df355826b4d8c878c"
+hash = "dd4d009fc7b7dbb38e04a682e44d188471da8dbdce33c75635e4887967058a5d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_bug_from_shards.json"
-hash = "c019010b3f59e67e914b868333a5d1e43f7703eaf9464bb145398fb4c6b53146"
+hash = "a3fdd8afa9ae809c090565e9900517320313aeee0a3ea6e3c9635165c4a081e3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dark.json"
-hash = "387ae4aaaed954db801f3764f106412060d833ac8019bc331379023d2c67bcce"
+hash = "a2fda3571d32c095203c167c2001401230c38a0d65d7b78f994b803441d12a42"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dark_from_shards.json"
-hash = "142d6d4f201ebfa5d3943143210593f9fc708de24fb9f8a169a4df48124ec2a2"
+hash = "197e703486089440d6d32c50f683e54ea75b95d2710d7cbb2612f59154ea1286"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dragon.json"
-hash = "6f3f294ea7fd3f9215d464ef208e5c6082c9c7bf00eaad7a8771ae242fd70043"
+hash = "910d097e45513a18f686d41693ee1f9f0f925bdaa487773386ba24676d3c712c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_dragon_from_shards.json"
-hash = "3784021e4a7d55ee385f482b09fad2491cafc265d08e9752aff41dcd6eae8504"
+hash = "22e028ca39c195243681c8977d08a6a6ed5d51445840001c6fb48110806e03be"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_electric.json"
-hash = "9c8b1261ebf0ea8a38c55b4840ecab5c957659501f51bebf5fc4ada204f338fa"
+hash = "0cb9479ee4a0c1e2d6a4659a87762daad698618825fe5917a1cc2b9039470a06"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_electric_from_shards.json"
-hash = "ee75c12c43e9b202677e599af52b9ab01bcdaaa4f127d45d9095c345c5a7f430"
+hash = "36e96681bea4e9ce555e14a8ba75b599f6b39c0c2923df7b78901cfc4cb10d62"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fairy.json"
-hash = "8f2fc280a1db20890577b5dd9defa2c5535ae729921c17520d5cf124e0488817"
+hash = "9e36cae6558c2173ddf76a63c0f9d62f54b3fad2517a7de24ebbed2eacbfb9d7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fairy_from_shards.json"
-hash = "6bb057ca26973d71f76021ea8c4abb16aefd55c2026fdb557a2e09a3d41d5a55"
+hash = "e8e9880aa9f5c31d3142562b75bcc2c90f568e8b6cf30298e1a37c2c899ae9c7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fighting.json"
-hash = "75926d4da511c9cb56536fefd394d2cac7291f0e012f7af38b37d146da49d68a"
+hash = "fe95c6149a796632917b68f02cb963c199d1e0f6f57692c5195ff4be63b443e8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fighting_from_shards.json"
-hash = "63cf1993a05797ec3506128893c83d1c7018c6c8def5d905fd25b2de58c6e029"
+hash = "60048946e3f9a93033f3a5eafc6e5b4cccda95b431016c31a1692dd6df925000"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fire.json"
-hash = "73b3a4eb68da5d50cb7afeacac5209b0ed9d02c40a038353ff7b16e32d1c84dc"
+hash = "7125d72c95efdbee9e5ce8cc268b19a8fa6e6f2f61e9899cc7ad6e38b41c6b1c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_fire_from_shards.json"
-hash = "7d6344b4aae86234dc0e9522cc7069d3c94deb638d1805df1e2a5c95549d0cc8"
+hash = "873e4579b10fe45cdf6da5801ca01b1f34091cb688347fe5a18c24d1474e18f0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_flying.json"
-hash = "85ee0c774e8a9afb0079d36ffcdb03cc5bec148deb5f5c1ba4c406873e41b515"
+hash = "e869598839f15e864e4940636d60adbbe0bbd2ab83e2115e2323c1378fe69156"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_flying_from_shards.json"
-hash = "a0e0193617e2292aa76a950d230ba27cd5bf37a32661cab67df2f9653c73205b"
+hash = "9b3f53c1bbb909814eee0d6bc4103a1ed75c3af04d6a1a2ec5bd42eb8c16f37f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ghost.json"
-hash = "7beb60de5c599e6e35c7a2e9fff19bc3fe771223888a456c6b53126f6c5291ae"
+hash = "c0a02548f79ac9bc29b8d8fc88fb42f5b5247f67191d31b3f820fc93206126b9"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ghost_from_shards.json"
-hash = "aa03d19df1b92c9c0d91b32d494bc457858e9b4e2cc7761d4f250a60d45fbed9"
+hash = "c32c1192ccd7aa61460624cf40ab53335dc43433daad10fe0d0daa8b9d93b136"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_grass.json"
-hash = "5fe0d51439d6863eda4601c90832d3fb187da71f0872e122df58a764ffaeff7c"
+hash = "1fff2b567948ccd6f3c2d1ac038f4185dec7def4913205ecb13b937c453529e1"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_grass_from_shards.json"
-hash = "c230e9ddf48e89f1f0c5f3074bf4a3d2090182e7140cd76616df31c738200d15"
+hash = "f97a6d7259b188aa6079a11d4dbb2a8df5fb9e2f496992c252bb9ed81e58bf7c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ground.json"
-hash = "5c3ad94238cfde7d6d05cde8b98f70439315062a1e6361d9e80e04808ca3d551"
+hash = "e3b9fb78c06eec5e450a4d17ed16b12e4b387c8d2c07e5a5690b5bb40d442f4f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ground_from_shards.json"
-hash = "360862ff0405f6032eebaab7dae0bddaf48a7c9bc44cdf0ac42fa614f8b445c3"
+hash = "517eff3cec3067b95bdd2c0e01b124d43889eb04e0870034abb228ac27213a17"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ice.json"
-hash = "bc1a70d84454ba26c4e7358c0db949db4d697278056b8ef28373144a179a9ce1"
+hash = "178eedcec49579c1ac68ff44a08553b6456e1f6686a6c80f72d4e03d3731cf24"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_ice_from_shards.json"
-hash = "dae08f94b1db7e944a1499cf315342e286291f6e342028e2648e514c8534e3d0"
+hash = "22887a00953b29639745b3a13154c382ef72290e85ed88e8cf19afd188b31e55"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_normal.json"
-hash = "b82cff4813ab89f84a643be8a9cab301269ba8702b6dd485f8eb63914cd1af8e"
+hash = "ac31aaf92185b11c2318866a68247e329f1313e8a9cfc79311bdf62abf552d26"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_normal_from_shards.json"
-hash = "acb0163c8bf709f878377662aacbf5d2470d3cb346ac9d7e930b5a96121be108"
+hash = "89812a261e5fffea49b1bb14d9e8f90994914d90b6b18e6a405a372db462faf8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_poison.json"
-hash = "c990524a488b98148888f1859e106132f58aac28edda70e93e3364acc351f554"
+hash = "9d61b23cd29e869931ecf632061ef165d029c6bfb0ce575a69e835214f173611"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_poison_from_shards.json"
-hash = "dc81e13f79070a3a47f9b545cd9d48d5014a9f7cbce973e506c838f3a365458c"
+hash = "3f546b591397d50eda313527fdb5e54da89b104b1eecb226240fd9bed69561f0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_psychic.json"
-hash = "f91cbd52c7714a3ac0d1d792862262b7d3fbd242343f4d97da4384b7c1e480ad"
+hash = "81cbd9a99d6564fee2a9c0fe489a36b309c3126f061d7120b0915d3dfa5e538b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_psychic_from_shards.json"
-hash = "ab5ecb814efd73c6e0af96499974e8f9e5b9fe8586f3e2601a10bf9026d7313a"
+hash = "4e147a97aa338afbb81d16f98ba31784e27bace6f1a8c8a344364c0e789f150c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_rock.json"
-hash = "ea265545ee009a366f24d8d758a9fedf6e89a244e776cc838b10dc31687f3d68"
+hash = "3d8ffe5ee6cfbdce2529b6d51c1b15e4dd61a14bd1105b7fd8d460d3f322e75c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_rock_from_shards.json"
-hash = "80062c367488c77d3f4eba648fed4cdca44e6cc26294a64dfe183e81026434f3"
+hash = "36ccc7ef6d71ce802dea4605af911caf2d1d0daf506b7e91c78cc106e7abf01f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_steel.json"
-hash = "c13d3711c12fb7b588ed4f2f2049ad23840c642671d2bee060155d81f0a795d2"
+hash = "1ed51807a52654341a6e3cd68f06be963c8a587725b8542670c49a1fb5eb2422"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_steel_from_shards.json"
-hash = "d04991a1b218042be7677a90c97f93c3cd21583b370d50ca7676ea7346525c35"
+hash = "d197e575db4bc84bea3e9670b2de30160fc5e818901fd58137b5f1cdc6028b73"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_water.json"
-hash = "1e145d3313e3ff7ffb370c2b3261f356bafc7d9706e0dda9d7b5ebec9a757531"
+hash = "777e8e840a26cdacdf65e0976b3e73cf835ea7184bff346fd7bd7b2c41f881a3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/gem_water_from_shards.json"
-hash = "e464a8fb6515b09812cd48252c77ba1064be482b4a605a74321f05681a8b059b"
+hash = "b6ef2af923b009b08607664b88d716ed56b97b5a9ac3229583094e85584f38e9"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone.json"
-hash = "d2b7a77c8bc72b937c0f4b30d87b2aa1dea688270eaeca3cf63b465b23f77d56"
+hash = "f9e0b029c5ad233d75c1d138e4cf4caad6a19d8a297c4b89f9ba222b9daa5f83"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone_assembly.json"
-hash = "2a68a83de90f96511d8a2fe5d1cb488573ad9928e8ef055049e6dbc001f6f26b"
+hash = "03052a51af3795d571f5eb8b482a505fe706f9f8140fedcc1a39d28a6ddb3d29"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/keystone_deploying.json"
-hash = "e792971503a4625c270dbff246ea05c5aa74027a2cf85a32fc714505a1bdb932"
+hash = "704a5acc2cc5358b5b4581eec23dad86942200e66ece454b1e6c75f6ad00aa2d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/leftovers.json"
-hash = "fce1a6e3b1cc2f30a05989d01e422911c0351463089c8ab573b3309c4c3c2242"
+hash = "50795753c53d61b8ecb7103925b4ce88fd38a7b32b8044765ede47d739e53cda"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/lucky_egg.json"
-hash = "bddda225ade1be379d1aa03de7a5f62dab082482e3625a394e02648cb4873aa0"
+hash = "5ed784eb092d7b9003460bb4c7f90f0b8881bcb37e99537c5cb27205d7da865e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/mega_stone.json"
-hash = "b6a078245cc46d696fd224cee52913f5e3986968a5791174fb62f9fea2fa0703"
+hash = "04cc77cfcbbdb924b520a81ededcb8a1282f1ecb013c4804208683c1d6019c61"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/mega_stone_deploying.json"
-hash = "ec1c19743964ec879595e2145c0332ac0816b3cbf557dbd6b6e5470dbb610ec0"
+hash = "a936cf69557ce033e46500e4672d3a98a8f822a8d3d79eade9e92db9824f803d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/nether_star_dupe.json"
-hash = "a26151838846864431106fe250d73d936a99b48e488d74ebdfb199b04ad41a23"
+hash = "e8d8c6dade2353b814efd5f6a57a7a142e72e11d10cb32f1709d3828a02b1bc4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/rare_candy.json"
@@ -1903,247 +1898,247 @@ hash = "e923cd3e081158fd0ad4623163c3740d68cc27ee1562132b0f3846aa4d9c98f0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/shulker_shell_crafting.json"
-hash = "aaed4a6d46980f803c43e1895e09ce594524e247c8f7ff7187f3b0f6ee6c09a7"
+hash = "716970f8106aa0e1302bf0bb1717566e105bbcff9f08a3340d0ffba41b4d0ecd"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/skeleton_skull.json"
-hash = "f3f5d41f8df974be57ef71918642c6f946847787417f9f9e949e42593d10d28f"
+hash = "b7e047f264e3062ab4cd4a5178760388e4665423c37d43972b62abb5c2e2aead"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_classic_mixing.json"
-hash = "acb7158efab73423f2a1e123976c3ef0d03583ed72f26755c85b4cbf1a29a589"
+hash = "22cf393e93c3914ad40ebde5e065c49465b1485fc12ed4eb09141eb35b0bfba4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_coconut_scrub_mixing.json"
-hash = "e9630a4757be4d1c47ba5c0f3858fad41d21535fefc94b7911a5f497d99aec3c"
+hash = "b37ed1591136bbf6041cabd2afdcb8b429e0e26242905851bbeae5601286f771"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_coffee_miners_mixing.json"
-hash = "259524deaa39166881b3cd030bb52f1ee8fd4d3ede4d614a7dbc0f4779fd7968"
+hash = "5aea67d44a9f11c8506a4fd3b5ad021c57cedc8144035a8cb7470920b66f3790"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_honey_oat_mixing.json"
-hash = "ad7e1934b19ddd444d575d8e873b9d1f866acdd3b4ce0fe8d73aab317ed30a13"
+hash = "ab6152385db447d351e6c7d9c3cb5ff63089ca049d9ee223ae25aa7e971172ef"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/soap_lavender_potion_mixing.json"
-hash = "df5284358e0e9182688c3127696139f7bf572e707a81ea1f922a8a6a8575a0fe"
+hash = "7ec6e9d8a32d3a6002d4906a1dc865d44242a2985448807652536698ea6f97ec"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_dark.json"
-hash = "50790b87744aabf907a2d1aaf956a1b86ec7f8efb69c6aa667b0156265a29614"
+hash = "1cf3712372dd9c0b48baee94024b25d916ee937ee46f8b60901a4f2c7f15e58c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_dark_assembly.json"
-hash = "39e6711fc40faab19d46db85d21a38d2a224971fc1a1209d83c1e8cebabd6b37"
+hash = "e900e81fcfe6ba35a7113502c737c80459a1b2732dd35a960db4321643c80963"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_light.json"
-hash = "30b03cd3841e49243a7144bdc338dee6e911825b541ee169e23786fddec9e3fd"
+hash = "786a6dabd9ae19a2a38f21e8ec8f4d0cb08e60961ba7a29a0d3c3f8b3c75f453"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sparkling_stone_light_assembly.json"
-hash = "aa69a0a69251fb394099a3cd196eb22fd372b414d9e43d6ee15e067d0d4efc14"
+hash = "0ad0ae5b1581e9fa19a9d954bc0e5a348536b440b7de40db8f58d55bb3c4048c"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/sweet_apple.json"
-hash = "4a3367d4cfec3715dd045bd41c6835f58fa6cc3aa0a1e9d5c263d946f4ff1776"
+hash = "887733fef1de201271817d4b42bc948efa59d88298f570a76bf6ddf84e5595ee"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/syrupy_apple.json"
-hash = "5053936455dedbad51991f44f6f8e094b29d8cfbcb073bd70669b12018745bd9"
+hash = "e3b1e085bd2de2b88de135e84c50969a5f1c2c635706398a1570b9c2bbe6443e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tart_apple.json"
-hash = "5a508e02297395ed3f259c41b4e1c2b29f3fedc401cbd3a6caff2c90593711e2"
+hash = "11e147e0a204a92c5a128c1149986c74e556c7e0cd18cfee74b3b6c537726c8d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_bug_cutting.json"
-hash = "a2af1a8f5c6d91081bcbb62e23cf2f7e0b84b0e6b0190a4776ea32932fb45ad6"
+hash = "c6916333f1624045ec134fe54a2813f60f5bc59489a87b4ccd1951896024dfa4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_bug_saw.json"
-hash = "269cd6503fc878d13ef3c616ddab5697ae922af1bfe4c38533f94f15f42bd717"
+hash = "4f89ce46b9378cdcf8e4b1dfe118cb1a6e432f13ec4ef39561895371d8b63a36"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_dark_cutting.json"
-hash = "737f703af12f8b29ffc975abfb5d174790b927be4c2e592a3660173796a867ae"
+hash = "a3c0c1c1e6d4376f68ab036ba74497d7962d0ba87f404861fd3a8aac53c8acb5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_dark_saw.json"
-hash = "cf7b4493696f6cf7f18b51fb7c357a6e1f5e6beefbde4a7167ea8175a5bdb733"
+hash = "1c5865a9e4e3371f91da74934ed6f42ba6fe39fdeef6cc8a85d24f10df41065b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_dragon_cutting.json"
-hash = "41397b24fe9cff0f02a3f8499101bfb9c455fb8c492fe0ad2af7c44776778666"
+hash = "206183c7d5187c5428dbc72282b5684f885886de296bf20c74cae3b28a3aca1d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_dragon_saw.json"
-hash = "45206ebdaf2239ac62e10a2ce0b4d6d1c47368c7fc9c9f2f412a4bde15ea335e"
+hash = "b79a14367d346e892457888bc61623d720ce7e938d9ad868b873540f5745be7b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_electric_cutting.json"
-hash = "ba5e04595c103359a89571561254c9332892c557fd7f67fdd82906e3af42e576"
+hash = "1056f68821d8803a47ec6286736ed99f8e2f9d4849e795bb86fa692df0953bf5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_electric_saw.json"
-hash = "3fbd94c341043ab2253a85fed33995c26219faa57dddca8c43b759a09c6cad60"
+hash = "1173bad6b54c51f57b9bd386d3db57f6e554d7b374749ce3a2383413cf924bb0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fairy_cutting.json"
-hash = "3607e9feaeff817eb4de4a83468b0908054ba713653b524246509e9914d3b37a"
+hash = "49dcd6e36485ab6fdd5d6b41cd0d58e25240c120c3576f26deae0a39283657a1"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fairy_saw.json"
-hash = "6ff9eeb4ecad1113e28a6d22c5d728bf8183205c3ced9242b98b564f791eb63e"
+hash = "1abc3693c8df2347b23faa3b0558182197ceff32177796fa482e7c79d35061de"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fighting_cutting.json"
-hash = "70a9631f932ccb90749b5fae94d8d54ed4454efc57293fb95e92f542375e651a"
+hash = "329418f373cabbf1d41a4d47158aafc5696f8bdabf83e7d6121f5a77d2a59d10"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fighting_saw.json"
-hash = "2a02e6774c1432813816466551f435905344f161f8dbfdfaec19a460d08e1c68"
+hash = "c7359b9b156552f12107532b5e80c0bf6517e839600c49363973a08574095cab"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fire_cutting.json"
-hash = "23abe0603afd5a97351b81efdb7a6ec65ff6dd499ac0c103bce0aa8c335789bc"
+hash = "39c385ba550bd89eeeeed949c10d19ac6933aadd41ed6520f23f8c97a219d2a2"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_fire_saw.json"
-hash = "f61e44bd2012560b0901583f3b1854ce6ace792f7c97723606e37b32f3e0bac1"
+hash = "1e45f1ea68030a170c5b33166e2a1a49fdd1b080617a536dff34a7a48b96079b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_flying_cutting.json"
-hash = "4781e969b3dd343b3098719f034e3838ed1f9cfd32190eacffe20aa1bf3091ad"
+hash = "5cbd2d4da91b9e9834f7d7a74ebf13b31290204aba12230cf3f9f98807dd0bb0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_flying_saw.json"
-hash = "ffc3a51e0072394d3c8904ebaf0c9c0c67fbd7f732aeeb325341ecaaee8b1055"
+hash = "599366d9aab940b3489c04c23f59b81cf1ffef5cb247dcb368d9484010bff571"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ghost_cutting.json"
-hash = "f4da2ffe8a06768c211e3189b6b8bc4cb38ec00a74d040dc1b8f84ccd0dd24fb"
+hash = "3c26666635bc73de37d58fb9a37c8866d4abe2cf022366080707485dfc247409"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ghost_saw.json"
-hash = "d832a2ae90760d7f79e915288eff365e416dc9ee89b7568bd2618b0f98cc3b3d"
+hash = "a286d535b65a33fea3e62787ae7bf31d40ccd6e96eb32c25fc2b2e41aacb4c64"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_grass_cutting.json"
-hash = "5736c8705a27bf13ed184c3ef6c303b1be94a1c8c8ec4c119392108dd20b9938"
+hash = "c85134963ce2bd38d1553927e1243fea83a9422bc370a54ae290b820f933507d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_grass_saw.json"
-hash = "e137915ba1e76a02e929a045607f6a08b01f1d6e26467b4d8b789089bc8070f2"
+hash = "b052f753d16a57006997a4bd46eee8c2b8f58953a71239aac34dfe882b72a4ed"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ground_cutting.json"
-hash = "cd39d36a08e8dd4e62c856135f98b7a28feb6c1f9e65774ee32310f7ddaff3cf"
+hash = "29acc9475f62d73ce869a9f729058eb58e51c33d63210cfb35c3b8b33a1e9039"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ground_saw.json"
-hash = "bcbcb7ec453a2c4ac98e1c15bc2a54efcd4420aaeebdef879cf7ef1c96d4bfe8"
+hash = "edea9ffb17189d40dafab68cdc7fda91fa4efb3e70a9e659c2018ebeb0c2f71d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ice_cutting.json"
-hash = "fe331c2c1652ca89f8444ed8fd80f4e9acf6382e4f920a24943249dfb509aef6"
+hash = "e8b0353aa4bdd8a5bc9da84a9f25fa84d1d2fc8c7e8b37970699dbdf1d8a38a9"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_ice_saw.json"
-hash = "97aed626ac59f61f9680ab408cf8da8a9fc477eb39c4bcfc275d9c6d35270c44"
+hash = "c42a4bde1860e629ed2a003649f22fd953868bfae73fa0f9cafae3aa00f616db"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_normal_cutting.json"
-hash = "a0c6c5e4c5cedd4d7626a62464f009f0e98e553430de8acea404a113a2131f73"
+hash = "3c1e98f34217f2a9c014e74514543ce0c98ec47ceb6a4f41d4a0f3aede1e8787"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_normal_saw.json"
-hash = "88296b6ec9c787689022ac0d45755a5d7001c765fa5a38467e7a91dce82fa792"
+hash = "372c7a052c88022421d9c4e747dcf60e4e083c90b7702738b0e90434f14097ca"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_poison_cutting.json"
-hash = "2c30449c3fa13f9b2055c7bee083e8d571c50449102b16d71609644505b26860"
+hash = "0b71f9947b273d5b099a21af3e10eda0e7288319add2fc5f88d92d0a0bc39b80"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_poison_saw.json"
-hash = "e4d83a0ec60de7336bc5d31802cb4cb41454c8fdfca8797c4729023c408d428a"
+hash = "72e3b274de72724f2130fb9e2e2cc64215d8ba110e131276b802bc1539a8e2a8"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_psychic_cutting.json"
-hash = "0f8a01f414765cbb1ba62a3fc8a38d1c32cec560907efd8fa72a79b90344930d"
+hash = "e10a2983c11702e841e6c1b3d16f1f62936e985c4072e942dc767f0719121bd4"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_psychic_saw.json"
-hash = "c58698976769b9e0d335157d6d500a8988aada2e19611f82b17955153bc1848c"
+hash = "e81e830a89a7b1fc584825ab104aa50d378165b7c7cece5fe063fd3a1680a31d"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_rock_cutting.json"
-hash = "f00b9238fa6566e462c90fc4cfaae1215fa41171ba42e4a513d85e106444a0ed"
+hash = "3ee13ebd5d8200f5f2aa7b0db2832532fcda97db1c35a79184b618def8e7e1e7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_rock_saw.json"
-hash = "4de2da1ef614ae03ce80d784e1594945ab64b28a0dcd5d2128e162ad06473576"
+hash = "32f75780ebc154d492ab8b8994fc11ec0dd72decad3e1b19b662816fcdb6d6ce"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_steel_cutting.json"
-hash = "bcc8e81e11dc81ec8c13f51197216f1318c8ddcde6744e4aee68cb10936667d2"
+hash = "6a7a07da69e5cd06697b594aa54e406652364048ff2504629cd1e00989e94cd5"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_steel_saw.json"
-hash = "ecd59d3641cd81b0ee9c824bbe247457eeb5cd3d5294671a6418aaccdc7d9c51"
+hash = "8f2b9dd86a3bcadc9a9ad455b9e9ac8087de9ed50de07ec5a40d270f2ad36103"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_stellar_cutting.json"
-hash = "673408c75b8105863cb46d18942e837da208b28132845ae96bc577fb1e967476"
+hash = "8786ea21a177fc364a751f738d4967b6c957be474e75536e2555bca9346b864a"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_stellar_saw.json"
-hash = "6ff4932ac694f14880d6d95cb9419e5d84e82aea144257ec22866a2731d8580c"
+hash = "12af351af7d15821f36bd308ab2f06cede64b41fcabe5ff053db7a8ef095fc36"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_water_cutting.json"
-hash = "d70c6c3866902eec628c441985cd313a605cf3d4481cfb8f2156069d05b6d07b"
+hash = "f6377df04f300dc8f8318caecd7219eb0bd028f92bf08b8179d6c4fac83e8583"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/tera_water_saw.json"
-hash = "7fc1d2c8c120ccae9085189cd090fa2e20ff2e813f8b65dafb1529776a8f1eb4"
+hash = "10df1926a5abd6331f2d4a74a3bf4882438240a481af72decf2b685148008138"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wishing_star.json"
-hash = "ff2f4ee2b20c67b72e3f4950975da5d5ee9d5e77dd685141d8f08414782da60f"
+hash = "1667bdd96aab093a06d2b8031ac02bb24cb19d3dc6258ae6526243124e74c54b"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wishing_star_mixing.json"
-hash = "c532831c45dcca324ab908a42cc59522468ad06cdac71a9b08b757e94beedc87"
+hash = "ced1686cdb823e9368d5c92da55bc366114297683ddff2ce2887a9934a46799f"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wither_skull_assembly.json"
-hash = "1c0ef9a677fa7da83d91743ddc438a7c6b4879c11513dccd808704aa18f70eba"
+hash = "ae86b736b2154db12a4647c19d41feb288dbe4853e22233ce5728c2f54a2fdd3"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/recipe/wither_skull_mixing.json"
-hash = "43880e86b4de859c9fa501accf34bfaf30c02d84779bc87236a9093f18509749"
+hash = "495d25a3024815427d410b5938b9851de9837139da19f9d037ab51379a7e4d47"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/diamond_plus_knives.json"
-hash = "cbf8c5af06afa371e3d1d98969ca63a68ecd9a6840bf39432c99952a6f4dd4a3"
+hash = "3a9bb23ca1fa43da35345871d9ee8373b2dd37def43fccf4ba39dab507362405"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/iron_plus_pickaxes.json"
-hash = "54452d178ac991973eeb36df6ee904479354050e809ea58c374de8640f4bc0b8"
+hash = "f2e8bae0183ea3f850f85f26ab0c4d742d86957bc7c7f58ff32480f2321dc306"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/moa_eggs.json"
-hash = "15524877ba965d49c9f931e2557bb1cafd24595db0efae5aa536d0fb844497a9"
+hash = "4b541dae51eea33543981115c21fe082e0405fb75a3d8fb7964b454f918646dc"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/pokefinders.json"
-hash = "6f1eab0bbfebed8afbbc84a78603d4787c391b081370756803508fd22e433328"
+hash = "95a76df27d8a2f004dd6331abbd69ae559b5dc008cc2ff8b37013ff5d12ca6e2"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/steamon/tags/item/smartphones.json"
-hash = "678ab0023c05dc78ffb447546ebc6e8b7e10492e2fcbffe4e6d88bf487135f2b"
+hash = "981df06c45482c6113493fee871bb303512c0f812ce862cce9a4e7e9b3ca168e"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/pack.mcmeta"
