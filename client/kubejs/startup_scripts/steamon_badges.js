@@ -10,6 +10,8 @@ const STEAMON_BADGES = {
   frostfae_badge:   'Frostfae Badge',
   iron_will_badge:  'Iron Will Badge',
   aether_badge:     'Aether Badge',
+  dragons_den_badge: "Dragon's Den Badge",
+  ghost_badge:      'Ghost Badge',
 }
 
 StartupEvents.registry('item', event => {

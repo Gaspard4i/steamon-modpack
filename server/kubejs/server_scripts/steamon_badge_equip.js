@@ -5,7 +5,7 @@ var CuriosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi')
 var BADGE_IDS = [
   'steamon:chaos_badge', 'steamon:carnival_badge', 'steamon:greenhouse_badge',
   'steamon:terapagos_badge', 'steamon:frostfae_badge', 'steamon:iron_will_badge',
-  'steamon:aether_badge',
+  'steamon:aether_badge', 'steamon:dragons_den_badge', 'steamon:ghost_badge',
 ]
 
 // item id -> target curios slot
