@@ -321,8 +321,16 @@ file = "kubejs/assets/steamon/textures/item/chaos_badge.png"
 hash = "6d27823e683b0936cf8297a88237cbabc30586c2119584d75aab7fdee4d4a592"
 
 [[files]]
+file = "kubejs/assets/steamon/textures/item/dragons_den_badge.png"
+hash = "b21c27b80bfc045d9e1f62ff2a75a2b6a63662fba104cbd25242bbf472f45f61"
+
+[[files]]
 file = "kubejs/assets/steamon/textures/item/frostfae_badge.png"
 hash = "245a5d9decf9f85b67237d0f9de61ed07d6aa309c30cfe688b20c5ad7ba687c9"
+
+[[files]]
+file = "kubejs/assets/steamon/textures/item/ghost_badge.png"
+hash = "9beb94ef378c3cdf9ebe5938041fa8309915323090714228a0b497ee81eb0f72"
 
 [[files]]
 file = "kubejs/assets/steamon/textures/item/greenhouse_badge.png"
@@ -342,7 +350,7 @@ hash = "c66f8f3e6afe76998f2317780e836d2ad1eb41cdbe43121d7a5d5835bdd32949"
 
 [[files]]
 file = "kubejs/startup_scripts/steamon_badges.js"
-hash = "9c6af5662bc4eb393679da0e58adfd10787189d3714a41b522110b3b182643af"
+hash = "1f9a14c501f661e80d61e27b5ec93e30428ea5f4f5f1c8e5452f38196522e1bb"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
@@ -2994,7 +3002,7 @@ hash = "6af566f8bbd880d21deac4c54ad6dc7fd936fe267a365e5dcbb3f24ea58e0bf0"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/curios/tags/item/badge.json"
-hash = "e6071a048d4166c68fa45da9edc95e2b9e45b10f1cc2e4c13b41df87adbfae88"
+hash = "453abbf77cff0e3bfcc83d3c980a7053aeb52afcd0884c04542dabd41d8acdc7"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/curios/tags/item/cape.json"

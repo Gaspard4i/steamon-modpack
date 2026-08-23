@@ -426,7 +426,7 @@ hash = "60a4957db3f6be73099ef7310a0f1110773cefc239946caf4718d03558ecf1e2"
 
 [[files]]
 file = "kubejs/server_scripts/steamon_badge_equip.js"
-hash = "ab6224c2150f5fce0d9686724f3f7562513485f29f2ce95ef617d4539ad4a827"
+hash = "d25ccf320b0cfb9d26a7ca2bd484c2a6d6702e31124ecee543ad8c41d3d3e4de"
 
 [[files]]
 file = "kubejs/server_scripts/steamon_compensation.js"
@@ -438,7 +438,7 @@ hash = "3f7f9073a2c5ea495aabd5fee0b1494e75645a4149e63528db8529089bd4bcca"
 
 [[files]]
 file = "kubejs/startup_scripts/steamon_badges.js"
-hash = "9c6af5662bc4eb393679da0e58adfd10787189d3714a41b522110b3b182643af"
+hash = "1f9a14c501f661e80d61e27b5ec93e30428ea5f4f5f1c8e5452f38196522e1bb"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
@@ -2893,7 +2893,7 @@ hash = "6af566f8bbd880d21deac4c54ad6dc7fd936fe267a365e5dcbb3f24ea58e0bf0"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/badge.json"
-hash = "38c4a07f6606d74470a96fac5b048b305de73b34f52b6180061ece342f2771cd"
+hash = "453abbf77cff0e3bfcc83d3c980a7053aeb52afcd0884c04542dabd41d8acdc7"
 
 [[files]]
 file = "world/datapacks/steamon-tweaks/data/curios/tags/item/cape.json"
