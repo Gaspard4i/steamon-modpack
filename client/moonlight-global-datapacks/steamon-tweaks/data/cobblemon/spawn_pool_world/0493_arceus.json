@@ -1,0 +1,22 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "arceus-1",
+   "pokemon": "arceus",
+   "presets": [],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70-80",
+   "weight": 0.25,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_end"
+    ]
+   }
+  }
+ ]
+}

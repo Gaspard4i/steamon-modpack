@@ -1,0 +1,99 @@
+{
+	icon: {
+		id: "cobblemon:master_ball"
+	}
+	id: "30239D3A6DD1E57A"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			id: "item"
+			item: {
+				count: 3
+				id: "numismatics:crown"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 1
+				id: "cobblemon:master_ball"
+			}
+			weight: 22.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 4
+				id: "cobblemon:rare_candy"
+			}
+			weight: 18.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_xl"
+			}
+			weight: 14.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 2
+				id: "cobblemon:cherish_ball"
+			}
+			weight: 12.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 1
+				id: "mythsandlegends:rainbow_wing"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 1
+				id: "mythsandlegends:old_sea_map"
+			}
+			weight: 9.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 1
+				id: "cobblemon_utility:shinycard"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 1
+				id: "mythsandlegends:azure_flute"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 1
+				id: "cobblemon_utility:mastercandy"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "item"
+			item: {
+				count: 2
+				id: "numismatics:sun"
+			}
+			weight: 2.0f
+		}
+	]
+	use_title: true
+}

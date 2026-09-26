@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "transitional_item": {
+    "id": "minecraft:disc_fragment_5"
+  },
+  "results": [
+    {
+      "id": "minecraft:disc_fragment_5",
+      "count": 1
+    }
+  ],
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:iron_sheet"
+        },
+        {
+          "item": "minecraft:sculk"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:disc_fragment_5"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:disc_fragment_5"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:disc_fragment_5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "leader",
+  "series": ["steamon"],
+  "requiredDefeats": [
+    [
+      "steamon_gym5_tom"
+    ]
+  ],
+  "optional": false,
+  "spawnWeightFactor": 0.3,
+  "biomeTagWhitelist": ["is_overworld"],
+  "signatureItem": "cobblemon:leaf_stone",
+  "maxTrainerDefeats": 1,
+  "battleCooldownTicks": 240
+}

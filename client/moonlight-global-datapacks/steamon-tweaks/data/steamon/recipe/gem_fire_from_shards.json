@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [ "SDS", "D D", "SDS" ],
+  "key": {
+    "S": { "item": "mega_showdown:fire_tera_shard" },
+    "D": { "item": "minecraft:diamond" }
+  },
+  "result": { "id": "cobblemon:fire_gem", "count": 1 }
+}

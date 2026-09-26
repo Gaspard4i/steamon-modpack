@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "LNL"
+  ],
+  "key": {
+    "S": { "item": "minecraft:string" },
+    "L": { "item": "minecraft:leather" },
+    "N": { "item": "minecraft:gold_nugget" }
+  },
+  "result": {
+    "id": "steamon:badge_case",
+    "count": 1,
+    "components": {
+      "curios:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "curios:badge",
+            "id": "steamon:case_bonus",
+            "amount": 7.0,
+            "operation": "add_value",
+            "slot": "charm"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CPC"
+  ],
+  "key": {
+    "C": { "item": "ends_delight:dried_chorus_flower" },
+    "P": { "item": "minecraft:popped_chorus_fruit" }
+  },
+  "result": {
+    "id": "minecraft:shulker_shell",
+    "count": 1
+  }
+}

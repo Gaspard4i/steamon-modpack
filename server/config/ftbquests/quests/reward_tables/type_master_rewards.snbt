@@ -1,0 +1,151 @@
+{
+	icon: {
+		id: "cobblemon:ultra_ball"
+	}
+	id: "2AABBCC000000001"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 8
+			id: "3BC19850CE73E343"
+			item: {
+				count: 1
+				id: "cobblemon:great_ball"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 8
+			id: "01746CB282026E42"
+			item: {
+				count: 1
+				id: "cobblemon:ultra_ball"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 6
+			id: "531E15DCF0CD5B65"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_m"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 5
+			id: "48E4179FDF128C4D"
+			item: {
+				count: 1
+				id: "cobblemon:super_potion"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 3
+			id: "370CBFFBAC850A70"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_l"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "41FB75377817CB55"
+			item: {
+				count: 1
+				id: "cobblemon:dusk_ball"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "3AB0B46F95F12177"
+			item: {
+				count: 1
+				id: "cobblemon:timer_ball"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "0F0A64A5A10443B2"
+			item: {
+				count: 1
+				id: "cobblemon:hyper_potion"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "5C3A9A45DFA5B75C"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_xl"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "49450C15A73F4A27"
+			item: {
+				count: 1
+				id: "cobblemon:rare_candy"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "5A52AE08672B8301"
+			item: {
+				count: 1
+				id: "cobblemon:protein"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 5
+			id: "6ED5DFCBC3F75E21"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 3
+			id: "40A832A5C522AF0D"
+			item: {
+				count: 1
+				id: "cobblemon:rare_candy"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "2D513A66D899731C"
+			item: {
+				count: 1
+				id: "cobblemon_utility:goldencap"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 3
+			id: "741B0D29F6306592"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "739CFF82C5BCB5E1"
+			item: {
+				count: 1
+				id: "numismatics:sun"
+			}
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

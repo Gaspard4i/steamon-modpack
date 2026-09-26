@@ -1,0 +1,49 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "cosmog-1",
+   "pokemon": "cosmog",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "15-36",
+   "weight": 0.25,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "biomes": [
+     "#cobblemon:is_deep_dark"
+    ]
+   }
+  },
+  {
+   "id": "aether_cosmog_1",
+   "pokemon": "cosmog",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-100",
+   "weight": 2.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_forest",
+     "aether:skyroot_meadow",
+     "aether:skyroot_grove",
+     "aether:skyroot_woodland"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

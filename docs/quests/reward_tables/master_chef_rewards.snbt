@@ -1,0 +1,108 @@
+{
+	icon: {
+		id: "cobblemon:rare_candy"
+	}
+	id: "7C50ED941B0E70CB"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			id: "6F000558074446C5"
+			item: {
+				count: 1
+				id: "cobblemon:rare_candy"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "78837A8BC498EDD7"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_l"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "7FE1EE14ED3F08F6"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "741EBAC0F5E897E8"
+			item: {
+				count: 1
+				id: "farmersdelight:ratatouille"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "2E0D5FA04FCFCAB4"
+			item: {
+				count: 1
+				id: "farmersdelight:honey_glazed_ham"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "5FF4FFC95A3F62D1"
+			item: {
+				count: 1
+				id: "farmersdelight:fruit_salad"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "5A68D9ABB703702F"
+			item: {
+				count: 1
+				id: "farmersdelight:diamond_knife"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5389A29B9DEA583E"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "668784725D99E9B2"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_xl"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "7F2217877C7B6AD0"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "090EBCB6E1D2CBF1"
+			item: {
+				count: 1
+				id: "farmersdelight:netherite_knife"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "0ABF4B3AF9251C08"
+			item: {
+				count: 1
+				id: "cobblemon:rare_candy"
+			}
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

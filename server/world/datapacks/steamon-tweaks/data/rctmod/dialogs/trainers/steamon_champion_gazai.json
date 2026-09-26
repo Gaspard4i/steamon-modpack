@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "So you've made it through every Gym, every trial, every member of the Elite Four. Now face the Champion.",
+    "I am Gazai, Champion of the Steamon League. Show me everything you've got."
+  ],
+  "on_battle_won": [
+    "The league remains mine. Train harder and challenge me again.",
+    "You fought well, but the title of Champion is not so easily taken."
+  ],
+  "on_battle_lost": [
+    "Incredible. You've done what few ever will. You are the new Champion of Steamon.",
+    "The league bows to you now, Champion. Wear this title with pride."
+  ]
+}

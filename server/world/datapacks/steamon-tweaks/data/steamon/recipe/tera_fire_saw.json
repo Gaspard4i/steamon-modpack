@@ -1,0 +1,6 @@
+{
+  "type": "create:cutting",
+  "ingredients": [ { "item": "cobblemon:fire_gem" } ],
+  "processing_time": 100,
+  "results": [ { "count": 4, "id": "mega_showdown:fire_tera_shard" } ]
+}

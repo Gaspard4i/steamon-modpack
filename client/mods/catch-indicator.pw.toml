@@ -1,0 +1,13 @@
+name = "Catch Indicator [Cobblemon Addon]"
+filename = "catchindicator-neoforge-1.7.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tpTcu2PM/versions/DsBXQk0d/catchindicator-neoforge-1.7.0.jar"
+hash-format = "sha512"
+hash = "196f88b0a9b69c95e30da0e71ec6a81d538ca65937beaafe3689120c5041856891f32295ab29ecd1fada171b50a93c11505c31144d48f87d695a1f5a8deaeb60"
+
+[update]
+[update.modrinth]
+mod-id = "tpTcu2PM"
+version = "DsBXQk0d"

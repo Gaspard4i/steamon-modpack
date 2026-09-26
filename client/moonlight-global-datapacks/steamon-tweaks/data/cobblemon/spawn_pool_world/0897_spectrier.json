@@ -1,0 +1,24 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "spectrier-1",
+   "pokemon": "spectrier",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60",
+   "weight": 0.3,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_spooky"
+    ]
+   }
+  }
+ ]
+}

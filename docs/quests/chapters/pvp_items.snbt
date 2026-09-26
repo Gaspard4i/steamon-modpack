@@ -1,0 +1,735 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "pvp_items"
+	group: "2A4A6BF9FB018712"
+	icon: {
+		id: "cobblemon:choice_band"
+	}
+	id: "2A69463259A2529A"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30E9681CB438878A"]
+			id: "6A00000000000001"
+			rewards: [
+				{
+					count: 3
+					id: "6A000000A0000001"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "6A000000A0000002"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "6A000000A0000003"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A00000000000001"]
+			icon: {
+				id: "cobblemon:leftovers"
+			}
+			id: "6A2390556B6867E8"
+			rewards: [{
+				count: 2
+				id: "77FA1939F9EDFAD2"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C277F42FD9BE3F7"
+				item: { count: 1, id: "cobblemon:leftovers" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A2390556B6867E8"]
+			icon: {
+				id: "cobblemon:life_orb"
+			}
+			id: "6D97B387BFE4207F"
+			rewards: [{
+				count: 2
+				id: "7E20756251B7ADB4"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "505B26A9D3600820"
+				item: { count: 1, id: "cobblemon:life_orb" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cobblemon:choice_band"
+			}
+			dependencies: ["6A2390556B6867E8"]
+			id: "6CEAD16A9F31722E"
+			rewards: [{
+				count: 2
+				id: "46AB0910F83F92C8"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D64C13331720153"
+				item: { count: 1, id: "cobblemon:choice_band" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A2390556B6867E8"]
+			icon: {
+				id: "cobblemon:choice_scarf"
+			}
+			id: "188AE9C67B19D68A"
+			rewards: [{
+				count: 2
+				id: "39796EC42DE4BBBF"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25B729B4B85B08A5"
+				item: { count: 1, id: "cobblemon:choice_scarf" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A2390556B6867E8"]
+			icon: {
+				id: "cobblemon:choice_specs"
+			}
+			id: "0810A531D8798861"
+			rewards: [{
+				count: 2
+				id: "3B350C7DC8BEFAE3"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "152A421C3AABCE53"
+				item: { count: 1, id: "cobblemon:choice_specs" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A2390556B6867E8"]
+			icon: {
+				id: "cobblemon:focus_sash"
+			}
+			id: "2506D45CAAB9A0E9"
+			rewards: [{
+				count: 2
+				id: "35FBC194D8EAEAE1"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E88A3B8D6523BC1"
+				item: { count: 1, id: "cobblemon:focus_sash" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A2390556B6867E8"]
+			icon: {
+				id: "cobblemon:assault_vest"
+			}
+			id: "2E1887D3388210DD"
+			rewards: [{
+				count: 2
+				id: "556B9DBA92CBC095"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E157696273A2CDB"
+				item: { count: 1, id: "cobblemon:assault_vest" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A00000000000001"]
+			icon: {
+				id: "cobblemon:eviolite"
+			}
+			id: "67859B9298078500"
+			rewards: [{
+				count: 2
+				id: "4BA5ED3EB0A83237"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EFD581E7FE37614"
+				item: { count: 1, id: "cobblemon:eviolite" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67859B9298078500"]
+			icon: {
+				id: "cobblemon:rocky_helmet"
+			}
+			id: "176442F9DCC8290F"
+			rewards: [
+				{
+					id: "5A70D44301430B83"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "77A52D5F27C24ABC"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "6EB04201061D2878"
+				item: { count: 1, id: "cobblemon:rocky_helmet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67859B9298078500"]
+			icon: {
+				id: "cobblemon:black_sludge"
+			}
+			id: "7B1D3463CD4D6E7B"
+			rewards: [{
+				count: 5
+				id: "7A45FD1FF6A7BE36"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0870E6AB3ABD00D2"
+				item: { count: 1, id: "cobblemon:black_sludge" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67859B9298078500"]
+			icon: {
+				id: "cobblemon:heavy_duty_boots"
+			}
+			id: "41EFBDCF0556574A"
+			rewards: [{
+				count: 2
+				id: "579F9215BA187683"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "591FDB88207A7BC7"
+				item: { count: 1, id: "cobblemon:heavy_duty_boots" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67859B9298078500"]
+			icon: {
+				id: "cobblemon:expert_belt"
+			}
+			id: "4867E364EA0C8FF4"
+			rewards: [{
+				count: 5
+				id: "74DA2BC9440525D0"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40C9D9E5F028832F"
+				item: { count: 1, id: "cobblemon:expert_belt" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67859B9298078500"]
+			icon: {
+				id: "cobblemon:muscle_band"
+			}
+			id: "7B078090B15F5093"
+			rewards: [{
+				count: 5
+				id: "63A5B228873BB9A9"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7096E67BFCCBC368"
+				item: { count: 1, id: "cobblemon:muscle_band" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67859B9298078500"]
+			icon: {
+				id: "cobblemon:wise_glasses"
+			}
+			id: "2E77D644E3015866"
+			rewards: [{
+				count: 5
+				id: "095976CBD831B465"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CBB9F5FBDDBD495"
+				item: { count: 1, id: "cobblemon:wise_glasses" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A00000000000001"]
+			icon: {
+				id: "cobblemon:light_clay"
+			}
+			id: "58E1F3765BF7EAD8"
+			rewards: [{
+				count: 2
+				id: "44BECDD8DBEE8D4F"
+				item: {
+					count: 1
+					id: "cobblemon:light_clay"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B154C8287F8FA10"
+				item: { count: 1, id: "cobblemon:light_clay" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58E1F3765BF7EAD8"]
+			icon: {
+				id: "cobblemon:mental_herb"
+			}
+			id: "43A9B8A977E70989"
+			rewards: [{
+				count: 4
+				id: "263F58D8AD44BC44"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5253020531B8CB98"
+				item: { count: 1, id: "cobblemon:mental_herb" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58E1F3765BF7EAD8"]
+			icon: {
+				id: "cobblemon:protective_pads"
+			}
+			id: "6A4B4A0C6266855D"
+			rewards: [{
+				count: 2
+				id: "425648D8E2E507D8"
+				item: {
+					count: 1
+					id: "cobblemon:protective_pads"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FC055DD5AE8BE61"
+				item: { count: 1, id: "cobblemon:protective_pads" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58E1F3765BF7EAD8"]
+			icon: {
+				id: "cobblemon:safety_goggles"
+			}
+			id: "07E4C99E4BEDE8E9"
+			rewards: [{
+				count: 4
+				id: "4CE844A2B3AF28D3"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D965770C98E8BCD"
+				item: { count: 1, id: "cobblemon:safety_goggles" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58E1F3765BF7EAD8"]
+			icon: {
+				id: "cobblemon:wide_lens"
+			}
+			id: "130C627C6A5F1EBB"
+			rewards: [{
+				count: 4
+				id: "1E6B63FC660D94B3"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AABD86028F874EA"
+				item: { count: 1, id: "cobblemon:wide_lens" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58E1F3765BF7EAD8"]
+			icon: {
+				id: "cobblemon:zoom_lens"
+			}
+			id: "56B209179516EB25"
+			rewards: [{
+				count: 4
+				id: "52CE368F2CA34608"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CA9FA85524EEAEA"
+				item: { count: 1, id: "cobblemon:zoom_lens" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "cobblemon:power_anklet"
+			}
+			dependencies: ["6A2390556B6867E8"]
+			id: "21121601C2CB9B7E"
+			rewards: [{
+				count: 5
+				id: "772DFF1802F4080A"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "64B72BCFAA90D99B"
+				item: { count: 1, id: "cobblemon:power_anklet" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "cobblemon:power_band"
+			}
+			dependencies: ["21121601C2CB9B7E"]
+			id: "73717D70820B1FDD"
+			rewards: [{
+				count: 2
+				id: "768E691B2DBA4B39"
+				item: {
+					count: 1
+					id: "cobblemon:power_band"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78BC9F902699948D"
+				item: { count: 1, id: "cobblemon:power_band" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21121601C2CB9B7E"]
+			icon: {
+				id: "cobblemon:power_belt"
+			}
+			id: "2011B7295E3AD0E8"
+			rewards: [{
+				count: 5
+				id: "1A8B0793BF11FC35"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73A39CEF834101D9"
+				item: { count: 1, id: "cobblemon:power_belt" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21121601C2CB9B7E"]
+			icon: {
+				id: "cobblemon:power_bracer"
+			}
+			id: "2C8F8890D682892A"
+			rewards: [{
+				count: 5
+				id: "051673E56561B240"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "435E12E17F3B9F70"
+				item: { count: 1, id: "cobblemon:power_bracer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21121601C2CB9B7E"]
+			icon: {
+				id: "cobblemon:power_lens"
+			}
+			id: "55E4ED79C6250B41"
+			rewards: [
+				{
+					id: "53F6DAC8A0AB4BCF"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "5335D29D891DC06E"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "2CE126A38F7DED21"
+				item: { count: 1, id: "cobblemon:power_lens" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21121601C2CB9B7E"]
+			icon: {
+				id: "cobblemon:power_weight"
+			}
+			id: "4E3C765D5CF8C1D7"
+			rewards: [{
+				count: 5
+				id: "45AC34D3A58D891E"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A9BE7035E18D07"
+				item: { count: 1, id: "cobblemon:power_weight" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21121601C2CB9B7E"]
+			icon: {
+				id: "cobblemon:ability_capsule"
+			}
+			id: "214899BF912F4F74"
+			rewards: [{
+				count: 2
+				id: "709C758A7C41176D"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56B713A0C76A52FF"
+				item: { count: 1, id: "cobblemon:ability_capsule" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["214899BF912F4F74"]
+			icon: {
+				id: "cobblemon:ability_patch"
+			}
+			id: "18646D37EA26C626"
+			rewards: [{
+				count: 2
+				id: "1F3D83C860662A06"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "273782DAC9A023BB"
+				item: { count: 1, id: "cobblemon:ability_patch" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6A2390556B6867E8"
+				"6D97B387BFE4207F"
+				"6CEAD16A9F31722E"
+				"188AE9C67B19D68A"
+				"0810A531D8798861"
+				"2506D45CAAB9A0E9"
+				"2E1887D3388210DD"
+				"67859B9298078500"
+			]
+			icon: {
+				id: "cobblemon:choice_band"
+			}
+			id: "49CCC0D47FD56CC2"
+			min_required_dependencies: 4
+			rewards: [
+				{
+					id: "3385C9ABC00C8BEA"
+					table_id: 7496482881432646114L
+					type: "random"
+				}
+				{
+					id: "7798BD77C3814916"
+					type: "xp"
+					xp: 600
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2EF15263724A38DE"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+	]
+}

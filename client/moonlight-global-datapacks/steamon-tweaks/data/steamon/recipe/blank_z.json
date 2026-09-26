@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "GNG",
+    " A "
+  ],
+  "key": {
+    "A": { "item": "minecraft:amethyst_shard" },
+    "G": { "item": "cobblemon:normal_gem" },
+    "N": { "item": "minecraft:netherite_ingot" }
+  },
+  "result": { "id": "mega_showdown:blank_z", "count": 1 }
+}

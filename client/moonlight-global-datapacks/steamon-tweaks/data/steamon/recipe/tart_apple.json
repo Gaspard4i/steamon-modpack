@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:apple" },
+    { "item": "minecraft:sweet_berries" },
+    { "item": "minecraft:sweet_berries" }
+  ],
+  "result": { "id": "cobblemon:tart_apple", "count": 1 }
+}

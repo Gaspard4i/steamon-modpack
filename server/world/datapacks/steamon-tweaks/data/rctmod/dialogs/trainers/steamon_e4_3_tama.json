@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "The sandstorm rages because I will it to. Let's see if you can stand against it.",
+    "Feel the earth itself turn against you. This is my domain now."
+  ],
+  "on_battle_won": [
+    "The sands bury another challenger. Return when you can weather the storm.",
+    "You are dust before this storm. Come back stronger."
+  ],
+  "on_battle_lost": [
+    "The storm bows to you, challenger. Few can claim that.",
+    "You've tamed the sandstorm itself. Onward to the next trial."
+  ]
+}

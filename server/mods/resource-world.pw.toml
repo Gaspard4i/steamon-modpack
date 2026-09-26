@@ -1,0 +1,13 @@
+name = "Resource World"
+filename = "resource_world-2.0-1.21.1-neoforge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/ynOPEE9I/versions/9xhcjwC8/resource_world-2.0-1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "45cabd2c2a17c261174c0d307d5cc28615a1d4fad4e08285f64098ecad234f257ca978d37a11488934e459e1a191d89acca13e27f4a99c7e2256b66b6b65d3d0"
+
+[update]
+[update.modrinth]
+mod-id = "ynOPEE9I"
+version = "9xhcjwC8"

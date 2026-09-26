@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "The hive works as one, and today, so do we. Welcome, challenger.",
+    "Every sting has a purpose. Let's see if you can handle mine."
+  ],
+  "on_battle_won": [
+    "The swarm overwhelms another challenger. Return once you've grown.",
+    "The hive remains undefeated. Come back stronger, trainer."
+  ],
+  "on_battle_lost": [
+    "You've bested the swarm itself. The Champion awaits you now.",
+    "Remarkable. The hive has never seen a trainer like you."
+  ]
+}

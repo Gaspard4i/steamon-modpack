@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "Surprised to see me here? The circus never really left, it just leveled up.",
+    "Round two, challenger! Let's see if you can survive the real show."
+  ],
+  "on_battle_won": [
+    "Encore! Encore! But not for you, I'm afraid. Come back stronger.",
+    "The second act is always harder. Better luck next time."
+  ],
+  "on_battle_lost": [
+    "Ha! You really are something else. The Elite Four suits you.",
+    "The whole circus bows to you now. Onward, champion in the making."
+  ]
+}

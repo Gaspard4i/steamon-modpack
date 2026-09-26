@@ -1,0 +1,44 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "shaymin-1",
+   "pokemon": "shaymin",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "35-60",
+   "weight": 0.6,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_floral"
+    ]
+   }
+  },
+  {
+   "id": "shaymin-2",
+   "pokemon": "shaymin",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "35-80",
+   "weight": 1.5,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_meadow",
+     "aether:skyroot_grove",
+     "aether:skyroot_woodland",
+     "aether:skyroot_forest"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

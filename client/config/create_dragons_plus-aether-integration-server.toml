@@ -1,0 +1,5 @@
+[server-aether-integration]
+	#If Bulk Enchanting for The Aether Altar should be enabled
+	enableBulkEnchanting = false
+	#If Bulk Enchanting can incubate The Aether Moa Eggs
+	enableBulkMoaIncubation = false

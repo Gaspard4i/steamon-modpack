@@ -1,0 +1,35 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "mega_showdown:blank_z" },
+  "transitional_item": { "id": "mega_showdown:blank_z" },
+  "loops": 1,
+  "results": [
+    { "id": "mega_showdown:sparkling_stone_dark" }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "mega_showdown:blank_z" },
+        { "item": "minecraft:quartz" }
+      ],
+      "results": [ { "id": "mega_showdown:blank_z" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "mega_showdown:blank_z" },
+        { "item": "minecraft:diamond" }
+      ],
+      "results": [ { "id": "mega_showdown:blank_z" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "mega_showdown:blank_z" },
+        { "item": "minecraft:coal" }
+      ],
+      "results": [ { "id": "mega_showdown:blank_z" } ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+	"enabled": false,
+	"doBackup": true,
+	"debug": false,
+	"message": "The server is updating to modpack 1.9.0. Only staff can join right now. This should take at least an hour. I will announce here when it is back. Thanks for your patience!",
+	"motd": "Updating to 1.9.0 - back soon",
+	"maintenanceIcon": "",
+	"schedule": {
+		"startTime": "",
+		"endTime": "",
+		"disableOnRestart": false,
+		"maintanceNotifyMessage": "Maintenance is starting in %s minute(s)"
+	},
+	"kickOnlinePlayers": true,
+	"configVersion": 4,
+	"allowedUsers": [
+		{
+			"name": "Gaz4i",
+			"uuid": "c33cb9a3-3fa5-49fe-98d7-95cbf0a477e6"
+		}, 
+		{
+			"name": "Poxelor",
+			"uuid": "350ba820-4821-49e0-872b-aee1dc2f770b"
+		}
+	],
+	"allowedLuckpermsGroups": [
+		"admin", 
+		"moderateur", 
+		"helper"
+	]
+}

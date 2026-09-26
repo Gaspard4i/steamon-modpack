@@ -1,0 +1,48 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "palkia-1",
+   "pokemon": "palkia",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.3,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "minecraft:jagged_peaks"
+    ]
+   }
+  },
+  {
+   "id": "palkia-2",
+   "pokemon": "palkia",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.25,
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_peak"
+    ]
+   },
+   "anticondition": {
+    "biomes": [
+     "minecraft:jagged_peaks"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    { "tag": "minecraft:leaves" }
+  ],
+  "results": [
+    { "id": "supplementaries:ash" }
+  ]
+}

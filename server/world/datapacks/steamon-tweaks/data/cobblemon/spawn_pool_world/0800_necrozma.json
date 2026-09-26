@@ -1,0 +1,45 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "necrozma-1T",
+   "pokemon": "necrozma",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.3,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_end"
+    ]
+   }
+  },
+  {
+   "id": "aether_necrozma_1",
+   "pokemon": "necrozma",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-100",
+   "weight": 2.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_meadow",
+     "aether:skyroot_woodland"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

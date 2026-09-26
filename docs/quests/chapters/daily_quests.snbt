@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "daily_quests"
+	group: "3DBCC9E2D8397D4A"
+	icon: {
+		id: "minecraft:clock"
+	}
+	id: "2BC90E55E57FA3C2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

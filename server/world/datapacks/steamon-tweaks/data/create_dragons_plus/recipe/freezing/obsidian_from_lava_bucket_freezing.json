@@ -1,0 +1,13 @@
+{
+  "type": "create_dragons_plus:freezing",
+  "ingredients": [
+    {
+      "tag": "c:buckets/lava"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:obsidian"
+    }
+  ]
+}

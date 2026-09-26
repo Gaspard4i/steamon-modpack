@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " R ",
+    "MNM",
+    " R "
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone" },
+    "M": { "item": "mega_showdown:mega_meteorid_block" },
+    "N": { "item": "minecraft:netherite_ingot" }
+  },
+  "result": { "id": "mega_showdown:wishing_star", "count": 1 }
+}

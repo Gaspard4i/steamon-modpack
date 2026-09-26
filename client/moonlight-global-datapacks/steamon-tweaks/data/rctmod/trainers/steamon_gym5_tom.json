@@ -1,0 +1,82 @@
+{
+  "name": "Gym Leader Tom",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "cradily",
+      "nickname": "Vacilys",
+      "gender": "MALE",
+      "level": 37,
+      "nature": "calm",
+      "ability": "stormdrain",
+      "moveset": ["seedbomb", "earthquake", "stoneedge", "recover"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "def": 128, "spd": 128},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "tyrantrum",
+      "nickname": "Rexillius",
+      "gender": "MALE",
+      "level": 37,
+      "nature": "adamant",
+      "ability": "strongjaw",
+      "moveset": ["headsmash", "dragonclaw", "earthquake", "stoneedge"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["life_orb"]
+    },
+    {
+      "species": "gimmighoul",
+      "nickname": "Loose Change",
+      "gender": "GENDERLESS",
+      "level": 38,
+      "nature": "bold",
+      "ability": "rattled",
+      "moveset": ["shadowball", "nastyplot", "hex", "protect"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "def": 128, "spd": 128},
+      "heldItem": ["eviolite"]
+    },
+    {
+      "species": "aerodactyl",
+      "nickname": "Windrelic",
+      "gender": "MALE",
+      "level": 38,
+      "nature": "jolly",
+      "ability": "toughclaws",
+      "aspects": ["mega"],
+      "moveset": ["stoneedge", "earthquake", "aerialace", "icefang"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["hard_stone"]
+    },
+    {
+      "species": "runerigus",
+      "nickname": "Tutetekri",
+      "gender": "MALE",
+      "level": 39,
+      "shiny": true,
+      "nature": "careful",
+      "ability": "wanderingspirit",
+      "moveset": ["earthquake", "shadowball", "willowisp", "stealthrock"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "def": 128, "spd": 128},
+      "heldItem": ["leftovers"]
+    }
+  ]
+}

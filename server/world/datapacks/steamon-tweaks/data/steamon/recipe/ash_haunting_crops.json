@@ -1,0 +1,17 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    [
+      { "item": "minecraft:wheat" },
+      { "item": "minecraft:carrot" },
+      { "item": "minecraft:beetroot" },
+      { "item": "minecraft:sugar_cane" },
+      { "item": "minecraft:nether_wart" },
+      { "item": "minecraft:dried_kelp" },
+      { "item": "minecraft:bamboo" }
+    ]
+  ],
+  "results": [
+    { "id": "supplementaries:ash" }
+  ]
+}

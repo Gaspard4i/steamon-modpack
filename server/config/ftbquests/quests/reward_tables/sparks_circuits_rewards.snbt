@@ -1,0 +1,102 @@
+{
+	icon: {
+		id: "create:brass_ingot"
+	}
+	id: "20AABBCC00000003"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			id: "6A36C9934CA923CA"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 8
+			id: "2063A28DD69580A8"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "05BDD30E2F3D5CEB"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "328A93D56DBD6167"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 4
+			id: "371DE4B42251BCEB"
+			item: {
+				count: 1
+				id: "create:brass_sheet"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "5241B6907E444993"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "3A60DF3D4E33CD06"
+			item: {
+				count: 1
+				id: "create:crafting_blueprint"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "3E552AFA75B8523C"
+			item: {
+				count: 1
+				id: "create:attribute_filter"
+			}
+			weight: 12.0f
+		}
+		{
+			id: "4BEC7D1645F5C9CF"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "42F9608CA241F73F"
+			item: {
+				count: 1
+				id: "create:filter"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "0B0BADB35851A270"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 5.0f
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,44 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "cobblemon:pokerod_smithing_template"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "id": "minecraft:gold_ingot",
+      "count": 3,
+      "chance": 0.778
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "count": 2,
+      "chance": 0.45
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "chance": 0.2
+    },
+    {
+      "id": "minecraft:prismarine_shard",
+      "count": 1,
+      "chance": 0.111
+    },
+    {
+      "id": "minecraft:prismarine_shard",
+      "chance": 0.05
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 1,
+      "chance": 0.33
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 8,
+      "chance": 0.15
+    }
+  ]
+}

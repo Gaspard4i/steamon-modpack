@@ -1,0 +1,90 @@
+{
+	icon: {
+		id: "farmersdelight:hamburger"
+	}
+	id: "5100000000000078"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 4
+			id: "5100000000000079"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 6
+			id: "510000000000007A"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "510000000000007B"
+			item: {
+				count: 1
+				id: "mynethersdelight:bullet_pepper"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "510000000000007C"
+			item: {
+				count: 1
+				id: "aethersdelight:ginger"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "510000000000007D"
+			item: {
+				count: 1
+				id: "culturaldelights:corn_kernels"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "510000000000007E"
+			item: {
+				count: 1
+				id: "minersdelight:cave_carrot"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "510000000000007F"
+			item: {
+				count: 1
+				id: "minecraft:chorus_fruit"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "5100000000000080"
+			item: {
+				count: 1
+				id: "farmersdelight:hamburger"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5100000000000081"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 5.0f
+		}
+	]
+	use_title: true
+}

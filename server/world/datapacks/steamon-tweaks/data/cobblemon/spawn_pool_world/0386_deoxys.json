@@ -1,0 +1,67 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "deoxys-1",
+   "pokemon": "deoxys meteorite_forme=normal",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-70",
+   "weight": 0.8,
+   "condition": {
+    "biomes": [
+     "#minecraft:is_end",
+     "#cobblemon:is_end"
+    ]
+   }
+  },
+  {
+   "id": "deoxys-2",
+   "pokemon": "deoxys meteorite_forme=defense",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-70",
+   "weight": 0.5,
+   "condition": {
+    "biomes": [
+     "#minecraft:is_end",
+     "#cobblemon:is_end"
+    ]
+   }
+  },
+  {
+   "id": "deoxys-3",
+   "pokemon": "deoxys speed",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-70",
+   "weight": 0.5,
+   "condition": {
+    "biomes": [
+     "#minecraft:is_end",
+     "#cobblemon:is_end"
+    ]
+   }
+  },
+  {
+   "id": "deoxys-4",
+   "pokemon": "deoxys meteorite_forme=speed",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-70",
+   "weight": 0.5,
+   "condition": {
+    "biomes": [
+     "#minecraft:is_end",
+     "#cobblemon:is_end"
+    ]
+   }
+  }
+ ]
+}

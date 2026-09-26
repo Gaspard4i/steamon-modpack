@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_steamon_gym3_miguel": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "steamon_gym3_miguel"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Gym Leader Miguel."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Frostfae's Chill"
+    }
+  },
+  "requirements": [
+    [
+      "defeat_steamon_gym3_miguel"
+    ]
+  ],
+  "parent": "rctmod:trainers/defeat_steamon_gym2_tama"
+}

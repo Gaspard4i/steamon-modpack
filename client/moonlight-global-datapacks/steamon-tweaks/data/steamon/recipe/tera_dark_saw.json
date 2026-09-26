@@ -1,0 +1,6 @@
+{
+  "type": "create:cutting",
+  "ingredients": [ { "item": "cobblemon:dark_gem" } ],
+  "processing_time": 100,
+  "results": [ { "count": 4, "id": "mega_showdown:dark_tera_shard" } ]
+}

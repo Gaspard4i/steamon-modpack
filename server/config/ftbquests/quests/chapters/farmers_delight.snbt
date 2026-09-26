@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "farmers_delight"
+	group: "2C0FD201CD572F12"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "46B599A838F27B8A"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5000000000000004"
+			rewards: [
+				{ count: 4, id: "5000000000000002", item: { count: 1, id: "farmersdelight:cabbage_seeds" }, type: "item" }
+				{ id: "5000000000000003", type: "xp", xp: 15 }
+			]
+			shape: "diamond"
+			size: 2.5d
+			tasks: [
+				{ id: "5000000000000001", item: { count: 1, id: "farmersdelight:cabbage" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5000000000000004"]
+			id: "5000000000000008"
+			rewards: [
+				{ count: 8, id: "5000000000000006", item: { count: 1, id: "minecraft:flint" }, type: "item" }
+				{ id: "5000000000000007", type: "xp", xp: 15 }
+			]
+			tasks: [
+				{ id: "5000000000000005", item: { count: 1, id: "farmersdelight:flint_knife" }, type: "item" }
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5000000000000008"]
+			id: "500000000000000C"
+			rewards: [
+				{ count: 4, id: "500000000000000A", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }
+				{ id: "500000000000000B", type: "xp", xp: 20 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "5000000000000009", item: { count: 1, id: "farmersdelight:iron_knife" }, type: "item" }
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["500000000000000C"]
+			id: "500000000000000F"
+			rewards: [
+				{ id: "500000000000000E", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "500000000000000D", item: { count: 1, id: "farmersdelight:cutting_board" }, type: "item" }
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["500000000000000C"]
+			id: "5000000000000013"
+			rewards: [
+				{ count: 4, id: "5000000000000011", item: { count: 1, id: "minecraft:bowl" }, type: "item" }
+				{ id: "5000000000000012", type: "xp", xp: 25 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "5000000000000010", item: { count: 1, id: "farmersdelight:cooking_pot" }, type: "item" }
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["500000000000000C"]
+			id: "5000000000000017"
+			rewards: [
+				{ count: 4, id: "5000000000000015", item: { count: 1, id: "farmersdelight:fried_egg" }, type: "item" }
+				{ id: "5000000000000016", type: "xp", xp: 20 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "5000000000000014", item: { count: 1, id: "farmersdelight:skillet" }, type: "item" }
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["500000000000000F"]
+			id: "500000000000001B"
+			rewards: [
+				{ count: 8, id: "5000000000000019", item: { count: 1, id: "farmersdelight:straw" }, type: "item" }
+				{ id: "500000000000001A", type: "xp", xp: 15 }
+			]
+			tasks: [
+				{ advancement: "farmersdelight:main/harvest_straw", criterion: "harvest_straw", id: "5000000000000018", type: "advancement" }
+			]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5000000000000013"]
+			id: "500000000000001F"
+			rewards: [
+				{ id: "500000000000001D", item: { count: 1, id: "farmersdelight:stove" }, type: "item" }
+				{ id: "500000000000001E", type: "xp", xp: 30 }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "500000000000001C", item: { count: 1, id: "farmersdelight:stove" }, type: "item" }
+			]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5000000000000017"]
+			id: "5000000000000023"
+			rewards: [
+				{ count: 8, id: "5000000000000021", item: { count: 1, id: "minecraft:egg" }, type: "item" }
+				{ id: "5000000000000022", type: "xp", xp: 15 }
+			]
+			tasks: [
+				{ id: "5000000000000020", item: { count: 1, id: "farmersdelight:fried_egg" }, type: "item" }
+			]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["500000000000001B"]
+			id: "5000000000000027"
+			rewards: [
+				{ count: 4, id: "5000000000000025", item: { count: 1, id: "farmersdelight:organic_compost" }, type: "item" }
+				{ id: "5000000000000026", type: "xp", xp: 15 }
+			]
+			tasks: [
+				{ advancement: "farmersdelight:main/get_rich_soil", criterion: "get_rich_soil", id: "5000000000000024", type: "advancement" }
+			]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5000000000000023"]
+			id: "500000000000002B"
+			rewards: [
+				{ count: 4, id: "5000000000000029", item: { count: 1, id: "minecraft:coal" }, type: "item" }
+				{ id: "500000000000002A", type: "xp", xp: 15 }
+			]
+			tasks: [
+				{ id: "5000000000000028", item: { count: 1, id: "minecraft:campfire" }, type: "item" }
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "500000000000002F"
+			rewards: [
+				{ count: 4, id: "500000000000002D", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "500000000000002E", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "500000000000002C", item: { count: 1, id: "farmersdelight:cooked_rice" }, type: "item" }
+			]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "5000000000000033"
+			rewards: [
+				{ count: 4, id: "5000000000000031", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5000000000000032", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "5000000000000030", item: { count: 1, id: "farmersdelight:vegetable_soup" }, type: "item" }
+			]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "5000000000000037"
+			rewards: [
+				{ count: 4, id: "5000000000000035", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5000000000000036", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "5000000000000034", item: { count: 1, id: "farmersdelight:beef_stew" }, type: "item" }
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "500000000000003B"
+			rewards: [
+				{ count: 4, id: "5000000000000039", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "500000000000003A", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "5000000000000038", item: { count: 1, id: "farmersdelight:mixed_salad" }, type: "item" }
+			]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "500000000000003F"
+			rewards: [
+				{ count: 4, id: "500000000000003D", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "500000000000003E", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "500000000000003C", item: { count: 1, id: "farmersdelight:fish_stew" }, type: "item" }
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "5000000000000043"
+			rewards: [
+				{ count: 4, id: "5000000000000041", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5000000000000042", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ id: "5000000000000040", item: { count: 1, id: "farmersdelight:apple_pie" }, type: "item" }
+			]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "5000000000000047"
+			rewards: [
+				{ count: 4, id: "5000000000000045", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5000000000000046", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ id: "5000000000000044", item: { count: 1, id: "farmersdelight:hamburger" }, type: "item" }
+			]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "500000000000004B"
+			rewards: [
+				{ count: 4, id: "5000000000000049", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "500000000000004A", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ id: "5000000000000048", item: { count: 1, id: "farmersdelight:stuffed_pumpkin" }, type: "item" }
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "500000000000004F"
+			rewards: [
+				{ count: 4, id: "500000000000004D", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "500000000000004E", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ id: "500000000000004C", item: { count: 1, id: "farmersdelight:roast_chicken" }, type: "item" }
+			]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"500000000000001F"
+				"5000000000000027"
+				"500000000000002B"
+			]
+			id: "5000000000000053"
+			rewards: [
+				{ count: 4, id: "5000000000000051", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5000000000000052", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ id: "5000000000000050", item: { count: 1, id: "farmersdelight:honey_glazed_ham" }, type: "item" }
+			]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"500000000000002F"
+				"5000000000000033"
+				"5000000000000037"
+				"500000000000003B"
+				"500000000000003F"
+				"5000000000000043"
+				"5000000000000047"
+				"500000000000004B"
+				"500000000000004F"
+				"5000000000000053"
+			]
+			hide_dependency_lines: true
+			id: "5000000000000059"
+			rewards: [
+				{ id: "5000000000000055", item: { count: 1, id: "farmersdelight:netherite_knife" }, type: "item" }
+				{ id: "5000000000000056", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{ id: "5000000000000057", table_id: 5815705628125276443L, type: "random" }
+				{ id: "5000000000000058", type: "xp", xp: 150 }
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{ advancement: "farmersdelight:main/master_chef", criterion: "", id: "5000000000000054", type: "advancement" }
+			]
+			x: 0.0d
+			y: 14.0d
+		}
+	]
+}

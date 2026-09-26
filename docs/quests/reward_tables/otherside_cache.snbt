@@ -1,0 +1,93 @@
+{
+	icon: {
+		id: "deeperdarker:heart_of_the_deep"
+	}
+	id: "401CB7322A4BCDEE"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			id: "44E47843F21D20D6"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 4
+			id: "5500F3C1E0221B6E"
+			item: {
+				count: 1
+				id: "deeperdarker:gloomsherd"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 3
+			id: "69C0D19C7AE4AC19"
+			item: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "2942CF95C01B50D7"
+			item: {
+				count: 1
+				id: "deeperdarker:soul_dust"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "1EB6679470C0E4C5"
+			item: {
+				count: 1
+				id: "deeperdarker:resonarium_sword"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "75C602754F1690A7"
+			item: {
+				count: 1
+				id: "deeperdarker:sculk_bone"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "1B0347422FA5EA8C"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "05500702A36C4CE3"
+			item: {
+				count: 1
+				id: "deeperdarker:reinforced_echo_shard"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "49EA4F5771E4F1E6"
+			item: {
+				count: 1
+				id: "deeperdarker:soul_crystal"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "61FAD889F5655FD4"
+			item: {
+				count: 1
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

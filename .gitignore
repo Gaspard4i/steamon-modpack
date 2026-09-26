@@ -1,0 +1,72 @@
+*.mrpack
+packwiz-installer*.jar
+packwiz-installer-bootstrap*.jar
+.idea/
+.vscode/
+*.log
+.tmp/
+node_modules/
+.ballviewer/dist/
+.ballviewer/dev.err.log
+.ballviewer/dev.log
+
+# Claude Code / AI assistants — fully local, NEVER commit
+CLAUDE.md
+.claude/
+.claude-*
+.aider*
+.cursor/
+.cursorrules
+.cursorignore
+.continue/
+.codeium/
+.windsurf/
+.github-copilot/
+.specstory/
+.serena/
+
+# Claude plans, agent scratch, memory dumps
+PLAN.md
+PLANS.md
+TODO.md
+NOTES.md
+SCRATCH.md
+*.scratch.md
+*.plan.md
+.scratch/
+.notes/
+agent-memory/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Python (for .blender/ scripts)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Playwright / Puppeteer / browser automation
+.playwright/
+playwright-report/
+test-results/
+.cache/
+.tools/
+
+# Session work artifacts (not part of the pack)
+docs/cobblemon_recheck.jar
+server-mods-list.md
+docs/quests/_ref/
+*.mrpack
+docs/.hex2/
+docs/*.jar
+docs/rcon_restart.py
+docs/ITEM-RARITY-TABLE.md
+docs/LOOT-STRUCTURES-DECISION.md
+docs/LOOT-THEMES-PLAN.md

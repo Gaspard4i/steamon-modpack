@@ -1,0 +1,9 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "minecraft:netherite_ingot" },
+    { "item": "mega_showdown:max_mushroom" },
+    { "item": "mega_showdown:mega_meteorid_block" }
+  ],
+  "results": [ { "id": "mega_showdown:wishing_star" } ]
+}

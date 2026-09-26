@@ -1,0 +1,13 @@
+name = "Cobblemon Shoulder Mounts"
+filename = "Cobblemon_shoulder_mounts_V1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mIqUAwNS/versions/sztYnoYT/Cobblemon_shoulder_mounts_V1.zip"
+hash-format = "sha512"
+hash = "e70d35a8f3117e3093869d77048e2ddafa79c56cb8027af28ba6b878e8d62befaf20903241b4df8a6558520fec0234faff7fef08107088b90ce60c63cfef8f5d"
+
+[update]
+[update.modrinth]
+mod-id = "mIqUAwNS"
+version = "sztYnoYT"

@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:infested_stone"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:stone_bricks"
+    }
+  ]
+}

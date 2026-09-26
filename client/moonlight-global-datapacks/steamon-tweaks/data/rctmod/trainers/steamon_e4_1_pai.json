@@ -1,0 +1,94 @@
+{
+  "name": "Elite Four Pai",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.1
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "chandelure",
+      "nickname": "Willowisp",
+      "gender": "FEMALE",
+      "level": 61,
+      "nature": "timid",
+      "ability": "flashfire",
+      "moveset": ["shadowball", "fireblast", "energyball", "calmmind"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["choice_specs"]
+    },
+    {
+      "species": "dragapult",
+      "nickname": "Lanssorien",
+      "gender": "MALE",
+      "level": 61,
+      "nature": "hasty",
+      "ability": "infiltrator",
+      "moveset": ["dracometeor", "shadowball", "uturn", "flamethrower"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["choice_scarf"]
+    },
+    {
+      "species": "basculegion",
+      "nickname": "Paragruel",
+      "gender": "MALE",
+      "level": 62,
+      "nature": "adamant",
+      "ability": "adaptability",
+      "moveset": ["wavecrash", "aquajet", "flipturn", "icefang"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["choice_band"]
+    },
+    {
+      "species": "annihilape",
+      "nickname": "Courrousinge",
+      "gender": "MALE",
+      "level": 62,
+      "nature": "jolly",
+      "ability": "defiant",
+      "moveset": ["ragefist", "closecombat", "bulkup", "drainpunch"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "gengar",
+      "nickname": "Ectoplasma",
+      "gender": "FEMALE",
+      "level": 63,
+      "shiny": true,
+      "nature": "timid",
+      "ability": "shadowtag",
+      "aspects": ["mega"],
+      "moveset": ["shadowball", "sludgewave", "focusblast", "destinybond"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252}
+    },
+    {
+      "species": "gholdengo",
+      "nickname": "Netherite Ghost",
+      "gender": "GENDERLESS",
+      "level": 63,
+      "shiny": true,
+      "nature": "modest",
+      "ability": "goodasgold",
+      "moveset": ["makeitrain", "nastyplot", "recover", "shadowball"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 192, "spa": 252, "spe": 64},
+      "heldItem": ["air_balloon"]
+    }
+  ]
+}

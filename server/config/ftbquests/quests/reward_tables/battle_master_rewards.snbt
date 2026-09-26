@@ -1,0 +1,115 @@
+{
+	icon: {
+		id: "cobblemon:life_orb"
+	}
+	id: "6808DB766C96F1E2"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			id: "551B091B5229AF08"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "2BEA95F46867C931"
+			item: {
+				count: 1
+				id: "cobblemon:focus_sash"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "7BBD8A3BA3911C43"
+			item: {
+				count: 1
+				id: "cobblemon:leftovers"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "702AB9C679044CA9"
+			item: {
+				count: 1
+				id: "cobblemon:choice_scarf"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "4C64624AC59FF49C"
+			item: {
+				count: 1
+				id: "cobblemon:choice_band"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "3F8BB0D6DD10A0EE"
+			item: {
+				count: 1
+				id: "cobblemon:choice_specs"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "51743F1719E1E5EF"
+			item: {
+				count: 1
+				id: "cobblemon:protein"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "614AFAB5734FF8A5"
+			item: {
+				count: 1
+				id: "cobblemon:carbos"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "7247A3CE9D790BBD"
+			item: {
+				count: 1
+				id: "cobblemon:calcium"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "304FAC7DBCC15409"
+			item: {
+				count: 1
+				id: "cobblemon:life_orb"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "095AD0D8CB54A812"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "6B784AD2EC1B499C"
+			item: {
+				count: 1
+				id: "cobblemon:ability_patch"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "2FBDDAEC15EB9A0C"
+			item: {
+				count: 1
+				id: "cobblemon:ability_shield"
+			}
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

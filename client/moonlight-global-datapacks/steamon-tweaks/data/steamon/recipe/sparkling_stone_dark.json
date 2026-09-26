@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DQC",
+    "QZQ",
+    " QD"
+  ],
+  "key": {
+    "D": { "item": "minecraft:diamond" },
+    "Q": { "item": "minecraft:quartz" },
+    "Z": { "item": "mega_showdown:blank_z" },
+    "C": { "item": "minecraft:coal" }
+  },
+  "result": { "id": "mega_showdown:sparkling_stone_dark", "count": 1 }
+}

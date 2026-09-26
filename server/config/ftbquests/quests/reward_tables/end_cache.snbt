@@ -1,0 +1,93 @@
+{
+	icon: {
+		id: "minecraft:dragon_head"
+	}
+	id: "40B58974B2A5A91B"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			id: "473706FBBC8D7D70"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 8
+			id: "10BF296E240A0D25"
+			item: {
+				count: 1
+				id: "minecraft:chorus_fruit"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "5FFD3AF305259097"
+			item: {
+				count: 1
+				id: "minecraft:popped_chorus_fruit"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "1A3CF199EBCB52B7"
+			item: {
+				count: 1
+				id: "minecraft:shulker_shell"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "464A037127B5FDDD"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "3B49E5ACCDC535D6"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 12.0f
+		}
+		{
+			id: "460EEC5B770AB757"
+			item: {
+				count: 1
+				id: "minecraft:end_crystal"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "102B1D52C4E7063F"
+			item: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "0EFD30F81832A170"
+			item: {
+				count: 1
+				id: "minecraft:dragon_breath"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "5E6B8CF965576D78"
+			item: {
+				count: 1
+				id: "minecraft:dragon_head"
+			}
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

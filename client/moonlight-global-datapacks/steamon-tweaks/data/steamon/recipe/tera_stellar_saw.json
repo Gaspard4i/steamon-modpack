@@ -1,0 +1,6 @@
+{
+  "type": "create:cutting",
+  "ingredients": [ { "item": "minecraft:nether_star" } ],
+  "processing_time": 200,
+  "results": [ { "count": 4, "id": "mega_showdown:stellar_tera_shard" } ]
+}

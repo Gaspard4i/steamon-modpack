@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "CSC",
+    "   "
+  ],
+  "key": {
+    "C": { "item": "minecraft:clay_ball" },
+    "S": { "tag": "cobblemon:evolution_stones" }
+  },
+  "result": { "id": "cobblemon:everstone", "count": 1 }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    { "item": "minecraft:soul_sand" },
+    { "item": "minecraft:soul_sand" },
+    { "item": "minecraft:soul_soil" },
+    { "item": "minecraft:prismarine_crystals" },
+    { "item": "minecraft:prismarine_crystals" },
+    { "item": "minecraft:phantom_membrane" },
+    { "type": "neoforge:single", "amount": 250, "fluid": "minecraft:water" }
+  ],
+  "results": [
+    { "id": "minecraft:ghast_tear" }
+  ]
+}

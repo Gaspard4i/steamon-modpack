@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "Welcome to Frostfae. The cherry blossoms freeze, but our hearts stay warm.",
+    "Let the snow witness a true battle of ice and grace."
+  ],
+  "on_battle_won": [
+    "The frost has claimed another challenger. Come back when you're ready.",
+    "Even the strongest flame melts before Frostfae's chill."
+  ],
+  "on_battle_lost": [
+    "You melted right through my defenses. Well fought, trainer.",
+    "The floating island trembles with your victory. Take the badge."
+  ]
+}

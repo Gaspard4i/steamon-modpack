@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_steamon_gym4_tee": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "steamon_gym4_tee"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Gym Leader Tee."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "High Seas Captain"
+    }
+  },
+  "requirements": [
+    [
+      "defeat_steamon_gym4_tee"
+    ]
+  ],
+  "parent": "rctmod:trainers/defeat_steamon_gym3_miguel"
+}

@@ -1,0 +1,24 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "lugia-1",
+   "pokemon": "lugia",
+   "presets": [
+    "ocean_monument"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "submerged",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.25,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_ocean"
+    ]
+   }
+  }
+ ]
+}

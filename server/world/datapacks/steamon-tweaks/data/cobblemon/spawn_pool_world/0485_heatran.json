@@ -1,0 +1,41 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "heatran-1",
+   "pokemon": "heatran",
+   "presets": [
+    "lava"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.5,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_nether"
+    ]
+   }
+  },
+  {
+   "id": "heatran-2",
+   "pokemon": "heatran",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.5,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_volcanic"
+    ]
+   }
+  }
+ ]
+}

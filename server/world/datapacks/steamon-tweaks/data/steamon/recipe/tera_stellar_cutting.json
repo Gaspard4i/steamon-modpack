@@ -1,0 +1,6 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [ { "item": "minecraft:nether_star" } ],
+  "result": [ { "item": { "count": 4, "id": "mega_showdown:stellar_tera_shard" } } ],
+  "tool": [ { "tag": "steamon:iron_plus_pickaxes" } ]
+}

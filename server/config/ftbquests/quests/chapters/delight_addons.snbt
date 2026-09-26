@@ -1,0 +1,428 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "delight_addons"
+	group: "2C0FD201CD572F12"
+	icon: {
+		id: "farmersdelight:hamburger"
+	}
+	id: "51000000000001F4"
+	images: [ ]
+	order_index: 1
+	quest_links: [{
+		id: "51000000000000C8"
+		linked_quest: "36F75F3A69E5E07F"
+		shape: "square"
+		size: 1.0d
+		x: -3.0d
+		y: 6.4d
+	}]
+	quests: [
+		{
+			id: "5100000000000004"
+			rewards: [
+				{ count: 6, id: "5100000000000002", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5100000000000003", type: "xp", xp: 20 }
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{ id: "5100000000000001", item: { count: 1, id: "farmersdelight:hamburger" }, type: "item" }
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5100000000000004"]
+			id: "5100000000000008"
+			rewards: [
+				{ count: 4, id: "5100000000000006", item: { count: 1, id: "mynethersdelight:resurgent_soil" }, type: "item" }
+				{ id: "5100000000000007", type: "xp", xp: 15 }
+			]
+			shape: "octagon"
+			tasks: [
+				{ id: "5100000000000005", item: { count: 1, id: "mynethersdelight:blazier" }, type: "item" }
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5100000000000008"]
+			id: "510000000000000C"
+			rewards: [
+				{ count: 4, id: "510000000000000A", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "510000000000000B", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "5100000000000009", item: { count: 1, id: "mynethersdelight:hoglin_loin" }, type: "item" }
+			]
+			x: -3.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["510000000000000C"]
+			id: "5100000000000010"
+			rewards: [
+				{ count: 6, id: "510000000000000E", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "510000000000000F", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ id: "510000000000000D", item: { count: 1, id: "mynethersdelight:roast_stuffed_hoglin" }, type: "item" }
+			]
+			x: -3.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["5100000000000010"]
+			hide_dependency_lines: true
+			id: "5100000000000015"
+			rewards: [
+				{ count: 4, id: "5100000000000012", item: { count: 1, id: "mynethersdelight:bullet_pepper" }, type: "item" }
+				{ id: "5100000000000013", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+				{ id: "5100000000000014", type: "xp", xp: 60 }
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{ id: "5100000000000011", item: { count: 1, id: "mynethersdelight:plate_of_ghasta_with_cream" }, type: "item" }
+			]
+			x: -3.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["5100000000000004"]
+			id: "5100000000000019"
+			rewards: [
+				{ id: "5100000000000017", item: { count: 1, id: "aethersdelight:arkenium_knife" }, type: "item" }
+				{ id: "5100000000000018", type: "xp", xp: 15 }
+			]
+			shape: "octagon"
+			tasks: [
+				{ id: "5100000000000016", item: { count: 1, id: "aethersdelight:holystone_stove" }, type: "item" }
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5100000000000019"]
+			id: "510000000000001D"
+			rewards: [
+				{ count: 4, id: "510000000000001B", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "510000000000001C", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "510000000000001A", item: { count: 1, id: "aethersdelight:moa_stew" }, type: "item" }
+			]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["510000000000001D"]
+			id: "5100000000000021"
+			rewards: [
+				{ count: 6, id: "510000000000001F", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5100000000000020", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ id: "510000000000001E", item: { count: 1, id: "aethersdelight:gingerbread_moa" }, type: "item" }
+			]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["5100000000000021"]
+			hide_dependency_lines: true
+			id: "5100000000000026"
+			rewards: [
+				{ count: 4, id: "5100000000000023", item: { count: 1, id: "aethersdelight:ginger" }, type: "item" }
+				{ id: "5100000000000024", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+				{ id: "5100000000000025", type: "xp", xp: 60 }
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{ id: "5100000000000022", item: { count: 1, id: "aethersdelight:blue_berry_muffin" }, type: "item" }
+			]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["5100000000000004"]
+			id: "510000000000002A"
+			rewards: [
+				{ count: 4, id: "5100000000000028", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5100000000000029", type: "xp", xp: 15 }
+			]
+			shape: "octagon"
+			tasks: [
+				{ id: "5100000000000027", item: { count: 4, id: "minecraft:chorus_fruit" }, type: "item" }
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["510000000000002A"]
+			id: "510000000000002E"
+			rewards: [
+				{ count: 6, id: "510000000000002C", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "510000000000002D", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "510000000000002B", item: { count: 1, id: "ends_delight:chorus_fruit_pie" }, type: "item" }
+			]
+			x: 3.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["510000000000002E"]
+			id: "5100000000000032"
+			rewards: [
+				{ count: 4, id: "5100000000000030", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5100000000000031", type: "xp", xp: 15 }
+			]
+			tasks: [
+				{ id: "510000000000002F", item: { count: 1, id: "ends_delight:bubble_tea" }, type: "item" }
+			]
+			x: 3.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["5100000000000032"]
+			hide_dependency_lines: true
+			id: "5100000000000037"
+			rewards: [
+				{ count: 6, id: "5100000000000034", item: { count: 1, id: "minecraft:chorus_fruit" }, type: "item" }
+				{ id: "5100000000000035", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+				{ id: "5100000000000036", type: "xp", xp: 80 }
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{ id: "5100000000000033", item: { count: 1, id: "ends_delight:dragon_leg_with_sauce" }, type: "item" }
+			]
+			x: 3.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["5100000000000004"]
+			id: "510000000000003B"
+			rewards: [
+				{ count: 4, id: "5100000000000039", item: { count: 1, id: "minersdelight:cave_carrot" }, type: "item" }
+				{ id: "510000000000003A", type: "xp", xp: 15 }
+			]
+			shape: "octagon"
+			tasks: [
+				{ id: "5100000000000038", item: { count: 1, id: "minersdelight:copper_pot" }, type: "item" }
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["510000000000003B"]
+			id: "510000000000003F"
+			rewards: [
+				{ count: 6, id: "510000000000003D", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "510000000000003E", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "510000000000003C", item: { count: 1, id: "minersdelight:cave_hamburger" }, type: "item" }
+			]
+			x: 6.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["510000000000003F"]
+			id: "5100000000000043"
+			rewards: [
+				{ count: 6, id: "5100000000000041", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5100000000000042", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "5100000000000040", item: { count: 1, id: "minersdelight:insect_stew" }, type: "item" }
+			]
+			x: 6.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["5100000000000043"]
+			hide_dependency_lines: true
+			id: "5100000000000048"
+			rewards: [
+				{ count: 4, id: "5100000000000045", item: { count: 1, id: "minersdelight:cave_carrot" }, type: "item" }
+				{ id: "5100000000000046", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+				{ id: "5100000000000047", type: "xp", xp: 60 }
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{ id: "5100000000000044", item: { count: 1, id: "minersdelight:nutritional_bar" }, type: "item" }
+			]
+			x: 6.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["5100000000000004"]
+			id: "510000000000004C"
+			rewards: [
+				{ count: 4, id: "510000000000004A", item: { count: 1, id: "culturaldelights:corn_kernels" }, type: "item" }
+				{ id: "510000000000004B", type: "xp", xp: 15 }
+			]
+			shape: "octagon"
+			tasks: [
+				{ id: "5100000000000049", item: { count: 4, id: "culturaldelights:avocado" }, type: "item" }
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["510000000000004C"]
+			id: "5100000000000050"
+			rewards: [
+				{ count: 6, id: "510000000000004E", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "510000000000004F", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "510000000000004D", item: { count: 1, id: "culturaldelights:beef_burrito" }, type: "item" }
+			]
+			x: 9.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["5100000000000050"]
+			id: "5100000000000054"
+			rewards: [
+				{ count: 6, id: "5100000000000052", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5100000000000053", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "5100000000000051", item: { count: 1, id: "culturaldelights:chicken_taco" }, type: "item" }
+			]
+			x: 9.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["5100000000000054"]
+			hide_dependency_lines: true
+			id: "5100000000000059"
+			rewards: [
+				{ count: 4, id: "5100000000000056", item: { count: 1, id: "culturaldelights:corn_kernels" }, type: "item" }
+				{ id: "5100000000000057", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+				{ id: "5100000000000058", type: "xp", xp: 60 }
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{ id: "5100000000000055", item: { count: 1, id: "culturaldelights:midori_roll" }, type: "item" }
+			]
+			x: 9.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["5100000000000004"]
+			id: "510000000000005D"
+			rewards: [
+				{ id: "510000000000005B", item: { count: 1, id: "brewinandchewin:tankard" }, type: "item" }
+				{ id: "510000000000005C", type: "xp", xp: 15 }
+			]
+			shape: "octagon"
+			tasks: [
+				{ advancement: "brewinandchewin:main/place_keg", criterion: "placed_keg", id: "510000000000005A", type: "advancement" }
+			]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["510000000000005D"]
+			id: "5100000000000061"
+			rewards: [
+				{ count: 4, id: "510000000000005F", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5100000000000060", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ advancement: "brewinandchewin:main/place_temperature_block_near_keg", criterion: "", id: "510000000000005E", type: "advancement" }
+			]
+			x: 13.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["5100000000000061"]
+			id: "5100000000000065"
+			rewards: [
+				{ count: 4, id: "5100000000000063", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5100000000000064", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "5100000000000062", item: { count: 1, id: "brewinandchewin:flaxen_cheese_wheel" }, type: "item" }
+			]
+			x: 13.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["5100000000000065"]
+			id: "5100000000000069"
+			rewards: [
+				{ id: "5100000000000067", item: { count: 1, id: "brewinandchewin:fiery_fondue" }, type: "item" }
+				{ id: "5100000000000068", type: "xp", xp: 30 }
+			]
+			tasks: [
+				{ advancement: "brewinandchewin:main/cook_fiery_fondue", criterion: "", id: "5100000000000066", type: "advancement" }
+			]
+			x: 13.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["5100000000000069"]
+			id: "510000000000006D"
+			rewards: [
+				{ count: 4, id: "510000000000006B", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "510000000000006C", type: "xp", xp: 20 }
+			]
+			tasks: [
+				{ id: "510000000000006A", item: { count: 1, id: "brewinandchewin:beer" }, type: "item" }
+			]
+			x: 13.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["510000000000006D"]
+			hide_dependency_lines: true
+			id: "5100000000000072"
+			rewards: [
+				{ id: "510000000000006F", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+				{ count: 2, id: "5100000000000070", item: { count: 1, id: "brewinandchewin:tankard" }, type: "item" }
+				{ id: "5100000000000071", type: "xp", xp: 60 }
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [
+				{ id: "510000000000006E", item: { count: 1, id: "brewinandchewin:rice_wine" }, type: "item" }
+			]
+			x: 13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5100000000000015"
+				"5100000000000026"
+				"5100000000000037"
+				"5100000000000048"
+				"5100000000000059"
+				"5100000000000072"
+			]
+			hide_dependency_lines: true
+			id: "5100000000000077"
+			rewards: [
+				{ id: "5100000000000074", table_id: 5836665117072162936L, type: "random" }
+				{ count: 6, id: "5100000000000075", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+				{ id: "5100000000000076", type: "xp", xp: 300 }
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{ id: "5100000000000073", type: "checkmark" }
+			]
+			x: 5.0d
+			y: 9.0d
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+  "configVersion": "1.13.2",
+  "comment": [
+    "This config is only on your client. It determines which *groups* of Pokemon are alerted. For individually alerting Pokemon, see pokemon.json.",
+    "For details on using the config, please see the docs.",
+    "https://stainlessstasis.github.io/CSA-Docs/config/"
+  ],
+  "debug": false,
+  "multiplayerWarning": false,
+  "versionChangeWarning": false,
+  "enableAlerts": true,
+  "enableDespawnAlerts": true,
+  "enableSounds": true,
+  "alertAllShinies": true,
+  "alertAllHA": true,
+  "alertAllLegendaries": true,
+  "alertAllMythicals": true,
+  "alertAllUltraBeasts": true,
+  "alertAllParadox": true,
+  "alertAllStarter": false,
+  "bucketsToAlert": [
+    "ULTRA_RARE"
+  ],
+  "alertAllNotInDex": false,
+  "alertAllUncaught": false,
+  "alertEverything": false,
+  "ivHunting": {
+    "enabled": false,
+    "requireAllMinimumsMet": true,
+    "minPerfectIVs": 0,
+    "minHp": 0,
+    "minAtk": 0,
+    "minDef": 0,
+    "minSpAtk": 0,
+    "minSpDef": 0,
+    "minSpeed": 0
+  },
+  "evHunting": {
+    "enabled": false,
+    "minHp": 0,
+    "minAtk": 0,
+    "minDef": 0,
+    "minSpAtk": 0,
+    "minSpDef": 0,
+    "minSpeed": 0
+  },
+  "levelFilter": {
+    "enabled": false,
+    "minLevel": 1,
+    "maxLevel": 100
+  },
+  "distanceFilter": {
+    "enabled": false,
+    "minDistance": 0,
+    "maxDistance": 2147483647
+  }
+}
