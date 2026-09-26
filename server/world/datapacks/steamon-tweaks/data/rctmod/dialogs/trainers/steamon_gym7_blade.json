@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "Welcome to the cathedral at the edge of everything. Chaos awaits.",
+    "The void does not forgive weakness. Show me you belong here."
+  ],
+  "on_battle_won": [
+    "The darkness swallows another challenger. Return when you're stronger.",
+    "Chaos always prevails. You were no exception."
+  ],
+  "on_battle_lost": [
+    "You cut through the chaos itself. Impressive, trainer.",
+    "The void recognizes your strength. Take this badge and leave this place."
+  ]
+}

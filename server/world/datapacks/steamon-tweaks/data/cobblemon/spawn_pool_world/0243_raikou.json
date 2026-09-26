@@ -1,0 +1,50 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "raikou-1",
+   "pokemon": "raikou",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-65",
+   "weight": 0.4,
+   "weightMultipliers": [
+    {
+     "multiplier": 0.6,
+     "condition": {
+      "isRaining": true
+     },
+     "anticondition": {
+      "biomes": [
+       "#cobblemon:is_arid",
+       "#cobblemon:is_snowy"
+      ]
+     }
+    },
+    {
+     "multiplier": 0.7,
+     "condition": {
+      "isThundering": true
+     },
+     "anticondition": {
+      "biomes": [
+       "#cobblemon:is_arid",
+       "#cobblemon:is_snowy"
+      ]
+     }
+    }
+   ],
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ]
+   }
+  }
+ ]
+}

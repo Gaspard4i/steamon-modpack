@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cobblemon:grepa_berry"
+    },
+    {
+      "item": "cobblemon:pp_up"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 1000,
+      "fluid": "create_klinks_n_klangs:liquid_medicinal_brew"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "create_klinks_n_klangs:zinc"
+    }
+  ]
+}

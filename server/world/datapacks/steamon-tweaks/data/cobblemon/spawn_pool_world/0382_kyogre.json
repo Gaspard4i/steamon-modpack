@@ -1,0 +1,36 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "kyogre-1",
+   "pokemon": "kyogre",
+   "type": "pokemon",
+   "spawnablePositionType": "submerged",
+   "bucket": "ultra-rare",
+   "level": "70-80",
+   "weight": 0.25,
+   "weightMultipliers": [
+    {
+     "multiplier": 0.3,
+     "biomes": [
+      "#cobblemon:is_deep_ocean"
+     ]
+    },
+    {
+     "multiplier": 0.5,
+     "condition": {
+      "isRaining": true
+     }
+    },
+    {
+     "multiplier": 0.6,
+     "condition": {
+      "isThundering": true
+     }
+    }
+   ]
+  }
+ ]
+}

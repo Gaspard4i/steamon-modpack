@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "deeperdarker:blooming_sculk_stone"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:experience_nugget"
+    },
+    {
+      "id": "create:experience_nugget",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 250
+}

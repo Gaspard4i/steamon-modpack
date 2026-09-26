@@ -1,0 +1,16 @@
+name = "Steamon Client"
+author = "Gaspard4i"
+version = "2.0.9-alpha"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8093c7655fc6b0e11d47b7b6b8076479a887e37d17b58be42b9b184785965bd2"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.251"
+
+[options]
+datapack-folder = "world/datapacks"

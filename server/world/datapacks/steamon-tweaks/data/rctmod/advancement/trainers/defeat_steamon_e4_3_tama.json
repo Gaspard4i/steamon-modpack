@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_steamon_e4_3_tama": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "steamon_e4_3_tama"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Elite Four Tama."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Third of the Elite Four"
+    }
+  },
+  "requirements": [
+    [
+      "defeat_steamon_e4_3_tama"
+    ]
+  ],
+  "parent": "rctmod:trainers/defeat_steamon_e4_2_gaz"
+}

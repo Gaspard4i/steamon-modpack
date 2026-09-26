@@ -1,0 +1,21 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "celebi-1",
+   "pokemon": "celebi",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "65",
+   "weight": 0.5,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_forest"
+    ]
+   }
+  }
+ ]
+}

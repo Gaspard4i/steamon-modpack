@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "simpletms:tm_items"
+    },
+    {
+      "item": "supplementaries:soap"
+    }
+  ],
+  "results": [
+    {
+      "id": "simpletms:tm_blank"
+    }
+  ]
+}

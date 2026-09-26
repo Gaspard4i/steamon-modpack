@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_klinks_n_klangs:flag",
+      "flag": "enable_rare_candy_recipe"
+    }
+  ],
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "cobblemon:vivichoke"
+    },
+    {
+      "item": "cobblemon:exp_candy_xl"
+    },
+    {
+      "item": "cobblemon:roseli_berry"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "create:honey",
+      "amount": 250
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "create_klinks_n_klangs:liquid_medicinal_brew",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "id": "create_klinks_n_klangs:molten_rare_candy",
+      "amount": 1000
+    }
+  ]
+}

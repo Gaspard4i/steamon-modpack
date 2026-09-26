@@ -1,0 +1,13 @@
+name = "Cobbreeding"
+filename = "Cobbreeding-neoforge-2.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ItmVb4zY/versions/9bPk2DC3/Cobbreeding-neoforge-2.2.2.jar"
+hash-format = "sha512"
+hash = "4af4f23a294b641a1f4129c96e38dde048ef760108713d5b5a73ac61817bac20b5c39a03d340a42f1a5dc4beb92d7ec40d3e10b9e556ac744c835865ce96a7ca"
+
+[update]
+[update.modrinth]
+mod-id = "ItmVb4zY"
+version = "9bPk2DC3"

@@ -1,0 +1,60 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "groudon-1",
+   "pokemon": "groudon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.25,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_badlands"
+    ]
+   }
+  },
+  {
+   "id": "groudon-2",
+   "pokemon": "groudon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.4,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_volcanic"
+    ]
+   }
+  },
+  {
+   "id": "groudon-3T",
+   "pokemon": "groudon",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.25,
+   "condition": {
+    "maxY": 127,
+    "biomes": [
+     "#cobblemon:nether/is_wasteland"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "mega_showdown:mega_meteorid_radiated_block" },
+  "transitional_item": { "id": "mega_showdown:mega_meteorid_radiated_block" },
+  "loops": 20,
+  "results": [
+    { "id": "mega_showdown:keystone", "chance": 70.0 },
+    { "id": "mega_showdown:mega_meteorid_block", "chance": 30.0 }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [ { "item": "mega_showdown:mega_meteorid_radiated_block" } ],
+      "results": [ { "id": "mega_showdown:mega_meteorid_radiated_block" } ]
+    }
+  ]
+}

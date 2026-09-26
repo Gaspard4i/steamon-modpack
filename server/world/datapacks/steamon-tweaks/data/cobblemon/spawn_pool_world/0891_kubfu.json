@@ -1,0 +1,25 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "kubfu-1",
+   "pokemon": "kubfu",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "10-30",
+   "weight": 0.3,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_bamboo"
+    ]
+   }
+  }
+ ]
+}

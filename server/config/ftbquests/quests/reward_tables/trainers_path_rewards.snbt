@@ -1,0 +1,85 @@
+{
+	icon: {
+		id: "cobblemon:great_ball"
+	}
+	id: "3064955842E54192"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 3
+			id: "42613146D7870453"
+			item: {
+				count: 1
+				id: "cobblemon:great_ball"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "747628FB9BF932A7"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 2
+			id: "7C14561A0886827D"
+			item: {
+				count: 1
+				id: "cobblemon:ultra_ball"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "5C61D5F9F55B6B29"
+			item: {
+				count: 1
+				id: "cobblemon:super_potion"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "2AFD7718EE12204F"
+			item: {
+				count: 1
+				id: "cobblemon:full_heal"
+			}
+			weight: 12.0f
+		}
+		{
+			id: "5AF9A45129EC06C3"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_m"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "646B1731A923B795"
+			item: {
+				count: 1
+				id: "cobblemon:hp_up"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "3F7A478EF8206FA4"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "763B7055D339E284"
+			item: {
+				count: 1
+				id: "cobblemon:revive"
+			}
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

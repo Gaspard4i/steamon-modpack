@@ -1,0 +1,13 @@
+name = "Cobblemon Otherside Spawns"
+filename = "OthersideCobblemonSpawns-v2.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fo7fWFzs/versions/ZluD9IW3/OthersideCobblemonSpawns-v2.1.zip"
+hash-format = "sha512"
+hash = "1b47087678da2ea93aa5959b1d4f291a13f0383cd7c33f90840feba570353788dadd84a4795a07298d54b36d8efc4668bd95515eb4927ac5acc14808aa456391"
+
+[update]
+[update.modrinth]
+mod-id = "fo7fWFzs"
+version = "ZluD9IW3"

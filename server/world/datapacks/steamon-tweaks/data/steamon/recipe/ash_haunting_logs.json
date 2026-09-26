@@ -1,0 +1,9 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    { "tag": "minecraft:logs" }
+  ],
+  "results": [
+    { "id": "supplementaries:ash", "count": 2 }
+  ]
+}

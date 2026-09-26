@@ -1,0 +1,30 @@
+{
+ "enabled": false,
+ "spawns": [
+  {
+   "id": "regieleki-1",
+   "pokemon": "regieleki",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.3,
+   "weightMultipliers": [
+    {
+     "multiplier": 0.5,
+     "condition": {
+      "isThundering": true
+     }
+    }
+   ],
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_plains"
+    ]
+   }
+  }
+ ]
+}

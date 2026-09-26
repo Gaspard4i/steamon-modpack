@@ -1,0 +1,71 @@
+{
+  "name": "Gym Leader Miguel",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "battleFormat": "GEN_9_DOUBLES",
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "glaceon",
+      "nickname": "Permafrost",
+      "gender": "FEMALE",
+      "level": 25,
+      "nature": "modest",
+      "ability": "icebody",
+      "moveset": ["icebeam", "shadowball", "calmmind", "protect"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "spa": 252, "spd": 4},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "froslass",
+      "nickname": "Momartik",
+      "gender": "FEMALE",
+      "level": 25,
+      "nature": "timid",
+      "ability": "snowcloak",
+      "moveset": ["icebeam", "shadowball", "willowisp", "destinybond"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "spa": 4, "spe": 252},
+      "heldItem": ["focus_sash"]
+    },
+    {
+      "species": "sylveon",
+      "nickname": "Ribbonwind",
+      "gender": "FEMALE",
+      "level": 26,
+      "nature": "calm",
+      "ability": "pixilate",
+      "moveset": ["moonblast", "mysticalfire", "calmmind", "wish"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "spd": 252, "spe": 4},
+      "heldItem": ["mystic_water"]
+    },
+    {
+      "species": "ninetales",
+      "nickname": "Frostfae",
+      "gender": "FEMALE",
+      "level": 27,
+      "shiny": true,
+      "nature": "timid",
+      "ability": "snowwarning",
+      "aspects": ["alola"],
+      "moveset": ["blizzard", "moonblast", "auroraveil", "nastyplot"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["never_melt_ice"]
+    }
+  ]
+}

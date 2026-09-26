@@ -1,0 +1,76 @@
+{
+	icon: {
+		id: "numismatics:spur"
+	}
+	id: "50486725E9E22FF9"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 3
+			id: "673AF5AA6CE1AE42"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "765F90068822F190"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "4E5381D4D150D1D6"
+			item: {
+				count: 1
+				id: "cobblemon:protein"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "7576F2628A79CD31"
+			item: {
+				count: 1
+				id: "cobblemon:calcium"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "5C850E08E9AFD67C"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_m"
+			}
+			weight: 12.0f
+		}
+		{
+			id: "141630AB46551DEB"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "6A5676821160122C"
+			item: {
+				count: 1
+				id: "cobblemon:ability_capsule"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "01FCED2E2F4F4A5F"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

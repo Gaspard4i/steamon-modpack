@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DQ ",
+    "QZQ",
+    " QD"
+  ],
+  "key": {
+    "D": { "item": "minecraft:diamond" },
+    "Q": { "item": "minecraft:quartz" },
+    "Z": { "item": "mega_showdown:blank_z" }
+  },
+  "result": { "id": "mega_showdown:sparkling_stone_light", "count": 1 }
+}

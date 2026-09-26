@@ -1,0 +1,21 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "manaphy-1",
+   "pokemon": "manaphy",
+   "type": "pokemon",
+   "spawnablePositionType": "fishing",
+   "bucket": "ultra-rare",
+   "level": "50",
+   "weight": 1.5,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_ocean"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "I've unearthed relics older than memory. Let's see what you're made of.",
+    "Every dig has its treasures and its dangers. You're the latter today."
+  ],
+  "on_battle_won": [
+    "Another artifact for the collection. Dig deeper and come back.",
+    "History remembers the strong. You'll need to try again."
+  ],
+  "on_battle_lost": [
+    "Remarkable! You've unearthed a victory for the ages.",
+    "The dig site bows to you. Take this badge, fellow archaeologist."
+  ]
+}

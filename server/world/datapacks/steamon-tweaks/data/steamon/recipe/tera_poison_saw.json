@@ -1,0 +1,6 @@
+{
+  "type": "create:cutting",
+  "ingredients": [ { "item": "cobblemon:poison_gem" } ],
+  "processing_time": 100,
+  "results": [ { "count": 4, "id": "mega_showdown:poison_tera_shard" } ]
+}

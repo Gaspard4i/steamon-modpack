@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "CEC",
+    " C "
+  ],
+  "key": {
+    "C": { "tag": "cobblemon:experience_candies" },
+    "E": { "tag": "c:eggs" }
+  },
+  "result": { "id": "cobblemon:lucky_egg", "count": 1 }
+}

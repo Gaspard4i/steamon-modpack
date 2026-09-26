@@ -1,0 +1,93 @@
+{
+	icon: {
+		id: "aether:gold_dungeon_key"
+	}
+	id: "40486725E9E22FF9"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			id: "09D6930DD4191B05"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 4
+			id: "47E6CA302B9F8435"
+			item: {
+				count: 1
+				id: "aether:ambrosium_shard"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "01F3C9BB351BD432"
+			item: {
+				count: 1
+				id: "aether:blue_berry"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "171729B0C516250D"
+			item: {
+				count: 1
+				id: "aether:skyroot_sword"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "50984B7A6F38E556"
+			item: {
+				count: 1
+				id: "aethersdelight:gingerbread"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "307D3D2910AAD90C"
+			item: {
+				count: 1
+				id: "aether:golden_feather"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "277FC62CB34D7590"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "76460A1C365467E5"
+			item: {
+				count: 1
+				id: "aether:zanite_gemstone"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "2A573E81CDA8B689"
+			item: {
+				count: 1
+				id: "aether:gravitite_pickaxe"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "0405326DD51517A8"
+			item: {
+				count: 1
+				id: "aether:silver_dungeon_key"
+			}
+			weight: 3.0f
+		}
+	]
+	use_title: true
+}

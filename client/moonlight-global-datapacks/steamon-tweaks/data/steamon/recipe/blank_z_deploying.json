@@ -1,0 +1,8 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    { "item": "minecraft:amethyst_shard" },
+    { "item": "minecraft:netherite_ingot" }
+  ],
+  "results": [ { "id": "mega_showdown:blank_z" } ]
+}

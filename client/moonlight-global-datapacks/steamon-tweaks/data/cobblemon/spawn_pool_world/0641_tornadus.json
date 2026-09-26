@@ -1,0 +1,74 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "tornadus-1",
+   "pokemon": "tornadus",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50-70",
+   "weight": 1.5,
+   "weightMultipliers": [
+    {
+     "multiplier": 3.0,
+     "condition": {
+      "isRaining": true
+     }
+    }
+   ],
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_plains"
+    ]
+   }
+  },
+  {
+   "id": "tornadus-2",
+   "pokemon": "tornadus",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50",
+   "weight": 1.5,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_meadow",
+     "aether:skyroot_grove",
+     "aether:skyroot_woodland",
+     "aether:skyroot_forest"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  },
+  {
+   "id": "tornadus-2",
+   "pokemon": "tornadus",
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "ultra-rare",
+   "level": "50",
+   "weight": 4.5,
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 15,
+    "biomes": [
+     "aether:skyroot_meadow",
+     "aether:skyroot_grove",
+     "aether:skyroot_woodland",
+     "aether:skyroot_forest"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+[everlasting_beef]
+	enabled = false
+	generateAsLoot = false
+	dropRate = 0.0
+
+[eternal_steak]
+	enabled = false
+	generateAsLoot = false
+	dropRate = 0.0
+
+[scarf_of_invisibility]
+	enabled = false
+	generateAsLoot = false
+	dropRate = 0.0

@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "Welcome to my greenhouse. Every leaf here has a purpose. Do you?",
+    "Nature always finds a way. Let's see if you can keep up."
+  ],
+  "on_battle_won": [
+    "The garden thrives, but you wither. Come back when you've grown.",
+    "Even the toughest weeds get pulled eventually."
+  ],
+  "on_battle_lost": [
+    "You've bloomed into quite the trainer. Take this badge.",
+    "The greenhouse yields to your strength. Well grown, indeed."
+  ]
+}

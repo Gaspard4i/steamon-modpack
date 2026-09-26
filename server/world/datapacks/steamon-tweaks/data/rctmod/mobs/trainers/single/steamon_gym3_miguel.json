@@ -1,0 +1,15 @@
+{
+  "type": "leader",
+  "series": ["steamon"],
+  "requiredDefeats": [
+    [
+      "steamon_gym2_tama"
+    ]
+  ],
+  "optional": false,
+  "spawnWeightFactor": 0.3,
+  "biomeTagWhitelist": ["is_overworld"],
+  "signatureItem": "cobblemon:never_melt_ice",
+  "maxTrainerDefeats": 1,
+  "battleCooldownTicks": 240
+}

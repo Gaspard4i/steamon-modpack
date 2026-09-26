@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Decode Paint3D</title></head>
+<body>
+<script type="module">
+import heic2any from "https://cdn.jsdelivr.net/npm/heic2any@0.0.4/+esm";
+
+async function go(name) {
+  const resp = await fetch(`/.blender/in_${name}.paint`);
+  const blob = await resp.blob();
+  console.log(name, 'bytes', blob.size);
+  try {
+    const out = await heic2any({ blob, toType: "image/png" });
+    const buf = await out.arrayBuffer();
+    const b64 = btoa(String.fromCharCode(...new Uint8Array(buf)));
+    window[`__png_${name}`] = b64;
+    console.log(name, 'decoded png bytes', buf.byteLength);
+  } catch (e) {
+    console.error(name, 'err', e);
+    window[`__err_${name}`] = String(e);
+  }
+}
+(async () => {
+  await go("v1");
+  await go("v2");
+  window.__done = true;
+})();
+</script>
+</body></html>

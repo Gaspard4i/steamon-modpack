@@ -1,0 +1,13 @@
+name = "Cobblemon Quests Reloaded"
+filename = "cobblemon_quests-reloaded-[1.21.1]-neoforge-1.3.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/agTMcrPN/versions/X31r1lI4/cobblemon_quests-reloaded-%5B1.21.1%5D-neoforge-1.3.5.jar"
+hash-format = "sha512"
+hash = "e57cd52826f1db027c0108085d7632591821d33b339fbdd649e3c3dd489abbe485dc8e6a928982db2d5547b88c5e2bdf5fc5c41dee0922277e5793f6f08a35ec"
+
+[update]
+[update.modrinth]
+mod-id = "agTMcrPN"
+version = "X31r1lI4"

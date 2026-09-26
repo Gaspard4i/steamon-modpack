@@ -1,0 +1,66 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "zygarde-1T",
+   "pokemon": "zygarde percent_cells=core",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "1",
+   "weight": 0.25,
+   "weightMultipliers": [
+    {
+     "multiplier": 0.4,
+     "condition": {
+      "maxY": -16
+     }
+    },
+    {
+     "multiplier": 0.4,
+     "condition": {
+      "maxY": -24
+     }
+    },
+    {
+     "multiplier": 0.4,
+     "condition": {
+      "maxY": -32
+     }
+    },
+    {
+     "multiplier": 0.4,
+     "condition": {
+      "maxY": -40
+     }
+    },
+    {
+     "multiplier": 0.4,
+     "condition": {
+      "maxY": -48
+     }
+    },
+    {
+     "multiplier": 0.4,
+     "condition": {
+      "maxY": -56
+     }
+    }
+   ],
+   "condition": {
+    "minSkyLight": 0,
+    "maxSkyLight": 7,
+    "maxY": 0,
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ]
+   }
+  }
+ ]
+}

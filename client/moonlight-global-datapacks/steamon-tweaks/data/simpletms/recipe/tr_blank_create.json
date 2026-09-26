@@ -1,0 +1,92 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "minecraft:music_discs"
+  },
+  "transitional_item": {
+    "id": "simpletms:tr_blank"
+  },
+  "results": [
+    {
+      "id": "simpletms:tr_blank",
+      "count": 1
+    }
+  ],
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "tag": "minecraft:music_discs"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tr_blank"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simpletms:tr_blank"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tr_blank"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simpletms:tr_blank"
+        },
+        {
+          "item": "minecraft:quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tr_blank"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simpletms:tr_blank"
+        },
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tr_blank"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "simpletms:tr_blank"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tr_blank"
+        }
+      ]
+    }
+  ]
+}

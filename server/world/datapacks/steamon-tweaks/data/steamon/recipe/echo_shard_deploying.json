@@ -1,0 +1,10 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    { "item": "minecraft:amethyst_shard" },
+    { "item": "minecraft:sculk" }
+  ],
+  "results": [
+    { "id": "minecraft:echo_shard" }
+  ]
+}

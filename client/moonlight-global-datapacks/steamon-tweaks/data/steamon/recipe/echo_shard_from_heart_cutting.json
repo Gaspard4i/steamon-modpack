@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "deeperdarker:heart_of_the_deep" },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 8
+  }
+}

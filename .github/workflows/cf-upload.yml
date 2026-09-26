@@ -1,0 +1,225 @@
+name: CurseForge Manual Upload
+
+# One-shot CurseForge upload triggered manually from the Actions tab.
+# Use this when the main publish pipeline produced a Modrinth/GH release
+# but the CurseForge file is missing (silent post-process rejection,
+# upload that didn't propagate to the panel, etc.).
+#
+# How to run:
+#   Actions -> CurseForge Manual Upload -> Run workflow -> enter version
+#   The workflow rebuilds the .mrpack from the current main branch tip
+#   for that version, uploads it, and prints the full response body so
+#   you can see what CF actually returns.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to upload (e.g. 1.0.6) — must already exist in docs/CHANGELOG.md'
+        required: true
+        type: string
+      channel:
+        description: 'Release channel for CF (alpha/beta/release)'
+        required: true
+        type: choice
+        options: [alpha, beta, release]
+        default: release
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache packwiz binary
+        id: cache-packwiz
+        uses: actions/cache@v4
+        with:
+          path: ~/go/bin/packwiz
+          key: packwiz-bin-v1
+
+      - name: Setup Go
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Install packwiz
+        if: steps.cache-packwiz.outputs.cache-hit != 'true'
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Add packwiz to PATH
+        run: echo "$HOME/go/bin" >> "$GITHUB_PATH"
+
+      - name: Build CF-native client zip
+        env:
+          VERSION: ${{ inputs.version }}
+          CF_CORE_KEY: ${{ secrets.CF_CORE_KEY }}
+        run: |
+          set -euo pipefail
+          cd client
+          sed -i "s/^version = \".*\"/version = \"$VERSION\"/" pack.toml
+          packwiz refresh
+
+          # --- Inject FTB quest mods (CurseForge-only, not redistributable) ---
+          # Same as cf-resolve.yml: manifest references only, never in the repo,
+          # matched 2101.1.x train (Quests needs Library>=2101.1.31, Teams>=2101.1.9).
+          packwiz curseforge add --addon-id 404465 --file-id 8438216 -y   # FTB Library    2101.1.33
+          packwiz curseforge add --addon-id 404468 --file-id 7878281 -y   # FTB Teams      2101.1.10
+          packwiz curseforge add --addon-id 410811 --file-id 8442866 -y   # FTB Essentials 2101.1.10
+          packwiz curseforge add --addon-id 289412 --file-id 8253474 -y   # FTB Quests     2101.1.27
+          packwiz remove ftbchecker || true
+          packwiz refresh
+
+          # Pass 1: initial export so packwiz can fingerprint local jars.
+          packwiz curseforge export -y >/dev/null 2>&1 || true
+          ZIP="$(ls *.zip 2>/dev/null | grep -v 'Server' | head -1 || true)"
+          if [ -n "${ZIP:-}" ]; then
+            mkdir -p _ex && (cd _ex && unzip -oq "../$ZIP")
+            cp _ex/overrides/mods/*.jar mods/ 2>/dev/null || true
+            cp _ex/overrides/resourcepacks/*.zip resourcepacks/ 2>/dev/null || true
+            rm -rf _ex "$ZIP"
+          fi
+
+          # Pass 2: fingerprint detect (no API key needed).
+          echo "::group::packwiz curseforge detect"
+          packwiz curseforge detect -y || true
+          echo "::endgroup::"
+          packwiz refresh
+
+          # Pass 3: Core API resolution for remaining unresolved mods.
+          if [ -n "${CF_CORE_KEY:-}" ]; then
+            echo "::group::CF Core API resolution"
+            CF_CORE_KEY="$CF_CORE_KEY" python3 "$GITHUB_WORKSPACE/.github/scripts/cf_resolve.py" mods \
+              | sed 's/^/  /'
+            echo "::endgroup::"
+            packwiz refresh
+          else
+            echo "[warn] CF_CORE_KEY not set — Core API resolution skipped"
+          fi
+
+          # Pass 4: dedupe duplicate CF file-id references.
+          echo "::group::dedupe CF references"
+          python3 "$GITHUB_WORKSPACE/.github/scripts/cf_dedupe.py" mods resourcepacks \
+            | sed 's/^/  /'
+          echo "::endgroup::"
+
+          # Remove physical jars (only needed for fingerprinting).
+          rm -f mods/*.jar resourcepacks/*.zip
+          packwiz refresh
+
+          # Final CF-native export.
+          rm -f *.zip
+          packwiz curseforge export -y
+          ORIG="$(ls *.zip | grep -v 'Server' | head -1)"
+          CF_NAME="Steamon-${VERSION}.zip"
+          mv "$ORIG" "$CF_NAME"
+          echo "MRPACK_PATH=client/$CF_NAME" >> "$GITHUB_ENV"
+
+          # Report and guard overrides/mods.
+          mkdir -p _check && (cd _check && unzip -oq "../$CF_NAME")
+          REFS=$(python3 -c "import json;print(len(json.load(open('_check/manifest.json')).get('files',[])))")
+          OVR_JARS=$(ls _check/overrides/mods/*.jar 2>/dev/null | wc -l || echo 0)
+          echo "manifest refs=$REFS | overrides/mods jars=$OVR_JARS"
+          ls _check/overrides/mods/*.jar 2>/dev/null | xargs -n1 basename 2>/dev/null \
+            | sed 's/^/  override: /' || echo "  (none)"
+          ls _check/overrides/mods/*.jar 2>/dev/null | xargs -n1 basename 2>/dev/null \
+            | sort > /tmp/override_mods.txt || true
+          rm -rf _check
+
+          # (printf used instead of heredoc to avoid YAML parser conflicts with <<)
+          printf '%s\n' \
+            'Cobbreeding-neoforge-2.2.2.jar' \
+            'cobblemon_paleontologist-0.6.0-Beta-Neo.jar' \
+            'create-ochrum-recipe-1.jar' \
+            'radiomod-1.0.2.jar' \
+            'spudaciousshops-1.10.3-neoforge-1.21.1.jar' \
+            'visibletraders-0.0.7.1.jar' \
+            | sort > /tmp/allowed_overrides.txt
+          touch /tmp/override_mods.txt
+          UNEXPECTED=$(comm -23 /tmp/override_mods.txt /tmp/allowed_overrides.txt || true)
+          if [ -n "$UNEXPECTED" ]; then
+            echo "::error::CF upload blocked: unexpected jar(s) in overrides/mods/:"
+            echo "$UNEXPECTED" | sed 's/^/  - /'
+            exit 1
+          fi
+          echo "Guard passed: overrides/mods contains only known Modrinth-only mods."
+          ls -la "$CF_NAME"
+
+      - name: Extract changelog
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PYEOF' > /tmp/changelog.txt
+          import os, re, pathlib
+          version = os.environ['VERSION']
+          src = pathlib.Path('docs/CHANGELOG.md').read_text(encoding='utf-8')
+          pat = re.compile(rf'^## \[{re.escape(version)}\][^\n]*\n(.*?)(?=^## \[|\Z)', re.S | re.M)
+          m = pat.search(src)
+          if not m:
+              raise SystemExit(f"No '## [{version}]' section in docs/CHANGELOG.md")
+          body = m.group(1).strip()
+          if not body:
+              raise SystemExit(f"Section '## [{version}]' is empty")
+          import sys; sys.stdout.write(body)
+          PYEOF
+          echo "Changelog $(wc -c < /tmp/changelog.txt) bytes"
+
+      - name: Upload to CurseForge (verbose)
+        env:
+          CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+          CURSEFORGE_ID: ${{ vars.CURSEFORGE_ID }}
+          VERSION: ${{ inputs.version }}
+          CHANNEL: ${{ inputs.channel }}
+        run: |
+          set -euo pipefail
+          if [ -z "${CURSEFORGE_TOKEN:-}" ] || [ -z "${CURSEFORGE_ID:-}" ]; then
+            echo "CURSEFORGE_TOKEN or CURSEFORGE_ID missing"; exit 1
+          fi
+          CHANGELOG="$(cat /tmp/changelog.txt)"
+          VERSION="$VERSION" CHANNEL="$CHANNEL" CHANGELOG="$CHANGELOG" python3 - <<'PYEOF' > /tmp/cf_meta.json
+          import json, os
+          print(json.dumps({
+              'changelog': os.environ.get('CHANGELOG', ''),
+              'changelogType': 'markdown',
+              'displayName': 'Steamon ' + os.environ['VERSION'] + ' (' + os.environ['CHANNEL'] + ')',
+              'releaseType': os.environ['CHANNEL'],
+              'gameVersions': [11779, 10150],
+          }))
+          PYEOF
+          echo "Metadata payload ($(wc -c < /tmp/cf_meta.json) bytes):"
+          cat /tmp/cf_meta.json
+          echo
+          echo
+          echo "--- POST to CurseForge ---"
+          # -v for full headers, but token line filtered out
+          HTTP=$(curl -sS -o /tmp/cf_resp.body -D /tmp/cf_resp.headers -w "%{http_code}" \
+            -X POST "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/upload-file" \
+            -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
+            -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+            -F "metadata=</tmp/cf_meta.json" \
+            -F "file=@${MRPACK_PATH};type=application/x-modrinth-modpack+zip")
+          echo "HTTP status: $HTTP"
+          echo
+          echo "--- Response headers ---"
+          cat /tmp/cf_resp.headers
+          echo
+          echo "--- Response body ---"
+          cat /tmp/cf_resp.body
+          echo
+          if [ "$HTTP" != "200" ] && [ "$HTTP" != "201" ]; then exit 1; fi
+
+          # If we got a fileId, ALSO query CF for its status to confirm it
+          # actually exists in their system (the panel-missing bug).
+          FILE_ID=$(python3 -c "import json;print(json.load(open('/tmp/cf_resp.body')).get('id',''))" 2>/dev/null || true)
+          if [ -n "$FILE_ID" ]; then
+            echo
+            echo "--- Confirming fileId=$FILE_ID on read API ---"
+            sleep 10  # let CF process
+            curl -sS -w "\nHTTP=%{http_code}\n" \
+              -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
+              -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+              "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/files/${FILE_ID}" \
+              || echo "(legacy read API may not support GET file)"
+          fi

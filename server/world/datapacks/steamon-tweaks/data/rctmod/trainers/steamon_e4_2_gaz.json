@@ -1,0 +1,99 @@
+{
+  "name": "Elite Four Gaz",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.1
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "battleFormat": "GEN_9_DOUBLES",
+  "bag": [
+    {
+      "item": "cobblemon:full_restore",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "mrrime",
+      "nickname": "Encore Mime",
+      "gender": "MALE",
+      "level": 62,
+      "shiny": true,
+      "nature": "modest",
+      "ability": "screencleaner",
+      "moveset": ["icebeam", "psychic", "fakeout", "blizzard"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 44, "spa": 212, "spe": 252},
+      "heldItem": ["focus_sash"]
+    },
+    {
+      "species": "primarina",
+      "nickname": "Prima Donna",
+      "gender": "FEMALE",
+      "level": 62,
+      "shiny": true,
+      "nature": "modest",
+      "ability": "torrent",
+      "moveset": ["moonblast", "scald", "psychic", "flipturn"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 100, "spa": 252, "spe": 156},
+      "heldItem": ["sitrus_berry"]
+    },
+    {
+      "species": "incineroar",
+      "nickname": "Big Top",
+      "gender": "MALE",
+      "level": 63,
+      "shiny": true,
+      "nature": "adamant",
+      "ability": "intimidate",
+      "moveset": ["flareblitz", "knockoff", "partingshot", "uturn"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "atk": 252, "spd": 4},
+      "heldItem": ["assault_vest"]
+    },
+    {
+      "species": "poliwrath",
+      "nickname": "Strongman",
+      "gender": "MALE",
+      "level": 63,
+      "shiny": true,
+      "nature": "adamant",
+      "ability": "waterabsorb",
+      "moveset": ["closecombat", "icepunch", "waterfall", "bulkup"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 252, "atk": 252, "spe": 4},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "meowscarada",
+      "nickname": "Trickster",
+      "gender": "FEMALE",
+      "level": 64,
+      "shiny": true,
+      "nature": "jolly",
+      "ability": "protean",
+      "moveset": ["flowertrick", "knockoff", "uturn", "suckerpunch"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "atk": 252, "spe": 252},
+      "heldItem": ["mystic_water"]
+    },
+    {
+      "species": "blacephalon",
+      "nickname": "Fireworks",
+      "gender": "GENDERLESS",
+      "level": 64,
+      "shiny": true,
+      "nature": "timid",
+      "ability": "beastboost",
+      "moveset": ["shadowball", "flamethrower", "trick", "substitute"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 4, "spa": 252, "spe": 252},
+      "heldItem": ["choice_specs"]
+    }
+  ]
+}

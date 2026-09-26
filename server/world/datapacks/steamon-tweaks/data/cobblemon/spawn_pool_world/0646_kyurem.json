@@ -1,0 +1,27 @@
+{
+ "enabled": false,
+ "spawns": [
+  {
+   "id": "kyurem-1",
+   "pokemon": "kyurem",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.25,
+   "weightMultipliers": [
+    {
+     "multiplier": 0.4,
+     "condition": {
+      "isRaining": true
+     }
+    }
+   ],
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_glacial"
+    ]
+   }
+  }
+ ]
+}

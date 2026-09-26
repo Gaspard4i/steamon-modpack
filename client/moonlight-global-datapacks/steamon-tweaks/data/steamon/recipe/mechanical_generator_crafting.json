@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "create:brass_sheet"
+    },
+    "G": {
+      "item": "create_connected:control_chip"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "D": {
+      "item": "create_sa:brass_drill_head"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "pattern": [
+    "ESGSE",
+    "SPCPS",
+    "WCDCL",
+    "SPCPS",
+    "ESGSE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "createcobblestone:mechanical_generator"
+  }
+}

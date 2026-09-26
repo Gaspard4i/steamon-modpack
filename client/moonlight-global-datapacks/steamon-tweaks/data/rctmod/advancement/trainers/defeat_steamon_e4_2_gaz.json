@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_steamon_e4_2_gaz": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "steamon_e4_2_gaz"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Elite Four Gaz."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Second of the Elite Four"
+    }
+  },
+  "requirements": [
+    [
+      "defeat_steamon_e4_2_gaz"
+    ]
+  ],
+  "parent": "rctmod:trainers/defeat_steamon_e4_1_pai"
+}

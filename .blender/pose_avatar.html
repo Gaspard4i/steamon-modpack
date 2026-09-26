@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Steamon — Avatar pose</title>
+<style>
+  body {
+    margin: 0;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, sans-serif;
+    color: #eee;
+    padding: 12px;
+  }
+  #canvas-container {
+    width: 600px;
+    height: 800px;
+    background: transparent;
+  }
+  #canvas-container canvas {
+    background: transparent !important;
+  }
+  .toolbar {
+    background: #1a1a1a;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  button {
+    background: #2d8a4a;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  button:hover { background: #3aaa5e; }
+  label { font-size: 13px; display: flex; align-items: center; gap: 6px; }
+  input[type="range"] { width: 140px; }
+</style>
+</head>
+<body>
+  <div class="toolbar">
+    <button id="pose-leaning">Leaning (appuyé)</button>
+    <button id="pose-arms-crossed">Bras croisés</button>
+    <button id="pose-hands-pockets">Mains dans poches</button>
+    <button id="pose-wave">Salue</button>
+    <button id="pose-idle">Idle</button>
+    <button id="download">Télécharger PNG transparent</button>
+  </div>
+  <div class="toolbar">
+    <label>Rotation Y <input type="range" id="rot-y" min="-180" max="180" value="-20" /></label>
+    <label>Zoom <input type="range" id="zoom" min="0.4" max="1.4" step="0.05" value="0.85" /></label>
+    <label>Cape <input type="checkbox" id="cape" /></label>
+  </div>
+  <div id="canvas-container"></div>
+
+  <script type="module">
+    import * as skinview3d from "https://cdn.jsdelivr.net/npm/skinview3d@3.4.2/+esm";
+
+    const container = document.getElementById("canvas-container");
+    const viewer = new skinview3d.SkinViewer({
+      width: 600,
+      height: 800,
+      skin: "assets/skin_gaz4i.png",
+      // Don't pass background; we'll set transparent clear explicitly.
+      alpha: true,
+      preserveDrawingBuffer: true,
+    });
+    // Force transparent backdrop on the WebGL renderer
+    viewer.renderer.setClearColor(0x000000, 0);
+    viewer.renderer.setClearAlpha(0);
+    // SkinViewer also draws an inner scene background — disable it.
+    if (viewer.scene) viewer.scene.background = null;
+    container.appendChild(viewer.canvas);
+
+    // Camera setup — slight 3/4 view
+    viewer.camera.position.set(20, 0, 40);
+    viewer.controls.enableZoom = true;
+    viewer.zoom = 0.85;
+
+    const p = viewer.playerObject;
+    // skinview3d 3.4.x exposes overlay layers differently per limb; access
+    // defensively so the script doesn't crash on the new API surface.
+    function setOverlayVisible() {
+      const limbs = ['head', 'body', 'rightArm', 'leftArm', 'rightLeg', 'leftLeg'];
+      for (const k of limbs) {
+        const part = p.skin[k];
+        if (!part) continue;
+        if (part.overlay) part.overlay.visible = true;
+        if (part.outerLayer) part.outerLayer.visible = true;
+      }
+    }
+    setOverlayVisible();
+
+    // --- Pose presets ---------------------------------------------------
+    const deg = d => d * Math.PI / 180;
+
+    function resetPose() {
+      [p.skin.head, p.skin.body, p.skin.rightArm, p.skin.leftArm,
+       p.skin.rightLeg, p.skin.leftLeg].forEach(part => {
+         part.rotation.set(0, 0, 0);
+         part.position.set(part.position.x, part.position.y, part.position.z);
+      });
+    }
+
+    function poseLeaning() {
+      resetPose();
+      // Whole-body tilt to the right, head tilts opposite (classic lean)
+      p.skin.body.rotation.z = deg(8);
+      p.skin.head.rotation.z = deg(-4);
+      p.skin.head.rotation.y = deg(-8);
+      // Right arm hanging straight (no raise — natural leaning rest)
+      p.skin.rightArm.rotation.x = deg(0);
+      p.skin.rightArm.rotation.z = deg(-3);
+      // Left arm slightly relaxed away from body
+      p.skin.leftArm.rotation.x = deg(0);
+      p.skin.leftArm.rotation.z = deg(3);
+      // Cross legs casually: right leg crossed over left
+      p.skin.rightLeg.rotation.z = deg(8);
+      p.skin.rightLeg.rotation.x = deg(-5);
+      p.skin.leftLeg.rotation.z = deg(-2);
+    }
+
+    function poseArmsCrossed() {
+      resetPose();
+      p.skin.body.rotation.y = deg(-5);
+      p.skin.head.rotation.y = deg(5);
+      // Both arms folded across the chest
+      p.skin.rightArm.rotation.x = deg(-75);
+      p.skin.rightArm.rotation.y = deg(35);
+      p.skin.rightArm.rotation.z = deg(-15);
+      p.skin.leftArm.rotation.x = deg(-75);
+      p.skin.leftArm.rotation.y = deg(-35);
+      p.skin.leftArm.rotation.z = deg(15);
+    }
+
+    function poseHandsInPockets() {
+      resetPose();
+      p.skin.rightArm.rotation.x = deg(-15);
+      p.skin.rightArm.rotation.z = deg(-25);
+      p.skin.leftArm.rotation.x = deg(-15);
+      p.skin.leftArm.rotation.z = deg(25);
+      p.skin.head.rotation.x = deg(-5);
+    }
+
+    function poseWave() {
+      resetPose();
+      p.skin.rightArm.rotation.x = deg(-160);
+      p.skin.rightArm.rotation.z = deg(-15);
+      p.skin.head.rotation.y = deg(10);
+    }
+
+    function poseIdle() {
+      resetPose();
+    }
+
+    document.getElementById("pose-leaning").onclick = poseLeaning;
+    document.getElementById("pose-arms-crossed").onclick = poseArmsCrossed;
+    document.getElementById("pose-hands-pockets").onclick = poseHandsInPockets;
+    document.getElementById("pose-wave").onclick = poseWave;
+    document.getElementById("pose-idle").onclick = poseIdle;
+
+    document.getElementById("rot-y").oninput = (e) => {
+      p.rotation.y = deg(parseFloat(e.target.value));
+    };
+    document.getElementById("zoom").oninput = (e) => {
+      viewer.zoom = parseFloat(e.target.value);
+    };
+    document.getElementById("cape").onchange = (e) => {
+      if (e.target.checked) {
+        viewer.cape = "assets/skin_gaz4i.png"; // placeholder; no real cape
+      } else {
+        viewer.cape = null;
+      }
+    };
+
+    document.getElementById("download").onclick = () => {
+      // Force a render then download canvas as PNG (transparent background)
+      viewer.renderer.render(viewer.scene, viewer.camera);
+      const link = document.createElement("a");
+      link.download = "avatar_pose.png";
+      link.href = viewer.canvas.toDataURL("image/png");
+      link.click();
+    };
+
+    // Initial pose
+    p.rotation.y = deg(-20);
+    poseLeaning();
+  </script>
+</body>
+</html>

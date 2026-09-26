@@ -1,0 +1,14 @@
+{
+  "on_battle_start": [
+    "Gears turn, steam rises, and iron wills are forged in this workshop. Let's begin.",
+    "Steel does not bend easily. Show me your resolve, trainer."
+  ],
+  "on_battle_won": [
+    "The machine runs smoothly, unbothered by your challenge. Return once you're sharper.",
+    "Iron wills are not broken so easily. Come back stronger."
+  ],
+  "on_battle_lost": [
+    "Remarkable. You've bent steel itself. Take this badge, engineer.",
+    "The gears grind to a halt before your strength. Well earned."
+  ]
+}

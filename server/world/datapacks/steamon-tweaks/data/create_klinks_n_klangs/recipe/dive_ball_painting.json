@@ -1,0 +1,71 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_klinks_n_klangs:unpainted_dive_ball"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:dive_ball"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_klinks_n_klangs:unfinished_dive_ball"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "create_dragons_plus:blue_dye"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_klinks_n_klangs:unfinished_dive_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_klinks_n_klangs:unfinished_dive_ball"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "create_dragons_plus:white_dye"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_klinks_n_klangs:unfinished_dive_ball"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_klinks_n_klangs:unfinished_dive_ball"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "create_dragons_plus:blue_dye"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_klinks_n_klangs:unfinished_dive_ball"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_klinks_n_klangs:unfinished_dive_ball"
+  }
+}

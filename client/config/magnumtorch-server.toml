@@ -1,0 +1,72 @@
+#Steamon: only the diamond torch is customized — on top of its default hostile-mob
+#blocking it also keeps wild Cobblemon and Radical Cobblemon Trainers away (blacklist).
+#Emerald and amethyst torches are left at the mod defaults.
+
+[diamond_torch]
+	mob_whitelist = []
+	#In addition to hostiles (monster category below), also block wild Cobblemon and RCT trainers.
+	mob_blacklist = ["cobblemon:pokemon", "rctmod:trainer"]
+	#Range in chunk sections (16x16x16 blocks) on x-z-plane. Range: 1 ~ 16
+	horizontal_chunk_range = 6
+	#Range in chunk sections on y. Range: 1 ~ 16
+	vertical_chunk_range = 4
+	shape_type = "ELLIPSOID"
+
+	[diamond_torch.blocked_spawn_reasons]
+		natural = true
+		summoned = false
+		patrol = true
+		triggered = false
+		spawner = false
+		event = false
+		structure = true
+		reinforcement = false
+
+	[diamond_torch.blocked_mob_categories]
+		creature = false
+		monster = true
+		aquatic = false
+
+[emerald_torch]
+	mob_whitelist = []
+	mob_blacklist = []
+	horizontal_chunk_range = 8
+	vertical_chunk_range = 4
+	shape_type = "CUBOID"
+
+	[emerald_torch.blocked_spawn_reasons]
+		natural = true
+		summoned = false
+		patrol = false
+		triggered = false
+		spawner = false
+		event = true
+		structure = false
+		reinforcement = false
+
+	[emerald_torch.blocked_mob_categories]
+		creature = true
+		monster = false
+		aquatic = false
+
+[amethyst_torch]
+	mob_whitelist = []
+	mob_blacklist = []
+	horizontal_chunk_range = 4
+	vertical_chunk_range = 2
+	shape_type = "ELLIPSOID"
+
+	[amethyst_torch.blocked_spawn_reasons]
+		natural = true
+		summoned = false
+		patrol = false
+		triggered = false
+		spawner = false
+		event = false
+		structure = false
+		reinforcement = false
+
+	[amethyst_torch.blocked_mob_categories]
+		creature = false
+		monster = false
+		aquatic = true

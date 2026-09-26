@@ -1,0 +1,25 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "regirock-1T",
+   "pokemon": "regirock",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.5,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_desert"
+    ]
+   }
+  }
+ ]
+}

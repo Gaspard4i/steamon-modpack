@@ -1,0 +1,79 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "terapagos-1",
+   "pokemon": "terapagos",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "15-40",
+   "weight": 0.3,
+   "weightMultiplier": {
+    "multiplier": 0.5,
+    "condition": {
+     "maxY": -32
+    }
+   },
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ]
+   },
+   "anticondition": {
+    "biomes": [
+     "#cobblemon:is_deep_dark",
+     "#cobblemon:is_lush"
+    ]
+   }
+  },
+  {
+   "id": "terapagos-2",
+   "pokemon": "terapagos",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "15-40",
+   "weight": 0.4,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_overworld"
+    ]
+   },
+   "anticondition": {
+    "biomes": [
+     "#cobblemon:is_deep_dark",
+     "#cobblemon:is_lush"
+    ]
+   }
+  },
+  {
+   "id": "aether_terapagos_1",
+   "pokemon": "terapagos",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-100",
+   "weight": 2.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_woodland"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  }
+ ]
+}

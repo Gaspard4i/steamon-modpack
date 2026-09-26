@@ -1,0 +1,21 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "pecharunt-1",
+   "pokemon": "pecharunt",
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60",
+   "weight": 0.3,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_swamp"
+    ]
+   }
+  }
+ ]
+}

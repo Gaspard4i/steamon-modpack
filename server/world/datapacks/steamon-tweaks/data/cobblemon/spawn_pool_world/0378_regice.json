@@ -1,0 +1,19 @@
+{
+ "enabled": false,
+ "spawns": [
+  {
+   "id": "regice-1",
+   "pokemon": "regice",
+   "type": "pokemon",
+   "spawnablePositionType": "fishing",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.3,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_frozen_ocean"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Cobblemon Pokeball — 3D picker (Blockbench-style)</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0;
+    background: #1a1d24;
+    color: #e6e6e6;
+    font-family: system-ui, sans-serif;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    height: 100vh;
+  }
+  aside {
+    background: #14171d;
+    border-right: 1px solid #2a2f3a;
+    overflow-y: auto;
+    padding: 12px;
+  }
+  aside h2 { font-size: 14px; margin: 8px 0; opacity: .8; }
+  .ball-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+  .ball-grid button {
+    background: #20242e;
+    border: 1px solid #2d3340;
+    border-radius: 6px;
+    padding: 6px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .ball-grid button:hover { background: #2c3242; }
+  .ball-grid button.active { border-color: #3aaa5e; background: #1f2e22; }
+  .ball-grid img { width: 48px; height: 48px; image-rendering: pixelated; }
+  .ball-grid span { font-size: 10px; opacity: .85; text-align: center; }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+  }
+  #stage {
+    width: 1024px;
+    height: 1024px;
+    max-width: 100%;
+    max-height: calc(100vh - 180px);
+    background:
+      repeating-conic-gradient(#23262e 0% 25%, #1c1f25 25% 50%) 0 0 / 32px 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #stage canvas { background: transparent; }
+  .controls {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  label { font-size: 13px; display: flex; align-items: center; gap: 6px; }
+  input[type=range] { width: 140px; }
+  input[type=checkbox] { transform: scale(1.1); }
+  button.primary {
+    background: #2d8a4a;
+    color: #fff;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  button.primary:hover { background: #3aaa5e; }
+  .hint { font-size: 12px; opacity: .7; }
+</style>
+</head>
+<body>
+  <aside>
+    <h2>Standard balls</h2>
+    <div class="ball-grid" id="grid-std"></div>
+    <h2>Ancient (Hisuian) balls</h2>
+    <div class="ball-grid" id="grid-ancient"></div>
+  </aside>
+  <main>
+    <div id="stage"><canvas id="c" width="1024" height="1024"></canvas></div>
+    <div class="controls">
+      <label>Y <input type="range" id="rotY" min="-180" max="180" value="30"></label>
+      <label>X <input type="range" id="rotX" min="-60" max="60" value="18"></label>
+      <label>Zoom <input type="range" id="zoom" min="0.4" max="2" step="0.05" value="1.05"></label>
+      <label><input type="checkbox" id="shadow" checked> Shadow</label>
+      <label><input type="checkbox" id="gloss" checked> Gloss (Blockbench look)</label>
+      <button class="primary" id="dl">Download transparent PNG</button>
+    </div>
+    <div class="hint">Selected: <span id="current">poke_ball</span></div>
+  </main>
+
+<script type="importmap">
+{ "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+const STANDARD = ["poke_ball","great_ball","ultra_ball","master_ball","premier_ball",
+  "heal_ball","luxury_ball","dive_ball","net_ball","nest_ball","timer_ball","repeat_ball",
+  "dusk_ball","quick_ball","beast_ball","cherish_ball","park_ball","safari_ball",
+  "friend_ball","love_ball","fast_ball","level_ball","lure_ball","moon_ball",
+  "heavy_ball","sport_ball","dream_ball"];
+const ANCIENT = ["ancient_poke_ball","ancient_great_ball","ancient_ultra_ball","ancient_heavy_ball",
+  "ancient_feather_ball","ancient_gigaton_ball","ancient_ivory_ball","ancient_jet_ball",
+  "ancient_leaden_ball","ancient_origin_ball","ancient_wing_ball","ancient_azure_ball",
+  "ancient_citrine_ball","ancient_roseate_ball","ancient_slate_ball","ancient_verdant_ball"];
+
+const canvas = document.getElementById('c');
+const W = 1024, H = 1024;
+const renderer = new THREE.WebGLRenderer({canvas, alpha: true, antialias: true, preserveDrawingBuffer: true});
+renderer.setClearColor(0x000000, 0);
+renderer.setSize(W, H, false);
+renderer.setPixelRatio(2);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.NeutralToneMapping;
+renderer.toneMappingExposure = 1.0;
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+const scene = new THREE.Scene();
+
+// PBR environment (gives Blockbench-like soft reflections on the glossy lid)
+const pmrem = new THREE.PMREMGenerator(renderer);
+const envTex = pmrem.fromScene(new RoomEnvironment(renderer), 0.04).texture;
+scene.environment = envTex;
+
+// Studio 3-point lighting
+const keyLight  = new THREE.DirectionalLight(0xffffff, 1.6);
+keyLight.position.set(8, 14, 10);
+keyLight.castShadow = true;
+keyLight.shadow.mapSize.set(2048, 2048);
+keyLight.shadow.camera.left = -12; keyLight.shadow.camera.right = 12;
+keyLight.shadow.camera.top  =  12; keyLight.shadow.camera.bottom = -12;
+keyLight.shadow.camera.near = 0.1; keyLight.shadow.camera.far = 60;
+keyLight.shadow.bias = -0.0002;
+keyLight.shadow.normalBias = 0.05;
+keyLight.shadow.radius = 6;
+scene.add(keyLight);
+
+const fillLight = new THREE.DirectionalLight(0xb6c8ff, 0.5);
+fillLight.position.set(-10, 4, -6);
+scene.add(fillLight);
+
+const rimLight  = new THREE.DirectionalLight(0xffe6c2, 0.8);
+rimLight.position.set(-4, 8, -10);
+scene.add(rimLight);
+
+const ambient = new THREE.AmbientLight(0xffffff, 0.18);
+scene.add(ambient);
+
+// Soft contact shadow plane (catches shadow underneath, invisible otherwise)
+const shadowPlane = new THREE.Mesh(
+  new THREE.PlaneGeometry(60, 60),
+  new THREE.ShadowMaterial({ opacity: 0.35 })
+);
+shadowPlane.rotation.x = -Math.PI/2;
+shadowPlane.position.y = -0.05;   // adjusted per model after bounds compute
+shadowPlane.receiveShadow = true;
+scene.add(shadowPlane);
+
+const camera = new THREE.OrthographicCamera(-1,1,1,-1,0.1,200);
+
+let currentRoot = null;
+let currentName = 'poke_ball';
+
+const texLoader = new THREE.TextureLoader();
+function loadTexture(url) {
+  return new Promise((res, rej) => texLoader.load(url, t => {
+    t.magFilter = THREE.NearestFilter;
+    t.minFilter = THREE.NearestFilter;
+    t.colorSpace = THREE.SRGBColorSpace;
+    t.generateMipmaps = false;
+    res(t);
+  }, undefined, rej));
+}
+
+/**
+ * Bedrock cube UV unwrap.
+ * Bedrock geo box UV (texture pixel coords, origin at uv = [u, v]):
+ *
+ *      +-----+-----+
+ *      | TOP | BOT |          (top: sx×sz; bottom: sx×sz, flipped V)
+ *  +---+-----+-----+----+
+ *  | E | N   | W   | S  |    (east=sz wide, north=sx wide, west=sz, south=sx;
+ *  |   |     |     |    |     all height = sy)
+ *  +---+-----+-----+----+
+ *
+ * three.js BoxGeometry face order: +X, -X, +Y, -Y, +Z, -Z
+ *   Bedrock east  -> +X
+ *   Bedrock west  -> -X
+ *   Bedrock top   -> +Y
+ *   Bedrock bot   -> -Y (V-flipped)
+ *   Bedrock south -> +Z (back)
+ *   Bedrock north -> -Z (front; player-facing)
+ *
+ * UV slot order per face: v0 TL, v1 TR, v2 BL, v3 BR.
+ */
+function applyBedrockUV(geom, sx, sy, sz, u, v, texW, texH, mirror=false) {
+  const rects = {
+    east:  [u,             v + sz,        sz, sy],
+    north: [u + sz,        v + sz,        sx, sy],
+    west:  [u + sz + sx,   v + sz,        sz, sy],
+    south: [u + 2*sz + sx, v + sz,        sx, sy],
+    top:   [u + sz,        v,             sx, sz],
+    bot:   [u + sz + sx,   v,             sx, sz],
+  };
+  const map = [rects.east, rects.west, rects.top, rects.bot, rects.south, rects.north];
+  const flipsV = {3:true};
+  const attr = geom.attributes.uv;
+  for (let face = 0; face < 6; face++) {
+    const [rx,ry,rw,rh] = map[face];
+    let pts;
+    if (flipsV[face]) {
+      pts = [[rx,ry+rh],[rx+rw,ry+rh],[rx,ry],[rx+rw,ry]];
+    } else {
+      pts = [[rx,ry],[rx+rw,ry],[rx,ry+rh],[rx+rw,ry+rh]];
+    }
+    for (let i=0;i<4;i++) {
+      const [px,py] = pts[i];
+      attr.setXY(face*4+i, px/texW, 1 - py/texH);
+    }
+  }
+  attr.needsUpdate = true;
+}
+
+function cubeMesh(cube, texW, texH, mat) {
+  const [ox,oy,oz] = cube.origin;
+  const [sx,sy,sz] = cube.size;
+  const [u,v]      = cube.uv;
+  const inflate    = cube.inflate || 0;
+
+  const g = new THREE.BoxGeometry(sx + 2*inflate, sy + 2*inflate, sz + 2*inflate);
+  applyBedrockUV(g, sx, sy, sz, u, v, texW, texH, cube.mirror);
+  const mesh = new THREE.Mesh(g, mat);
+  // Bedrock origin = corner of the cube (min-x, min-y, min-z).
+  // BoxGeometry is centered → shift by half size, then by -inflate effectively cancels.
+  mesh.position.set(ox + sx/2, oy + sy/2, oz + sz/2);
+
+  // Cube-level rotation around cube pivot (Bedrock spec)
+  if (cube.rotation && cube.pivot) {
+    const [rx,ry,rz] = cube.rotation;
+    const [px,py,pz] = cube.pivot;
+    const pivot = new THREE.Group();
+    pivot.position.set(px, py, pz);
+    mesh.position.sub(pivot.position);
+    pivot.add(mesh);
+    pivot.rotation.set(rx*Math.PI/180, ry*Math.PI/180, rz*Math.PI/180);
+    pivot.castShadow = pivot.receiveShadow = true;
+    return pivot;
+  }
+  mesh.castShadow = mesh.receiveShadow = true;
+  return mesh;
+}
+
+/**
+ * Build a Bedrock geometry honoring the bone hierarchy with proper Bedrock pivots.
+ * Bedrock bone "pivot" is in MODEL (world) space; we re-parent so each bone is a
+ * THREE.Group at its pivot, with child bones offsetting by (childPivot - parentPivot),
+ * and each cube is positioned in the bone's local frame using its corner origin.
+ */
+function buildBedrockModel(geo, texW, texH, materials) {
+  const bonesByName = {};
+  const root = new THREE.Group();
+  // First pass: create one Group per bone, anchored at bone.pivot in world space
+  for (const bone of geo.bones) {
+    const g = new THREE.Group();
+    g.userData.pivot = bone.pivot || [0,0,0];
+    g.userData.parent = bone.parent || null;
+    g.position.set(...g.userData.pivot);
+    if (bone.rotation) {
+      const [rx,ry,rz] = bone.rotation;
+      g.rotation.set(rx*Math.PI/180, ry*Math.PI/180, rz*Math.PI/180);
+    }
+    bonesByName[bone.name] = g;
+
+    // Add cubes — their origin is in world (model) space, convert to bone-local
+    for (const cube of (bone.cubes || [])) {
+      const localCube = {
+        ...cube,
+        origin: [
+          cube.origin[0] - g.userData.pivot[0],
+          cube.origin[1] - g.userData.pivot[1],
+          cube.origin[2] - g.userData.pivot[2],
+        ],
+      };
+      // Choose material: inflate>0 ⇒ outer shell (transparent layer)
+      const mat = (cube.inflate && cube.inflate > 0) ? materials.outer : materials.inner;
+      g.add(cubeMesh(localCube, texW, texH, mat));
+    }
+  }
+  // Second pass: parent groups according to bone tree
+  for (const name in bonesByName) {
+    const g = bonesByName[name];
+    const parentName = g.userData.parent;
+    if (parentName && bonesByName[parentName]) {
+      const parent = bonesByName[parentName];
+      // Child group is currently at world pivot; convert to parent-local
+      g.position.set(
+        g.userData.pivot[0] - parent.userData.pivot[0],
+        g.userData.pivot[1] - parent.userData.pivot[1],
+        g.userData.pivot[2] - parent.userData.pivot[2],
+      );
+      parent.add(g);
+    } else {
+      root.add(g);
+    }
+  }
+  return root;
+}
+
+async function loadBall(name) {
+  const isAncient = name.startsWith('ancient_');
+  const modelUrl  = isAncient
+    ? 'assets/balls/ancient_poke_ball.geo.json'
+    : 'assets/balls/poke_ball.geo.json';
+  const texUrl    = `assets/balls/${name}.png`;
+
+  const model = await (await fetch(modelUrl)).json();
+  const geo = model['minecraft:geometry'][0];
+  const desc = geo.description || {};
+  const texW = desc.texture_width  || 64;
+  const texH = desc.texture_height || 32;
+
+  const tex = await loadTexture(texUrl);
+  const glossOn = document.getElementById('gloss').checked;
+
+  // Inner: opaque shaded body
+  const innerMat = new THREE.MeshStandardMaterial({
+    map: tex,
+    transparent: true,
+    alphaTest: 0.5,
+    side: THREE.DoubleSide,
+    metalness: glossOn ? 0.15 : 0.0,
+    roughness: glossOn ? 0.38 : 0.85,
+    envMapIntensity: glossOn ? 0.85 : 0.0,
+  });
+  // Outer: thin glossy shell that gives Blockbench's "wet plastic" highlights;
+  // rendered slightly transparent so it doesn't z-fight the inner cube.
+  const outerMat = new THREE.MeshStandardMaterial({
+    map: tex,
+    transparent: true,
+    alphaTest: 0.5,
+    side: THREE.DoubleSide,
+    metalness: glossOn ? 0.25 : 0.0,
+    roughness: glossOn ? 0.28 : 0.8,
+    envMapIntensity: glossOn ? 1.1 : 0.0,
+    polygonOffset: true,
+    polygonOffsetFactor: -1,
+    polygonOffsetUnits: -1,
+  });
+
+  if (currentRoot) {
+    scene.remove(currentRoot);
+    currentRoot.traverse(o => {
+      if (o.geometry) o.geometry.dispose();
+      if (o.material) o.material.dispose();
+    });
+  }
+
+  const built = buildBedrockModel(geo, texW, texH, {inner: innerMat, outer: outerMat});
+
+  // Center & ground the model
+  const box = new THREE.Box3().setFromObject(built);
+  const center = box.getCenter(new THREE.Vector3());
+  const size = box.getSize(new THREE.Vector3());
+  built.position.x -= center.x;
+  built.position.z -= center.z;
+  built.position.y -= box.min.y;          // sit on the ground plane (y=0)
+
+  const stage = new THREE.Group();
+  stage.add(built);
+  scene.add(stage);
+  currentRoot = stage;
+
+  // Tune shadow plane height to sit just under model
+  shadowPlane.position.y = 0;
+
+  const maxDim = Math.max(size.x, size.y, size.z);
+  camera.userData.maxDim = maxDim;
+  camera.userData.modelHeight = size.y;
+
+  currentName = name;
+  document.getElementById('current').textContent = name;
+  render();
+}
+
+function render() {
+  const maxDim = camera.userData.maxDim || 20;
+  const zoom = parseFloat(document.getElementById('zoom').value);
+  const half = maxDim * 0.85 / zoom;
+  camera.left = -half; camera.right = half;
+  camera.top  =  half; camera.bottom = -half;
+  // 3/4 isometric-ish view, looking slightly down
+  const rotY = parseFloat(document.getElementById('rotY').value) * Math.PI/180;
+  const rotX = parseFloat(document.getElementById('rotX').value) * Math.PI/180;
+  if (currentRoot) {
+    currentRoot.rotation.y = rotY;
+    currentRoot.rotation.x = rotX;
+    // Keep the ball roughly centered in the camera frame even after rotation
+    currentRoot.position.y = -(camera.userData.modelHeight || 8) / 2;
+  }
+  camera.position.set(0, 0, 80);
+  camera.lookAt(0, 0, 0);
+  camera.updateProjectionMatrix();
+
+  shadowPlane.visible = document.getElementById('shadow').checked;
+  renderer.render(scene, camera);
+}
+
+['rotY','rotX','zoom','shadow','gloss'].forEach(id => {
+  const el = document.getElementById(id);
+  const evt = el.type === 'checkbox' ? 'change' : 'input';
+  el.addEventListener(evt, () => {
+    if (id === 'gloss') { loadBall(currentName); } else { render(); }
+  });
+});
+
+document.getElementById('dl').addEventListener('click', () => {
+  render();
+  const link = document.createElement('a');
+  link.download = `${currentName}_3d.png`;
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+});
+
+function makeGrid(list, container) {
+  list.forEach(name => {
+    const b = document.createElement('button');
+    const img = document.createElement('img');
+    img.src = `assets/balls/${name}.png`;
+    const lbl = document.createElement('span');
+    lbl.textContent = name.replace(/_/g,' ').replace('ancient ','a-');
+    b.appendChild(img); b.appendChild(lbl);
+    b.addEventListener('click', () => {
+      document.querySelectorAll('.ball-grid button').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      loadBall(name);
+    });
+    container.appendChild(b);
+  });
+}
+makeGrid(STANDARD, document.getElementById('grid-std'));
+makeGrid(ANCIENT,  document.getElementById('grid-ancient'));
+
+loadBall('poke_ball').then(() => {
+  document.querySelector('.ball-grid button').classList.add('active');
+});
+</script>
+</body>
+</html>

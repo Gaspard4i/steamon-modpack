@@ -1,0 +1,69 @@
+{
+  "name": "Gym Leader Tama",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:super_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "gliscor",
+      "nickname": "Valkyrie",
+      "gender": "MALE",
+      "level": 19,
+      "nature": "jolly",
+      "ability": "poisonheal",
+      "moveset": ["earthquake", "wingattack", "stoneedge", "swordsdance"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 92, "atk": 160, "spe": 252},
+      "heldItem": ["toxic_orb"]
+    },
+    {
+      "species": "corviknight",
+      "nickname": "Aether Wing",
+      "gender": "FEMALE",
+      "level": 19,
+      "nature": "impish",
+      "ability": "mirrorarmor",
+      "moveset": ["bravebird", "bodypress", "roost", "ironhead"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 100, "def": 156, "spd": 100},
+      "heldItem": ["leftovers"]
+    },
+    {
+      "species": "kilowattrel",
+      "nickname": "Stormcaller",
+      "gender": "MALE",
+      "level": 20,
+      "nature": "timid",
+      "ability": "windpower",
+      "moveset": ["hurricane", "voltswitch", "thunderbolt", "airslash"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 40, "spa": 216, "spe": 252},
+      "heldItem": ["magnet"]
+    },
+    {
+      "species": "altaria",
+      "nickname": "Silverwing",
+      "gender": "FEMALE",
+      "level": 21,
+      "shiny": true,
+      "nature": "adamant",
+      "ability": "naturalcure",
+      "moveset": ["dragondance", "outrage", "earthquake", "roost"],
+      "ivs": {"hp": 31, "atk": 31, "def": 31, "spa": 31, "spd": 31, "spe": 31},
+      "evs": {"hp": 60, "atk": 196, "spe": 252},
+      "heldItem": ["yache_berry"]
+    }
+  ]
+}

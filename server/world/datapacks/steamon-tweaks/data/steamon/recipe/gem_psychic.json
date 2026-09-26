@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ADA",
+    "DMD",
+    "ADA"
+  ],
+  "key": {
+    "A": { "item": "minecraft:amethyst_shard" },
+    "D": { "item": "minecraft:diamond" },
+    "M": { "item": "cobblemon:dawn_stone" }
+  },
+  "result": { "id": "cobblemon:psychic_gem", "count": 1 }
+}

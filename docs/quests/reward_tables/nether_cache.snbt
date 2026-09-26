@@ -1,0 +1,97 @@
+{
+	icon: {
+		id: "minecraft:netherite_scrap"
+	}
+	id: "409B21D25C01D8EB"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			count: 4
+			id: "5BD81D0668E6178D"
+			item: {
+				count: 1
+				id: "cobblemon:great_ball"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 2
+			id: "7B79F44D5DD8B2AC"
+			item: {
+				count: 1
+				id: "cobblemon:rare_candy"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 6
+			id: "2AD77644B0969FDE"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 3
+			id: "411BCC1A720DDEB3"
+			item: {
+				count: 1
+				id: "cobblemon:heavy_ball"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 4
+			id: "294007078BE36867"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "391AFD0F087E2CC3"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_l"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "785C82A569316422"
+			item: {
+				count: 1
+				id: "cobblemon:fire_stone"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "78D0E4E8687A2D2A"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "17A09979CF4E01D6"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "79305771BCC7314C"
+			item: {
+				count: 1
+				id: "cobblemon:beast_ball"
+			}
+			weight: 2.0f
+		}
+	]
+	use_title: true
+}

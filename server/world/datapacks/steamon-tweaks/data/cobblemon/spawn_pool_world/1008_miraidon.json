@@ -1,0 +1,47 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [
+  "aether"
+ ],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "aether_miraidon_1",
+   "pokemon": "miraidon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "context": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-100",
+   "weight": 2.0,
+   "condition": {
+    "biomes": [
+     "aether:skyroot_forest",
+     "aether:skyroot_grove"
+    ],
+    "dimensions": [
+     "aether:the_aether"
+    ]
+   }
+  },
+  {
+   "id": "miraidon-1T",
+   "pokemon": "miraidon",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "60-80",
+   "weight": 1.0,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_end"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "simpletms:tr_blank"
+  },
+  "transitional_item": {
+    "id": "simpletms:tm_blank"
+  },
+  "results": [
+    {
+      "id": "simpletms:tm_blank",
+      "count": 1
+    }
+  ],
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "simpletms:tr_blank"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tm_blank"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simpletms:tm_blank"
+        },
+        {
+          "item": "cobblemon:upgrade"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tm_blank"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simpletms:tm_blank"
+        },
+        {
+          "item": "minecraft:sculk"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tm_blank"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "simpletms:tm_blank"
+        },
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tm_blank"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "simpletms:tm_blank"
+        }
+      ],
+      "results": [
+        {
+          "id": "simpletms:tm_blank"
+        }
+      ]
+    }
+  ]
+}

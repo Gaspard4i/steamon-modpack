@@ -1,0 +1,50 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "create_klinks_n_klangs:blank_ball" },
+  "transitional_item": { "id": "create_klinks_n_klangs:blank_ball" },
+  "loops": 2,
+  "results": [
+    { "id": "cobblemon:cherish_ball" }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "create_klinks_n_klangs:blank_ball" },
+        { "item": "minecraft:netherite_ingot" }
+      ],
+      "results": [ { "id": "create_klinks_n_klangs:blank_ball" } ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "create_klinks_n_klangs:blank_ball" },
+        { "type": "fluid_stack", "amount": 250, "fluid": "create_klinks_n_klangs:red_paint" }
+      ],
+      "results": [ { "id": "create_klinks_n_klangs:blank_ball" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "create_klinks_n_klangs:blank_ball" },
+        { "item": "minecraft:netherite_ingot" }
+      ],
+      "results": [ { "id": "create_klinks_n_klangs:blank_ball" } ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "create_klinks_n_klangs:blank_ball" },
+        { "type": "fluid_stack", "amount": 250, "fluid": "create_klinks_n_klangs:white_paint" }
+      ],
+      "results": [ { "id": "create_klinks_n_klangs:blank_ball" } ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        { "item": "create_klinks_n_klangs:blank_ball" }
+      ],
+      "results": [ { "id": "create_klinks_n_klangs:blank_ball" } ]
+    }
+  ]
+}

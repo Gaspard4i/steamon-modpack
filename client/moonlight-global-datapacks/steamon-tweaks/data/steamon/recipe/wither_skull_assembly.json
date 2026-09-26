@@ -1,0 +1,30 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:skeleton_skull" },
+  "transitional_item": { "id": "minecraft:skeleton_skull" },
+  "loops": 10,
+  "results": [
+    { "id": "minecraft:wither_skeleton_skull", "chance": 80.0 },
+    { "id": "minecraft:blackstone", "chance": 15.0 },
+    { "id": "minecraft:charcoal", "chance": 4.0 },
+    { "id": "minecraft:soul_sand", "chance": 0.4 },
+    { "id": "minecraft:black_dye", "chance": 0.6 }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [ { "item": "minecraft:skeleton_skull" }, { "item": "minecraft:charcoal" } ],
+      "results": [ { "id": "minecraft:skeleton_skull" } ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [ { "item": "minecraft:skeleton_skull" }, { "item": "minecraft:soul_sand" } ],
+      "results": [ { "id": "minecraft:skeleton_skull" } ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [ { "item": "minecraft:skeleton_skull" }, { "type": "neoforge:single", "amount": 50, "fluid": "minecraft:lava" } ],
+      "results": [ { "id": "minecraft:skeleton_skull" } ]
+    }
+  ]
+}

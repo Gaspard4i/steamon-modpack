@@ -1,0 +1,32 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "zekrom-1",
+   "pokemon": "zekrom",
+   "presets": [
+    "natural",
+    "wild"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "70",
+   "weight": 0.25,
+   "weightMultiplier": {
+    "multiplier": 0.6,
+    "condition": {
+     "isThundering": true
+    }
+   },
+   "condition": {
+    "canSeeSky": true,
+    "biomes": [
+     "#cobblemon:is_mountain"
+    ]
+   }
+  }
+ ]
+}

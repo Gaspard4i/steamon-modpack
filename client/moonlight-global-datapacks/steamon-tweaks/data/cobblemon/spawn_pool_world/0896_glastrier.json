@@ -1,0 +1,24 @@
+{
+ "enabled": false,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+  {
+   "id": "glastrier-1",
+   "pokemon": "glastrier",
+   "presets": [
+    "natural"
+   ],
+   "type": "pokemon",
+   "spawnablePositionType": "grounded",
+   "bucket": "ultra-rare",
+   "level": "40-60",
+   "weight": 0.25,
+   "condition": {
+    "biomes": [
+     "#cobblemon:is_freezing"
+    ]
+   }
+  }
+ ]
+}

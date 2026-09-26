@@ -1,0 +1,30 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "cobblemon:big_root"
+    }
+  ],
+  "processing_time": 50,
+  "results": [
+    {
+      "id": "minecraft:hanging_roots",
+      "count": 1
+    },
+    {
+      "id": "minecraft:hanging_roots",
+      "count": 1,
+      "chance": 0.12
+    },
+    {
+      "id": "minecraft:hanging_roots",
+      "count": 1,
+      "chance": 0.08
+    },
+    {
+      "id": "minecraft:hanging_roots",
+      "count": 1,
+      "chance": 0.04
+    }
+  ]
+}

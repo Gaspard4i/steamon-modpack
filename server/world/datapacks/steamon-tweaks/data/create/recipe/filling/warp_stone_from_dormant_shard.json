@@ -1,0 +1,10 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "waystones:dormant_shard" },
+    { "type": "neoforge:single", "amount": 250, "fluid": "create_dragons_plus:dragon_breath" }
+  ],
+  "results": [
+    { "id": "waystones:warp_stone" }
+  ]
+}

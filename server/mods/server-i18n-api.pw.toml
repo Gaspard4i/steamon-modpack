@@ -1,0 +1,13 @@
+name = "Server I18n API"
+filename = "server_i18n_api-1.5.2-1.21.3-neoforge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Cl2eyShu/versions/DllhjKG5/server_i18n_api-1.5.2-1.21.3-neoforge.jar"
+hash-format = "sha512"
+hash = "54f94139c06e96fcd3ac811b4954b4778d5716fbbeba6ffa0480643be7bca491ed64c23457da3981839b1c79a71e741bfde612b56581abebcccb7a7fa5b36c18"
+
+[update]
+[update.modrinth]
+mod-id = "Cl2eyShu"
+version = "DllhjKG5"
