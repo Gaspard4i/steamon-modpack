@@ -689,11 +689,6 @@ hash = "ba0b3dd9c3c1089c7d22f7394c4d3b1de5d67dbccb2c2a2e6a264f2e20619684"
 metafile = true
 
 [[files]]
-file = "mods/create-ae2-recipes.pw.toml"
-hash = "73c8beb9401fdbee6be4a315fca914b1bb82c6c2e4036b79c459d717c6d71581"
-metafile = true
-
-[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "07c51c2d97b8a9dd5fefb51798923f5621d46f5db44b4d7327a567f945f375f0"
 metafile = true
