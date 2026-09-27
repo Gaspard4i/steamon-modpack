@@ -410,7 +410,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "f0430317c2b486e9266ab8977291cd07bd2436a320666c7262ad8e6357ddab76"
+hash = "93c413ff9f724a5e296b5fd628e652af46bef38bcc2d9f720546797c96700f52"
 metafile = true
 
 [[files]]
@@ -1250,7 +1250,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "5ab29abcbb24a265e77e8503ecf97561c3da9cca4ef859687d8da71bd98d747a"
+hash = "97660396e7f075f4c9ca8447878ec3da58ebea9ed464cdb494d4db1d62989936"
 metafile = true
 
 [[files]]
@@ -1480,7 +1480,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "64bf674962d3971424321f88a2973070885589f86d1bf5657de0052d1e514ad2"
+hash = "68ef590d29c127c6b38d81662edfa45a2e1339d38f60aee345e31164c7c10017"
 metafile = true
 
 [[files]]
