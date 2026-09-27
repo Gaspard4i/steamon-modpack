@@ -739,11 +739,6 @@ hash = "186fa0c6300e433f434ca1aedafd2be8c57c577644c17456e1ed434ed5f719dc"
 metafile = true
 
 [[files]]
-file = "mods/create-encased.pw.toml"
-hash = "5625c978cee5102013e027c07d7ba815c597799a14cc447dfff63104d76b74be"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantable-machinery.pw.toml"
 hash = "80ec2de705ca97354cc7ac76c314817cac3bdac16f5d78336536d8989f84fba4"
 metafile = true
@@ -2464,7 +2459,7 @@ hash = "a7dfa7acd1378abe6cfed911dbd6af48e8a66710809de3d6bb7493de2042c964"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_enchantment_industry/recipe/sequenced_assembly/brass_bookshelf.json"
-hash = "b1a7dba826ee2105e0fa7b8e4e00afb34bcf781f977951c2c88ebcd54cb14951"
+hash = "c1e800ee48ac008c39f51f36efe4fc0fe8b2e862285532c5fe1f5de44f610465"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_klinks_n_klangs/recipe/azure_ball_fill.json"
@@ -2797,10 +2792,6 @@ hash = "ebe66a666fa9e9aff0f4b881b529b28abc18cdcdb6d46f293c52e59d05d0efed"
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/create_ultimate_factory/recipe/haunting_witherrose.json"
 hash = "899e23384fb5bf5342dac6b83be1605a621dcc7055ee7c31bf70724f7924e634"
-
-[[files]]
-file = "moonlight-global-datapacks/steamon-tweaks/data/createcasing/recipe/sequenced_assembly/chorium_ingot.json"
-hash = "b1a7dba826ee2105e0fa7b8e4e00afb34bcf781f977951c2c88ebcd54cb14951"
 
 [[files]]
 file = "moonlight-global-datapacks/steamon-tweaks/data/createcobblestone/generator_types/asurine.json"
