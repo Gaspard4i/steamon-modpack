@@ -34,6 +34,30 @@
     "dimensionData": {
       "default": {
         "textOverride": "Trying to survive somewhere..."
+      },
+      "minecraft:overworld": {
+        "textOverride": "Exploring the Overworld",
+        "data": {
+          "largeImageKey": "https://github.com/Gaspard4i/steamon-modpack/releases/download/latest/steamon-logo.png",
+          "smallImageKey": "grass",
+          "smallImageText": "Overworld"
+        }
+      },
+      "minecraft:the_nether": {
+        "textOverride": "Braving the Nether",
+        "data": {
+          "largeImageKey": "https://github.com/Gaspard4i/steamon-modpack/releases/download/latest/steamon-logo.png",
+          "smallImageKey": "netherrack",
+          "smallImageText": "The Nether"
+        }
+      },
+      "minecraft:the_end": {
+        "textOverride": "Facing the End",
+        "data": {
+          "largeImageKey": "https://github.com/Gaspard4i/steamon-modpack/releases/download/latest/steamon-logo.png",
+          "smallImageKey": "end_stone",
+          "smallImageText": "The End"
+        }
       }
     }
   },
@@ -77,8 +101,8 @@
         "endTimestamp": "",
         "buttons": {
           "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
+            "label": "Steamon on Modrinth",
+            "url": "https://modrinth.com/modpack/steamon"
           }
         }
       },
@@ -200,8 +224,8 @@
       "endTimestamp": "",
       "buttons": {
         "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
+          "label": "Steamon on Modrinth",
+          "url": "https://modrinth.com/modpack/steamon"
         }
       }
     },
