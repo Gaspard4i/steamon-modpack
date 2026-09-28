@@ -293,10 +293,6 @@ file = "config/mythsandlegends/loot_tables_config.json"
 hash = "520bd88988fdaacd70de41dd6e83225beaf22e26741142b1d4a6813645ee160f"
 
 [[files]]
-file = "config/openpartiesandclaims-server.toml"
-hash = "f18715ac57bf6c9c9f6a373b17c8e124735031153307ed4727b8e9c7c929392f"
-
-[[files]]
 file = "config/rctmod-server.toml"
 hash = "1acb23280534def421d69c3da1c5e7b765ce2e1587ea1887b56c32f8c92aa802"
 
@@ -1193,26 +1189,6 @@ metafile = true
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
 hash = "1e62e195edc54282b6d6c14d70df92a2153f9b495870272f3fcd5de098a123b0"
-metafile = true
-
-[[files]]
-file = "mods/opac-bettercommands.pw.toml"
-hash = "53cc86efe461dcc455a3da72a95960efeae1155dcc1828888b758362fe6446fc"
-metafile = true
-
-[[files]]
-file = "mods/opac-bonus-claims.pw.toml"
-hash = "c2bf755e2ef0296588876c9ecee899e0230f1d0c600c8f7b93962fadbcadf185"
-metafile = true
-
-[[files]]
-file = "mods/opac-mute-claim-warnings.pw.toml"
-hash = "ac964c51e12802857ec91d81e09679a0ecfb8fa0e23a90e7515a37e21688fafe"
-metafile = true
-
-[[files]]
-file = "mods/open-parties-and-claims.pw.toml"
-hash = "5ab29abcbb24a265e77e8503ecf97561c3da9cca4ef859687d8da71bd98d747a"
 metafile = true
 
 [[files]]
