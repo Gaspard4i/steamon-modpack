@@ -122,7 +122,7 @@ hash = "d5b0c5e938c29b1915678df4f81f8d0c65c11aa757612027b70eee13c849934d"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "1809f6dd3a3bca4280e96afdefde1f4838b0d85a6b7f8c14c17dbbe128212315"
+hash = "a459cbeb1c5f428163b2ab9217534011019ffa19eeac972d3fd60702840abf97"
 
 [[files]]
 file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
@@ -507,11 +507,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "8899ca82344d473650c536b6f0fced43c3fa7f91d45c4f0b03240d2f3a1635ae"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-move-inspector.pw.toml"
-hash = "60c53690ccf6b6f99a89bb6194138b29ff4453c6d1a428972b8d382697217289"
 metafile = true
 
 [[files]]
@@ -1040,11 +1035,6 @@ hash = "8b7ef34c7f854a7232f3cf2de6758c4d83eca411bd26d0416ba8cee92e5f1900"
 metafile = true
 
 [[files]]
-file = "mods/more-cobblemon-tweaks.pw.toml"
-hash = "27b2dff5f26087fb6d2672449ffe67301b283df851db2247550d43ffbcba3d5c"
-metafile = true
-
-[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "8fb510d47dafc024cd08c0e80bfb59e192c354cb5db74c07dd146ee79fe8b885"
 metafile = true
@@ -1125,11 +1115,6 @@ hash = "26943af2fab4bde348a5c680796972672c2b2c717a42dbaa53d6a6ef6ae44738"
 metafile = true
 
 [[files]]
-file = "mods/pet-your-cobblemon.pw.toml"
-hash = "c12b0bae68dd43c904f33f53e14bfc02420689c3d3098099acf5b51012ad0037"
-metafile = true
-
-[[files]]
 file = "mods/polylib.pw.toml"
 hash = "bf13e18601f17a7520c0718eb6b8a951f87291c079a457cc1afbd67f42ddabab"
 metafile = true
@@ -1182,11 +1167,6 @@ metafile = true
 [[files]]
 file = "mods/reliquified-artifacts.pw.toml"
 hash = "9d237ba6802b662f712d357e47f8291e6b3a67ec505a5133be678b825eda96ca"
-metafile = true
-
-[[files]]
-file = "mods/resource-pack-overrides.pw.toml"
-hash = "16eaf5e109e6d3184769de4533c03190b91f9cab776b5e69348194dcc8aa982b"
 metafile = true
 
 [[files]]

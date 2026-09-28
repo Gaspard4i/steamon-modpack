@@ -1143,11 +1143,6 @@ hash = "26943af2fab4bde348a5c680796972672c2b2c717a42dbaa53d6a6ef6ae44738"
 metafile = true
 
 [[files]]
-file = "mods/pet-your-cobblemon.pw.toml"
-hash = "c12b0bae68dd43c904f33f53e14bfc02420689c3d3098099acf5b51012ad0037"
-metafile = true
-
-[[files]]
 file = "mods/polylib.pw.toml"
 hash = "bf13e18601f17a7520c0718eb6b8a951f87291c079a457cc1afbd67f42ddabab"
 metafile = true
