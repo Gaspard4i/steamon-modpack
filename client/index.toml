@@ -26,7 +26,7 @@ hash = "459679c29149e80dbf5113002b4a506c67083a4167468a7231115e86b9605ba0"
 
 [[files]]
 file = "config/craftpresence/config.json"
-hash = "3bb07a3e9349f328ca38f64094b3e113101df38ff26dda1bfc015f54e0b0a332"
+hash = "61ec379f4bff38395504fa90205887540c476dc363678f4844315ab469c8a530"
 
 [[files]]
 file = "config/create-server.toml"
@@ -1445,11 +1445,6 @@ hash = "b087077de8316a564af57320e670e34cc7178b4f20d45eae5ea3d01604e7ce82"
 metafile = true
 
 [[files]]
-file = "resourcepacks/fully-hisuian-starters.pw.toml"
-hash = "4979041f1faac00b2ccf898d49cefc83dda21424031e5de71ee35f80ad9ff84a"
-metafile = true
-
-[[files]]
 file = "resourcepacks/low-on-fire.pw.toml"
 hash = "2719f3295f17a4669fc278e130642ddd3292bcc191f565fa54b2162cc9c3c024"
 metafile = true
@@ -1475,72 +1470,22 @@ hash = "8a2fb8e45e4c243b2087658f5256fac5afbf3fe48664996974b000abd8f98789"
 metafile = true
 
 [[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_champion_gazai.png"
-hash = "dab3b2d27799db78f0775da2f32eef8a635dcf119e9b3c91b6054fc297632243"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_e4_1_pai.png"
-hash = "046d39b2f9b0b7f98b3fba8d409e8286629d54e3d4614b3762c20fb5844dc623"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_e4_2_gaz.png"
-hash = "dc69bff848f795768ece5a3f4287bbadbda325c57de11d37a9a64add458059a3"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_e4_3_tama.png"
-hash = "3577b1fbb9830c5679ed6d84342a0726ac0f45555657ae79ccbc445f0b81e94b"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_e4_4_bee.png"
-hash = "38b9b1686e9fcb6db87ab4dc98df0a7578ecf3ada7bd84d2cba7ff44c3f63874"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym1_gaz.png"
-hash = "dc69bff848f795768ece5a3f4287bbadbda325c57de11d37a9a64add458059a3"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym2_tama.png"
-hash = "3577b1fbb9830c5679ed6d84342a0726ac0f45555657ae79ccbc445f0b81e94b"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym3_miguel.png"
-hash = "17f5cc9a3f02b5ab9ff53b02e968fa15f9bfd10388c9835d4c4bc9a300c1d1bc"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym4_tee.png"
-hash = "59e1e2b82bd30dc2fbbcb0c3dfef36fae54d96c146eba22ea264eb32b5da8002"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym5_tom.png"
-hash = "0950eaea1bc1036b4c20b662caa1d0bcf651bf59afc124af36f1553c280673f2"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym6_drhuman.png"
-hash = "5644e65ad20fa1383c0ac42181d72a977d119a84265a2b3e6e92a7dff49eb91a"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym7_blade.png"
-hash = "a3a4d87e696a0ef38e24370e403323a8902f4d2b33cd5c09e76fa82ce76a3fba"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/assets/rctmod/textures/trainers/single/steamon_gym8_hex.png"
-hash = "88f57ce49c28725e9fbbe1c25ebf0a5aa6ac4bc4b560980d36cbbc4eb7cf4b9a"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/pack.mcmeta"
-hash = "aaa1c07a03395bc97815737b57380c22d2c51dc00e7a11958d258fbe7de1409d"
-
-[[files]]
-file = "resourcepacks/steamon-trainers/pack.png"
-hash = "dab3b2d27799db78f0775da2f32eef8a635dcf119e9b3c91b6054fc297632243"
-
-[[files]]
 file = "servers.dat"
 hash = "cfeba518b605c66ae6104378ad383879fedb30dcabb935c7968fd6a58d0ca02b"
 
 [[files]]
+file = "shaderpacks/bliss-shader.pw.toml"
+hash = "f25a34e083b05071711bb97464a0bd6c2f5fc6e4c0bc650ee2d133508c21a868"
+metafile = true
+
+[[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "7801eaf07dee51314cdd4461d4aeaa671961cd5acc40df579805e22a535527a0"
 metafile = true
 
 [[files]]
