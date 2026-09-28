@@ -1,4 +1,4 @@
-resourcePacks:["vanilla","file/ATM x MSD [v3.6.1].zip","file/Low Shield.zip","file/LowOnFire v26.2§8.zip","file/Simple Grass Flowers v1.9.6.zip","file/Comforts Modernized - V1.1.zip","file/CreateSophBackpacks.zip","file/Fully Hisuian Starters 1.1.1.zip","file/Emissive-Cobblemon-Ores-1.7.zip","file/E19 Cobblemon Minimap Icons.zip","file/RCT Trainers+ [1.6] v2.1.zip","file/fresh_waystones.zip","mod_resources","file/FreshAnimations_v1.10.4.zip","file/RCT Trainer Animation_0.2.1beta.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Gazai-Utility-RP-1.0.1.zip","file/steamon-trainers"]
+resourcePacks:["vanilla","file/Low Shield.zip","file/LowOnFire v26.2§8.zip","file/Simple Grass Flowers v2.0.0.zip","file/Comforts Modernized - V1.1.zip","file/CreateSophBackpacks.zip","file/Emissive-Cobblemon-Ores-1.7.zip","file/E19 Cobblemon Minimap Icons.zip","mod_resources","file/RCT Trainers+ [1.7] v2.2.zip","file/Create-Energistics-1.1.2-mc1.20.4.zip","file/Gazai-Utility-RP-1.0.1.zip"]
 incompatibleResourcePacks:[]
 biomeBlendRadius:1
 enableVsync:true
@@ -12,14 +12,14 @@ glintStrength:0.75
 prioritizeChunkUpdates:0
 fullscreen:false
 gamma:0.5
-graphicsMode:1
+graphicsMode:0
 guiScale:0
-maxFps:120
-mipmapLevels:4
-particles:0
-renderClouds:"true"
-renderDistance:10
-simulationDistance:10
+maxFps:60
+mipmapLevels:2
+particles:1
+renderClouds:"fast"
+renderDistance:8
+simulationDistance:6
 screenEffectScale:1.0
 showSubtitles:false
 directionalAudio:false
