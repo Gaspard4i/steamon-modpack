@@ -245,10 +245,6 @@ file = "config/mythsandlegends/loot_tables_config.json"
 hash = "520bd88988fdaacd70de41dd6e83225beaf22e26741142b1d4a6813645ee160f"
 
 [[files]]
-file = "config/openpartiesandclaims-server.toml"
-hash = "8849f1bcc0e7f8a818a742db10d52a194f980504b9ff1f2c1be842bd71ee2cef"
-
-[[files]]
 file = "config/rctmod-server.toml"
 hash = "1acb23280534def421d69c3da1c5e7b765ce2e1587ea1887b56c32f8c92aa802"
 
@@ -1129,11 +1125,6 @@ metafile = true
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
 hash = "79a1cc40f0cec6f9c6c4e0d3874c428d5f4733340f859454964055d6a1ffbeb6"
-metafile = true
-
-[[files]]
-file = "mods/open-parties-and-claims.pw.toml"
-hash = "97660396e7f075f4c9ca8447878ec3da58ebea9ed464cdb494d4db1d62989936"
 metafile = true
 
 [[files]]
