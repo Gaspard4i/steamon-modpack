@@ -1,9 +1,0 @@
-{
-  "type": "create:haunting",
-  "ingredients": [
-    { "tag": "minecraft:flowers" }
-  ],
-  "results": [
-    { "id": "supplementaries:ash" }
-  ]
-}

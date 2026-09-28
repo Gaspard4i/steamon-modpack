@@ -1,8 +1,0 @@
-{
-  "type": "create:deploying",
-  "ingredients": [
-    { "tag": "cobblemon:evolution_stones" },
-    { "item": "minecraft:nether_star" }
-  ],
-  "results": [ { "id": "mega_showdown:keystone" } ]
-}
