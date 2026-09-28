@@ -827,11 +827,6 @@ hash = "899ec168dbe01dc0dd76a7b29b723a4146c4e6ef1f4a424c1f72e67f9c24044b"
 metafile = true
 
 [[files]]
-file = "mods/create-stam1o-tweaks.pw.toml"
-hash = "7ebc8919803dc7493f413fabd8c7c3c51a9667b8f3e96d2386d676b303ba9b43"
-metafile = true
-
-[[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
 hash = "7bbffc2ec75a5e83fab07fa97d9bf444b66e8ebd117905376d6714936864a745"
 metafile = true

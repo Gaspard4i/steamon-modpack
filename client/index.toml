@@ -354,7 +354,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "93c413ff9f724a5e296b5fd628e652af46bef38bcc2d9f720546797c96700f52"
+hash = "61e2a637e16ff4acff9090dd5a9fc08605160d516681e4cc975e2a82d574d04c"
 metafile = true
 
 [[files]]
@@ -498,6 +498,11 @@ hash = "377225e34507e08f7d72d8332046c49e4d3e0cd5afcd0e955791cfa6fc8b1e43"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-gym-badges.pw.toml"
+hash = "013db811aef937ee89e96425310a8ea8891f56449459686d3adc9f56565199d7"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-integrations.pw.toml"
 hash = "4292981dcb11765c2f82e23b5151ba22425a49774e6ea2ed55cddc207180c804"
 metafile = true
@@ -559,7 +564,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobbreeding.pw.toml"
-hash = "245af393a759166ebb4888550e307abcb27af8ae3772136eed6945116fdd18c1"
+hash = "22a8bf711b8c527176cfa5a72c487cc5d66ea6758cdeb2140bc4dac2a10e81b7"
 metafile = true
 
 [[files]]
@@ -684,7 +689,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "9632e3a695f69473d879e285e46007fd5037cb5abc8db02a8bec79689864d0fc"
+hash = "629579a4fc7337b0af06d36aba8352e3cbe602a8b8fe25682191767b698db0d6"
 metafile = true
 
 [[files]]
@@ -713,13 +718,8 @@ hash = "899ec168dbe01dc0dd76a7b29b723a4146c4e6ef1f4a424c1f72e67f9c24044b"
 metafile = true
 
 [[files]]
-file = "mods/create-stam1o-tweaks.pw.toml"
-hash = "7ebc8919803dc7493f413fabd8c7c3c51a9667b8f3e96d2386d676b303ba9b43"
-metafile = true
-
-[[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
-hash = "84cff9a09538552608e32a14b4f7f37d5ac0f4cface3953e68c3af5104217554"
+hash = "2afa74f309adf038cf0a94a0565f00f4638e8f0bf12f54aa778a094bae870523"
 metafile = true
 
 [[files]]
@@ -795,11 +795,6 @@ metafile = true
 [[files]]
 file = "mods/display-delight.pw.toml"
 hash = "623acd46f5b03a564c296ed0d1d41f0d8ff5128671b24246ac6d1df65ec322cd"
-metafile = true
-
-[[files]]
-file = "mods/distant-horizons.pw.toml"
-hash = "b5098f56fc1ebccf1aa87a2fa7f3acc8927fe608bb49511b8801b83a5f4df873"
 metafile = true
 
 [[files]]
@@ -919,7 +914,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "f7448243d61c3e7c5941896816afb91dd069cef492a2d93ceba9f48e391cdf44"
+hash = "2257d351e7fdebe96864f40a547fca980c04771f02a77f4215fdfa434e8f0d7a"
 metafile = true
 
 [[files]]
@@ -1054,7 +1049,7 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "b4aadee6a498d997166026294dcb23713744321b4a008f0d106303394bac4edd"
+hash = "a51dbe772bc31a25d5ada19a1a195103f5d5a268546c167042121fffd80e531f"
 metafile = true
 
 [[files]]
@@ -1259,7 +1254,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "8eae737eb20a0488e9b57b6a59f0681d142732bcb22fc896ad4e5ff924ec5683"
+hash = "80487ebc26dcb0af9013a11c76b7fed9a019e7770ebaf7d82cfaffc2192b950d"
 metafile = true
 
 [[files]]
@@ -1294,7 +1289,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3eb86ece9a58af9bdac221c4ddfd1b49cdfc0b42bf73cb3f953bc509d9a5c305"
+hash = "13044de5eb1a495a255bc70133d4b328ecf1c7472fa1650f9e9739db756d746c"
 metafile = true
 
 [[files]]
@@ -1473,11 +1468,6 @@ hash = "0de22f9bdf1c0337fb78d107b5e28ef7c0fd0de2feb7ba6c9b54a65a30343863"
 metafile = true
 
 [[files]]
-file = "resourcepacks/allthemons-x-mega-showdown.pw.toml"
-hash = "c0648dcd6fba5ee70466d002a0e09ddd6465ac99e86d549ec1210acfdcde9139"
-metafile = true
-
-[[files]]
 file = "resourcepacks/cobblemon-emissive-ores.pw.toml"
 hash = "e9b3587ff7c5935629c28e060dbd6011a59415ff95b22273916cc97ba7819faf"
 metafile = true
@@ -1499,17 +1489,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
-hash = "b9e3e4f471adadc17e4fc999b3acd85cdf28be996426faf3a94c44764395f877"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations.pw.toml"
-hash = "4e608c267b339354f8b17e0ee3425f4ac252273c44eb2c49809895f9f84569af"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-waystones-texture.pw.toml"
-hash = "c0752457e5e5c1d8fd8eee2759c2806e76f1a571eb502bc0b48a6257bb04fd7e"
+hash = "b087077de8316a564af57320e670e34cc7178b4f20d45eae5ea3d01604e7ce82"
 metafile = true
 
 [[files]]
@@ -1528,18 +1508,13 @@ hash = "d8d968dba016f521963e75927315be23a41d2a5679ba1f8d4784281c6659b819"
 metafile = true
 
 [[files]]
-file = "resourcepacks/rct-trainer-animation.pw.toml"
-hash = "52ee9cfcfea2b3b5d88458c8f13e86dd5f2fdeda733bb844ae13211add047063"
-metafile = true
-
-[[files]]
 file = "resourcepacks/rct-trainer-textures-plus.pw.toml"
-hash = "e494c900c419b0bf927e55e32abfa9526e8816c9c61107243bee74e6671b25e2"
+hash = "8bd76c90d8c9b4d21e94bdb99ceee8e14d9a523b8e6cccf4ed64eaccdccc7852"
 metafile = true
 
 [[files]]
 file = "resourcepacks/simple-grass-flowers.pw.toml"
-hash = "da8ed0ab9c9dae90ab61447aac7775281acf347045145a5808e4c6216a24a0e4"
+hash = "6576e0f2a199e626872973b61fa925d6055c90442901e88e705815d1ef48888d"
 metafile = true
 
 [[files]]
@@ -1608,25 +1583,20 @@ file = "resourcepacks/steamon-trainers/pack.png"
 hash = "dab3b2d27799db78f0775da2f32eef8a635dcf119e9b3c91b6054fc297632243"
 
 [[files]]
-file = "resourcepacks/tras-fresh-player.pw.toml"
-hash = "1c1b9089b2e10da7c5ed36966d47a114d1a429eb9760c0d59c4eb79585d6957a"
-metafile = true
-
-[[files]]
 file = "servers.dat"
 hash = "cfeba518b605c66ae6104378ad383879fedb30dcabb935c7968fd6a58d0ca02b"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "aa5ddda0906fe9ecc0a67c07f29827b4905d652c9b2ad2c5e1e5143966ce8f7f"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
 metafile = true
 
 [[files]]
 file = "world/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
-hash = "a585a53500ec575caab096f3e80cf5e8391dbf65983765c0290203753abe77e8"
+hash = "12dd7db62356a0b9cf97a7d6303005439bc571de723e7f605ed82b1ca3b44a43"
 metafile = true
 
 [[files]]
 file = "world/datapacks/no-creeper-grief.pw.toml"
-hash = "c637b141e741a0cdf65b1d87e1416e816a501ae749703d9b387dc6d59746edcf"
+hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
 metafile = true
