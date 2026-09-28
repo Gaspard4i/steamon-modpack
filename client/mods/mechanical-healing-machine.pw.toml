@@ -1,0 +1,13 @@
+name = "Mechanical Healing Machine"
+filename = "cobblemonmechanicalhealingmachine-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f8dd9380035183b8b7c119e4fd5f4796eb85ecbe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7462649
+project-id = 1364314

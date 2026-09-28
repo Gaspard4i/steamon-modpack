@@ -1,0 +1,13 @@
+name = "Dynamic Surroundings"
+filename = "dynamicsurroundings-neoforge-1.21.1-0.4.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/H7fshfpD/versions/IzWXE0ve/dynamicsurroundings-neoforge-1.21.1-0.4.5.jar"
+hash-format = "sha512"
+hash = "d7035330056c402d7a3310d676092ee93ab5fffd9278a8347752dd232f9589ab7d77d0b3fcc7bd1047f015b372cb8e280ae6ed4cb6455684653c591df2ea90e7"
+
+[update]
+[update.modrinth]
+mod-id = "H7fshfpD"
+version = "IzWXE0ve"

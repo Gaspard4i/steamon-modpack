@@ -45,10 +45,6 @@ file = "config/createcobblestone-common.toml"
 hash = "81dc78a886935bea90ffe734e36072fac536d4157610a7486c79471290900a09"
 
 [[files]]
-file = "config/createnuclear-common.toml"
-hash = "6bea31e9e6a252960b0e1a5b63372183bd870101e69f644fc62c34e9643025ef"
-
-[[files]]
 file = "config/defaultoptions/extra/config/iris.properties"
 hash = "eaa6e8f94580abeb975b7f9f397fb301774046595c4627446ab930d769d70bbd"
 
@@ -253,10 +249,6 @@ file = "config/relics.yaml"
 hash = "e8484e4ae68716569c8428d82325c08f87a2e0daff38def75af8d3585cf61ad3"
 
 [[files]]
-file = "config/resourcepackoverrides.json"
-hash = "cbc875bae08de40281ab899f182575c0fa36e871ae788c30546f98e2bd0d252c"
-
-[[files]]
 file = "config/simplebackups-common.toml"
 hash = "6c37368cdba3b5297d8315f7d894b60a49b8569b638924b124fe9062f622b2bf"
 
@@ -393,11 +385,6 @@ hash = "eac563e7cbcc0d796bb4d58cb588400b4b7b7bdb906ea63ce62d8a32475ea96c"
 metafile = true
 
 [[files]]
-file = "mods/berryharvester.pw.toml"
-hash = "49ddca2dc50f9168d01214efae597873df40b099c3e692efc5730594cee1eb96"
-metafile = true
-
-[[files]]
 file = "mods/better-third-person.pw.toml"
 hash = "9716d15e12bf3d030d9655176cc66f8a336560e3f445bc0f4825d70dc4ef6247"
 metafile = true
@@ -430,6 +417,11 @@ metafile = true
 [[files]]
 file = "mods/catch-indicator.pw.toml"
 hash = "80ca6afd6151213e74b66469c2203b17c86ff7535c2dd6d1db6ef24ad651fecc"
+metafile = true
+
+[[files]]
+file = "mods/chalk-mod.pw.toml"
+hash = "c6b9662ee5f41840989a380ec14b648ec0c1cc138d1d035cef42a9f65d6b886f"
 metafile = true
 
 [[files]]
@@ -588,11 +580,6 @@ hash = "6fd14a97896203dbb0588f23908fe6f43a09cc82eb6837cbb09d01c95a800b8f"
 metafile = true
 
 [[files]]
-file = "mods/construction-sticks.pw.toml"
-hash = "c2c3186ebff966b0d0530eae388b560cc707a721312782023694571522b53409"
-metafile = true
-
-[[files]]
 file = "mods/controlling.pw.toml"
 hash = "c2a2f47ca44ea2a835e4864e03ea25fd3f78b6c85f3c2608bbf6cf0fe3bcf8e5"
 metafile = true
@@ -630,11 +617,6 @@ metafile = true
 [[files]]
 file = "mods/craterlib.pw.toml"
 hash = "057eab613de3ae7c8c634c69377fa2edd2a5437afa22c82d37dc807404ad40f1"
-metafile = true
-
-[[files]]
-file = "mods/crawl.pw.toml"
-hash = "ba0b3dd9c3c1089c7d22f7394c4d3b1de5d67dbccb2c2a2e6a264f2e20619684"
 metafile = true
 
 [[files]]
@@ -713,11 +695,6 @@ hash = "b6f1451235d7ff58eb5cb2ab3bac92ab46aca6971c0cf7937175985d7db6c95f"
 metafile = true
 
 [[files]]
-file = "mods/create-ochrum-recipe.pw.toml"
-hash = "899ec168dbe01dc0dd76a7b29b723a4146c4e6ef1f4a424c1f72e67f9c24044b"
-metafile = true
-
-[[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
 hash = "2afa74f309adf038cf0a94a0565f00f4638e8f0bf12f54aa778a094bae870523"
 metafile = true
@@ -733,23 +710,13 @@ hash = "54a158a86a3087a85b4f000fe16ecd91b891cf031ec6629abe9f19dd986840c6"
 metafile = true
 
 [[files]]
-file = "mods/create-vibrant-vaults.pw.toml"
-hash = "892419b50c5a2d33ab0d712c27640816e8566cd699a12667785092eed2ed0c46"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
-hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+hash = "e66c8649557c5df5d660e64b635576f8aa836c05b14e915b8f4ae119c704d7bf"
 metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "9913aa296e079ffcb8bb549a72fb7eb2139093eee86475b2febfdc03b464ff6a"
-metafile = true
-
-[[files]]
-file = "mods/createnuclear.pw.toml"
-hash = "b0d7141c5989f89845d00abed4cb5b94887be4fe92a934a92913922c4e321f7f"
 metafile = true
 
 [[files]]
@@ -793,6 +760,11 @@ hash = "936e93e9bf242e86dc925ff83188e08ac9dd2c4713fbe22dea9927f541541e47"
 metafile = true
 
 [[files]]
+file = "mods/dense-ores.pw.toml"
+hash = "c5160490ef9a20a1c72cb77b9e6d5020ed8ad6f4e85baa68d3901e9522e0c426"
+metafile = true
+
+[[files]]
 file = "mods/display-delight.pw.toml"
 hash = "623acd46f5b03a564c296ed0d1d41f0d8ff5128671b24246ac6d1df65ec322cd"
 metafile = true
@@ -805,6 +777,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "5d441990462eb4fca864636bb4a422439d8328b29a0c752bf54f62782498d689"
+metafile = true
+
+[[files]]
+file = "mods/dynamicsurroundingsfabric.pw.toml"
+hash = "6a2415cdf50d7d5ac209401fd42de3bfbf4a1326dd03436a61580d20915248b1"
 metafile = true
 
 [[files]]
@@ -1013,13 +990,13 @@ hash = "0d3683a8c533e1fb67bf0b1668089a322fc5f594f9610d441657378ab4f64383"
 metafile = true
 
 [[files]]
-file = "mods/lootrmon.pw.toml"
-hash = "fe552b2ecb29d7cf215488a7506c2a0c3e1ed554658eaf758ccd3965143e7dfd"
+file = "mods/magnum-torch.pw.toml"
+hash = "5eae36911d61013013f42e46de366ba999c729b9f6624a52fdc335c14e409e1a"
 metafile = true
 
 [[files]]
-file = "mods/magnum-torch.pw.toml"
-hash = "5eae36911d61013013f42e46de366ba999c729b9f6624a52fdc335c14e409e1a"
+file = "mods/mechanical-healing-machine.pw.toml"
+hash = "18247eba3589aa0b10402f8bed37b607f69b9fbf3b5823f94bbe255cec594067"
 metafile = true
 
 [[files]]
@@ -1123,6 +1100,11 @@ hash = "79a1cc40f0cec6f9c6c4e0d3874c428d5f4733340f859454964055d6a1ffbeb6"
 metafile = true
 
 [[files]]
+file = "mods/only-hammers-and-excavators.pw.toml"
+hash = "55cc6f2302ee40a698814b2d322a2ad1b8496f24ed304a837f42c67f8eb6d029"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "089eb79244d52a34771cf2ee53ecbd99b553569b26623b464679b67a7653f071"
 metafile = true
@@ -1218,18 +1200,8 @@ hash = "c1c0115c6c624471c08f94ca065bd6876505591df7eabde099a4868cf6397a13"
 metafile = true
 
 [[files]]
-file = "mods/retraining.pw.toml"
-hash = "c7c9d1e9cbaded82e42d8093a068824fa340012b97b6120c4ce8a48859a0164a"
-metafile = true
-
-[[files]]
 file = "mods/rhino.pw.toml"
 hash = "c34d6e1f4e846e64cc52ac2667b0d07d85c73bf3c671435a7d30156329e75d22"
-metafile = true
-
-[[files]]
-file = "mods/runelic.pw.toml"
-hash = "4e9366630bfb6c51da9bc2e6c8802d5da9cc6631ae5ae7498a9ac45d70efc6fa"
 metafile = true
 
 [[files]]
@@ -1255,11 +1227,6 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "80487ebc26dcb0af9013a11c76b7fed9a019e7770ebaf7d82cfaffc2192b950d"
-metafile = true
-
-[[files]]
-file = "mods/simpletms-tms-and-trs-for-cobblemon.pw.toml"
-hash = "7f583e3f967bcb361445a257487550ec62d81e0af491b6cf3fc4f3bfc0bd21b2"
 metafile = true
 
 [[files]]
@@ -1383,11 +1350,6 @@ hash = "3fccf4472b525c3dad0d6611c891086f133a6fefc1d43c3ade0dedb13faac587"
 metafile = true
 
 [[files]]
-file = "mods/travelers-titles.pw.toml"
-hash = "16299de8455646c01d73cd051beef43d16e17fa63593ce918fff8bc7c3f649ba"
-metafile = true
-
-[[files]]
 file = "mods/txnilib.pw.toml"
 hash = "4b43714366871c3b822e8b708c9887edf0e0bf390d7a1ae3650a6936c2e3746b"
 metafile = true
@@ -1408,11 +1370,6 @@ hash = "e8d29b6ef12024a33d601f396d51aecb0e2362129199cf9bf8466d5124757d45"
 metafile = true
 
 [[files]]
-file = "mods/waystones-teleport-pets.pw.toml"
-hash = "4bb895eaddb5a4f2d81efea4a4ce1ff57b0836d206c7bd4579bee45299b1eb8a"
-metafile = true
-
-[[files]]
 file = "mods/waystones.pw.toml"
 hash = "2dad5577c5ec5e73bb3d5cec8da606e3b72e384207c9291a25e1ae96fd20bb70"
 metafile = true
@@ -1420,11 +1377,6 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "746b5a692997b6b51651e364fb11c546c2aed181e6fcf98ab4c8f709e04509f3"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-minimap-world-map-waystones-compatibility-forge.pw.toml"
-hash = "8a506711655ff223d6e1cc0079ee1a7dfa84067d6eca64e91d25e20794b62af8"
 metafile = true
 
 [[files]]
