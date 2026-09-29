@@ -624,11 +624,6 @@ hash = "95da3df4218f19744fc21cfd8471a4289a640e19463688abcbd10b1632b4a272"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-unchained.pw.toml"
-hash = "02abffe0573f313139ecb089e243fc2c2c1cb39008a382192bd16809c8ab36d1"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-utility-ivs-evs-more-no-recipes.pw.toml"
 hash = "e33cecf01d68755bee0476f63fc4796c0881ee35a8aad05be61452c01a2d1689"
 metafile = true
