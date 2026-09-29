@@ -846,7 +846,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftbchecker.pw.toml"
-hash = "ece75f8805da9873d99e2ee12686452c983cffe7ad53d5c93077a1b2af995af5"
+hash = "bb3b4b45ad44ad51cacc1ccda0509ab01a9101ac5bea145eab01a08308798ff5"
 metafile = true
 
 [[files]]
