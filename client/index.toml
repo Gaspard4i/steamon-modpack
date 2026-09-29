@@ -991,7 +991,7 @@ metafile = true
 
 [[files]]
 file = "mods/mechanical-healing-machine.pw.toml"
-hash = "18247eba3589aa0b10402f8bed37b607f69b9fbf3b5823f94bbe255cec594067"
+hash = "e558a9cca5464309a202c219e34b2ef491da4eb685b71da166f0bb2f6a19fbef"
 metafile = true
 
 [[files]]
