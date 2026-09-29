@@ -604,11 +604,6 @@ hash = "40ddef82cf47b2f8546ef4bec1d9c703c505c1f2c777b5133d2ba4be882af9ab"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-quest-reloaded.pw.toml"
-hash = "7badc8d3287c39442c7e73ebb0c040bd7d5f499744fd65b3f0632733fcdb9d90"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-release-rewards.pw.toml"
 hash = "42743647ad845a7c068fa3734f6ca220829abefe1d094486ec58c8086a575e39"
 metafile = true
