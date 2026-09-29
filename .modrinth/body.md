@@ -10,11 +10,17 @@
 
 ---
 
+<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball01.png" alt="Poké Ball" width="72" />
+
 ### About this modpack
 
 Steamon is a cozy **Create** x **Cobblemon** pack, built for calm, unhurried play.
 
 Catch and raise Pokémon, keep a small farm, cook real food, lay down some rails, and wander a bigger overworld. Nothing rushes you. Play solo for a long quiet run, or bring friends along.
+
+<br clear="all" />
+
+<img align="left" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball04.png" alt="Ultra Ball" width="72" />
 
 ### Some of what's inside
 
@@ -33,11 +39,17 @@ Over 200 mods. A few that set the tone:
 
 The rest fills in the cozy details: more food, furniture, decoration, quality of life and performance. The full list lives in each version's file metadata.
 
+<br clear="all" />
+
+<img align="right" src="https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/main/.modrinth/deco/ball10.png" alt="Ancient Roseate Ball" width="72" />
+
 ### Source and contributions
 
 I work on this alone, in my free time, with no sponsors. That's normal for a project like this. If you have an idea or find something broken, drop an issue on the GitHub repo and I'll get to it when I can.
 
 Every mod, resource pack and shader here is the work of its own author. Please support them on their Modrinth pages too.
+
+<br clear="all" />
 
 ---
 
