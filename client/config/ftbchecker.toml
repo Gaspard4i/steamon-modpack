@@ -13,8 +13,10 @@ chunks = false
 base = false
 quests = false
 teams = false
+essentials = false
 ultimine = false
 backups = false
+polyLib = false
 
 # Direct file links pinned to the exact compatible versions (MC 1.21.1 NeoForge).
 # Format: "modId|Display Name|Download URL".
