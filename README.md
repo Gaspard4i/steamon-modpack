@@ -7,6 +7,7 @@
 **A Create × Cobblemon modpack for Minecraft 1.21.1 on NeoForge**
 
 [![Modrinth](https://img.shields.io/badge/Modrinth-Steamon-1bd96a?logo=modrinth&logoColor=white)](https://modrinth.com/modpack/steamon)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Steamon-f16436?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/modpacks/steamon)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62b47a?logo=minecraft&logoColor=white)](https://www.minecraft.net/)
 [![NeoForge](https://img.shields.io/badge/Loader-NeoForge_21.1-d97706)](https://neoforged.net/)
 [![CI](https://github.com/Gaspard4i/steamon-modpack/actions/workflows/publish.yml/badge.svg)](https://github.com/Gaspard4i/steamon-modpack/actions)
