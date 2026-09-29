@@ -93,13 +93,18 @@ def parse_pw(text):
 def file_is_compatible(f, require_loader=True):
     """Usable if gameVersions include 1.21.1 (and NeoForge for mods).
 
-    Resource packs carry no loader tag, so require_loader=False there.
+    Resource packs carry no loader tag, so require_loader=False there. They
+    are also not required to be tagged for our exact MC version: textures
+    are generally version-portable and plenty of packs on CF are only ever
+    tagged for whatever version they were last updated against (e.g. Create
+    Energistics has no 1.21.1 file at all, only up to 1.20.4), so skip the
+    game-version check entirely for resource packs.
     """
+    if not require_loader:
+        return True
     gvs = f.get("gameVersions", [])
     if TARGET_MC not in gvs:
         return False
-    if not require_loader:
-        return True
     return any(g.lower() == "neoforge" for g in gvs)
 
 
@@ -172,7 +177,10 @@ def resolve_mod(slug, name, filename, class_id=CLASS_MODS):
     allow_newest = slug in ALLOW_NEWEST or is_rp
     require_loader = not is_rp
     for pid in candidate_ids(slug, name, class_id):
-        params = {"gameVersion": TARGET_MC, "pageSize": 50}
+        # Resource packs: don't filter the file list by gameVersion server-side
+        # either, for the same reason file_is_compatible() skips it above (a
+        # pack may never have a file tagged for our exact MC version).
+        params = {"pageSize": 50} if is_rp else {"gameVersion": TARGET_MC, "pageSize": 50}
         if not is_rp:
             params["modLoaderType"] = NEOFORGE
         files_resp = api_get(f"/v1/mods/{pid}/files", params)
