@@ -1,13 +1,13 @@
 name = "Berry Pouch [Cobblemon]"
-filename = "berrypouch-neoforge-1.21.1-0.5.4-beta.jar"
+filename = "berrypouch-neoforge-1.21.1-0.6.2-beta.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/y7TzXi4L/versions/f04yiMTV/berrypouch-neoforge-1.21.1-0.5.4-beta.jar"
+url = "https://cdn.modrinth.com/data/y7TzXi4L/versions/c0b9DAWH/berrypouch-neoforge-1.21.1-0.6.2-beta.jar"
 hash-format = "sha512"
-hash = "5331c18fb7a3d97ad3120c716ba333948edac1f942e880996f8dfb3939539eb35d5f7448ec8f3989d54b39d856ba802bb6d7754663afa05a25de8d27ad209458"
+hash = "7a3c6a74a5bd5ee464ef6ec8e25dd683b55f1c9cd46955cb41bc7d519f53df5bdb8d3bd81f34618b5e103819cc01c78ac77dcb5b8d1ee98b81b5c200cf1fb169"
 
 [update]
 [update.modrinth]
 mod-id = "y7TzXi4L"
-version = "f04yiMTV"
+version = "c0b9DAWH"
