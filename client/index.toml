@@ -520,11 +520,6 @@ hash = "40ddef82cf47b2f8546ef4bec1d9c703c505c1f2c777b5133d2ba4be882af9ab"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-quest-reloaded.pw.toml"
-hash = "7badc8d3287c39442c7e73ebb0c040bd7d5f499744fd65b3f0632733fcdb9d90"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-smartphone.pw.toml"
 hash = "8f6fa46f1119894f611f4f75a016047354787940abfcd762b71c322d852f6489"
 metafile = true
