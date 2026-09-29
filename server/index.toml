@@ -669,6 +669,11 @@ hash = "6fd14a97896203dbb0588f23908fe6f43a09cc82eb6837cbb09d01c95a800b8f"
 metafile = true
 
 [[files]]
+file = "mods/cooks-collection.pw.toml"
+hash = "a5c4204fd3868afdf361a32927caa187bd556521ad862bf03cfd42e7cffd78b5"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "4892513825f87217b6cc3f4d3ec4dcd3965b96dede8cc10d6578c4769102ae8e"
 metafile = true
