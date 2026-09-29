@@ -4,6 +4,23 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.11] - 2026-09-29 (alpha)
+
+### Small fixes on top of 2.0.10
+
+- Cobblemon Quests Reloaded is no longer bundled: it needs FTB Quests to
+  work at all, and shipping it alone was a guaranteed crash for anyone
+  without FTB Quests manually installed. It's still listed on the
+  FTBChecker screen like the other FTB mods, so nothing changes for
+  players who already followed those install links.
+- Distant Horizons updated to 3.3.3.
+- Fixed a bug on the CurseForge upload where one resourcepack
+  (Create Energistics) was getting flagged and blocking the whole
+  upload. Should not happen again going forward.
+- FTBChecker was showing FTB Essentials twice on the missing-mods
+  screen, and could occasionally flag a mod the pack doesn't even use.
+  Both fixed.
+
 ## [2.0.10] - 2026-09-29 (alpha)
 
 ### Fixed the crash when creating a new world, big cleanup, server caught up to client
