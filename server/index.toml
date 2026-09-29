@@ -519,6 +519,11 @@ hash = "b29065f7eb51b2fa53043366d0df737483b600c2f549d31c783fe52c4d72bfb5"
 metafile = true
 
 [[files]]
+file = "mods/chalk-mod.pw.toml"
+hash = "c6b9662ee5f41840989a380ec14b648ec0c1cc138d1d035cef42a9f65d6b886f"
+metafile = true
+
+[[files]]
 file = "mods/chefs-delight.pw.toml"
 hash = "4c05ea60d85212e4737d23a4b5ee74659a37c7cb9d6ab54c71b2eca56ed1f58c"
 metafile = true
@@ -576,6 +581,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
 hash = "377225e34507e08f7d72d8332046c49e4d3e0cd5afcd0e955791cfa6fc8b1e43"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-gym-badges.pw.toml"
+hash = "013db811aef937ee89e96425310a8ea8891f56449459686d3adc9f56565199d7"
 metafile = true
 
 [[files]]
