@@ -206,7 +206,37 @@ jobs:
             | sed 's/^/  override: /' || echo "  (none)"
           ls _check/overrides/mods/*.jar 2>/dev/null | xargs -n1 basename 2>/dev/null \
             | sort > /tmp/override_mods.txt || true
+
+          # Resource packs and shader packs get the same treatment, but as a
+          # hard failure instead of a warning: unlike mods (which CF accepts
+          # as embedded overrides), CurseForge's own upload validation
+          # actively REJECTS a zip whose overrides/ contains a file that
+          # fingerprint-matches a project it hosts itself (learned the hard
+          # way from Create Energistics landing here unresolved and getting
+          # the whole upload withheld). Anything still here means
+          # cf_resolve.py failed to find a CF reference for it - fix the
+          # resolver or add the file to RP_ALLOWLIST below, don't ignore it.
+          RP_JARS=$(ls _check/overrides/resourcepacks/*.zip _check/overrides/shaderpacks/*.zip 2>/dev/null | wc -l || echo 0)
+          echo "overrides/resourcepacks+shaderpacks files=$RP_JARS"
+          ls _check/overrides/resourcepacks/*.zip _check/overrides/shaderpacks/*.zip 2>/dev/null \
+            | xargs -n1 basename 2>/dev/null | sed 's/^/  override: /' || echo "  (none)"
+          ls _check/overrides/resourcepacks/*.zip _check/overrides/shaderpacks/*.zip 2>/dev/null \
+            | xargs -n1 basename 2>/dev/null | sort > /tmp/override_rps.txt || true
           rm -rf _check
+
+          # Add allowlisted filenames here (one per line) only once confirmed
+          # CurseForge accepts them embedded in overrides/ despite hosting them.
+          printf '%s\n' \
+            | sort > /tmp/allowed_rps.txt
+          touch /tmp/override_rps.txt
+          UNEXPECTED_RP=$(comm -23 /tmp/override_rps.txt /tmp/allowed_rps.txt || true)
+          if [ -n "$UNEXPECTED_RP" ]; then
+            echo "::error::Resource/shader pack(s) shipped as unresolved CF overrides - CurseForge will reject this on upload:"
+            echo "$UNEXPECTED_RP" | sed 's/^/  - /'
+            echo "Either fix cf_resolve.py's resolution for these (see the gameVersion-filter fix made for Create Energistics), or add them to the allowlist above only once confirmed CurseForge accepts them embedded."
+            exit 1
+          fi
+          echo "Guard passed: overrides/resourcepacks and overrides/shaderpacks are empty."
 
           # Guard: refuse to upload if any jar in overrides/ is not in the known-safe
           # allowlist. These are mods that exist only on Modrinth (no CF page) and
