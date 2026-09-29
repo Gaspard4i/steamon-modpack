@@ -17,10 +17,6 @@ file = "config/c2me.toml"
 hash = "9d91504fd66f3eed5dfb1e1a421b4ccd5ee4f72f0eeebaf01115217116dc4835"
 
 [[files]]
-file = "config/cobbleannounce/config.json"
-hash = "9ab8d1b980b10009b8c29569514e13b6f1d5d6b3b1de511e0b24c122733bbf8a"
-
-[[files]]
 file = "config/cobblemon/main.json"
 hash = "79eb88fd1d4c784a5c8caf78cc996a60612ac121eb655518652eff13d5de33f1"
 
@@ -1399,30 +1395,10 @@ metafile = true
 
 [[files]]
 file = "world/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
-hash = "a585a53500ec575caab096f3e80cf5e8391dbf65983765c0290203753abe77e8"
-metafile = true
-
-[[files]]
-file = "world/datapacks/cobblemon-expanded-spawns.pw.toml"
-hash = "d9f8efebae019523deaba4cd204780e9e55a87851c8bfd24eaa4e320ced45237"
-metafile = true
-
-[[files]]
-file = "world/datapacks/cobblemon-otherside-spawns.pw.toml"
-hash = "948f79e59171a9fb6dbbf051afeeb2717dfa3b8223cb5b5ed6aac47a1da0f4e3"
-metafile = true
-
-[[files]]
-file = "world/datapacks/cobblemon-radiants.pw.toml"
-hash = "9eb6806de9c286618d4bff60043e7bc8e388b0a2015a32071bcd563c53b51867"
-metafile = true
-
-[[files]]
-file = "world/datapacks/cobblemon-shoulder-mounts.pw.toml"
-hash = "58cef26426ddcbf978168f271f2fc422a914cf07793b20a6aa0272f0e69562d9"
+hash = "12dd7db62356a0b9cf97a7d6303005439bc571de723e7f605ed82b1ca3b44a43"
 metafile = true
 
 [[files]]
 file = "world/datapacks/no-creeper-grief.pw.toml"
-hash = "c637b141e741a0cdf65b1d87e1416e816a501ae749703d9b387dc6d59746edcf"
+hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
 metafile = true
