@@ -226,7 +226,19 @@ jobs:
 
           # Add allowlisted filenames here (one per line) only once confirmed
           # CurseForge accepts them embedded in overrides/ despite hosting them.
+          # These 4 were already embedded exactly this way in the real 2.0.10
+          # client upload (the one that got Create-Energistics withheld) and
+          # CurseForge did not flag any of them, so they're confirmed safe.
+          # cf_resolve.py has no shaderpacks-folder support at all yet (only
+          # mods/ and resourcepacks/), which is why Bliss/Photon/Complementary
+          # never had a chance to resolve to a CF reference - a real gap, just
+          # not the one this pass fixed. Revisit if CurseForge ever withholds
+          # one of these specifically.
           printf '%s\n' \
+            'Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip' \
+            'ComplementaryReimagined_r5.9.3.zip' \
+            'Gazai-Utility-RP-1.0.1.zip' \
+            'photon_v1.3b.zip' \
             | sort > /tmp/allowed_rps.txt
           touch /tmp/override_rps.txt
           UNEXPECTED_RP=$(comm -23 /tmp/override_rps.txt /tmp/allowed_rps.txt || true)
