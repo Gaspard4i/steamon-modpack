@@ -4,6 +4,47 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.10] - 2026-09-29 (alpha)
+
+### Fix the Create World crash, strip the pack down, sync server to client
+
+- Found and fixed the real cause of the recurring `IndexOutOfBoundsException`
+  crash on the Singleplayer/Create World screen: two custom recipes
+  (`tm_blank_create.json`, `tr_blank_create.json`) referenced items from
+  SimpleTMs, a mod declared `side = "both"` but only ever added to the
+  server. On the client those items silently resolved to air, leaving a
+  Create sequenced-assembly step with zero ingredients.
+- Stripped the pack down to just mods, resourcepacks, shaderpacks and mod
+  config: removed the whole steamon-tweaks custom datapack (arenas,
+  trainers, custom loot tables, spawn tuning) and the KubeJS badge/starter
+  kit/compensation scripts, on both client and server.
+- Removed Open Parties and Claims and its three server addons, plus a long
+  list of unused or redundant mods (Construction Sticks, Berry Harvester,
+  Crawl, Create Nuclear, Create: Vibrant Vaults, Lootrmon, Retraining,
+  Runelic, Create: Ochrum Recipe, Waystones Teleport Pets, Traveler's
+  Titles, Xaero's Waystones Compatibility, Cobblemon Move Inspector,
+  MoreCobblemonTweaks, Pet Your Cobblemon, Resource Pack Overrides, and
+  server-only stragglers Cobblemon CobbleStats, Create: Connected,
+  EnchantmentLevelBreak, Immersive Aircraft). Verified none of them were a
+  dependency of a mod that's staying, and Konkrete was kept since FancyMenu
+  and JustZoom both require it.
+- Added Chalk, Dense Ores, Only Hammers and Excavators, Dynamic
+  Surroundings, Mechanical Healing Machine and Cobblemon Gym Badges.
+- Fixed a separate crash: the Fully Hisuian Starters resourcepack shipped
+  a Rowlet Hisuian model missing a part Cobblemon 1.8.1 expects.
+- The server pack had drifted badly behind the client: 62 shared mods were
+  on stale versions, including Cobblemon itself (1.7.3 server vs 1.8.1
+  client), a gap wide enough to likely break client/server connections.
+  Brought every shared mod, config file and datapack up to match the
+  client, and cleaned up composition drift in both directions (removed
+  leftover Create Encased/WorldEdit entries and server-only strays, added
+  Tectonic/Terralith/Feature Recycler to the server so a dedicated server
+  generates the same terrain as singleplayer).
+- Set medium default graphics settings for 8 GB RAM systems (render
+  distance 10->8, simulation distance 10->6, fast graphics, decreased
+  particles) with shaders off by default.
+- Rewrote the README and the Modrinth/CurseForge descriptions.
+
 ## [2.0.9] - 2026-07-27 (alpha)
 
 ### Correct FTB download links + 10 GB RAM notice

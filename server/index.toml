@@ -266,7 +266,7 @@ hash = "481591b23de6ff60c406a450488b4b6e6d7b76f4251b0dcab2566c3a8b5afdf1"
 
 [[files]]
 file = "config/magnumtorch-server.toml"
-hash = "ccffad7181aa62c68f09874f54a59c5509f14cf23a7983ba72919146c25d8684"
+hash = "ab076f5b0b3af0ecd2278f2c2866902ec43edd2fecdaff2fe7f80b4c4b69bce9"
 
 [[files]]
 file = "config/mega_showdown/config.json"
