@@ -6,44 +6,53 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ## [2.0.10] - 2026-09-29 (alpha)
 
-### Fix the Create World crash, strip the pack down, sync server to client
+### Fixed the crash when creating a new world, big cleanup, server caught up to client
 
-- Found and fixed the real cause of the recurring `IndexOutOfBoundsException`
-  crash on the Singleplayer/Create World screen: two custom recipes
-  (`tm_blank_create.json`, `tr_blank_create.json`) referenced items from
-  SimpleTMs, a mod declared `side = "both"` but only ever added to the
-  server. On the client those items silently resolved to air, leaving a
-  Create sequenced-assembly step with zero ingredients.
-- Stripped the pack down to just mods, resourcepacks, shaderpacks and mod
-  config: removed the whole steamon-tweaks custom datapack (arenas,
-  trainers, custom loot tables, spawn tuning) and the KubeJS badge/starter
-  kit/compensation scripts, on both client and server.
-- Removed Open Parties and Claims and its three server addons, plus a long
-  list of unused or redundant mods (Construction Sticks, Berry Harvester,
-  Crawl, Create Nuclear, Create: Vibrant Vaults, Lootrmon, Retraining,
-  Runelic, Create: Ochrum Recipe, Waystones Teleport Pets, Traveler's
-  Titles, Xaero's Waystones Compatibility, Cobblemon Move Inspector,
-  MoreCobblemonTweaks, Pet Your Cobblemon, Resource Pack Overrides, and
-  server-only stragglers Cobblemon CobbleStats, Create: Connected,
-  EnchantmentLevelBreak, Immersive Aircraft). Verified none of them were a
-  dependency of a mod that's staying, and Konkrete was kept since FancyMenu
-  and JustZoom both require it.
-- Added Chalk, Dense Ores, Only Hammers and Excavators, Dynamic
-  Surroundings, Mechanical Healing Machine and Cobblemon Gym Badges.
-- Fixed a separate crash: the Fully Hisuian Starters resourcepack shipped
-  a Rowlet Hisuian model missing a part Cobblemon 1.8.1 expects.
-- The server pack had drifted badly behind the client: 62 shared mods were
-  on stale versions, including Cobblemon itself (1.7.3 server vs 1.8.1
-  client), a gap wide enough to likely break client/server connections.
-  Brought every shared mod, config file and datapack up to match the
-  client, and cleaned up composition drift in both directions (removed
-  leftover Create Encased/WorldEdit entries and server-only strays, added
-  Tectonic/Terralith/Feature Recycler to the server so a dedicated server
-  generates the same terrain as singleplayer).
-- Set medium default graphics settings for 8 GB RAM systems (render
-  distance 10->8, simulation distance 10->6, fast graphics, decreased
-  particles) with shaders off by default.
-- Rewrote the README and the Modrinth/CurseForge descriptions.
+**The crash when opening Singleplayer / Create New World is fixed.** It turned out two
+crafting recipes were quietly broken: they needed items from a mod (SimpleTMs) that was
+never actually installed on the client, only on the server. The game choked trying to
+load them. Both recipes are gone now and the crash is gone with them.
+
+**The pack got a big spring cleaning.** A bunch of custom content that wasn't pulling its
+weight got removed: old gym leader battle content, some custom textures, and a couple of
+leftover scripts. Nothing you'd notice day to day, it just makes the pack lighter and
+easier to keep working correctly.
+
+**Mods removed** (mostly things that were unused, redundant, or actively causing
+problems):
+- Open Parties and Claims and its three add-ons (land claiming, no longer included)
+- Construction Sticks, Berry Harvester, Crawl, Create Nuclear, Create: Vibrant Vaults,
+  Lootrmon, Retraining, Runelic, Create: Ochrum Recipe
+- Waystones Teleport Pets, Traveler's Titles, Xaero's Waystones Compatibility
+- Cobblemon Move Inspector, MoreCobblemonTweaks, Pet Your Cobblemon, Resource Pack
+  Overrides
+- A handful of server-only leftovers that weren't doing anything useful anymore
+
+We double-checked that nothing else in the pack actually needed these before pulling
+them, so nothing else should break.
+
+**Mods added:**
+- Chalk (leave chalk marks / annotations in the world)
+- Dense Ores, Only Hammers and Excavators (denser ore veins, mined with the right tools)
+- Dynamic Surroundings (nicer ambient sounds and atmosphere)
+- Mechanical Healing Machine (a Create-powered way to heal your Pokemon)
+- Cobblemon Gym Badges (earn badges from the gym leaders you fight)
+
+**Another crash fixed:** the "Fully Hisuian Starters" texture pack had a broken model for
+one specific Pokemon (Hisuian Rowlet) that crashed the game whenever it tried to show up.
+That texture pack has been removed.
+
+**The server was seriously out of date compared to the client**, badly enough that
+players might not have been able to connect properly (Cobblemon itself was two versions
+behind). Every shared mod on the server has been brought up to the same version as the
+client, and a few things that only existed on one side or the other got cleaned up so
+both sides match. If you host a dedicated server with this pack, it should now behave
+exactly like singleplayer, including generating the same style of world.
+
+**New installs now default to friendlier settings** for people with 8 GB of RAM or less:
+lower render/simulation distance, faster graphics mode, fewer particles. Shaders are off
+by default either way, you can always turn everything back up yourself once you know your
+PC handles it.
 
 ## [2.0.9] - 2026-07-27 (alpha)
 
