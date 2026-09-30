@@ -45,6 +45,48 @@ None of this is locked in - swap themes, names, or flavor text freely. The
 point of writing it down here is just to have something concrete to react to
 instead of starting from a blank page.
 
+## Sub-roles (draft)
+
+The pick is two-tier, closer to Origins remixed around teams than a flat
+3-way choice: pick a team, then pick a sub-role within that team. Whether
+the sub-role is permanent the same way the team is, or can be changed later,
+is still open (see Open questions).
+
+- **Team Relic**: Explorer, Miner, Professor, *(one more TBD)*
+- **Team Spark**: Engineer, Rancher, *(rest TBD)*
+- **Team Might**: Elite Trainer, *(rest TBD)*
+
+No mechanical effect defined per sub-role yet - only the team-level bonuses
+below are specified so far. Sub-roles could end up being flavor/cosmetic
+only, or carry their own small perk on top of the team bonus - open call.
+
+## Bonuses (draft values)
+
+Team-level passive bonuses, always-on, permanent for as long as the player
+stays in that team (i.e. forever, per the permanence rule above):
+
+| Team  | Bonus 1              | Bonus 2   |
+|-------|-----------------------|-----------|
+| Relic | +0.5 step height       | +2 luck   |
+| Spark | +3 block reach         | +1 luck   |
+| Might | +3 entity reach        | +1 luck   |
+
+These all map directly to vanilla 1.21.1 attributes - no custom effect
+needed for any of them:
+
+- `minecraft:generic.step_height` (Relic)
+- `minecraft:generic.luck` (all three, different amounts)
+- `minecraft:player.block_interaction_range` (Spark)
+- `minecraft:player.entity_interaction_range` (Might)
+
+Since every bonus here is a plain attribute modifier, applying them is
+simpler than the generic "custom MobEffect" plan in the technical section
+below: a permanent `AttributeModifier` added on first join (and idempotently
+re-checked on login, in case the player's attribute base ever resets) covers
+all of these without needing a registered MobEffect at all. Worth revisiting
+that section once sub-role perks are defined, in case one of those *does*
+need a real effect (e.g. something time-limited or stacking).
+
 ## Mechanics summary
 
 - **Faction choice**: once, on first join. No in-game way to change it
@@ -118,7 +160,11 @@ Compat.
 ## Open questions
 
 - Final lore/names/flavor text per faction.
-- Exact starting kit and passive bonus per faction.
+- Remaining sub-roles: Relic's 4th, most of Spark's and Might's list.
+- Whether sub-role is permanent like team, or changeable, and whether it
+  carries its own mechanical perk or stays flavor/cosmetic.
+- Exact starting kit per faction (bonuses are now drafted, kit isn't).
 - How big each faction's questline should be relative to the shared
   progression content.
-- Pick-UI choice (see above).
+- Pick-UI choice (see above) - and whether it's one screen (team + sub-role
+  together) or two separate steps.
