@@ -1,0 +1,13 @@
+name = "Mechanical Healing Machine"
+filename = "cobblemonmechanicalhealingmachine-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/86iPxuL3/versions/LnnKxxbK/cobblemonmechanicalhealingmachine-1.2.2.jar"
+hash-format = "sha512"
+hash = "3048bc6ae62bd7df4fb86be22af7ad2f83d6f104f9ace56057583c90b0fcb5af6513e3c0c51248ae2beb926bc7c0f446efc949c85eeeaf63147ad183a1ba1510"
+
+[update]
+[update.modrinth]
+mod-id = "86iPxuL3"
+version = "LnnKxxbK"

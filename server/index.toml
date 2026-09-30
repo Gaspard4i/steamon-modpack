@@ -739,6 +739,11 @@ hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
 metafile = true
 
 [[files]]
+file = "mods/create-dynamic-lights.pw.toml"
+hash = "56ff7fa56eb6ae7d32cdd1f7ce84022d1ed25b416dd9142572ef0d2360d49ec9"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantable-machinery.pw.toml"
 hash = "ff95732644994b3b955de5b0c927b3caccce9d22c19e53b95da96b887cff2525"
 metafile = true
@@ -839,6 +844,11 @@ hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
 metafile = true
 
 [[files]]
+file = "mods/dense-ores.pw.toml"
+hash = "c5160490ef9a20a1c72cb77b9e6d5020ed8ad6f4e85baa68d3901e9522e0c426"
+metafile = true
+
+[[files]]
 file = "mods/discord-integration-(di).pw.toml"
 hash = "af8b8c64714dc0ef3fd4ffb12462edabbe7a62295b9a574bb8968b4e62cec28a"
 metafile = true
@@ -849,6 +859,11 @@ hash = "18219006cd971209a7630c5704c2ca92d5631f3d6ee6cb1c43975656c249ba0f"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
+metafile = true
+
+[[files]]
 file = "mods/double-doors.pw.toml"
 hash = "99f1ddd42145295a0e53c87a4e14185c975e8b2174a53295a9021988f0748081"
 metafile = true
@@ -856,6 +871,11 @@ metafile = true
 [[files]]
 file = "mods/embers-text-api.pw.toml"
 hash = "31202567429d091274357d1a4d5c3a4cf739a497066fad79feb6f8a1c0e2d31d"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "88b9e727611f06350c407aeb4ccb41207b5058fef127abe0ff24c13505618aaf"
 metafile = true
 
 [[files]]
@@ -896,6 +916,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/flan.pw.toml"
+hash = "e6c2bf6db2b040ce4bead639e5b6a743a792a59f6669c8d6b363e7624987b70f"
 metafile = true
 
 [[files]]
@@ -1029,6 +1054,16 @@ hash = "e6518e53d3f55ba3f10cd68d9334a9b58fee3228da6ab00d408c4f44fe0423bb"
 metafile = true
 
 [[files]]
+file = "mods/mechanical-healing-machine.pw.toml"
+hash = "e558a9cca5464309a202c219e34b2ef491da4eb685b71da166f0bb2f6a19fbef"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "1a0a919e4815e3869846483c937ecb395d0700fa10a1d1feae790508853773d8"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "73aba17132f267dd76ff682aa84abfb7c09d25a93b9220ee261a1e25337bebc7"
 metafile = true
@@ -1106,6 +1141,11 @@ metafile = true
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
 hash = "b586f666162c916d768532cbb98f390aa66f4998ca9ab0999bc4a9b7de5bb83f"
+metafile = true
+
+[[files]]
+file = "mods/only-hammers-and-excavators.pw.toml"
+hash = "55cc6f2302ee40a698814b2d322a2ad1b8496f24ed304a837f42c67f8eb6d029"
 metafile = true
 
 [[files]]
@@ -1361,6 +1401,16 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "64670072fa3b4db4a721769dd3d66a2865daac01c9a2480b9561675b1e9e9737"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "f8cc300d53ae8bf71d77124e6c46a5e85fe31654b39c5d73a1652a4d9c404af4"
 metafile = true
 
 [[files]]
