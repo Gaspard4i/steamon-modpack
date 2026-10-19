@@ -401,7 +401,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "1b474234c41d45bcaaef752a71291e73301530abf2a31cc17a986a0ae5dffa22"
+hash = "1a480fc3bdd3f3f127f852ac2f3211a6dfdd8bba8d7864d4ab96a168fdf2f5f1"
 metafile = true
 
 [[files]]
@@ -421,7 +421,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-smartphone.pw.toml"
-hash = "8f6fa46f1119894f611f4f75a016047354787940abfcd762b71c322d852f6489"
+hash = "84710b462f49537c5579ab75c13a589759b885867d4b7056b2d2a52a6ab84728"
 metafile = true
 
 [[files]]
@@ -436,17 +436,17 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "f480fa46d7f4800dad4414d136541f8f8410d5907fc014e389b648d20b1065ce"
+hash = "fd5919f522461f527f754599d9fd2140918b2197d1dde41011610189897b2d12"
 metafile = true
 
 [[files]]
 file = "mods/cobblemonraiddens.pw.toml"
-hash = "22005d660e2174d9893724cfe9836b7cb460b24895974c613f9ae0e56b76fa7c"
+hash = "e65a7ab9103eb55b688aa2f8efc10a169977b8d76c4ba53758a90b79576986f6"
 metafile = true
 
 [[files]]
 file = "mods/cobbreeding.pw.toml"
-hash = "245af393a759166ebb4888550e307abcb27af8ae3772136eed6945116fdd18c1"
+hash = "aa8f86c0deec2e5ff6a20360be15748c5281faaa0acf45f15044eff42f182ad9"
 metafile = true
 
 [[files]]
@@ -850,11 +850,6 @@ hash = "e6518e53d3f55ba3f10cd68d9334a9b58fee3228da6ab00d408c4f44fe0423bb"
 metafile = true
 
 [[files]]
-file = "mods/mechanical-healing-machine.pw.toml"
-hash = "e558a9cca5464309a202c219e34b2ef491da4eb685b71da166f0bb2f6a19fbef"
-metafile = true
-
-[[files]]
 file = "mods/mezzconfig.pw.toml"
 hash = "1a0a919e4815e3869846483c937ecb395d0700fa10a1d1feae790508853773d8"
 metafile = true
@@ -901,7 +896,7 @@ metafile = true
 
 [[files]]
 file = "mods/navas-zamega.pw.toml"
-hash = "6257fe68dd8ece330277a01cbcf302b5333be8633a0dfae2a3e30ae29285c256"
+hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
 metafile = true
 
 [[files]]
