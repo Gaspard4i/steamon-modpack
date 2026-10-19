@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "684a02ca762100db0889fa94d880a5da2d998b96f5409b93801f424146e9e8af"
+
+[[files]]
 file = "config/accessories.json5"
 hash = "9ca14293603e6665aaa4605ec208e63f5ea139340495f8e793aa04cad8417df8"
 
@@ -335,6 +339,11 @@ hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
 
 [[files]]
+file = "mods/apricogs.pw.toml"
+hash = "e9b66cd6b6d3e7705158191e87dfa06825c5a48101e0d85e5f1dad3ce5f89ded"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
@@ -377,11 +386,6 @@ metafile = true
 [[files]]
 file = "mods/bellsandwhistles.pw.toml"
 hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
-metafile = true
-
-[[files]]
-file = "mods/berry-pouch.pw.toml"
-hash = "1ac33f042972dd19ab91befb315c8958793fe23a369d5de3e565d6e353d76e62"
 metafile = true
 
 [[files]]
@@ -475,11 +479,6 @@ hash = "e21324469b76de636727d4a254379c86230ba9d05a2202e135233da1800ef1f5"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-counter.pw.toml"
-hash = "94e626e0da4029fed311cd08a6df21b7e7a2fa3a4dbae20015e79d0e275b52cc"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-exp.-all.pw.toml"
 hash = "da3e7258295f460aafbfee78c8d19a0b5e02d3c97a1298353a691ef9b75dcb23"
 metafile = true
@@ -512,11 +511,6 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-myths-and-legends-sidemod.pw.toml"
 hash = "908805e81c181be33244a3594475ebb5d4e9d88fc8912024420ae621d2f51367"
-metafile = true
-
-[[files]]
-file = "mods/cobblemon-paleontology.pw.toml"
-hash = "40ddef82cf47b2f8546ef4bec1d9c703c505c1f2c777b5133d2ba4be882af9ab"
 metafile = true
 
 [[files]]
@@ -692,11 +686,6 @@ metafile = true
 [[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "2244c6c580c41f432e02bc82a6f78af0b1777de42400d1e5b702208376c56c6f"
-metafile = true
-
-[[files]]
-file = "mods/create-ultimate-factory.pw.toml"
-hash = "34d808989e71221b8e01a44bc8031f20af1c94981acb0cba4669e0e58be69629"
 metafile = true
 
 [[files]]
@@ -1055,6 +1044,11 @@ hash = "f4e01222594116f7ebe3bd3908ae066550172eafb9a1ef383b277be569c38e45"
 metafile = true
 
 [[files]]
+file = "mods/neo-origins.pw.toml"
+hash = "b20d5609a745e9ceaeffc8698b301e43fd232c0c178609a2d380b3ef79b763fa"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
 metafile = true
@@ -1127,6 +1121,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6be463e57622036302e6555834d4b915e9d0407ce646a20edc770901111eca0d"
+metafile = true
+
+[[files]]
+file = "mods/raid-wormhole.pw.toml"
+hash = "e915d3de1e8fddc788aea5fdd3929bf64d81ad3aff45b7988d7d6374d8a92ad4"
 metafile = true
 
 [[files]]
@@ -1260,6 +1259,11 @@ hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
 metafile = true
 
 [[files]]
+file = "mods/steamon-origin.pw.toml"
+hash = "b5083568cbdf278c0b4afd3bf99fbe6070714d87772611a9c4c88a98014b8740"
+metafile = true
+
+[[files]]
 file = "mods/stylish-effects.pw.toml"
 hash = "bb1a2b476e6ebd3b6deef2047f7a4ae3a0b8dfcd967bff710dede2803bd9b5bd"
 metafile = true
@@ -1307,11 +1311,6 @@ metafile = true
 [[files]]
 file = "mods/the-aethers-delight.pw.toml"
 hash = "055283aa7790b335df36917fd72eb9f35f4d5cbe3a1e66d53efba4fe79ec1266"
-metafile = true
-
-[[files]]
-file = "mods/tomtarus-cobblemon-and-farmers-delight-tweaks.pw.toml"
-hash = "1efe654d51ff746bfa87e577706564a4ec6ba0ec46d887d5c1fdb25bc0152831"
 metafile = true
 
 [[files]]

@@ -1,0 +1,12 @@
+# Gaspard's own mod (modId steamon_ui), in review on Modrinth/CurseForge.
+# Self-hosted here until approved - see patches/steamon-origin/README.md.
+# Requires the neo-origins mod. No [update.modrinth] section since it
+# isn't on Modrinth yet.
+name = "Steamon Origin"
+filename = "steamon-origin-1.0.0-beta.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/steamon-origin/steamon-origin-1.0.0-beta.jar"
+hash-format = "sha512"
+hash = "0ca20675d956732881ee5b82d1a51270bfa183ab188c208d8b2982acd8debff006a8e4021a378388397cb847a1fb158a4e997b91b32abc76f491537488f461f9"
