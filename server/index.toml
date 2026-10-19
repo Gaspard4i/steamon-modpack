@@ -411,12 +411,12 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-release-rewards.pw.toml"
-hash = "05142dd47018bfba35cb2345c85e1cbc442ed197145e5124e20ad6ba4d9fe354"
+hash = "2c0228b25aef5beddc9f8a06f366b1ed61f5dfa449e1ae0aa7b9d93517c74df3"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon-safepastures.pw.toml"
-hash = "c9276959e9375f398c974b348a670447092647e206e100b681c14bc36faef738"
+hash = "52882937234e2a0f640c91295703b4af2044e3be859959ceca6d10494db02607"
 metafile = true
 
 [[files]]
