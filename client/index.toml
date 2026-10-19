@@ -504,6 +504,16 @@ hash = "908805e81c181be33244a3594475ebb5d4e9d88fc8912024420ae621d2f51367"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-release-rewards.pw.toml"
+hash = "45492bebd208fafa9cbd3c2f2be875f1a343a7f68856026f8db26df69eb7b63b"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-safepastures.pw.toml"
+hash = "c15f2415da5aa18266fd90eb84309f24f575777ddbacfbec02a87754f5884b3d"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-smartphone.pw.toml"
 hash = "84710b462f49537c5579ab75c13a589759b885867d4b7056b2d2a52a6ab84728"
 metafile = true

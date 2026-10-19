@@ -1,6 +1,6 @@
 name = "Cobblemon: Parting Gifts"
 filename = "releaserewards-neoforge-3.0.4.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Qx6M2WkT/versions/6vMgpg8Q/releaserewards-neoforge-3.0.4.jar"
