@@ -1,0 +1,10 @@
+# Custom datapack, empties AE2's has_meteorites biome tag so meteorite
+# worldgen never triggers. See patches/no-ae2-meteorites/README.md.
+name = "No AE2 Meteorites"
+filename = "no-ae2-meteorites.zip"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/no-ae2-meteorites/no-ae2-meteorites.zip"
+hash-format = "sha512"
+hash = "fe3dfdcd3dbb9f1ef8de029bab03e2d242dc2c5b21e96f1e4d2f288cf72ebb7bf93cec30de24987e8dc7ff22486c33680b1a643228100083aa2c45686921d513"

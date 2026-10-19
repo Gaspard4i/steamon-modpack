@@ -505,6 +505,11 @@ hash = "31411fced67d5b743f6cd1ce2be55e4bce428de8df2fe38c6a39097099da5e4f"
 metafile = true
 
 [[files]]
+file = "mods/create-applied-kinetics.pw.toml"
+hash = "b3b2c990023501cc95e4061ef73e541bcd6e54db6e392a8694147b6da75eee71"
+metafile = true
+
+[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "07c51c2d97b8a9dd5fefb51798923f5621d46f5db44b4d7327a567f945f375f0"
 metafile = true
@@ -1267,6 +1272,11 @@ metafile = true
 [[files]]
 file = "world/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
 hash = "12dd7db62356a0b9cf97a7d6303005439bc571de723e7f605ed82b1ca3b44a43"
+metafile = true
+
+[[files]]
+file = "world/datapacks/no-ae2-meteorites.pw.toml"
+hash = "51695158861eb0aae53e44cc8c7c0ff45bf6476eaa8e25003f2b4ec8c1b4ae63"
 metafile = true
 
 [[files]]
