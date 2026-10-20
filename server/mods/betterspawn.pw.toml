@@ -1,0 +1,13 @@
+name = "Better Spawn"
+filename = "betterspawn-1.0.7-1.21.1-neo.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/I3GVrHsq/versions/6JD0M5fd/betterspawn-1.0.7-1.21.1-neo.jar"
+hash-format = "sha512"
+hash = "26a05a73a4ad091f13f998622eb7cb878b50c8ac2028004e4d9db640b8d34a01ed252712c836289d2f03cfdd68da93201f664b5fd7f59b623c9f1043b6310dd6"
+
+[update]
+[update.modrinth]
+mod-id = "I3GVrHsq"
+version = "6JD0M5fd"

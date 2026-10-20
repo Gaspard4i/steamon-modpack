@@ -340,6 +340,11 @@ hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
 metafile = true
 
 [[files]]
+file = "mods/betterspawn.pw.toml"
+hash = "2be173e0baf5e0edbf106ca8315c940bf4ef5526ed2e9ce4f9bc235e1f7ecc2a"
+metafile = true
+
+[[files]]
 file = "mods/blocks-bogies.pw.toml"
 hash = "07f30551060d5eb77a36ad9eb26131751d790d8e43378faf4143c6f53f0da245"
 metafile = true
