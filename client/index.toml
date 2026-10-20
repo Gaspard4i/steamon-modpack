@@ -529,6 +529,11 @@ hash = "908805e81c181be33244a3594475ebb5d4e9d88fc8912024420ae621d2f51367"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-pokenav.pw.toml"
+hash = "c2c87b9fe04066c049b3e5865232d50cc280e016d127df5c114abe69c9e5c05f"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-release-rewards.pw.toml"
 hash = "45492bebd208fafa9cbd3c2f2be875f1a343a7f68856026f8db26df69eb7b63b"
 metafile = true
