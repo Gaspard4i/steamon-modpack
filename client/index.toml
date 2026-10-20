@@ -339,11 +339,6 @@ hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
 metafile = true
 
 [[files]]
-file = "mods/advanced-netherite.pw.toml"
-hash = "25030f109f355b37d1bed8142068f5772180e8df1805281c30e5bd9561c9c3ab"
-metafile = true
-
-[[files]]
 file = "mods/ae2.pw.toml"
 hash = "ed45c352a49b65c7221e57d979d0c6935522dfef4968aa5b7421f4d3e670ce40"
 metafile = true
@@ -361,11 +356,6 @@ metafile = true
 [[files]]
 file = "mods/almostunified.pw.toml"
 hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
-metafile = true
-
-[[files]]
-file = "mods/amendments.pw.toml"
-hash = "c81bee190ce936bc46b98b20f3dff4a7b9689cb7ac168a1674f5378c882f304a"
 metafile = true
 
 [[files]]
@@ -416,11 +406,6 @@ metafile = true
 [[files]]
 file = "mods/balm.pw.toml"
 hash = "5906ab9415bb5d894dc41bc4b0035d3c22e261877cf8578c2c4c45af8b4bb159"
-metafile = true
-
-[[files]]
-file = "mods/beautify.pw.toml"
-hash = "5e3421b58c8c905e686ed7b63d2fe086fe3265009347ca01aba99f13cb8edca3"
 metafile = true
 
 [[files]]
@@ -789,11 +774,6 @@ hash = "c5160490ef9a20a1c72cb77b9e6d5020ed8ad6f4e85baa68d3901e9522e0c426"
 metafile = true
 
 [[files]]
-file = "mods/display-delight.pw.toml"
-hash = "18219006cd971209a7630c5704c2ca92d5631f3d6ee6cb1c43975656c249ba0f"
-metafile = true
-
-[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
 metafile = true
@@ -806,11 +786,6 @@ metafile = true
 [[files]]
 file = "mods/dynamicsurroundingsfabric.pw.toml"
 hash = "6a2415cdf50d7d5ac209401fd42de3bfbf4a1326dd03436a61580d20915248b1"
-metafile = true
-
-[[files]]
-file = "mods/embers-text-api.pw.toml"
-hash = "31202567429d091274357d1a4d5c3a4cf739a497066fad79feb6f8a1c0e2d31d"
 metafile = true
 
 [[files]]
@@ -896,11 +871,6 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "5a26489b734991c0511abfe43bf9143c935b8483d854a78fecd2e84993fb09cc"
-metafile = true
-
-[[files]]
-file = "mods/gensokyo-delight-youkais-feasts.pw.toml"
-hash = "3e01cdd2624cf991ee41d11263e509aaceba2a8219a229b62d956ac6850de5d5"
 metafile = true
 
 [[files]]
