@@ -415,6 +415,11 @@ hash = "e21324469b76de636727d4a254379c86230ba9d05a2202e135233da1800ef1f5"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-cobbled-levels.pw.toml"
+hash = "3089d6e2c7f1a1195953b14ab62a2192099c2b3f976c69defa1cab120b414ad1"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-exp.-all.pw.toml"
 hash = "da3e7258295f460aafbfee78c8d19a0b5e02d3c97a1298353a691ef9b75dcb23"
 metafile = true
