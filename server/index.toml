@@ -169,6 +169,10 @@ file = "config/sophisticatedbackpacks-server.toml"
 hash = "44208874f05c57d50a389fb36036a3aa89cf45c5de4597cdb898f36e1ea3ed0c"
 
 [[files]]
+file = "config/sparsestructures.json5"
+hash = "92383a4de8a1f185f9e0464d9a5b0d43e614ed7c0c74a09ea8be15eb29d0de03"
+
+[[files]]
 file = "config/supplementaries-common.toml"
 hash = "f4161a2f1e5ba4aeb00040492f253b02006415c1ba8897929ecea6e453093d35"
 
