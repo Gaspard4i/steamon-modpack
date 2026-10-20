@@ -1,0 +1,13 @@
+name = "Cobblemon Raid Dens Addon - Auto Raid Den Designs"
+filename = "DesignerRaid-neoforge-3.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/jLSX2EbB/versions/X7l1moJm/DesignerRaid-neoforge-3.0.jar"
+hash-format = "sha512"
+hash = "d3afbd8c09abe4c8e5dd0efd475c0d9bb851e88a423306ffd60c1617bc0e7c87f53face3cad9d442c791cab686c97049cde769d4d331ab5d5239a3266d7629d6"
+
+[update]
+[update.modrinth]
+mod-id = "jLSX2EbB"
+version = "X7l1moJm"
