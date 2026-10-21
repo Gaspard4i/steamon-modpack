@@ -70,7 +70,7 @@ hash = "638605b16600d3694ae4368816887f1498d7745d2ed76652ece27a30b0507edc"
 
 [[files]]
 file = "config/craftpresence/config.json"
-hash = "61ec379f4bff38395504fa90205887540c476dc363678f4844315ab469c8a530"
+hash = "120305e1bd03201ebfe5181a23415faafe7bfdee97f64067cafba662246a80c5"
 
 [[files]]
 file = "config/create-server.toml"
