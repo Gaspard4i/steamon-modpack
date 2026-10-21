@@ -534,6 +534,11 @@ hash = "45b709bb128383a81b60741d0e06931fec774a6a6fc4b0a72472dd7c64ec0bc7"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+hash = "31411fced67d5b743f6cd1ce2be55e4bce428de8df2fe38c6a39097099da5e4f"
+metafile = true
+
+[[files]]
 file = "mods/create-applied-kinetics.pw.toml"
 hash = "b3b2c990023501cc95e4061ef73e541bcd6e54db6e392a8694147b6da75eee71"
 metafile = true
@@ -791,6 +796,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
+metafile = true
+
+[[files]]
+file = "mods/jamlib.pw.toml"
+hash = "750f4b552490779af147a9c70a558ab2aa1cbfd8331d5ad69efefa099854dfae"
 metafile = true
 
 [[files]]
