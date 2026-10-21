@@ -364,11 +364,6 @@ hash = "2be173e0baf5e0edbf106ca8315c940bf4ef5526ed2e9ce4f9bc235e1f7ecc2a"
 metafile = true
 
 [[files]]
-file = "mods/biolith.pw.toml"
-hash = "cc79b689faf345a5aa19ead3423726b6f87c267d686fb5807738e0cd20756679"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
@@ -861,11 +856,6 @@ metafile = true
 [[files]]
 file = "mods/lets-do-beachparty.pw.toml"
 hash = "fd2a321d4abc440ff159e477dc75ebc9d32a9efa246e61ceeb6142391c55bfcf"
-metafile = true
-
-[[files]]
-file = "mods/lets-do-bloomingnature.pw.toml"
-hash = "6fa0658b2636880e6821b4120d9d68cb0e16410f2f492179c775fbfd527338d2"
 metafile = true
 
 [[files]]
