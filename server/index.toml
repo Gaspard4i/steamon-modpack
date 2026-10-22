@@ -1049,16 +1049,6 @@ hash = "6bee7be8af8f9247fbf84dcd1ec9af2adaa42e55d52ab8a5bfe9b6ff7c94da46"
 metafile = true
 
 [[files]]
-file = "mods/relics-mod.pw.toml"
-hash = "5d2ebe2ac7d9436d1c5df0fbb2a1b975196d41a3090065b3c569aaac4fc11430"
-metafile = true
-
-[[files]]
-file = "mods/reliquified-artifacts.pw.toml"
-hash = "9d237ba6802b662f712d357e47f8291e6b3a67ec505a5133be678b825eda96ca"
-metafile = true
-
-[[files]]
 file = "mods/resource-world.pw.toml"
 hash = "2d53a36511669c3972b539e9f9dadcc6fc2033635a0c6225dfe464a39f8ccf80"
 metafile = true
