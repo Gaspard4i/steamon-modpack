@@ -2,10 +2,10 @@
 # Self-hosted here until approved - see patches/raid-wormhole/README.md.
 # No [update.modrinth] section since it isn't on Modrinth yet.
 name = "Raid Wormhole"
-filename = "raidportals-neoforge-0.2.0.jar"
+filename = "raidportals-neoforge-0.2.1.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/raid-wormhole/raidportals-neoforge-0.2.0.jar"
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/raid-wormhole/raidportals-neoforge-0.2.1.jar"
 hash-format = "sha512"
-hash = "77652639dc274ce416a630a0db705048aa74e47bcaa673730b3ead2f492047bcb251ab6599f884c945926e88f44c69d7c72a304d9df071f6e1f3d65309d88e86"
+hash = "1ffdf2a871e5886f96c45bd752ca750b97de4d353efe389f6d8d399ba9c095b199822cc8219aad23fed0ee5a8922d2fecd61470aeec337f7385964ed5bfa6519"
