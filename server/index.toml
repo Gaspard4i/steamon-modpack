@@ -549,11 +549,6 @@ hash = "4d1e7881798e3e72bf619c45f384cd284b1d31ebad84bb4615eeeaa3ecf3ca77"
 metafile = true
 
 [[files]]
-file = "mods/create-compressed.pw.toml"
-hash = "a946542ae4970e35a3f721b16872d2c66e62235778eb640c4102c1faaa008b3e"
-metafile = true
-
-[[files]]
 file = "mods/create-curios-jetpack.pw.toml"
 hash = "b8e662516d509fc3fcc6036955373de4760e3c43093f31117cef927fb7e4e619"
 metafile = true
