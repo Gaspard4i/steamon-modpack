@@ -899,6 +899,11 @@ hash = "1a0a919e4815e3869846483c937ecb395d0700fa10a1d1feae790508853773d8"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "73aba17132f267dd76ff682aa84abfb7c09d25a93b9220ee261a1e25337bebc7"
+metafile = true
+
+[[files]]
 file = "mods/miners-delight.pw.toml"
 hash = "13481133d139f134bd3407983e29f86df835ff66bacb013d9d43e14f155241f4"
 metafile = true
