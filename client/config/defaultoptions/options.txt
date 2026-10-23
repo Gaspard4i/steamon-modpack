@@ -1,4 +1,4 @@
-resourcePacks:["vanilla","file/Low Shield.zip","file/LowOnFire v26.2§8.zip","file/Simple Grass Flowers v2.0.0.zip","file/Comforts Modernized - V1.1.zip","file/CreateSophBackpacks.zip","file/Emissive-Cobblemon-Ores-1.7.zip","file/E19 Cobblemon Minimap Icons.zip","mod_resources","file/RCT Trainers+ [1.7] v2.2.zip","file/Create-Energistics-1.1.2-mc1.20.4.zip","file/Gazai-Utility-RP-1.0.1.zip","mod/cobblemon:resourcepacks/regionbiasforms","mod/mega_showdown:resourcepacks/regionbiasmsd","mod/deep_aether:packs/overrides/deep_aether_additional_assets"]
+resourcePacks:["vanilla","file/Low Shield.zip","file/LowOnFire v26.2§8.zip","file/Simple Grass Flowers v2.0.0.zip","file/Comforts Modernized - V1.1.zip","file/CreateSophBackpacks.zip","file/Emissive-Cobblemon-Ores-1.7.zip","file/E19 Cobblemon Minimap Icons.zip","mod_resources","file/RCT Trainers+ [1.7] v2.2.zip","file/Create-Energistics-1.1.2-mc1.20.4.zip","file/Gazai-Utility-RP-1.0.1.zip","mod/cobblemon:resourcepacks/regionbiasforms","mod/mega_showdown:resourcepacks/regionbiasmsd","builtin/overrides/deep_aether_additional_assets"]
 incompatibleResourcePacks:[]
 biomeBlendRadius:1
 enableVsync:true

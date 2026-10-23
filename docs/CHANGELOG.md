@@ -4,7 +4,47 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
-## [2.0.11] - 2026-09-29 (alpha)
+## [2.0.20] - 2026-10-23 (beta)
+
+### Fixed the freeze when rejoining a world
+
+**Cobblemon Gym Badges has been removed.** It was the cause of a permanent freeze
+some players hit when quitting a world and rejoining it in the same client session
+(first load always worked fine, which made it tricky to track down). Confirmed
+with a full dependency-tree bisection across the pack — no update or replacement
+for it exists yet.
+
+### Mod updates
+
+Artifacts, Cobblemon: Mega Showdown, Create: Central Kitchen, Create: Let The
+Adventure Begin, Entity Culling, Enhanced Boss Bars, Every Compat (Wood Good),
+Extreme Sound Muffler, Just Zoom, Moog's Structure Library, ParCool!, Simple Hats,
+Sophisticated Backpacks/Core/Storage (+ their Create compat add-ons), Trash Cans,
+Vanilla Backport, and Xaero's World Map / Minimap are all bumped to their latest
+versions. Cobblemon Quests Reloaded and the FTB mods (Library/Teams/Quests) are
+also up to date on the CurseForge build.
+
+Let Me Despawn stays on 1.5.0 for now — the newer release needs a NeoForge bump
+we're not doing yet.
+
+### New default settings (fresh installs only — never overwrites your own settings)
+
+- FOV 90°, brightness set to Bright, render/simulation distance 10, fast clouds.
+- Rebalanced sound mix (music and jukebox lower, hostile mobs and blocks louder).
+- GUI scale defaults to 3.
+- Several resource packs that were shipped but not actually turned on by default
+  are now active out of the box: Create Sophisticated Backpacks, Create
+  Energistics, E19 Cobblemon Minimap Icons, Emissive Cobblemon Ores,
+  Gazai Utility RP, Low Shield, Low On Fire, Simple Grass Flowers, and the
+  built-in Cobblemon/Mega Showdown/Deep Aether bonus texture packs (region bias
+  forms, region bias MSD, Deep Aether additional assets).
+- Cleaned up a batch of default keybind conflicts (backpack on B, world map on
+  the comma key, resume Pokémon summary on the grave key, smartphone on I, and
+  several colliding bindings freed up across other keys).
+
+### Server
+
+Fresh world, random seed.
 
 ### Small fixes on top of 2.0.10
 
