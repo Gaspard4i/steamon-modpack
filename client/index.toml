@@ -162,11 +162,11 @@ hash = "09dd38443a8f962f5c1b3d00f18ccc89144166a5b4c9933c293fc27950fb6c58"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "fcb8d3ebf0f78c841b1b6e8981ae155de102fa8c05aa4867cae9ea99c507edc9"
+hash = "a3032b4671d29690abb3c85962e599c9cbc9bbeb43276b261445eddf9602b764"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "5db94916a502fc4e07000508b58f1f16953a908da7789aae256848ae36e16d61"
+hash = "a25f8c3a72045e7abb6e0c6330f7589102067396eb0e79b237ab8a3eee805d5c"
 
 [[files]]
 file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
