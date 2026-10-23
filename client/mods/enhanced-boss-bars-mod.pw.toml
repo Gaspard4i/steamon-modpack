@@ -1,13 +1,13 @@
 name = "Enhanced Boss Bars"
-filename = "enhancedbossbars-1.0.0.jar"
+filename = "enhanced_boss_bars-1.1.2-1.21.1-neoforge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/J5bVsBt9/versions/cQKcPNVh/enhancedbossbars-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/J5bVsBt9/versions/pywVa6ar/enhanced_boss_bars-1.1.2-1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "8f90e71222556b628728961ed3b941dd5beec140f99f5aff3e6d575568f4a115be61af5d6ae497291a07521a6764284e334ce24b18018a8312d5afa8ae615d52"
+hash = "facfe5e0be71ee41403ffa8154e163020a93f2524ad4c48a6764c863e679563a6603ab65284bf557b27bc83f79ba47ba8bb8e8c5252f9885dfffb0bec62514f2"
 
 [update]
 [update.modrinth]
 mod-id = "J5bVsBt9"
-version = "cQKcPNVh"
+version = "pywVa6ar"
