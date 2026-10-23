@@ -419,7 +419,9 @@ jobs:
                   for md in m.get('mods', []):
                       installed.add(md['modId'])
               for n in z.namelist():
-                  if n.startswith('META-INF/jarjar/') and n.endswith('.jar'):
+                  # Architectury's own jar-in-jar packer uses META-INF/jars/,
+                  # distinct from the META-INF/jarjar/ convention other mods use.
+                  if n.endswith('.jar') and (n.startswith('META-INF/jarjar/') or n.startswith('META-INF/jars/')):
                       try:
                           ingest(z.read(n), f"{label}::{n}")
                       except Exception:
