@@ -13,7 +13,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:1.0
 graphicsMode:0
-guiScale:2
+guiScale:3
 maxFps:60
 mipmapLevels:2
 particles:1
