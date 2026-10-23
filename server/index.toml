@@ -419,11 +419,6 @@ hash = "da3e7258295f460aafbfee78c8d19a0b5e02d3c97a1298353a691ef9b75dcb23"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-gym-badges.pw.toml"
-hash = "013db811aef937ee89e96425310a8ea8891f56449459686d3adc9f56565199d7"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-integrations.pw.toml"
 hash = "0edbc8027e392fafe68235cf837d3b1a2aa3e553499bfdd2ff9e70dfe251cb16"
 metafile = true
