@@ -335,7 +335,7 @@ metafile = true
 
 [[files]]
 file = "mods/artifacts.pw.toml"
-hash = "f59b2b63f898bd991e3eef8fe4973e06adca223aa62e536450c8f5475c3e1444"
+hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
 metafile = true
 
 [[files]]
@@ -430,7 +430,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
-hash = "729676545780635c1030a0666ced1700489e69002fc9e57c12eff827d4811f8c"
+hash = "078500d07cbe6df613296368aab6eb669081e1874a755aa825ce525c0b344929"
 metafile = true
 
 [[files]]
@@ -535,7 +535,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "5c46d89446fc98e2ef32a8615e92596e6c6c2e27c3eb75db14e916a5a2939efe"
+hash = "3752b1dcdfebbb1e79c97c847095153155d64636576a9c0ac11ffa6506c62922"
 metafile = true
 
 [[files]]
@@ -590,7 +590,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "9f402cd1643ec6404bd640b90ab8b1be47e8364859ab6661c287dec7202c637f"
+hash = "3a99e0babeb75872334ed2abd96949fb9e993690f27eb51dcb30ec376186c719"
 metafile = true
 
 [[files]]
@@ -695,7 +695,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "2f1db078f67200603835b9f2a5b87ff2165bfdb32c9389d9eda7cee7ea8a8b83"
+hash = "a95238f217d2d24bfaf37cd26df6f578b9d4d7e3eca0ff697bad2ad4f6f84585"
 metafile = true
 
 [[files]]
@@ -710,7 +710,7 @@ metafile = true
 
 [[files]]
 file = "mods/extreme_sound_muffler.pw.toml"
-hash = "75bce544d4fb0e2bff056960ce6dd0d0d78866526f4d27749847f6cb20e4ca22"
+hash = "00d50bf8d60a909b2b33e163e959c36bf18ba5b98e1c4db65fa75987eae66694"
 metafile = true
 
 [[files]]
@@ -865,7 +865,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmd.pw.toml"
-hash = "c8a5068c21ac4af26fd2f4b229d4d9dcfc6b0a79f57c619b3ef903ef78fcf445"
+hash = "1509862c194d6ba08fbba1e637fcede520000bccdad6629e9f1ec29ec4c32bc1"
 metafile = true
 
 [[files]]
@@ -915,7 +915,7 @@ metafile = true
 
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
-hash = "511f12ac435c11051a4fe1fddd4070335ef91805f6e23f648f551c6ec47a1cba"
+hash = "0856f0ead9a5035c74709a848b475e93de9f46bb65cca153bbed7371c3b9b074"
 metafile = true
 
 [[files]]
@@ -985,7 +985,7 @@ metafile = true
 
 [[files]]
 file = "mods/parcool.pw.toml"
-hash = "de7d7e95577167aac5f6bbdeab6fed3a37a949ea306c6814a921425c7314180e"
+hash = "831bfc67569a89295623eeb57a2c1eafc2ba008feab12c65f293c3414baa7692"
 metafile = true
 
 [[files]]
@@ -1080,7 +1080,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-hats.pw.toml"
-hash = "5ead04dd15c9aa25ab31a1c9a2d55c7997a17d42f4dff2b933575d0b15fe67b4"
+hash = "b66eafdfececfbf620287485b229d72ae613dc4766e23879e590bb8508acfc4a"
 metafile = true
 
 [[files]]
@@ -1100,27 +1100,27 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "f39ff50f468a10c05b2bba8821a319cb2c3d95051aef4649fde5c4932197240c"
+hash = "62763719713397981d04896274e48579e8d425d23bf2f1999184072aea53e193"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "07422b5668d2037a54a6b80712ea0295b938f32b51cde0bee0ae0c44833aa456"
+hash = "058ae43d677dfee4df7968c7f53a71f4bb563ae484f6a5ab245cfb541c428a79"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "cee541a69ca8d185bf6dfb6b18bd5f0b0679994fa45352b739c13205db82ea4e"
+hash = "c30047d121e76400125d65f9aee8be37979ad04304b97d7628bdd7721ddfd048"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "550f08da5bda42660b8cca4b22c986378e0f6a1f90e876e8aa5253dadb4eee97"
+hash = "3d71ac9484fbf77d941c272d87ccd7c9e87364574a167c338b7bcacd1e1063f6"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "27ac9996adfee4d2c79d1276938a0521f6f9e8f3e4192577bf2f33b2c01540c6"
+hash = "a9f2fc2f34665bb8930f67f98456f5836cb7ee38a4d5de9d001accb1764c2b6d"
 metafile = true
 
 [[files]]
@@ -1185,7 +1185,7 @@ metafile = true
 
 [[files]]
 file = "mods/trash-cans.pw.toml"
-hash = "65f15da0c4b5b6b58c3d3de29c4204656ef1474869ef226392fd89400545aebb"
+hash = "27dadd4dde0fb4a173c20bec47353083030cce226af17b4f189a0edd252a6d7b"
 metafile = true
 
 [[files]]
@@ -1200,7 +1200,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanillabackport.pw.toml"
-hash = "b4a18e58a324c123801d6c88fbe6a23f945cfb78d04bf53d4a8a31ae9f8b045e"
+hash = "9b18f1c0e25ac587b3b3433d379d6f78b745cc9215f746b4a2162013d1764257"
 metafile = true
 
 [[files]]
@@ -1220,12 +1220,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "a15a4a24ede39c263ed7b2bd7beda42741173124c211e0ff9421bcb8af4ae872"
+hash = "e97cb865d7a8c8310905d9140899fa55ea23c3fff2e23a17255ce2c162322ad7"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "b7d73722cb82757e79ee5958ade7a517fcc8181421db5f7f5b0726e8d7b89bae"
+hash = "3a8e91aecdb602039ba1f7445bbf6b64cc5a46344339a3ffaf3b2e3eb2f5bcbc"
 metafile = true
 
 [[files]]
