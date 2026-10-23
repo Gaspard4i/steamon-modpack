@@ -980,7 +980,7 @@ metafile = true
 
 [[files]]
 file = "mods/lmd.pw.toml"
-hash = "1509862c194d6ba08fbba1e637fcede520000bccdad6629e9f1ec29ec4c32bc1"
+hash = "ee7786026fb270b31b018efd166afff9f91de67369a50832ca33644d2bc32722"
 metafile = true
 
 [[files]]
@@ -1061,11 +1061,6 @@ metafile = true
 [[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
-metafile = true
-
-[[files]]
-file = "mods/neo-origins.pw.toml"
-hash = "b20d5609a745e9ceaeffc8698b301e43fd232c0c178609a2d380b3ef79b763fa"
 metafile = true
 
 [[files]]
@@ -1256,11 +1251,6 @@ metafile = true
 [[files]]
 file = "mods/spuds-shops.pw.toml"
 hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
-metafile = true
-
-[[files]]
-file = "mods/steamon-origin.pw.toml"
-hash = "b5083568cbdf278c0b4afd3bf99fbe6070714d87772611a9c4c88a98014b8740"
 metafile = true
 
 [[files]]
