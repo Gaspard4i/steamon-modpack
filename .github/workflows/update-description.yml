@@ -1,0 +1,36 @@
+name: Update Modrinth Description
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  update-description:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Patch project description on Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          set -euo pipefail
+          BODY_FILE=".modrinth/body.md"
+          python3 - << 'PYEOF'
+          import json, os
+          with open('.modrinth/body.md', encoding='utf-8') as f:
+              body = f.read()
+          with open('/tmp/mr_patch.json', 'w', encoding='utf-8') as f:
+              json.dump({'body': body}, f)
+          print(f"Payload built: {len(body)} chars")
+          PYEOF
+          HTTP=$(curl -s -o /tmp/mr_patch_resp.json -w "%{http_code}" \
+            -X PATCH "https://api.modrinth.com/v2/project/CR2XFGJ4" \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -H "Content-Type: application/json" \
+            -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
+            --data-binary @/tmp/mr_patch.json)
+          echo "HTTP: $HTTP"
+          cat /tmp/mr_patch_resp.json; echo
+          if [ "$HTTP" != "200" ] && [ "$HTTP" != "204" ]; then exit 1; fi
+          echo "Description updated successfully."
