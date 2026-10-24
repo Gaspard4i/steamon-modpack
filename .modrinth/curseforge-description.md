@@ -12,23 +12,30 @@
 
 ## About this modpack
 
-Steamon is a cozy Create x Cobblemon pack, built for calm, unhurried play.
+Steamon aims to be the best Create x Cobblemon pack out there, built for calm, unhurried play.
 
-Catch and raise Pokémon, keep a small farm, cook real food, lay down some rails, and wander a bigger overworld. Nothing rushes you. Play solo for a long quiet run, or bring friends along.
+Every mod earns its place: nothing is in here just to pad the mod count. Content is picked for fitting together logically, actually being useful, and genuinely adding to a Create x Cobblemon world instead of competing with it. Catch and raise Pokémon, keep a small farm, cook real food, lay down some rails, and wander a much bigger overworld. Nothing rushes you. Play solo for a long quiet run, or bring friends along.
+
+## Guided progression
+
+You're never just dropped in with no direction. Trainers wander the world and challenge you as you go (**Radical Cobblemon Trainers**), raid dens pull you into real encounters worth preparing for (**Cobblemon Raid Dens**, plus a custom raid portal structure), and a phone in your pocket (**Cobblemon Smartphone**) keeps track of your Pokédex, nearby trainers and what's left to do. Capturing, breeding and releasing Pokémon all feed back into your progress instead of being side activities.
 
 ## Some of what's inside
 
-Over 200 mods. A few that set the tone:
+Over 200 mods, picked to fit together. A few that set the tone:
 
 - **Create** and **Cobblemon**: the two pillars. Contraptions and trains on one side, Pokémon to catch and train on the other.
+- **Cobblemon add-ons worth having**: Mega Showdown, Raid Dens, Breeding, Myths & Legends, Journey Mounts, Armory, Safe Pastures, Smartphone and more — all chosen because they add something real, not because they exist.
+- **Create add-ons that make sense together**: Steam 'n' Rails, Central Kitchen, Let the Adventure Begin, Encased, Sophisticated Storage/Backpacks integration — contraptions that stay useful instead of overlapping each other.
 - **Farmer's Delight**: proper cooking, and a reason to keep a farm.
-- **Terralith**: a prettier, bigger overworld to explore.
-- **Relics** and **Artifacts**: a light RPG layer with treasure worth hunting for.
-- **Radical Cobblemon Trainers**: wandering trainers to battle out in the world.
+- **Terralith**, **Oh The Biomes We've Gone** and YUNG's suite: a prettier, bigger, more varied overworld with real dungeons, mineshafts and strongholds to explore.
+- **Distant Horizons**: see the world unfold for real, way past normal render distance.
+- **Artifacts**: a light RPG layer with treasure worth hunting for.
+- **Flan**: simple, no-fuss land claiming so builds and bases stay safe.
+- **FTB Quests** (optional, linked in-game): structured questlines for players who want a guided path through the pack.
 - **JEI**: look up any recipe.
 - **GraveStone**: get your stuff back when you die.
 - **Lootr**: everyone gets their own chest loot, no fighting over it.
-- **Cobblemon Gym Badges**: earn badges from the gym leaders scattered around the world.
 - **Simple Voice Chat**: talk to people near you.
 
 The rest fills in the cozy details: more food, furniture, decoration, quality of life and performance. The full list lives in each version's file metadata.
