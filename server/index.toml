@@ -269,6 +269,16 @@ file = "config/waystones-common.toml"
 hash = "54fc09c69f637a825b16f3c257111acc430e23e87d221a83367f5df6b5be6d94"
 
 [[files]]
+file = "datapacks/no-ae2-meteorites.pw.toml"
+hash = "51695158861eb0aae53e44cc8c7c0ff45bf6476eaa8e25003f2b4ec8c1b4ae63"
+metafile = true
+
+[[files]]
+file = "datapacks/no-creeper-grief.pw.toml"
+hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
+metafile = true
+
+[[files]]
 file = "mods/abyssal-decor.pw.toml"
 hash = "20dfb8bc6554a13dc19b606224923c3167ec1b8bb37f6c8bfe812e07980dc2c4"
 metafile = true
@@ -756,6 +766,11 @@ metafile = true
 [[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "e53646f88aeb6bd54c38db50da972abdac91e83c145a8f974107b0ca103b15bc"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
 metafile = true
 
 [[files]]
@@ -1266,14 +1281,4 @@ metafile = true
 [[files]]
 file = "world/datapacks/cobblemonraiddens-typedesigns.pw.toml"
 hash = "6c297d9a2d500f43390ccdcaf5acf32c4353f9c79f16ec6946daee54158b283f"
-metafile = true
-
-[[files]]
-file = "world/datapacks/no-ae2-meteorites.pw.toml"
-hash = "51695158861eb0aae53e44cc8c7c0ff45bf6476eaa8e25003f2b4ec8c1b4ae63"
-metafile = true
-
-[[files]]
-file = "world/datapacks/no-creeper-grief.pw.toml"
-hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
 metafile = true
