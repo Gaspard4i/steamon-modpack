@@ -1,0 +1,13 @@
+name = "CleanMaid"
+filename = "cleanmaid-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/rvq3ytpo/versions/Gj3wfBhX/cleanmaid-1.0.0.jar"
+hash-format = "sha512"
+hash = "cbc8194aab5e29e255bf89958396bb9ca308a5d089864c3a041723e4e6df88cd769c8f1ce0d84ace853fdc207c8840ef96fa6597d392bffeebe3e3632429540e"
+
+[update]
+[update.modrinth]
+mod-id = "rvq3ytpo"
+version = "Gj3wfBhX"

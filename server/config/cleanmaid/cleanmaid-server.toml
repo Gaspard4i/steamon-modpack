@@ -1,0 +1,54 @@
+["general"]
+	enabled = true
+	interval_seconds = 900
+	warning_seconds = 60
+	countdown_seconds = 10
+	broadcast_when_zero = false
+	debug = false
+	easter_egg = true
+	max_items_per_batch = 500
+
+["targets"]
+	# Only ground items and XP orbs - no mobs, no projectiles, nothing a
+	# player would be actively using.
+	clean_item_entities = true
+	clean_experience_orbs = true
+	clean_arrows = false
+	clean_tridents = false
+	clean_snowballs = false
+	clean_eggs = false
+	clean_other_projectiles = false
+
+["black_white_filter"]
+	item_blacklist_enable = true
+	item_whitelist_enable = true
+	dm_blacklist_enable = true
+	dm_whitelist_enable = true
+
+["protection"]
+	protect_named_items = true
+	protect_custom_name_entities = true
+	protect_player_death_drops = true
+	player_death_drop_protection_seconds = 300
+	minimum_item_age_seconds = 30
+
+["display"]
+	use_actionbar = true
+	use_chat = true
+
+["messages"]
+	warning = "<yellow>Ground items and XP orbs will be cleared in {time}s."
+	countdown = "<red>Clearing in {time}s..."
+	cleaned = "<green>Cleared {count} items in {duration}s."
+	manual_cleaned = "<green>Manual clear: removed {count} items in {duration}s."
+	reload_success = "<green>CleanMaid config reloaded."
+	reload_failed = "<red>Config reload failed, check cleanmaid-server.toml."
+
+["sound"]
+	warning_sound_enabled = true
+	warning_sound = "minecraft:block.note_block.pling"
+	warning_sound_volume = 1.0
+	warning_sound_pitch = 1.0
+
+["commands"]
+	permission_level = 3

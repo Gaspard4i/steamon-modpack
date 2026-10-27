@@ -17,6 +17,10 @@ file = "config/c2me.toml"
 hash = "94e739c13fac032df86b054bf8795f7dec98abe444567b70cd17f4ff5fa21ed1"
 
 [[files]]
+file = "config/cleanmaid/cleanmaid-server.toml"
+hash = "594a958c0e0a1e49659a3fa2d4d08ed74ed1e60458361d0f72ec2602ec00055f"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "68d31264defda9290e5613cc8d380a7e9c3475f202e4dd9157f42cc9ba378f50"
 
@@ -381,6 +385,11 @@ metafile = true
 [[files]]
 file = "mods/chefs-delight.pw.toml"
 hash = "4c05ea60d85212e4737d23a4b5ee74659a37c7cb9d6ab54c71b2eca56ed1f58c"
+metafile = true
+
+[[files]]
+file = "mods/cleanmaid.pw.toml"
+hash = "5b6362ec67e439f812ea7c368de50800966df22b6ad0a5bbf54be092350c6311"
 metafile = true
 
 [[files]]
