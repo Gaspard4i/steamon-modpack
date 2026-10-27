@@ -1,0 +1,87 @@
+name: One-time update description and gallery
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update project body on Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PYEOF'
+          import json, os, urllib.request
+
+          token = os.environ['MODRINTH_TOKEN']
+          with open('.modrinth/body.md', encoding='utf-8') as f:
+              body = f.read()
+
+          payload = json.dumps({'body': body}).encode('utf-8')
+          req = urllib.request.Request(
+              'https://api.modrinth.com/v2/project/CR2XFGJ4',
+              data=payload,
+              method='PATCH',
+              headers={
+                  'Authorization': token,
+                  'Content-Type': 'application/json',
+                  'User-Agent': 'github.com/Gaspard4i/steamon-modpack',
+              },
+          )
+          with urllib.request.urlopen(req) as r:
+              print('PATCH body status:', r.status)
+          PYEOF
+
+      - name: Upload gallery images in order
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PYEOF'
+          import os, urllib.request, urllib.parse, mimetypes
+
+          token = os.environ['MODRINTH_TOKEN']
+          images = [
+              ("gallery/10-gogoats-mountains.png", "Gogoat's mountains",
+               "Nice terrain generation from Tectonic, TerraBlender, Terralith and more."),
+              ("gallery/20-create-structures.png", "Create structures",
+               "Create structures from Create: Let The Adventure Begin."),
+              ("gallery/30-great-view.png", "Great view",
+               "We have Distant Horizons installed, but turned off by default."),
+              ("gallery/40-high-and-low-terrain.png", "High and low terrain",
+               "Terrain generation adapted for players who like continental mountains and big plains."),
+              ("gallery/50-ultra-wormhole.png", "Ultra Wormhole ??",
+               "I made a custom mod to replace the raid den system with Ultra Wormholes that spawn sometimes around you."),
+              ("gallery/60-cobblemon-habitat.png", "Cobblemon Habitat",
+               "What? The pack is updated for Cobblemon 1.8.2?? Yes, of course."),
+          ]
+
+          for i, (path, title, description) in enumerate(images):
+              with open(path, 'rb') as f:
+                  data = f.read()
+              mime = mimetypes.guess_type(path)[0] or 'image/png'
+              params = urllib.parse.urlencode({
+                  'ext': 'png',
+                  'featured': 'true' if i == 0 else 'false',
+                  'title': title,
+                  'description': description,
+                  'ordering': (i + 1) * 10,
+              })
+              req = urllib.request.Request(
+                  f'https://api.modrinth.com/v2/project/CR2XFGJ4/gallery?{params}',
+                  data=data,
+                  method='POST',
+                  headers={
+                      'Authorization': token,
+                      'Content-Type': mime,
+                      'User-Agent': 'github.com/Gaspard4i/steamon-modpack',
+                  },
+              )
+              with urllib.request.urlopen(req) as r:
+                  print(f'Uploaded {path}: status {r.status}')
+          PYEOF
