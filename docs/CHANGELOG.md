@@ -4,6 +4,23 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.23] - 2026-10-28 (beta)
+
+### Fixed the server crashing on boot
+
+2.0.22 shipped three mods that didn't actually work together or on this
+setup, which crashed the server on startup. All reverted/replaced:
+
+- Towns and Towers rolled back to 1.13.11 (1.13.12+ targets a newer
+  Minecraft version this pack doesn't run).
+- The trial spawner fix is now a proper NeoForge build instead of a
+  Fabric-only one that needed a compatibility layer we don't have.
+- AllTheMons removed - it refuses to load next to Mega Showdown, which
+  the pack already has (with its own addon for extended models).
+
+If your game still won't join or shows old content, make sure your
+launcher pulled this version - 2.0.22 never ran stably on the server.
+
 ## [2.0.22] - 2026-10-28 (beta)
 
 ### Fixed random "Network Protocol Error" disconnects
