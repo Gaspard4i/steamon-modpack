@@ -698,6 +698,11 @@ hash = "c5160490ef9a20a1c72cb77b9e6d5020ed8ad6f4e85baa68d3901e9522e0c426"
 metafile = true
 
 [[files]]
+file = "mods/disconnect-packet-fix.pw.toml"
+hash = "d78a1a1c0f9ada6735e1368370e57e7f9ecbea88fd6ee66c27d4a387280c021c"
+metafile = true
+
+[[files]]
 file = "mods/discord-integration-(di).pw.toml"
 hash = "af8b8c64714dc0ef3fd4ffb12462edabbe7a62295b9a574bb8968b4e62cec28a"
 metafile = true
