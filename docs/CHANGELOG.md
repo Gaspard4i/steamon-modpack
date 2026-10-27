@@ -4,6 +4,24 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [Unreleased]
+
+### Fixed AE2 meteorites still spawning despite being disabled
+
+The datapack that turns off AE2 meteorites was shipping to the wrong folder:
+it only ever reached a world literally named `world`, which almost no
+singleplayer save actually is, and wasn't guaranteed on the server either.
+It now ships through the Global Packs mod, which loads it into whichever
+world you actually play. The same fix applies to the no-creeper-grief
+datapack.
+
+### Fixed FTB mods missing from the CurseForge build
+
+The CurseForge upload was shipping FTBChecker (a "go install FTB" nag
+screen) instead of the actual FTB Quests/Library/Teams/Essentials mods it
+points to. The real FTB mods are now bundled directly in the CurseForge
+build instead, along with FTB XMod Compat and FTB Filter System.
+
 ## [2.0.20] - 2026-10-23 (beta)
 
 ### Fixed the freeze when rejoining a world
