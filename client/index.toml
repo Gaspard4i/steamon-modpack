@@ -166,7 +166,7 @@ hash = "a3032b4671d29690abb3c85962e599c9cbc9bbeb43276b261445eddf9602b764"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "ad810c5422e2523f3971ae96affa3a9814c497db924ff26252237a4bc2ccbd11"
+hash = "280ae4674364f52f77cd67bee055c8dbd4334d2b75b4d320bea40b23d1da1d83"
 
 [[files]]
 file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
@@ -1416,11 +1416,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/create-sophisticated-backpacks.pw.toml"
 hash = "4a1765568ea97948d6e8a1871896bff7e980c1b63593866b4cdb330152b713d3"
-metafile = true
-
-[[files]]
-file = "resourcepacks/e19_cobblemon_minimap_icons.pw.toml"
-hash = "b087077de8316a564af57320e670e34cc7178b4f20d45eae5ea3d01604e7ce82"
 metafile = true
 
 [[files]]
