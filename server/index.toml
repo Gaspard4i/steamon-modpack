@@ -318,6 +318,11 @@ hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
 
 [[files]]
+file = "mods/allthemons.pw.toml"
+hash = "1963c26567874a35937a3c139e5d6ba83c9a443a6f996ef27990f19e2a4d7d44"
+metafile = true
+
+[[files]]
 file = "mods/almanac.pw.toml"
 hash = "c65748ba4e13309eeba1dae2dfb348ad9b6348a093dc02a901e3e5a2a6110b0d"
 metafile = true
