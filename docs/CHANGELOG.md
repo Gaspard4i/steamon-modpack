@@ -4,7 +4,7 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
-## [Unreleased]
+## [2.0.21] - 2026-10-27 (beta)
 
 ### Fixed AE2 meteorites still spawning despite being disabled
 
