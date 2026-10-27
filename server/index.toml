@@ -1218,6 +1218,11 @@ hash = "f5b816b8de8c237a6a7b51fda8323627a995796589fc6934ed4cd15e7f40e55a"
 metafile = true
 
 [[files]]
+file = "mods/tsddt.pw.toml"
+hash = "9cac9d748dd9ce1db7c92574dbc089dd0519a7e5333effe075862896e6e6cde0"
+metafile = true
+
+[[files]]
 file = "mods/universal-bone-meal.pw.toml"
 hash = "36451170388b68c89ba69f5f2bd4fd283d1811a3d9b5e31281a424f9ca6f61a7"
 metafile = true
