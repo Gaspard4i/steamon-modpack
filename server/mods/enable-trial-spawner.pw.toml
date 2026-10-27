@@ -1,0 +1,20 @@
+# Fixes trial spawners not activating. Confirmed Mojang bug MC-278630:
+# trial/vault spawners stop working when doMobSpawning is false, which
+# it is on this server (disabled to control hostile mob lag). This lets
+# them fire without re-enabling doMobSpawning globally.
+#
+# Native NeoForge build, not the Sinytra-only "Enable trial spawners"
+# (tsddt) which is Fabric-only and crashed the server.
+name = "Enable Trial Spawners"
+filename = "enable_trial_spawner-neoforge-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/h0MqxOhk/versions/BnvvVAVB/enable_trial_spawner-neoforge-1.0.0.jar"
+hash-format = "sha512"
+hash = "d5f7dd854f4fa7a7c4862391abdf1a46d4d245eee09193a1bb1ca0c9a9c4061798695b68896a4650500474055dba874d929676371c5b7a550ec374d114d696e8"
+
+[update]
+[update.modrinth]
+mod-id = "h0MqxOhk"
+version = "BnvvVAVB"

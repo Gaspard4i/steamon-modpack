@@ -318,11 +318,6 @@ hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
 
 [[files]]
-file = "mods/allthemons.pw.toml"
-hash = "1963c26567874a35937a3c139e5d6ba83c9a443a6f996ef27990f19e2a4d7d44"
-metafile = true
-
-[[files]]
 file = "mods/almanac.pw.toml"
 hash = "c65748ba4e13309eeba1dae2dfb348ad9b6348a093dc02a901e3e5a2a6110b0d"
 metafile = true
@@ -725,6 +720,11 @@ metafile = true
 [[files]]
 file = "mods/double-doors.pw.toml"
 hash = "99f1ddd42145295a0e53c87a4e14185c975e8b2174a53295a9021988f0748081"
+metafile = true
+
+[[files]]
+file = "mods/enable-trial-spawner.pw.toml"
+hash = "098fe505a50b8324d9fef4a60e469cf96845071a6746def845799cb90f3aeb01"
 metafile = true
 
 [[files]]
@@ -1214,7 +1214,7 @@ metafile = true
 
 [[files]]
 file = "mods/towns-and-towers.pw.toml"
-hash = "4e491951aa63bf70f11242b8165673e88fdb01e7b4510f4aa50d61d60dc3b266"
+hash = "a9afe82b3d1b4975dd9f8b3272898450aeb29365678b3779059977301f88c101"
 metafile = true
 
 [[files]]
@@ -1230,11 +1230,6 @@ metafile = true
 [[files]]
 file = "mods/tree-harvester.pw.toml"
 hash = "f5b816b8de8c237a6a7b51fda8323627a995796589fc6934ed4cd15e7f40e55a"
-metafile = true
-
-[[files]]
-file = "mods/tsddt.pw.toml"
-hash = "9cac9d748dd9ce1db7c92574dbc089dd0519a7e5333effe075862896e6e6cde0"
 metafile = true
 
 [[files]]
