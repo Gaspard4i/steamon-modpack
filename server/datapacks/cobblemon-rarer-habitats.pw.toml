@@ -1,0 +1,10 @@
+# Doubles the spacing between Cobblemon habitat structures. See
+# patches/cobblemon-rarer-habitats/README.md.
+name = "Cobblemon Rarer Habitats"
+filename = "cobblemon-rarer-habitats.zip"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/cobblemon-rarer-habitats/cobblemon-rarer-habitats.zip"
+hash-format = "sha512"
+hash = "a37b5856c4b08e9db19ec98b09c1afde754f92bad5597c33d352f3ca9014988310d138ed1faddae911be56cd5a8599a8beaa836c9fd3ae40712e249df3351f59"

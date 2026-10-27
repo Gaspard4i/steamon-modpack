@@ -329,6 +329,11 @@ file = "config/waystones-common.toml"
 hash = "54fc09c69f637a825b16f3c257111acc430e23e87d221a83367f5df6b5be6d94"
 
 [[files]]
+file = "datapacks/cobblemon-rarer-habitats.pw.toml"
+hash = "23d24c2e9e2a3aa67ac6e4bee128e05a15cfa1817f617e7a8cafde8e320c78af"
+metafile = true
+
+[[files]]
 file = "datapacks/no-ae2-meteorites.pw.toml"
 hash = "51695158861eb0aae53e44cc8c7c0ff45bf6476eaa8e25003f2b4ec8c1b4ae63"
 metafile = true
