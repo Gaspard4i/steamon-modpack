@@ -273,6 +273,11 @@ file = "config/waystones-common.toml"
 hash = "54fc09c69f637a825b16f3c257111acc430e23e87d221a83367f5df6b5be6d94"
 
 [[files]]
+file = "datapacks/allthemons-x-mega-showdown.pw.toml"
+hash = "9b7a64102da671accb777302b6ecd3be2935e1272a02421471ec11fb2b589df2"
+metafile = true
+
+[[files]]
 file = "datapacks/cobblemon-rarer-habitats.pw.toml"
 hash = "23d24c2e9e2a3aa67ac6e4bee128e05a15cfa1817f617e7a8cafde8e320c78af"
 metafile = true
@@ -1295,11 +1300,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-cave-biomes.pw.toml"
 hash = "5a334201feff0fb2f76d486399f47d0ce5b5818c284fea895706c92bb2119470"
-metafile = true
-
-[[files]]
-file = "world/datapacks/allthemons-x-mega-showdown-legacy.pw.toml"
-hash = "12dd7db62356a0b9cf97a7d6303005439bc571de723e7f605ed82b1ca3b44a43"
 metafile = true
 
 [[files]]
