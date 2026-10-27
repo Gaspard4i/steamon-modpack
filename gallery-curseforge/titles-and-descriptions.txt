@@ -1,0 +1,27 @@
+Titres et descriptions a copier dans le champ titre / description de chaque image
+lors de l'upload sur la galerie Modrinth et sur la galerie CurseForge.
+L'ordre des fichiers (10, 20, 30...) correspond a l'ordre d'affichage souhaite.
+
+10-gogoats-mountains.png
+Title: Gogoat's mountains
+Description: Nice terrain generation from Tectonic, TerraBlender, Terralith and more.
+
+20-create-structures.png
+Title: Create structures
+Description: Create structures from Create: Let The Adventure Begin.
+
+30-great-view.png
+Title: Great view
+Description: We have Distant Horizons installed, but turned off by default.
+
+40-high-and-low-terrain.png
+Title: High and low terrain
+Description: Terrain generation adapted for players who like continental mountains and big plains.
+
+50-ultra-wormhole.png
+Title: Ultra Wormhole ??
+Description: I made a custom mod to replace the raid den system with Ultra Wormholes that spawn sometimes around you.
+
+60-cobblemon-habitat.png
+Title: Cobblemon Habitat
+Description: What? The pack is updated for Cobblemon 1.8.2?? Yes, of course.
