@@ -868,7 +868,7 @@ jobs:
               f"**Get it on [Modrinth](https://modrinth.com/modpack/steamon) or "
               f"[CurseForge](https://www.curseforge.com/minecraft/modpacks/steamon).**\n"
               f"Your launcher updates it automatically, or hit Update on the pack.\n"
-              f"See <#1507307569008480298> for how to join.")
+              f"See <#1522566815211847732> for how to join.")
           MAX = 4096 - len(download_block) - 80  # safety margin
           if len(changelog) > MAX:
               changelog = changelog[:MAX].rsplit('\n', 1)[0] + "\n\n*…full notes on the Modrinth page.*"
