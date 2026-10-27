@@ -4,6 +4,66 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.22] - 2026-10-28 (beta)
+
+### Fixed random "Network Protocol Error" disconnects
+
+Players were getting randomly dropped with a "Network Protocol Error"
+popup. Confirmed as an unresolved vanilla bug (the server tries to send
+a disconnect packet in a phase of the connection that doesn't support
+it). A mod that works around it is now bundled.
+
+### Fixed trial spawners not activating
+
+Trial Chambers' spawners were silently doing nothing. Turns out natural
+mob spawning is off on this server to keep hostile mob lag in check,
+and trial spawners have a known bug where they stop working entirely
+when that's the case. They're forced back on without re-enabling
+natural spawning everywhere else.
+
+### Cobblemon habitats are now about twice as rare
+
+The small habitat structures (berry patches, bug mounds, and the rest)
+were showing up way too often while exploring. Doubled the spacing
+between them.
+
+### Fixed a missing texture bug (Luxray and others)
+
+A resource pack meant to just add Cobblemon icons to Xaero's Minimap
+turned out to also ship a stale, years-old Luxray texture straight into
+Cobblemon's own files, overriding the real one. Removed it - the
+minimap icons themselves come from elsewhere in the pack already.
+
+### Added CleanMaid
+
+Every 15 minutes, ground items, dropped arrows and XP orbs get cleared
+out, with a chat and on-screen warning first. No mobs or Pokemon are
+ever touched, and anything freshly dropped or named is protected.
+
+### Added AllTheMons
+
+Extended, more animated 3D models for most Pokemon, including Mega and
+Gigantamax forms. Doesn't change what spawns or how often, just what
+it looks like.
+
+### Mod updates
+
+Apricogs bumped to 1.2.3-beta (now works with Cobblemon 1.8.1 through
+1.8.4 instead of any version, Molten Vents make decorative blocks
+instead of raw ore, Poke Ball parts are assembly-line only by default).
+AllTheMons x Mega Showdown bumped to v5.0 (Cobblemon 1.8.2 compatible,
+fixes Mega Floette not rendering). Towns and Towers bumped to 1.13.13
+(fixes duplicated armor stands and a couple of missing loot tables).
+
+### Small fixes
+
+- Auto-jump is now off by default on fresh installs.
+- The CurseForge build now actually bundles the real FTB mods (Quests,
+  Library, Teams, Essentials, XMod Compat, Filter System) instead of
+  just the "go install FTB" nag screen.
+- The Discord "how to join" link in release announcements points to
+  the current channel.
+
 ## [2.0.21] - 2026-10-27 (beta)
 
 ### Fixed AE2 meteorites still spawning despite being disabled
