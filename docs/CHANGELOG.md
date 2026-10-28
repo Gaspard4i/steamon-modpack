@@ -4,6 +4,15 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.26] - 2026-10-28 (beta)
+
+### Actually, actually fixed AllTheMons coming back
+
+The real bug: previous "removed AllTheMons" commits only updated the
+pack index, never deleted the mod file itself, so the next refresh
+silently brought it right back. The file is gone now, checked directly
+against a local export before publishing this time.
+
 ## [2.0.25] - 2026-10-28 (beta)
 
 ### Actually fixed AllTheMons coming back
