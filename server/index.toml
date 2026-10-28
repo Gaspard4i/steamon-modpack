@@ -97,18 +97,6 @@ file = "config/fightorflight_visual_effect.json5"
 hash = "1968fe408691b02837f80aedb9c1009b913d4eb482a6d8a590eeca57703a50cb"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "3899c2186cf6071e680d8d413ef2b07ff6f7973cb3522cd09260450b26fb07b1"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "7a5caeaf173b8dc9809c40af722e580d806f0607be6e48c28f16dd4246d89b90"
-
-[[files]]
-file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
 file = "config/gravestone-server.toml"
 hash = "988716181a7da42501e3a2cb300914062658d0b62744b631c852bb0cd9509429"
 
@@ -988,6 +976,11 @@ hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
 metafile = true
 
 [[files]]
+file = "mods/neoessentials.pw.toml"
+hash = "2e9d6de93bc94f1ffccb608f3f0bc211e4f873019ee1987e8c09e23e71eab996"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
 metafile = true
@@ -1000,6 +993,16 @@ metafile = true
 [[files]]
 file = "mods/numismatics.pw.toml"
 hash = "840eb517a83c586b9f543ab9781d4c8529b6fedf2d679f411577c7a583e50fe5"
+metafile = true
+
+[[files]]
+file = "mods/odyssey-allies.pw.toml"
+hash = "b0431b358da438545708172c7df8168f686db0355931bfe97b5c280f408e9f3f"
+metafile = true
+
+[[files]]
+file = "mods/odyssey-quests.pw.toml"
+hash = "df20b79b0e4023d872f0cdbc3b144648b590eac66947a110d2d6b0ad1028b9cb"
 metafile = true
 
 [[files]]
@@ -1085,6 +1088,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "27721caca5a03b743bf25888e1d984142948069dace31453f103f94f7f24d2ce"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "f6c3fe3c80377a3b547ce44761df7db4fdc28e1f495078a198791f7bab00bb0a"
 metafile = true
 
 [[files]]

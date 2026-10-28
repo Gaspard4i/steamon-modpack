@@ -114,20 +114,10 @@ jobs:
         run: |
           set -euo pipefail
 
-          # --- Inject FTB quest mods (CurseForge-only, not redistributable) ---
-          # These never live in the repo (would be embedded illegally in the
-          # Modrinth .mrpack). Added here as manifest references (metadata:
-          # curseforge), a matched 2101.1.x train (Quests needs Library>=2101.1.31
-          # and Teams>=2101.1.9; Cobblemon Quests Reloaded needs ftbquests>=2101.0.0).
-          packwiz curseforge add --addon-id 404465 --file-id 9008089 -y   # FTB Library       2101.1.37
-          packwiz curseforge add --addon-id 404468 --file-id 8724782 -y   # FTB Teams         2101.1.11
-          packwiz curseforge add --addon-id 410811 --file-id 8442866 -y   # FTB Essentials    2101.1.10
-          packwiz curseforge add --addon-id 289412 --file-id 9298629 -y   # FTB Quests        2101.1.37
-          packwiz curseforge add --addon-id 1389481 --file-id 9148242 -y  # Cobblemon Quests Reloaded 2.0.2+1.8
-          packwiz curseforge add --addon-id 889915 --file-id 9267870 -y   # FTB XMod Compat   21.1.13
-          packwiz curseforge add --addon-id 943925 --file-id 7429011 -y   # FTB Filter System 21.1.4
-          # FTBChecker only exists to nag Modrinth users to install FTB; the CF
-          # build ships FTB directly, so drop it here.
+          # FTB Essentials/Teams/Quests/Library are gone, replaced by
+          # NeoEssentials, Odyssey Allies and Odyssey Quests, which all
+          # live in the packwiz repo like any other mod. Nothing to
+          # inject here anymore.
           packwiz remove ftbchecker || true
           packwiz refresh
 
@@ -487,13 +477,6 @@ jobs:
                           continue
                       dep_id = d.get('modId')
                       if dep_id in ('forge', 'java', 'minecraft', 'neoforge'):
-                          continue
-                      # FTB mods (Quests/Library/Teams/Essentials/Ranks) are
-                      # CurseForge-only and are installed manually on the server,
-                      # never in the packwiz repo — so they legitimately never
-                      # appear in the mrpack. Don't flag deps on them as missing.
-                      if dep_id in ('ftbquests', 'ftblibrary', 'ftbteams',
-                                    'ftbessentials', 'ftbranks'):
                           continue
                       if dep_id not in installed:
                           problems.append(f"{path_}: MISSING required '{dep_id}' {d.get('versionRange','')}")

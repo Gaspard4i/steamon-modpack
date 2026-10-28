@@ -245,10 +245,6 @@ file = "config/fightorflight_visual_effect.json5"
 hash = "1968fe408691b02837f80aedb9c1009b913d4eb482a6d8a590eeca57703a50cb"
 
 [[files]]
-file = "config/ftbchecker.toml"
-hash = "82b42465d250e218e63c467b94f40fa27ec19436e18488664fe77e450c5fa9c7"
-
-[[files]]
 file = "config/gravestone-server.toml"
 hash = "988716181a7da42501e3a2cb300914062658d0b62744b631c852bb0cd9509429"
 
@@ -849,11 +845,6 @@ hash = "e6c2bf6db2b040ce4bead639e5b6a743a792a59f6669c8d6b363e7624987b70f"
 metafile = true
 
 [[files]]
-file = "mods/ftbchecker.pw.toml"
-hash = "bb3b4b45ad44ad51cacc1ccda0509ab01a9101ac5bea145eab01a08308798ff5"
-metafile = true
-
-[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "1b3a8b643c73f1bf49739d9c509880d1cb3ba9c2e15a3f64056906cec622181d"
 metafile = true
@@ -1099,6 +1090,11 @@ hash = "840eb517a83c586b9f543ab9781d4c8529b6fedf2d679f411577c7a583e50fe5"
 metafile = true
 
 [[files]]
+file = "mods/odyssey-quests.pw.toml"
+hash = "df20b79b0e4023d872f0cdbc3b144648b590eac66947a110d2d6b0ad1028b9cb"
+metafile = true
+
+[[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
 hash = "fdaa22d49ee4987c2d0c012e24c7b44d50a653519767d18371e8d778c188f184"
 metafile = true
@@ -1186,6 +1182,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "27721caca5a03b743bf25888e1d984142948069dace31453f103f94f7f24d2ce"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "f6c3fe3c80377a3b547ce44761df7db4fdc28e1f495078a198791f7bab00bb0a"
 metafile = true
 
 [[files]]
