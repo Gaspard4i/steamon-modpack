@@ -4,6 +4,23 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.24] - 2026-10-28 (beta)
+
+### Fixed a crash on Persian (Alolan)
+
+Any Persian in its Alolan form (yours, another player's, wild, anyone's)
+crashed the game the moment it loaded. Cobblemon Journey Mounts was
+renaming a part of its 3D model to add mount support, and the game's
+own Persian code doesn't recognize that name. Removed the mod - Alolan
+Persian renders correctly again, but it can no longer be ridden as a
+mount.
+
+### Fixed AllTheMons still being bundled
+
+2.0.23 was supposed to drop AllTheMons (it refuses to load next to
+Mega Showdown, which the pack needs), but it shipped with it anyway.
+Actually removed this time.
+
 ## [2.0.23] - 2026-10-28 (beta)
 
 ### Fixed the server crashing on boot
