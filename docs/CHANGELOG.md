@@ -4,6 +4,16 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.25] - 2026-10-28 (beta)
+
+### Actually fixed AllTheMons coming back
+
+2.0.24 was supposed to drop AllTheMons but it kept reappearing - turns
+out ATM x Mega Showdown's own update metadata lists AllTheMons as a
+required dependency, so the publish pipeline silently re-added it on
+every release. ATM x Mega Showdown is now bundled directly instead of
+pulled from its usual source, which breaks that loop for good.
+
 ## [2.0.24] - 2026-10-28 (beta)
 
 ### Fixed a crash on Persian (Alolan)
