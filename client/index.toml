@@ -524,11 +524,6 @@ hash = "0edbc8027e392fafe68235cf837d3b1a2aa3e553499bfdd2ff9e70dfe251cb16"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-journey-mounts.pw.toml"
-hash = "6f434aa75689237a62052e70721a317f2dae34bc52be92ee1e3eab84bf5cce8a"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-mega-showdown.pw.toml"
 hash = "078500d07cbe6df613296368aab6eb669081e1874a755aa825ce525c0b344929"
 metafile = true
