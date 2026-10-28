@@ -273,8 +273,8 @@ file = "config/waystones-common.toml"
 hash = "54fc09c69f637a825b16f3c257111acc430e23e87d221a83367f5df6b5be6d94"
 
 [[files]]
-file = "datapacks/allthemons-x-mega-showdown.pw.toml"
-hash = "9b7a64102da671accb777302b6ecd3be2935e1272a02421471ec11fb2b589df2"
+file = "datapacks/atm-x-msd.pw.toml"
+hash = "fac6c9eb2960e9655cad07351e3a3f3798097d68355580c98c827cdb642c6fd5"
 metafile = true
 
 [[files]]

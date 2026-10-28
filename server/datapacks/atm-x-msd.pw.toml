@@ -1,0 +1,12 @@
+# Self-hosted, not via [update.modrinth]. See patches/atm-x-mega-showdown/README.md:
+# this addon's own Modrinth metadata requires AllTheMons, which
+# refuses to load next to Mega Showdown and crashed the server when
+# packwiz auto-resolved that dependency.
+name = "AllTheMons x Mega Showdown"
+filename = "atm-x-msd-v5.0.zip"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/atm-x-mega-showdown/atm-x-msd-v5.0.zip"
+hash-format = "sha512"
+hash = "bde31e76d9f5223484ef5e8a903a789dbb5c2bd09654d6d2c6a2a129bad864eb1d6c13d95611d79c51753a54d6a4297ec282cbb2086dbf864a0fdb56823f9cc1"
