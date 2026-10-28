@@ -1151,7 +1151,7 @@ metafile = true
 
 [[files]]
 file = "mods/raid-wormhole.pw.toml"
-hash = "8fba23ac0805238992ad8b1ba157c7d4c6bb513c06f2aa779f5f623b63aa94ae"
+hash = "d9a5fbaabded05539afd617cdd2cec574c15f476e11aa835221004e52a0d1733"
 metafile = true
 
 [[files]]

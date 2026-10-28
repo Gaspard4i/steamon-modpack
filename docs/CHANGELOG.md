@@ -4,6 +4,36 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.30] - 2026-10-28 (beta)
+
+### Replaced the FTB mod suite with open-source equivalents
+
+FTB Essentials, Teams, Quests and Library are gone, along with the
+CurseForge-only injection that used to bundle them separately. In their
+place:
+
+- **NeoEssentials** replaces FTB Essentials: `/tpa`, `/tpahere`, `/home`,
+  `/sethome`, `/spawn`, `/warp`, `/setwarp`, `/invsee` all work the same
+  way.
+- **Odyssey Quests** replaces FTB Quests/Library for the quest book and
+  UI. Open it with the Quest Book item, or bind "Open Quests" under
+  Options > Controls > Project Odyssey.
+
+FTB Teams has no replacement for now - team/guild features are gone
+until a suitable open-source option is found.
+
+### Updated Raid Wormhole to 0.3.0
+
+- New `/raidportals spawn` command (console/command-block friendly, full
+  tab completion of every known Pokemon).
+- Wormhole Lure effect: natural portals open more often and at higher
+  tiers while it's active.
+- Natural tier 7 portals can roll Alpha, shiny or perfect IVs.
+- `/raidportals list mythic` lists recognized Myth/Legend key items.
+- Fixed a crash with Myths and Legends 1.9.0 key items on Cobblemon
+  1.8.4, wrong tab-completion entries, a missing Jade tooltip model for
+  tier 6/7 bosses, and a missing portal-color texture warning.
+
 ## [2.0.26] - 2026-10-28 (beta)
 
 ### Actually, actually fixed AllTheMons coming back
