@@ -996,11 +996,6 @@ hash = "840eb517a83c586b9f543ab9781d4c8529b6fedf2d679f411577c7a583e50fe5"
 metafile = true
 
 [[files]]
-file = "mods/odyssey-allies.pw.toml"
-hash = "b0431b358da438545708172c7df8168f686db0355931bfe97b5c280f408e9f3f"
-metafile = true
-
-[[files]]
 file = "mods/odyssey-quests.pw.toml"
 hash = "df20b79b0e4023d872f0cdbc3b144648b590eac66947a110d2d6b0ad1028b9cb"
 metafile = true
@@ -1092,7 +1087,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "f6c3fe3c80377a3b547ce44761df7db4fdc28e1f495078a198791f7bab00bb0a"
+hash = "37b74054676e4c13bb60f56bcabd8a07b3e440b8dde8eba32e05edfbeb37bc26"
 metafile = true
 
 [[files]]
