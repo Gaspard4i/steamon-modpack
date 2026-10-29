@@ -4,6 +4,15 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.33] - 2026-10-30 (beta)
+
+### Fixed
+
+CurseForge upload was being rejected ("Invalid manifest.json file")
+because NeoEssentials (added in 2.0.32) got fingerprint-matched to an
+invalid CurseForge file ID. No gameplay change, CI fix only - same
+content as 2.0.32.
+
 ## [2.0.32] - 2026-10-29 (beta)
 
 ### Fixed noisy startup warnings
