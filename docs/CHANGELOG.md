@@ -4,6 +4,41 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.32] - 2026-10-29 (beta)
+
+### Fixed noisy startup warnings
+
+Distant Horizons no longer spams chat on join (low memory, replay,
+mod compatibility, render distance and garbage collector warnings all
+silenced), and Terralith's "thank you for downloading" intro message is
+gone. The "Unknown series 'steamon'" message is also gone - RCT Mod was
+pointed at a trainer series that didn't exist yet; the actual Steamon
+League datapack (8 Gym Leaders, Elite Four, Champion) is now bundled.
+
+### Fixed broken JEI previews for Let's Do Meadow and Farmer's Delight
+
+Both mods ship their own item tags (used by Cookpot, Woodcutter and
+Cooking Pot recipes) under a pre-1.21 file path that Minecraft 1.21+
+no longer reads, so JEI showed those recipes with missing/magenta
+ingredient slots even though the recipes themselves still worked. Fixed
+by re-publishing the same tags at the correct path. Also adds Farmer's
+Delight's missing beetroot crop tag, which wasn't defined anywhere.
+
+### Disabled the Cobblemon Smartphone craft
+
+Both ways to craft it are gone: the Create Mechanical Crafter recipe
+Apricogs adds (via its own compatibility config) and the original
+crafting table recipe from the Smartphone mod itself.
+
+### Tuned spawn rates
+
+Molten Vents and Cobblemon habitats both spawn 10x more rarely now.
+
+### Singleplayer commands fixed
+
+`/tpa`, `/home`, `/invsee` and the rest of NeoEssentials' commands now
+work in singleplayer worlds too, not just on the dedicated server.
+
 ## [2.0.31] - 2026-10-29 (beta)
 
 ### Removed Odyssey Quests (and Resourceful Lib)
