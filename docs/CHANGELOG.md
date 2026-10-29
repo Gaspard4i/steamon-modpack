@@ -4,6 +4,26 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.31] - 2026-10-29 (beta)
+
+### Removed Odyssey Quests (and Resourceful Lib)
+
+Odyssey Quests (the FTB Quests replacement added in 2.0.30) crashes
+every client that connects to a dedicated server: it never initializes
+its registry access on the client side, so the quest sync packet always
+fails to decode and disconnects the player with "Connection Lost". It
+only ever worked in singleplayer/LAN, where that step happens to be
+satisfied by the integrated server's own code path by coincidence.
+
+Confirmed this isn't a Steamon-specific issue: checked the mod's actual
+source, the bug exists for both NeoForge and Fabric, and has been there
+since at least its 1.20.x branch - it's not a version regression, it has
+simply never been triggered by singleplayer-style testing. Reported
+upstream with the exact one-line fix: https://github.com/terrarium-earth/Heracles/issues/292
+
+No quest system replacement for FTB Quests for now. Resourceful Lib is
+removed too since it was only pulled in as Odyssey Quests' dependency.
+
 ## [2.0.30] - 2026-10-28 (beta)
 
 ### Replaced the FTB mod suite with open-source equivalents

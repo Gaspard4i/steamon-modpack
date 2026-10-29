@@ -996,11 +996,6 @@ hash = "840eb517a83c586b9f543ab9781d4c8529b6fedf2d679f411577c7a583e50fe5"
 metafile = true
 
 [[files]]
-file = "mods/odyssey-quests.pw.toml"
-hash = "df20b79b0e4023d872f0cdbc3b144648b590eac66947a110d2d6b0ad1028b9cb"
-metafile = true
-
-[[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
 hash = "fdaa22d49ee4987c2d0c012e24c7b44d50a653519767d18371e8d778c188f184"
 metafile = true
@@ -1083,11 +1078,6 @@ metafile = true
 [[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "27721caca5a03b743bf25888e1d984142948069dace31453f103f94f7f24d2ce"
-metafile = true
-
-[[files]]
-file = "mods/resourceful-lib.pw.toml"
-hash = "37b74054676e4c13bb60f56bcabd8a07b3e440b8dde8eba32e05edfbeb37bc26"
 metafile = true
 
 [[files]]
