@@ -1,0 +1,12 @@
+# Self-hosted, not via [update.modrinth]. See patches/meadow-tag-fix/README.md:
+# fixes Let's Do Meadow 1.4.10 shipping its item tags under the pre-1.21
+# tags/item/ path instead of tags/items/, which breaks JEI preview and
+# tag resolution for Cookpot/Woodcutter recipes.
+name = "Meadow Tag Fix"
+filename = "meadow-tag-fix.zip"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/meadow-tag-fix/meadow-tag-fix.zip"
+hash-format = "sha512"
+hash = "7192fc3c8eea067a9890892cbfba9f0f132883d0925d99d1bdba1f571c1c526b79192d28bbc695d4bfa3266167449eaffdc3200a97a98e7aa2823201cee6da83"

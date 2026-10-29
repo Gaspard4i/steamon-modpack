@@ -9,6 +9,10 @@ file = "config/almostunified/unify.json"
 hash = "aa1ea7adc7a233452ad8239bb83facedbff63adf7873091d55e886991b7d5352"
 
 [[files]]
+file = "config/apricogs-common.toml"
+hash = "cd9c44c1ea9fe027011467f18908fc2d06943fdb307a82e8dc0835465c8077e1"
+
+[[files]]
 file = "config/artifacts/items.toml"
 hash = "31a205635a38df41639994dd9c54d8c302f81f5d128e10cfdf1e32fcfeb03dea"
 
@@ -267,7 +271,27 @@ metafile = true
 
 [[files]]
 file = "datapacks/cobblemon-rarer-habitats.pw.toml"
-hash = "23d24c2e9e2a3aa67ac6e4bee128e05a15cfa1817f617e7a8cafde8e320c78af"
+hash = "3c85d484741ada6d30104ce5a8d86d9f8c984d8b061654b6215f97c0219a4f14"
+metafile = true
+
+[[files]]
+file = "datapacks/disable-smartphone-craft.pw.toml"
+hash = "8d9773083925f4369a365d2a96893a62d878f832636017a61c54eea180377f53"
+metafile = true
+
+[[files]]
+file = "datapacks/farmers-delight-tag-fix.pw.toml"
+hash = "8262e8c54920a973c14cd43798cf61018504197d94bd683590988ae7d0e174c5"
+metafile = true
+
+[[files]]
+file = "datapacks/meadow-tag-fix.pw.toml"
+hash = "3f95de0b5e659df0290c1a0c8c921a79debbbccc8dbfb53097a1f36dfb62abc8"
+metafile = true
+
+[[files]]
+file = "datapacks/molten-vents-rarer.pw.toml"
+hash = "f759a686c8e94bdc6973bf8ba6ed0fcfc19667f996732ecf4485d9b3397ec3c0"
 metafile = true
 
 [[files]]
@@ -278,6 +302,11 @@ metafile = true
 [[files]]
 file = "datapacks/no-creeper-grief.pw.toml"
 hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
+metafile = true
+
+[[files]]
+file = "datapacks/steamon-trainers.pw.toml"
+hash = "79d7069758a2000830f9e32161b69f5184288af54e0d4416bdba09c17b4b8b6f"
 metafile = true
 
 [[files]]
@@ -977,7 +1006,7 @@ metafile = true
 
 [[files]]
 file = "mods/neoessentials.pw.toml"
-hash = "2e9d6de93bc94f1ffccb608f3f0bc211e4f873019ee1987e8c09e23e71eab996"
+hash = "7ea44babbf75ae2b94701fd2697b8438c14fbd63fac7a5bd5af94e92603c75d3"
 metafile = true
 
 [[files]]

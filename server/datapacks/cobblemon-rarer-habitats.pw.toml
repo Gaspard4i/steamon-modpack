@@ -7,4 +7,4 @@ side = "both"
 [download]
 url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/cobblemon-rarer-habitats/cobblemon-rarer-habitats.zip"
 hash-format = "sha512"
-hash = "a37b5856c4b08e9db19ec98b09c1afde754f92bad5597c33d352f3ca9014988310d138ed1faddae911be56cd5a8599a8beaa836c9fd3ae40712e249df3351f59"
+hash = "c21bc5d58ccd0d993201ba94390459a2c9796c2d2b3ecff43093de4ef749df58c44b145d9a8413c38f9b45f23dc22a96a9a9a03ed3e0491c84b26b9d17efc446"

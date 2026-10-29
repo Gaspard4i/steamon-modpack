@@ -1,0 +1,52 @@
+#Flags that control recipes and features
+[flags]
+	#Enable or disable the crafting recipe for Rare Candy
+	enable_rare_candy_recipe = true
+	#Let a Create mechanical crafter craft the Poke Balls from their crafting table recipes. Off by default, so the balls come from the assembly lines.
+	allow_balls_in_mechanical_crafter = false
+
+#Set a mod to false to turn off what this mod does for it: the recipes, the advancements and what the machines do with its blocks. The items, blocks and files that are registered when the game starts stay (the buckets of the Aether, the ores of Deeper and Darker, the Molten Vents files), a startup option cannot read this file.
+#Set it before opening a world, a change needs a restart of the game or the server. A mod that is not installed has nothing to turn off.
+[compatibility]
+	#Compatibility with Cobblemon: Mega Showdown
+	mega_showdown = true
+	#Compatibility with Create: Enchantment Industry
+	create_enchantment_industry = true
+	#Compatibility with Create: Dragons Plus
+	create_dragons_plus = true
+	#Compatibility with Create: Enchantable Machinery
+	createenchantablemachinery = true
+	#Compatibility with The Aether
+	aether = true
+	#Compatibility with Deep Aether
+	deep_aether = true
+	#Compatibility with Deeper and Darker
+	deeperdarker = true
+	#Compatibility with Cobblemon Utility +
+	cobblemon_utility = true
+	#Compatibility with Nava's ZA Megas
+	zamega = true
+	#Compatibility with Cobblemon Exp. All
+	cobblemonexpall = true
+	#Compatibility with Cobbreeding
+	cobbreeding = true
+	#Compatibility with Create: Molten Vents
+	molten_vents = true
+	#Compatibility with Cobblemon Smartphone
+	cobblemon_smartphone = false
+
+#How rare the origin ore is: one chunk in this many has a vein of it, so 1 is a vein in every chunk and a higher number is rarer.
+#The defaults are ten times rarer than ancient debris in the overworld, the nether and the Otherside, and a hundred times rarer in the Aether. The veins are small and hidden, like the ones of ancient debris. A change needs a restart, and only counts for the chunks that are not generated yet.
+[origin_ore]
+	# Default: 10
+	# Range: 1 ~ 100000
+	overworld = 10
+	# Default: 10
+	# Range: 1 ~ 100000
+	nether = 10
+	# Default: 100
+	# Range: 1 ~ 100000
+	aether = 100
+	# Default: 10
+	# Range: 1 ~ 100000
+	otherside = 10

@@ -1,0 +1,13 @@
+name = "Steamon Trainers"
+filename = "steamon-trainers.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dJzGgOYX/versions/T3FyrPa3/steamon-trainers.zip"
+hash-format = "sha512"
+hash = "7b94cea092ee6ebdbcca69267cc343415db58fbb4fc3c904c357a0568e0b082df6535855139dbad443fd2101a64429b118bbc5bb90acbc145a69df4a930a9920"
+
+[update]
+[update.modrinth]
+mod-id = "dJzGgOYX"
+version = "T3FyrPa3"

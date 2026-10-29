@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "684a02ca762100db0889fa94d880a5da2d998b96f5409b93801f424146e9e8af"
+hash = "979578d1833d2b149d9af5e976ade202030d7d0b9c3251e778abbe3a53d69c6b"
 
 [[files]]
 file = "config/accessories.json5"
@@ -11,6 +11,10 @@ hash = "9ca14293603e6665aaa4605ec208e63f5ea139340495f8e793aa04cad8417df8"
 [[files]]
 file = "config/almostunified/unify.json"
 hash = "aa1ea7adc7a233452ad8239bb83facedbff63adf7873091d55e886991b7d5352"
+
+[[files]]
+file = "config/apricogs-common.toml"
+hash = "cd9c44c1ea9fe027011467f18908fc2d06943fdb307a82e8dc0835465c8077e1"
 
 [[files]]
 file = "config/artifacts/items.toml"
@@ -309,6 +313,10 @@ file = "config/supplementaries-common.toml"
 hash = "f4161a2f1e5ba4aeb00040492f253b02006415c1ba8897929ecea6e453093d35"
 
 [[files]]
+file = "config/terralith.json"
+hash = "de592f6eb46c9b12150d3eb3ac704ddb816dc361fefa7a827619cb0f84e6d204"
+
+[[files]]
 file = "config/towns_and_towers/structure_rarity_new.json5"
 hash = "fe4ca0974aca38b27c94e3f1dc092f1688b54f27d9eaa728d61c6ccae4ca1313"
 
@@ -331,7 +339,27 @@ metafile = true
 
 [[files]]
 file = "datapacks/cobblemon-rarer-habitats.pw.toml"
-hash = "23d24c2e9e2a3aa67ac6e4bee128e05a15cfa1817f617e7a8cafde8e320c78af"
+hash = "3c85d484741ada6d30104ce5a8d86d9f8c984d8b061654b6215f97c0219a4f14"
+metafile = true
+
+[[files]]
+file = "datapacks/disable-smartphone-craft.pw.toml"
+hash = "8d9773083925f4369a365d2a96893a62d878f832636017a61c54eea180377f53"
+metafile = true
+
+[[files]]
+file = "datapacks/farmers-delight-tag-fix.pw.toml"
+hash = "8262e8c54920a973c14cd43798cf61018504197d94bd683590988ae7d0e174c5"
+metafile = true
+
+[[files]]
+file = "datapacks/meadow-tag-fix.pw.toml"
+hash = "3f95de0b5e659df0290c1a0c8c921a79debbbccc8dbfb53097a1f36dfb62abc8"
+metafile = true
+
+[[files]]
+file = "datapacks/molten-vents-rarer.pw.toml"
+hash = "f759a686c8e94bdc6973bf8ba6ed0fcfc19667f996732ecf4485d9b3397ec3c0"
 metafile = true
 
 [[files]]
@@ -342,6 +370,11 @@ metafile = true
 [[files]]
 file = "datapacks/no-creeper-grief.pw.toml"
 hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
+metafile = true
+
+[[files]]
+file = "datapacks/steamon-trainers.pw.toml"
+hash = "79d7069758a2000830f9e32161b69f5184288af54e0d4416bdba09c17b4b8b6f"
 metafile = true
 
 [[files]]
@@ -1072,6 +1105,11 @@ metafile = true
 [[files]]
 file = "mods/navas-zamega.pw.toml"
 hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
+metafile = true
+
+[[files]]
+file = "mods/neoessentials.pw.toml"
+hash = "7ea44babbf75ae2b94701fd2697b8438c14fbd63fac7a5bd5af94e92603c75d3"
 metafile = true
 
 [[files]]

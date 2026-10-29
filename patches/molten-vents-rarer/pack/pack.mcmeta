@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Makes Molten Vents spawn 10x more rarely (chance x10 on all 12 placed features)"
+  }
+}

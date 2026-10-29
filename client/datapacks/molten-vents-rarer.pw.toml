@@ -1,0 +1,11 @@
+# Self-hosted, not via [update.modrinth]. See patches/molten-vents-rarer/README.md:
+# multiplies every Molten Vents spawn chance by 10 (so it spawns 10x
+# more rarely) by overriding its placed_feature files.
+name = "Molten Vents Rarer"
+filename = "molten-vents-rarer.zip"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/molten-vents-rarer/molten-vents-rarer.zip"
+hash-format = "sha512"
+hash = "1d3616b3e7ad7d315a3f1b1323c24d6df5a8cc8c74994ed4c7aab3d5c63151b50be29fdefd3f25f6bbea418b13ce015665a0d22f44b9247c597b87a1c25eeb98"

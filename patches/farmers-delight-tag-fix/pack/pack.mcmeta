@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Fixes Farmer's Delight 1.3.4 shipping its c: item tags under the pre-1.21 tags/item/ path instead of tags/items/, plus adds the missing c:crops/beetroot entry"
+  }
+}

@@ -1,0 +1,12 @@
+# Self-hosted, not via [update.modrinth]. See patches/disable-smartphone-craft/README.md:
+# disables the base Cobblemon Smartphone crafting table recipes (the
+# Create Mechanical Crafter path is disabled separately, via Apricogs'
+# own config, see client/config/apricogs-common.toml).
+name = "Disable Smartphone Craft"
+filename = "disable-smartphone-craft.zip"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/disable-smartphone-craft/disable-smartphone-craft.zip"
+hash-format = "sha512"
+hash = "b5218e063850edcdcdedb2f2ab607a90fc4892a194ec0af212ea19072e3ac498da9940495ab460d08469a4555a7a620d2a010431f7a1375ed7e376f725f9ce26"
