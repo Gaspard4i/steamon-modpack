@@ -4,6 +4,16 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.34] - 2026-10-30 (beta)
+
+### Changed
+
+Merged 4 self-hosted datapack patches (Meadow/Farmer's Delight tag
+fixes, Smartphone craft disable, Molten Vents rarity) into a single
+`steamon-patches.zip`. No gameplay change - this fixes CurseForge
+sending every release that touched one of these files into manual
+review, since each separate zip was an unknown file to CurseForge.
+
 ## [2.0.33] - 2026-10-30 (beta)
 
 ### Fixed
