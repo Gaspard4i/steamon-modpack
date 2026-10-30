@@ -343,26 +343,6 @@ hash = "3c85d484741ada6d30104ce5a8d86d9f8c984d8b061654b6215f97c0219a4f14"
 metafile = true
 
 [[files]]
-file = "datapacks/disable-smartphone-craft.pw.toml"
-hash = "8d9773083925f4369a365d2a96893a62d878f832636017a61c54eea180377f53"
-metafile = true
-
-[[files]]
-file = "datapacks/farmers-delight-tag-fix.pw.toml"
-hash = "8262e8c54920a973c14cd43798cf61018504197d94bd683590988ae7d0e174c5"
-metafile = true
-
-[[files]]
-file = "datapacks/meadow-tag-fix.pw.toml"
-hash = "3f95de0b5e659df0290c1a0c8c921a79debbbccc8dbfb53097a1f36dfb62abc8"
-metafile = true
-
-[[files]]
-file = "datapacks/molten-vents-rarer.pw.toml"
-hash = "f759a686c8e94bdc6973bf8ba6ed0fcfc19667f996732ecf4485d9b3397ec3c0"
-metafile = true
-
-[[files]]
 file = "datapacks/no-ae2-meteorites.pw.toml"
 hash = "51695158861eb0aae53e44cc8c7c0ff45bf6476eaa8e25003f2b4ec8c1b4ae63"
 metafile = true
@@ -370,6 +350,11 @@ metafile = true
 [[files]]
 file = "datapacks/no-creeper-grief.pw.toml"
 hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
+metafile = true
+
+[[files]]
+file = "datapacks/steamon-patches.pw.toml"
+hash = "50a8231fe3d2a857825cfff253c5b429961057e4e729dbbb9a736ba6e7e8bb5a"
 metafile = true
 
 [[files]]

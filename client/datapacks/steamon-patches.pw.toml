@@ -1,0 +1,12 @@
+# Self-hosted, not via [update.modrinth]. See patches/steamon-patches/README.md:
+# merged datapack (Meadow/FD tag fixes, Smartphone craft disable, Molten
+# Vents rarity) so CurseForge sees one unknown file instead of several,
+# avoiding manual review on every release that touches one of these fixes.
+name = "Steamon Patches"
+filename = "steamon-patches.zip"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/steamon-patches/steamon-patches.zip"
+hash-format = "sha512"
+hash = "580f5b156b7cd32ea38b755b1eedb03a23ec53b3ac9c7fcb68430516a094c03b2c8c27fe66c4941776f226f17b6d5df61dd70d3cece47e5d3edeae2ee44642ce"

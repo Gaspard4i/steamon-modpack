@@ -1,6 +1,0 @@
-{
-  "pack": {
-    "pack_format": 48,
-    "description": "Fixes Let's Do Meadow 1.4.10 shipping its c: and meadow: item tags under the pre-1.21 tags/item/ path instead of tags/items/"
-  }
-}
