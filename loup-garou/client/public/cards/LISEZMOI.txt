@@ -1,0 +1,11 @@
+Illustrations des cartes
+========================
+Pour utiliser tes propres images de cartes (par exemple celles de ton jeu), copie-les ici
+avec ces noms exacts, au format WebP portrait (ratio 5:7, environ 500 x 700 px) :
+
+  werewolf.webp  villager.webp  seer.webp  witch.webp
+  hunter.webp    cupid.webp     littlegirl.webp  thief.webp
+
+Aucune modification de code n'est nécessaire : si le fichier existe, il remplace l'icone.
+Les illustrations officielles du jeu sont protegees par le droit d'auteur : ne les publie
+que si tu en as le droit.
