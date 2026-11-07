@@ -1,31 +1,41 @@
 import { ROLE_META } from '@shared/constants.js';
 import { h, icon } from './dom.js';
 import { openModal } from './modal.js';
+import { roleCard } from './card.js';
+
+// Contenu des règles, partagé entre la fenêtre (accueil) et l'onglet "Règles" de la partie.
+export function rulesNodes() {
+  const roles = Object.entries(ROLE_META).map(([id, m]) =>
+    h('li', { class: 'rule-role' },
+      roleCard(id, { flipped: true, small: true }),
+      h('div', {},
+        h('strong', {}, m.name),
+        h('p', {}, m.desc),
+        h('p', { class: 'tip' }, m.tip))));
+  return [
+    h('p', {}, 'Thiercelieux est hanté. Parmi les habitants se cachent des loups-garous. Le village doit les démasquer avant d’être dévoré. Les loups veulent manger tout le monde.'),
+    h('h3', {}, 'Déroulement'),
+    h('p', {}, h('strong', {}, 'La nuit. '), 'Tout le monde ferme les yeux. Les rôles se réveillent un par un : Voleur, Cupidon, Voyante, Loups, Sorcière. À l’écran, tu vois quand c’est ton tour. Les autres dorment.'),
+    h('p', {}, h('strong', {}, 'Le jour. '), 'Le village découvre qui est mort et sa carte est révélée. On débat, puis on vote. Le joueur qui reçoit le plus de voix est pendu. En cas d’égalité, personne n’est pendu.'),
+    h('h3', {}, 'Le maire'),
+    h('p', {}, 'Le premier jour, le village élit un maire. Sa voix compte double pendant les votes. S’il meurt, la mairie reste vacante.'),
+    h('h3', {}, 'Victoire'),
+    h('ul', {},
+      h('li', {}, 'Le village gagne quand tous les loups sont morts.'),
+      h('li', {}, 'Les loups gagnent quand ils sont au moins aussi nombreux que les autres.'),
+      h('li', {}, 'Deux amoureux de camps opposés gagnent seuls s’ils sont les derniers en vie.')),
+    h('h3', {}, 'Le narrateur'),
+    h('p', {}, 'L’hôte peut désigner un joueur comme narrateur. Il ne joue pas : il n’a pas de carte. Il voit seulement la liste des rôles à appeler dans l’ordre de la nuit, et il fait avancer la partie (étape suivante, fin de la discussion, ouverture et clôture du vote). Les joueurs votent eux-mêmes, et les votes sont comptés automatiquement. Sans narrateur, c’est le jeu qui rythme la partie avec des minuteurs.'),
+    h('h3', {}, 'Le chat'),
+    h('p', {}, 'Le jour, le village discute à voix haute ou par écrit. La nuit, seuls les loups peuvent s’écrire entre eux. Les morts ont leur propre salon et voient toutes les cartes, mais ne doivent rien révéler aux vivants.'),
+    h('h3', {}, 'Les cartes'),
+    h('p', { class: 'hint' }, 'Dans la partie, touche ta carte pour la retourner et relire ce que tu dois faire.'),
+    h('ul', { class: 'rule-roles' }, roles),
+  ];
+}
 
 export function openRules() {
-  const roles = Object.entries(ROLE_META).map(([id, m]) =>
-    h('li', { class: 'rule-role' }, icon(m.icon), h('div', {}, h('strong', {}, m.name), h('p', {}, m.desc))));
-  openModal({
-    title: 'Les règles',
-    wide: true,
-    body: h('div', { class: 'prose' },
-      h('p', {}, 'Thiercelieux est hanté. Parmi les habitants se cachent des loups-garous. Le village doit les démasquer avant l’aube du dernier jour. Les loups, eux, veulent dévorer tout le monde.'),
-      h('h3', {}, 'Une partie, deux temps'),
-      h('p', {}, h('strong', {}, 'La nuit. '), 'Tout le monde ferme les yeux. Les rôles se réveillent un à un : Voleur, Cupidon, Voyante, Loups, Sorcière. Vous voyez à l’écran quand c’est votre tour. Les autres dorment.'),
-      h('p', {}, h('strong', {}, 'Le jour. '), 'On découvre qui est mort, son rôle est révélé, puis le village débat et vote. Celui qui reçoit le plus de voix est pendu. En cas d’égalité, personne ne l’est.'),
-      h('h3', {}, 'Le maire'),
-      h('p', {}, 'Le premier jour, le village élit un maire. Sa voix compte double lors des votes.'),
-      h('h3', {}, 'Victoire'),
-      h('ul', {},
-        h('li', {}, 'Le village gagne quand tous les loups sont morts.'),
-        h('li', {}, 'Les loups gagnent quand ils sont aussi nombreux que les autres.'),
-        h('li', {}, 'Deux amoureux de camps opposés gagnent seuls s’ils sont les derniers en vie.')),
-      h('h3', {}, 'Les rôles'),
-      h('ul', { class: 'rule-roles' }, roles),
-      h('h3', {}, 'Le chat'),
-      h('p', {}, 'Le jour, le village discute à voix haute (ou dans le chat). La nuit, seuls les loups peuvent s’écrire entre eux. Les morts ont leur propre salon et voient tous les rôles, mais ne doivent rien révéler aux vivants.'),
-    ),
-  });
+  openModal({ title: 'Les règles', wide: true, body: h('div', { class: 'prose' }, rulesNodes()) });
 }
 
 const CREDITS = {
@@ -39,20 +49,22 @@ export function openCredits() {
     title: 'Crédits',
     wide: true,
     body: h('div', { class: 'prose' },
-      h('p', {}, 'Aucune illustration de ce site n’a été dessinée pour l’occasion : toutes viennent de bibliothèques libres de droit.'),
-      h('h3', {}, 'Icônes · game-icons.net · CC BY 3.0'),
+      h('p', {}, 'Aucune illustration de ce site n’a été dessinée pour l’occasion. Toutes viennent de bibliothèques libres de droit.'),
+      h('h3', {}, 'Icônes (game-icons.net, CC BY 3.0)'),
       h('p', {}, h('a', { href: 'https://game-icons.net', target: '_blank', rel: 'noopener' }, 'game-icons.net'),
-        ' — licence ', h('a', { href: 'https://creativecommons.org/licenses/by/3.0/', target: '_blank', rel: 'noopener' }, 'CC BY 3.0'), '. Couleurs modifiées par CSS.'),
+        ', licence ', h('a', { href: 'https://creativecommons.org/licenses/by/3.0/', target: '_blank', rel: 'noopener' }, 'CC BY 3.0'), '. Couleurs modifiées par CSS.'),
       h('h4', {}, 'Par Lorc'), h('ul', { class: 'cols' }, li(CREDITS.lorc)),
       h('h4', {}, 'Par Delapouite'), h('ul', { class: 'cols' }, li(CREDITS.delapouite)),
-      h('h3', {}, 'Polices · SIL Open Font License 1.1'),
+      h('h3', {}, 'Polices (SIL Open Font License 1.1)'),
       h('ul', {},
-        h('li', {}, 'Pirata One — Rodrigo Fuenzalida'),
-        h('li', {}, 'IM Fell English — Igino Marini'),
-        h('li', {}, 'Spectral — Production Type')),
+        h('li', {}, 'Pirata One, Rodrigo Fuenzalida'),
+        h('li', {}, 'IM Fell English, Igino Marini'),
+        h('li', {}, 'Spectral, Production Type')),
       h('h3', {}, 'Code'),
       h('ul', {}, h('li', {}, 'Socket.IO (MIT)'), h('li', {}, 'GSAP (licence standard gratuite)'), h('li', {}, 'Vite (MIT)'), h('li', {}, 'Express, Zod, Helmet, Pino (MIT)')),
-      h('p', {}, 'Jeu original : Le Loup-Garou de Thiercelieux, de Philippe des Pallières et Hervé Marly. Ce site est un projet de fans, non commercial.'),
+      h('p', {}, 'Jeu original : Les Loups-Garous de Thiercelieux, de Philippe des Pallières et Hervé Marly. Ce site est un projet de fans, non commercial.'),
     ),
   });
 }
+
+export { icon };

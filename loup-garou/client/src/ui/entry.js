@@ -21,7 +21,7 @@ export function mountEntry(root) {
   const msg = h('p', { class: 'form-msg', role: 'alert' });
   const picker = colorPicker({ selected: profile.color || null, taken: new Set(), onPick: () => { msg.textContent = ''; } });
   const roster = h('div', { class: 'roster' });
-  const tableState = h('p', { class: 'table-state' }, 'Le village est silencieux…');
+  const tableState = h('p', { class: 'table-state' }, 'Le village est silencieux.');
   const btn = h('button', { class: 'btn primary big', type: 'submit' }, icon('seal'), h('span', {}, 'S’asseoir à la table'));
 
   const syncCount = () => { count.textContent = `${pseudo.value.length}/${LIMITS.pseudoMax}`; };

@@ -1,4 +1,4 @@
-# Loup-Garou en ligne — une table, une nuit
+# Loup-Garou en ligne : une table, une nuit
 
 Le Loup-Garou de Thiercelieux pour jouer entre amis. **Une seule partie** partagée par tout le monde, protégée par un mot de passe. 100 % JavaScript.
 
@@ -8,7 +8,9 @@ Le Loup-Garou de Thiercelieux pour jouer entre amis. **Une seule partie** partag
 - Partie en cours = les nouveaux arrivent en **spectateurs** (aucun rôle visible) et rejoignent à la partie suivante.
 - Reconnexion automatique (token en localStorage), même en pleine nuit.
 - Rôles : Loup-Garou, Villageois, Voyante, Sorcière, Chasseur, Cupidon, Petite Fille, Voleur + élection du Maire.
-- Narrateur automatique. Chat du village (jour), des loups (nuit), des morts.
+- **Narrateur** : l'hôte peut désigner un joueur narrateur. Il ne joue pas, voit seulement la liste des rôles à appeler dans l'ordre de la nuit et fait avancer la partie (étape suivante, ouverture et clôture du vote, +30 s). Les votes restent aux joueurs et sont comptés automatiquement. Sans narrateur, des minuteurs rythment la partie. Si le narrateur se déconnecte en pleine nuit, le jeu reprend en automatique.
+- Règles accessibles à tous (onglet Règles). Chaque joueur peut retourner sa carte à tout moment pour relire son rôle.
+- Chat du village (jour), des loups (nuit), des morts.
 
 ## Architecture
 ```
@@ -42,5 +44,5 @@ Mot de passe de la table : variable `TABLE_PASSWORD` dans `.env`.
 
 ## Limites connues
 - Pas de sons ni musique pour l'instant (voir `CREDITS.md`).
-- Mode narrateur humain non implémenté (narrateur automatique uniquement).
+- Les illustrations officielles des cartes sont protégées par le droit d'auteur et ne sont pas incluses. Pour utiliser les tiennes, dépose `werewolf.webp`, `seer.webp`, etc. dans `client/public/cards/` (voir `LISEZMOI.txt`).
 - La synchronisation envoie l'état complet filtré à chaque changement (suffisant pour ≤ 18 joueurs).

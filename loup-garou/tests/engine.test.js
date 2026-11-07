@@ -112,3 +112,57 @@ test('actions hors phase refusées', () => {
   g.timer.clear();
   assert.equal(g.dispatch(ids[1], { type: 'vote', targetId: ids[2] }).code, 'WRONG_PHASE');
 });
+
+test('narrateur : la nuit avance à sa main, il ne voit aucun rôle', () => {
+  const { g, ids } = table(7, 11);
+  const [host, narr, ...players] = ids;
+  assert.ok(g.setNarrator(host, narr).ok);
+  assert.equal(g.setNarrator(players[0], narr).code, 'NOT_ALLOWED');
+  assert.equal(g.gamers().length, 6);
+  assert.ok(g.start(host).ok);
+  assert.equal(g.s.players[narr].role, null);
+  g.timer.clear();
+  g.onTimeout(); // fin de la distribution (ou commande du narrateur)
+  assert.equal(g.s.phase.name, 'night');
+  assert.equal(g.timer.handle, null, 'pas de minuteur en nuit manuelle');
+  assert.equal(g.s.phase.endsAt, null);
+  const v = projectFor(g, narr);
+  assert.equal(v.you.prompt.kind, 'narrator');
+  assert.ok(v.you.prompt.steps.length >= 3);
+  assert.ok(v.players.every((p) => p.role === null), 'le narrateur ne voit pas les identités');
+  assert.ok(!JSON.stringify(v).includes('"wolfVotes"'));
+  // Un joueur ne peut pas piloter
+  assert.equal(g.dispatch(players[0], { type: 'narrator', cmd: 'next' }).code, 'NOT_ALLOWED');
+  // Le narrateur enchaîne les étapes jusqu'à l'aube
+  let guard = 0;
+  while (g.s.phase.name === 'night' && guard++ < 20) assert.ok(g.dispatch(narr, { type: 'narrator', cmd: 'next' }).ok);
+  assert.notEqual(g.s.phase.name, 'night');
+  g.timer.clear();
+});
+
+test('narrateur : partie complète pilotée, un narrateur absent redonne la main au serveur', () => {
+  for (let seed = 1; seed <= 10; seed++) {
+    const { g, ids } = table(9, seed);
+    const narr = ids[1];
+    g.setNarrator(ids[0], narr);
+    const rng = seeded(seed + 500);
+    g.start(ids[0]);
+    let guard = 0;
+    while (g.s.status === 'playing' && guard++ < 500) {
+      for (const id of ids) if (id !== narr) botAct(g, id, rng);
+      g.dispatch(narr, { type: 'narrator', cmd: 'next' });
+    }
+    g.timer.clear();
+    assert.equal(g.s.status, 'ended', `seed ${seed}`);
+  }
+  const { g, ids } = table(6, 3);
+  g.setNarrator(ids[0], ids[1]);
+  g.start(ids[0]);
+  g.timer.clear();
+  g.onTimeout();
+  assert.equal(g.timer.handle, null);
+  g.setConnected(ids[1], false);
+  g.sweep();
+  assert.ok(g.timer.handle, 'minuteur automatique relancé');
+  g.timer.clear();
+});

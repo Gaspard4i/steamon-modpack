@@ -1,7 +1,7 @@
 import crypto from 'node:crypto';
 import { Server } from 'socket.io';
 import {
-  joinSchema, profileSchema, readySchema, configSchema, kickSchema, actionSchema, chatSchema,
+  joinSchema, profileSchema, readySchema, configSchema, kickSchema, actionSchema, chatSchema, narratorSchema,
 } from '../../shared/schemas.js';
 import { projectFor } from '../core/projection.js';
 import { RateLimiter } from './rateLimiter.js';
@@ -126,6 +126,11 @@ export function attachSocketServer(httpServer, game, log) {
     socket.on('host:reset', (_d, cb) => {
       if (!needPlayer(cb) || !guard(actionLimiter, cb)) return;
       ack(cb, game.resetTable(playerId));
+    });
+    socket.on('host:narrator', (data, cb) => {
+      if (!needPlayer(cb) || !guard(actionLimiter, cb)) return;
+      const d = parse(narratorSchema, data, cb); if (!d) return;
+      ack(cb, game.setNarrator(playerId, d.id));
     });
     socket.on('host:kick', (data, cb) => {
       if (!needPlayer(cb) || !guard(actionLimiter, cb)) return;

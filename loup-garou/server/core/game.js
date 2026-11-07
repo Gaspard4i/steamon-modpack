@@ -41,6 +41,7 @@ export class Game {
       version: 0,
       status: 'lobby', // lobby | playing | ended
       hostId: null,
+      narratorId: null,
       settings: structuredClone(DEFAULT_SETTINGS),
       phase: { name: PHASE.LOBBY, step: null, endsAt: null, round: 0 },
       players: {},
@@ -85,7 +86,12 @@ export class Game {
     return this.s.order.map((id) => this.s.players[id]);
   }
   gamers() {
-    return this.members().filter((p) => !p.spectator);
+    return this.members().filter((p) => !p.spectator && p.id !== this.s.narratorId);
+  }
+  // Narrateur connecté : c'est lui qui rythme la nuit (pas de minuteur sur les étapes).
+  manualNight() {
+    const n = this.s.players[this.s.narratorId];
+    return !!(n && n.connected);
   }
   alivePlayers() {
     return this.gamers().filter((p) => p.alive);
@@ -173,6 +179,7 @@ export class Game {
   removeMember(id, reason = 'leave') {
     const p = this.s.players[id];
     if (!p) return;
+    if (this.s.narratorId === id && reason === 'kick') this.s.narratorId = null;
     const inGame = this.s.status === 'playing' && !p.spectator;
     if (inGame) {
       // En partie : le joueur reste à sa place (déconnecté), sauf expulsion par l'hôte.
@@ -192,6 +199,7 @@ export class Game {
     }
     delete this.s.players[id];
     this.s.order = this.s.order.filter((x) => x !== id);
+    if (this.s.narratorId === id) this.s.narratorId = null;
     if (this.s.hostId === id) this.s.hostId = this.nextHost();
     this.changed();
   }
@@ -234,6 +242,19 @@ export class Game {
     for (const k of ['wolves', 'mayor', 'dealSeconds', 'nightSeconds', 'discussionSeconds', 'voteSeconds']) {
       if (cfg[k] !== undefined) st[k] = cfg[k];
     }
+    this.changed();
+    return OK;
+  }
+
+  setNarrator(hostId, targetId) {
+    if (!this.isHost(hostId)) return err('NOT_ALLOWED');
+    if (this.s.status !== 'lobby') return err('WRONG_PHASE');
+    if (targetId !== null) {
+      const t = this.s.players[targetId];
+      if (!t) return err('UNKNOWN');
+      t.ready = false;
+    }
+    this.s.narratorId = targetId;
     this.changed();
     return OK;
   }
@@ -373,8 +394,11 @@ export class Game {
     st.day = null;
     this.goto(PHASE.NIGHT, 'sleep');
     this.addLog(say('nightFall', this.rng), 'narration');
-    this.arm(4000);
     st.night.intro = true;
+    if (this.manualNight()) {
+      this.timer.clear();
+      st.phase.endsAt = null;
+    } else this.arm(4000);
     this.changed();
   }
 
@@ -397,7 +421,10 @@ export class Game {
     // Étape sans acteur vivant : leurre aléatoire pour ne rien révéler.
     const ms = hasActors ? role.duration(this) * 1000 : (4 + this.rand(6)) * 1000;
     this.goto(PHASE.NIGHT, role.step);
-    this.arm(ms);
+    if (this.manualNight()) {
+      this.timer.clear();
+      st.phase.endsAt = null;
+    } else this.arm(ms);
     this.changed();
   }
 
@@ -416,6 +443,7 @@ export class Game {
   }
 
   checkNightEarlyEnd() {
+    if (this.manualNight()) return;
     const n = this.s.night;
     const role = ROLES[n.steps[n.idx]];
     if (!role || !role.done(this)) return;
@@ -598,7 +626,9 @@ export class Game {
   dispatch(id, a) {
     const st = this.s;
     const p = st.players[id];
-    if (!p || p.spectator) return err('NOT_ALLOWED');
+    if (!p) return err('NOT_ALLOWED');
+    if (id === st.narratorId) return this.narratorCommand(a);
+    if (p.spectator || a.type === 'narrator') return err('NOT_ALLOWED');
     const phase = st.phase.name;
     const isAliveTarget = (tid) => tid && st.players[tid] && !st.players[tid].spectator && st.players[tid].alive;
 
@@ -652,6 +682,49 @@ export class Game {
       default:
         return this.nightAction(p, a, isAliveTarget);
     }
+  }
+
+  // Le narrateur rythme la partie (étapes, fin de discussion, clôture) mais ne vote jamais.
+  narratorCommand(a) {
+    const st = this.s;
+    if (a.type !== 'narrator' || st.status !== 'playing') return err('WRONG_PHASE');
+    if (a.cmd === 'next') {
+      this.timer.clear();
+      this.onTimeout();
+      return OK;
+    }
+    if (a.cmd === 'extend') {
+      if (!st.phase.endsAt) return err('WRONG_PHASE');
+      st.phase.endsAt = this.timer.set(st.phase.endsAt - this.now() + 30000, () => this.onTimeout());
+      this.changed();
+      return OK;
+    }
+    return err('NOT_ALLOWED');
+  }
+
+  roleAlive(roleId) {
+    return this.alivePlayers().some((p) => p.role === roleId);
+  }
+
+  // Vue du narrateur : uniquement la liste des rôles à appeler, dans l'ordre.
+  narratorView() {
+    const st = this.s;
+    const n = st.night;
+    const round = st.phase.name === PHASE.NIGHT && n ? st.phase.round : st.phase.round + 1;
+    const ids = n && st.phase.name === PHASE.NIGHT ? n.steps : nightStepsFor(st.activeRoles, Math.max(1, round)).map((r) => r.id);
+    const idx = n && st.phase.name === PHASE.NIGHT ? n.idx : -1;
+    return {
+      steps: ids.map((rid, i) => ({
+        role: rid,
+        alive: this.roleAlive(rid),
+        current: i === idx,
+        past: i < idx,
+        acted: i === idx ? !!ROLES[rid].done(this) : i < idx,
+      })),
+      intro: !!(n && n.intro),
+      manual: this.manualNight(),
+      canExtend: !!st.phase.endsAt,
+    };
   }
 
   nightAction(p, a, isAliveTarget) {
@@ -758,6 +831,10 @@ export class Game {
   // ---------- chat ----------
   chatChannelFor(p) {
     const ph = this.s.phase.name;
+    if (p.id === this.s.narratorId) {
+      if (this.s.status !== 'playing') return 'lobby';
+      return ph === PHASE.DAY || ph === PHASE.VOTE || ph === PHASE.MAYOR || ph === PHASE.HUNTER ? 'village' : null;
+    }
     if (p.spectator) return ph === PHASE.LOBBY || ph === PHASE.END ? 'lobby' : null;
     if (this.s.status !== 'playing') return 'lobby';
     if (!p.alive) return 'dead';
@@ -807,6 +884,11 @@ export class Game {
         this.s.hostId = nh;
         dirty = true;
       }
+    }
+    // Le narrateur a disparu en pleine nuit : la partie reprend en automatique.
+    if (this.s.status === 'playing' && this.s.phase.name === PHASE.NIGHT && !this.timer.handle && !this.manualNight()) {
+      this.arm(3000);
+      dirty = true;
     }
     // Partie fantôme : plus personne depuis 10 minutes.
     if (this.s.status !== 'lobby' && this.members().every((p) => !p.connected && now - p.lastSeen > 600000)) {

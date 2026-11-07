@@ -6,6 +6,7 @@ import { ROLES } from './roles.js';
 function promptFor(game, p) {
   const s = game.s;
   const ph = s.phase.name;
+  if (p.id === s.narratorId) return { kind: 'narrator', ...game.narratorView() };
   if (p.spectator) return null;
   if (!p.alive) {
     if (ph === PHASE.HUNTER && s.hunterId === p.id) {
@@ -73,6 +74,7 @@ export function projectFor(game, viewerId) {
       connected: o.connected,
       ready: o.ready,
       spectator: o.spectator,
+      narrator: o.id === s.narratorId,
       alive: o.spectator ? true : o.alive,
       isHost: o.id === s.hostId,
       mayor: o.id === s.mayorId,
@@ -94,6 +96,7 @@ export function projectFor(game, viewerId) {
     status: s.status,
     phase,
     hostId: s.hostId,
+    narratorId: s.narratorId,
     settings: s.settings,
     stats: s.stats,
     winner: s.winner,
@@ -107,6 +110,7 @@ export function projectFor(game, viewerId) {
       prompt: promptFor(game, me),
       chatChannel: game.chatChannelFor(me),
       isHost: me.id === s.hostId,
+      isNarrator: me.id === s.narratorId,
     },
     players,
     votes: s.phase.name === PHASE.VOTE && day ? day.votes : null,
