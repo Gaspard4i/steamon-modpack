@@ -1,0 +1,5 @@
+# À ajouter à /etc/caddy/Caddyfile (HTTPS automatique, WebSocket inclus)
+loup.exemple.fr {
+    encode zstd gzip
+    reverse_proxy 127.0.0.1:3210
+}

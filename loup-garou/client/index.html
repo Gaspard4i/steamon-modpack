@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0d17" />
+  <title>Loup-Garou · Thiercelieux</title>
+  <meta name="description" content="Le Loup-Garou de Thiercelieux, en ligne, entre amis. Une seule table, une seule nuit." />
+  <link rel="icon" href="/icons/werewolf.svg" type="image/svg+xml" />
+</head>
+<body data-time="night">
+  <div class="sky" aria-hidden="true">
+    <div class="sky-night"></div><div class="sky-day"></div>
+    <div class="orb"><i class="ico o-moon" style="--i:url(/icons/moon.svg)"></i><i class="ico o-sun" style="--i:url(/icons/sun.svg)"></i></div>
+    <canvas id="embers"></canvas>
+    <div class="treeline"></div>
+    <div class="mist"></div>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+  <div id="app"></div>
+  <div id="banner" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <div id="toasts" aria-live="polite"></div>
+  <noscript>Ce jeu a besoin de JavaScript pour fonctionner.</noscript>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
