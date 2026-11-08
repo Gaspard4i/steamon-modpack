@@ -21,8 +21,6 @@ patches in this repo.
   `compatibility.cobblemon_smartphone = false` flag in
   `apricogs-common.toml` to also drop Apricogs' Mechanical Crafter
   recipes.
-- **Molten Vents rarer**: makes Molten Vents spawn 10x more rarely
-  (chance x10 on all 12 placed features, land and aquatic variants).
 
 See each original patch's README in git history (pre-merge) for the
 full technical detail on why each fix was needed.

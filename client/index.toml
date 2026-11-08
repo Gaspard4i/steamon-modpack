@@ -343,18 +343,13 @@ hash = "3c85d484741ada6d30104ce5a8d86d9f8c984d8b061654b6215f97c0219a4f14"
 metafile = true
 
 [[files]]
-file = "datapacks/no-ae2-meteorites.pw.toml"
-hash = "51695158861eb0aae53e44cc8c7c0ff45bf6476eaa8e25003f2b4ec8c1b4ae63"
-metafile = true
-
-[[files]]
 file = "datapacks/no-creeper-grief.pw.toml"
 hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
 metafile = true
 
 [[files]]
 file = "datapacks/steamon-patches.pw.toml"
-hash = "50a8231fe3d2a857825cfff253c5b429961057e4e729dbbb9a736ba6e7e8bb5a"
+hash = "47addc7bf18b8a58b40412938b60936c9d74e9fdaae8ce56287c9178c5ce52d5"
 metafile = true
 
 [[files]]
@@ -419,7 +414,7 @@ metafile = true
 
 [[files]]
 file = "mods/apricogs.pw.toml"
-hash = "b9568983c849cb99e6c90e54a2040f210b16f433fda00777a9c844f9e9062117"
+hash = "7b015b581788f59de9c907ba321cce953d4e8cf9c7b8f1eac3fac1ab0c0a26c8"
 metafile = true
 
 [[files]]
@@ -1285,6 +1280,11 @@ metafile = true
 [[files]]
 file = "mods/spuds-shops.pw.toml"
 hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
+metafile = true
+
+[[files]]
+file = "mods/steamon-wilds.pw.toml"
+hash = "1de7aa3903ceee453884bdf8cf28ecea2df6890364086739901ffdb4d0ffad41"
 metafile = true
 
 [[files]]
