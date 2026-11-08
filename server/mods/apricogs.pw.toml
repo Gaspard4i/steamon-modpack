@@ -2,10 +2,10 @@
 # until approved - see patches/apricogs/README.md. No [update.modrinth]
 # section since it isn't on Modrinth yet.
 name = "Apricogs"
-filename = "apricogs-1.2.3-beta.jar"
+filename = "apricogs-1.2.4-beta.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/apricogs/apricogs-1.2.3-beta.jar"
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/apricogs/apricogs-1.2.4-beta.jar"
 hash-format = "sha512"
-hash = "d655989b5ac510fc73e54ed68c7b9fb3f48406b4c8f67dd327d87362d0784d2918b8ca6cddbf72f13bb0c515555806695ac435d220e632c8eaa8cd0be27ea6bb"
+hash = "ace5c146b39121c7d465b7aae6fa35a102ff83d12f7a4b59aab5aa9adc35bbaee410a3c66060e24eb485ae48d056fbffac5b666fe5fa25850fd654d38dee1d47"
