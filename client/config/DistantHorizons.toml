@@ -117,7 +117,7 @@ _version = 5
 	[common.multiThreading]
 		#
 		# How many threads should be used by Distant Horizons?
-		numberOfThreads = 16
+		numberOfThreads = 2
 		#
 		# A value between 1.0 and 0.0 that represents the percentage
 		# of time each thread can run before going idle.
@@ -737,7 +737,7 @@ _version = 5
 				#
 				# False = DH will render a single layer of clouds, like vanilla Minecraft.
 				# True = DH will render 3 layers of clouds at different heights.
-				enableMultiLayerClouds = true
+				enableMultiLayerClouds = false
 
 			[client.advanced.graphics.quality]
 				#
@@ -752,7 +752,7 @@ _version = 5
 				#
 				# Fastest: CHUNK
 				# Fanciest: BLOCK
-				maxHorizontalResolution = "BLOCK"
+				maxHorizontalResolution = "CHUNK"
 				#
 				# If true LODs will fade away as you get closer to them.
 				# If false LODs will cut off abruptly at a set distance from the camera.
@@ -779,7 +779,7 @@ _version = 5
 				# but will increase memory and GPU usage while zoomed in.
 				#
 				# A vanilla spyglass needs 4 detail levels to reach its full quality.
-				maxZoomQualityIncrease = 4
+				maxZoomQualityIncrease = 0
 				#
 				# How should LODs be shaded?
 				#
@@ -802,14 +802,14 @@ _version = 5
 				#
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: PIXEL_ART
-				verticalQuality = "MEDIUM"
+				verticalQuality = "LOW"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
 				#
 				# Note: this is a best effort number.
 				# The actual render distance may be above or below this number
 				# depending on your other graphic settings.
-				lodChunkRenderDistanceRadius = 100
+				lodChunkRenderDistanceRadius = 32
 				#
 				# How should the sides and bottom of grass block LODs render?
 				#
@@ -822,7 +822,7 @@ _version = 5
 				#
 				# Higher settings will increase the distance between drops
 				# but will increase memory and GPU usage.
-				horizontalQuality = "MEDIUM"
+				horizontalQuality = "LOW"
 				#
 				# How should LOD transparency be handled.
 				#
@@ -836,14 +836,14 @@ _version = 5
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF',
 				#     '1' equals to Vanilla Biome Blending of '3x3',
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
-				lodBiomeBlending = 3
+				lodBiomeBlending = 0
 				#
 				# How should vanilla Minecraft fade into Distant Horizons LODs?
 				#
 				# NONE: Fastest, there will be a pronounced border between DH and MC rendering.
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded.
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
-				vanillaFadeMode = "DOUBLE_PASS"
+				vanillaFadeMode = "NONE"
 				#
 				# If true LOD quality will increase when the camera is zoomed in,
 				# IE when using a spyglass or zoom mod.
