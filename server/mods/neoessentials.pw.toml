@@ -1,13 +1,13 @@
 name = "NeoEssentials"
-filename = "neoessentials-1.0.6-1.21.x+build.87-all.jar"
+filename = "neoessentials-1.0.7-1.21.x+build.55-all.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/yiaK4SZh/versions/dPdDiTM1/neoessentials-1.0.6-1.21.x%2Bbuild.87-all.jar"
+url = "https://cdn.modrinth.com/data/yiaK4SZh/versions/1OtYBWgZ/neoessentials-1.0.7-1.21.x%2Bbuild.55-all.jar"
 hash-format = "sha512"
-hash = "f5660c5ecd193ae8053b9d2f3c9ba56a63e6fcf3b37dddfa60e547df336a645b10c1ddf7a5dfd1ce927a9da7218d45728e8ff1a8c85e579c27038ee50715951b"
+hash = "c5caf32bf282ecf2a4b8d2a6daac5ec79a1016976eb77f1ae9a19e93dc1932c8dba6311ec19e8ec221e3b56483ce2db94d7144335aab36d5525ce73aaab8e9b7"
 
 [update]
 [update.modrinth]
 mod-id = "yiaK4SZh"
-version = "dPdDiTM1"
+version = "1OtYBWgZ"
