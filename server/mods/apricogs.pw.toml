@@ -1,11 +1,13 @@
-# Gaspard's own mod, in review on Modrinth/CurseForge. Self-hosted here
-# until approved - see patches/apricogs/README.md. No [update.modrinth]
-# section since it isn't on Modrinth yet.
 name = "Apricogs"
-filename = "apricogs-1.2.4-beta.jar"
+filename = "apricogs-1.3.0-beta.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/apricogs/apricogs-1.2.4-beta.jar"
+url = "https://cdn.modrinth.com/data/7QjVS0OL/versions/Mm9whDfd/apricogs-1.3.0-beta.jar"
 hash-format = "sha512"
-hash = "ace5c146b39121c7d465b7aae6fa35a102ff83d12f7a4b59aab5aa9adc35bbaee410a3c66060e24eb485ae48d056fbffac5b666fe5fa25850fd654d38dee1d47"
+hash = "0cb052e4b59d147ffe78a3b0f91229eeb554058ea2dc7ddd73044b73d93a260d789bc45f0f6a28574d5d54e71bf55889471a54bebe9ff6635ee7b40eaa38ca55"
+
+[update]
+[update.modrinth]
+mod-id = "7QjVS0OL"
+version = "Mm9whDfd"

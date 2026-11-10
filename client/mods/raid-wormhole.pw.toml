@@ -1,11 +1,13 @@
-# Gaspard's own mod (modId raidportals), in review on Modrinth/CurseForge.
-# Self-hosted here until approved - see patches/raid-wormhole/README.md.
-# No [update.modrinth] section since it isn't on Modrinth yet.
 name = "Raid Wormhole"
 filename = "raidportals-neoforge-0.3.0.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/raid-wormhole/raidportals-neoforge-0.3.0.jar"
+url = "https://cdn.modrinth.com/data/yRfCeEoC/versions/m1G8I9He/raidportals-neoforge-0.3.0.jar"
 hash-format = "sha512"
-hash = "53069d1ce1f9b5230fff4e60eb0e5fb06ed56527ae21756ec67cf16d5a7283c279ec774de8a1c9bdcc2f67edb508d8528d6eeefce49ea7b66f7f0939466655c2"
+hash = "56aec5457dd499701e7f3a6ddbcbd9d315b63a6eac9e0dcd0095d6c568cf1f7c15be504561016abadede8587c58ce2c190a13eb6c3bb6625d39d34870fb340df"
+
+[update]
+[update.modrinth]
+mod-id = "yRfCeEoC"
+version = "m1G8I9He"

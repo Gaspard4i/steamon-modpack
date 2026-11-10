@@ -346,7 +346,7 @@ metafile = true
 
 [[files]]
 file = "mods/apricogs.pw.toml"
-hash = "7b015b581788f59de9c907ba321cce953d4e8cf9c7b8f1eac3fac1ab0c0a26c8"
+hash = "db574dd2a22bb55066048c58fa37d9f40ac2690148bb76347db000141b7e327f"
 metafile = true
 
 [[files]]
@@ -1056,7 +1056,7 @@ metafile = true
 
 [[files]]
 file = "mods/raid-wormhole.pw.toml"
-hash = "d9a5fbaabded05539afd617cdd2cec574c15f476e11aa835221004e52a0d1733"
+hash = "05b37eb88e90461ffd4132a5d8b3a5f49485762b1fb8274fae8571441e8e5296"
 metafile = true
 
 [[files]]
@@ -1181,7 +1181,7 @@ metafile = true
 
 [[files]]
 file = "mods/steamon-wilds.pw.toml"
-hash = "1de7aa3903ceee453884bdf8cf28ecea2df6890364086739901ffdb4d0ffad41"
+hash = "bcb09d5bc79c43230a51029da9db7aad52b3fbe04ca60688e43e04724f4adea1"
 metafile = true
 
 [[files]]

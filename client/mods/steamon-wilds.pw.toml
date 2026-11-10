@@ -1,12 +1,13 @@
-# Gaspard's own mod, self-hosted because the GitHub repo is private
-# (no public raw.githubusercontent.com URL would work for others).
-# See patches/steamon-wilds/README.md. Published on CurseForge
-# (project 1757744) but not on Modrinth, so no [update.modrinth].
 name = "Steamon Wilds"
 filename = "steamon-wilds-1.0.1-beta.jar"
 side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/steamon-wilds/steamon-wilds-1.0.1-beta.jar"
+url = "https://cdn.modrinth.com/data/SL79nBYB/versions/DL9avkJD/steamon-wilds-1.0.1-beta.jar"
 hash-format = "sha512"
-hash = "f97694ea4661c59f4851dbdb102d72aac95bf0e27f97114cfd8a22af39f0a1544d1725e85ab31c2622c0a0942263945c8404700814262f0bb0a43a3ed1329fc9"
+hash = "353af1165cd1892a513ee996fb45638a3a780c5e7bfe4f5f0cfd151cee0cebbc37a78c321484a19a0bf0ad258244a49a8a89ef1ecf34ced3ecec4f43003dbcb4"
+
+[update]
+[update.modrinth]
+mod-id = "SL79nBYB"
+version = "DL9avkJD"
