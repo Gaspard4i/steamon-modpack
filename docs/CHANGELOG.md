@@ -4,6 +4,15 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.36] - 2026-11-11 (beta)
+
+### Fixed
+
+CI fix only, same content as 2.0.35 - the first attempt at tagging
+2.0.35 failed before publishing (missing changelog entry blocked the
+client job), so this version carries the same changes under a clean
+tag.
+
 ## [2.0.35] - 2026-11-11 (beta)
 
 ### Added
