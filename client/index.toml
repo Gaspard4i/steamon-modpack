@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "1e8e40a5a12d0f1ff4c860201e8e88ef916eec0ed91b7a42b23f441a0add2a6f"
-
-[[files]]
 file = "config/accessories.json5"
 hash = "9ca14293603e6665aaa4605ec208e63f5ea139340495f8e793aa04cad8417df8"
 
@@ -775,11 +771,6 @@ metafile = true
 [[files]]
 file = "mods/dense-ores.pw.toml"
 hash = "c5160490ef9a20a1c72cb77b9e6d5020ed8ad6f4e85baa68d3901e9522e0c426"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
 metafile = true
 
 [[files]]

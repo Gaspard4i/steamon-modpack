@@ -4,6 +4,16 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.37] - 2026-11-11 (beta)
+
+### Removed
+
+Distant Horizons is no longer shipped with the modpack. It was tuned
+to its lightest settings in 2.0.36 but was still the main source of
+client-side lag and freezes reported by players. The modpack stays
+compatible with Distant Horizons for anyone who wants to install it
+themselves.
+
 ## [2.0.36] - 2026-11-11 (beta)
 
 ### Fixed
