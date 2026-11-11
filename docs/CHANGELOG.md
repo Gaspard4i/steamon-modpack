@@ -4,6 +4,30 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.35] - 2026-11-11 (beta)
+
+### Added
+
+Steamon Wilds, now available via Modrinth.
+
+### Changed
+
+Apricogs, Raid Den Ultra Wormhole and Steamon Wilds now resolve
+through Modrinth instead of self-hosted overrides, now that all
+three mods have been approved there. Updated 19 third-party mods
+(NeoEssentials, ModernFix, KubeJS, Sophisticated Backpacks/Core,
+owo-lib, Moonlight Lib, Puzzles Lib, and others) to their latest
+Modrinth releases. Apricogs updated to 1.3.0-beta. Distant Horizons
+tuned to its lightest default settings (render distance, quality and
+thread count all reduced) to cut client-side lag and freezes reported
+by players.
+
+### Removed
+
+Dropped the Molten Vents rarity patch and the standalone
+`no-ae2-meteorites` patch from the merged datapack - both are now
+superseded by what Steamon Wilds does on its own.
+
 ## [2.0.34] - 2026-10-30 (beta)
 
 ### Changed
