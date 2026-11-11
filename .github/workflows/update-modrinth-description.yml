@@ -1,7 +1,7 @@
 name: Update Modrinth Description
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 jobs:
   update-description:
