@@ -4,6 +4,25 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.38] - 2026-11-12 (beta)
+
+### Added
+
+Discord Rich Presence and a custom Minecraft window/taskbar icon, both
+using the Steamon logo (client-side only).
+
+### Removed
+
+Dropped the `steamon-patches` datapack (Meadow/Farmer's Delight tag
+fixes and the Cobblemon Smartphone craft disable). It kept triggering
+CurseForge's manual review on every release and is being replaced by
+a dedicated mod instead of a datapack.
+
+### Fixed
+
+Stale mod file hashes in the pack index that predated this release,
+unrelated to the changes above.
+
 ## [2.0.37] - 2026-11-11 (beta)
 
 ### Removed
