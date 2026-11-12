@@ -12,7 +12,7 @@ Description: Create structures from Create: Let The Adventure Begin.
 
 30-great-view.png
 Title: Great view
-Description: We have Distant Horizons installed, but turned off by default.
+Description: Distant Horizons is not shipped with the pack anymore, but it stays fully compatible if you install it yourself.
 
 40-high-and-low-terrain.png
 Title: High and low terrain
@@ -25,3 +25,99 @@ Description: I made a custom mod to replace the raid den system with Ultra Wormh
 60-cobblemon-habitat.png
 Title: Cobblemon Habitat
 Description: What? The pack is updated for Cobblemon 1.8.2?? Yes, of course.
+
+70-assembling-a-ball-with-the-deployer.gif
+Title: Assembling a ball with the deployer
+Description: Bottom, lid, mechanism and stencil, every step is an item. From Apricogs.
+
+80-lids.gif
+Title: Lids
+Description: Cut from apricorns or from a shulker shell, then painted with aprijuice. From Apricogs.
+
+90-bottoms.gif
+Title: Bottoms
+Description: One bottom per metal tier, cut from sheets or built on a sequenced assembly. From Apricogs.
+
+100-assembling-a-ball-in-the-crafting-table.gif
+Title: Assembling a ball in the crafting table
+Description: Everything the deployer does can be crafted, in any order. From Apricogs.
+
+110-molten-exp-candy.png
+Title: Molten Exp. Candy
+Description: From Apricogs.
+
+120-molten-candies.gif
+Title: Molten candies
+Description: Melt candies in a basin and pour them in batches. From Apricogs.
+
+130-a-megaroid-meteorite.webp
+Title: A megaroid meteorite
+Description: A meteorite fallen in a crater. From Steamon Wilds.
+
+140-the-observatory-front.webp
+Title: The Observatory, front
+Description: The Observatory of Mega Showdown rebuilt in the End. From Steamon Wilds.
+
+150-the-crashed-ender-ship-cove.webp
+Title: The crashed ender ship cove
+Description: Inside the wreck: purple hull, a glowing core, red pillars and the loot under the debris. From Steamon Wilds.
+
+160-mega-stones.gif
+Title: Mega stones
+Description: Compatibility with Cobblemon: Mega Showdown. From Apricogs.
+
+170-sparkling-stones-and-more.gif
+Title: Sparkling stones and more
+Description: Compatibility with Cobblemon: Mega Showdown. From Apricogs.
+
+180-z-crystals.gif
+Title: Z crystals
+Description: Compatibility with Cobblemon: Mega Showdown. From Apricogs.
+
+190-gloomslate-ruins.webp
+Title: Gloomslate ruins
+Description: Ruins in gloomslate on the shore of a lava lake of the Otherside. From Steamon Wilds.
+
+200-a-lost-echo-camp.webp
+Title: A Lost Echo Camp
+Description: An abandoned camp of the Otherside with a blue soul campfire. From Steamon Wilds.
+
+210-ruins-of-the-deeplands.webp
+Title: Ruins of the Deeplands
+Description: Ruins in the dark of the Deeplands. From Steamon Wilds.
+
+220-the-dappled-den.webp
+Title: The Dappled Den
+Description: An autumn camp of poplar and shelf mushrooms. From Steamon Wilds.
+
+230-the-pale-camp.webp
+Title: The Pale Camp
+Description: A camp in the Pale Garden. From Steamon Wilds.
+
+240-the-archaeological-site-of-the-nether.webp
+Title: The archaeological site of the Nether
+Description: The archaeological site is now also available in the nether. From Steamon Wilds.
+
+250-the-aether-ruined-portal.webp
+Title: The Aether Ruined Portal
+Description: A ruined portal of the Aether. From Steamon Wilds.
+
+260-the-wishing-weald.webp
+Title: The Wishing Weald
+Description: The Aether Wishing Weald. From Steamon Wilds.
+
+270-the-gloom-ruins.webp
+Title: The Gloom Ruins
+Description: Lost ruins in the glooming caves of the Otherside. From Steamon Wilds.
+
+280-harvesters-and-gilded-chests.webp
+Title: Harvesters and gilded chests
+Description: Gilded chests can now be on contraptions, and harvesters do not break berry bushes any more. From Apricogs.
+
+290-mechanical-arm-and-tm-machines.gif
+Title: Mechanical arm and TM machines
+Description: The mechanical arm is compatible with the data monitor, the disc shelves, the TM machine and the gilded chest. From Apricogs.
+
+300-blocks-of-origin.webp
+Title: Blocks of origin
+Description: Raw blocks, bricks and the other shapes of the block of origin. From Apricogs.
