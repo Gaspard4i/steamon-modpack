@@ -4,6 +4,18 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.40] - 2026-11-12 (beta)
+
+### Fixed
+
+2.0.39's CurseForge upload was broken by a stale fingerprint match:
+the Create Energistics resourcepack had been resolved to a CurseForge
+file that has since become invalid on CurseForge's end, causing
+"Invalid manifest.json ... invalid status: undefined" and blocking
+the whole client download on CurseForge. It now ships as an embedded
+override instead, same as a couple of other Modrinth-only files
+already do.
+
 ## [2.0.39] - 2026-11-12 (beta)
 
 ### Fixed
