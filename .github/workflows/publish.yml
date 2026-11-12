@@ -176,13 +176,17 @@ jobs:
             | sed 's/^/  /'
           echo "::endgroup::"
 
-          # Force-keep Modrinth-only mods as embedded overrides even when CF has a
-          # matching project: Pass 2 (fingerprint detect) resolves them to a CF
-          # reference, but if that CF file is still UnderReview the whole manifest
-          # is rejected ("invalid status"). Restore the original Modrinth .pw.toml
-          # from git so the jar stays embedded in overrides instead.
-          for slug in the-aethers-delight neoessentials; do
-            if git checkout -- "mods/${slug}.pw.toml" 2>/dev/null; then
+          # Force-keep Modrinth-only mods/resourcepacks as embedded overrides even
+          # when CF has a matching project: Pass 2 (fingerprint detect) resolves
+          # them to a CF reference, but if that CF file is still UnderReview, or
+          # was pulled/deleted by its author since (status becomes "undefined" -
+          # the exact cause of the 2.0.39 "Invalid manifest.json ... invalid
+          # status: undefined" failure for Create Energistics, project 1292165,
+          # file 9157002), the whole manifest is rejected. Restore the original
+          # Modrinth .pw.toml from git so the jar/zip stays embedded in overrides
+          # instead of pointing at that broken CF reference.
+          for slug in mods/the-aethers-delight mods/neoessentials resourcepacks/create-energistics; do
+            if git checkout -- "${slug}.pw.toml" 2>/dev/null; then
               echo "  kept-override: ${slug} (restored Modrinth .pw.toml)"
             fi
           done
@@ -244,6 +248,7 @@ jobs:
           printf '%s\n' \
             'Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip' \
             'ComplementaryReimagined_r5.9.3.zip' \
+            'Create-Energistics-1.1.2-mc1.20.4.zip' \
             'Gazai-Utility-RP-1.0.1.zip' \
             'photon_v1.3b.zip' \
             | sort > /tmp/allowed_rps.txt
