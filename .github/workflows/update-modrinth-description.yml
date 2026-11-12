@@ -31,3 +31,76 @@ jobs:
           if [ "$HTTP_CODE" -ge 300 ]; then
             exit 1
           fi
+
+      - name: Upload new gallery images to Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          upload_image() {
+            local file="$1" title="$2" description="$3" featured="$4" ordering="$5"
+            echo "Uploading: $title"
+            ext="${file##*.}"
+            case "$ext" in
+              jpg|jpeg) ctype="image/jpeg" ;;
+              png) ctype="image/png" ;;
+              gif) ctype="image/gif" ;;
+              webp) ctype="image/webp" ;;
+              *) ctype="application/octet-stream" ;;
+            esac
+            HTTP_CODE=$(curl -s -o /tmp/gallery_resp.json -w "%{http_code}" -X POST \
+              "https://api.modrinth.com/v2/project/CR2XFGJ4/gallery?ext=$ext&featured=$featured&title=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$title")&description=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$description")&ordering=$ordering" \
+              -H "Authorization: $MODRINTH_TOKEN" \
+              -H "Content-Type: $ctype" \
+              --data-binary "@$file")
+            echo "  HTTP status: $HTTP_CODE"
+            cat /tmp/gallery_resp.json
+            echo ""
+            if [ "$HTTP_CODE" -ge 300 ]; then
+              echo "::error::Failed to upload $title"
+              exit 1
+            fi
+          }
+
+          order=100
+          upload_image "gallery/70-assembling-a-ball-with-the-deployer.gif" "Assembling a ball with the deployer" "Bottom, lid, mechanism and stencil, every step is an item. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/80-lids.gif" "Lids" "Cut from apricorns or from a shulker shell, then painted with aprijuice. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/90-bottoms.gif" "Bottoms" "One bottom per metal tier, cut from sheets or built on a sequenced assembly. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/100-assembling-a-ball-in-the-crafting-table.gif" "Assembling a ball in the crafting table" "Everything the deployer does can be crafted, in any order. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/110-molten-exp-candy.png" "Molten Exp. Candy" "From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/120-molten-candies.gif" "Molten candies" "Melt candies in a basin and pour them in batches. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/130-a-megaroid-meteorite.webp" "A megaroid meteorite" "A meteorite fallen in a crater. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/140-the-observatory-front.webp" "The Observatory, front" "The Observatory of Mega Showdown rebuilt in the End. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/150-the-crashed-ender-ship-cove.webp" "The crashed ender ship cove" "Inside the wreck: purple hull, a glowing core, red pillars and the loot under the debris. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/160-mega-stones.gif" "Mega stones" "Compatibility with Cobblemon: Mega Showdown. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/170-sparkling-stones-and-more.gif" "Sparkling stones and more" "Compatibility with Cobblemon: Mega Showdown. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/180-z-crystals.gif" "Z crystals" "Compatibility with Cobblemon: Mega Showdown. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/190-gloomslate-ruins.webp" "Gloomslate ruins" "Ruins in gloomslate on the shore of a lava lake of the Otherside. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/200-a-lost-echo-camp.webp" "A Lost Echo Camp" "An abandoned camp of the Otherside with a blue soul campfire. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/210-ruins-of-the-deeplands.webp" "Ruins of the Deeplands" "Ruins in the dark of the Deeplands. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/220-the-dappled-den.webp" "The Dappled Den" "An autumn camp of poplar and shelf mushrooms. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/230-the-pale-camp.webp" "The Pale Camp" "A camp in the Pale Garden. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/240-the-archaeological-site-of-the-nether.webp" "The archaeological site of the Nether" "The archaeological site is now also available in the nether. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/250-the-aether-ruined-portal.webp" "The Aether Ruined Portal" "A ruined portal of the Aether. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/260-the-wishing-weald.webp" "The Wishing Weald" "The Aether Wishing Weald. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/270-the-gloom-ruins.webp" "The Gloom Ruins" "Lost ruins in the glooming caves of the Otherside. From Steamon Wilds." false $order; order=$((order+10))
+          upload_image "gallery/280-harvesters-and-gilded-chests.webp" "Harvesters and gilded chests" "Gilded chests can now be on contraptions, and harvesters do not break berry bushes any more. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/290-mechanical-arm-and-tm-machines.gif" "Mechanical arm and TM machines" "The mechanical arm is compatible with the data monitor, the disc shelves, the TM machine and the gilded chest. From Apricogs." false $order; order=$((order+10))
+          upload_image "gallery/300-blocks-of-origin.webp" "Blocks of origin" "Raw blocks, bricks and the other shapes of the block of origin. From Apricogs." false $order; order=$((order+10))
+
+      - name: Fix Great view caption (Distant Horizons removed)
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          set -euo pipefail
+          OLD_URL="https://cdn.modrinth.com/data/CR2XFGJ4/images/6896d8668d993ff5e45612b08460489e8cf4b935_350.webp"
+          NEW_DESC="Distant Horizons is not shipped with the pack anymore, but it stays fully compatible if you install it yourself."
+          HTTP_CODE=$(curl -s -o /tmp/patch_resp.json -w "%{http_code}" -X PATCH \
+            "https://api.modrinth.com/v2/project/CR2XFGJ4/gallery?url=$OLD_URL&description=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$NEW_DESC")" \
+            -H "Authorization: $MODRINTH_TOKEN")
+          echo "HTTP status: $HTTP_CODE"
+          cat /tmp/patch_resp.json
+          if [ "$HTTP_CODE" -ge 300 ]; then
+            exit 1
+          fi
