@@ -281,6 +281,10 @@ file = "config/mythsandlegends/loot_tables_config.json"
 hash = "520bd88988fdaacd70de41dd6e83225beaf22e26741142b1d4a6813645ee160f"
 
 [[files]]
+file = "config/neoessentials/scoreboard.json"
+hash = "7a6de496ab9b70d1ef066759ef68ad47ae19767266b6b093c1932504c1d80454"
+
+[[files]]
 file = "config/rctmod-server.toml"
 hash = "73c719ba06faecf54dfee1a4d5b697960b38c979d096b2c21c5a3e3635cafc0a"
 
