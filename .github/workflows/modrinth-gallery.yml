@@ -1,36 +1,15 @@
-name: Update Modrinth Description
+name: Modrinth - Update Gallery
 
 on:
   push:
     branches:
-      - sync-modrinth-description
+      - sync-modrinth-gallery
 
 jobs:
-  update-description:
+  upload-gallery:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Patch project description on Modrinth
-        env:
-          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-        run: |
-          set -euo pipefail
-          BODY_JSON=$(python3 -c "
-          import json
-          with open('docs/modrinth-description.md', encoding='utf-8') as f:
-              body = f.read()
-          print(json.dumps({'body': body}))
-          ")
-          HTTP_CODE=$(curl -s -o /tmp/resp.json -w "%{http_code}" -X PATCH "https://api.modrinth.com/v2/project/CR2XFGJ4" \
-            -H "Authorization: $MODRINTH_TOKEN" \
-            -H "Content-Type: application/json" \
-            -d "$BODY_JSON")
-          echo "HTTP status: $HTTP_CODE"
-          cat /tmp/resp.json
-          if [ "$HTTP_CODE" -ge 300 ]; then
-            exit 1
-          fi
 
       - name: Upload new gallery images to Modrinth
         env:
@@ -49,8 +28,11 @@ jobs:
               webp) ctype="image/webp" ;;
               *) ctype="application/octet-stream" ;;
             esac
+            local enc_title enc_desc
+            enc_title=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$title")
+            enc_desc=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$description")
             HTTP_CODE=$(curl -s -o /tmp/gallery_resp.json -w "%{http_code}" -X POST \
-              "https://api.modrinth.com/v2/project/CR2XFGJ4/gallery?ext=$ext&featured=$featured&title=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$title")&description=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$description")&ordering=$ordering" \
+              "https://api.modrinth.com/v2/project/CR2XFGJ4/gallery?ext=$ext&featured=$featured&title=$enc_title&description=$enc_desc&ordering=$ordering" \
               -H "Authorization: $MODRINTH_TOKEN" \
               -H "Content-Type: $ctype" \
               --data-binary "@$file")
@@ -96,8 +78,9 @@ jobs:
           set -euo pipefail
           OLD_URL="https://cdn.modrinth.com/data/CR2XFGJ4/images/6896d8668d993ff5e45612b08460489e8cf4b935_350.webp"
           NEW_DESC="Distant Horizons is not shipped with the pack anymore, but it stays fully compatible if you install it yourself."
+          ENC_DESC=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$NEW_DESC")
           HTTP_CODE=$(curl -s -o /tmp/patch_resp.json -w "%{http_code}" -X PATCH \
-            "https://api.modrinth.com/v2/project/CR2XFGJ4/gallery?url=$OLD_URL&description=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$NEW_DESC")" \
+            "https://api.modrinth.com/v2/project/CR2XFGJ4/gallery?url=$OLD_URL&description=$ENC_DESC" \
             -H "Authorization: $MODRINTH_TOKEN")
           echo "HTTP status: $HTTP_CODE"
           cat /tmp/patch_resp.json

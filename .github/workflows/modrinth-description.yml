@@ -1,0 +1,33 @@
+name: Modrinth - Update Description
+
+on:
+  push:
+    branches:
+      - sync-modrinth-description
+
+jobs:
+  update-description:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Patch project description on Modrinth
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          set -euo pipefail
+          BODY_JSON=$(python3 -c "
+          import json
+          with open('docs/modrinth-description.md', encoding='utf-8') as f:
+              body = f.read()
+          print(json.dumps({'body': body}))
+          ")
+          HTTP_CODE=$(curl -s -o /tmp/resp.json -w "%{http_code}" -X PATCH "https://api.modrinth.com/v2/project/CR2XFGJ4" \
+            -H "Authorization: $MODRINTH_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$BODY_JSON")
+          echo "HTTP status: $HTTP_CODE"
+          cat /tmp/resp.json
+          if [ "$HTTP_CODE" -ge 300 ]; then
+            exit 1
+          fi
