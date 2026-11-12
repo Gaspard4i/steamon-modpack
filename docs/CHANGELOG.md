@@ -4,6 +4,18 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.39] - 2026-11-12 (beta)
+
+### Fixed
+
+2.0.38 failed to load with "Mod discordrpc requires zambielib 1.1 or above,
+Currently, zambielib is not installed" - the Discord Presence mod added in
+2.0.38 needed this dependency and it was missing from the pack. Added it.
+
+### Changed
+
+NeoForge bumped to 21.1.266.
+
 ## [2.0.38] - 2026-11-12 (beta)
 
 ### Added
