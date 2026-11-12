@@ -1403,6 +1403,11 @@ hash = "5a334201feff0fb2f76d486399f47d0ce5b5818c284fea895706c92bb2119470"
 metafile = true
 
 [[files]]
+file = "mods/zambielib.pw.toml"
+hash = "2b81dc10e019213112cde02020e126fff8333c2c767ede68d40f812fcb5bd786"
+metafile = true
+
+[[files]]
 file = "resourcepacks/cobblemon-emissive-ores.pw.toml"
 hash = "ff320cd6d96b0c739a18af1220175c562b15b8c1114aae675718f12bbeee60df"
 metafile = true
