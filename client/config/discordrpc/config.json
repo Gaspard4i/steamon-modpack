@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "updateInterval": 15,
+  "autoReconnect": true,
+  "reconnectDelay": 15,
+  "showInMainMenu": true,
+  "afkDetection": true,
+  "afkTimeout": 300,
+  "hideServerIp": true,
+  "hideCoordinates": false,
+  "launcherWarningDismissed": true,
+  "imageUploadsAllowed": false,
+  "activeProfileIndex": 0,
+  "profiles": [
+    {
+      "name": "Steamon",
+      "serverMatchMode": "EXACT",
+      "dimensionOverrides": {},
+      "screenOverrides": {},
+      "contextType": "ALWAYS",
+      "contextFilter": "",
+      "priority": 0,
+      "activityName": "Playing Steamon",
+      "details": "Create x Cobblemon",
+      "state": "Create x Cobblemon SMP",
+      "timestampMode": "ELAPSED",
+      "showPartySize": false,
+      "largeImageKey": "steamon",
+      "largeImageText": "Steamon: Create x Cobblemon",
+      "smallImageKey": "",
+      "smallImageText": "",
+      "button1Label": "",
+      "button1Url": "",
+      "button2Label": "",
+      "button2Url": ""
+    }
+  ]
+}

@@ -1470,3 +1470,29 @@ metafile = true
 file = "world/datapacks/cobblemonraiddens-typedesigns.pw.toml"
 hash = "6c297d9a2d500f43390ccdcaf5acf32c4353f9c79f16ec6946daee54158b283f"
 metafile = true
+
+[[files]]
+file = "config/customwindowtitle-client.toml"
+hash = "900a9115bde446003c66de3f0c3ea8fac42e159ae1e43dfdc65807060d21b430"
+
+[[files]]
+file = "config/customwindowtitle/icon.png"
+hash = "22905f5bbc736f874cee64e09ae3b1baf2b14d19922e8ff9c83441e4a74595e1"
+
+[[files]]
+file = "config/discordrpc/config.json"
+hash = "b16e0afdd604adc56ac4b5e987dcb66e6db69d312812453e5e62dda9bbbbcda3"
+
+[[files]]
+file = "config/discordrpc/images/steamon.png"
+hash = "47ef259a668c2485ff828b967688105142bc1153a2292ad4e00c73460a86ef7a"
+
+[[files]]
+file = "mods/custom-window-title.pw.toml"
+hash = "09d3121e0f62df0f7543ec669a7d2465ccc257f8ece46eaa37c0d8597ec36c15"
+metafile = true
+
+[[files]]
+file = "mods/discordpresence.pw.toml"
+hash = "978bd60bc7ebe154fb02af7ce658a3347a2a16b3cfb00dc18afbcdaaa2d1bec6"
+metafile = true
