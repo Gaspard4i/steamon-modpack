@@ -284,11 +284,6 @@ hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
 metafile = true
 
 [[files]]
-file = "datapacks/steamon-patches.pw.toml"
-hash = "47addc7bf18b8a58b40412938b60936c9d74e9fdaae8ce56287c9178c5ce52d5"
-metafile = true
-
-[[files]]
 file = "datapacks/steamon-trainers.pw.toml"
 hash = "79d7069758a2000830f9e32161b69f5184288af54e0d4416bdba09c17b4b8b6f"
 metafile = true
