@@ -1174,6 +1174,11 @@ hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
 metafile = true
 
 [[files]]
+file = "mods/steamon-core.pw.toml"
+hash = "10858694e22da8936727131dec3a50ed50bc66f7ee76b7ce1099f4ff9d195809"
+metafile = true
+
+[[files]]
 file = "mods/steamon-wilds.pw.toml"
 hash = "bcb09d5bc79c43230a51029da9db7aad52b3fbe04ca60688e43e04724f4adea1"
 metafile = true
