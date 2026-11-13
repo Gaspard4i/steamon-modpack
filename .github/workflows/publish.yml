@@ -185,7 +185,10 @@ jobs:
           # file 9157002), the whole manifest is rejected. Restore the original
           # Modrinth .pw.toml from git so the jar/zip stays embedded in overrides
           # instead of pointing at that broken CF reference.
-          for slug in mods/the-aethers-delight mods/neoessentials resourcepacks/create-energistics; do
+          # neoessentials is now side=server (server-only mod per its Modrinth
+          # metadata), so it no longer ships on the client at all and does not
+          # need forcing here.
+          for slug in mods/the-aethers-delight resourcepacks/create-energistics; do
             if git checkout -- "${slug}.pw.toml" 2>/dev/null; then
               echo "  kept-override: ${slug} (restored Modrinth .pw.toml)"
             fi
@@ -271,7 +274,6 @@ jobs:
             'Cobblemon-Utility+-neoforge-1.7.4.jar' \
             'TMTCF-NF-1.21.1-2.0.3.jar' \
             'cc-tweaked-1.21.1-forge-1.120.0.jar' \
-            'neoessentials-1.0.6-1.21.x+build.87-all.jar' \
             'EnchantmentLevelBreak-1.21-1.21.1-NeoForge-1.6.jar' \
             'beautify-neoforge-1.21.1-2.0.2.jar' \
             'sophisticatedstorage-1.21.1-1.5.77.1982.jar' \

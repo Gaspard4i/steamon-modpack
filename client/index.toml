@@ -89,6 +89,14 @@ file = "config/createcobblestone-common.toml"
 hash = "f39ead8dee9b51f8b075abec8fd237d2f2f779a173debaa64ca5847294cfbb82"
 
 [[files]]
+file = "config/customwindowtitle-client.toml"
+hash = "900a9115bde446003c66de3f0c3ea8fac42e159ae1e43dfdc65807060d21b430"
+
+[[files]]
+file = "config/customwindowtitle/icon.png"
+hash = "22905f5bbc736f874cee64e09ae3b1baf2b14d19922e8ff9c83441e4a74595e1"
+
+[[files]]
 file = "config/defaultoptions/extra/config/iris.properties"
 hash = "a89270b1eeef0ce86e0a88ef7799f257997cc804a23f88add8c77b3a701be4c2"
 
@@ -167,6 +175,14 @@ hash = "a3032b4671d29690abb3c85962e599c9cbc9bbeb43276b261445eddf9602b764"
 [[files]]
 file = "config/defaultoptions/options.txt"
 hash = "280ae4674364f52f77cd67bee055c8dbd4334d2b75b4d320bea40b23d1da1d83"
+
+[[files]]
+file = "config/discordrpc/config.json"
+hash = "b16e0afdd604adc56ac4b5e987dcb66e6db69d312812453e5e62dda9bbbbcda3"
+
+[[files]]
+file = "config/discordrpc/images/steamon.png"
+hash = "47ef259a668c2485ff828b967688105142bc1153a2292ad4e00c73460a86ef7a"
 
 [[files]]
 file = "config/fancymenu/assets/ancient_citrine_ball_3d.png"
@@ -279,10 +295,6 @@ hash = "c9f4d69f0f03a0189ef7e3a7de6dbb4b034f4253ed2a19f4c0f9ba14b3a2c060"
 [[files]]
 file = "config/mythsandlegends/loot_tables_config.json"
 hash = "520bd88988fdaacd70de41dd6e83225beaf22e26741142b1d4a6813645ee160f"
-
-[[files]]
-file = "config/neoessentials/scoreboard.json"
-hash = "7a6de496ab9b70d1ef066759ef68ad47ae19767266b6b093c1932504c1d80454"
 
 [[files]]
 file = "config/rctmod-server.toml"
@@ -743,6 +755,11 @@ hash = "93a7ce2b1f45d8e3a9c4a951e42d08d1c6b3d58fc100cf9742f7b7e17f62a602"
 metafile = true
 
 [[files]]
+file = "mods/custom-window-title.pw.toml"
+hash = "09d3121e0f62df0f7543ec669a7d2465ccc257f8ece46eaa37c0d8597ec36c15"
+metafile = true
+
+[[files]]
 file = "mods/cut-through.pw.toml"
 hash = "4c16ee75d3b04443e96d854eec79344293963e9f4beaaf8e7215023e8ef53b88"
 metafile = true
@@ -770,6 +787,11 @@ metafile = true
 [[files]]
 file = "mods/dense-ores.pw.toml"
 hash = "c5160490ef9a20a1c72cb77b9e6d5020ed8ad6f4e85baa68d3901e9522e0c426"
+metafile = true
+
+[[files]]
+file = "mods/discordpresence.pw.toml"
+hash = "978bd60bc7ebe154fb02af7ce658a3347a2a16b3cfb00dc18afbcdaaa2d1bec6"
 metafile = true
 
 [[files]]
@@ -1079,7 +1101,7 @@ metafile = true
 
 [[files]]
 file = "mods/neoessentials.pw.toml"
-hash = "98ecc3e6b2b58e6e929bbbc9abfd02d7a91da017742a322979e9f571e4a66e5a"
+hash = "3d5d065931469a8820c37f3a88af0ffb90f857c11131cd7b525ec45dd319ecb0"
 metafile = true
 
 [[files]]
@@ -1270,6 +1292,11 @@ metafile = true
 [[files]]
 file = "mods/spuds-shops.pw.toml"
 hash = "5da381322f532c6454a5efcb36834aa1ac6cd1c79a2096cabf27843becbb1c4e"
+metafile = true
+
+[[files]]
+file = "mods/steamon-core.pw.toml"
+hash = "10858694e22da8936727131dec3a50ed50bc66f7ee76b7ce1099f4ff9d195809"
 metafile = true
 
 [[files]]
@@ -1474,30 +1501,4 @@ metafile = true
 [[files]]
 file = "world/datapacks/cobblemonraiddens-typedesigns.pw.toml"
 hash = "6c297d9a2d500f43390ccdcaf5acf32c4353f9c79f16ec6946daee54158b283f"
-metafile = true
-
-[[files]]
-file = "config/customwindowtitle-client.toml"
-hash = "900a9115bde446003c66de3f0c3ea8fac42e159ae1e43dfdc65807060d21b430"
-
-[[files]]
-file = "config/customwindowtitle/icon.png"
-hash = "22905f5bbc736f874cee64e09ae3b1baf2b14d19922e8ff9c83441e4a74595e1"
-
-[[files]]
-file = "config/discordrpc/config.json"
-hash = "b16e0afdd604adc56ac4b5e987dcb66e6db69d312812453e5e62dda9bbbbcda3"
-
-[[files]]
-file = "config/discordrpc/images/steamon.png"
-hash = "47ef259a668c2485ff828b967688105142bc1153a2292ad4e00c73460a86ef7a"
-
-[[files]]
-file = "mods/custom-window-title.pw.toml"
-hash = "09d3121e0f62df0f7543ec669a7d2465ccc257f8ece46eaa37c0d8597ec36c15"
-metafile = true
-
-[[files]]
-file = "mods/discordpresence.pw.toml"
-hash = "978bd60bc7ebe154fb02af7ce658a3347a2a16b3cfb00dc18afbcdaaa2d1bec6"
 metafile = true

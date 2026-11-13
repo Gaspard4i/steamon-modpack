@@ -1,6 +1,6 @@
 name = "NeoEssentials"
 filename = "neoessentials-1.0.7-1.21.x+build.55-all.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/yiaK4SZh/versions/1OtYBWgZ/neoessentials-1.0.7-1.21.x%2Bbuild.55-all.jar"
