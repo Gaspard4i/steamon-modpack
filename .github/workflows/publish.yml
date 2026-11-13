@@ -176,19 +176,24 @@ jobs:
             | sed 's/^/  /'
           echo "::endgroup::"
 
-          # Force-keep Modrinth-only mods/resourcepacks as embedded overrides even
-          # when CF has a matching project: Pass 2 (fingerprint detect) resolves
-          # them to a CF reference, but if that CF file is still UnderReview, or
-          # was pulled/deleted by its author since (status becomes "undefined" -
-          # the exact cause of the 2.0.39 "Invalid manifest.json ... invalid
-          # status: undefined" failure for Create Energistics, project 1292165,
-          # file 9157002), the whole manifest is rejected. Restore the original
-          # Modrinth .pw.toml from git so the jar/zip stays embedded in overrides
-          # instead of pointing at that broken CF reference.
+          # Force-keep Modrinth-only mods as embedded overrides even when CF
+          # has a matching project: Pass 2 (fingerprint detect) resolves them
+          # to a CF reference, but if that CF file is still UnderReview, or
+          # was pulled/deleted by its author since (status becomes "undefined"),
+          # the whole manifest is rejected. Restore the original Modrinth
+          # .pw.toml from git so the jar stays embedded in overrides instead
+          # of pointing at that broken CF reference.
           # neoessentials is now side=server (server-only mod per its Modrinth
           # metadata), so it no longer ships on the client at all and does not
           # need forcing here.
-          for slug in mods/the-aethers-delight resourcepacks/create-energistics; do
+          # Create Energistics was force-kept as an override the same way
+          # (project 1292165, file 9157002 was "invalid status: undefined"
+          # at the time), but that CF file later became valid, and CurseForge
+          # now actively REJECTS an override that fingerprint-matches a file
+          # it hosts itself ("should not be added directly to zip files").
+          # Dropped from the pack entirely instead of chasing CF's resolution
+          # state back and forth.
+          for slug in mods/the-aethers-delight; do
             if git checkout -- "${slug}.pw.toml" 2>/dev/null; then
               echo "  kept-override: ${slug} (restored Modrinth .pw.toml)"
             fi
@@ -240,18 +245,16 @@ jobs:
 
           # Add allowlisted filenames here (one per line) only once confirmed
           # CurseForge accepts them embedded in overrides/ despite hosting them.
-          # These 4 were already embedded exactly this way in the real 2.0.10
-          # client upload (the one that got Create-Energistics withheld) and
-          # CurseForge did not flag any of them, so they're confirmed safe.
-          # cf_resolve.py has no shaderpacks-folder support at all yet (only
-          # mods/ and resourcepacks/), which is why Bliss/Photon/Complementary
-          # never had a chance to resolve to a CF reference - a real gap, just
-          # not the one this pass fixed. Revisit if CurseForge ever withholds
-          # one of these specifically.
+          # These were already embedded exactly this way in the real 2.0.10
+          # client upload and CurseForge did not flag any of them, so they're
+          # confirmed safe. cf_resolve.py has no shaderpacks-folder support at
+          # all yet (only mods/ and resourcepacks/), which is why
+          # Bliss/Photon/Complementary never had a chance to resolve to a CF
+          # reference - a real gap, just not the one this pass fixed. Revisit
+          # if CurseForge ever withholds one of these specifically.
           printf '%s\n' \
             'Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip' \
             'ComplementaryReimagined_r5.9.3.zip' \
-            'Create-Energistics-1.1.2-mc1.20.4.zip' \
             'Gazai-Utility-RP-1.0.1.zip' \
             'photon_v1.3b.zip' \
             | sort > /tmp/allowed_rps.txt
@@ -260,7 +263,7 @@ jobs:
           if [ -n "$UNEXPECTED_RP" ]; then
             echo "::error::Resource/shader pack(s) shipped as unresolved CF overrides - CurseForge will reject this on upload:"
             echo "$UNEXPECTED_RP" | sed 's/^/  - /'
-            echo "Either fix cf_resolve.py's resolution for these (see the gameVersion-filter fix made for Create Energistics), or add them to the allowlist above only once confirmed CurseForge accepts them embedded."
+            echo "Either fix cf_resolve.py's resolution for these, or add them to the allowlist above only once confirmed CurseForge accepts them embedded."
             exit 1
           fi
           echo "Guard passed: overrides/resourcepacks and overrides/shaderpacks are empty."

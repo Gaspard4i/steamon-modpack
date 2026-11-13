@@ -174,7 +174,7 @@ hash = "a3032b4671d29690abb3c85962e599c9cbc9bbeb43276b261445eddf9602b764"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "280ae4674364f52f77cd67bee055c8dbd4334d2b75b4d320bea40b23d1da1d83"
+hash = "e0fda7a0c09aac47d91c4d04f95d8f675cc098744275aef3758ee37b13c2485b"
 
 [[files]]
 file = "config/discordrpc/config.json"
@@ -1442,11 +1442,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/comforts-modernized.pw.toml"
 hash = "385d74d9bbe10278d86d09f4cc4bfe206da1d91bf53744260bba37d8cd8a20c8"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-energistics.pw.toml"
-hash = "efdabbe479082038ff594282e61a11f247192e82acd18abd0927a7df3f4fd554"
 metafile = true
 
 [[files]]

@@ -4,6 +4,17 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.42] - 2026-11-13 (beta)
+
+### Removed
+
+Create Energistics resourcepack. CurseForge used to reject its upload
+with an invalid fingerprint match for this file, which was worked
+around by force-embedding it as a raw override; now that the matching
+CurseForge file is valid again, CurseForge rejects the opposite way,
+refusing an override that duplicates a file it hosts itself. Dropped
+the resourcepack entirely instead of chasing CF's resolution state.
+
 ## [2.0.41] - 2026-11-13 (beta)
 
 ### Added
