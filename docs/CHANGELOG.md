@@ -4,6 +4,23 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [2.0.41] - 2026-11-13 (beta)
+
+### Added
+
+Steamon Core, now approved on Modrinth and CurseForge: republishes the
+Let's Do Meadow and Farmer's Delight item tags at the correct path, adds
+the missing `c:crops/beetroot` tag, and disables Cobblemon Smartphone's
+redundant crafting-table recipes now that Apricogs provides its own.
+Replaces the `steamon-patches` datapack dropped in 2.0.38.
+
+### Fixed
+
+NeoEssentials was shipping client-side even though it is a server-only
+mod, which also required force-embedding it as a raw CurseForge
+override to work around a since-fixed invalid file reference. It no
+longer ships on the client at all.
+
 ## [2.0.40] - 2026-11-12 (beta)
 
 ### Fixed
