@@ -1,4 +1,4 @@
-name = "Steamon Client"
+name = "Steamon Plus: Create Aeronautics Client"
 author = "Gaspard4i"
 version = "2.0.37-beta"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "019415826b318066814a99ad1dda1a3c8929e9391a7efbb546aba28b14bd2a07"
+hash = "eef29725762f0d235f3a2e18cf8280b9877cf56f1f516df72e82368969c85c36"
 
 [versions]
 minecraft = "1.21.1"

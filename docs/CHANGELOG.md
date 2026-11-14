@@ -4,6 +4,14 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [1.0.0] - 2026-11-14 (beta) - Steamon Plus: Create Aeronautics
+
+### Added
+
+First release of the Create Aeronautics add-on pack: everything from
+the main Steamon pack, plus Create Aeronautics. Create and Sable, its
+two dependencies, are already part of the base pack.
+
 ## [2.0.42] - 2026-11-13 (beta)
 
 ### Removed

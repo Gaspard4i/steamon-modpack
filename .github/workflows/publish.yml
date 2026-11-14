@@ -3,12 +3,18 @@ name: Publish Modpack
 on:
   push:
     tags:
-      # Tag format: v<version>-<channel>-<variant>
+      # Tag format: v<version>-<channel>-<variant>[-aeronautics]
       #   channel  = alpha | beta | release
       #   variant  = client | server
-      # e.g. v0.3.0-alpha-client, v0.3.0-beta-server, v1.0.0-release-client
+      #   -aeronautics = optional suffix, publishes to the Create Aeronautics
+      #     add-on pack's own Modrinth/CurseForge projects instead of the
+      #     main Steamon ones (see MODRINTH_PROJECT_ID/CURSEFORGE_ID below).
+      # e.g. v0.3.0-alpha-client, v0.3.0-beta-server, v1.0.0-release-client,
+      #      v1.0.0-beta-client-aeronautics
       - 'v*-client'
       - 'v*-server'
+      - 'v*-client-aeronautics'
+      - 'v*-server-aeronautics'
   workflow_dispatch:
     inputs:
       variant:
@@ -26,6 +32,12 @@ on:
         type: choice
         options: [alpha, beta, release]
         default: alpha
+      pack:
+        description: 'Which pack to publish'
+        required: true
+        type: choice
+        options: [main, aeronautics]
+        default: main
 
 jobs:
   publish:
@@ -37,21 +49,27 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Detect variant, version and channel
+      - name: Detect variant, version, channel and pack
         id: meta
         run: |
           if [ -n "${{ inputs.variant }}" ]; then
             VARIANT="${{ inputs.variant }}"
             VERSION="${{ inputs.version }}"
             CHANNEL="${{ inputs.channel }}"
+            PACK="${{ inputs.pack }}"
           else
-            TAG="${GITHUB_REF_NAME}"        # e.g. v0.3.0-alpha-client
+            TAG="${GITHUB_REF_NAME}"        # e.g. v0.3.0-alpha-client-aeronautics
+            if [[ "$TAG" == *-aeronautics ]]; then
+              PACK=aeronautics; TAG="${TAG%-aeronautics}"
+            else
+              PACK=main
+            fi
             if [[ "$TAG" == *-client ]]; then
               VARIANT=client; REST="${TAG%-client}"
             elif [[ "$TAG" == *-server ]]; then
               VARIANT=server; REST="${TAG%-server}"
             else
-              echo "Tag does not end with -client or -server"; exit 1
+              echo "Tag does not end with -client or -server (after stripping -aeronautics)"; exit 1
             fi
             # REST = v<version>-<channel>  (channel optional, defaults to alpha)
             if [[ "$REST" == *-alpha ]]; then CHANNEL=alpha; VERSION="${REST#v}"; VERSION="${VERSION%-alpha}"
@@ -62,9 +80,10 @@ jobs:
           echo "variant=$VARIANT" >> "$GITHUB_OUTPUT"
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           echo "channel=$CHANNEL" >> "$GITHUB_OUTPUT"
+          echo "pack=$PACK" >> "$GITHUB_OUTPUT"
           DISPLAY="$(echo "$VARIANT" | sed 's/.*/\u&/')"
           echo "display=$DISPLAY" >> "$GITHUB_OUTPUT"
-          echo "Detected: variant=$VARIANT version=$VERSION channel=$CHANNEL"
+          echo "Detected: variant=$VARIANT version=$VERSION channel=$CHANNEL pack=$PACK"
 
       # Cache the compiled packwiz binary across runs (gain ~40s/run).
       # Key is bumped when we want to force a rebuild (e.g. new packwiz feature).
@@ -550,6 +569,10 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
+          # Aeronautics gets its own release tag so it never clobbers the
+          # main pack's server-latest (the panel points at that fixed URL).
+          TAG: ${{ steps.meta.outputs.pack == 'aeronautics' && 'server-latest-aeronautics' || 'server-latest' }}
+          PACK_NAME: ${{ steps.meta.outputs.pack == 'aeronautics' && 'Steamon Plus: Create Aeronautics' || 'Steamon' }}
         run: |
           set -euo pipefail
           # Stable, never-changing server pack URL for the panel's MODRINTH_MODPACK:
@@ -558,15 +581,15 @@ jobs:
           # panel never needs its Modpack URL changed when a new version ships.
           ASSET="Steamon-Server.mrpack"
           cp "$MRPACK_PATH" "$ASSET"
-          NOTES="Always-latest Steamon server pack for self-hosting (not on Modrinth — client only). This download link never changes. Current: ${VERSION} (${CHANNEL}). Point the panel's Modpack URL here for auto-sync."
-          if gh release view server-latest >/dev/null 2>&1; then
-            gh release edit server-latest --title "Steamon (latest server)" --notes "$NOTES"
-            gh release upload server-latest "$ASSET" --clobber
+          NOTES="Always-latest ${PACK_NAME} server pack for self-hosting (not on Modrinth — client only). This download link never changes. Current: ${VERSION} (${CHANNEL}). Point the panel's Modpack URL here for auto-sync."
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --title "${PACK_NAME} (latest server)" --notes "$NOTES"
+            gh release upload "$TAG" "$ASSET" --clobber
           else
-            gh release create server-latest "$ASSET" --title "Steamon (latest server)" --notes "$NOTES" --prerelease
+            gh release create "$TAG" "$ASSET" --title "${PACK_NAME} (latest server)" --notes "$NOTES" --prerelease
           fi
           REPO="${GITHUB_REPOSITORY}"
-          DL_URL="https://github.com/${REPO}/releases/download/server-latest/${ASSET}"
+          DL_URL="https://github.com/${REPO}/releases/download/${TAG}/${ASSET}"
           echo "Stable server pack URL: $DL_URL"
           echo "::notice title=Server pack URL::$DL_URL — already wired in the panel (Modpack section)."
 
@@ -579,6 +602,11 @@ jobs:
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
           CHANGELOG_BODY: ${{ steps.changelog.outputs.body }}
+          # Repo vars are global, not per-branch/tag, so the Create Aeronautics
+          # add-on pack (tags ending in -aeronautics, see "Detect variant..."
+          # above) needs its own var to publish to its own Modrinth project
+          # instead of the main Steamon one.
+          MODRINTH_PROJECT_ID: ${{ steps.meta.outputs.pack == 'aeronautics' && vars.MODRINTH_PROJECT_ID_AERONAUTICS || 'CR2XFGJ4' }}
         run: |
           set -euo pipefail
           MRPACK_FILE="$(basename "$MRPACK_PATH")"
@@ -610,7 +638,7 @@ jobs:
               'name': os.environ['NAME'],
               'version_number': os.environ['VERSION_NUMBER'],
               'changelog': os.environ.get('CHANGELOG_BODY', ''),
-              'project_id': 'CR2XFGJ4',
+              'project_id': os.environ['MODRINTH_PROJECT_ID'],
               'dependencies': [],
               'game_versions': ['1.21.1'],
               'version_type': os.environ['VERSION_TYPE'],
@@ -630,7 +658,7 @@ jobs:
           EXISTING_ID=$(curl -s \
               -H "Authorization: $MODRINTH_TOKEN" \
               -H "User-Agent: github.com/Gaspard4i/steamon-modpack" \
-              "https://api.modrinth.com/v2/project/CR2XFGJ4/version" \
+              "https://api.modrinth.com/v2/project/${MODRINTH_PROJECT_ID}/version" \
               | VERSION_NUMBER="$VERSION_NUMBER" python3 -c "
           import json, sys, os
           vn = os.environ['VERSION_NUMBER']
@@ -679,7 +707,7 @@ jobs:
           with open('/tmp/mr_version_id') as f:
               new_id = f.read().strip()
           req = urllib.request.Request(
-              'https://api.modrinth.com/v2/project/CR2XFGJ4/version',
+              f"https://api.modrinth.com/v2/project/{os.environ['MODRINTH_PROJECT_ID']}/version",
               headers={'Authorization': token, 'User-Agent': 'github.com/Gaspard4i/steamon-modpack'})
           versions = json.loads(urllib.request.urlopen(req, timeout=30).read())
           for v in versions:
@@ -704,13 +732,18 @@ jobs:
       # `metadata` part + the file. gameVersions are NUMERIC ids (not strings).
       # For MODPACKS the 1.21.1 id must come from the "Minecraft 1.21" type
       # (id 11779) — NOT the orphan id 12735, which errors 1009. NeoForge = 10150.
-      # This step is a no-op until the repo variable CURSEFORGE_ID is set, so the
+      # This step is a no-op until the relevant repo variable is set, so a new
       # CurseForge project can be created later without touching this workflow.
+      # Create Aeronautics (tags ending in -aeronautics) uses its own project
+      # id, kept in a separate repo var since vars are global, not per-tag.
       - name: Publish CLIENT to CurseForge
-        if: steps.meta.outputs.variant == 'client' && vars.CURSEFORGE_ID != ''
+        if: >-
+          steps.meta.outputs.variant == 'client' &&
+          (steps.meta.outputs.pack == 'aeronautics' && vars.CURSEFORGE_ID_AERONAUTICS != '' ||
+           steps.meta.outputs.pack == 'main' && vars.CURSEFORGE_ID != '')
         env:
           CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
-          CURSEFORGE_ID: ${{ vars.CURSEFORGE_ID }}
+          CURSEFORGE_ID: ${{ steps.meta.outputs.pack == 'aeronautics' && vars.CURSEFORGE_ID_AERONAUTICS || vars.CURSEFORGE_ID }}
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
           CHANGELOG: ${{ steps.changelog.outputs.body }}
@@ -785,6 +818,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
+          # Aeronautics gets its own release tag so it never clobbers the
+          # main pack's "latest" client release.
+          TAG: ${{ steps.meta.outputs.pack == 'aeronautics' && 'latest-aeronautics' || 'latest' }}
+          PACK_NAME: ${{ steps.meta.outputs.pack == 'aeronautics' && 'Steamon Plus: Create Aeronautics' || 'Steamon' }}
         run: |
           set -euo pipefail
           # Stable, never-changing download URL for players:
@@ -793,14 +830,14 @@ jobs:
           # clobber the file each release, so launchers re-fetch the newest pack.
           ASSET="Steamon-Client.mrpack"
           cp "$MRPACK_PATH" "$ASSET"
-          NOTES="Always-latest Steamon client modpack. This download link never changes — re-download to get the newest version. Current: ${VERSION} (${CHANNEL}). Install in the Modrinth launcher to join steamon.gazai.fr."
-          if gh release view latest >/dev/null 2>&1; then
-            gh release edit latest --title "Steamon (latest client)" --notes "$NOTES"
-            gh release upload latest "$ASSET" --clobber
+          NOTES="Always-latest ${PACK_NAME} client modpack. This download link never changes — re-download to get the newest version. Current: ${VERSION} (${CHANNEL}). Install in the Modrinth launcher to join steamon.gazai.fr."
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --title "${PACK_NAME} (latest client)" --notes "$NOTES"
+            gh release upload "$TAG" "$ASSET" --clobber
           else
-            gh release create latest "$ASSET" --title "Steamon (latest client)" --notes "$NOTES"
+            gh release create "$TAG" "$ASSET" --title "${PACK_NAME} (latest client)" --notes "$NOTES"
           fi
-          echo "Stable client URL: https://github.com/${GITHUB_REPOSITORY}/releases/download/latest/${ASSET}"
+          echo "Stable client URL: https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/${ASSET}"
           echo "GH_OK=true" >> "$GITHUB_ENV"
 
       # Has Discord already been pinged for this version on a previous run?
@@ -834,7 +871,7 @@ jobs:
           steps.discord_marker.outputs.should_announce == 'true' &&
           env.MR_OK == 'true' &&
           env.GH_OK == 'true' &&
-          (vars.CURSEFORGE_ID == '' || env.CF_OK == 'true')
+          ((steps.meta.outputs.pack == 'aeronautics' && vars.CURSEFORGE_ID_AERONAUTICS == '') || (steps.meta.outputs.pack == 'main' && vars.CURSEFORGE_ID == '') || env.CF_OK == 'true')
         env:
           CHANGELOG_WEBHOOK: ${{ secrets.DISCORD_CHANGELOG_WEBHOOK }}
           VERSION: ${{ steps.meta.outputs.version }}
@@ -897,7 +934,7 @@ jobs:
           steps.discord_marker.outputs.should_announce == 'true' &&
           env.MR_OK == 'true' &&
           env.GH_OK == 'true' &&
-          (vars.CURSEFORGE_ID == '' || env.CF_OK == 'true')
+          ((steps.meta.outputs.pack == 'aeronautics' && vars.CURSEFORGE_ID_AERONAUTICS == '') || (steps.meta.outputs.pack == 'main' && vars.CURSEFORGE_ID == '') || env.CF_OK == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
           MARKER: ${{ steps.discord_marker.outputs.marker_name }}

@@ -1,4 +1,4 @@
-name = "Steamon Server"
+name = "Steamon Plus: Create Aeronautics Server"
 author = "Gaspard4i"
 version = "2.0.37-beta"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "6862580dd718333c0e6289a90513a16bf3cb43675721a2e6c5f810c1f4fcb4e4"
+hash = "f5fc770145d886d628a66206afe0673d3ac2638025f7a6131252b7359c4254fa"
 
 [versions]
 minecraft = "1.21.1"
