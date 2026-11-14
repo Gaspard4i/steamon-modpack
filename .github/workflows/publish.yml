@@ -572,7 +572,7 @@ jobs:
           # Aeronautics gets its own release tag so it never clobbers the
           # main pack's server-latest (the panel points at that fixed URL).
           TAG: ${{ steps.meta.outputs.pack == 'aeronautics' && 'server-latest-aeronautics' || 'server-latest' }}
-          PACK_NAME: ${{ steps.meta.outputs.pack == 'aeronautics' && 'Steamon Plus: Create Aeronautics' || 'Steamon' }}
+          PACK_NAME: "${{ steps.meta.outputs.pack == 'aeronautics' && 'Steamon Plus: Create Aeronautics' || 'Steamon' }}"
         run: |
           set -euo pipefail
           # Stable, never-changing server pack URL for the panel's MODRINTH_MODPACK:
@@ -821,7 +821,7 @@ jobs:
           # Aeronautics gets its own release tag so it never clobbers the
           # main pack's "latest" client release.
           TAG: ${{ steps.meta.outputs.pack == 'aeronautics' && 'latest-aeronautics' || 'latest' }}
-          PACK_NAME: ${{ steps.meta.outputs.pack == 'aeronautics' && 'Steamon Plus: Create Aeronautics' || 'Steamon' }}
+          PACK_NAME: "${{ steps.meta.outputs.pack == 'aeronautics' && 'Steamon Plus: Create Aeronautics' || 'Steamon' }}"
         run: |
           set -euo pipefail
           # Stable, never-changing download URL for players:
