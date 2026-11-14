@@ -877,6 +877,7 @@ jobs:
           VERSION: ${{ steps.meta.outputs.version }}
           CHANNEL: ${{ steps.meta.outputs.channel }}
           CHANGELOG_BODY: ${{ steps.changelog.outputs.body }}
+          PACK: ${{ steps.meta.outputs.pack }}
         run: |
           set -euo pipefail
           python3 << 'PYEOF'
@@ -886,18 +887,30 @@ jobs:
               print('skip: changelog webhook not set'); raise SystemExit(0)
           version = os.environ['VERSION']
           channel = os.environ['CHANNEL']
+          pack = os.environ['PACK']
           repo = os.environ['GITHUB_REPOSITORY']
           changelog = os.environ.get('CHANGELOG_BODY', '').strip()
-          dl_url = f"https://github.com/{repo}/releases/download/latest/Steamon-Client.mrpack"
           color = {'release': 0x57F287, 'beta': 0xFEE75C, 'alpha': 0xED4245}.get(channel, 0xC8B48C)
           ping_role = '1507416018912284733'  # Modpack Update Pings
+
+          if pack == 'aeronautics':
+              pack_name = 'Steamon Plus: Create Aeronautics'
+              asset_tag = 'latest-aeronautics'
+              modrinth_url = 'https://modrinth.com/modpack/steamon-plus-create-aeronautics'
+              curseforge_url = 'https://www.curseforge.com/minecraft/modpacks/steamon-plus-create-aeronautics'
+          else:
+              pack_name = 'Steamon'
+              asset_tag = 'latest'
+              modrinth_url = 'https://modrinth.com/modpack/steamon'
+              curseforge_url = 'https://www.curseforge.com/minecraft/modpacks/steamon'
+          dl_url = f"https://github.com/{repo}/releases/download/{asset_tag}/Steamon-Client.mrpack"
 
           # Discord embed description hard-limit is 4096 chars. The download +
           # join paragraph eats ~250, so trim the changelog to ~3800 and append
           # a "...full notes on Modrinth" pointer if truncated.
           download_block = (
-              f"**Get it on [Modrinth](https://modrinth.com/modpack/steamon) or "
-              f"[CurseForge](https://www.curseforge.com/minecraft/modpacks/steamon).**\n"
+              f"**Get it on [Modrinth]({modrinth_url}) or "
+              f"[CurseForge]({curseforge_url}).**\n"
               f"Your launcher updates it automatically, or hit Update on the pack.\n"
               f"See <#1522566815211847732> for how to join.")
           MAX = 4096 - len(download_block) - 80  # safety margin
@@ -907,11 +920,11 @@ jobs:
           description = f"{changelog}\n\n{download_block}"
 
           payload = {
-            'username': 'Steamon Modpack Changelog',
-            'content': f"<@&{ping_role}> A new version of the Steamon modpack is available: **{version}** ({channel})!",
+            'username': f"{pack_name} Changelog",
+            'content': f"<@&{ping_role}> A new version of {pack_name} is available: **{version}** ({channel})!",
             'allowed_mentions': {'roles': [ping_role]},
             'embeds': [{
-              'title': f"Steamon {version} ({channel})",
+              'title': f"{pack_name} {version} ({channel})",
               'url': dl_url,
               'description': description,
               'color': color,
