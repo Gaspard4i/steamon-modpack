@@ -38,3 +38,16 @@ Add new quests to each `chapters/team_*.snbt` file, each one depending
 | Team Spark | `1111111111111101` |
 | Team Might | `1111111111111102` |
 | Team Relic | `1111111111111103` |
+
+## Required advancement task per story trainer quest
+
+RCT only treats a trainer as a "key trainer" (full spawn level diff,
+level cap source, progress graph) when it is `"optional": false` and
+linked into its series' trainer graph via `requiredDefeats`. VERIFIED
+by reading RCTMod source (`PlayerState.isKeyTrainer`,
+`SeriesGraph.getNext`), see shared-data/research-answers.md (Q3) in
+steamon-shared. A quest's `rctmod:trainers/defeat_<id>` advancement task
+for a story-critical fight is only meaningful if the trainer side
+actually set that trainer up this way. If a defeat task never
+completes in testing, check the trainer's `optional` flag and
+`requiredDefeats` chain before assuming the quest side is broken.
