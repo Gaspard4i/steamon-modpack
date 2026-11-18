@@ -1,13 +1,13 @@
 name = "Gazai's Cobblemon Utility+ Resource Pack"
-filename = "Gazai-Utility-RP-1.0.1.zip"
+filename = "Gazai-Utility-RP-1.1.0.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/kF3LxuFD/versions/TAjwZz25/Gazai-Utility-RP-1.0.1.zip"
+url = "https://cdn.modrinth.com/data/kF3LxuFD/versions/YTvIFI6q/Gazai-Utility-RP-1.1.0.zip"
 hash-format = "sha512"
-hash = "506fa5e6ab30b99538e77e94de73c0bc93a73f9682c4834ebc4ddfd97d5708e325ea6e30ae2c0127f42c097f5774eb7f09af56d78a0fec469602197f5f427d40"
+hash = "aca39e3d90b434b1e9669efaa46d5ae9df63b99658459be5468e9f234c9ba3b9c4f24db9e926d762a2f7feeb169f42e5a35e340e218e249a98fa3c4c5a5b46fd"
 
 [update]
 [update.modrinth]
 mod-id = "kF3LxuFD"
-version = "TAjwZz25"
+version = "YTvIFI6q"

@@ -1,13 +1,13 @@
 name = "Apricogs"
-filename = "apricogs-1.3.0-beta.jar"
+filename = "apricogs-1.5.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7QjVS0OL/versions/Mm9whDfd/apricogs-1.3.0-beta.jar"
+url = "https://cdn.modrinth.com/data/7QjVS0OL/versions/q3k6IExg/apricogs-1.5.0.jar"
 hash-format = "sha512"
-hash = "0cb052e4b59d147ffe78a3b0f91229eeb554058ea2dc7ddd73044b73d93a260d789bc45f0f6a28574d5d54e71bf55889471a54bebe9ff6635ee7b40eaa38ca55"
+hash = "d45487b2447eda26ba936f0053f0d32f4bd38f270c929beed713caa77bd1a7ddf2b968b04344b80cd67c68c0c6df482d8b55ab6c8bb810336769ee6d3de46cf9"
 
 [update]
 [update.modrinth]
 mod-id = "7QjVS0OL"
-version = "Mm9whDfd"
+version = "q3k6IExg"

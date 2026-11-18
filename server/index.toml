@@ -345,7 +345,7 @@ metafile = true
 
 [[files]]
 file = "mods/apricogs.pw.toml"
-hash = "db574dd2a22bb55066048c58fa37d9f40ac2690148bb76347db000141b7e327f"
+hash = "679f807fa5fab2c6eff4f55acdc3e416dfc14f78c17ed5bc1762d98b48e70732"
 metafile = true
 
 [[files]]
@@ -984,6 +984,11 @@ hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
 metafile = true
 
 [[files]]
+file = "mods/neo-origins.pw.toml"
+hash = "23320bb94332523b7db2b282b1617b092a228b7d5da85eedb2e277a7c03a57e6"
+metafile = true
+
+[[files]]
 file = "mods/neoessentials.pw.toml"
 hash = "98ecc3e6b2b58e6e929bbbc9abfd02d7a91da017742a322979e9f571e4a66e5a"
 metafile = true
@@ -1181,6 +1186,11 @@ metafile = true
 [[files]]
 file = "mods/steamon-core.pw.toml"
 hash = "10858694e22da8936727131dec3a50ed50bc66f7ee76b7ce1099f4ff9d195809"
+metafile = true
+
+[[files]]
+file = "mods/steamon-origin.pw.toml"
+hash = "edec573ba9dd7f5eface17edf99816f3b6801d266127b1e6787b0dc70810dd31"
 metafile = true
 
 [[files]]

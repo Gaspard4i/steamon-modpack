@@ -261,6 +261,10 @@ file = "config/fightorflight_visual_effect.json5"
 hash = "1968fe408691b02837f80aedb9c1009b913d4eb482a6d8a590eeca57703a50cb"
 
 [[files]]
+file = "config/ftbchecker.toml"
+hash = "b8f37192a995864032e7939842f17b1fc9e7e23b92c478334cd41191b25b50f4"
+
+[[files]]
 file = "config/gravestone-server.toml"
 hash = "988716181a7da42501e3a2cb300914062658d0b62744b631c852bb0cd9509429"
 
@@ -421,7 +425,7 @@ metafile = true
 
 [[files]]
 file = "mods/apricogs.pw.toml"
-hash = "db574dd2a22bb55066048c58fa37d9f40ac2690148bb76347db000141b7e327f"
+hash = "679f807fa5fab2c6eff4f55acdc3e416dfc14f78c17ed5bc1762d98b48e70732"
 metafile = true
 
 [[files]]
@@ -875,6 +879,11 @@ hash = "e6c2bf6db2b040ce4bead639e5b6a743a792a59f6669c8d6b363e7624987b70f"
 metafile = true
 
 [[files]]
+file = "mods/ftbchecker.pw.toml"
+hash = "bb3b4b45ad44ad51cacc1ccda0509ab01a9101ac5bea145eab01a08308798ff5"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "1b3a8b643c73f1bf49739d9c509880d1cb3ba9c2e15a3f64056906cec622181d"
 metafile = true
@@ -1105,6 +1114,11 @@ hash = "0f1148ea2b643d8999ba0e96b62171e4925470518d874f9f13e213affaf4e968"
 metafile = true
 
 [[files]]
+file = "mods/neo-origins.pw.toml"
+hash = "23320bb94332523b7db2b282b1617b092a228b7d5da85eedb2e277a7c03a57e6"
+metafile = true
+
+[[files]]
 file = "mods/neoessentials.pw.toml"
 hash = "3d5d065931469a8820c37f3a88af0ffb90f857c11131cd7b525ec45dd319ecb0"
 metafile = true
@@ -1305,6 +1319,11 @@ hash = "10858694e22da8936727131dec3a50ed50bc66f7ee76b7ce1099f4ff9d195809"
 metafile = true
 
 [[files]]
+file = "mods/steamon-origin.pw.toml"
+hash = "edec573ba9dd7f5eface17edf99816f3b6801d266127b1e6787b0dc70810dd31"
+metafile = true
+
+[[files]]
 file = "mods/steamon-wilds.pw.toml"
 hash = "bcb09d5bc79c43230a51029da9db7aad52b3fbe04ca60688e43e04724f4adea1"
 metafile = true
@@ -1476,7 +1495,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/steamon-cobblemon-utility-plus.pw.toml"
-hash = "302c21deba4b24314d99ced7570c08b9c5fde1867935fe5a8cfcda59a4ac2245"
+hash = "81d4e46b4769a7809039b2075dc7914c12b19867503bba342389f6ff20a5fd0b"
 metafile = true
 
 [[files]]
