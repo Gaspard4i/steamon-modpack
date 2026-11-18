@@ -148,7 +148,7 @@ jobs:
           # Keep it out of detect; it ships as an allowlisted override jar.
           rm -f mods/cc-tweaked-*.jar || true
 
-          # Pass 2: fingerprint detect — matches jars to CF project/file IDs by
+          # Pass 2: fingerprint detect. Matches jars to CF project/file IDs by
           # hash (no API key required). Resolves most mods that have CF pages.
           echo "::group::packwiz curseforge detect"
           packwiz curseforge detect -y || true
@@ -161,7 +161,7 @@ jobs:
           # Same for the unofficial CC: Tweaked reupload (invalid file id).
           grep -rl "project-id = 1579830" mods/ 2>/dev/null | xargs -r rm -f || true
 
-          # Pass 3: Core API resolve — for mods still missing a [update.curseforge]
+          # Pass 3: Core API resolve. For mods still missing a [update.curseforge]
           # block, query the CF Core API by slug/name to find the project+file ID.
           if [ -n "${CF_CORE_KEY:-}" ]; then
             echo "::group::CF Core API resolution"
@@ -170,10 +170,10 @@ jobs:
             echo "::endgroup::"
             packwiz refresh
           else
-            echo "[warn] CF_CORE_KEY not set — Core API resolution skipped (more jars may land in overrides)"
+            echo "[warn] CF_CORE_KEY not set, Core API resolution skipped (more jars may land in overrides)"
           fi
 
-          # Pass 4: dedupe — packwiz curseforge detect can create a second .pw.toml
+          # Pass 4: dedupe. packwiz curseforge detect can create a second .pw.toml
           # under the CF slug when the mod is already tracked under its Modrinth slug,
           # producing duplicate file-ids that CF rejects. Remove the duplicates.
           echo "::group::dedupe CF references"
@@ -346,7 +346,7 @@ jobs:
               sys.exit("[FAIL] neoforge dependency missing in manifest")
           print(f"[smoke] Manifest OK: MC {mc}, NeoForge {nf}")
 
-          # 3. All file downloads reachable (HEAD) — parallel for speed
+          # 3. All file downloads reachable (HEAD), parallel for speed
           from concurrent.futures import ThreadPoolExecutor, as_completed
           files = idx.get('files', [])
           print(f"[smoke] Checking {len(files)} mod download URLs (parallel)...")
@@ -471,7 +471,7 @@ jobs:
                           print(f"  [warn] {label}: {err}")
                       else:
                           ingest(data, label)
-              # Embedded jars are local — sequential is fine
+              # Embedded jars are local, sequential is fine
               for n in embedded:
                   try:
                       ingest(mp.read(n), n)
@@ -486,7 +486,7 @@ jobs:
                           continue
                       # Client-only dependencies (side=CLIENT) never need to be
                       # present in the server pack, and are guaranteed present in
-                      # the client pack — skip them so a CLIENT dep doesn't fail
+                      # the client pack, so skip them so a CLIENT dep doesn't fail
                       # the server depcheck (e.g. Immersive Lanterns needs
                       # sodiumdynamiclights only client-side).
                       if str(d.get('side', 'BOTH')).upper() == 'CLIENT':
@@ -497,7 +497,7 @@ jobs:
                       # FTB Teams/Library are CurseForge-only (All Rights
                       # Reserved) and injected only for the CF-native zip
                       # (see "Build CF-native zip" step), never in the
-                      # packwiz repo itself — so they legitimately never
+                      # packwiz repo itself, so they legitimately never
                       # appear in the mrpack. Don't flag deps on them.
                       if dep_id in ('ftbteams', 'ftblibrary'):
                           continue
@@ -516,7 +516,7 @@ jobs:
       # Extract this version's section from docs/CHANGELOG.md so we can feed
       # the SAME English changelog text to Modrinth, CurseForge and the
       # Discord embed instead of a placeholder. Fails hard if the version's
-      # section is missing — enforces the 'no tag without changelog' rule.
+      # section is missing. Enforces the 'no tag without changelog' rule.
       - name: Extract changelog for this version
         if: steps.meta.outputs.variant == 'client'
         id: changelog
@@ -532,7 +532,7 @@ jobs:
           pat = re.compile(rf'^## \[{re.escape(version)}\][^\n]*\n(.*?)(?=^## \[|\Z)', re.S | re.M)
           m = pat.search(src)
           if not m:
-              raise SystemExit(f"[FAIL] No '## [{version}]' section in docs/CHANGELOG.md — add one before tagging.")
+              raise SystemExit(f"[FAIL] No '## [{version}]' section in docs/CHANGELOG.md, add one before tagging.")
           body = m.group(1).strip()
           if not body:
               raise SystemExit(f"[FAIL] Section '## [{version}]' is empty in docs/CHANGELOG.md.")
@@ -545,7 +545,7 @@ jobs:
 
       # Server variant: the .mrpack is NEVER published to Modrinth (a Modrinth
       # moderator confirmed only the client pack belongs there). Instead it ships
-      # as a GitHub Release asset — a stable, public, no-auth URL that the panel
+      # as a GitHub Release asset, a stable, public, no-auth URL that the panel
       # targets via MODRINTH_MODPACK for auto-sync. The Actions artifact is kept
       # as a 90-day fallback (artifacts are not publicly downloadable).
       - name: Upload server artifact (fallback)
@@ -570,7 +570,7 @@ jobs:
           # panel never needs its Modpack URL changed when a new version ships.
           ASSET="Steamon-Server.mrpack"
           cp "$MRPACK_PATH" "$ASSET"
-          NOTES="Always-latest Steamon server pack for self-hosting (not on Modrinth — client only). This download link never changes. Current: ${VERSION} (${CHANNEL}). Point the panel's Modpack URL here for auto-sync."
+          NOTES="Always-latest Steamon server pack for self-hosting (not on Modrinth, client only). This download link never changes. Current: ${VERSION} (${CHANNEL}). Point the panel's Modpack URL here for auto-sync."
           if gh release view server-latest >/dev/null 2>&1; then
             gh release edit server-latest --title "Steamon (latest server)" --notes "$NOTES"
             gh release upload server-latest "$ASSET" --clobber
@@ -580,7 +580,7 @@ jobs:
           REPO="${GITHUB_REPOSITORY}"
           DL_URL="https://github.com/${REPO}/releases/download/server-latest/${ASSET}"
           echo "Stable server pack URL: $DL_URL"
-          echo "::notice title=Server pack URL::$DL_URL — already wired in the panel (Modpack section)."
+          echo "::notice title=Server pack URL::$DL_URL, already wired in the panel (Modpack section)."
 
       - name: Publish CLIENT to Modrinth
         if: steps.meta.outputs.variant == 'client'
@@ -602,7 +602,7 @@ jobs:
           TOKEN_LEN=${#MODRINTH_TOKEN}
           echo "Token length: $TOKEN_LEN"
           if [ "$TOKEN_LEN" -lt 32 ]; then
-            echo "MODRINTH_TOKEN not set or too short — secret missing?"; exit 1
+            echo "MODRINTH_TOKEN not set or too short, secret missing?"; exit 1
           fi
 
           # featured=true only on -release tags (alphas/betas stay unfeatured).
@@ -610,7 +610,7 @@ jobs:
           FEATURED=false
           if [ "$CHANNEL" = "release" ]; then FEATURED=true; fi
 
-          # Build payload via a file (not a shell variable) — curl -F with a
+          # Build payload via a file (not a shell variable). curl -F with a
           # multi-KB string payload was getting truncated by shell expansion
           # (Modrinth reported "EOF while parsing a string at line 1 column 2399"
           # on a 4 KB JSON). Use @/tmp/data.json instead.
@@ -651,11 +651,11 @@ jobs:
                   print(v['id']); break
           ")
           if [ -n "$EXISTING_ID" ]; then
-            echo "Modrinth version $VERSION_NUMBER already exists ($EXISTING_ID) — skip upload, reuse for downstream."
+            echo "Modrinth version $VERSION_NUMBER already exists ($EXISTING_ID), skip upload, reuse for downstream."
             VERSION_ID="$EXISTING_ID"
             echo "$VERSION_ID" > /tmp/mr_version_id
             # Was this the first time we successfully uploaded? (Used by CF
-            # to decide whether to attempt its own upload — see CF step.)
+            # to decide whether to attempt its own upload, see CF step.)
             echo "MR_FIRST_PUBLISH=false" >> "$GITHUB_ENV"
           else
             HTTP=$(curl -s -o /tmp/mr_resp.json -w "%{http_code}" \
@@ -715,7 +715,7 @@ jobs:
       # the legacy upload API: POST /api/projects/<id>/upload-file with a JSON
       # `metadata` part + the file. gameVersions are NUMERIC ids (not strings).
       # For MODPACKS the 1.21.1 id must come from the "Minecraft 1.21" type
-      # (id 11779) — NOT the orphan id 12735, which errors 1009. NeoForge = 10150.
+      # (id 11779), NOT the orphan id 12735, which errors 1009. NeoForge = 10150.
       # This step is a no-op until the repo variable CURSEFORGE_ID is set, so the
       # CurseForge project can be created later without touching this workflow.
       - name: Publish CLIENT to CurseForge
@@ -729,7 +729,7 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "${CURSEFORGE_TOKEN:-}" ]; then
-            echo "CURSEFORGE_TOKEN secret missing — skipping CurseForge publish."; exit 0
+            echo "CURSEFORGE_TOKEN secret missing, skipping CurseForge publish."; exit 0
           fi
 
           # Idempotency: ask CurseForge if a file with our target name already
@@ -737,7 +737,7 @@ jobs:
           # CF_OK=true so the Discord gate can fire. CF doesn't expose a
           # single per-version endpoint, so we list files and match by name.
           # Note: list endpoint is /api/projects/<id>/files (legacy upload API
-          # doesn't expose it — we use the read API at /v1/mods/<id>/files).
+          # doesn't expose it, we use the read API at /v1/mods/<id>/files).
           CF_NAME="$(basename "$CF_ZIP_PATH")"
           EXISTING=$(curl -s \
               -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
@@ -755,7 +755,7 @@ jobs:
                   print(f.get('id', '?')); break
           " 2>/dev/null || true)
           if [ -n "$EXISTING" ]; then
-            echo "CurseForge already has file $CF_NAME (id=$EXISTING) — skip upload."
+            echo "CurseForge already has file $CF_NAME (id=$EXISTING), skip upload."
             echo "CF_OK=true" >> "$GITHUB_ENV"
             exit 0
           fi
@@ -775,10 +775,10 @@ jobs:
 
           # CurseForge wants `metadata` as a STRING form field, not a file part.
           # curl @file makes it a file upload (CF then sees no 'metadata'
-          # field — errorCode 1001). The `<file` syntax (no @) reads the
+          # field, errorCode 1001). The `<file` syntax (no @) reads the
           # file's content and inlines it as the field's string value.
           # We upload the CF-native zip (manifest.json + overrides/), not
-          # the .mrpack — CF silently rejects Modrinth's format.
+          # the .mrpack, CF silently rejects Modrinth's format.
           HTTP=$(curl -s -o /tmp/cf_resp.json -w "%{http_code}" \
             -X POST "https://minecraft.curseforge.com/api/projects/${CURSEFORGE_ID}/upload-file" \
             -H "X-Api-Token: ${CURSEFORGE_TOKEN}" \
@@ -805,7 +805,7 @@ jobs:
           # clobber the file each release, so launchers re-fetch the newest pack.
           ASSET="Steamon-Client.mrpack"
           cp "$MRPACK_PATH" "$ASSET"
-          NOTES="Always-latest Steamon client modpack. This download link never changes — re-download to get the newest version. Current: ${VERSION} (${CHANNEL}). Install in the Modrinth launcher to join steamon.gazai.fr."
+          NOTES="Always-latest Steamon client modpack. This download link never changes, re-download to get the newest version. Current: ${VERSION} (${CHANNEL}). Install in the Modrinth launcher to join steamon.gazai.fr."
           if gh release view latest >/dev/null 2>&1; then
             gh release edit latest --title "Steamon (latest client)" --notes "$NOTES"
             gh release upload latest "$ASSET" --clobber
@@ -827,10 +827,10 @@ jobs:
           set -euo pipefail
           MARKER="${GITHUB_REF_NAME}-announced"
           if gh api "repos/${GITHUB_REPOSITORY}/git/refs/tags/${MARKER}" --silent >/dev/null 2>&1; then
-            echo "marker=$MARKER already exists — Discord skip"
+            echo "marker=$MARKER already exists, Discord skip"
             echo "should_announce=false" >> "$GITHUB_OUTPUT"
           else
-            echo "marker=$MARKER not found — Discord will fire"
+            echo "marker=$MARKER not found, Discord will fire"
             echo "should_announce=true" >> "$GITHUB_OUTPUT"
           fi
           echo "marker_name=$MARKER" >> "$GITHUB_OUTPUT"
@@ -902,7 +902,7 @@ jobs:
 
       # Mark this tag as 'already announced on Discord' so future retag-driven
       # retries don't double-post in #changelog. Same gate as the announce
-      # step itself — we only mark if we actually pinged.
+      # step itself, we only mark if we actually pinged.
       - name: Mark version as announced
         if: >-
           steps.meta.outputs.variant == 'client' &&
