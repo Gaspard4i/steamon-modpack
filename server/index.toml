@@ -345,7 +345,7 @@ metafile = true
 
 [[files]]
 file = "mods/apricogs.pw.toml"
-hash = "679f807fa5fab2c6eff4f55acdc3e416dfc14f78c17ed5bc1762d98b48e70732"
+hash = "a117ca1a497c586063044dfcab08d1aaff637cc85e5648a31c676e4730b64424"
 metafile = true
 
 [[files]]

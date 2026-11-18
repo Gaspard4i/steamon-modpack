@@ -15,7 +15,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 ### Changed
 
 - Gazai's Cobblemon Utility+ Resource Pack updated to 1.1.0.
-- Apricogs updated to 1.5.0.
+- Apricogs updated to 1.5.2.
 
 ## [2.0.42] - 2026-11-13 (beta)
 
