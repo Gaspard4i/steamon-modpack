@@ -39,6 +39,29 @@ Add new quests to each `chapters/team_*.snbt` file, each one depending
 | Team Might | `1111111111111102` |
 | Team Relic | `1111111111111103` |
 
+## League quests
+
+The League (shared-data/trainer-ids.json, chapter "League", beats L1 to
+L10) stays inside the same 3 chapter files, one per series
+(team_spark.snbt / team_might.snbt / team_relic.snbt). No separate
+League chapter exists or is needed: every League trainer id is already
+unique per series (for example spark_crystal_isla_01, not shared with
+the other series), and its `requires` field already points at other
+trainer ids in the same series, most often the series' own
+`<series>_marlo_02` rematch (the Ch5 "after the fall" fight), which
+plays the role of "finished Ch5" without the generator needing any
+special case for it.
+
+Concretely: each arm (e4 type) requires the series' marlo_02 win, each
+leader requires its own two arms, and the rival's final duel (L10)
+requires the series' three leaders. `tools/generate_team_quests.py`
+needs no change for this: it already writes every trainer of a series
+(Ch1 through League) into that series' single chapter file, and
+`format_quest`'s dependency resolution (`quest_id_for` on each id in
+`requires`) already works the same way for a League id as for any
+other trainer id, since League ids are plain entries in
+trainer-ids.json like all the others.
+
 ## Required advancement task per story trainer quest
 
 RCT only treats a trainer as a "key trainer" (full spawn level diff,
