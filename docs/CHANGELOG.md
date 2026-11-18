@@ -4,6 +4,19 @@ All notable changes to the Steamon modpack.
 
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses [SemVer](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+- Steamon : Origin, with its Neo Origins dependency.
+- FTBChecker back in the pack (Modrinth client side), pointing players
+  to install FTB Teams manually from CurseForge.
+
+### Changed
+
+- Gazai's Cobblemon Utility+ Resource Pack updated to 1.1.0.
+- Apricogs updated to 1.5.0.
+
 ## [2.0.42] - 2026-11-13 (beta)
 
 ### Removed

@@ -1,0 +1,13 @@
+name = "Steamon : Origin"
+filename = "steamon-origin-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iIHRMh7S/versions/hx6ItJnd/steamon-origin-1.0.2.jar"
+hash-format = "sha512"
+hash = "aa218cf05284bf6a127e0b97b5e300a8c4bf77eb6f5b4115a873770a17d13568b662ef31cc679a1ca3b49c98cfa27a5451f74ef47ea59dc9b4ae7a354d9d125c"
+
+[update]
+[update.modrinth]
+mod-id = "iIHRMh7S"
+version = "hx6ItJnd"
