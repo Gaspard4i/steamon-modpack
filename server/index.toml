@@ -101,6 +101,30 @@ file = "config/fightorflight_visual_effect.json5"
 hash = "1968fe408691b02837f80aedb9c1009b913d4eb482a6d8a590eeca57703a50cb"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "16b7475dd75cea90d7115a89d1e2483399432870de0b08cb77279e7708db4548"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/team_might.snbt"
+hash = "efafd78bcb7368c40e8cdeaf9bcc8aba130522b5b90f058ce19afa9da9ec6aff"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/team_relic.snbt"
+hash = "873fa830226ac53bc127547ad99d527b7f4bd11b7bbaaa2844c3bd09949afe65"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/team_spark.snbt"
+hash = "b776c8313c0c449be071464b1fcad814633be108d6b23d2da9c11720ba46b8c0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/team_wooloo.snbt"
+hash = "6f69a1172c026e24a760fd242285a3953d9d1312b780bb76bc9336e1c0ac0ea2"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "9fd414aebeae469195a28bcc2352cec7fb4be86eebcb3de2756cd5bb606b325d"
+
+[[files]]
 file = "config/gravestone-server.toml"
 hash = "988716181a7da42501e3a2cb300914062658d0b62744b631c852bb0cd9509429"
 
@@ -281,6 +305,11 @@ metafile = true
 [[files]]
 file = "datapacks/no-creeper-grief.pw.toml"
 hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
+metafile = true
+
+[[files]]
+file = "datapacks/steamon-team-quests.pw.toml"
+hash = "6d966d175a13d4e0f79ac5bc17020191466348d8f08ef56d3eac64bb9ea148bb"
 metafile = true
 
 [[files]]

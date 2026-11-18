@@ -1,0 +1,11 @@
+# Tags the player's scoreboard (steamon_team) with their Steamon Origin
+# team on pick, so FTB Quests can gate chapters by team. See
+# patches/steamon-team-quests/README.md.
+name = "Steamon Team Quests"
+filename = "steamon-team-quests.zip"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/steamon-team-quests/steamon-team-quests.zip"
+hash-format = "sha512"
+hash = "87bd2ab05ded08de5086f02dbaf1c7134fa99d8138aec259bf9cb9d505b7c17b37e858e580ec5e89d1ee1b8c8c7619326a61a44c0314bc11ce2d07204c364d16"

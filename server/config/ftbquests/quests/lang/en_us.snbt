@@ -1,0 +1,27 @@
+{
+	chapter_group.2222222222222201.title: "Team Quests"
+
+	chapter.1111111111111001.title: "Team Spark"
+	chapter.1111111111111001.subtitle: "Knowledge and ideas"
+	quest.1111111111111101.title: "Spark questline"
+	quest.1111111111111101.description: [ "Unlocks automatically once you join Team Spark." ]
+
+	chapter.1111111111111002.title: "Team Might"
+	chapter.1111111111111002.subtitle: "Valor and strength"
+	quest.1111111111111102.title: "Might questline"
+	quest.1111111111111102.description: [ "Unlocks automatically once you join Team Might." ]
+
+	chapter.1111111111111003.title: "Team Relic"
+	chapter.1111111111111003.subtitle: "Exploration and discovery"
+	quest.1111111111111103.title: "Relic questline"
+	quest.1111111111111103.description: [ "Unlocks automatically once you join Team Relic." ]
+
+	chapter.1111111111111004.title: "Team Wooloo"
+	chapter.1111111111111004.subtitle: "Not a team. Just freedom, and Wooloo."
+	quest.1111111111111104.title: "Follow the Spark questline"
+	quest.1111111111111104.description: [ "Pick the Spark questline for your character. This choice is permanent." ]
+	quest.1111111111111105.title: "Follow the Might questline"
+	quest.1111111111111105.description: [ "Pick the Might questline for your character. This choice is permanent." ]
+	quest.1111111111111106.title: "Follow the Relic questline"
+	quest.1111111111111106.description: [ "Pick the Relic questline for your character. This choice is permanent." ]
+}

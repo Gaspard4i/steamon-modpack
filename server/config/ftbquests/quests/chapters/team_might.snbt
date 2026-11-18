@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1111111111111002"
+	group: "2222222222222201"
+	icon: { id: "cobblemon:black_belt" }
+	id: "1111111111111002"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1111111111111102"
+			invisible: true
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "1111111111111112"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		}
+	]
+}

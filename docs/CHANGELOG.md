@@ -11,6 +11,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 - Steamon : Origin, with its Neo Origins dependency.
 - FTBChecker back in the pack (Modrinth client side), pointing players
   to install FTB Teams manually from CurseForge.
+- FTB Quests team questlines: picking a Steamon Origin team (Spark,
+  Might, Relic) now automatically unlocks that team's quest chapter.
+  Team Wooloo's chapter instead lets the player pick one of the three
+  questlines to follow.
 
 ### Changed
 

@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{
+			id: "2222222222222201"
+			order_index: 0
+			title: "Team Quests"
+		}
+	]
+}

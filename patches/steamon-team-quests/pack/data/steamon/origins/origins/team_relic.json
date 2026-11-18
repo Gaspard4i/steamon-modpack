@@ -1,0 +1,14 @@
+{
+  "name": "Team Relic",
+  "description": "Exploration and discovery. The team of luck: structures, loot, artifacts, paleontology. Symbol: Chi-Yu. Leader: Crystal Isla.",
+  "icon": "cobblemon:relic_coin_pouch",
+  "impact": 2,
+  "order": 2,
+  "powers": [
+    "steamon:team_relic_0",
+    "steamon:team_relic_1",
+    "steamon:team_relic_2",
+    "steamon:team_relic_bridge",
+    "steamon:team_relic_tracker"
+  ]
+}
