@@ -114,10 +114,15 @@ jobs:
         run: |
           set -euo pipefail
 
-          # FTB Essentials/Teams/Quests/Library are gone, replaced by
-          # NeoEssentials, Odyssey Allies and Odyssey Quests, which all
-          # live in the packwiz repo like any other mod. Nothing to
-          # inject here anymore.
+          # --- Inject FTB Teams (CurseForge-only, not redistributable) ---
+          # FTB Teams never lives in the repo (would be embedded illegally
+          # in the Modrinth .mrpack). Added here as a manifest reference
+          # (metadata: curseforge). FTB Teams hard-depends on FTB Library,
+          # so both are injected together.
+          packwiz curseforge add --addon-id 404465 --file-id 9650381 -y   # FTB Library 2101.1.40
+          packwiz curseforge add --addon-id 404468 --file-id 9434081 -y   # FTB Teams   2101.1.12
+          # FTBChecker only exists to nag Modrinth users to install FTB
+          # Teams; the CF build ships it directly, so drop it here.
           packwiz remove ftbchecker || true
           packwiz refresh
 
@@ -488,6 +493,13 @@ jobs:
                           continue
                       dep_id = d.get('modId')
                       if dep_id in ('forge', 'java', 'minecraft', 'neoforge'):
+                          continue
+                      # FTB Teams/Library are CurseForge-only (All Rights
+                      # Reserved) and injected only for the CF-native zip
+                      # (see "Build CF-native zip" step), never in the
+                      # packwiz repo itself — so they legitimately never
+                      # appear in the mrpack. Don't flag deps on them.
+                      if dep_id in ('ftbteams', 'ftblibrary'):
                           continue
                       if dep_id not in installed:
                           problems.append(f"{path_}: MISSING required '{dep_id}' {d.get('versionRange','')}")

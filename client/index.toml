@@ -261,6 +261,10 @@ file = "config/fightorflight_visual_effect.json5"
 hash = "1968fe408691b02837f80aedb9c1009b913d4eb482a6d8a590eeca57703a50cb"
 
 [[files]]
+file = "config/ftbchecker.toml"
+hash = "b8f37192a995864032e7939842f17b1fc9e7e23b92c478334cd41191b25b50f4"
+
+[[files]]
 file = "config/gravestone-server.toml"
 hash = "988716181a7da42501e3a2cb300914062658d0b62744b631c852bb0cd9509429"
 
@@ -867,6 +871,11 @@ metafile = true
 [[files]]
 file = "mods/flan.pw.toml"
 hash = "e6c2bf6db2b040ce4bead639e5b6a743a792a59f6669c8d6b363e7624987b70f"
+metafile = true
+
+[[files]]
+file = "mods/ftbchecker.pw.toml"
+hash = "bb3b4b45ad44ad51cacc1ccda0509ab01a9101ac5bea145eab01a08308798ff5"
 metafile = true
 
 [[files]]
