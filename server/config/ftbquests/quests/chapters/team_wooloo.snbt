@@ -23,7 +23,7 @@
 				{
 					id: "1111111111111124"
 					type: "command"
-					command: "/scoreboard players set @s steamon_team 1"
+					command: "/advancement grant @s only steamon:team/spark"
 					permission_level: 2
 				}
 			]
@@ -42,7 +42,7 @@
 				{
 					id: "1111111111111125"
 					type: "command"
-					command: "/scoreboard players set @s steamon_team 2"
+					command: "/advancement grant @s only steamon:team/might"
 					permission_level: 2
 				}
 			]
@@ -61,7 +61,7 @@
 				{
 					id: "1111111111111126"
 					type: "command"
-					command: "/scoreboard players set @s steamon_team 3"
+					command: "/advancement grant @s only steamon:team/relic"
 					permission_level: 2
 				}
 			]

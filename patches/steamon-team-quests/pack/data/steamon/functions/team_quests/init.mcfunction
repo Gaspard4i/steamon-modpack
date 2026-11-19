@@ -1,2 +1,0 @@
-scoreboard objectives add steamon_team dummy
-scoreboard objectives add steamon_wooloo_locked dummy

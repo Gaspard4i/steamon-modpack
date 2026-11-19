@@ -1,0 +1,12 @@
+# Resets a team's FTB Quests chapter when the player picks a different
+# Steamon Origin team, using the mod's own #steamon:team_chosen function
+# tag. See patches/steamon-team-reset/README.md and
+# C:\Users\catry\dev\steamon-origin\ftbquests\README.md.
+name = "Steamon Team Reset"
+filename = "steamon-team-reset.zip"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/Gaspard4i/steamon-modpack/2.0/patches/steamon-team-reset/steamon-team-reset.zip"
+hash-format = "sha512"
+hash = "cb9364f9c97e984f5106c108ef268e1e9cce242ec71c2d64b9849ed0eb6c520f310aa86d94f20979eb9e2735d3c8bab6ec13b218920f7e3a0f19ac45f82500e2"

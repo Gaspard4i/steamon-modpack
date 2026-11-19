@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
 	filename: "1111111111111002"
 	group: "2222222222222201"
 	icon: { id: "cobblemon:black_belt" }
@@ -2073,7 +2074,9 @@
 			tasks: [
 				{
 					id: "1111111111111112"
-					type: "checkmark"
+					type: "advancement"
+					advancement: "steamon:team/might"
+					criterion: ""
 				}
 			]
 			rewards: [ ]

@@ -174,7 +174,7 @@ hash = "a3032b4671d29690abb3c85962e599c9cbc9bbeb43276b261445eddf9602b764"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "e0fda7a0c09aac47d91c4d04f95d8f675cc098744275aef3758ee37b13c2485b"
+hash = "a0d0112a27cdc6b508cc7fe54db7817555e0b73738c213554dee1acdc896999f"
 
 [[files]]
 file = "config/discordrpc/config.json"
@@ -262,7 +262,7 @@ hash = "1968fe408691b02837f80aedb9c1009b913d4eb482a6d8a590eeca57703a50cb"
 
 [[files]]
 file = "config/ftbchecker.toml"
-hash = "fa6a9a0aa657a8615e3006c9ffbfa64b7151216551ec9a62c8e8142a983e8c40"
+hash = "e751812050f60d9ac1a212e027dfcee9ef35f1ad439831c95f9e7f1f10691bb1"
 
 [[files]]
 file = "config/gravestone-server.toml"
@@ -364,8 +364,8 @@ hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
 metafile = true
 
 [[files]]
-file = "datapacks/steamon-team-quests.pw.toml"
-hash = "6d966d175a13d4e0f79ac5bc17020191466348d8f08ef56d3eac64bb9ea148bb"
+file = "datapacks/steamon-team-reset.pw.toml"
+hash = "a303a00c4a02f239a9a0c46faeb04ef140608c54cc2879d1bdd2a1af9ff92a83"
 metafile = true
 
 [[files]]

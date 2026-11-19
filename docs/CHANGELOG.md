@@ -13,8 +13,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
   to install FTB Library, FTB Quests and FTB Teams manually from
   CurseForge (FTB Quests hard crashes without FTB Teams, now listed).
 - FTB Quests team questlines: picking a Steamon Origin team (Spark,
-  Might, Relic) now automatically unlocks that team's quest chapter.
-  Team Wooloo's chapter instead lets the player pick one of the three
+  Might, Relic) now automatically unlocks that team's quest chapter,
+  using the Origin mod's own team advancement and reset hook. Team
+  Wooloo's chapter instead lets the player pick one of the three
   questlines to follow.
 - Full story quest content for all 3 team questlines: a trainer
   encounter quest per story fight (defeat advancement) and a talk quest

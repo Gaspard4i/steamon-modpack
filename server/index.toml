@@ -106,23 +106,23 @@ hash = "16b7475dd75cea90d7115a89d1e2483399432870de0b08cb77279e7708db4548"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/team_might.snbt"
-hash = "538b61ab99a31e1b7819ef91f458a3a3283ba08430612a8ae7508167dba674b2"
+hash = "5a46981a51915d68979a5d017a456fa7ffe14e10b4cd0bfed9ceb670ff28e575"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/team_relic.snbt"
-hash = "874970ca3f266e14371ac787a732b2bb9e3cae55be300130a0e4bbf70502f8fc"
+hash = "c86948bb917ea773e886e825ebf4c7e49c031bbc0bf7ed871d48f74b45b63af8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/team_spark.snbt"
-hash = "fe9eec1f9fdb1d614292c1ebc15ff43766c3e9cea1c9c6ff78c2f71f9c38b80a"
+hash = "d7c90b3db253cfc093ed30bc5fd3e2b7e3bb98dd18d57d4adf8268c5bd65f6b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/team_wooloo.snbt"
-hash = "6f69a1172c026e24a760fd242285a3953d9d1312b780bb76bc9336e1c0ac0ea2"
+hash = "9867d57ce380bf2c7e294ba0b6f1031b41aaa023c44ce519d8706f0af40df625"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1d26ca5abce4b8d5e79d7d6d228459130d5383028a53c2a6940bfbc65ecd9f5e"
+hash = "f2279cb66010efa74741c3458d0ec8be87ce98b90dfa417b3362bf1aac1b5f1f"
 
 [[files]]
 file = "config/gravestone-server.toml"
@@ -308,8 +308,8 @@ hash = "4e5c69164ccb4ef7b4a3bd547cf965db8287985dd497c61b4db707fcb071fd85"
 metafile = true
 
 [[files]]
-file = "datapacks/steamon-team-quests.pw.toml"
-hash = "6d966d175a13d4e0f79ac5bc17020191466348d8f08ef56d3eac64bb9ea148bb"
+file = "datapacks/steamon-team-reset.pw.toml"
+hash = "a303a00c4a02f239a9a0c46faeb04ef140608c54cc2879d1bdd2a1af9ff92a83"
 metafile = true
 
 [[files]]
