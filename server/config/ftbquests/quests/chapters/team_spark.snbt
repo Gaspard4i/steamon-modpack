@@ -9,6 +9,2074 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [
+		// AUTO-GENERATED talk quests, see tools/generate_talk_quests.py
+		{
+			id: "C470932DC7980AF5"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "1A0E04494CA2A225"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "C8DFCF9617CCE7CC"
+			dependencies: ["1111111111111101", "C470932DC7980AF5"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "29BBE49668DB1050"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "92C2B90E7C8EF459"
+			dependencies: ["1111111111111101", "C8DFCF9617CCE7CC"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "5456B2820F536B53"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "29536CAB4F2CE119"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "01217FB16599E0E5"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "40E84B59D7FAF6B2"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "ECAA0B19D6D7C004"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "B72C1E16109DF954"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "12C17371375E297F"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "1313494310FBFC1E"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "08AC8ACE9F5F826E"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "8FE4CC32A3823B4F"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "44D1AB2A0C000487"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "23531E5B5C47FE6F"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "ED2CA0D61CDC5D88"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "1A81F70682A9D5EC"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "6EB2257D052ADB1A"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "04EDBB925EE30E91"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "3C9D83526AF591A7"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "29C5B054C8B45DF3"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "2EA60C3DC7DC98CB"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "EE2861403CC5B9F2"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "0D0CD8EAF63C2269"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "BDE72431EC13E207"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "564A1382492EBF4B"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "A9C72813612350BB"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "3CB7C0F6F702F46C"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "D07959E0C8A92958"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "A3470F57B25EE3E7"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "5A017923AFE6C6B1"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "59981CD3828C9BDE"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "9FE1AD5497086FFB"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "7F1E2B6364106951"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "3BFD9F1B415EAF5C"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "DCB907BA064ACC31"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "55883CF1A270A18B"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "EDACC0652C8CDA0A"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "5E4072F5D21195C4"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "55527AC5EBEE8B80"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "2B55087BA61BB5FD"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "9B4305786753DF9B"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "CE713B0CFC958D51"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "AEB1E3305C9AD302"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "24C6BCBF5DB11FED"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "3DB283251AFFF516"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "A07BEF3E96DFF988"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "14A38885DFDCA572"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "05551937BA38F2C9"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "1A621A542DAA3F08"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "8A9D2CB26E379E15"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "3885EFCFC3C33F55"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "EA416337F32BFF29"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "C2E3C1784285656C"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "53248AA7CBB7EB3C"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "DFAC323B5D17B5A0"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "965A90E765B02B92"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "7E55581C4C2BCCBC"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "EB60386F73F2842B"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "E4BFEC721133B3AE"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "C532BF4559B337ED"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "EE5D87F83F36476C"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "5DE585CA76F400EB"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "F488CFB71EEBCF97"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "FF0AEFE41A843CDC"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "E1C939EE3A11DFA4"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "FA93ED2BBC8CF152"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "216344FBDC61C245"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "A9787BCDA90BD899"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "29E6D180AC7BBE54"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "D2C6A1300D396622"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "0F284B90D8E314AC"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "1593DB6DB8260EE9"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "ABB667B17B70EEF5"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "83682BB4AED9FB6B"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "4A8355C3E0BC255A"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "FC7C444E221216E8"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "3FEC8766C67B145A"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "82A0332AD1717246"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "EDA8D72C10F9394B"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "6F6AF8B38E527589"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "DBA8944C6E9FCB4A"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "208945E01401E803"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "0CD911987E153892"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "EB7E784C7D78658D"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "86CD807138640F3B"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "A8E111D87D68B2C0"
+			dependencies: ["1111111111111101", "92C2B90E7C8EF459"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "8668BC7F1EAEA721"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "95E03B05BB27AE38"
+			dependencies: ["1111111111111101", "A8E111D87D68B2C0"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "4FD33BD9E1182CEB"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "3D8A3CF998344EEC"
+			dependencies: ["1111111111111101", "95E03B05BB27AE38"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "370662822F6C56F9"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "4D3AF6968E3AEAAB"
+			dependencies: ["1111111111111101", "3D8A3CF998344EEC"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "39E2F4D3C00FC529"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "C70FE150FA106AAC"
+			dependencies: ["1111111111111101", "4D3AF6968E3AEAAB"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "216CC536B5AB979C"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "2773D31C463144EC"
+			dependencies: ["1111111111111101", "C70FE150FA106AAC"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "25CEE0234600BE7E"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "B52A81470EBE1430"
+			dependencies: ["1111111111111101", "2773D31C463144EC"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "6AF836D7429582CB"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "1965F5F341681152"
+			dependencies: ["1111111111111101", "B52A81470EBE1430"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "8F71165763F0D6F5"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "745351FC02D5DDCC"
+			dependencies: ["1111111111111101", "1965F5F341681152"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "03509F6BF679643F"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "36E232D7825BD877"
+			dependencies: ["1111111111111101", "745351FC02D5DDCC"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "4312857DE261C1D8"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "22599B60389FD29B"
+			dependencies: ["1111111111111101", "36E232D7825BD877"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "50BD242CD0D261D5"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "5ED0BC216243D7A5"
+			dependencies: ["1111111111111101", "22599B60389FD29B"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "369D352B99B4AC45"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "FA624B8F75B1AD3C"
+			dependencies: ["1111111111111101", "5ED0BC216243D7A5"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "80E40C190D1EC565"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "92CE604A59D5CD6C"
+			dependencies: ["1111111111111101", "FA624B8F75B1AD3C"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "38E75D25B9BC9879"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "4C866ECFA247AECF"
+			dependencies: ["1111111111111101", "92CE604A59D5CD6C"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "C032CD26AD2E6CB9"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "9ACA73B271493006"
+			dependencies: ["1111111111111101", "4C866ECFA247AECF"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "91AA9F660E6DE385"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "9AEEE9236FF4E9F9"
+			dependencies: ["1111111111111101", "9ACA73B271493006"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "137B782FB1919801"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "159E8145A6F94339"
+			dependencies: ["1111111111111101", "9AEEE9236FF4E9F9"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "493CCCB1283D51F2"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "27F3A3DEE4896AE3"
+			dependencies: ["1111111111111101", "159E8145A6F94339"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "91B64EF2341D04C1"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "A36695CBF67D5961"
+			dependencies: ["1111111111111101", "27F3A3DEE4896AE3"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "943DCFF1B6D40BA9"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "573D776D86BFFC4B"
+			dependencies: ["1111111111111101", "A36695CBF67D5961"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "07CDF34AABA46D73"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "9815394476B5F439"
+			dependencies: ["1111111111111101", "573D776D86BFFC4B"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "2E8D91E0A0B65565"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "5B54F7C3CFA96597"
+			dependencies: ["1111111111111101", "9815394476B5F439"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "34C068CAFC6AB7D3"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "56BF49C341B615DD"
+			dependencies: ["1111111111111101", "5B54F7C3CFA96597"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "1682AA1534504046"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "36534406BF7F2885"
+			dependencies: ["1111111111111101", "56BF49C341B615DD"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "188AA4F49AC199D0"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "D880FF9344674624"
+			dependencies: ["1111111111111101", "36534406BF7F2885"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "D05E5ED23B31D45C"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "B498CF16D49BD39E"
+			dependencies: ["1111111111111101", "D880FF9344674624"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "01BCF40856A3217E"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "097788B042E3E809"
+			dependencies: ["1111111111111101", "B498CF16D49BD39E"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "667FA2C6C7ED8D38"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "06776C921E175A60"
+			dependencies: ["1111111111111101", "097788B042E3E809"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "B4A56A0A7F75A894"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "9F4A118831E6244A"
+			dependencies: ["1111111111111101", "06776C921E175A60"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "24DA2E90A1CB1557"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "19ECFC7B5A76B33C"
+			dependencies: ["1111111111111101", "9F4A118831E6244A"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "F310D41A6EF82669"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "7F40D36361D4EC7B"
+			dependencies: ["1111111111111101", "19ECFC7B5A76B33C"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "C0FB76513F4D1BA6"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "B875CD3D0AF86EDF"
+			dependencies: ["1111111111111101", "7F40D36361D4EC7B"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "C905521245E21AEB"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "F237EF6DECBC7AF0"
+			dependencies: ["1111111111111101", "B875CD3D0AF86EDF"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "0702096621AAED19"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "6DFF3D8D55A8FFE1"
+			dependencies: ["1111111111111101", "F237EF6DECBC7AF0"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "E2C7732CF87B5503"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "110DADEF13B54A67"
+			dependencies: ["1111111111111101", "6DFF3D8D55A8FFE1"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "F91B50915B8EC84B"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "486E1051B021208B"
+			dependencies: ["1111111111111101", "110DADEF13B54A67"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "64B41A7A3996F7ED"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "AF67B4C6E078F447"
+			dependencies: ["1111111111111101", "486E1051B021208B"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "34A4E7FC253F0F97"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "6D2BA9D2BC0FC1D8"
+			dependencies: ["1111111111111101", "AF67B4C6E078F447"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "2C4B1AA4266CF24C"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "4131EEF92597A4D6"
+			dependencies: ["1111111111111101", "6D2BA9D2BC0FC1D8"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "38CB71175A8798D6"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "20EC58B667398898"
+			dependencies: ["1111111111111101", "4131EEF92597A4D6"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "7341223213AC0122"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "A68DA1BA5FC53589"
+			dependencies: ["1111111111111101", "20EC58B667398898"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "7B1F24FC7A6059C1"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "05CD87FED652EEE4"
+			dependencies: ["1111111111111101", "A68DA1BA5FC53589"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "043DA029BBD13E96"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "E1DBC7891C4C9834"
+			dependencies: ["1111111111111101", "05CD87FED652EEE4"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "76F24662924C6B4A"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "67B4084BAF3E2BCB"
+			dependencies: ["1111111111111101", "E1DBC7891C4C9834"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "2FF3E3CA41E69E78"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "FF4EB3601BF8E407"
+			dependencies: ["1111111111111101", "67B4084BAF3E2BCB"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "ADA00EA42B380E08"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "32EE859F335A9C8E"
+			dependencies: ["1111111111111101", "FF4EB3601BF8E407"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "A6FEBCE97A64682A"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "2F4D694A1EB7D3E8"
+			dependencies: ["1111111111111101", "32EE859F335A9C8E"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "19C504A729D0BBAD"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		}
+		// END AUTO-GENERATED talk quests
+		// AUTO-GENERATED trainer quests, see tools/generate_team_quests.py
+		{
+			id: "B44B4FC99AABAD20"
+			dependencies: ["1111111111111101"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "414793398C768E4E"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_pip_hartwell_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "23E865AE051F51CB"
+			dependencies: ["1111111111111101", "B44B4FC99AABAD20"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "CD4DD249FEF11246"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_mira_okoye_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "B7DB5D6163F96B62"
+			dependencies: ["1111111111111101", "23E865AE051F51CB"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "8F17AD811B05952F"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_lena_ortiz_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "B90EAF57D0D2BB44"
+			dependencies: ["1111111111111101", "B7DB5D6163F96B62"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "E5E996E1AFAF89D8"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_marlo_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "3CEA64288AB25912"
+			dependencies: ["1111111111111101", "B90EAF57D0D2BB44"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "4535534CD1485EEB"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_captain_pell_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "A402119DC3020CCF"
+			dependencies: ["1111111111111101", "3CEA64288AB25912"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "48C01F3CA5EC33B8"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_ranger_isa_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "043EE5E9B92927A0"
+			dependencies: ["1111111111111101", "A402119DC3020CCF"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "8552C520ED7A8AA5"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_wanda_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "236972DDCA64D9B8"
+			dependencies: ["1111111111111101", "043EE5E9B92927A0"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "891C8DF98537725B"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_king_of_the_wooloo_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "C4F9D606F4A3D36A"
+			dependencies: ["1111111111111101", "236972DDCA64D9B8"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "BF8BE5C8BE4F7302"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_tavi_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "66A17C0E22E326D5"
+			dependencies: ["1111111111111101", "C4F9D606F4A3D36A"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "3FA19CC380BA142A"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_felix_aarden_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "4C0B6C158998F7B7"
+			dependencies: ["1111111111111101", "66A17C0E22E326D5"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "98B8DF554E1119AC"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_mira_okoye_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "CE610FD4355FE0EE"
+			dependencies: ["1111111111111101", "4C0B6C158998F7B7"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "A0C28C1478A961D6"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_dax_moreau_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "B5DE0B830E3E668E"
+			dependencies: ["1111111111111101", "CE610FD4355FE0EE"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "B2BE6F972052CBC0"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_kitu_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "068BF6A5FC4E525D"
+			dependencies: ["1111111111111101", "B5DE0B830E3E668E"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "B60B2C64434170B4"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_brann_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "6D2E61A1E4204949"
+			dependencies: ["1111111111111101", "068BF6A5FC4E525D"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "B03EA5CAB326FAA2"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_hesk_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "1AF759E404D8A3E9"
+			dependencies: ["1111111111111101", "6D2E61A1E4204949"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "33BB8E48C7F07F80"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_ulda_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "67AB4922B49C9EA6"
+			dependencies: ["1111111111111101", "1AF759E404D8A3E9"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "5A54893E86AD1C5A"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_pertinax_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "17BDAEFA1F7B5020"
+			dependencies: ["1111111111111101", "67AB4922B49C9EA6"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "1B7B3840442D410A"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_ekayon_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "B506F5956FDAA15E"
+			dependencies: ["1111111111111101", "17BDAEFA1F7B5020"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "E1E0642B88A048AB"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_ilu_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "AB483A4C8EA7B627"
+			dependencies: ["1111111111111101", "B506F5956FDAA15E"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "EE2C156F620FE9DF"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_daro_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "18D5D86A3ADE6D36"
+			dependencies: ["1111111111111101", "AB483A4C8EA7B627"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "520FD697A4C46DF0"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_neshi_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "4AB4C94D95A1B231"
+			dependencies: ["1111111111111101", "18D5D86A3ADE6D36"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "34E25BC35044A8CF"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_mira_okoye_03"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "6F33B34C14EA0E9A"
+			dependencies: ["1111111111111101", "4AB4C94D95A1B231"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "5925BD31A437AAF2"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_dax_moreau_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "4A3F24FC4520EFAF"
+			dependencies: ["1111111111111101", "6F33B34C14EA0E9A"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "6C9D3C3FF702BD4F"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_dr_ingrid_valk_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "C868B11D9AC0B4A1"
+			dependencies: ["1111111111111101", "4A3F24FC4520EFAF"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "D3DB17D15BF4CC4E"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_tomas_reyes_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "D4AB07E0DD4185E4"
+			dependencies: ["1111111111111101", "C868B11D9AC0B4A1"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "881F8BD39DA90FB9"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_flare_hacker_nox_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "B1CBEA5182356356"
+			dependencies: ["1111111111111101", "D4AB07E0DD4185E4"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "41CC824AB1CF0BBA"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_flare_digger_holt_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "71002B57C1C6A24E"
+			dependencies: ["1111111111111101", "B1CBEA5182356356"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "BC623C9D4A30D0FD"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_flare_raider_wren_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "CAA7C5D5179FE249"
+			dependencies: ["1111111111111101", "71002B57C1C6A24E"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "C12C829732E98CD3"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_ophelia_crane_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "EB9021FB8E03DAB3"
+			dependencies: ["1111111111111101", "CAA7C5D5179FE249"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "B77C9AAA3946D7E1"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_silas_rook_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "97B1A9F6B15F4E82"
+			dependencies: ["1111111111111101", "EB9021FB8E03DAB3"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "F8968C9CE2BB8417"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_flare_grunt_vex_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "3953176F97A7C0DA"
+			dependencies: ["1111111111111101", "97B1A9F6B15F4E82"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "0BA104A694517A9F"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_flare_grunt_pike_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "7DB1C4C263C164ED"
+			dependencies: ["1111111111111101", "3953176F97A7C0DA"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "E1CF57F92CCBF4FE"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_flare_grunt_sable_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "15F62CC3B3FDC6C8"
+			dependencies: ["1111111111111101", "7DB1C4C263C164ED"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "83D57BBE9A592469"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_flare_grunt_quill_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "BADBC0AE11C4C400"
+			dependencies: ["1111111111111101", "15F62CC3B3FDC6C8"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "891FDA12DC68A75F"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_flare_grunt_ash_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "30C5EF47917DA2E2"
+			dependencies: ["1111111111111101", "BADBC0AE11C4C400"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "E8321B0E87576571"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_flare_grunt_dross_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "1ADBA5B0CEF22D47"
+			dependencies: ["1111111111111101", "30C5EF47917DA2E2"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "1A28566903730ABD"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_dr_mordecai_vane_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "872D8E336E8755E6"
+			dependencies: ["1111111111111101", "1ADBA5B0CEF22D47"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "3D6ACF3163B8412A"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_a_z_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "10C9A23AF9CE98D7"
+			dependencies: ["1111111111111101", "872D8E336E8755E6"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "52E034F9A233EBD1"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_director_elias_marsh_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "56A81907959C01FD"
+			dependencies: ["1111111111111101", "10C9A23AF9CE98D7"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "0BD5C1590D8B1E93"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_mira_okoye_04"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "25E0A1AEF9780D1E"
+			dependencies: ["1111111111111101", "56A81907959C01FD"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "B809747E04BF79F7"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_dax_moreau_03"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "33FB25B200B017D1"
+			dependencies: ["1111111111111101", "25E0A1AEF9780D1E"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "33E44CB275973CD3"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_mira_okoye_05"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "297E80A79B109B69"
+			dependencies: ["1111111111111101", "33FB25B200B017D1"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "510DF140FE7DAA78"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_dax_moreau_04"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "9EBB6D4AD6C9677A"
+			dependencies: ["1111111111111101", "297E80A79B109B69"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "915AA556D0021EEE"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_ophelia_crane_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "370272BD51E156DE"
+			dependencies: ["1111111111111101", "9EBB6D4AD6C9677A"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "64DD66274D5C6B0D"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_dr_mordecai_vane_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "0159D529D4096502"
+			dependencies: ["1111111111111101", "370272BD51E156DE"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "EB0BF0E203971FC8"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_silas_rook_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "1F9ED51AFE784B9D"
+			dependencies: ["1111111111111101", "0159D529D4096502"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "8511F6C46732DC02"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_lysandre_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "88D217615BB1CA5C"
+			dependencies: ["1111111111111101", "1F9ED51AFE784B9D"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "4EA523F18EC7413A"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_lysandre_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "FBF1D6382B3BF4BD"
+			dependencies: ["1111111111111101", "88D217615BB1CA5C"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "1864F0561FF48170"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_a_z_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "5576863A52F7B99D"
+			dependencies: ["1111111111111101", "FBF1D6382B3BF4BD"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "DD7CBC07AFEFA66D"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_king_of_the_wooloo_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "A409E7352C59FD79"
+			dependencies: ["1111111111111101", "5576863A52F7B99D"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "64E6DAD1507E17B9"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_marlo_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "57EFE31BA024F8BD"
+			dependencies: ["1111111111111101", "A409E7352C59FD79"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "AEAC7746D21A397B"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_prof_anselm_dray_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "DCB3EF0F99057EA5"
+			dependencies: ["1111111111111101", "A409E7352C59FD79"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "654E1BDAD16E437D"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_zuri_nakamura_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "C661EFC110E39892"
+			dependencies: ["1111111111111101", "57EFE31BA024F8BD", "DCB3EF0F99057EA5"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "95B9B39046B93CF3"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_crystal_isla_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "AB0F179325C624E1"
+			dependencies: ["1111111111111101", "A409E7352C59FD79"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "C9B1664981B373D2"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_sergeant_elara_brandt_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "EB2EBF742421C2AA"
+			dependencies: ["1111111111111101", "A409E7352C59FD79"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "42F7574505D9927C"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_kenji_aoki_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "E876EBD90FB264D5"
+			dependencies: ["1111111111111101", "AB0F179325C624E1", "EB2EBF742421C2AA"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "82B3BA6C78FBC246"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_captain_armstrong_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "ECB2649597037944"
+			dependencies: ["1111111111111101", "A409E7352C59FD79"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "71A6118E74C34270"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_dr_ingrid_valk_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "EDCAEA4D47D4329A"
+			dependencies: ["1111111111111101", "A409E7352C59FD79"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "65683CC281A9E607"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_tomas_reyes_02"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "8023948CA5DB27A5"
+			dependencies: ["1111111111111101", "ECB2649597037944", "EDCAEA4D47D4329A"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "0E6432893B610EF9"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_richard_nuevo_01"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "415FB3B9EBAEBCD7"
+			dependencies: ["1111111111111101", "C661EFC110E39892", "E876EBD90FB264D5", "8023948CA5DB27A5"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "2DCAA166C9282121"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_mira_okoye_06"
+				}
+			]
+			rewards: [ ]
+		},
+		{
+			id: "0C516A9541480BF5"
+			dependencies: ["1111111111111101", "C661EFC110E39892", "E876EBD90FB264D5", "8023948CA5DB27A5"]
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "7F123F6DCF44614A"
+					type: "advancement"
+					advancement: "rctmod:trainers/defeat_spark_dax_moreau_05"
+				}
+			]
+			rewards: [ ]
+		}
+				// END AUTO-GENERATED trainer quests
 		{
 			id: "1111111111111101"
 			invisible: true
