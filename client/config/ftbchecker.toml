@@ -4,9 +4,9 @@
 # them manually. On the CurseForge build FTB is bundled and FTBChecker is
 # removed, so the screen never appears.
 #
-# FTB Quests hard-depends on FTB Teams at runtime even though this list only
-# nags for Library + Quests; players who want Quests still need to grab
-# Teams themselves from its CurseForge page or the game will fail to load.
+# FTB Quests hard-depends on FTB Teams at runtime (missing it is a hard
+# crash, not a soft warning, confirmed by a real "ftbteams is not installed"
+# crash during testing). All three (Library, Quests, Teams) are listed below.
 #
 # IMPORTANT: the native checks (base/quests/teams) link to the GENERIC mod page
 # where players kept downloading the wrong (1.20 / 2100.x) build. We disable
@@ -28,4 +28,5 @@ polyLib = false
 mods = [
     "ftblibrary|FTB Library (2101.1.40)|https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/download/9650381",
     "ftbquests|FTB Quests (2101.1.39)|https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/download/9650792",
+    "ftbteams|FTB Teams (2101.1.12)|https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files/9434081",
 ]
