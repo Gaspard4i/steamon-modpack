@@ -9,6 +9,18 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [
+		{
+			id: "9999999999999902"
+			x: -2.0d
+			y: -2.0d
+			tasks: [
+				{
+					id: "9999999999999912"
+					type: "checkmark"
+				}
+			]
+			rewards: [ ]
+		}
 		// AUTO-GENERATED talk quests, see tools/generate_talk_quests.py
 		{
 			id: "E6A86901E53E59E6"

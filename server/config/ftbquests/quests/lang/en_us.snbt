@@ -1,4 +1,7 @@
 {
+	quest.9999999999999901.title: "Click me"
+	quest.9999999999999902.title: "Click me"
+	quest.9999999999999903.title: "Click me"
 	// AUTO-GENERATED talk quest lang keys, see tools/generate_talk_quests.py (Relic)
 	quest.9DCAAE304CB77F50.title: "Talk to Professor Idalia Quinn"
 	quest.9DCAAE304CB77F50.description: [ "Welcome, Pokédex, healing" ]
