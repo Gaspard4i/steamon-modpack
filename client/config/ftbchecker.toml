@@ -28,5 +28,5 @@ polyLib = false
 mods = [
     "ftblibrary|FTB Library (2101.1.40)|https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/download/9650381",
     "ftbquests|FTB Quests (2101.1.39)|https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/download/9650792",
-    "ftbteams|FTB Teams (2101.1.12)|https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files/9434081",
+    "ftbteams|FTB Teams (2101.1.12)|https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/download/9434081",
 ]
