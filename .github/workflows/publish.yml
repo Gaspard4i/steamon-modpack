@@ -114,12 +114,13 @@ jobs:
         run: |
           set -euo pipefail
 
-          # --- Inject FTB Teams (CurseForge-only, not redistributable) ---
-          # FTB Teams never lives in the repo (would be embedded illegally
-          # in the Modrinth .mrpack). Added here as a manifest reference
-          # (metadata: curseforge). FTB Teams hard-depends on FTB Library,
-          # so both are injected together.
+          # --- Inject FTB Quests/Library/Teams (CurseForge-only, not redistributable) ---
+          # None of the three ever live in the repo (would be embedded illegally
+          # in the Modrinth .mrpack). Added here as manifest references
+          # (metadata: curseforge). FTB Quests hard-depends on FTB Teams and
+          # FTB Library at runtime, so all three are injected together.
           packwiz curseforge add --addon-id 404465 --file-id 9650381 -y   # FTB Library 2101.1.40
+          packwiz curseforge add --addon-id 289412 --file-id 9650792 -y  # FTB Quests  2101.1.39
           packwiz curseforge add --addon-id 404468 --file-id 9434081 -y   # FTB Teams   2101.1.12
           # FTBChecker only exists to nag Modrinth users to install FTB
           # Teams; the CF build ships it directly, so drop it here.
@@ -494,12 +495,12 @@ jobs:
                       dep_id = d.get('modId')
                       if dep_id in ('forge', 'java', 'minecraft', 'neoforge'):
                           continue
-                      # FTB Teams/Library are CurseForge-only (All Rights
-                      # Reserved) and injected only for the CF-native zip
-                      # (see "Build CF-native zip" step), never in the
+                      # FTB Quests/Teams/Library are CurseForge-only (All
+                      # Rights Reserved) and injected only for the CF-native
+                      # zip (see "Build CF-native zip" step), never in the
                       # packwiz repo itself, so they legitimately never
                       # appear in the mrpack. Don't flag deps on them.
-                      if dep_id in ('ftbteams', 'ftblibrary'):
+                      if dep_id in ('ftbteams', 'ftblibrary', 'ftbquests'):
                           continue
                       if dep_id not in installed:
                           problems.append(f"{path_}: MISSING required '{dep_id}' {d.get('versionRange','')}")
