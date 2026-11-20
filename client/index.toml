@@ -584,8 +584,8 @@ hash = "f9c0771d423eb1cea0398e0fe70989cafe1d084528a3232d374cfc0e1e941196"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-utility-ivs-evs-more-no-recipes.pw.toml"
-hash = "e33cecf01d68755bee0476f63fc4796c0881ee35a8aad05be61452c01a2d1689"
+file = "mods/cobblemon-utility-items-no-recipes.pw.toml"
+hash = "6ffb58e370bd29f84250033c84e36881a7ec3efbad6183162c67f129adc925fc"
 metafile = true
 
 [[files]]

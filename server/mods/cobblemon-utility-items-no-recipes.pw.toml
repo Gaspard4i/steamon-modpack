@@ -1,0 +1,13 @@
+name = "Cobblemon Utility Items (No recipes)"
+filename = "pokeutilkit-neoforge-0.3.0-norecipes.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8IeYCGwt/versions/bzxaGKG2/pokeutilkit-neoforge-0.3.0-norecipes.jar"
+hash-format = "sha512"
+hash = "ff956a1c63e3470c0a76b064701a4c34329a2c139f0f5b49304c0d16ae21bda22c07989ac2da8d5d2f1f794f97dd02065d836c8572474db31fd39b6b62f10841"
+
+[update]
+[update.modrinth]
+mod-id = "8IeYCGwt"
+version = "bzxaGKG2"

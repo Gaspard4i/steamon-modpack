@@ -25,6 +25,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 - Gazai's Cobblemon Utility+ Resource Pack updated to 1.1.0.
 - Apricogs updated to 1.5.2.
+- Replaced Cobblemon Utility+ (IVs, EVs, & More) NO RECIPES with Gaz4i's
+  Cobblemon Utility Items (No recipes), same kind of IV/EV/level/shiny
+  tools without a pack-provided recipe set.
 
 ## [2.0.42] - 2026-11-13 (beta)
 
