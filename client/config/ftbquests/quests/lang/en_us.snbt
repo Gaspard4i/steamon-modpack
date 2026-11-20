@@ -1,0 +1,584 @@
+{
+	quest.9999999999999901.title: "Click me"
+	quest.9999999999999902.title: "Click me"
+	quest.9999999999999903.title: "Click me"
+	// AUTO-GENERATED talk quest lang keys, see tools/generate_talk_quests.py (Relic)
+	quest.9DCAAE304CB77F50.title: "Talk to Professor Idalia Quinn"
+	quest.9DCAAE304CB77F50.description: [ "Welcome, Pokédex, healing" ]
+	quest.17DBD59A48B83FD2.title: "Talk to Elder Margit Sundqvist"
+	quest.17DBD59A48B83FD2.description: [ "Welcome, Pokédex, healing" ]
+	quest.C8A7BAECCF5D0DA7.title: "Talk to Nurse Amélie"
+	quest.C8A7BAECCF5D0DA7.description: [ "Welcome, Pokédex, healing" ]
+	quest.3DC4AE75AB98349D.title: "Talk to Tavi"
+	quest.3DC4AE75AB98349D.description: [ "At spawn or in their base" ]
+	quest.4BB21B042C735B21.title: "Talk to Korrak"
+	quest.4BB21B042C735B21.description: [ "At spawn or in their base" ]
+	quest.5900A712D9368741.title: "Talk to Pip Hartwell"
+	quest.5900A712D9368741.description: [ "At spawn or in their base" ]
+	quest.EB4648E917673A7E.title: "Talk to Rory Callahan"
+	quest.EB4648E917673A7E.description: [ "At spawn or in their base" ]
+	quest.E0F83D3FE5C5504F.title: "Talk to Director Elias Marsh"
+	quest.E0F83D3FE5C5504F.description: [ "At spawn or in their base" ]
+	quest.C8199E30348FEFC4.title: "Talk to Dr. Yvonne Sato"
+	quest.C8199E30348FEFC4.description: [ "At spawn or in their base" ]
+	quest.D2E6555DCD8246D4.title: "Talk to Marcus Thorne"
+	quest.D2E6555DCD8246D4.description: [ "At spawn or in their base" ]
+	quest.068A7C3635201016.title: "Talk to Lena Ortiz"
+	quest.068A7C3635201016.description: [ "At spawn or in their base" ]
+	quest.AD87A95439981A1B.title: "Talk to Bram Holloway"
+	quest.AD87A95439981A1B.description: [ "At spawn or in their base" ]
+	quest.56D66766BA4EBC94.title: "Talk to Rosa Delgado"
+	quest.56D66766BA4EBC94.description: [ "At spawn or in their base" ]
+	quest.A7E106619110C493.title: "Talk to Kip Lanning"
+	quest.A7E106619110C493.description: [ "At spawn or in their base" ]
+	quest.9A53F3353CF205A6.title: "Talk to Noor Haddad"
+	quest.9A53F3353CF205A6.description: [ "At spawn or in their base" ]
+	quest.48C368E9BBE8C776.title: "Talk to Felix Aarden"
+	quest.48C368E9BBE8C776.description: [ "At spawn or in their base" ]
+	quest.F00067B690135930.title: "Talk to Doran Pike"
+	quest.F00067B690135930.description: [ "At spawn or in their base" ]
+	quest.99BA50C4E2FD9FC4.title: "Talk to Greta Lund"
+	quest.99BA50C4E2FD9FC4.description: [ "At spawn or in their base" ]
+	quest.BCB915FF86D12209.title: "Talk to Ines Carvalho"
+	quest.BCB915FF86D12209.description: [ "At spawn or in their base" ]
+	quest.D66A029507C3C7D2.title: "Talk to Bronte Flynn"
+	quest.D66A029507C3C7D2.description: [ "At spawn or in their base" ]
+	quest.58EDA914EF4737E7.title: "Talk to Anya Petrova"
+	quest.58EDA914EF4737E7.description: [ "At spawn or in their base" ]
+	quest.72A29B4BF3A823EA.title: "Talk to Tiago Lemos"
+	quest.72A29B4BF3A823EA.description: [ "At spawn or in their base" ]
+	quest.5936218E9C6E4940.title: "Talk to Gus Thornton"
+	quest.5936218E9C6E4940.description: [ "At spawn or in their base" ]
+	quest.ADA8492903D11D4C.title: "Talk to Pablo Ferrer"
+	quest.ADA8492903D11D4C.description: [ "At spawn or in their base" ]
+	quest.19EDAF4945323990.title: "Talk to Mama Adaeze"
+	quest.19EDAF4945323990.description: [ "At spawn or in their base" ]
+	quest.402308018C4B1A3B.title: "Talk to Isolde Vance"
+	quest.402308018C4B1A3B.description: [ "At spawn or in their base" ]
+	quest.6487439920C1C45B.title: "Talk to Hector Lin"
+	quest.6487439920C1C45B.description: [ "At spawn or in their base" ]
+	quest.D838206A070744F7.title: "Talk to Mei Tanaka"
+	quest.D838206A070744F7.description: [ "At spawn or in their base" ]
+	quest.0A433AFA9307FC4F.title: "Talk to Ravi Menon"
+	quest.0A433AFA9307FC4F.description: [ "At spawn or in their base" ]
+	quest.1527A13EAAC3FCFB.title: "Talk to Dalia"
+	quest.1527A13EAAC3FCFB.description: [ "At spawn or in their base" ]
+	quest.5CB567F90FEDD6DB.title: "Talk to Orlando"
+	quest.5CB567F90FEDD6DB.description: [ "At spawn or in their base" ]
+	quest.8479A27BEAA1E523.title: "Talk to Tobias"
+	quest.8479A27BEAA1E523.description: [ "At spawn or in their base" ]
+	quest.086884734DEEDD23.title: "Talk to Pierre"
+	quest.086884734DEEDD23.description: [ "At spawn or in their base" ]
+	quest.7E1A118D96F43923.title: "Talk to Lola"
+	quest.7E1A118D96F43923.description: [ "At spawn or in their base" ]
+	quest.5B64E6977A705977.title: "Talk to Rio Santos"
+	quest.5B64E6977A705977.description: [ "At spawn or in their base" ]
+	quest.E572E6C2C494B206.title: "Talk to Camille Roux"
+	quest.E572E6C2C494B206.description: [ "At spawn or in their base" ]
+	quest.C7BCFBA3916BEC2F.title: "Talk to Kofi"
+	quest.C7BCFBA3916BEC2F.description: [ "At spawn or in their base" ]
+	quest.27FADBE9023F378A.title: "Talk to Aurelie Dumont"
+	quest.27FADBE9023F378A.description: [ "At spawn or in their base" ]
+	quest.FA6AE9DEF3863DFE.title: "Talk to Ben"
+	quest.FA6AE9DEF3863DFE.description: [ "At spawn or in their base" ]
+	quest.852164042225761E.title: "Talk to Priya"
+	quest.852164042225761E.description: [ "At spawn or in their base" ]
+	quest.64A61B6C7A70F478.title: "Talk to Sami"
+	quest.64A61B6C7A70F478.description: [ "At spawn or in their base" ]
+	quest.C039C20654FEE6B7.title: "Talk to Smoke"
+	quest.C039C20654FEE6B7.description: [ "At spawn or in their base" ]
+	quest.FD1E3218B71EED46.title: "Talk to Zeke"
+	quest.FD1E3218B71EED46.description: [ "At spawn or in their base" ]
+	quest.F4052670A05BD99E.title: "Talk to Ned"
+	quest.F4052670A05BD99E.description: [ "At spawn or in their base" ]
+	quest.D43DBFA3B0125406.title: "Talk to Crystal Isla"
+	quest.D43DBFA3B0125406.description: [ "The leader welcomes the player" ]
+	quest.17A0B84BF4F0606A.title: "Talk to Professor Idalia Quinn"
+	quest.17A0B84BF4F0606A.description: [ "Explains Steamos Pokémon" ]
+	quest.E23AA0515A9C27FF.title: "Talk to Dax Moreau"
+	quest.E23AA0515A9C27FF.description: [ "Meets the other rival" ]
+	quest.9689F620C424B9F7.title: "Talk to Odile Fontaine"
+	quest.9689F620C424B9F7.description: [ "Museum life" ]
+	quest.7CB66D4AA4785086.title: "Talk to Rafael Quispe"
+	quest.7CB66D4AA4785086.description: [ "Museum life" ]
+	quest.9481F06B6B89557A.title: "Talk to Lina Park"
+	quest.9481F06B6B89557A.description: [ "Museum life" ]
+	quest.9537B6A4E80EAF4D.title: "Talk to Hugo Arslan"
+	quest.9537B6A4E80EAF4D.description: [ "Museum life" ]
+	quest.6EA98D31258F0EEB.title: "Talk to Soren Kade"
+	quest.6EA98D31258F0EEB.description: [ "Museum life" ]
+	quest.6BF35EF0B52C1F81.title: "Talk to Dr. Pavel Novak"
+	quest.6BF35EF0B52C1F81.description: [ "Museum life" ]
+	quest.FAA1A92563A5B6B7.title: "Talk to Observer Calla Whitmore"
+	quest.FAA1A92563A5B6B7.description: [ "The rifts appear" ]
+	quest.D55B660310BE1A40.title: "Talk to Madame Zora"
+	quest.D55B660310BE1A40.description: [ "The rifts appear" ]
+	quest.C9F19C8B32C2DDF2.title: "Talk to Jules Marek"
+	quest.C9F19C8B32C2DDF2.description: [ "The rifts appear" ]
+	quest.DDE69A8949B26A26.title: "Talk to A.Z."
+	quest.DDE69A8949B26A26.description: [ "Enigmatic appearance" ]
+	quest.20DDFE4D21EB1F0C.title: "Talk to Kitu"
+	quest.20DDFE4D21EB1F0C.description: [ "Lanugo scout watching" ]
+	quest.FCED837BB750C27C.title: "Talk to Mara"
+	quest.FCED837BB750C27C.description: [ "First contacts" ]
+	quest.8DABFEA0DB643B58.title: "Talk to Oren"
+	quest.8DABFEA0DB643B58.description: [ "First contacts" ]
+	quest.F794E8E19E08A08D.title: "Talk to Peli"
+	quest.F794E8E19E08A08D.description: [ "First contacts" ]
+	quest.FAB3AE8A7D52CAE4.title: "Talk to Hesk"
+	quest.FAB3AE8A7D52CAE4.description: [ "Wary but open" ]
+	quest.3A6C6515762456E3.title: "Talk to Ulda"
+	quest.3A6C6515762456E3.description: [ "Wary but open" ]
+	quest.40EF75B5B371036C.title: "Talk to Ilu"
+	quest.40EF75B5B371036C.description: [ "Let the player pass" ]
+	quest.63EBFFBE42715E5E.title: "Talk to Daro"
+	quest.63EBFFBE42715E5E.description: [ "Let the player pass" ]
+	quest.AC318F9DED25F646.title: "Talk to Neshi"
+	quest.AC318F9DED25F646.description: [ "Let the player pass" ]
+	quest.016A5B6D6B77AAC4.title: "Talk to Anaru"
+	quest.016A5B6D6B77AAC4.description: [ "Tales of the Deities and the shrine" ]
+	quest.4A96F68CBD769FE4.title: "Talk to Idris Bahl"
+	quest.4A96F68CBD769FE4.description: [ "Tales of the Deities and the shrine" ]
+	quest.0D5AC8313656169E.title: "Talk to Halu"
+	quest.0D5AC8313656169E.description: [ "Tales of the Deities and the shrine" ]
+	quest.91A434D89A7FA69C.title: "Talk to Wiro"
+	quest.91A434D89A7FA69C.description: [ "Tales of the Deities and the shrine" ]
+	quest.8148212AD82993D7.title: "Talk to Teka"
+	quest.8148212AD82993D7.description: [ "Tales of the Deities and the shrine" ]
+	quest.75FE7B1601464E73.title: "Talk to Mystery Man"
+	quest.75FE7B1601464E73.description: [ "Warns of Lysandre's arrival" ]
+	quest.277F3E9F1E251F85.title: "Talk to Lysandre"
+	quest.277F3E9F1E251F85.description: [ "Appears from a distance" ]
+	quest.C075FCFE16DDB490.title: "Talk to Dr. Ingrid Valk"
+	quest.C075FCFE16DDB490.description: [ "The three teams unite" ]
+	quest.7E453507BABEEFE9.title: "Talk to Tomas Reyes"
+	quest.7E453507BABEEFE9.description: [ "The three teams unite" ]
+	quest.39A87F83CDF083E8.title: "Talk to Prof. Anselm Dray"
+	quest.39A87F83CDF083E8.description: [ "The three teams unite" ]
+	quest.4D1F63F7E2A1B984.title: "Talk to Zuri Nakamura"
+	quest.4D1F63F7E2A1B984.description: [ "The three teams unite" ]
+	quest.F57A51152CE24EE5.title: "Talk to Sergeant Elara Brandt"
+	quest.F57A51152CE24EE5.description: [ "The three teams unite" ]
+	quest.0669246ABC3589C7.title: "Talk to Kenji Aoki"
+	quest.0669246ABC3589C7.description: [ "The three teams unite" ]
+	quest.0DE11B2769E88562.title: "Talk to Richard Nuevo"
+	quest.0DE11B2769E88562.description: [ "Leaders' meeting" ]
+	quest.C3C471961E14327F.title: "Talk to Crystal Isla"
+	quest.C3C471961E14327F.description: [ "Leaders' meeting" ]
+	quest.5F8C16A347F16828.title: "Talk to Captain Armstrong"
+	quest.5F8C16A347F16828.description: [ "Leaders' meeting" ]
+	quest.74F340F3945C6893.title: "Talk to Crystal Isla"
+	quest.74F340F3945C6893.description: [ "Leader wounded but alive" ]
+	quest.BDBB1F76EA46594E.title: "Talk to Dr. Samir Qureshi"
+	quest.BDBB1F76EA46594E.description: [ "Treats the wounded" ]
+	quest.A6DB01F223437BE0.title: "Talk to Tess Whitlock"
+	quest.A6DB01F223437BE0.description: [ "After Lysandre's fall" ]
+	quest.BD2BD8FCC934F39E.title: "Talk to Elena Vasquez"
+	quest.BD2BD8FCC934F39E.description: [ "After Lysandre's fall" ]
+	quest.2242B8019CA56A36.title: "Talk to Mateo Vasquez"
+	quest.2242B8019CA56A36.description: [ "After Lysandre's fall" ]
+	quest.0DD835E0962A5A36.title: "Talk to Henri Duval"
+	quest.0DD835E0962A5A36.description: [ "After Lysandre's fall" ]
+	quest.E62CD90EAC343E43.title: "Talk to Zoe Duval"
+	quest.E62CD90EAC343E43.description: [ "After Lysandre's fall" ]
+	quest.C707F6F27F85862D.title: "Talk to Noah Brightwell"
+	quest.C707F6F27F85862D.description: [ "After Lysandre's fall" ]
+	quest.2D633919E58EA4E2.title: "Talk to The Okafors"
+	quest.2D633919E58EA4E2.description: [ "After Lysandre's fall" ]
+	quest.F448C7977BBC52F2.title: "Talk to Ekayon"
+	quest.F448C7977BBC52F2.description: [ "The Lanugo return home" ]
+	quest.ED00040B03AD4199.title: "Talk to Elder Pax"
+	quest.ED00040B03AD4199.description: [ "Closing words" ]
+	quest.343224351643FB8F.title: "Talk to Professor Idalia Quinn"
+	quest.343224351643FB8F.description: [ "Conclusion" ]
+	// END AUTO-GENERATED talk quest lang keys (Relic)
+	// AUTO-GENERATED talk quest lang keys, see tools/generate_talk_quests.py (Might)
+	quest.E6A86901E53E59E6.title: "Talk to Professor Idalia Quinn"
+	quest.E6A86901E53E59E6.description: [ "Welcome, Pokédex, healing" ]
+	quest.EA9201F6E976B686.title: "Talk to Elder Margit Sundqvist"
+	quest.EA9201F6E976B686.description: [ "Welcome, Pokédex, healing" ]
+	quest.4D5A6C0FDFA7D797.title: "Talk to Nurse Amélie"
+	quest.4D5A6C0FDFA7D797.description: [ "Welcome, Pokédex, healing" ]
+	quest.1D7F3F1607763ADB.title: "Talk to Tavi"
+	quest.1D7F3F1607763ADB.description: [ "At spawn or in their base" ]
+	quest.471E76397CDB66EA.title: "Talk to Sael"
+	quest.471E76397CDB66EA.description: [ "At spawn or in their base" ]
+	quest.F20CBAADBCE36C95.title: "Talk to Pip Hartwell"
+	quest.F20CBAADBCE36C95.description: [ "At spawn or in their base" ]
+	quest.8FA5CD28985ACC1C.title: "Talk to Cleo Marchetti"
+	quest.8FA5CD28985ACC1C.description: [ "At spawn or in their base" ]
+	quest.447966B5FB564FFA.title: "Talk to Director Elias Marsh"
+	quest.447966B5FB564FFA.description: [ "At spawn or in their base" ]
+	quest.74447EEF33E017B0.title: "Talk to Dr. Yvonne Sato"
+	quest.74447EEF33E017B0.description: [ "At spawn or in their base" ]
+	quest.CF491D3746663902.title: "Talk to Marcus Thorne"
+	quest.CF491D3746663902.description: [ "At spawn or in their base" ]
+	quest.9543EFA3DEBF9500.title: "Talk to Lena Ortiz"
+	quest.9543EFA3DEBF9500.description: [ "At spawn or in their base" ]
+	quest.C20A706F3ACF8F3F.title: "Talk to Bram Holloway"
+	quest.C20A706F3ACF8F3F.description: [ "At spawn or in their base" ]
+	quest.2958E6B56D2AC767.title: "Talk to Rosa Delgado"
+	quest.2958E6B56D2AC767.description: [ "At spawn or in their base" ]
+	quest.55A52B9542F19F4D.title: "Talk to Kip Lanning"
+	quest.55A52B9542F19F4D.description: [ "At spawn or in their base" ]
+	quest.DDF96825B6A814BB.title: "Talk to Noor Haddad"
+	quest.DDF96825B6A814BB.description: [ "At spawn or in their base" ]
+	quest.979A0E36290019C1.title: "Talk to Felix Aarden"
+	quest.979A0E36290019C1.description: [ "At spawn or in their base" ]
+	quest.E4721D7F8D6C29F8.title: "Talk to Doran Pike"
+	quest.E4721D7F8D6C29F8.description: [ "At spawn or in their base" ]
+	quest.B8E3F0194AF23088.title: "Talk to Greta Lund"
+	quest.B8E3F0194AF23088.description: [ "At spawn or in their base" ]
+	quest.03E656C3F413D656.title: "Talk to Odile Fontaine"
+	quest.03E656C3F413D656.description: [ "At spawn or in their base" ]
+	quest.04126BD9F9CE22A1.title: "Talk to Rafael Quispe"
+	quest.04126BD9F9CE22A1.description: [ "At spawn or in their base" ]
+	quest.8FDB319841688672.title: "Talk to Dr. Amara Eze"
+	quest.8FDB319841688672.description: [ "At spawn or in their base" ]
+	quest.666C3BA91F94F3A2.title: "Talk to Jax Mercer"
+	quest.666C3BA91F94F3A2.description: [ "At spawn or in their base" ]
+	quest.3F7B13F862E7052C.title: "Talk to Dr. Pavel Novak"
+	quest.3F7B13F862E7052C.description: [ "At spawn or in their base" ]
+	quest.62E1806B76C7EF1A.title: "Talk to Lina Park"
+	quest.62E1806B76C7EF1A.description: [ "At spawn or in their base" ]
+	quest.887DF416DCDEC19A.title: "Talk to Hugo Arslan"
+	quest.887DF416DCDEC19A.description: [ "At spawn or in their base" ]
+	quest.7ED61D6BB7346D12.title: "Talk to Maren Solberg"
+	quest.7ED61D6BB7346D12.description: [ "At spawn or in their base" ]
+	quest.F1BFEFC5F47150F8.title: "Talk to Soren Kade"
+	quest.F1BFEFC5F47150F8.description: [ "At spawn or in their base" ]
+	quest.9EE3764C3271D45B.title: "Talk to Tilda Rowe"
+	quest.9EE3764C3271D45B.description: [ "At spawn or in their base" ]
+	quest.8EED3F2B34E904B2.title: "Talk to Idris Bahl"
+	quest.8EED3F2B34E904B2.description: [ "At spawn or in their base" ]
+	quest.53174153C2361682.title: "Talk to Dalia"
+	quest.53174153C2361682.description: [ "At spawn or in their base" ]
+	quest.A449B4DEE9EE53E8.title: "Talk to Orlando"
+	quest.A449B4DEE9EE53E8.description: [ "At spawn or in their base" ]
+	quest.D80C4A64D7C6BDD9.title: "Talk to Tobias"
+	quest.D80C4A64D7C6BDD9.description: [ "At spawn or in their base" ]
+	quest.59DBC6977C6A1DF0.title: "Talk to Pierre"
+	quest.59DBC6977C6A1DF0.description: [ "At spawn or in their base" ]
+	quest.2AF374B971F4ABD4.title: "Talk to Lola"
+	quest.2AF374B971F4ABD4.description: [ "At spawn or in their base" ]
+	quest.45282E987FE34102.title: "Talk to Rio Santos"
+	quest.45282E987FE34102.description: [ "At spawn or in their base" ]
+	quest.65ABD4A73BFA3326.title: "Talk to Camille Roux"
+	quest.65ABD4A73BFA3326.description: [ "At spawn or in their base" ]
+	quest.CBA4C50794051D2B.title: "Talk to Kofi"
+	quest.CBA4C50794051D2B.description: [ "At spawn or in their base" ]
+	quest.1252535F46707BF5.title: "Talk to Aurelie Dumont"
+	quest.1252535F46707BF5.description: [ "At spawn or in their base" ]
+	quest.067FF54B900E8ABA.title: "Talk to Ben"
+	quest.067FF54B900E8ABA.description: [ "At spawn or in their base" ]
+	quest.4C3630940ED6A555.title: "Talk to Priya"
+	quest.4C3630940ED6A555.description: [ "At spawn or in their base" ]
+	quest.B6B696D5039B845A.title: "Talk to Sami"
+	quest.B6B696D5039B845A.description: [ "At spawn or in their base" ]
+	quest.C0D5C170F7FBB58C.title: "Talk to Smoke"
+	quest.C0D5C170F7FBB58C.description: [ "At spawn or in their base" ]
+	quest.A0EF1DB0A3EAEE55.title: "Talk to Zeke"
+	quest.A0EF1DB0A3EAEE55.description: [ "At spawn or in their base" ]
+	quest.BCCAA59075772E7A.title: "Talk to Ned"
+	quest.BCCAA59075772E7A.description: [ "At spawn or in their base" ]
+	quest.14687F80641508CF.title: "Talk to Captain Armstrong"
+	quest.14687F80641508CF.description: [ "The leader welcomes the player" ]
+	quest.F5BADD88B34BFF35.title: "Talk to Professor Idalia Quinn"
+	quest.F5BADD88B34BFF35.description: [ "Explains Steamos Pokémon" ]
+	quest.9EAC9A2E45638F6A.title: "Talk to Mira Okoye"
+	quest.9EAC9A2E45638F6A.description: [ "Meets the other rival" ]
+	quest.9EB7A638D07C3F1A.title: "Talk to Bronte Flynn"
+	quest.9EB7A638D07C3F1A.description: [ "Ship-temple life" ]
+	quest.E0AACCD01E8D2920.title: "Talk to Anya Petrova"
+	quest.E0AACCD01E8D2920.description: [ "Ship-temple life" ]
+	quest.0EB820AC3A1F9748.title: "Talk to Mama Adaeze"
+	quest.0EB820AC3A1F9748.description: [ "Ship-temple life" ]
+	quest.DDE3165A1CB2C40A.title: "Talk to Mei Tanaka"
+	quest.DDE3165A1CB2C40A.description: [ "Ship-temple life" ]
+	quest.C6EE3EABED3B6EB6.title: "Talk to Ravi Menon"
+	quest.C6EE3EABED3B6EB6.description: [ "Ship-temple life" ]
+	quest.1FD02E39F5707ECB.title: "Talk to Observer Calla Whitmore"
+	quest.1FD02E39F5707ECB.description: [ "The rifts appear" ]
+	quest.4115CFB017351D58.title: "Talk to Madame Zora"
+	quest.4115CFB017351D58.description: [ "The rifts appear" ]
+	quest.DDEA3CF4C3C7E519.title: "Talk to Jules Marek"
+	quest.DDEA3CF4C3C7E519.description: [ "The rifts appear" ]
+	quest.2F29B56DE9557203.title: "Talk to A.Z."
+	quest.2F29B56DE9557203.description: [ "Enigmatic appearance" ]
+	quest.B9BD58F819CE146A.title: "Talk to Kitu"
+	quest.B9BD58F819CE146A.description: [ "Lanugo scout watching" ]
+	quest.20C8AA23244AC096.title: "Talk to Mara"
+	quest.20C8AA23244AC096.description: [ "First contacts" ]
+	quest.4439045412A3A4BE.title: "Talk to Oren"
+	quest.4439045412A3A4BE.description: [ "First contacts" ]
+	quest.6AEF08F4E1CAA2F8.title: "Talk to Peli"
+	quest.6AEF08F4E1CAA2F8.description: [ "First contacts" ]
+	quest.C46A2C1328CA6231.title: "Talk to Anaru"
+	quest.C46A2C1328CA6231.description: [ "Tales, respectful tone" ]
+	quest.3DCC3CA05C29B7A6.title: "Talk to Halu"
+	quest.3DCC3CA05C29B7A6.description: [ "Tales, respectful tone" ]
+	quest.C5C530F7A51BCA33.title: "Talk to Wiro"
+	quest.C5C530F7A51BCA33.description: [ "Tales, respectful tone" ]
+	quest.47CDAFD39F7FD850.title: "Talk to Teka"
+	quest.47CDAFD39F7FD850.description: [ "Tales, respectful tone" ]
+	quest.30EAA33251149F53.title: "Talk to Isolde Vance"
+	quest.30EAA33251149F53.description: [ "Advises Armstrong" ]
+	quest.DC74055205A555F5.title: "Talk to Mystery Man"
+	quest.DC74055205A555F5.description: [ "Warns of Lysandre's arrival" ]
+	quest.F04146843A1F5042.title: "Talk to Lysandre"
+	quest.F04146843A1F5042.description: [ "Appears from a distance" ]
+	quest.F6ED3B46092E3436.title: "Talk to Dr. Ingrid Valk"
+	quest.F6ED3B46092E3436.description: [ "The three teams unite" ]
+	quest.308EA9E030EFC591.title: "Talk to Tomas Reyes"
+	quest.308EA9E030EFC591.description: [ "The three teams unite" ]
+	quest.A2A4D13DE6441934.title: "Talk to Prof. Anselm Dray"
+	quest.A2A4D13DE6441934.description: [ "The three teams unite" ]
+	quest.E5A1A550D6614ECD.title: "Talk to Zuri Nakamura"
+	quest.E5A1A550D6614ECD.description: [ "The three teams unite" ]
+	quest.60F5A3EEEFC685F6.title: "Talk to Sergeant Elara Brandt"
+	quest.60F5A3EEEFC685F6.description: [ "The three teams unite" ]
+	quest.4F8E7FBC9591DAE8.title: "Talk to Kenji Aoki"
+	quest.4F8E7FBC9591DAE8.description: [ "The three teams unite" ]
+	quest.4A4BF7B6D6F922C1.title: "Talk to Richard Nuevo"
+	quest.4A4BF7B6D6F922C1.description: [ "Leaders' meeting" ]
+	quest.2C192F3400A3A043.title: "Talk to Crystal Isla"
+	quest.2C192F3400A3A043.description: [ "Leaders' meeting" ]
+	quest.4FE3492C680D251C.title: "Talk to Captain Armstrong"
+	quest.4FE3492C680D251C.description: [ "Leaders' meeting" ]
+	quest.E5A16FE89A4C190F.title: "Talk to Captain Armstrong"
+	quest.E5A16FE89A4C190F.description: [ "Leader wounded but alive" ]
+	quest.A1597731F3DBD8CC.title: "Talk to Dr. Samir Qureshi"
+	quest.A1597731F3DBD8CC.description: [ "Treats the wounded" ]
+	quest.4C6CFD059EE75A6F.title: "Talk to Tess Whitlock"
+	quest.4C6CFD059EE75A6F.description: [ "After Lysandre's fall" ]
+	quest.36BB3435E50A2DEB.title: "Talk to Elena Vasquez"
+	quest.36BB3435E50A2DEB.description: [ "After Lysandre's fall" ]
+	quest.396539B1E64815A3.title: "Talk to Mateo Vasquez"
+	quest.396539B1E64815A3.description: [ "After Lysandre's fall" ]
+	quest.FF2B7451139EB886.title: "Talk to Henri Duval"
+	quest.FF2B7451139EB886.description: [ "After Lysandre's fall" ]
+	quest.8800CE46BF7E3125.title: "Talk to Zoe Duval"
+	quest.8800CE46BF7E3125.description: [ "After Lysandre's fall" ]
+	quest.DA54EBDC06A111BA.title: "Talk to Noah Brightwell"
+	quest.DA54EBDC06A111BA.description: [ "After Lysandre's fall" ]
+	quest.06C2F95DFB2EB6B2.title: "Talk to The Okafors"
+	quest.06C2F95DFB2EB6B2.description: [ "After Lysandre's fall" ]
+	quest.F32676143DFA227E.title: "Talk to Ekayon"
+	quest.F32676143DFA227E.description: [ "The Lanugo return home" ]
+	quest.DB7E91ED9DD6999A.title: "Talk to Elder Pax"
+	quest.DB7E91ED9DD6999A.description: [ "Closing words" ]
+	quest.FB5FFEB02A2029D7.title: "Talk to Professor Idalia Quinn"
+	quest.FB5FFEB02A2029D7.description: [ "Conclusion" ]
+	// END AUTO-GENERATED talk quest lang keys (Might)
+	// AUTO-GENERATED talk quest lang keys, see tools/generate_talk_quests.py (Spark)
+	quest.C470932DC7980AF5.title: "Talk to Professor Idalia Quinn"
+	quest.C470932DC7980AF5.description: [ "Welcome, Pokédex, healing" ]
+	quest.C8DFCF9617CCE7CC.title: "Talk to Elder Margit Sundqvist"
+	quest.C8DFCF9617CCE7CC.description: [ "Welcome, Pokédex, healing" ]
+	quest.92C2B90E7C8EF459.title: "Talk to Nurse Amélie"
+	quest.92C2B90E7C8EF459.description: [ "Welcome, Pokédex, healing" ]
+	quest.29536CAB4F2CE119.title: "Talk to Sael"
+	quest.29536CAB4F2CE119.description: [ "At spawn or in their base" ]
+	quest.40E84B59D7FAF6B2.title: "Talk to Korrak"
+	quest.40E84B59D7FAF6B2.description: [ "At spawn or in their base" ]
+	quest.B72C1E16109DF954.title: "Talk to Cleo Marchetti"
+	quest.B72C1E16109DF954.description: [ "At spawn or in their base" ]
+	quest.1313494310FBFC1E.title: "Talk to Rory Callahan"
+	quest.1313494310FBFC1E.description: [ "At spawn or in their base" ]
+	quest.8FE4CC32A3823B4F.title: "Talk to Odile Fontaine"
+	quest.8FE4CC32A3823B4F.description: [ "At spawn or in their base" ]
+	quest.23531E5B5C47FE6F.title: "Talk to Rafael Quispe"
+	quest.23531E5B5C47FE6F.description: [ "At spawn or in their base" ]
+	quest.1A81F70682A9D5EC.title: "Talk to Dr. Amara Eze"
+	quest.1A81F70682A9D5EC.description: [ "At spawn or in their base" ]
+	quest.04EDBB925EE30E91.title: "Talk to Jax Mercer"
+	quest.04EDBB925EE30E91.description: [ "At spawn or in their base" ]
+	quest.29C5B054C8B45DF3.title: "Talk to Dr. Pavel Novak"
+	quest.29C5B054C8B45DF3.description: [ "At spawn or in their base" ]
+	quest.EE2861403CC5B9F2.title: "Talk to Lina Park"
+	quest.EE2861403CC5B9F2.description: [ "At spawn or in their base" ]
+	quest.BDE72431EC13E207.title: "Talk to Hugo Arslan"
+	quest.BDE72431EC13E207.description: [ "At spawn or in their base" ]
+	quest.A9C72813612350BB.title: "Talk to Maren Solberg"
+	quest.A9C72813612350BB.description: [ "At spawn or in their base" ]
+	quest.D07959E0C8A92958.title: "Talk to Soren Kade"
+	quest.D07959E0C8A92958.description: [ "At spawn or in their base" ]
+	quest.5A017923AFE6C6B1.title: "Talk to Tilda Rowe"
+	quest.5A017923AFE6C6B1.description: [ "At spawn or in their base" ]
+	quest.9FE1AD5497086FFB.title: "Talk to Idris Bahl"
+	quest.9FE1AD5497086FFB.description: [ "At spawn or in their base" ]
+	quest.3BFD9F1B415EAF5C.title: "Talk to Ines Carvalho"
+	quest.3BFD9F1B415EAF5C.description: [ "At spawn or in their base" ]
+	quest.55883CF1A270A18B.title: "Talk to Bronte Flynn"
+	quest.55883CF1A270A18B.description: [ "At spawn or in their base" ]
+	quest.5E4072F5D21195C4.title: "Talk to Anya Petrova"
+	quest.5E4072F5D21195C4.description: [ "At spawn or in their base" ]
+	quest.2B55087BA61BB5FD.title: "Talk to Tiago Lemos"
+	quest.2B55087BA61BB5FD.description: [ "At spawn or in their base" ]
+	quest.CE713B0CFC958D51.title: "Talk to Gus Thornton"
+	quest.CE713B0CFC958D51.description: [ "At spawn or in their base" ]
+	quest.24C6BCBF5DB11FED.title: "Talk to Pablo Ferrer"
+	quest.24C6BCBF5DB11FED.description: [ "At spawn or in their base" ]
+	quest.A07BEF3E96DFF988.title: "Talk to Mama Adaeze"
+	quest.A07BEF3E96DFF988.description: [ "At spawn or in their base" ]
+	quest.05551937BA38F2C9.title: "Talk to Isolde Vance"
+	quest.05551937BA38F2C9.description: [ "At spawn or in their base" ]
+	quest.8A9D2CB26E379E15.title: "Talk to Hector Lin"
+	quest.8A9D2CB26E379E15.description: [ "At spawn or in their base" ]
+	quest.EA416337F32BFF29.title: "Talk to Mei Tanaka"
+	quest.EA416337F32BFF29.description: [ "At spawn or in their base" ]
+	quest.53248AA7CBB7EB3C.title: "Talk to Ravi Menon"
+	quest.53248AA7CBB7EB3C.description: [ "At spawn or in their base" ]
+	quest.965A90E765B02B92.title: "Talk to Dalia"
+	quest.965A90E765B02B92.description: [ "At spawn or in their base" ]
+	quest.EB60386F73F2842B.title: "Talk to Orlando"
+	quest.EB60386F73F2842B.description: [ "At spawn or in their base" ]
+	quest.C532BF4559B337ED.title: "Talk to Tobias"
+	quest.C532BF4559B337ED.description: [ "At spawn or in their base" ]
+	quest.5DE585CA76F400EB.title: "Talk to Pierre"
+	quest.5DE585CA76F400EB.description: [ "At spawn or in their base" ]
+	quest.FF0AEFE41A843CDC.title: "Talk to Lola"
+	quest.FF0AEFE41A843CDC.description: [ "At spawn or in their base" ]
+	quest.FA93ED2BBC8CF152.title: "Talk to Rio Santos"
+	quest.FA93ED2BBC8CF152.description: [ "At spawn or in their base" ]
+	quest.A9787BCDA90BD899.title: "Talk to Camille Roux"
+	quest.A9787BCDA90BD899.description: [ "At spawn or in their base" ]
+	quest.D2C6A1300D396622.title: "Talk to Kofi"
+	quest.D2C6A1300D396622.description: [ "At spawn or in their base" ]
+	quest.1593DB6DB8260EE9.title: "Talk to Aurelie Dumont"
+	quest.1593DB6DB8260EE9.description: [ "At spawn or in their base" ]
+	quest.83682BB4AED9FB6B.title: "Talk to Ben"
+	quest.83682BB4AED9FB6B.description: [ "At spawn or in their base" ]
+	quest.FC7C444E221216E8.title: "Talk to Priya"
+	quest.FC7C444E221216E8.description: [ "At spawn or in their base" ]
+	quest.82A0332AD1717246.title: "Talk to Sami"
+	quest.82A0332AD1717246.description: [ "At spawn or in their base" ]
+	quest.6F6AF8B38E527589.title: "Talk to Smoke"
+	quest.6F6AF8B38E527589.description: [ "At spawn or in their base" ]
+	quest.208945E01401E803.title: "Talk to Zeke"
+	quest.208945E01401E803.description: [ "At spawn or in their base" ]
+	quest.EB7E784C7D78658D.title: "Talk to Ned"
+	quest.EB7E784C7D78658D.description: [ "At spawn or in their base" ]
+	quest.A8E111D87D68B2C0.title: "Talk to Richard Nuevo"
+	quest.A8E111D87D68B2C0.description: [ "The leader welcomes the player" ]
+	quest.95E03B05BB27AE38.title: "Talk to Professor Idalia Quinn"
+	quest.95E03B05BB27AE38.description: [ "Explains Steamos Pokémon" ]
+	quest.3D8A3CF998344EEC.title: "Talk to Dax Moreau"
+	quest.3D8A3CF998344EEC.description: [ "Meets the other rival" ]
+	quest.4D3AF6968E3AEAAB.title: "Talk to Kip Lanning"
+	quest.4D3AF6968E3AEAAB.description: [ "Lab life" ]
+	quest.C70FE150FA106AAC.title: "Talk to Bram Holloway"
+	quest.C70FE150FA106AAC.description: [ "Lab life" ]
+	quest.2773D31C463144EC.title: "Talk to Rosa Delgado"
+	quest.2773D31C463144EC.description: [ "Lab life" ]
+	quest.B52A81470EBE1430.title: "Talk to Doran Pike"
+	quest.B52A81470EBE1430.description: [ "Lab life" ]
+	quest.1965F5F341681152.title: "Talk to Noor Haddad"
+	quest.1965F5F341681152.description: [ "Lab life" ]
+	quest.745351FC02D5DDCC.title: "Talk to Greta Lund"
+	quest.745351FC02D5DDCC.description: [ "Lab life" ]
+	quest.36E232D7825BD877.title: "Talk to Observer Calla Whitmore"
+	quest.36E232D7825BD877.description: [ "The rifts appear" ]
+	quest.22599B60389FD29B.title: "Talk to Madame Zora"
+	quest.22599B60389FD29B.description: [ "The rifts appear" ]
+	quest.5ED0BC216243D7A5.title: "Talk to Jules Marek"
+	quest.5ED0BC216243D7A5.description: [ "The rifts appear" ]
+	quest.FA624B8F75B1AD3C.title: "Talk to A.Z."
+	quest.FA624B8F75B1AD3C.description: [ "Enigmatic appearance" ]
+	quest.92CE604A59D5CD6C.title: "Talk to Director Elias Marsh"
+	quest.92CE604A59D5CD6C.description: [ "Executives hiding something" ]
+	quest.4C866ECFA247AECF.title: "Talk to Dr. Yvonne Sato"
+	quest.4C866ECFA247AECF.description: [ "Executives hiding something" ]
+	quest.9ACA73B271493006.title: "Talk to Kitu"
+	quest.9ACA73B271493006.description: [ "Lanugo scout watching" ]
+	quest.9AEEE9236FF4E9F9.title: "Talk to Mara"
+	quest.9AEEE9236FF4E9F9.description: [ "First contacts" ]
+	quest.159E8145A6F94339.title: "Talk to Oren"
+	quest.159E8145A6F94339.description: [ "First contacts" ]
+	quest.27F3A3DEE4896AE3.title: "Talk to Peli"
+	quest.27F3A3DEE4896AE3.description: [ "First contacts" ]
+	quest.A36695CBF67D5961.title: "Talk to Elder Pax"
+	quest.A36695CBF67D5961.description: [ "Warns that danger is coming" ]
+	quest.573D776D86BFFC4B.title: "Talk to Anaru"
+	quest.573D776D86BFFC4B.description: [ "Tales, hostile tone" ]
+	quest.9815394476B5F439.title: "Talk to Halu"
+	quest.9815394476B5F439.description: [ "Tales, hostile tone" ]
+	quest.5B54F7C3CFA96597.title: "Talk to Wiro"
+	quest.5B54F7C3CFA96597.description: [ "Tales, hostile tone" ]
+	quest.56BF49C341B615DD.title: "Talk to Teka"
+	quest.56BF49C341B615DD.description: [ "Tales, hostile tone" ]
+	quest.36534406BF7F2885.title: "Talk to Mystery Man"
+	quest.36534406BF7F2885.description: [ "Warns of Lysandre's arrival" ]
+	quest.D880FF9344674624.title: "Talk to Lysandre"
+	quest.D880FF9344674624.description: [ "Appears from a distance" ]
+	quest.B498CF16D49BD39E.title: "Talk to Marcus Thorne"
+	quest.B498CF16D49BD39E.description: [ "Suspicious funding" ]
+	quest.097788B042E3E809.title: "Talk to Dr. Ingrid Valk"
+	quest.097788B042E3E809.description: [ "The three teams unite" ]
+	quest.06776C921E175A60.title: "Talk to Tomas Reyes"
+	quest.06776C921E175A60.description: [ "The three teams unite" ]
+	quest.9F4A118831E6244A.title: "Talk to Prof. Anselm Dray"
+	quest.9F4A118831E6244A.description: [ "The three teams unite" ]
+	quest.19ECFC7B5A76B33C.title: "Talk to Zuri Nakamura"
+	quest.19ECFC7B5A76B33C.description: [ "The three teams unite" ]
+	quest.7F40D36361D4EC7B.title: "Talk to Sergeant Elara Brandt"
+	quest.7F40D36361D4EC7B.description: [ "The three teams unite" ]
+	quest.B875CD3D0AF86EDF.title: "Talk to Kenji Aoki"
+	quest.B875CD3D0AF86EDF.description: [ "The three teams unite" ]
+	quest.F237EF6DECBC7AF0.title: "Talk to Richard Nuevo"
+	quest.F237EF6DECBC7AF0.description: [ "Leaders' meeting" ]
+	quest.6DFF3D8D55A8FFE1.title: "Talk to Crystal Isla"
+	quest.6DFF3D8D55A8FFE1.description: [ "Leaders' meeting" ]
+	quest.110DADEF13B54A67.title: "Talk to Captain Armstrong"
+	quest.110DADEF13B54A67.description: [ "Leaders' meeting" ]
+	quest.486E1051B021208B.title: "Talk to Richard Nuevo"
+	quest.486E1051B021208B.description: [ "Leader wounded but alive" ]
+	quest.AF67B4C6E078F447.title: "Talk to Dr. Samir Qureshi"
+	quest.AF67B4C6E078F447.description: [ "Treats the wounded" ]
+	quest.6D2BA9D2BC0FC1D8.title: "Talk to Tess Whitlock"
+	quest.6D2BA9D2BC0FC1D8.description: [ "After Lysandre's fall" ]
+	quest.4131EEF92597A4D6.title: "Talk to Elena Vasquez"
+	quest.4131EEF92597A4D6.description: [ "After Lysandre's fall" ]
+	quest.20EC58B667398898.title: "Talk to Mateo Vasquez"
+	quest.20EC58B667398898.description: [ "After Lysandre's fall" ]
+	quest.A68DA1BA5FC53589.title: "Talk to Henri Duval"
+	quest.A68DA1BA5FC53589.description: [ "After Lysandre's fall" ]
+	quest.05CD87FED652EEE4.title: "Talk to Zoe Duval"
+	quest.05CD87FED652EEE4.description: [ "After Lysandre's fall" ]
+	quest.E1DBC7891C4C9834.title: "Talk to Noah Brightwell"
+	quest.E1DBC7891C4C9834.description: [ "After Lysandre's fall" ]
+	quest.67B4084BAF3E2BCB.title: "Talk to The Okafors"
+	quest.67B4084BAF3E2BCB.description: [ "After Lysandre's fall" ]
+	quest.FF4EB3601BF8E407.title: "Talk to Ekayon"
+	quest.FF4EB3601BF8E407.description: [ "The Lanugo return home" ]
+	quest.32EE859F335A9C8E.title: "Talk to Elder Pax"
+	quest.32EE859F335A9C8E.description: [ "Closing words" ]
+	quest.2F4D694A1EB7D3E8.title: "Talk to Professor Idalia Quinn"
+	quest.2F4D694A1EB7D3E8.description: [ "Conclusion" ]
+	// END AUTO-GENERATED talk quest lang keys (Spark)
+	chapter_group.2222222222222201.title: "Team Quests"
+
+	chapter.1111111111111001.title: "Team Spark"
+	chapter.1111111111111001.subtitle: "Knowledge and ideas"
+	quest.1111111111111101.title: "Spark questline"
+	quest.1111111111111101.description: [ "Unlocks automatically once you join Team Spark." ]
+
+	chapter.1111111111111002.title: "Team Might"
+	chapter.1111111111111002.subtitle: "Valor and strength"
+	quest.1111111111111102.title: "Might questline"
+	quest.1111111111111102.description: [ "Unlocks automatically once you join Team Might." ]
+
+	chapter.1111111111111003.title: "Team Relic"
+	chapter.1111111111111003.subtitle: "Exploration and discovery"
+	quest.1111111111111103.title: "Relic questline"
+	quest.1111111111111103.description: [ "Unlocks automatically once you join Team Relic." ]
+
+	chapter.1111111111111004.title: "Team Wooloo"
+	chapter.1111111111111004.subtitle: "Not a team. Just freedom, and Wooloo."
+	quest.1111111111111104.title: "Follow the Spark questline"
+	quest.1111111111111104.description: [ "Pick the Spark questline for your character. This choice is permanent." ]
+	quest.1111111111111105.title: "Follow the Might questline"
+	quest.1111111111111105.description: [ "Pick the Might questline for your character. This choice is permanent." ]
+	quest.1111111111111106.title: "Follow the Relic questline"
+	quest.1111111111111106.description: [ "Pick the Relic questline for your character. This choice is permanent." ]
+}
