@@ -524,7 +524,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "fd5919f522461f527f754599d9fd2140918b2197d1dde41011610189897b2d12"
+hash = "63338ce7e20f31e1aef44bf82ea0377dc66ae2dfc5724ad4617e5212e09235e0"
 metafile = true
 
 [[files]]

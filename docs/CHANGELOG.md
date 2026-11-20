@@ -23,6 +23,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and uses
 
 ### Changed
 
+- Cobblemon updated to 1.8.4.
 - Gazai's Cobblemon Utility+ Resource Pack updated to 1.1.0.
 - Apricogs updated to 1.5.2.
 - Replaced Cobblemon Utility+ (IVs, EVs, & More) NO RECIPES with Gaz4i's
