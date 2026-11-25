@@ -554,7 +554,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
-hash = "ddb5d3aa8646191294ab31745bc77f5d2ad7d9143c6920a90ee479365b6c525c"
+hash = "ea90ecdd3906af5a4707df5ae1ad368ffb8fb627d59bad86f5ca58f7eaa696ea"
 metafile = true
 
 [[files]]
@@ -604,7 +604,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "f9c0771d423eb1cea0398e0fe70989cafe1d084528a3232d374cfc0e1e941196"
+hash = "25dc4e422a396f3971930cec19a6bc16e2bb734e31a45f22f50887967c79eb0a"
 metafile = true
 
 [[files]]
