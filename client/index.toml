@@ -1518,11 +1518,6 @@ hash = "6576e0f2a199e626872973b61fa925d6055c90442901e88e705815d1ef48888d"
 metafile = true
 
 [[files]]
-file = "resourcepacks/steamon-cobblemon-utility-plus.pw.toml"
-hash = "81d4e46b4769a7809039b2075dc7914c12b19867503bba342389f6ff20a5fd0b"
-metafile = true
-
-[[files]]
 file = "servers.dat"
 hash = "cfeba518b605c66ae6104378ad383879fedb30dcabb935c7968fd6a58d0ca02b"
 
