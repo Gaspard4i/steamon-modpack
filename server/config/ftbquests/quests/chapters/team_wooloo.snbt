@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
 	filename: "1111111111111004"
 	group: "2222222222222201"
 	icon: { id: "minecraft:white_wool" }
@@ -11,6 +12,7 @@
 	quests: [
 		{
 			id: "1111111111111104"
+			dependencies: ["1111111111111107"]
 			x: -1.0d
 			y: 0.0d
 			tasks: [
@@ -30,6 +32,7 @@
 		}
 		{
 			id: "1111111111111105"
+			dependencies: ["1111111111111107"]
 			x: 0.0d
 			y: 0.0d
 			tasks: [
@@ -49,6 +52,7 @@
 		}
 		{
 			id: "1111111111111106"
+			dependencies: ["1111111111111107"]
 			x: 1.0d
 			y: 0.0d
 			tasks: [
@@ -65,6 +69,21 @@
 					permission_level: 2
 				}
 			]
+		}
+		{
+			id: "1111111111111107"
+			invisible: true
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "1111111111111117"
+					type: "advancement"
+					advancement: "steamon:team/wooloo"
+					criterion: ""
+				}
+			]
+			rewards: [ ]
 		}
 	]
 }
