@@ -1,13 +1,13 @@
 name = "Steamon Core"
-filename = "steamoncore-1.0.0.jar"
+filename = "steamoncore-1.2.0-alpha.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Etv6R9lm/versions/iaexbF9o/steamoncore-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/Etv6R9lm/versions/TUSQXQnZ/steamoncore-1.2.0-alpha.jar"
 hash-format = "sha512"
-hash = "b089132184cfdea4bb714c6734fd65f7fa5691c6c30b10b1e5947096f6aa561ed2d13c8ea019763a5d5ea0541ad56317022722c451af6446affb7d22e6305d06"
+hash = "9bb73a557ffa957f123a211096cbdf006260dabf2e1829db8a95bf2eda58973527873acf747d647e086b6f36d57489e38b679502b03f7f2430374e673d6c1026"
 
 [update]
 [update.modrinth]
 mod-id = "Etv6R9lm"
-version = "iaexbF9o"
+version = "TUSQXQnZ"

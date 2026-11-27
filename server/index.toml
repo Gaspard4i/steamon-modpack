@@ -1209,7 +1209,7 @@ metafile = true
 
 [[files]]
 file = "mods/steamon-core.pw.toml"
-hash = "10858694e22da8936727131dec3a50ed50bc66f7ee76b7ce1099f4ff9d195809"
+hash = "57d506a37b0bbe118ab2f7f9ce8771d80cd87d230c87ee18ab949710b01febf4"
 metafile = true
 
 [[files]]
